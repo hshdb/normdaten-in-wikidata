@@ -1,0 +1,3 @@
+# Inhaltsverzeichnis
+
+Das Inhaltsverzeichnis wird letzendlich automatisch aus der Kapitelstruktur erzeugt. Diese Datei kann als Platzhalter dienen, um die vorgesehene Kapitelstruktur zu bearbeiten.
