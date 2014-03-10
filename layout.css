@@ -1,0 +1,11 @@
+h1, h2, h3 { 
+  border-bottom: 1px solid #666;
+}
+
+h1.title, 
+h2.author,
+h3.date {
+  border: none;
+}
+
+dt { font-weight: bold; }
