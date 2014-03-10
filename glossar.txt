@@ -1,5 +1,7 @@
 # Glossar
 
+*Penflip kann derzeit noch keine Definitionslisten, das ist aber im Moment nebensächlich.*
+
 Aussage
   : ...
 Wikidata
