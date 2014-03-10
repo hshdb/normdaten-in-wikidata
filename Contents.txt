@@ -1,4 +1,8 @@
-> These files will be included in your book:
+> Das Buch besteht derzeit aus folgenden Dateien:
 
-chapter1.txt
 vorwort.txt
+inhaltsverzeichnis.txt
+einleitung.txt
+normdaten.txt
+glossar.txt
+literatur.txt
