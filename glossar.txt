@@ -1,0 +1,9 @@
+# Glossar
+
+Aussage
+  : ...
+Wikidata
+  : ...
+Wikidata-API
+  : Schnittstelle, über die Wikidata per Programm abgefragt und bearbeitet werden kann.
+
