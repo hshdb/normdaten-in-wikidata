@@ -10,8 +10,13 @@ inhalte-finden-in-wikidata.txt
 glossar.txt
 literatur.txt
 normdaten-eigenschaften-in-wikidata.txt
+datenobjekt-erstellen.txt
+definition-daten.txt
+definition-objekt.txt
+definition-aussagen.txt
 entstehung-wikidata.txt
 your-filename-2014-03-11.txt
 faq.txt
+
 
 
