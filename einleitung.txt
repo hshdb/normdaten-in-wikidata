@@ -3,3 +3,4 @@
 Die Einleitung soll kurz Erklären, was das ganze soll. *Warum* Wikidata?
 
 # Warum Wikidata?
+Wikidata ist der Name einer frei bearbeitbaren Datenbank, die unter anderem das Ziel hat, Wikipedia zu unterstützen.
