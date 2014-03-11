@@ -10,14 +10,22 @@ Das Inhaltsverzeichnis wird letzendlich automatisch aus der Kapitelstruktur erze
     2.1 Definition
     	2.1.1 Wikidata
         2.1.2 Daten
-    2.2 Geschichte 
+        2.1.3 
+    2.2 Entstehung (Merkkasten?)
+    2.3 
 **3. Normdaten**
     3.1 Definition
-    3.2 Geschichte
-**4. Step-by-step Bilderklärungen**
-    3.1 Für Leser
-    3.2 Für Bearbeiter
-**5. FAQ**
+    3.2 Entstehung (Merkkasten?)
+**4. Normdaten in Wikidata**
+	4.1 Unterschied zwischen Normdaten in Wikidata und anderen Normdaten
+    4.2 Möglichkeiten 
+    4.3 Grenzen	
+**5. Praktische Anwendung**
+	5.1 Datenobjekt erstellen // häufige Fehler --> Icon?
+    5.2 ...
+    5.3 ...
+    5.4 ...
+**6. FAQ**
 **Stichwortverzeichnis**
 **Glossar**
 **Literaturverzeichnis**
