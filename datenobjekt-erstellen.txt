@@ -2,3 +2,5 @@
 * [How To Edit Wikidata](http://upload.wikimedia.org/wikipedia/commons/9/94/How_to_Edit_Wikidata.pdf)
 
 ![objekterstellen2.png](images/objekterstellen2.png)
+
+Bevor man ein neues Objekt erstellt, sollte man überprüfen, ob das Datenobjekt, welches man erstellen möchte, [bereits existiert](https://www.wikidata.org/wiki/Special:ItemByTitle).
