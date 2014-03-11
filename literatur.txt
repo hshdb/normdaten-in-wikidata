@@ -1,4 +1,6 @@
-### Literaturverzeichnis
+# Literaturverzeichnis
+
+## Allgemeines
 
 1. Monografien
 * Beispiel1
@@ -10,9 +12,9 @@
 * Beispiel1
 * Beispiel2
 * Beispiel3
-* Beispiel
+* Beispiel4
 
-### Weiterführende Literatur
+## Weiterführende Literatur
 
 * Beispiel1
 
