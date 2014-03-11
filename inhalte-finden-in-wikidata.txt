@@ -1,0 +1,5 @@
+## Inhalte finden in Wikidata
+
+Wie arbeitet die Suche?
+
+Die beiden wichtigsten Möglichkeiten sind Suche (die umfassendste Suche über Sprachgrenzen hinweg) und Datenobjekte nach Titel, die nach einem Datensatz zu einem Wikipedia-Artikel in der ausgewählten Sprache sucht. Hier muss der Titel genau gleich sein wie der Eintrag, den du suchst. Bitte probiere beide Möglichkeiten aus, damit du einen Eintrag auch wirklich findest. 
