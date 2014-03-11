@@ -2,5 +2,6 @@
 
 Die Einleitung soll kurz Erklären, was das ganze soll. *Warum* Wikidata?
 
-# Warum Wikidata?
+## Warum Wikidata?
+
 Wikidata ist der Name einer frei bearbeitbaren Datenbank, die unter anderem das Ziel hat, Wikipedia zu unterstützen.Das Projekt wurde von Wikimedia Deutschland gestartet und stellt als gemeinsame Quelle bestimmte Datentypen für Wikimedia-Projekte bereit, zum Beispiel Geburtsdaten oder sonstige allgemeingültige Daten, die in allen Artikeln der Wikimedia-Projekte verwendet werden können.

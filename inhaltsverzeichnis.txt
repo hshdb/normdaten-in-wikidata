@@ -18,8 +18,9 @@ Das Inhaltsverzeichnis wird letzendlich automatisch aus der Kapitelstruktur erze
 * 3.2. Entstehung (Merkkasten?)
 * **4. Normdaten in Wikidata**
 * 4.1. Unterschied zwischen Normdaten in Wikidata und anderen Normdaten
-* 4.2. Möglichkeiten 
-* 4.3. Grenzen	
+* 4.2. Normdaten-Eigenschaften in Wikidata
+* 4.3. Möglichkeiten 
+* 4.4. Grenzen	
 * **5. Praktische Anwendung**
 * 5.1. Inhalte finden in Wikidata
 * 5.2. Datenobjekt erstellen // häufige Fehler --> Icon?
