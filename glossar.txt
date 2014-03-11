@@ -5,13 +5,13 @@
 Hier werden verschiedene *Fachbegriffe* in kurzen Abschnitten erläutert:
 
 
-Aussage
+**Aussage**
   : ...
-Normdaten
+**Normdaten**
   : ...
-Wikidata
+**Wikidata**
   : ...
-Wikidata-API
+**Wikidata-API**
   : Schnittstelle, über die Wikidata per Programm abgefragt und bearbeitet werden kann.
   
   
