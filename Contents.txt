@@ -6,3 +6,4 @@ einleitung.txt
 normdaten.txt
 glossar.txt
 literatur.txt
+Definition_Wikidata.txt
