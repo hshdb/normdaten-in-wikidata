@@ -2,11 +2,12 @@
 
 *Penflip kann derzeit noch keine Definitionslisten, das ist aber im Moment nebensächlich.*
 
-Hier werden verschiedene *Fachbegriffe* nochmal kurz erläutert:
-
+Hier werden verschiedene *Fachbegriffe* in kurzen Abschnitten erläutert:
 
 
 Aussage
+  : ...
+Normdaten
   : ...
 Wikidata
   : ...
