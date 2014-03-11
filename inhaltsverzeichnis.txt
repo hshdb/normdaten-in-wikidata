@@ -10,9 +10,9 @@ Das Inhaltsverzeichnis wird letzendlich automatisch aus der Kapitelstruktur erze
     2.1 Definition
     	2.1.1 Wikidata
         2.1.2 Daten
-        2.1.3 
+        2.1.3 Objekt (item)
     2.2 Entstehung (Merkkasten?)
-    2.3 
+    2.3 ...
 **3. Normdaten**
     3.1 Definition
     3.2 Entstehung (Merkkasten?)
