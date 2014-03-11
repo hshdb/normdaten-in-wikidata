@@ -9,3 +9,4 @@ definition-wikidata.txt
 inhalte-finden-in-wikidata.txt
 glossar.txt
 literatur.txt
+datenobjekt-erstellen.txt
