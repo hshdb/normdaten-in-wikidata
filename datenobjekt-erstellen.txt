@@ -4,3 +4,5 @@
 ![objekterstellen2.png](images/objekterstellen2.png)
 
 Bevor man ein neues Objekt erstellt, sollte man überprüfen, ob das Datenobjekt, welches man erstellen möchte, [bereits existiert](https://www.wikidata.org/wiki/Special:ItemByTitle).
+
+In das Suchfeld "Website" gibt man die Sprachzugehörigkeit ein, in der man suchen möchte. Mit "Seite" sucht man nach dem Titel/Bezeichnung des Objekts. 
