@@ -1,9 +1,6 @@
 # Wikidata
-
-Definition:
-
-Wikidata ist > Die freie Wissensdatenbank die jeder bearbeiten kann (Motto). 
-Es zählt zu den Wikiprojekten der Wikimedia Foundation mit dem Urheberrecht bei Wikimedia. Ziel ist eine strukturierte Zentralisierung von Daten und Fakten. 
+## Definition
+Wikidata ist nach dem einem Motto "Die freie Wissensdatenbank die jeder bearbeiten kann". Es zählt zu den Wikiprojekten der Wikimedia Foundation mit dem Urheberrecht bei Wikimedia. Ziel ist eine strukturierte Zentralisierung von Daten und Fakten. 
 
 Da Wikidata eine sekundäre Datenbank ist, kann es über Links mit u.a. Wikipedia verknüpft werden. Dadurch bietet sich die Möglichkeit, die Quellen zu überprüfen.
 

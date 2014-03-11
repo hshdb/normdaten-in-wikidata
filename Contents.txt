@@ -4,6 +4,9 @@ vorwort.txt
 inhaltsverzeichnis.txt
 einleitung.txt
 normdaten.txt
+definition-normdaten.txt
+definition-wikidata.txt
+inhalte-finden-in-wikidata.txt
 glossar.txt
 literatur.txt
-Definition_Wikidata.txt
+normdaten-eigenschaften-in-wikidata.txt
