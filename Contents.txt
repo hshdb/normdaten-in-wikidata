@@ -6,6 +6,6 @@ einleitung.txt
 normdaten.txt
 definition-normdaten.txt
 definition-wikidata.txt
+inhalte-finden-in-wikidata.txt
 glossar.txt
 literatur.txt
-inhalte-finden-in-wikidata.txt
