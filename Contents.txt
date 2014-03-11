@@ -9,4 +9,6 @@ definition-wikidata.txt
 inhalte-finden-in-wikidata.txt
 glossar.txt
 literatur.txt
+normdaten-eigenschaften-in-wikidata.txt
 datenobjekt-erstellen.txt
+
