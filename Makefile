@@ -20,7 +20,7 @@ html: normdaten-in-wikidata.html
 
 .SUFFIXES: .md .pdf .html
 
-PANDOC_OPTIONS=-s -S --toc
+PANDOC_OPTIONS=-s -S --toc -N
 .md.pdf:
 	pandoc $(PANDOC_OPTIONS) -o $@ $<
 
