@@ -1,4 +1,16 @@
 # Literaturverzeichnis
 
-...
+1. Monografien
+
+2. Internetadressen
+
+# Weiterführende Literatur
+
+* Beispiel1
+
+* Beispiel2
+
+* Beispiel3
+
+
 
