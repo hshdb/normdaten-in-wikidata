@@ -8,3 +8,4 @@ definition-normdaten.txt
 definition-wikidata.txt
 glossar.txt
 literatur.txt
+inhalte-finden-in-wikidata.txt
