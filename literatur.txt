@@ -1,10 +1,20 @@
-### Literaturverzeichnis
+# Literaturverzeichnis
+
+## Allgemeines
 
 1. Monografien
+* Beispiel1
+* Beispiel2
+* Beispiel3
+* Beispiel4
 
 2. Internetadressen
+* Beispiel1
+* Beispiel2
+* Beispiel3
+* Beispiel
 
-### Weiterführende Literatur
+## Weiterführende Literatur
 
 * Beispiel1
 
