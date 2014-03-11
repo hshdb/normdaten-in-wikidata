@@ -21,7 +21,8 @@ Das Inhaltsverzeichnis wird letzendlich automatisch aus der Kapitelstruktur erze
     4.2 Möglichkeiten 
     4.3 Grenzen	
 **5. Praktische Anwendung**
-	5.1 Datenobjekt erstellen // häufige Fehler --> Icon?
+    5.1. Inhalte finden in Wikidata
+	5.2 Datenobjekt erstellen // häufige Fehler --> Icon?
     5.2 ...
     5.3 ...
     5.4 ...
