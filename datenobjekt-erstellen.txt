@@ -5,4 +5,6 @@
 
 Bevor man ein neues Objekt erstellt, sollte man überprüfen, ob das Datenobjekt, welches man erstellen möchte, [bereits existiert](https://www.wikidata.org/wiki/Special:ItemByTitle).
 
-In das Suchfeld "Website" gibt man die Sprachzugehörigkeit ein, in der man suchen möchte. Mit "Seite" sucht man nach dem Titel/Bezeichnung des Objekts. 
+In das Suchfeld "Website" gibt man die Sprachzugehörigkeit ein, in der man suchen möchte. Mit "Seite" sucht man nach dem Titel/Bezeichnung des Objekts.
+
+Wenn das Objekt noch nicht vorhanden ist, bekommt man die Möglichkeit, ein neues Datenobjekt zu erstellen. Man wird mit einem Link auf die Erstellerseite weitergeleitet. Dort muss einmal die Bezeichnung sowie die Beschreibung des zu erstellenden Objekst eingetragen werden. Ist dies geschehen, kommt man auf die Objektseite.
