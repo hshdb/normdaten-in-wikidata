@@ -13,3 +13,4 @@ normdaten-eigenschaften-in-wikidata.txt
 datenobjekt-erstellen.txt
 definition-daten.txt
 definition-objekt.txt
+definition-aussagen.txt
