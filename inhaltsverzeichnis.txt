@@ -2,14 +2,14 @@
 
 Das Inhaltsverzeichnis wird letzendlich automatisch aus der Kapitelstruktur erzeugt. Diese Datei kann als Platzhalter dienen, um die vorgesehene Kapitelstruktur zu bearbeiten.
 
-1. Einleitung
-2. Wikidata 
+**1. Einleitung**
+**2. Wikidata** 
     2.1 Definition
     2.2 Geschichte
     2.3 Normdaten
     2.4 Aufbau der Seite
-3. Step-by-step Bilderklärungen
+**3. Step-by-step Bilderklärungen**
     3.1 Für Leser
     3.2 Für Bearbeiter
-4. FAQ
-5. Stichwortverzeichnis
+**4. FAQ**
+**5. Stichwortverzeichnis**
