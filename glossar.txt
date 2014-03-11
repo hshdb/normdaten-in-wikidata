@@ -4,7 +4,6 @@
 
 Hier werden verschiedene *Fachbegriffe* in kurzen Abschnitten erläutert:
 
-
 **Aussage**
   : ...
 **Normdaten**
