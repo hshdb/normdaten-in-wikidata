@@ -1,0 +1,16 @@
+## Entstehung
+
+Das Projekt *Wikidata* wurde im April 2012 durch die *Wikimedia Foundation* ins Leben gerufen und von *Wikimedia Deutschland* bearbeitet. Finanziert wurde es mithilfe von Spenden, u.a. von Google.
+
+Offizieller Start war allerdings erst im Oktober 2012. Um dem Projekt eine Struktur zu geben, wurde es in drei Phasen aufgeteilt. 
+
+Zuerst wurden Sprachlinks von Wikipedia-Beiträgen in Wikidata zu 
+Datenobjekten und mit Beschreibungen und Bezeichnungen versehen. Um dies zu vereinfachen, wurden automatische Computerskripte (*Bots*) verwendet.
+Ab März 2013 waren dann alle Sprachversionen freigeschaltet.
+
+Der nächste Schritt beinhaltete, dass Aussagen zu den Datenobjekten hinzugefügt werden konnten. Dies geschah u.a. ebenfalls mit Bots und dem Datenfundament aus Wikipedia-Infoboxen und -Kategorien.
+
+Der letzte Schritt ist noch in Bearbeitung. Es soll ermöglicht werden, dass Listen automatisch erstellt und Fakten aktualisiert werden. 
+
+Ziel des Projektes ist es, dass Infoboxen entstehen die in einer zentralen Datenbank gespeichert sind und dass alle Wikimedia-Projekte darauf zugreifen können.
+ 
