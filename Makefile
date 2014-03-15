@@ -1,11 +1,13 @@
-# Dies ist ein Makefile mit Regeln zur Erstellung von Dateien
+# Dies ist ein Makefile (GNU Make) mit Regeln zur Erstellung von Dateien
 
 TITLE=Normdaten in Wikidata
 AUTHOR=
 DATE=SS 2014
 
+TXTFILES=$(filter-out synopsis.txt,$(wildcard *.txt))
+
 # basiert auf allen .txt Dateien
-normdaten-in-wikidata.md: *.txt
+normdaten-in-wikidata.md: $(TXTFILES)
 	@echo '% $(TITLE)' > $@
 	@echo '% $(AUTHOR)' >> $@
 	@echo '% $(DATE)' >> $@
@@ -16,12 +18,17 @@ normdaten-in-wikidata.md: *.txt
 	done
 
 # alle Ausgabeformate
-all: pdf html
+all: synopsis.txt pdf html
 
 # Augabeformate löschen
 .PHONY: clean
 clean:
-	rm *.html *.tex *.html
+	rm -f *.html *.tex *.html synopsis.txt
+
+# Übersicht
+synopsis: synopsis.txt
+synopsis.txt: $(TXTFILES)
+	perl layout/synopsis.pl > $@
 
 # ausgewählte Ausgabeformate
 pdf: normdaten-in-wikidata.pdf
