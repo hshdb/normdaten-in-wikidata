@@ -1,0 +1,7 @@
+
+before_script:
+    - uname -a
+    - cat /etc/lsb-release
+    - sudo apt-get pandoc 
+
+script: make all
