@@ -1,7 +1,11 @@
+before_install:
+    - sudo apt-get update -qq 
 
-before_script:
-    - uname -a
-    - cat /etc/lsb-release
-    - sudo apt-get pandoc 
+install:
+    - sudo apt-get install -qq pandoc 
 
-script: make all
+script:
+    - make all
+
+after_success:
+    - ls -la
