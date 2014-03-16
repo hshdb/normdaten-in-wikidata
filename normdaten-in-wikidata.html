@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title>Normdaten in Wikidata</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="layout/buttondown.css">
+</head>
+<body>
+<header>
+<h1 class="title">Normdaten in Wikidata</h1>
+<h3 class="date">SS 2014</h3>
+</header>
+<nav id="TOC">
+<ul>
+<li><a href="#vorwort">Vorwort</a></li>
+<li><a href="#abkürzungsverzeichnis">Abkürzungsverzeichnis</a></li>
+<li><a href="#inhaltsverzeichnis">Inhaltsverzeichnis</a></li>
+<li><a href="#einleitung"><span class="toc-section-number">1</span> Einleitung</a><ul>
+<li><a href="#warum-wikidata"><span class="toc-section-number">1.1</span> Warum Wikidata?</a></li>
+</ul></li>
+<li><a href="#wikidata"><span class="toc-section-number">2</span> Wikidata</a><ul>
+<li><a href="#definition"><span class="toc-section-number">2.1</span> Definition</a></li>
+<li><a href="#entstehung"><span class="toc-section-number">2.2</span> Entstehung</a></li>
+</ul></li>
+<li><a href="#normdaten"><span class="toc-section-number">3</span> Normdaten</a><ul>
+<li><a href="#definition-1"><span class="toc-section-number">3.1</span> Definition</a></li>
+</ul></li>
+<li><a href="#normdaten-in-wikidata"><span class="toc-section-number">4</span> Normdaten in Wikidata</a><ul>
+<li><a href="#normdaten-eigenschaften-in-wikidata"><span class="toc-section-number">4.1</span> Normdaten-Eigenschaften in Wikidata</a></li>
+</ul></li>
+<li><a href="#praktische-anwendung"><span class="toc-section-number">5</span> Praktische Anwendung</a><ul>
+<li><a href="#inhalte-finden-in-wikidata"><span class="toc-section-number">5.1</span> Inhalte finden in Wikidata</a></li>
+</ul></li>
+<li><a href="#faq"><span class="toc-section-number">6</span> FAQ</a></li>
+<li><a href="#glossar">Glossar</a></li>
+<li><a href="#literaturverzeichnis">Literaturverzeichnis</a><ul>
+<li><a href="#allgemeines">Allgemeines</a></li>
+<li><a href="#weiterführende-literatur">Weiterführende Literatur</a></li>
+</ul></li>
+<li><a href="#über-dieses-handbuch">Über dieses Handbuch</a><ul>
+<li><a href="#struktur-des-handbuch-repository">Struktur des Handbuch-Repository</a></li>
+<li><a href="#verwendete-markdown-syntax">Verwendete Markdown-Syntax</a></li>
+<li><a href="#verwendete-werkzeuge">Verwendete Werkzeuge</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="vorwort" class="unnumbered"><a href="#vorwort">Vorwort</a></h1>
+<p>Wikidata ist eine Wissensdatenbank, welche die reale Welt beschreibt und abbildet. <a href="http://wikidata.org">Wikidata</a></p>
+<h1 id="abkürzungsverzeichnis" class="unnumbered"><a href="#abkürzungsverzeichnis">Abkürzungsverzeichnis</a></h1>
+<p>…</p>
+<h1 id="inhaltsverzeichnis" class="unnumbered"><a href="#inhaltsverzeichnis">Inhaltsverzeichnis</a></h1>
+<p>Das Inhaltsverzeichnis wird letzendlich automatisch aus der Kapitelstruktur erzeugt. Diese Datei kann als Platzhalter dienen, um die vorgesehene Kapitelstruktur zu bearbeiten.</p>
+<ul>
+<li>Vorwort</li>
+<li>Abkürzungsverzeichnis</li>
+<li><strong>1. Einleitung</strong></li>
+<li><strong>2. Wikidata</strong></li>
+<li>2.1. Definition</li>
+<li>2.1.1. Wikidata</li>
+<li>2.1.2. Daten</li>
+<li>2.1.3. Objekt (item)</li>
+<li>2.1.4. Aussage</li>
+<li>2.2. Entstehung (Merkkasten?)</li>
+<li>2.3. …</li>
+<li><strong>3. Normdaten</strong></li>
+<li>3.1. Definition</li>
+<li>3.2. Entstehung (Merkkasten?)</li>
+<li><strong>4. Normdaten in Wikidata</strong></li>
+<li>4.1. Unterschied zwischen Normdaten in Wikidata und anderen Normdaten</li>
+<li>4.2. Normdaten-Eigenschaften in Wikidata</li>
+<li>4.3. Möglichkeiten</li>
+<li>4.4. Grenzen<br /></li>
+<li><strong>5. Praktische Anwendung</strong></li>
+<li>5.1. Inhalte finden in Wikidata</li>
+<li>5.2. Datenobjekt erstellen // häufige Fehler –&gt; Icon?</li>
+<li>5.3. …</li>
+<li>5.4 …</li>
+<li><strong>6. FAQ</strong></li>
+<li>Stichwortverzeichnis</li>
+<li>Glossar</li>
+<li>Literaturverzeichnis</li>
+<li>Abbildungsverzeichnis</li>
+<li>Tabellenverzeichnis</li>
+</ul>
+<h1 id="einleitung"><a href="#einleitung"><span class="header-section-number">1</span> Einleitung</a></h1>
+<p>Die Einleitung soll kurz Erklären, was das ganze soll. <em>Warum</em> Wikidata?</p>
+<h2 id="warum-wikidata"><a href="#warum-wikidata"><span class="header-section-number">1.1</span> Warum Wikidata?</a></h2>
+<p>Wikidata ist der Name einer frei bearbeitbaren Datenbank, die unter anderem das Ziel hat, Wikipedia zu unterstützen.Das Projekt wurde von Wikimedia Deutschland gestartet und stellt als gemeinsame Quelle bestimmte Datentypen für Wikimedia-Projekte bereit, zum Beispiel Geburtsdaten oder sonstige allgemeingültige Daten, die in allen Artikeln der Wikimedia-Projekte verwendet werden können.</p>
+<h1 id="wikidata"><a href="#wikidata"><span class="header-section-number">2</span> Wikidata</a></h1>
+<h2 id="definition"><a href="#definition"><span class="header-section-number">2.1</span> Definition</a></h2>
+<p>Wikidata ist nach dem einem Motto “Die freie Wissensdatenbank die jeder bearbeiten kann”. Es zählt zu den Wikiprojekten der Wikimedia Foundation mit dem Urheberrecht bei Wikimedia. Ziel ist eine strukturierte Zentralisierung von Daten und Fakten.</p>
+<p>Da Wikidata eine sekundäre Datenbank ist, kann es über Links mit u.a. Wikipedia verknüpft werden. Dadurch bietet sich die Möglichkeit, die Quellen zu überprüfen.</p>
+<p>Sie ist seit 2012 online auf <a href="www.wikidata.com">Wikidata</a> abrufbar. Ähnlich wie Wikipedia ist sie in mehreren Sprachen verfügbar und für jeden lesbar. Lediglich zum bearbeiten wird ein kostenloses Benutzerkonto benötigt.</p>
+<h2 id="entstehung"><a href="#entstehung"><span class="header-section-number">2.2</span> Entstehung</a></h2>
+<p>Das Projekt <em>Wikidata</em> wurde im April 2012 durch die <em>Wikimedia Foundation</em> ins Leben gerufen und von <em>Wikimedia Deutschland</em> bearbeitet. Finanziert wurde es mithilfe von Spenden, u.a. von Google.</p>
+<p>Offizieller Start war allerdings erst im Oktober 2012. Um dem Projekt eine Struktur zu geben, wurde es in drei Phasen aufgeteilt.</p>
+<p>Zuerst wurden Sprachlinks von Wikipedia-Beiträgen in Wikidata zu Datenobjekten und mit Beschreibungen und Bezeichnungen versehen. Um dies zu vereinfachen, wurden automatische Computerskripte (<em>Bots</em>) verwendet. Ab März 2013 waren dann alle Sprachversionen freigeschaltet.</p>
+<p>Der nächste Schritt beinhaltete, dass Aussagen zu den Datenobjekten hinzugefügt werden konnten. Dies geschah u.a. ebenfalls mit Bots und dem Datenfundament aus Wikipedia-Infoboxen und -Kategorien.</p>
+<p>Der letzte Schritt ist noch in Bearbeitung. Es soll ermöglicht werden, dass Listen automatisch erstellt und Fakten aktualisiert werden.</p>
+<p>Ziel des Projektes ist es, dass Infoboxen entstehen die in einer zentralen Datenbank gespeichert sind und dass alle Wikimedia-Projekte darauf zugreifen können.</p>
+<h1 id="normdaten"><a href="#normdaten"><span class="header-section-number">3</span> Normdaten</a></h1>
+<p><em>Erklärungsteil Normdaten (mit Beispielen)</em></p>
+<h2 id="definition-1"><a href="#definition-1"><span class="header-section-number">3.1</span> Definition</a></h2>
+<p>Normdaten bestehen aus normierten Begriffen (kontrolliertes Vokabular) mit denen eindeutig auf verschiedene Objekte (bspw. Orte, Person, Themen, Organisationen etc.) verwiesen werden kann. Die einzelnen Einträge oder Datensätze einer Normdatei werden auch als “Deskriptor” oder “Schlagwort” bezeichnet. Normdaten werden beispielsweise in Bibliotheken zur Verschlagwortung/Indexierung von Literatur eingesetzt. Beispiele für Normdateien sind die GND, Klassifikationen (z.B. ICD-10) , Thesauri (z.B. Art &amp; Architecture Thesaurus). Einzelne Normdatensätze werden in einer Normdatei durch eindeutige Benennungen (bspw. “PKW” statt “Auto”) oder durch ID-Nummern identifiziert.</p>
+<p><strong>Beispiel:</strong></p>
+<pre><code>ID: http://d-nb.info/gnd/4023349-2
+Geografikum (Ort): Hannover
+Andere Bezeichnung: 
+  Oberstadtdirektor &lt;Hannover&gt; (Spitzenorgan)
+  Hannover / Referat für Stadtentwicklung (Spitzenorgan)
+  Hannover / Oberbürgermeister (Spitzenorgan)
+Definition: 
+  Hauptstadt des Landes Niedersachsen, Verwaltungssitz der  Region Hannover, 1150 als Marktsiedlung Hanovere urkundl. erwähnt, 1202  Stadtrecht
+Land:  Niedersachsen (XA-DE-NI); Deutschland, Deutsches Reich (XA-DXDE)
+DDC-Notation: T2--435954
+Typ: Gebietskörperschaft, Verwaltungseinheit (gik)
+Urheber von: 
+  ...
+Beteiligt an:
+  ...    
+Thema in:
+  ...    </code></pre>
+<p>Quelle: http://d-nb.info/gnd/4023349-2/about/html vom 11.03.2014</p>
+<h1 id="normdaten-in-wikidata"><a href="#normdaten-in-wikidata"><span class="header-section-number">4</span> Normdaten in Wikidata</a></h1>
+<p>…</p>
+<h2 id="normdaten-eigenschaften-in-wikidata"><a href="#normdaten-eigenschaften-in-wikidata"><span class="header-section-number">4.1</span> Normdaten-Eigenschaften in Wikidata</a></h2>
+<p>In Wikidata sind bereits mehrere <em>Eigenschaften</em> zum Verlinken von Wikidata-Items und anderen Normdateien vorgesehen. So gibt es beispielsweise die Eigenschaft “GND-Nummer (<a href="https://www.wikidata.org/wiki/Property:P227">P227</a>)” zum Verlinken auf die Gemeinsame Normdatei und die Eigenschaft “DDC (<a href="https://www.wikidata.org/wiki/Property:P1036">P1036</a>)” zum Verlinken auf die Dewey-Dezimalklassifikation.</p>
+<p><em>…Beispiel…</em></p>
+<p><em>…vorhandene Normdaten-Eigenschaften…</em></p>
+<p><em>…wie lässt sich nach Normdaten-Eigenschaften suchen…</em></p>
+<p><em>…wie können weitere Normdaten-Eigenschaften hinzugefügt werden…</em></p>
+<p>*…wie können vorhandene Verlinkungen abgefragt werden…</p>
+<hr />
+<p><em>Siehe <a href="https://www.wikidata.org/wiki/User:JakobVoss/Authority_control">https://www.wikidata.org/wiki/User:JakobVoss/Authority_control</a> für eine Vorläufige Liste</em></p>
+<h1 id="praktische-anwendung"><a href="#praktische-anwendung"><span class="header-section-number">5</span> Praktische Anwendung</a></h1>
+<h2 id="inhalte-finden-in-wikidata"><a href="#inhalte-finden-in-wikidata"><span class="header-section-number">5.1</span> Inhalte finden in Wikidata</a></h2>
+<p>Wie arbeitet die Suche?</p>
+<p>Die beiden wichtigsten Möglichkeiten sind Suche (die umfassendste Suche über Sprachgrenzen hinweg) und Datenobjekte nach Titel, die nach einem Datensatz zu einem Wikipedia-Artikel in der ausgewählten Sprache sucht. Hier muss der Titel genau gleich sein wie der Eintrag, den du suchst. Bitte probiere beide Möglichkeiten aus, damit du einen Eintrag auch wirklich findest.</p>
+<ul>
+<li><a href="https://www.wikidata.org/w/index.php?title=Help:Editing/de&amp;oldid=94855342">Hilfe:editieren</a></li>
+<li><a href="http://upload.wikimedia.org/wikipedia/commons/9/94/How_to_Edit_Wikidata.pdf">How To Edit Wikidata</a></li>
+</ul>
+<div class="figure">
+<img src="images/objekterstellen2.png" alt="objekterstellen2.png" /><p class="caption">objekterstellen2.png</p>
+</div>
+<p>Bevor man ein neues Objekt erstellt, sollte man überprüfen, ob das Datenobjekt, welches man erstellen möchte, <a href="https://www.wikidata.org/wiki/Special:ItemByTitle">bereits existiert</a>.</p>
+<p>In das Suchfeld “Website” gibt man die Sprachzugehörigkeit ein, in der man suchen möchte. Mit “Seite” sucht man nach dem Titel/Bezeichnung des Objekts.</p>
+<p>Wenn das Objekt noch nicht vorhanden ist, bekommt man die Möglichkeit, ein neues Datenobjekt zu erstellen. Man wird mit einem Link auf die Erstellerseite weitergeleitet. Dort muss einmal die Bezeichnung sowie die Beschreibung des zu erstellenden Objekst eingetragen werden. Ist dies geschehen, kommt man auf die Objektseite.</p>
+<div class="figure">
+<img src="images/objektseite.png" alt="objektseite.png" /><p class="caption">objektseite.png</p>
+</div>
+<p>Auf dieser Objektseite hat man die Möglichkeit, Änderungen vorzunehmen oder weitere Sprachen bzw. Übersetzungen für die Objektbezeichnung hinzuzufügen.</p>
+<p>Datenobjekte bestehen i.d.R. aus einer Vielzahl von Aussagen. Diese enthalten Informationen über die reale Welt und sind der Kernteil jedes Datenobjektes. Sie gliedern sich in Eigenschaften mit vorgegebenem Vokabular und ihnen zugewiesenen Werten/Inhalten. Für mehr siehe 2.1.4 oder auch <a href="https://www.wikidata.org/w/index.php?title=Help:Statements/de&amp;oldid=108007039">Help:Aussagen</a></p>
+<h1 id="faq"><a href="#faq"><span class="header-section-number">6</span> FAQ</a></h1>
+<ol style="list-style-type: decimal">
+<li>Wo finde ich Enter text in <a href="http://daringfireball.net/projects/markdown/">Markdown</a>. Use the toolbar above, or click the <strong>?</strong> button for formatting help.</li>
+</ol>
+<h1 id="glossar" class="unnumbered"><a href="#glossar">Glossar</a></h1>
+<p><em>Penflip kann derzeit noch keine Definitionslisten, das ist aber im Moment nebensächlich.</em></p>
+<p>Hier werden verschiedene <em>Fachbegriffe</em> in kurzen Abschnitten erläutert:</p>
+<dl>
+<dt><strong>Aussage</strong></dt>
+<dd>…
+</dd>
+<dt><strong>Anderer Fachbegriff</strong></dt>
+<dd>…
+</dd>
+<dt><strong>Eigenschaft</strong></dt>
+<dd>…
+</dd>
+</dl>
+<p><strong>Item</strong> : … <strong>Metadaten</strong> : … <strong>Normdaten</strong> : … <strong>Normdatei</strong> : …<br /><strong>Wikidata</strong> : … <strong>Wikidata-API</strong> : Schnittstelle, über die Wikidata per Programm abgefragt und bearbeitet werden kann.</p>
+<h1 id="literaturverzeichnis" class="unnumbered"><a href="#literaturverzeichnis">Literaturverzeichnis</a></h1>
+<h2 id="allgemeines" class="unnumbered"><a href="#allgemeines">Allgemeines</a></h2>
+<ol style="list-style-type: decimal">
+<li>Monografien</li>
+</ol>
+<ul>
+<li>Beispiel1</li>
+<li>Beispiel2</li>
+<li>Beispiel3</li>
+<li>Beispiel4</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Internetadressen</li>
+</ol>
+<ul>
+<li>Beispiel1</li>
+<li>Beispiel2</li>
+<li>Beispiel3</li>
+<li>Beispiel4</li>
+</ul>
+<h2 id="weiterführende-literatur" class="unnumbered"><a href="#weiterführende-literatur">Weiterführende Literatur</a></h2>
+<ul>
+<li><p>Beispiel1</p></li>
+<li><p>Beispiel2</p></li>
+<li><p>Beispiel3</p></li>
+</ul>
+<h1 id="über-dieses-handbuch" class="unnumbered"><a href="#über-dieses-handbuch">Über dieses Handbuch</a></h1>
+<p>Dieses Handbuch entstand im Rahmen eines Projektseminars im Bachelor-Studiengang Informationsmanagement an der Hochschule Hannover (HsH). Zur Verwaltung der Inhalte wurde ein Repository des Versionskontrollsystem <em>git</em> verwendet, das alle Bearbeitungsschritte und Änderungen beinhaltet. Auf diese Weise kann mit verschiedenen Plattformen und Werkzeugen zum Inhalt des Buches beigetragen werden, ohne zu stark an eine Software gebunden zu sein. Im Folgenden sind zunächst die Struktur des Handbuch-Repositories und anschließend die verwendeten Werkzeuge beschrieben.</p>
+<h2 id="struktur-des-handbuch-repository" class="unnumbered"><a href="#struktur-des-handbuch-repository">Struktur des Handbuch-Repository</a></h2>
+<ul>
+<li><p>Die eigentlichen Inhalte befinden sich in <a href="#verwendete-markdown-syntax">Markdown-Syntax</a> in Dateien mit der Endung <code>.txt</code>.</p></li>
+<li><p>In der der Datei <code>Contents.txt</code> ist festgelegt, welche Markdown-Dateien in welcher Reihenfolge letztendlich das Handbuch bilden. Pro Zeile ist ein Dateiname angegeben; Leerzeilen und Zeilen, die mit <code>&gt;</code> beginnen, werden ignoriert.</p></li>
+<li><p>Das Verzeichnis <code>images/</code> enthält Bilder.</p></li>
+<li><p>Das Verzeichnis <code>layout/</code> enthält Template- und Stylesheet-Dateien.</p></li>
+<li><p>Die Dateien <code>About.txt</code> und <code>README.md</code> enthalten kurze Projektbeschreibungen, die nicht im Handbuch auftauchen.</p></li>
+<li><p>Die Datei <code>Makefile</code> enthält Anweisungen, um aus den Inhaltsdateien das Handbuch in verschiedenen Ausgabeformaten zu erzeugen.</p></li>
+</ul>
+<h2 id="verwendete-markdown-syntax" class="unnumbered"><a href="#verwendete-markdown-syntax">Verwendete Markdown-Syntax</a></h2>
+<p>Die Texte sind in Markdown-Syntax verfasst, wobei sich die konkrete Markdown-Variante aus Anforderungen von <em>Penflip</em> und <em>Pandoc</em> ergibt. Eine Übersicht dieser beiden Markdown-Varianten gibt es unter:</p>
+<ul>
+<li><a href="https://www.penflip.com/Penflip/help/blob/master/Markdown.txt">https://www.penflip.com/Penflip/help/blob/master/Markdown.txt</a> für Penflip</li>
+<li><a href="http://johnmacfarlane.net/pandoc/demo/example9/pandocs-markdown.html">http://johnmacfarlane.net/pandoc/demo/example9/pandocs-markdown.html</a> für Pandoc</li>
+</ul>
+<h2 id="verwendete-werkzeuge" class="unnumbered"><a href="#verwendete-werkzeuge">Verwendete Werkzeuge</a></h2>
+<ul>
+<li><a href="http://penflip.com">http://penflip.com</a></li>
+<li><a href="http://johnmacfarlane.net/pandoc/">http://johnmacfarlane.net/pandoc/</a></li>
+<li><a href="http://github.com">http://github.com</a></li>
+</ul>
+</body>
+</html>

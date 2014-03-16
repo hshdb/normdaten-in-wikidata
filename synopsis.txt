@@ -1,0 +1,27 @@
+# Vorwort                              | vorwort.txt
+# Abkürzungsverzeichnis                | abkuerzungsverzeichnis.txt
+# Inhaltsverzeichnis                   | inhaltsverzeichnis.txt
+# Einleitung                           | einleitung.txt
+## Warum Wikidata?                     | 
+# Wikidata                             | definition-wikidata.txt
+## Definition                          | 
+                                       | definition-daten.txt
+                                       | definition-objekt.txt
+                                       | definition-aussagen.txt
+## Entstehung                          | entstehung-wikidata.txt
+# Normdaten                            | normdaten.txt
+## Definition                          | 
+# Normdaten in Wikidata                | normdaten-in-wikidata.txt
+## Normdaten-Eigenschaften in Wikidata | normdaten-eigenschaften-in-wikidata.txt
+# Praktische Anwendung                 | inhalte-finden-in-wikidata.txt
+## Inhalte finden in Wikidata          | 
+                                       | datenobjekt-erstellen.txt
+# FAQ                                  | faq.txt
+# Glossar                              | glossar.txt
+# Literaturverzeichnis                 | literatur.txt
+## Allgemeines                         | 
+## Weiterführende Literatur            | 
+# Über dieses Handbuch                 | ueber-dieses-buch.txt
+## Struktur des Handbuch-Repository    | 
+## Verwendete Markdown-Syntax          | 
+## Verwendete Werkzeuge                | 
