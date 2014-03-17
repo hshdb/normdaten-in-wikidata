@@ -162,6 +162,11 @@ $if(biblatex)$
 \printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$
 
 $endif$
+
+$if(commit-date)$Letzte Änderung: $commit-date$.$endif$
+
+$if(build-date)$Erstellungszeit: $build-date$.$endif$
+
 $for(include-after)$
 $include-after$
 

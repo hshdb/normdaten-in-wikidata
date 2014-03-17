@@ -53,6 +53,11 @@ $toc$
 </nav>
 $endif$
 $body$
+<footer>
+  $if(source-url)$<div>Ausgangsdaten: <a href="$source-url$">$source-url$</a></div>$endif$
+  $if(commit-date)$<div>Letzte Änderung: $commit-date$</div>$endif$
+  $if(build-date)$<div>Erstellungszeit: $build-date$</div>$endif$
+</footer>
 $for(include-after)$
 $include-after$
 $endfor$

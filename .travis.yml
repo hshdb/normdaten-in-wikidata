@@ -1,12 +1,9 @@
 before_install:
     - sudo apt-get update -qq 
+    - sudo apt-get install -qq ncftp 
     - sudo apt-get install -qq pandoc texlive-full 
 
-install:
-    - echo "TODO: install CSL styles"
-
-script:
-    - make all
+script: make all
 
 after_success:
     - ls -la

@@ -4,6 +4,10 @@ TITLE=Normdaten in Wikidata
 AUTHOR=
 DATE=SS 2014
 
+SOURCE_URL=https://www.penflip.com/nichtich/normdaten-in-wikidata
+BUILD_DATE=$(shell date)
+COMMIT_DATE=$(shell git log -1 --format=%cd)
+
 TXTFILES=$(filter-out synopsis.txt,$(wildcard *.txt))
 TARGET=normdaten-in-wikidata
 
@@ -21,7 +25,10 @@ normdaten-in-wikidata.md: $(TXTFILES)
 # Übersicht
 synopsis: synopsis.txt
 synopsis.txt: $(TXTFILES)
-	perl layout/synopsis.pl > $@
+	echo "Letzte Änderung: $(COMMIT_DATE)" > $@
+	echo "Erstellungszeit: $(BUILD_DATE)" >> $@
+	echo "---" >> $@
+	perl layout/synopsis.pl >> $@
 
 # ausgewählte Ausgabeformate
 html: $(TARGET).html
@@ -45,9 +52,9 @@ clean:
 # konkrete Regeln für die jeweiligen Ausgabeformate
 .SUFFIXES: .md .pdf .html .tex
 
-PANDOC_OPTIONS=-s -S --toc -N
+PANDOC_OPTIONS=-s -S --toc -N -V build-date="$(BUILD_DATE)" -V commit-date="$(COMMIT_DATE)" -V source-url="$(SOURCE_URL)"
 LATEX_OPTIONS=--template layout/template.tex
-HTML_OPTIONS=--template layout/template.html --css layout/buttondown.css
+HTML_OPTIONS=--template layout/template.html --css layout/buttondown.css --css layout/layout.css
 
 .md.pdf:
 	pandoc $(PANDOC_OPTIONS) -o $@ $(LATEX_OPTIONS) $<
