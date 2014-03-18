@@ -17,4 +17,9 @@ datenobjekt-erstellen.txt
 faq.txt
 glossar.txt
 literatur.txt
-ueber-dieses-buch.txt
+normdaten-eigenschaften-in-wikidata.txt
+entstehung-wikidata.txt
+your-filename-2014-03-11.txt
+faq.txt
+unterschied-normd-wd-u-anderen-normd.txt
+
