@@ -4,6 +4,9 @@ Wikidata ist ein Daten-Repository (engl. für Lager, Depot), welches die Datengr
 
 ![Sprachliste Wikipedia](images/sprachleiste1.jpg)
 
+In der obigen Abbildung sieht man ein Beispiel für die Funktionsweise von Wikidata: verschiedene Bezeichnungen des Wikipedia-Artikels werden zentral in Wikidata gesammelt. Sie fungiert in dieser Hinsicht also wie ein vielsprachiges Wörterbuch. 
+
+
 Da Wikidata eine sekundäre Datenbank ist, kann es über Links mit u.a. Wikipedia verknüpft werden. Dadurch bietet sich die Möglichkeit, die Quellen zu überprüfen. Das Ziel von Wikidata ist eine strukturierte Zentralisierung von Daten und Fakten für die interne und externe Nutzung.
 
 Wikidata ist eine freie Datenbank, die von Menschen wie auch von Maschinen gelesen und bearbeitet werden kann. Was Wikimedia Commons für Medien ist, leistet Wikidata für sonstige Daten: Durch Wikidata werden der Zugriff und die Verwaltung von strukturierten Daten wie Interwiki-Links, Infoboxen und statistischen Informationen zentralisiert. Wikidata enthält Daten in allen Sprachen, für die es Wikimedia-Projekte gibt. Lies die Einführung, um mehr über Wikidata zu erfahren!
