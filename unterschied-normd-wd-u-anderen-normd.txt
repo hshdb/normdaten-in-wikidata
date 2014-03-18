@@ -1,20 +1,17 @@
 # Unterschiede zwischen Normdaten in Wikidata und anderen Normdaten
 
-Wikidata
+Wikidata vs. Gemeinsame Normdatei(GND)
 
-- Werden durch Wikidataautoren und Bots erstellt
-- Wird für Wikipediaartikel genutzt
-- Für die Öffentlichkeit zugänglich
-- Kein Regelwerk; alle Daten möglich
+Die Einträge bei Wikidata werden maßgeblich durch die Wikidataautoren und durch Bots erstellt. 
+Jeder kann sich bei Wikidata anmelden und einen Eintrag hinterlassen. Somit ist es für die Öffentlichkeit
+zugänglich. Die Wikidata-Datensätze werden nur für Wikipedia, oder andere Wikimedia-Projekte benötigt.
+Die Normdaten in Wikidata unterliegen keinem Regelwerk, somit sind alle Daten möglich.
+ 
+Im Gegensatz dazu wird die Gemeinsame Normdatei von mehreren Institution betrieben, unter anderem von
+der Deutschen Nationalbibliothek(DNB), allen deutschsprachigen Bibliotheksverbünden und der 
+Zeitschriftendatenbank(ZDB). 
+Es ist ein eindeutiges Bezugssystem für bibliografische Daten der Bibliotheken und anderen kulturellen 
+Einrichtungen, die Normdaten für Erschließungszwecke benötigen. Dadurch ist die GND nicht für die
+breite Öffentlichkeit zugänglich. Die Normdaten haben als Grundlage die Regeln der alphabetischen Katalogisierung(RAK-WB) 
+und die Regeln für den Schlagwortkatalog(RWSK).
 
-Gemeinsame Normdatei(GND)
-
-- Aufgeteilt in Gemeinsame Körperschaftsdatei(GKD), Personennamendatei(PND), 
-  Schlagwortnormdatei(SWD) 
-- Wird u.a. von der Deutschen Nationalbibliothek(DNB), allen          
-  deutschsprachigen Bibliotheksverbünden, der Zeitschriftendatenbank(ZDB)    
-  und anderen Institutionen geführt
-- Eindeutiges Bezugssystem für bibliografische Daten der Bibliotheken und    
-  anderen Kultureinrichtungen; werden genutzt für Formal- und 				  Sacherschließung
-- Nur für Bibliotheken und andere Normdatenanwender
-- Grundlage: [RAK-WB](http://de.wikipedia.org/w/index.php?title=Regeln_f%C3%BCr_die_alphabetische_Katalogisierung&oldid=128228743), [RSWK](http://de.wikipedia.org/w/index.php?title=Schlagwortkatalog&oldid=127445604)
