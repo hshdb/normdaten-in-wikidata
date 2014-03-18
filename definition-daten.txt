@@ -1,1 +1,6 @@
+# Daten
+Laut Definition der Norm des internationalen Technologiestandards ISO/IEC 2382-1 für Informationstechnik (seit 1993) sind Daten – eine wieder interpretierbare Darstellung von Information in formalisierter Art, geeignet zur Kommunikation, Interpretation oder Verarbeitung. In der Informatik und Datenverarbeitung versteht man Daten gemeinhin als (maschinen-) lesbare und -bearbeitbare, in der Regel digitale Repräsentation von Information. Ihr Inhalt wird dazu meist zunächst in Zeichen bzw. Zeichenketten kodiert, deren Aufbau strengen Regeln folgt, der sogenannten Syntax. Um aus Daten wieder die Informationen zu abstrahieren, müssen sie in einem Bedeutungskontext interpretiert werden. 
+ Quellen:
+1.	http://de.wikipedia.org/wiki/Daten
+2.	Heinz-Peter Gumm, Manfred Sommer: Einführung in die Informatik. 10. Auflage. Oldenbourg Verlag, ISBN 978-3-486-70641-3, S. 4 f.
 
