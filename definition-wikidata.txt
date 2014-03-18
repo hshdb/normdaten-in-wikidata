@@ -11,11 +11,10 @@ Da Wikidata eine sekundäre Datenbank ist, kann es über Links mit u.a. Wikipedi
 Sie ist seit 2012 online auf [Wikidata](www.wikidata.com) abrufbar. Ähnlich wie Wikipedia ist sie in mehreren Sprachen verfügbar und für jeden lesbar. 
 Lediglich zum bearbeiten wird ein kostenloses Benutzerkonto benötigt.
   
-**Quelle:**
-[heise-Online](http://www.heise.de/newsticker/meldung/Wikidata-Daten-Fundus-fuer-Wikipedia-eroeffnet-1740780.html)
+
 
 Wikidata ist eine freie Datenbank, die von Menschen wie auch von Maschinen gelesen und bearbeitet werden kann. Was Wikimedia Commons für Medien ist, leistet Wikidata für sonstige Daten: Durch Wikidata werden der Zugriff und die Verwaltung von strukturierten Daten wie Interwiki-Links, Infoboxen und statistischen Informationen zentralisiert. Wikidata enthält Daten in allen Sprachen, für die es Wikimedia-Projekte gibt. Lies die Einführung, um mehr über Wikidata zu erfahren!
 
-**Quelle:**
+**Quellen:**
 http://www.wikidata.org/wiki/Wikidata:Hauptseite
-
+[heise-Online](http://www.heise.de/newsticker/meldung/Wikidata-Daten-Fundus-fuer-Wikipedia-eroeffnet-1740780.html)
