@@ -10,3 +10,8 @@ Lediglich zum bearbeiten wird ein kostenloses Benutzerkonto benötigt.
 **Quelle:**
 [heise-Online](http://www.heise.de/newsticker/meldung/Wikidata-Daten-Fundus-fuer-Wikipedia-eroeffnet-1740780.html)
 
+Wikidata ist eine freie Datenbank, die von Menschen wie auch von Maschinen gelesen und bearbeitet werden kann. Was Wikimedia Commons für Medien ist, leistet Wikidata für sonstige Daten: Durch Wikidata werden der Zugriff und die Verwaltung von strukturierten Daten wie Interwiki-Links, Infoboxen und statistischen Informationen zentralisiert. Wikidata enthält Daten in allen Sprachen, für die es Wikimedia-Projekte gibt. Lies die Einführung, um mehr über Wikidata zu erfahren!
+
+**Quelle:**
+http://www.wikidata.org/wiki/Wikidata:Hauptseite
+
