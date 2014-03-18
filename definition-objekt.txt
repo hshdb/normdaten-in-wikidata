@@ -32,5 +32,8 @@ Wikilinks können mit sogenannten _Auszeichnungen_ (**badges**) versehen werden,
 
 Im Moment ist es nur möglich, dass jede externe Seite (zum Bsp Datei oder Wikiartikel) nur mit einem Link bei Wikidata eingetragen ist und ein Item kann nur einen einzigen Link auf eine externe Domäne besitzen.
 
+## Das Prinzip von Wikidata:
+
+![800px-GeneaWiki_screenshot_Bach.png](images/800px-GeneaWiki_screenshot_Bach.png)
 
 
