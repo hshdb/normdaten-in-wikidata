@@ -2,7 +2,7 @@
 
 *Erklärungsteil Normdaten (mit Beispielen)*
 
-## Definition
+## Was sind Normdaten?
 
 Eine Normdatei ist ein Verzeichnis von normierten Begriffen zur Verwendung als Deskriptor in der Dokumentation.  Im Englischen werden Normdateien als „authority files“ bezeichnet. Normierte Begriffe können Personennamen, Körperschaftsnamen und beliebige andere Mengen von Bezeichnungen von Dingen, Vorgängen oder abstrakten Begriffen sein. Der Bildung von Normbegriffen liegt eine Ontologie (Hierarchie & Relation) zugrunde, die die jeweils zu normierenden Begriffe und die Art der Normierung festlegt. Die Normbegriffe gehören nach Vergabe zu den Metadaten des jeweiligen Datensatz.
 
