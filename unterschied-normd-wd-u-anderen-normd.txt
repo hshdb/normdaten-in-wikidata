@@ -2,10 +2,9 @@
 
 Wikidata vs. Gemeinsame Normdatei(GND)
 
-Die Einträge bei Wikidata werden maßgeblich durch die Wikidataautoren und durch Bots erstellt. 
-Jeder kann sich bei Wikidata anmelden und einen Eintrag hinterlassen. Somit ist es für die Öffentlichkeit
-zugänglich. Die Wikidata-Datensätze werden nur für Wikipedia, oder andere Wikimedia-Projekte benötigt.
-Die Normdaten in Wikidata unterliegen keinem Regelwerk, somit sind alle Daten möglich.
+Die Einträge bei Wikidata werden maßgeblich durch Wikidataautoren und durch Bots (automatisch agierende Computerprogramme) erstellt. 
+Jeder kann sich bei Wikidata anmelden und einen Eintrag hinterlassen. Somit ist es für die Öffentlichkeit zugänglich. Die Wikidata-Datensätze werden in erster Linie für Wikipedia oder andere Wikimedia-Projekte erstellt.
+Die Normdaten in Wikidata unterliegen keinem Regelwerk, somit sind alle Dateneintragungen - ohne offizielle Vorgaben seitens der Wikimedia Foundation - möglich.
  
 Im Gegensatz dazu wird die Gemeinsame Normdatei von mehreren Institution betrieben, unter anderem von
 der Deutschen Nationalbibliothek(DNB), allen deutschsprachigen Bibliotheksverbünden und der 
