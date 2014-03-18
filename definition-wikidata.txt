@@ -10,7 +10,7 @@ Wikidata ist eine freie Datenbank, die von Menschen wie auch von Maschinen geles
 
 Was Wikimedia Commons für Medien ist, leistet Wikidata für sonstige Daten: Durch Wikidata werden der Zugriff und die Verwaltung von strukturierten Daten wie Interwiki-Links, Infoboxen und statistischen Informationen zentralisiert. Wikidata enthält Daten in zahlreichen Sprachen, für die es Wikimedia-Projekte gibt. Lies die [Einführung](https://www.wikidata.org/wiki/Wikidata:Einf%C3%BChrung), um mehr über Wikidata zu erfahren!
 
-### Entwicklung
+## Entwicklung
 Wikidata zählt zu den Wikiprojekten der Wikimedia Foundation (Betreiber der Wikipedia-Seite und aller anderen Wikiprojekte). 
 Sie ist seit 2012 online auf [Wikidata](www.wikidata.com) abrufbar. Ähnlich wie Wikipedia ist sie in mehreren Sprachen verfügbar und für jeden lesbar. Für das Bearbeiten der Datensätze wird ein kostenloses Benutzerkonto benötigt.
 
