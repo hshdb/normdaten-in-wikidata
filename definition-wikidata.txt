@@ -10,9 +10,21 @@ Wikidata ist eine freie Datenbank, die von Menschen wie auch von Maschinen geles
 
 Was Wikimedia Commons für Medien ist, leistet Wikidata für sonstige Daten: Durch Wikidata werden der Zugriff und die Verwaltung von strukturierten Daten wie Interwiki-Links, Infoboxen und statistischen Informationen zentralisiert. Wikidata enthält Daten in zahlreichen Sprachen, für die es Wikimedia-Projekte gibt. Lies die [Einführung](https://www.wikidata.org/wiki/Wikidata:Einf%C3%BChrung), um mehr über Wikidata zu erfahren!
 
-## Entwicklung
-Wikidata zählt zu den Wikiprojekten der Wikimedia Foundation (Betreiber der Wikipedia-Seite und aller anderen Wikiprojekte). 
-Sie ist seit 2012 online auf [Wikidata](www.wikidata.com) abrufbar. Ähnlich wie Wikipedia ist sie in mehreren Sprachen verfügbar und für jeden lesbar. Für das Bearbeiten der Datensätze wird ein kostenloses Benutzerkonto benötigt.
+## Entstehung
+
+Das Projekt *Wikidata* wurde im April 2012 durch die *Wikimedia Foundation* ins Leben gerufen und von *Wikimedia Deutschland* bearbeitet. Finanziert wurde es mithilfe von Spenden, u.a. von Google.
+
+Offizieller Start war allerdings erst im Oktober 2012. Um dem Projekt eine Struktur zu geben, wurde es in drei Phasen aufgeteilt. 
+
+Zuerst wurden Sprachlinks von Wikipedia-Beiträgen in Wikidata zu 
+Datenobjekten und mit Beschreibungen und Bezeichnungen versehen. Um dies zu vereinfachen, wurden automatische Computerskripte (*Bots*) verwendet.
+Ab März 2013 waren dann alle Sprachversionen freigeschaltet.
+
+Der nächste Schritt beinhaltete, dass Aussagen zu den Datenobjekten hinzugefügt werden konnten. Dies geschah u.a. ebenfalls mit Bots und dem Datenfundament aus Wikipedia-Infoboxen und -Kategorien.
+
+Der letzte Schritt ist noch in Bearbeitung. Es soll ermöglicht werden, dass Listen automatisch erstellt und Fakten aktualisiert werden. 
+
+Ziel des Projektes ist es, dass Infoboxen entstehen die in einer zentralen Datenbank gespeichert sind und dass alle Wikimedia-Projekte darauf zugreifen können.
 
 **Quelle:**
 [Wikidata](https://www.wikidata.org/w/index.php?title=Wikidata:Hauptseite&oldid=108180618) - Nutzerquelle
