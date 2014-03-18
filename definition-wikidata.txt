@@ -2,6 +2,7 @@
 ## Definition
 Wikidata ist ein Daten-Repository (engl. für Lager, Depot), welches die Fakten- und Datengrundlage aller Sprachversionen von Wikipedia darstellt.
 ![Linke Sprachleiste in der Wikipedia](images/sprachleiste.jpg)
+In der obigen Abbildung sieht man ein Beispiel für die Funktionsweise von Wikidata: verschiedene Bezeichnungen des Wikipedia-Artikels werden zentral in Wikidata gesammelt. Wikidata fungiert in dieser Hinsicht also wie ein vielsprachiges Wörterbuch. 
 
 
 Es zählt zu den Wikiprojekten der Wikimedia Foundation mit dem Urheberrecht bei Wikimedia. Das Ziel von Wikidata ist eine strukturierte Zentralisierung von Daten und Fakten für die interne und externe Nutzung. 
