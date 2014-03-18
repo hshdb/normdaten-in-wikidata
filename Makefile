@@ -38,7 +38,7 @@ tex: $(TARGET).tex
 TARGET_FILES=$(TARGET).md $(TARGET).html $(TARGET).pdf synopsis.txt
 
 # alle Ausgabeformate
-.PHONY: clean
+.PHONY: clean info
 
 all: $(TARGET_FILES)
 build: all
@@ -65,6 +65,9 @@ HTML_OPTIONS=--template layout/template.html --css layout/buttondown.css --css l
 .md.html:
 	pandoc $(PANDOC_OPTIONS) -o $@ $(HTML_OPTIONS) $<
 	
+# Übersichten
+info:
+	./scripts/files
 
 website: build
 	@if [ "$$(git status -s)" ]; then \
