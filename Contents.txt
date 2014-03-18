@@ -11,10 +11,10 @@ definition-items.txt
 definition-aussagen.txt
 normdaten.txt
 normdaten-in-wikidata.txt
+unterschied-normd-wd-u-anderen-normd.txt
 normdaten-eigenschaften-in-wikidata.txt
 inhalte-finden-in-wikidata.txt
 datenobjekt-erstellen.txt
-unterschied-normd-wd-u-anderen-normd.txt
 faq.txt
 glossar.txt
 literatur.txt
