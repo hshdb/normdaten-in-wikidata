@@ -1,4 +1,30 @@
 # Normdaten
-Bitte fragen Sie *Wikipedia*, oder **jemanden** der es wirklich ***weiß***!
-Erklärungsteil Normdaten (mit Beispielen)
 
+*Erklärungsteil Normdaten (mit Beispielen)*
+
+## Definition
+
+Normdaten bestehen aus normierten Begriffen (kontrolliertes Vokabular) mit denen eindeutig auf verschiedene Objekte (bspw. Orte, Person, Themen, Organisationen etc.) verwiesen werden kann. Die einzelnen Einträge oder Datensätze einer Normdatei werden auch als "Deskriptor" oder "Schlagwort" bezeichnet. Normdaten werden beispielsweise in Bibliotheken zur Verschlagwortung/Indexierung von Literatur eingesetzt. Beispiele für Normdateien sind die GND, Klassifikationen (z.B. ICD-10) , Thesauri (z.B. Art & Architecture Thesaurus). Einzelne Normdatensätze werden in einer Normdatei durch eindeutige Benennungen (bspw. "PKW" statt "Auto") oder durch ID-Nummern identifiziert.
+
+**Beispiel:**
+
+~~~
+ID: http://d-nb.info/gnd/4023349-2
+Geografikum (Ort): Hannover
+Andere Bezeichnung: 
+  Oberstadtdirektor <Hannover> (Spitzenorgan)
+  Hannover / Referat für Stadtentwicklung (Spitzenorgan)
+  Hannover / Oberbürgermeister (Spitzenorgan)
+Definition: 
+  Hauptstadt des Landes Niedersachsen, Verwaltungssitz der  Region Hannover, 1150 als Marktsiedlung Hanovere urkundl. erwähnt, 1202  Stadtrecht
+Land:  Niedersachsen (XA-DE-NI); Deutschland, Deutsches Reich (XA-DXDE)
+DDC-Notation: T2--435954
+Typ: Gebietskörperschaft, Verwaltungseinheit (gik)
+Urheber von: 
+  ...
+Beteiligt an:
+  ...    
+Thema in:
+  ...    
+~~~
+Quelle: http://d-nb.info/gnd/4023349-2/about/html vom 11.03.2014
