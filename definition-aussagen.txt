@@ -1,13 +1,13 @@
 
-Aussagen
+## Aussagen
 Eine Aussage ist ein mehrdeutiger Begriff. Eine Aussage kann als Aussagesatz (Satz oder Menge von Sätzen), Äußerung (Äußerungshandlung) eines Satzes, Urteil bzw. Urteilsakt, Proposition bezeichnet werden.
 Nach verbreiteter, aber umstrittener Auffassung sind Aussagen nicht Sätze, sondern sind Aussagesätze (nur) der sprachliche Ausdruck von Aussagen. Ein Aussagesatz ist ein Zeichen für eine Aussage (Proposition) und nur "das sprachliche Korrelat der Aussage. Gegen eine Gleichsetzung von Aussage und Aussagesatz wird eingewandt, dass von dem Satztyp und seiner Äußerung die Aussage zu unterscheiden ist, „die mit dieser Äußerung gemacht wird.
 
-Arten von Aussagen
+### Arten von Aussagen
 Einfache Aussagen - zusammengesetzte Aussagen
 Aussagen können in einfache Aussagen und zusammengesetzte Aussagen eingeteilt werden. Einteilungsgrund ist dabei, ob Aussagen aus voneinander unterscheidbaren „separierbaren“. Die Terminologie variiert: statt von "einfacher Aussage" spricht man auch von "unzusammengesetzter Aussage", "atomarer Aussage", "elementarer Aussage", "Elementaraussage" oder "Elementarsatz" (Wittgenstein). Statt von zusammengesetzter Aussage ist auch die Rede von "Aussagenverknüpfung" oder "molekulare Aussage". Als atomare Aussagen werden in der mathematischen oder formalen Logik Aussagen bezeichnet, die nicht aus anderen Aussagen zusammengesetzt sind. Sie enthalten daher keine aussagenverknüpfenden logischen Konstanten (Junktoren) wie ∧ (und), ∨ (oder) und ¬ (nicht). Der Gegenbegriff ist die zusammengesetzte Aussage oder Aussagenverknüpfung.
 
-Analytische - synthetische Aussagen (Urteile, Sätze)
+#### Analytische - synthetische Aussagen (Urteile, Sätze)
 
 Aussagen werden traditionell in analytische Aussagen und synthetische Aussagen unterteilt. Statt von ‚Aussage‘ ist gleichsinnig auch von ‚Satz‘ bzw. ‚Urteil‘ die Rede.
 Analytische Aussagen unterteilen sich im engeren und im weiteren Sinne.  Aussagen im engeren Sinn sind in allen möglichen Welten, wahr sind allein aufgrund ihrer logischen Form, und deren Wahrheit ohne empirische Überprüfung feststellbar ist. Darüber hinaus die Wahrheit von Aussagen im weiteren Sinn hängt von der syntaktischen Struktur und der Bedeutung deren sprachlichen Elemente ab.
