@@ -4,9 +4,9 @@ vorwort.txt
 abkuerzungsverzeichnis.txt
 inhaltsverzeichnis.txt
 einleitung.txt
-definition-wikidata.txt
 definition-daten.txt
-definition-objekt.txt
+definition-wikidata.txt
+definition-items.txt
 definition-aussagen.txt
 entstehung-wikidata.txt
 normdaten.txt
@@ -14,7 +14,12 @@ normdaten-in-wikidata.txt
 normdaten-eigenschaften-in-wikidata.txt
 inhalte-finden-in-wikidata.txt
 datenobjekt-erstellen.txt
+unterschied-normd-wd-u-anderen-normd.txt
 faq.txt
 glossar.txt
 literatur.txt
-ueber-dieses-buch.txt
+normdaten-eigenschaften-in-wikidata.txt
+entstehung-wikidata.txt
+your-filename-2014-03-11.txt
+faq.txt
+

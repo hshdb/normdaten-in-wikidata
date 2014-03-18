@@ -1,3 +1,13 @@
-# Normdaten in Wikidata
+# Normdaten/Normdatei in Wikidata
 
-...
+Eine Normdatei ist ein Verzeichnis von normierten Begriffen zur Verwendung als Deskriptor in der Dokumentation. Eine Normdatei ist damit eine Form eines kontrollierten Vokabulars, in dem festgelegt wird, welche Ansetzung bei der Erschließung zu verwenden ist. Im Englischen werden Normdateien als „authority files“ bezeichnet. Normierte Begriffe können Personennamen, Körperschaftsnamen und beliebige andere Mengen von Bezeichnungen von Dingen, Vorgängen oder abstrakten Begriffen sein. Der Bildung von Normbegriffen liegt eine Ontologie (Hierarchie & Relation) zugrunde, die die jeweils zu normierenden Begriffe und die Art der Normierung festlegt. Die Normbegriffe gehören nach Vergabe zu den Metadaten des jeweiligen Datensatz.
+
+Bekannte Normdateien sind die Gemeinsame Normdatei (GND), die von der Deutschen Nationalbibliothek betreut wird, die Library of Congress Name Authorities Files (LCNAF)[1] und die Système universitaire de documentation (SUDOC) des französischen Verbundkatalogs.[2]
+In dem Projekt Virtual International Authority File (VIAF) werden die GND und andere Normdateien mit Personennamen über eine Konkordanz zu einer virtuellen internationalen Normdatei verbunden.
+
+
+**Quellen:**
+http://de.wikipedia.org/wiki/Normdatei
+
+
+
