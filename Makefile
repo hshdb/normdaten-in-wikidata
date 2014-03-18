@@ -28,7 +28,7 @@ synopsis.txt: $(TXTFILES)
 	echo "Letzte Änderung: $(COMMIT_DATE)" > $@
 	echo "Erstellungszeit: $(BUILD_DATE)" >> $@
 	echo "---" >> $@
-	perl layout/synopsis.pl >> $@
+	perl scripts/synopsis >> $@
 
 # ausgewählte Ausgabeformate
 html: $(TARGET).html

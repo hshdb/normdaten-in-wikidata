@@ -10,12 +10,28 @@ my @files = map { chomp; $_ } `awk '/^[^ >]+\.txt/ {print}' Contents.txt`;
 my $f = join ' ', @files;
 my @sections = map { chomp; s/\{.*\}//g; $_ } `grep -h '^#' $f`;
 
+my %allfiles = map { chomp; $_ => 1 } `ls *.txt`;
+delete $allfiles{$_} for qw(Contents.txt About.txt synopsis.txt);
+
+
 my $length = max map { length $_ } @sections;
 
-my $format = "%-${length}s | %s\n";
+my $format = "%-${length}s | %s %s\n";
 
 foreach my $file (@files) {
     my @sections = map { chomp; s/\{.*\}//g; decode_utf8($_) } `grep '^#' $file`;
-    printf $format, shift @sections, $file;
+    my $status = $allfiles{$file}++;
+    if ($status == 0) {
+        $status = '?';
+    } elsif ($status == 1) {
+        $status = '=';
+    } else { $status = '!' };
+
+    printf $format, shift @sections, $status, $file;
     printf $format, $_ for @sections;
 }
+print "---\n";
+foreach (grep { !$allfiles{$_} } keys %allfiles) {
+    printf $format, '???', $_;
+}
+

@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 my @included = map { chomp; $_ } `awk '/^[^ >]+\.txt/ {print}' Contents.txt`;
 my @allfiles = map { chomp; $_ } `ls *.txt`;
