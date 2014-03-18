@@ -5,3 +5,7 @@ footer {
 .figure img {
   border: 1px solid #aaa;
 }
+
+dd+dt { border: none; }
+dd+dd { border: none; }
+ 
