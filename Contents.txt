@@ -20,3 +20,4 @@ glossar.txt
 literatur.txt
 ueber-dieses-buch.txt
 Einleitung.txt
+aussagen_in_wikidata.txt
