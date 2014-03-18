@@ -6,7 +6,7 @@ inhaltsverzeichnis.txt
 einleitung.txt
 definition-wikidata.txt
 definition-daten.txt
-definition-objekt.txt
+definition-items.txt
 definition-aussagen.txt
 entstehung-wikidata.txt
 normdaten.txt

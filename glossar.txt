@@ -4,24 +4,26 @@
 
 Hier werden verschiedene *Fachbegriffe* in kurzen Abschnitten erläutert:
 
-**Aussage**
+Aussage
   : ...
-**Anderer Fachbegriff**
+Anderer Fachbegriff
   : ...
-**Eigenschaft**
+Eigenschaft
   : ...
-**Item**
- : ...
-**Metadaten**
+Item
+  : Eintrag in Wikidata, der sich auf einen Gegenstand (Person, Ort, Konzept..) bezieht. Jedes Wikidata-Item hat eine eindeutige ID, die mit `Q` beginnt.
+Metadaten
   : ...
-**Normdaten**
+Normdaten
   : ...
-**Normdatei**
+Normdatei
   : ...  
-**Wikidata**
+Objekt
+  : andere Bezeichnung für ein Wikidata-*Item*
+Wikidata
   : ...
-**Wikidata-API**
-  : Schnittstelle, über die Wikidata per Programm abgefragt und bearbeitet werden kann.
+Wikidata-API
+  : Schnittstelle, über die Wikidata per Programm abgefragt und bearbeitet werden kann
   
   
   
