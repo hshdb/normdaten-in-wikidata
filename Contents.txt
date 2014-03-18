@@ -4,8 +4,8 @@ vorwort.txt
 abkuerzungsverzeichnis.txt
 inhaltsverzeichnis.txt
 einleitung.txt
-definition-wikidata.txt
 definition-daten.txt
+definition-wikidata.txt
 definition-items.txt
 definition-aussagen.txt
 entstehung-wikidata.txt
