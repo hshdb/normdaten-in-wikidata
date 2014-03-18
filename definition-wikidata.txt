@@ -9,6 +9,7 @@ Sie ist seit 2012 online auf [Wikidata](www.wikidata.com) abrufbar. Ähnlich wie
 Lediglich zum bearbeiten wird ein kostenloses Benutzerkonto benötigt.
 
 
+
 In der obigen Abbildung sieht man ein Beispiel für die Funktionsweise von Wikidata: verschiedene Bezeichnungen des Wikipedia-Artikels werden zentral in Wikidata gesammelt. Sie fungiert in dieser Hinsicht also wie ein vielsprachiges Wörterbuch. 
 
 Wikidata ist eine freie Datenbank, die von Menschen wie auch von Maschinen gelesen und bearbeitet werden kann. Was Wikimedia Commons für Medien ist, leistet Wikidata für sonstige Daten: Durch Wikidata werden der Zugriff und die Verwaltung von strukturierten Daten wie Interwiki-Links, Infoboxen und statistischen Informationen zentralisiert. Wikidata enthält Daten in allen Sprachen, für die es Wikimedia-Projekte gibt. Lies die Einführung, um mehr über Wikidata zu erfahren!
