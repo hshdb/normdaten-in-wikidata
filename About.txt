@@ -1,4 +1,4 @@
-# Über WikiData
+# Wikidata-Items
 
 * Gründung von WikiData
 
