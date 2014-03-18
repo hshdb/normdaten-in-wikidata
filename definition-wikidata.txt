@@ -8,8 +8,7 @@ Da Wikidata eine sekundäre Datenbank ist, kann es über Links mit u.a. Wikipedi
 Sie ist seit 2012 online auf [Wikidata](www.wikidata.com) abrufbar. Ähnlich wie Wikipedia ist sie in mehreren Sprachen verfügbar und für jeden lesbar. 
 Lediglich zum bearbeiten wird ein kostenloses Benutzerkonto benötigt.
 
-
-![Linke Sprachleiste in der Wikipedia](images/sprachleiste.jpg)
+![Sprachleiste in Wikipedia](images/sprachleiste.jpg)
 
 In der obigen Abbildung sieht man ein Beispiel für die Funktionsweise von Wikidata: verschiedene Bezeichnungen des Wikipedia-Artikels werden zentral in Wikidata gesammelt. Sie fungiert in dieser Hinsicht also wie ein vielsprachiges Wörterbuch. 
 
