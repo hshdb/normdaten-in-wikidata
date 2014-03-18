@@ -14,23 +14,5 @@ Wenn das Objekt noch nicht vorhanden ist, bekommt man die Möglichkeit, ein neue
 Auf dieser Objektseite hat man die Möglichkeit, Änderungen vorzunehmen oder weitere Sprachen bzw. Übersetzungen für die Objektbezeichnung hinzuzufügen.
 
 Datenobjekte bestehen i.d.R. aus einer Vielzahl von Aussagen. Diese enthalten Informationen über die reale Welt und sind der Kernteil jedes Datenobjektes. Sie gliedern sich in Eigenschaften (property) mit vorgegebenem Vokabular und ihnen zugewiesenen Werten/Inhalten. 
-Für mehr siehe 2.1.4 oder auch [Help:Aussagen](https://www.wikidata.org/w/index.php?title=Help:Statements/de&oldid=108007039)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Für mehr siehe 2.1.4 oder auch [Help:Aussagen](https://www.wikidata.org/w/index.php?title=Help:Statements/de&oldid=108007039) 
 
