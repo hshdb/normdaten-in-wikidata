@@ -36,4 +36,31 @@ Im Moment ist es nur möglich, dass jede externe Seite (zum Bsp Datei oder Wikia
 
 ![800px-GeneaWiki_screenshot_Bach.png](images/800px-GeneaWiki_screenshot_Bach.png)
 
+_Stammbaum von Johann Seabastian Bach_
+
+Für ein sehr anschauliches Beispiel für solch ein Tool schau dir Mozart an. Das Tool ermöglicht nicht nur eine bloße Erfassung und Darstellung der Daten, sondern es „versteht“, dass dieses Item eine Person ist, und fragt zusätzliche, personenspezifische Items wie etwa Verwandte ab. Darüber hinaus zeigt es personenspezifische Informationen, wie z. B. Normdaten, die sich nicht auf andere Items beziehen. Mozarts Kompositionen werden aufgelistet und können auf der Seite wiedergegeben werden, wenn sie als Datei in Commons vorliegen. Bis zu einem gewissen Grad können auch die Sprachinformationen in Wikidata genutzt werden, sodass dieselbe Seite (größtenteils) auf Deutsch aufgerufen werden kann.
+Anstatt nur nach den direkten Verwandten zu suchen, kann ein Tool auch eine „Kette“ von bestimmten Eigenschaften zwischen Items verfolgen und einen „Item-Cluster“ – wie etwa einen Stammbaum (hübscher und umfangreicher Stammbaum von Mozart) – erzeugen. Der Stammbaum um John F. Kennedy herum enthält mehr als 10.000 Menschen. Auf ähnliche Weise kann ein Tool taxonomische Verbindungen zwischen Arten bis hin zu den Ursprüngen verfolgen und daraus einen vollständigen Lebensbaum (Achtung: riesige Seite!) erzeugen.
+
+Diese Tools zeigen, dass Wikidata, obwohl es noch in den Kinderschuhen steckt, mit einem recht mäßigen Programmierungsaufwand komplexe Ergebnisse erzeugen kann. Eine futuristischere Demonstration der Möglichkeiten bietet das sprechende Wiri (Google Chrome empfohlen).
+
+## Dieses Item bearbeiten
+
+Diejenigen, die bereits freiwillig an Wikimedia-Projekten mitgewirkt haben, wird es nicht überraschen, dass auch für Wikidata immer mehr Tools zum Editieren zur Verfügung stehen. Einige dieser Tools verfügen über eine Doppelfunktion zur Abfrage von Wikidata und Anzeige der Ergebnisse einerseits, und zum Aufzeigen noch ausstehender „To-dos“ andererseits. Bei einem Blick auf die Aufteilung der Genres von Fernsehserien auf Wikidata wird schnell erkennbar, dass weit mehr als die Hälfte überhaupt keinem Gerne zugewiesen ist. (Tipp: Klicke in dem Tortendiagramm auf ein Tortenstück, um die zugehörigen Items anzuzeigen. Kannst du Lost irgendeinem Genre zuordnen?).
+
+Bei der Bearbeitung in Wikidata wird ein Item normalerweise durch Suche nach seinem Namen verlinkt. Schlechte Karten hat man aber, wenn man nach „John Taylor“ sucht, denn im Moment gibt es 52 Items mit dem Namen, aber ohne verwertbaren Beschreibungen dazu. Will man alle Items finden, die dasselbe Label verwenden, hilft der Terminator weiter. Dieses Tool stellt außerdem eine täglich aktualisierte Liste mit Items bereit, die denselben Titel, aber keine Beschreibung aufweisen.
+
+Auf ähnliche Weise lassen sich Items nach Wikipedia-Kategorie suchen. Wer einen komplexeren Filter benötigt, sein eigenes Tool schreiben möchte oder nach einer Lösung zur Arbeitserleichterung sucht, kann ein Tool verwenden, das zum Beispiel Opern ohne Librettist findet (zur Änderung der Anfrage muss allerdings die URL bearbeitet werden).
+
+Zusätzlich existieren viele Tools auf JavaScript-Basis, mit denen direkt in Wikidata gearbeitet werden kann. Ob man nun alle Sprachlinks oder die komplette Taxonomie aller Arten mit einem einzelnen Klick importieren, das gegenwärtige Item als weibliche Fußballspielerin aus Bosnien festlegen oder Eigenschaften eines Items auf alle Items in derselben Wikipedia-Kategorie übertragen möchte – für all diese Aufgaben stehen Tools zur Verfügung.
+
+Quellen:
+[https://blog.wikimedia.de/2013/05/06/die-tool-umgebung-von-wikidata/](https://blog.wikimedia.de/2013/05/06/die-tool-umgebung-von-wikidata/)
+
+[https://www.wikidata.org/wiki/Wikidata:Glossary/de#Wikidata_editors ](https://www.wikidata.org/wiki/Wikidata:Glossary/de#Wikidata_editors )
+
+[https://de.wikipedia.org/w/index.php?title=Vorlage:Wikidata-Weiterleitung&oldid=126947847)](https://de.wikipedia.org/w/index.php?title=Vorlage:Wikidata-Weiterleitung&oldid=126947847))
+
+[https://www.wikidata.org/w/index.php?title=Wikidata:Glossary/de&oldid=104808704](https://www.wikidata.org/w/index.php?title=Wikidata:Glossary/de&oldid=104808704)
+
+
 
