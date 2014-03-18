@@ -1,4 +1,4 @@
-### Wikidata-Items
+# Wikidata-Items
 
 ## Allgemein zu Wikidata-Items
 Ein Objekt (**Datenobjekt, engl. item**) ist eine Wikidataseite, die in der wirklichen Welt einem _“Thema“_, _“Gegenstand“_ oder _“Konzept“_ der wirklichen Welt gleich zu setzen ist. Durch eine eindeutige Datensatz-ID wird in Wikidata ein Objekt identifiziert. Die Datensatz-ID besteht aus dem Buchstabend “Q“ und einer Nummer, wie zum Bsp. Q3. Außerdem wird ein Item durch seine einzigartige Kombination aus mehrsprachiger Bezeichnung und Beschreibung.
