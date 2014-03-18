@@ -8,7 +8,7 @@ SOURCE_URL=https://www.penflip.com/nichtich/normdaten-in-wikidata
 BUILD_DATE=$(shell date)
 COMMIT_DATE=$(shell git log -1 --format=%cd)
 
-TXTFILES=$(filter-out synopsis.txt,$(wildcard *.txt))
+TXTFILES=$(wildcard *.txt)
 TARGET=normdaten-in-wikidata
 
 # basiert auf allen .txt Dateien
@@ -23,19 +23,16 @@ normdaten-in-wikidata.md: $(TXTFILES)
 	done
 
 # Übersicht
-synopsis: synopsis.txt
-synopsis.txt: $(TXTFILES)
-	echo "Letzte Änderung: $(COMMIT_DATE)" > $@
-	echo "Erstellungszeit: $(BUILD_DATE)" >> $@
-	echo "---" >> $@
-	perl scripts/synopsis >> $@
+synopsis: synopsis.md
+synopsis.md: $(TXTFILES)
+	@perl scripts/synopsis > $@
 
 # ausgewählte Ausgabeformate
-html: $(TARGET).html
+html: $(TARGET).html index.html
 pdf: $(TARGET).pdf
 tex: $(TARGET).tex
 
-TARGET_FILES=$(TARGET).md $(TARGET).html $(TARGET).pdf synopsis.txt
+TARGET_FILES=$(TARGET).md $(TARGET).html $(TARGET).pdf synopsis.md
 
 # alle Ausgabeformate
 .PHONY: clean info
@@ -54,7 +51,7 @@ clean:
 
 PANDOC_OPTIONS=-s -S --toc -N -V build-date="$(BUILD_DATE)" -V commit-date="$(COMMIT_DATE)" -V source-url="$(SOURCE_URL)"
 LATEX_OPTIONS=--template layout/template.tex
-HTML_OPTIONS=--template layout/template.html --css layout/buttondown.css --css layout/layout.css
+HTML_OPTIONS=--template layout/template.html --css layout/buttondown.css --css layout/layout.css --include-before layout/header.html
 
 .md.pdf:
 	pandoc $(PANDOC_OPTIONS) -o $@ $(LATEX_OPTIONS) $<
@@ -65,6 +62,13 @@ HTML_OPTIONS=--template layout/template.html --css layout/buttondown.css --css l
 .md.html:
 	pandoc $(PANDOC_OPTIONS) -o $@ $(HTML_OPTIONS) $<
 	
+index.md: About.txt synopsis.md
+	cat About.txt > index.md
+	echo "* [HTML-Version]($(TARGET).html)" >> index.md
+	echo "* [PDF-Version]($(TARGET).pdf)" >> index.md
+	echo >> index.md
+	cat synopsis.md >> index.md
+
 # Übersichten
 info:
 	./scripts/files

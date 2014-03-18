@@ -1,4 +1,4 @@
-# Unterschiede zwischen Normdaten in Wikidata und anderen Normdaten
+## Unterschiede zwischen Normdaten in Wikidata und anderen Normdaten
 
 Wikidata vs. Gemeinsame Normdatei(GND)
 

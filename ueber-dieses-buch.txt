@@ -16,8 +16,6 @@ Dieses Handbuch entstand im Rahmen eines Projektseminars im Bachelor-Studiengang
 
 * Die Datei `Makefile` enthält Anweisungen, um aus den Inhaltsdateien das Handbuch in verschiedenen Ausgabeformaten zu erzeugen.
 
-* Die Datei `index.php` dient als Startseite wenn das Repository auf einem Webserver präsentiert wird.
-
 * Das Verzeichnis `scripts/` enthält zusätzliche Programme zur Verwaltung und Erstellung von Übersichten.
 
 ## Verwendete Markdown-Syntax {.unnumbered}

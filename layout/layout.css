@@ -5,6 +5,9 @@ footer {
 .figure img {
   border: 1px solid #aaa;
 }
+.navbar {
+  border-bottom: 2px solid #000;
+}
 
 dd+dt { border: none; }
 dd+dd { border: none; }
