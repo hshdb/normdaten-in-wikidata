@@ -1,15 +1,20 @@
 > Das Buch besteht derzeit aus folgenden Dateien:
 
 vorwort.txt
+abkuerzungsverzeichnis.txt
 inhaltsverzeichnis.txt
 einleitung.txt
-normdaten.txt
-definition-normdaten.txt
 definition-wikidata.txt
+definition-daten.txt
+definition-objekt.txt
+definition-aussagen.txt
+entstehung-wikidata.txt
+normdaten.txt
+normdaten-in-wikidata.txt
+normdaten-eigenschaften-in-wikidata.txt
 inhalte-finden-in-wikidata.txt
+datenobjekt-erstellen.txt
+faq.txt
 glossar.txt
 literatur.txt
-normdaten-eigenschaften-in-wikidata.txt
-your-filename-2014-03-11.txt
-faq.txt
-
+ueber-dieses-buch.txt

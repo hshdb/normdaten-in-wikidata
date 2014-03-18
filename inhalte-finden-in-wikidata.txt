@@ -1,3 +1,5 @@
+# Praktische Anwendung
+
 ## Inhalte finden in Wikidata
 
 Wie arbeitet die Suche?
