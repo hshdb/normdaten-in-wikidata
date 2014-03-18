@@ -4,10 +4,10 @@ Wikidata ist ein Daten-Repository (engl. für Lager, Depot), welches die Fakten-
 
 ![Sprachliste Wikipedia](images/sprachleiste1.jpg)
 
-Da Wikidata eine sekundäre Datenbank ist, kann es über Links mit u.a. Wikipedia verknüpft werden. Dadurch bietet sich die Möglichkeit, die Quellen zu überprüfen.
+Da Wikidata eine sekundäre Datenbank ist, kann es über Links mit u.a. Wikipedia verknüpft werden. Dadurch bietet sich die Möglichkeit, die Quellen zu überprüfen. Das Ziel von Wikidata ist eine strukturierte Zentralisierung von Daten und Fakten für die interne und externe Nutzung.
 
 ### Entwicklung
-Wikidata zählt zu den Wikiprojekten der Wikimedia Foundation mit dem Urheberrecht bei Wikimedia. Das Ziel von Wikidata ist eine strukturierte Zentralisierung von Daten und Fakten für die interne und externe Nutzung.
+Wikidata zählt zu den Wikiprojekten der Wikimedia Foundation (Betreiber der Wikipedia-Seite und aller anderen Wikiprojekte). 
 
 Sie ist seit 2012 online auf [Wikidata](www.wikidata.com) abrufbar. Ähnlich wie Wikipedia ist sie in mehreren Sprachen verfügbar und für jeden lesbar. 
 Lediglich zum bearbeiten wird ein kostenloses Benutzerkonto benötigt.
