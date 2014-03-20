@@ -12,7 +12,19 @@ Im Gegensatz dazu wird die Gemeinsame Normdatei (GND) von mehreren Institutionen
 
 Die Normdaten haben als Grundlage die Regeln der alphabetischen Katalogisierung (RAK-WB), die Regeln für den Schlagwortkatalog (RWSK) und die GND-Übergangsregeln. 
 
-Gemeinsamkeiten: 
+**Gemeinsamkeiten:**
+- alternative Benennungen in vielen Sprachen möglich 
+- eindeutige Nummern als Zuordnung (PPN und Datensatz-ID)
+- item
+
+**Unterschiede:**
+- nicht von jedem veränderbar (GND)
+- in Wikidata: weniger Synonyme 
+- item
+
+
+
+
 
 
 
