@@ -38,6 +38,7 @@ TARGET_FILES=$(TARGET).md $(TARGET).html $(TARGET).pdf synopsis.md
 .PHONY: clean info
 
 all: $(TARGET_FILES)
+
 build: all
 	@mkdir -p build
 	@cp $(TARGET_FILES) build
@@ -72,6 +73,23 @@ index.md: About.txt synopsis.md
 # Übersichten
 info:
 	./scripts/files
+
+# upload build files if ftp.cfg exists
+upload: upload-html upload-pdf
+upload-html: html ftp.cfg
+	ncftpput -R -f ftp.cfg / $(TARGET).html index.html
+upload-pdf: pdf ftp.cfg
+	ncftpput -R -f ftp.cfg / $(TARGET).pdf index.html
+
+pull-and-upload: pull upload
+
+# pull changes from upstream and exit with error if no changes were found
+pull:
+	@git fetch
+	@if [ "$$(git log HEAD..origin/master --oneline)" ] ;\
+	 then git merge origin master ;\
+	 else echo "no changes"; exit 1 ; fi
+
 
 website: build
 	@if [ "$$(git status -s)" ]; then \
