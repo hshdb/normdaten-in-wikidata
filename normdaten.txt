@@ -8,7 +8,7 @@ Eine Normdatei ist ein Verzeichnis von normierten Begriffen zur Verwendung als D
 
 Normdaten bestehen aus normierten Begriffen (kontrolliertes Vokabular) mit denen eindeutig auf verschiedene Objekte (bspw. Orte, Person, Themen, Organisationen etc.) verwiesen werden kann. Die einzelnen Einträge oder Datensätze einer Normdatei werden auch als "Deskriptor" oder "Schlagwort" bezeichnet. Normdaten werden beispielsweise in Bibliotheken zur Verschlagwortung/Indexierung von Literatur eingesetzt. Beispiele für Normdateien sind die GND, Klassifikationen (z.B. ICD-10) , Thesauri (z.B. Art & Architecture Thesaurus). Einzelne Normdatensätze werden in einer Normdatei durch eindeutige Benennungen ("bevorzugte Benennungen") oder durch ID-Nummern identifiziert.
 
-**Beispiel:**
+Als Beispiel ist im Folgenden ein Ausschnitt des Normdatensatz zu "Hannover" in der GND wiedergegeben, wie er unter <http://d-nb.info/gnd/4023349-2> abgerufen werden kann:
 
 ~~~
 ID: http://d-nb.info/gnd/4023349-2
@@ -29,5 +29,4 @@ Beteiligt an:
 Thema in:
   ...    
 ~~~
-**Quellen:** http://d-nb.info/gnd/4023349-2/about/html vom 11.03.2014
 http://de.wikipedia.org/wiki/Normdatei 18.03.2014
