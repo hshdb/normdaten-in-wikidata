@@ -1,16 +1,21 @@
-## Unterschiede zwischen Normdaten in Wikidata und anderen Normdaten
+## Gemeinsamkeiten und Unterschiede zwischen Wikidata und anderen normierten Daten
 
-Wikidata vs. Gemeinsame Normdatei(GND)
+Wikidata vs. Gemeinsame Normdatei (GND)
 
-Die Einträge bei Wikidata werden maßgeblich durch Wikidataautoren und durch Bots (automatisch agierende Computerprogramme) erstellt. 
-Jeder kann sich bei Wikidata anmelden und einen Eintrag hinterlassen. Somit ist es für die Öffentlichkeit zugänglich. Die Wikidata-Datensätze werden in erster Linie für Wikipedia oder andere Wikimedia-Projekte erstellt.
-Die Normdaten in Wikidata unterliegen keinem Regelwerk, somit sind alle Dateneintragungen - ohne offizielle Vorgaben seitens der Wikimedia Foundation - möglich.
+**Wikidata:**
+Die Einträge bei Wikidata werden maßgeblich durch freischaffende Wikidataautoren und durch Bots (automatisch agierende Computerprogramme) erstellt. 
+Jeder kann sich bei Wikidata anmelden und einen Eintrag hinterlassen.
+Die Wikidata-Datensätze werden in erster Linie für Wikipedia oder andere Wikimedia-Projekte erstellt.
+Die Normdaten in Wikidata unterliegen keinem Regelwerk, somit sind alle Eintragungen - ohne verbindlichen Vorgaben und Formatverlagen - möglich. 
  
-Im Gegensatz dazu wird die Gemeinsame Normdatei von mehreren Institution betrieben, unter anderem von
-der Deutschen Nationalbibliothek(DNB), allen deutschsprachigen Bibliotheksverbünden und der 
-Zeitschriftendatenbank(ZDB). 
-Es ist ein eindeutiges Bezugssystem für bibliografische Daten der Bibliotheken und anderen kulturellen 
-Einrichtungen, die Normdaten für Erschließungszwecke benötigen. Dadurch ist die GND nicht für die
-breite Öffentlichkeit zugänglich. Die Normdaten haben als Grundlage die Regeln der alphabetischen Katalogisierung(RAK-WB) 
-und die Regeln für den Schlagwortkatalog(RWSK).
+**GND:**
+Im Gegensatz dazu wird die Gemeinsame Normdatei (GND) von mehreren Institutionen verwaltet, unter anderem von der Deutschen Nationalbibliothek (DNB), allen deutschsprachigen Bibliotheksverbünden, der Zeitschriftendatenbank (ZDB) und zahlreichen weiteren Einrichtungen. 
+
+Die Normdaten haben als Grundlage die Regeln der alphabetischen Katalogisierung (RAK-WB) und die Regeln für den Schlagwortkatalog (RWSK).
+
+Die GND zeichnet sich nicht nur durch ihre Vorzugsbenennungen aus, sondern vor allem durch ihre zahlreichen Synonyme (in anderen Sprachen und Schriften) und Verknüpfungen zu weiteren Datensätzen aus. 
+Das Wikipedia-Projekt hat den Vorteil verschiedener Normdateien erkannt und bietet den Wikipediaautoren die Möglichkeit an, Normdaten (GND, LCCN, NDL, VIAF) in die Artikel einzubinden. 
+
+
+
 
