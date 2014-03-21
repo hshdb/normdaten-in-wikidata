@@ -94,7 +94,7 @@ pull-and-upload: pull upload
 pull:
 	@git fetch
 	@if [ "$$(git log HEAD..origin/master --oneline)" ] ;\
-	 then git merge origin master ;\
+	 then git merge origin master; rm -f quellen.md ;\
 	 else echo "no changes"; exit 1 ; fi
 
 
