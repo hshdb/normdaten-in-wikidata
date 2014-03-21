@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# extract all URLs from the entire repository history and print as Markdown list
+echo
+echo "Inhalte übernommen aus folgenden Quellen:"
+echo 
+git log --pretty=format:%s%b | perl -ne 'print "* <$1>\n" if /(http[^ \n]+)/;'
+

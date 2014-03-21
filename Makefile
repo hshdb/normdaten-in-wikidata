@@ -63,14 +63,21 @@ HTML_OPTIONS=--template layout/template.html --css layout/buttondown.css --css l
 .md.html:
 	pandoc $(PANDOC_OPTIONS) -o $@ $(HTML_OPTIONS) $<
 	
-index.md: About.txt synopsis.md
+# Übersichten
+.PHONY: quellen.md
+
+quellen.md:
+	./scripts/quellen > quellen.md
+
+index.md: About.txt synopsis.md quellen.md
 	cat About.txt > index.md
 	echo "* [HTML-Version]($(TARGET).html)" >> index.md
 	echo "* [PDF-Version]($(TARGET).pdf)" >> index.md
 	echo >> index.md
 	cat synopsis.md >> index.md
+	echo >> index.md
+	cat quellen.md >> index.md
 
-# Übersichten
 info:
 	./scripts/files
 
