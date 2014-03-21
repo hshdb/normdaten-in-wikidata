@@ -35,7 +35,7 @@ tex: $(TARGET).tex
 TARGET_FILES=$(TARGET).md $(TARGET).html $(TARGET).pdf synopsis.md
 
 # alle Ausgabeformate
-.PHONY: clean info
+.PHONY: clean info deps
 
 all: $(TARGET_FILES)
 
@@ -114,3 +114,8 @@ website: build
 		git checkout -f master; \
 	fi
 
+# Benötigte Software
+deps:
+	sudo apt-get install pandoc pandoc-citeproc\
+	   	texlive-latex-recommended\
+		texlice-fonts-extra texlive-fonts-recommended
