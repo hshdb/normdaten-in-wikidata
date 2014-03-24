@@ -1,0 +1,58 @@
+#!/usr/bin/env perl
+# Erstellt Übersicht von Kapitelgliederung und Inhaltsdateien
+
+use List::Util qw(max);
+use Encode;
+use strict;
+binmode STDOUT, 'utf8:';
+
+my $file_linkbase = 'https://www.penflip.com/nichtich/normdaten-in-wikidata/blob/master/';
+
+# Inhaltsdateien wie in Contents.txt angegeben
+my @files = map { chomp; $_; } grep { /^[^ >]+\.txt/ }
+            do { local @ARGV = ('Contents.txt'); <> };
+
+# Alle Dateien mit Endung .txt
+my %allfiles = map { chomp; $_ => 1 } `ls *.txt`;
+delete $allfiles{$_} for qw(Contents.txt About.txt);
+
+# Kapitel je Inhaltsdatei
+my %sections = map { $_ => [ do {
+        map { 
+            chomp; s/\{.*\}//g; 
+            $_;
+        } `grep -h '^#' $_`;
+    } ] } @files;
+
+
+my $section_length = max map { length $_ } map { @$_ } values %sections;
+
+my %file_links = map { $_ => "[$_](${file_linkbase}$_)" } @files;
+
+my $file_length = max map { length $_ } values %file_links;
+
+my $format = "%-${section_length}s  %1s %-${file_length}s\n";
+
+my $sep = ("-" x $section_length) . "- ---" . ("-" x $file_length). "--\n";
+
+printf "%-${section_length}s  %s\n", "Kapitel", "Datei";
+print $sep;
+foreach my $file (@files) {
+    my @sections =  map { chomp; s/\{.*\}//g; s/#/./g; decode_utf8($_) }
+        @{$sections{$file}};
+
+    my $status = $allfiles{$file}++;
+    $status = $status ? ($status > 1 ? '!' : '=') : '?';
+
+    # TODO: make $file link to penflip
+    printf $format, shift @sections, $status, $file_links{$file};
+    printf $format, $_ for @sections;
+}
+print $sep;
+
+# Übrige .txt-Dateien, die nicht im Inhalt vorkommen
+if (my @lost = grep { !$allfiles{$_} } keys %allfiles) {
+    print "\nVergessene Dateien:\n";
+    print "* $_\n" for @lost;
+}
+

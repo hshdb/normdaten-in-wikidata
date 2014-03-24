@@ -1,0 +1,33 @@
+# Über dieses Handbuch {.unnumbered}
+
+Dieses Handbuch entstand im Rahmen eines Projektseminars im Bachelor-Studiengang Informationsmanagement an der Hochschule Hannover (HsH). Zur Verwaltung der Inhalte wurde ein Repository des Versionskontrollsystem *git* verwendet, das alle Bearbeitungsschritte und Änderungen beinhaltet. Auf diese Weise kann mit verschiedenen Plattformen und Werkzeugen zum Inhalt des Buches beigetragen werden, ohne zu stark an eine Software gebunden zu sein. Im Folgenden sind zunächst die Struktur des Handbuch-Repositories und anschließend die verwendeten Werkzeuge beschrieben.
+
+## Struktur des Handbuch-Repository {.unnumbered}
+
+* Die eigentlichen Inhalte befinden sich in [Markdown-Syntax](#verwendete-markdown-syntax) in Dateien mit der Endung `.txt`.
+
+* In der der Datei `Contents.txt` ist festgelegt, welche Markdown-Dateien in welcher Reihenfolge letztendlich das Handbuch bilden. Pro Zeile ist ein Dateiname angegeben; Leerzeilen und Zeilen, die mit `>` beginnen, werden ignoriert.
+
+* Das Verzeichnis `images/` enthält Bilder.
+
+* Das Verzeichnis `layout/` enthält Template- und Stylesheet-Dateien.
+
+* Die Dateien `About.txt` und `README.md` enthalten kurze Projektbeschreibungen, die nicht im Handbuch auftauchen.
+
+* Die Datei `Makefile` enthält Anweisungen, um aus den Inhaltsdateien das Handbuch in verschiedenen Ausgabeformaten zu erzeugen.
+
+* Das Verzeichnis `scripts/` enthält zusätzliche Programme zur Verwaltung und Erstellung von Übersichten.
+
+## Verwendete Markdown-Syntax {.unnumbered}
+
+Die Texte sind in Markdown-Syntax verfasst, wobei sich die konkrete Markdown-Variante aus Anforderungen von *Penflip* und *Pandoc* ergibt. Eine Übersicht dieser beiden Markdown-Varianten gibt es unter:
+
+* <https://www.penflip.com/Penflip/help/blob/master/Markdown.txt> für Penflip
+* <http://johnmacfarlane.net/pandoc/demo/example9/pandocs-markdown.html> für Pandoc
+
+## Verwendete Werkzeuge {.unnumbered}
+
+* <http://penflip.com>
+* <http://johnmacfarlane.net/pandoc/>
+* <http://github.com>
+

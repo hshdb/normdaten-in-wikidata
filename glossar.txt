@@ -1,19 +1,29 @@
-# Glossar
+# Glossar {.unnumbered}
 
 *Penflip kann derzeit noch keine Definitionslisten, das ist aber im Moment nebensächlich.*
 
 Hier werden verschiedene *Fachbegriffe* in kurzen Abschnitten erläutert:
 
-**Aussage**
+Aussage
   : ...
-**Anderer Fachbegriff**
+Anderer Fachbegriff
   : ...
-**Normdaten**
+Eigenschaft
   : ...
-**Wikidata**
+Item
+  : Eintrag in Wikidata, der sich auf einen Gegenstand (Person, Ort, Konzept..) bezieht. Jedes Wikidata-Item hat eine eindeutige ID, die mit `Q` beginnt.
+Metadaten
   : ...
-**Wikidata-API**
-  : Schnittstelle, über die Wikidata per Programm abgefragt und bearbeitet werden kann.
+Normdaten
+  : ...
+Normdatei
+  : ...  
+Objekt
+  : andere Bezeichnung für ein Wikidata-*Item*
+Wikidata
+  : ...
+Wikidata-API
+  : Schnittstelle, über die Wikidata per Programm abgefragt und bearbeitet werden kann
   
   
   
