@@ -1,7 +1,13 @@
 # Wikidata-Aussagen
 
-Bei jedem Datenobjekt gibt es sogenannte Aussagen, die das aufgerufene Item näher beschreiben. Darin beinhaltet sind Eigenschaften, die mit einem festen Vokabular verbunden sind (z.B.: statt "Internetadresse" --> "URL"). 
+Bei jedem Datenobjekt gibt es sogenannte Aussagen, die das aufgerufene Item näher beschreiben. Darin beinhaltet sind Eigenschaften, die mit einem festen Vokabular verbunden sind (zum Beispiel: _statt Internetadresse_ --> _URL_). 
 Eine Aussage besteht also aus zwei Items, die mithilfe einer Eigenschaft verlinkt werden können.
 Beispiel: [Hannover](https://www.wikidata.org/w/index.php?title=Q1715&oldid=116640350)
 
-Das 1. Item hier ist "Hannover" 
+Das **1.Item** hier ist _Hannover_. Die Eigenschaften sind _LCNAF_ und _Staat_, mit den dazugehörigen **2.Items** _n83186176_ und _Deutschland_.
+![wikidata_aussagen.png](images/wikidata_aussagen.png)
+
+Allerdings sollte man bei den 2.Items noch unterscheiden, zwischen Außerhalb und Innerhalb. Näheres dazu unter: [Wikidata-Items](#definition-items)
+
+
+
