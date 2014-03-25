@@ -4,7 +4,8 @@ In Wikidata sind bereits mehrere _Eigenschaften_ zum Verlinken von Wikidata-Item
 
 # Zeichenerklärung
 
-![](images/Oberflaechen_Beschreibung_Wikidata.PNG)
+![OberflaechenBeschreibung.PNG](images/OberflaechenBeschreibung.PNG)
+
 
 #  Normdaten-Eigenschaften
 
