@@ -5,8 +5,9 @@
 Hier werden verschiedene *Fachbegriffe* in kurzen Abschnitten erläutert:
 
 Aussage
-  : ...
-Anderer Fachbegriff
+  : Eine Aussage ist eine Untereinheit eines Datenobjektes in Wikidata. Aussagen bestehen i.d.R. aus einer normierten [Eigenschaft](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_properties/de&oldid=48498796) und ihnen  zugewiesenen Datenobjekten. Nicht jede Eigenschaft muss als Wert ein Datenobjekt beinhalten, manche enthalten einfache externe Verlinkungen (Normdaten, Websiten usw.) oder einfache Daten (geografische Daten, Ländercodes). 
+  
+Anderer Fachbegriff 
   : ...
 Eigenschaft
   : ...
