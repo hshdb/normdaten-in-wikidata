@@ -11,8 +11,9 @@ Anderer Fachbegriff
   : ...
 Eigenschaft
   : ...
-Item
-  : Eintrag in Wikidata, der sich auf einen Gegenstand (Person, Ort, Konzept..) bezieht. Jedes Wikidata-Item hat eine eindeutige ID, die mit `Q` beginnt.
+Datenobjekt
+  : Eintrag in Wikidata, der sich auf einen Gegenstand (Person, Ort, Konzept...) bezieht. Jedes Wikidata-Datenobjekt hat eine eindeutige ID, die mit `Q` beginnt. Datenobjekte sind mit anderen Datenobjekten verknüpft. 
+  
 Metadaten
   : ...
 Normdaten
