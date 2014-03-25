@@ -1,3 +1,7 @@
 # Abkürzungsverzeichnis {.unnumbered}
 
-...
+- GND = Gemeinsame Normdatei
+- NDL = National Diet Library
+- 
+
+
