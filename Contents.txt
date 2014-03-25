@@ -17,8 +17,8 @@ unterschied-normd-wd-u-anderen-normd.txt
 normdaten-eigenschaften-in-wikidata.txt
 inhalte-finden-in-wikidata.txt
 datenobjekt-erstellen.txt
-__bersetzungen_in_Wikidata_bearbeiten_und_anlegen.txt
 wikidata-weiternutzen.txt
+wikidata-oberflaeche-uebersetzen.txt
 faq.txt
 glossar.txt
 literatur.txt
