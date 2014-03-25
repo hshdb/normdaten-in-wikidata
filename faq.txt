@@ -1,3 +1,4 @@
 # FAQ
 
 1. Stellt Wikidata Doppelarbeit dar, wenn es bereits entsprechende Wikipedia-Artikel gibt? 
+2. Wie kann ich die Benutzersprache in Wikidata auf meine Sprache umstellen? 
