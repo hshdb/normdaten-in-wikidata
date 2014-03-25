@@ -1,0 +1,4 @@
+## Inhalte aus Wikidata abfragen und weiternutzen
+
+*Hier etwas zur automatischen Abfrage und zu Export-Möglichkeiten*
+
