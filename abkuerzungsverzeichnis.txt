@@ -1,6 +1,11 @@
 # Abkürzungsverzeichnis {.unnumbered}
+- DNB = Deutsche Nationalbibliothek 
 - GND = Gemeinsame Normdatei
+- LCCN = Library of Congress Control Number 
 - NDL = National Diet Library
-- 
+- RAK-WB = Regeln der alphabetischen Katalogisierung in wissenschaftlichen Bibliotheken
+- RSWK = Regeln für den Schlagwortkatalog 
+- VIAF = Virtual International Authority File 
+- ZDB = Zeitschriftendatenbank 
 
 
