@@ -16,7 +16,7 @@ Relevanzkriterien sind bei Datenobjekte die mindestens mit einem Wikipediaartike
 Die _Weiterleitung_ darf nur nach dem **REDIRECT/WEITERLEITUNG-Schlüsselwort** erfolgen.
 Folgende Syntax ist zu beachten: 
 
-> {{Wikidata-Weiterleitung|Item-Nummer}} z. B. {{Wikidata-Weiterleitung|Q5334679}}
+> {{Wikidata-Weiterleitung|Item-Nummer}} zum Beispiel {{Wikidata-Weiterleitung|Q5334679}}
 
 **Achtung:** Im Moment ist es in Wikidata nicht möglich Weiterleitungen zu Datenobjekten hinzuzufügen. Jedoch kann durch diese Schablone ein Thema trotzdem für Analyse-Skripte und Analyse-Tools mit einem Wikidata-Objekt verbunden werden, wenn zum Beispiel das Thema in einem Sammelartikel als Abschnitt vorhanden ist. 
 
