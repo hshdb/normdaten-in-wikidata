@@ -1,0 +1,7 @@
+# Wikidata-Eigenschaften
+
+*Dieses Kapitel soll kurz erklären, was "Eigenschaften" in Wikidata sind*.
+
+Kurz gesagt werden Eigenschaften (properties) in Wikidata benutzt, um Aussagen auszudrücken. Jede Eigenschaften wird durch eine ID referenziert, die mit P anfängt.
+
+Einige Eigenschaften sind dazu gedacht, von Wikidata-Items auf andere Normdateien zu Verweisen (z.B. ...).
