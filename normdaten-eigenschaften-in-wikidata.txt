@@ -9,17 +9,7 @@ In Wikidata sind bereits mehrere _Eigenschaften_ zum Verlinken von Wikidata-Item
 
 #  Normdaten-Eigenschaften
 
-- Begriffe untereinem Namen oder Notation oder ID zusammengefügt
-- Synonyme dazu. Wikidata: Weniger Synonyme
-- Kann ein- oder mehrsprachig sein. Wikidata: Mehrsprachig
-- Dokumente sind mit Normdaten verknüpft
-- GND: Bücher verknüpft
-- Wikidata: Wikipedia-Artikel verknüpft.     
-- Verknüpfungen zwischen Normdaten und Dokumenten
-
-
-
-*...wie lässt sich nach Normdaten-Eigenschaften suchen...*
+Eigenschaften die unter einer Notation oder ID zusammengefügt werden bezeichnet man als Normdaten-Eigenschaften. Normdaten können ein- oder mehrsprachig sein. Wikidata ist meistens mehrsprachig. Dokumente sind mit Normdaten verküpft um sie besser auffindbar machen zu können. Verknüpfungen zwischen Normdaten aus Wikidata und Dokumenten in Wikipedia ist ein Ziel und wird teilweise bereits erreicht.
 
 # Wie kann man Normdaten-Eigenschaften hinzufügen?
 
@@ -29,11 +19,9 @@ Erster Schritt
 
 ![add_klicken.PNG](images/add_klicken.PNG)
 
-
 Zweiter Schritt
 
 ![Eingabe_save.PNG](images/Eingabe_save.PNG)
-
 
 
 # Wie können vorhandene Aussagen mit Normdateneigenschaften abgefragt werden?
