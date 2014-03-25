@@ -2,6 +2,7 @@
 - DDC = Dewey-Decimal-Classification
 - DNB = Deutsche Nationalbibliothek 
 - GND = Gemeinsame Normdatei
+- HsH = Hochschule Hannover
 - ICD-10 = **I**nternational Statistical **C**lassification of **D**iseases and Related Health Problems
 - ID = Identifikator
 - LCCN = Library of Congress Control Number 
