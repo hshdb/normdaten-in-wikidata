@@ -40,6 +40,9 @@ Zweiter Schritt
 
 Problemssstellung: Der Benutzer hat Literatur vorliegen mit einer GND Nummer. Wie kommt man nun mit Hilfe dieser GND auf die entsprechende Internetseite. Welche Werkzeuge kann man verwenden um dieses Ziel zu erreichen?
 
+Beispiel:
+http://wikidata-wdq-mm.instance-proxy.wmflabs.org/api?q=string[227:"4028495-5"]
+
 
 ----
 *Siehe <https://www.wikidata.org/wiki/User:JakobVoss/Authority_control> für eine Vorläufige Liste*
