@@ -1,6 +1,6 @@
 
 ## Aussagen
-Eine Aussage ist ein mehrdeutiger Begriff. Eine Aussage kann als Aussagesatz (Satz oder Menge von Sätzen), Äußerung (Äußerungshandlung) eines Satzes, Urteil bzw. Urteilsakt, Proposition bezeichnet werden.
+Eine Aussage ist ein mehrdeutiger Begriff. Eine Aussage kann als Aussagesatz (Satz oder Menge von Sätzen), Äußerung (Äußerungshandlung) eines Satzes, Urteil beziehungsweis Urteilsakt, Proposition bezeichnet werden.
 Nach verbreiteter, aber umstrittener Auffassung sind Aussagen nicht Sätze, sondern sind Aussagesätze (nur) der sprachliche Ausdruck von Aussagen. Ein Aussagesatz ist ein Zeichen für eine Aussage (Proposition) und nur "das sprachliche Korrelat der Aussage. Gegen eine Gleichsetzung von Aussage und Aussagesatz wird eingewandt, dass von dem Satztyp und seiner Äußerung die Aussage zu unterscheiden ist, „die mit dieser Äußerung gemacht wird.
 
 ### Arten von Aussagen
