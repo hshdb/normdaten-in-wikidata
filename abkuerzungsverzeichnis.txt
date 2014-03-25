@@ -1,4 +1,5 @@
 # Abkürzungsverzeichnis {.unnumbered}
+- DDC = Dewey-Decimal-Classification
 - DNB = Deutsche Nationalbibliothek 
 - GND = Gemeinsame Normdatei
 - ICD-10 = **I**nternational Statistical **C**lassification of **D**iseases and Related Health Problems
