@@ -11,7 +11,7 @@ Es gibt drei Arten von Aussagen:
 
 Beispiel: [Hannover](https://www.wikidata.org/w/index.php?title=Q1715&oldid=116640350)
 
-Der aufgerufene Datensatz ist _Hannover_. Die Eigenschaften sind _Staat_; für das Wikidata-Item, _LCNAF_; für den außenstehenden Link und _Kfz-Kennzeichen_; für die einfache Beschreibung. 
+Der aufgerufene Datensatz ist _Hannover_. Die Eigenschaften sind _Staat_ ; für das Wikidata-Item, _LCNAF_ ; für den außenstehenden Link und _Kfz-Kennzeichen_ ; für die einfache Beschreibung. 
 
 ![wikidata_aussagen1.png](images/wikidata_aussagen1.png)
 
