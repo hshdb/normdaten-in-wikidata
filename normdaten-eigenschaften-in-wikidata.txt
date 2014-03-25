@@ -2,10 +2,9 @@
 
 In Wikidata sind bereits mehrere _Eigenschaften_ zum Verlinken von Wikidata-Items und anderen Normdateien vorgesehen. So gibt es beispielsweise die Eigenschaft "GND-Nummer ([P227](https://www.wikidata.org/wiki/Property:P227))" zum Verlinken auf die Gemeinsame Normdatei und die Eigenschaft "DDC ([P1036](https://www.wikidata.org/wiki/Property:P1036))" zum Verlinken auf die Dewey-Dezimalklassifikation.
 
-# Zeichenerklärung
+# Oberflächenbeschreibung
 
-![OberflaechenBeschreibung.PNG](images/OberflaechenBeschreibung.PNG)
-
+![](images/OberflaechenBeschreibung.PNG)
 
 #  Normdaten-Eigenschaften
 
@@ -23,6 +22,8 @@ In Wikidata sind bereits mehrere _Eigenschaften_ zum Verlinken von Wikidata-Item
 
 # Wie kann man Normdaten-Eigenschaften hinzufügen?
 
+Normdaten-Eigenschaften können verschiedene Aussagen beschreiben. Ist ein Land teil einer internationalen Organisation? Welcher Autor hat ein Buch verfasst? Unter welcher Nummer läuft ein Aufsatz in der Gemeinsamen Normdatei.
+
 Erster Schritt
 
 ![add_klicken.PNG](images/add_klicken.PNG)
@@ -34,7 +35,9 @@ Zweiter Schritt
 
 
 
-# Wie können vorhandene Verlinkungen abgefragt werden?
+# Wie können vorhandene Aussagen mit Normdateneigenschaften abgefragt werden?
+
+Problemssstellung: Der Benutzer hat Literatur vorliegen mit einer GND Nummer. Wie kommt man nun mit Hilfe dieser GND auf die entsprechende Internetseite. Welche Werkzeuge kann man verwenden um dieses Ziel zu erreichen?
 
 
 ----
