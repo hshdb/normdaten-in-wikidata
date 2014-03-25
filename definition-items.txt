@@ -2,7 +2,7 @@
 
 ## Allgemein zu Wikidata-Items
 
-Ein **Wikidata-Item** (oft auch als "Objekt" bezeichnet) ist ein Eintrag in Wikidata, der sich auf einen Gegenstand, ein Thema, oder ein Konzept in der wirklichen Welt bezieht. Durch eine eindeutige Datensatz-ID wird in Wikidata ein Item identifiziert. Die **Datensatz-ID** besteht aus dem _Buchstabend “Q“_ und _einer Nummer_. So steht beispielsweise `Q8` für "Glück" und `Q1` für das "Universum". Außerdem wird ein Item durch seine einzigartige Kombination aus mehrsprachiger Bezeichnung und Beschreibung.
+Ein **Wikidata-Item** (oft auch als "Objekt" bezeichnet) ist ein Eintrag in Wikidata, der sich auf einen Gegenstand, ein Thema, oder ein Konzept in der wirklichen Welt bezieht. Durch eine eindeutige Datensatz-ID wird in Wikidata ein Item identifiziert. Die **Datensatz-ID** besteht aus dem _Buchstaben “Q“_ und _einer Nummer_. So steht beispielsweise `Q8` für "Glück" und `Q1` für das "Universum". Außerdem wird ein Item durch seine einzigartige Kombination aus mehrsprachiger Bezeichnung und Beschreibung.
 Es können weiterst mehrere Alternativnamen festgelegt werden. 
 
 Wikidata-Items besitzen Links zu den zu verlinkenden Seiten, sie können über Aussagen verfügen, welche aus einer Eigenschaft (**property**) mit Wert (**value**) und zugehöriger Quelle (**source**) bestehen. 
@@ -18,20 +18,20 @@ Folgende Syntax ist zu beachten:
 
 > {{Wikidata-Weiterleitung|Item-Nummer}} z. B. {{Wikidata-Weiterleitung|Q5334679}}
 
-**Achtung:** Im Moment ist es in Wikidata nicht möglich Weiterleitungen zu Items hinzuzufügen. Jedoch kann durch diese Schablone ein Thema trotzdem für Analyse-Skripte und Analyse-Tools mit einem Wikidata-Item verbunden werden, wenn zum Bsp. das Thema in einem Sammelartikel als Abschnitt vorhanden ist. 
+**Achtung:** Im Moment ist es in Wikidata nicht möglich Weiterleitungen zu Items hinzuzufügen. Jedoch kann durch diese Schablone ein Thema trotzdem für Analyse-Skripte und Analyse-Tools mit einem Wikidata-Item verbunden werden, wenn zum Beispiel das Thema in einem Sammelartikel als Abschnitt vorhanden ist. 
 
 ## Verlinkung von Items
 
 Um eine verlinkte Seite oder einen Artikel auf einer anderen Wikimedia Seite zu identifizieren zu können, muss ein _Weblink_ (**sitelink**) oder Link angelegt werden, die dann auf die besagte Seite verweist. 
 
-Der **Link** besteht aus der _Domänenbezeichnung_ und dem _Seitentitel_ (zum Bsp. Lemma eines Artikels). Folgende Aufgaben hat die Verlinkung:
+Der **Link** besteht aus der _Domänenbezeichnung_ und dem _Seitentitel_ (zum Beispiel Lemma eines Artikels). Folgende Aufgaben hat die Verlinkung:
 
 -	Zugriff auf einen Eintrag einer externen Seite
 -	zentraler Speicherort der Interwiekilinkis
 
-Wikilinks können mit sogenannten _Auszeichnungen_ (**badges**) versehen werden, dies kann man als Status gleichsetzen. Somit ist es dem Anwender möglich zum Bsp. eine Seite als “ausgezeichneten Artikel“ zu versehen.
+Wikilinks können mit sogenannten _Auszeichnungen_ (**badges**) versehen werden, dies kann man als Status gleichsetzen. Somit ist es dem Anwender möglich zum Beispiel eine Seite als “ausgezeichneten Artikel“ zu versehen.
 
-Im Moment ist es nur möglich, dass jede externe Seite (zum Bsp Datei oder Wikiartikel) nur mit einem Link bei Wikidata eingetragen ist und ein Item kann nur einen einzigen Link auf eine externe Domäne besitzen.
+Im Moment ist es nur möglich, dass jede externe Seite (zum Beispiel Datei oder Wikiartikel) nur mit einem Link bei Wikidata eingetragen ist und ein Item kann nur einen einzigen Link auf eine externe Domäne besitzen.
 
 ## Das Prinzip von Wikidata:
 
