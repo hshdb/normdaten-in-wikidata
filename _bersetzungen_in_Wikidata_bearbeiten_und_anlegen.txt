@@ -2,7 +2,7 @@
 
 ![beispieluebersetzen.jpg](images/beispieluebersetzen.jpg)
 
-Bezeichnungen und Beschreibungen der Datenobjekte können auf der Seite der Datenobjekte unter "In anderen Sprachen" übersetzt werden. Wie im Screenshot zu sehen, werden automatisch die Sprachen Englisch, Plattdeutsch und Türkisch vorgeschlagen. Da es bereits eine englische Übersetzung gibt, kann diese nicht neu angelegt, sondern nur bearbeitet werden. Plattdeutsch und Türkisch haben noch keine Übersetzungen, also kann der Nutzer einfach in das leere Feld die entsprechende Bezeichnung bzw. Beschreibung eintragen. Doch Vorsicht! Beim Übersetzen gibt es gewisse [Richtlinien](https://www.wikidata.org/wiki/Help:Sitelinks/de-formal) zu beachten. Es darf bspw. nur eine Sprache hinzugefügt werden, wenn es dazu auch einen passenden Wikipedia-Artikel in der jeweiligen Sprache gibt.
+Bezeichnungen und Beschreibungen der Datenobjekte können auf der Seite der Datenobjekte unter "In anderen Sprachen" übersetzt werden. Wie im Screenshot zu sehen, werden automatisch die Sprachen Englisch, Plattdeutsch und Türkisch vorgeschlagen. Da es bereits eine englische Übersetzung gibt, kann diese nicht neu angelegt, sondern nur bearbeitet werden. Plattdeutsch und Türkisch haben noch keine Übersetzungen, also kann der Nutzer einfach in das leere Feld die entsprechende Bezeichnung beziehungsweise Beschreibung eintragen. Doch Vorsicht! Beim Übersetzen gibt es gewisse [Richtlinien](https://www.wikidata.org/wiki/Help:Sitelinks/de-formal) zu beachten. Es darf beispielsweise nur eine Sprache hinzugefügt werden, wenn es dazu auch einen passenden Wikipedia-Artikel in der jeweiligen Sprache gibt.
 
 Du fragst dich vielleicht, warum gerade Englisch, Plattdeutsch und Türkisch als Sprachen vorgeschlagen werden. Es werden immer drei Sprachen aufgelistet und diese drei sind diejenigen, die in meiner Region (also Deutschland) gesprochen werden ([Quelle](https://www.wikidata.org/wiki/Help:Multilingual/de)).
 
@@ -22,7 +22,7 @@ Diese Methode ist die komplizierteste der drei Varianten und diese zu erklären,
 
 #### 2. Mithilfe von Babel-Bausteinen
 
-Babel-Bausteine werden in die Benutzerseite geschrieben und dienen der Definition der eigenen Sprachkenntnisse. Nur die in den Bausteinen erwähnten Sprachen werden dann im Abschnitt "In anderen Sprachen" angezeigt. Um die Babel-Bausteine zu aktivieren, klickt man oben in der Leiste auf seinen Benutzernamen und gibt dort in die Benutzerbeschreibung den Baustein-Code, z.B. {{#babel:en|de-3|fr-2|es-1|it-0}}, ein. Die Zahlen stehen hierbei für die Sprachkenntnisse, wobei 0 keine Kenntnisse bedeutet. Nach dem Speichern sieht man dann am rechten Rand der Benutzerseite diesen Kasten:
+Babel-Bausteine werden in die Benutzerseite geschrieben und dienen der Definition der eigenen Sprachkenntnisse. Nur die in den Bausteinen erwähnten Sprachen werden dann im Abschnitt "In anderen Sprachen" angezeigt. Um die Babel-Bausteine zu aktivieren, klickt man oben in der Leiste auf seinen Benutzernamen und gibt dort in die Benutzerbeschreibung den Baustein-Code, zum Beispiel {{#babel:en|de-3|fr-2|es-1|it-0}}, ein. Die Zahlen stehen hierbei für die Sprachkenntnisse, wobei 0 keine Kenntnisse bedeutet. Nach dem Speichern sieht man dann am rechten Rand der Benutzerseite diesen Kasten:
 
 ![babel.jpg](images/babel.jpg)
 
