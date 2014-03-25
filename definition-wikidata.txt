@@ -1,6 +1,6 @@
 # Wikidata
 ## Definition
-Wikidata ist ein Daten-Repository (engl. für Lager, Depot), welches die Datengrundlage vieler Sprachversionen von Wikipedia darstellt.
+Wikidata ist ein Daten-Repository (englisch für Lager, Depot), welches die Datengrundlage vieler Sprachversionen von Wikipedia darstellt.
 
 ![Sprachliste Wikipedia](images/sprachleiste1.jpg)
 
