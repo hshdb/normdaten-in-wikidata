@@ -1,0 +1,7 @@
+## Quellen
+
+Alle Aussagen in Wikidata können und sollten mit Quellen belegt werden. 
+
+*...hier noch etwas dazu, wozu Quellen dienen und was in Quellen stehen sollte sowie Beispiele...*
+
+Quellen "zweiter Ordnung", das heisst Quellen über Quellen, wie sie bei wissenschaftliche Publikationen manchmal mit der Schreibweise "zitiert nach" vorkommen, sind in Wikidata bislang nicht vorgesehen. Unabhängig von expliziten Quellen in Wikidata kann auch die Bearbeitung, mit der eine Aussage in Wikidata eingetragen wurde, als Quelle betrachtet werden. Die Information darüber seit wann eine Aussage oder Quellenangabe in Wikidata steht und wer sie dort zuerst eingetragen hat, ist in jedem Fall ein Hinweis zur Beurteilung der in Wikidata vorhandenen Daten.
