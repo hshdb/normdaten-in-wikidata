@@ -20,7 +20,7 @@ In Wikidata sind bereits mehrere _Eigenschaften_ zum Verlinken von Wikidata-Item
 
 *...wie lässt sich nach Normdaten-Eigenschaften suchen...*
 
-# Normdaten-Eigenschaften hinzufügen
+# Wie kann man Normdaten-Eigenschaften hinzufügen?
 
 1. Schritt
 
@@ -32,7 +32,7 @@ In Wikidata sind bereits mehrere _Eigenschaften_ zum Verlinken von Wikidata-Item
 ![Eingabe_save.PNG](images/Eingabe_save.PNG)
 
 
-*...wie können vorhandene Verlinkungen abgefragt werden...
+# Wie können vorhandene Verlinkungen abgefragt werden?
 
 ----
 *Siehe <https://www.wikidata.org/wiki/User:JakobVoss/Authority_control> für eine Vorläufige Liste*
