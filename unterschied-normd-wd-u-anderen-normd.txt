@@ -17,6 +17,7 @@ Die Normdaten haben als Grundlage die Regeln der alphabetischen Katalogisierung 
 Die GND zeichnet sich nicht nur durch ihre Vorzugsbenennungen aus, sondern vor allem durch ihre zahlreichen Synonyme (in anderen Sprachen und Schriften) und Verknüpfungen zu weiteren Datensätzen aus. 
 
 **Hilfen und Literatur:**
+https://www.wikidata.org/w/index.php?title=Help:Contents/de&oldid=66338607&uselang=de
 
 
 
