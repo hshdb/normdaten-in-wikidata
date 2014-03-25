@@ -1,11 +1,17 @@
 # Abkürzungsverzeichnis {.unnumbered}
 - DNB = Deutsche Nationalbibliothek 
 - GND = Gemeinsame Normdatei
+- ICD-10 = **I**nternational Statistical **C**lassification of **D**iseases and Related Health Problems
+- ID = Identifikator
 - LCCN = Library of Congress Control Number 
+- LCNAF = Library of Congress Name Authority File 
 - NDL = National Diet Library
 - RAK-WB = Regeln der alphabetischen Katalogisierung in wissenschaftlichen Bibliotheken
 - RSWK = Regeln für den Schlagwortkatalog 
+- URL = Uniform Resource Locator 
 - VIAF = Virtual International Authority File 
+- WD:P = Wikidata: Properties
+- z.B. = zum Beispiel 
 - ZDB = Zeitschriftendatenbank 
 
 
