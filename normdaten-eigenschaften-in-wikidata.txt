@@ -22,17 +22,19 @@ In Wikidata sind bereits mehrere _Eigenschaften_ zum Verlinken von Wikidata-Item
 
 # Wie kann man Normdaten-Eigenschaften hinzufügen?
 
-1. Schritt
+Erster Schritt
 
 ![add_klicken.PNG](images/add_klicken.PNG)
 
 
-2. Schritt
+Zweiter Schritt
 
 ![Eingabe_save.PNG](images/Eingabe_save.PNG)
 
 
+
 # Wie können vorhandene Verlinkungen abgefragt werden?
+
 
 ----
 *Siehe <https://www.wikidata.org/wiki/User:JakobVoss/Authority_control> für eine Vorläufige Liste*
