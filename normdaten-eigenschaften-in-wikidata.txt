@@ -3,10 +3,9 @@
 In Wikidata sind bereits mehrere _Eigenschaften_ zum Verlinken von Wikidata-Items und anderen Normdateien vorgesehen. So gibt es beispielsweise die Eigenschaft "GND-Nummer ([P227](https://www.wikidata.org/wiki/Property:P227))" zum Verlinken auf die Gemeinsame Normdatei und die Eigenschaft "DDC ([P1036](https://www.wikidata.org/wiki/Property:P1036))" zum Verlinken auf die Dewey-Dezimalklassifikation.
 
 # Zeichenerklärung
+![Oberflaechen_Beschreibung_Wikidata.PNG](images/Oberflaechen_Beschreibung_Wikidata.PNG)
 
 *...Beispiel...*
-
-
 
 #  Normdaten-Eigenschaften
 
