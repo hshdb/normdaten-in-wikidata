@@ -1,6 +1,6 @@
 ## Warum Daten?
 
-Wikidata ist eine Datenbank, doch wa bedeutet das? In der Informatik besteht eine Datenbank aus einem Computerprogramm zur Verwaltung von Daten (¨Datenbankmanagementsystem¨) und den darin gespeicherten Daten (¨Datenbestand¨ oder ¨Datenbasis¨). Die Eigenschaften und Einstellungen des Datenbankmanagementsystems sorgen dafür, dass die Daten in einer Datenbank eine einheiliche Struktur besitzen.
+Wikidata ist eine Datenbank, doch was bedeutet das? In der Informatik besteht eine Datenbank aus einem Computerprogramm zur Verwaltung von Daten (¨Datenbankmanagementsystem¨) und den darin gespeicherten Daten (¨Datenbestand¨ oder ¨Datenbasis¨). Die Eigenschaften und Einstellungen des Datenbankmanagementsystems sorgen dafür, dass die Daten in einer Datenbank eine einheiliche Struktur besitzen.
 
 Im Falle von Wikidata besteht das **Datenbankmanagementsystem** aus der Wikidata-Software, die sich aus einer Wiki-Komponente namens ¨MediaWiki¨ und einer Datenbank-Komponente namens ¨Wikibase¨ zusammensetzt. MediaWiki wird auch für Wikipedia und die anderen Projekte der Wikimedia-Foundation eingesetzt, während Wikibase speziell für Wikidata entwickelt wurde.
 
