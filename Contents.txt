@@ -20,5 +20,4 @@ faq.txt
 glossar.txt
 literatur.txt
 ueber-dieses-buch.txt
-
-
+_bersetzungen_in_Wikidata_bearbeiten_und_anlegen.txt
