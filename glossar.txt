@@ -10,7 +10,8 @@ Aussage
 Anderer Fachbegriff 
   : ...
 Eigenschaft
-  : ...
+  : Eigenschaften sind Beschreibungen für Werte, aber nicht die Werte selbst. Eigenschaften werden von der Wikidata-Community gemeinsam diskutiert und festgelegt. Die Übersicht des Eigenschaftsvokabular findet man auf dieser [Website](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_properties/de&oldid=48498796).  
+  
 Datenobjekt
   : Eintrag in Wikidata, der sich auf einen Gegenstand (Person, Ort, Konzept...) bezieht. Jedes Wikidata-Datenobjekt hat eine eindeutige ID, die mit `Q` beginnt. Datenobjekte sind mit anderen Datenobjekten verknüpft. 
   
