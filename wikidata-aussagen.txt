@@ -1,15 +1,20 @@
 # Wikidata-Aussagen
 
 Bei jedem Datenobjekt gibt es sogenannte Aussagen, die das aufgerufene Item näher beschreiben. Darin beinhaltet sind Eigenschaften, die mit einem festen Vokabular verbunden sind (zum Beispiel: statt _Internetadresse_ --> _URL_). 
-Eine Aussage besteht also aus zwei Items, die mithilfe einer Eigenschaft verlinkt werden können.
+Es gibt drei Arten von Aussagen: 
+
+1. Der aufgerufene Datensatz wird durch eine Eigenschaft mit einem Wikidata-Item verlinkt.
+
+2. Der aufgerufene Datensatz wird durch eine Eigenschaft mit einem außenstehenden Link verbunden.
+
+3. Der aufgerufene Datensatz wird durch eine Eigenschaft inhaltlich oder objektiv beschrieben. 
 
 Beispiel: [Hannover](https://www.wikidata.org/w/index.php?title=Q1715&oldid=116640350)
 
-Das **1.Item** hier ist _Hannover_. Die Eigenschaften sind _LCNAF_ und _Staat_, mit den dazugehörigen **2.Items** _n83186176_ und _Deutschland_.
+Der aufgerufene Datensatz ist _Hannover_. Die Eigenschaften sind _Staat_; für das Wikidata-Item, _LCNAF_; für den außenstehenden Link und _Kfz-Kennzeichen_; für die einfache Beschreibung. 
 
 ![wikidata_aussagen.png](images/wikidata_aussagen.png)
 
-Allerdings sollte man bei den 2.Items noch unterscheiden, zwischen _Außerhalb_ und _Innerhalb_. Näheres dazu unter: [Wikidata-Items](definition-items.txt)
 
 
 
