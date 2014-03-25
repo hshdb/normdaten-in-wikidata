@@ -17,8 +17,9 @@ Eigenschaft (property)
 Indexierung
   :...
   
-Klassifikation:
+Klassifikation
   :...
+
 Normdaten
   : ...
   
