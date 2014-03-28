@@ -30,3 +30,7 @@ Beispiele und Beschreibungen zu AutoList und WDQ:
 * http://blog.magnusmanske.de/?p=178 (Abfrage mit Qualifiern)
 * http://wdq.wmflabs.org/api_documentation.html (API-Dokumentation)
 * ...
+
+**Wikidata BEACON**
+* http://tools.wmflabs.org/wikidata-todo/beacon.php
+* http://magnusmanske.de/wordpress/?p=168
