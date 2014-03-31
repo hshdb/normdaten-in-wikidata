@@ -6,6 +6,13 @@ Aussagen lassen sich bei Wikidata auf der Seite des Datenobjekts bearbeiten und 
 
 ![aussage-bearbeiten.png](images/aussage-bearbeiten.png)
 
+Wie auf den Screenshots zu sehen, kann man auch Quellen hinzufügen, um die Aussage zu belegen. Dies ist aber optional.
+
+Um eine neue Aussage zu erstellen, muss man auf das "hinzufügen" am Ende der Aussagenliste klicken (rote Umrandung). Auch die Begriffe für die Eigenschaften sind nicht frei wählbar, sie müssen ebenfalls aus einer bestehenden Liste ausgewählt werden.
+
+![neue-aussage.png](images/neue-aussage.png)
+
+
 
 
 
