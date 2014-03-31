@@ -8,6 +8,7 @@ Es sollte in Wikidata bei den meisten Aussagen die Data Herkunft angegeben werde
 • wenn der Wert allgemein bekannt ist und nicht bestritten wurde 
 • wenn das Element sich auf einer externen Quelle bezieht. Es ermöglicht, die Informationen den anderen verbundenen Aussagen leicht zu überprüfen. Es ist somit nicht nötig die referenzierten Quellen in Wikipedia zu haben. 
 • wenn der Artikel selbst eine Quelle für eine Aussage ist - ein Buch für den Autor, ein Film für seine Akteure usw.
+
 ###Richtlinien für die Beschaffung von Quellen für die Aussagen
 
 **Bücher:**
