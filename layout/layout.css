@@ -12,3 +12,4 @@ footer {
 dd+dt { border: none; }
 dd+dd { border: none; }
  
+tr { border-bottom: 1px solid #AAA; }

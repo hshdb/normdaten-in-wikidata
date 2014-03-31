@@ -1,4 +1,10 @@
-\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$lang$,$endif$$if(papersize)$$papersize$,$endif$]{scrbook}
+\documentclass[$if(fontsize)$$fontsize$,$endif$
+    ngerman,
+    $if(papersize)$$papersize$,pagesize,$endif$
+    DIV=12, % Seitenspiegel
+    BCOR=2mm,
+    open=any % start chapter at any page
+]{scrbook}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
@@ -36,6 +42,7 @@ $endif$
 $if(geometry)$
 \usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
 $endif$
+
 $if(natbib)$
 \usepackage{natbib}
 \bibliographystyle{plainnat}
@@ -109,14 +116,22 @@ $endif$
 $if(verbatim-in-note)$
 \VerbatimFootnotes % allows verbatim text in footnotes
 $endif$
-$if(lang)$
+
+% Neue Deutsche Rechtschreibung
 \ifxetex
   \usepackage{polyglossia}
-  \setmainlanguage{$mainlang$}
+  \setmainlanguage{ngerman}
 \else
-  \usepackage[$lang$]{babel}
+  \usepackage[ngerman]{babel}
 \fi
-$endif$
+
+% Abbildungen durchgängig nummerieren
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}
+\makeatletter % wegen XeTeX/Polyglossia
+\g@addto@macro\captionsngerman{\renewcommand\figurename{Bild}} % "Bild" statt "Abbildung"
+\makeatother
+
 $for(header-includes)$
 $header-includes$
 $endfor$
