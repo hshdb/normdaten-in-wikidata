@@ -1,0 +1,11 @@
+## Aussagen in Wikidata bearbeiten und anlegen
+
+![aussagen.png](images/aussagen.png)
+
+Aussagen lassen sich bei Wikidata auf der Seite des Datenobjekts bearbeiten und anlegen. Mit einem Klick auf "bearbeiten" (s. obiger Screenshot) kann man den Wert einer schon bestehenden Eigenschaft bearbeiten. Bei Klicken auf "hinzufügen" ist es möglich, einen neuen Wert zu erstellen. Allerdings können die Begriffe nicht frei gewählt werden, man muss aus einem Pool bereits bestehender und von Wikidata normierten Begriffen auswählen. Das Bearbeiten eines Werts sieht folgendermaßen aus:
+
+![aussage-bearbeiten.png](images/aussage-bearbeiten.png)
+
+
+
+
