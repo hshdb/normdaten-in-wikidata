@@ -1,7 +1,60 @@
 ## Quellen
 
-Alle Aussagen in Wikidata können und sollten mit Quellen belegt werden. 
+Es ist nicht das primäre Ziel der Wikidata detaillierte Eigenschaften von Referenzen zu modellieren. In seiner einfachsten Form ist eine Referenz nur ein String, der zeigt einem Leser den Weg zu einer Quelle. Einige Referenzen können auch selbst Aussagen in Wikidata sein. Zum Beispiel ein Wikipedia-Artikel über ein Buch kann auch als Referenz verwendet werden.
+Eine Referenz kann widersprüchliche Aussagen beinhalten, zB. ein Buch kann mehrere Kapitel enthalten, in denen verschiedene Autoren widersprüchliche Informationen geben.
+In Wikidata sind bislang Quellen "zweiter Ordnung", das heißt Quellen über Quellen, wie sie bei wissenschaftlichen Publikationen manchmal mit der Schreibweise "zitiert nach" vorkommen, nicht vorgesehen. Unabhängig von expliziten Quellen in Wikidata kann auch die Bearbeitung, mit der eine Aussage in Wikidata eingetragen wurde, als Quelle betrachtet werden. Die Information darüber seit wann eine Aussage oder Quellenangabe in Wikidata steht und wer sie dort zuerst eingetragen hat, ist in jedem Fall ein Hinweis zur Beurteilung der in Wikidata vorhandenen Daten.
+##Wenn eine Aussage die Quellenangabe benötigt 
+Es sollte in Wikidata bei den meisten Aussagen die Data Herkunft angegeben werden. In einigen Fällen kann die Quellenangabe allerings übersprungen werden: 
+• wenn der Wert allgemein bekannt ist und nicht bestritten wurde 
+• wenn das Element sich auf einer externen Quelle bezieht. Es ermöglicht, die Informationen den anderen verbundenen Aussagen leicht zu überprüfen. Es ist somit nicht nötig die referenzierten Quellen in Wikipedia zu haben. 
+• wenn der Artikel selbst eine Quelle für eine Aussage ist - ein Buch für den Autor, ein Film für seine Akteure usw.
 
-*...hier noch etwas dazu, wozu Quellen dienen und was in Quellen stehen sollte sowie Beispiele...*
+###Richtlinien für die Beschaffung von Quellen für die Aussagen
 
-Quellen "zweiter Ordnung", das heisst Quellen über Quellen, wie sie bei wissenschaftliche Publikationen manchmal mit der Schreibweise "zitiert nach" vorkommen, sind in Wikidata bislang nicht vorgesehen. Unabhängig von expliziten Quellen in Wikidata kann auch die Bearbeitung, mit der eine Aussage in Wikidata eingetragen wurde, als Quelle betrachtet werden. Die Information darüber seit wann eine Aussage oder Quellenangabe in Wikidata steht und wer sie dort zuerst eingetragen hat, ist in jedem Fall ein Hinweis zur Beurteilung der in Wikidata vorhandenen Daten.
+**Bücher:**
+1.	Prüfen Sie, ob eine Aussage in Wikidata vorhanden ist. Wenn es nicht funktioniert, erstellen Sie ein Element für die Arbeit, und füllen Sie es mit work item properties:
+• Basis: DEPRECATED Haupttyp (GND)  -> kreative Arbeit (Q386724) Instanz -> Buch (Q571) 
+• In der Regel benötigt: Autor, Titel (Titel in der Originalsprache), Originalsprache
+• Optional: Untertitel, bezogen auf … , Genre usw.
+2.	Prüfen Sie, ob eine Aussage in Wikidata vorhanden ist. Wenn sie nicht vorhanden ist, erstellen Sie ein Element für die Arbeit, und füllen Sie es mit edition item properties:
+•	Basis: DEPRECATED Haupttyp (GND) -> kreative Arbeit (Q386724) Instanz -> Ausgabe (Q3331189) 
+•	In der Regel benötigt: Titel, (falls anderes als im Original), Verlag, Sprache, Erscheinungsort,  Datum der Veröffentlichung, Ausgabe Nummer 
+•	Optional: Bild, ISBN-13, Illustrator, Editor, usw.
+3.	Solange das endgültige Artikel-Erstellung System vorhanden ist, denken Sie daran, die Aussage mit edition or translation of (P629) zu verknüpfen.
+4.	Geben Sie Ihre Aussage mit stated in (P248) an. Wenn nötig, ergänzen Sie noch solche Angaben, wie Seite (P304), Zitat (P387), Volumen (P478) oder andere Quelleigenschaften. (page (P304), quote (P387), volume (P478)  und source properties.)
+**Wissenschafts-, Zeitungs-oder Zeitschriftenartikel:**
+1 . Prüfen Sie, ob die Zeitschrift, Zeitung oder Magazin in Wikidata existiert. Wenn diese nicht vorhanden sind, dann erstellen Sie eine Aussage.
+• Basis: DEPRECATED main type (GND) (P107) -> creative work (Q386724), instance of (P31) -> article (Q191067)
+• In der Regel benötigt: Ort der Veröffentlichung ( P291 ), Verlag ( P123 ), ISSN ( P236 )
+2 . Prüfen Sie, ob der Artikel in Wikidata existiert. Wenn er nicht vorhanden ist, dann erstellen Sie einen Artikel für Wikidata mit:
+• Basis: DEPRECATED main type (GND) (P107) -> creative work (Q386724), instance of (P31) -> article (Q191067)
+• wissenschaftliche Artikel: author (P50), volume (P478), issue (P433), date of publication (P577), title (P357) (original title in the original language)[1], original language (P364), page (P304) starting and ending pages, i.e. 234-274, DOI (P356) and language (P407).
+• Zeitung , Magazin:  author (P50), issue (P433), date of publication (P577), page (P304) starting and ending pages (234-274) and language (P407).
+3 . Verknüpfen Sie den erstellten Artikel mit dem originalen Zeitschriftartikel mit part of (P361).
+4 . Belegen Sie Ihre Erklärung mit stated in (P248), die auf Ihre Artikel verlinkt wird. Wenn nötig, ergänzen Sie Zitat (quote (P387)) oder anderen Quelleneigenschaften (source properties).
+**Vorträge, technische Dokumentation:**	
+1.	Prüfen Sie, ob der Artikel in Wikidata existiert. Wenn er nicht vorhanden ist, dann erstellen Sie einen Artikel für Wikidata mit:
+•	Basis: DEPRECATED main type (GND) (P107) -> creative work (Q386724), instance of (P31) oder technical documentation (Q1413406) 
+•	In der Regel benötigt:: author (P50), title (P357) (original title in the original language)[1], original language (P364), date of publication (P577), publisher (P123), DOI (P356) and language (P407).
+2	Belegen Sie Ihre Erklärung mit stated in (P248), die auf Ihre Artikel verlinkt wird. Wenn nötig, füllen mit Zitat (quote (P387)) oder andere Quelleneigenschaften (source properties).
+**Webseite**
+1.	Erstellen Sie keinen Artikel für die Webseite. Fügen Sie die Homepage Parameter in der Quellenangabe der Aussage hinzu.
+2.	Verwenden Sie die Web-Page-Eigenschaft statt stated in (P248) (<datatypes-type-iri> not available yet). Ergänzen Sie author (P50), title (P357) (original title in the original language)[1], original language (P364) and quote (P387) um den Artikel wiederzufinden, falls die url geändert wird.
+3.	Wenn diese Webseite zu einer wichtigen Website gehört, können Sie optional  part of (P361) verwenden, um diese Seiten miteinander zu verbinden.
+4.	Benutzen Sie point in time (P585) für die Data Retrieval. NOTE: diese Anforderungen sollen demnächst automatisiert werden
+Vertrauenswürdige Datenbank Wenn die Datenbank online ist, siehe Homepage.
+Stellen Sie sicher, dass die Datenbank eine anerkannte Quelle von der Wikidata Gemeinschaft ist und das es erlaubt ist, auf ihrer Inhalt zu verweisen.
+1.	Belegen Sie Ihre Aussage mit stated in (P248) für den Namen der Datenbank. Geben Sie die ID-Eigenschaft eines bestimmten Register der Datenbank und Zeitpunkt an(point in time (P585)) um das Datum des letzten Abrufes der Information zu bestätigen.
+**Media (TV/radio/video)**
+1.Falls relevant, erstellen Sie einen Eintrag für das Programm oder die Serie, in welcher die   Information erscheint.
+2.	Belegen Sie Ihre Aussage mit stated in (P248)
+3.	Falls nötig, ergänzen Sie noch date of publication (P577), author (P50), series (P179), episode (to be created), quote (P387).
+         						**Beispiele:**
+**Bücher**:
+•	Work item: CRC Handbook of Chemistry and Physics (Q904273), edition item: CRC Handbook of Chemistry and Physics (92nd edition) (Q11927173)
+**Artikel**:
+•	Chenqiao Coup (Q8012976)
+•	article item Tectonic map and overall architecture of the Alpine orogen (Q13416617), use as source Northern Limestone Alps (Q4935045)
+**Database**:
+•	human (Q5) see: IUCN conservation status
+
