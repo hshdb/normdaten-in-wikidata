@@ -47,7 +47,7 @@ Stellen Sie sicher, dass die Datenbank eine anerkannte Quelle von der Wikidata G
 1.Falls relevant, erstellen Sie einen Eintrag für das Programm oder die Serie, in welcher die   Information erscheint.
 2.	Belegen Sie Ihre Aussage mit stated in (P248)
 3.	Falls nötig, ergänzen Sie noch date of publication (P577), author (P50), series (P179), episode (to be created), quote (P387).
-Beispiele:
+         						**Beispiele:**
 **Bücher**:
 •	Work item: CRC Handbook of Chemistry and Physics (Q904273), edition item: CRC Handbook of Chemistry and Physics (92nd edition) (Q11927173)
 **Artikel**:
