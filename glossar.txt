@@ -25,5 +25,5 @@ Schlagwort
   : Ein Schlagwort beschreibt den Inhalt eines Dokumentes. Im Allgemeinen werden Schlagwörter aus einem kontrollierten und geordnetem Vokabular entnommen (Normdateien, Thesauri oder Klassifikationen). 
   
 Thesaurus
-  : Ein Thesaurus ist eine Sammlung von Schlagworten, welche hierarchisch und thematisch miteinander verknüpft sind. Ein Schlagwort in einem Thesaurus hat i.d.R. 
+  : Ein Thesaurus ist eine Sammlung von Schlagworten, welche hierarchisch und thematisch miteinander verknüpft sind. Ein Schlagwort in einem Thesaurus beinhaltet Synonyme, verwandte Begriffe (Assoziationen), Ober- und Unterbegriffe. 
 
