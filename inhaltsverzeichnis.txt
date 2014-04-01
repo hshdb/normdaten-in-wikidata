@@ -4,7 +4,9 @@ Das Inhaltsverzeichnis wird letzendlich automatisch aus der Kapitelstruktur erze
 
 * Vorwort
 * Abkürzungsverzeichnis
+
 * **1. Einleitung** (1 Einleitung Warum Wikidata? ; Warum eine Datenbank?; Über dieses Handbuch) 
+
 * **2. Wikidata**
 * 2.1. Definition (Merkkasten)
 * 2.2. Entstehung (Merkkasten?)
