@@ -6,26 +6,37 @@ Das Inhaltsverzeichnis wird letzendlich automatisch aus der Kapitelstruktur erze
 * Abkürzungsverzeichnis
 * **1. Einleitung**
 * **2. Wikidata**
-* 2.1. Definition
-* 2.1.1. Wikidata
-* 2.1.2. Daten
-* 2.1.3. Objekt (item)
-* 2.1.4. Aussage
+* 2.1. Definition (Merkkasten)
 * 2.2. Entstehung (Merkkasten?)
-* 2.3. ...
+
+**3. Wikidata-Datenobjekte**
+* 3.1 Allgemein zu Wikidata-Datenobjekte
+* 3.2 Verknüpfung von Weiterleitungen mit Wikidata-Datenobjekten
+* 3.3 Verlinkung von Datenobjekten
+* 3.4 Das Prinzip von Wikidata:
+* 3.5 Dieses Item bearbeiten
+
+**4. Wikidata-Aussagen und Eigenschaften**
+* 4.1 Quellen - Richtlinien für die Beschaffung von Quellen für die    			Aussagen
+* 4.2 Datentypen
+* 4.3 Beschränkungen [Platzhalter] 
+
+* **4. Normdaten in Wikidata**
+* 4.3. Unterschied zwischen Normdaten in Wikidata und anderen Normdaten
+* 4.4. Normdaten-Eigenschaften in Wikidata
+* 4.5 Oberflächenbeschreibung 
+
 * **3. Normdaten**
 * 3.1. Definition
 * 3.2. Entstehung (Merkkasten?)
-* **4. Normdaten in Wikidata**
-* 4.1. Unterschied zwischen Normdaten in Wikidata und anderen Normdaten
-* 4.2. Normdaten-Eigenschaften in Wikidata
-* 4.3. Möglichkeiten 
-* 4.4. Grenzen	
+
 * **5. Praktische Anwendung**
 * 5.1. Inhalte finden in Wikidata
-* 5.2. Datenobjekt erstellen // häufige Fehler --> Icon?
-* 5.3. ...
-* 5.4 ...
+* 5.2. Datenobjekt erstellen
+* 5.3  Übersetzungen in Wikidata bearbeiten und anlegen
+* 5.4  Inhalte aus Wikidata abfragen und weiternutzen
+* 5.5  Übersetzungen der Wikidata-Benutzeroberfläche
+
 * **6. Frequently Asked Questions (FAQ)**
 * Stichwortverzeichnis
 * Glossar
