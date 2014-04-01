@@ -29,11 +29,11 @@ Das Inhaltsverzeichnis wird letzendlich automatisch aus der Kapitelstruktur erze
 * 5.3  Oberflächenbeschreibung 
 * 5.4  Wie können vorhandene Aussagen mit Normdateneigenschaften abgefragt werden?
 
-( **4. Wikidata-Aussagen und Eigenschaften**
-* 4.1 Quellen - Richtlinien für die Beschaffung von Quellen für die    			Aussagen
-* 4.2 Datentypen
-* 4.3 Beschränkungen [Platzhalter] 
-* 4.4 Normdaten-Eigesnchaften )
+        ( **4. Wikidata-Aussagen und Eigenschaften**
+        * 4.1 Quellen - Richtlinien für die Beschaffung von Quellen für   			die Aussagen
+        * 4.2 Datentypen
+        * 4.3 Beschränkungen [Platzhalter] 
+        * 4.4 Normdaten-Eigesnchaften )
 
 * **6. Praktische Anwendung**
 * 6.1. Inhalte finden in Wikidata
@@ -43,7 +43,7 @@ Das Inhaltsverzeichnis wird letzendlich automatisch aus der Kapitelstruktur erze
 * 6.5  Übersetzungen in Wikidata bearbeiten und anlegen
 * 6.6  Dieses Item bearbeiten
 * 6.7  Inhalte aus Wikidata abfragen und weiternutzen
-* 6.5  Übersetzungen der Wikidata-Benutzeroberfläche
+* 6.8  Übersetzungen der Wikidata-Benutzeroberfläche
 
 * **Frequently Asked Questions (FAQ)**
 * Stichwortverzeichnis
