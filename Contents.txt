@@ -5,7 +5,6 @@ abkuerzungsverzeichnis.txt
 inhaltsverzeichnis.txt
 einleitung.txt
 definition-daten.txt
-definition-wikidata.txt
 definition-items.txt
 bezeichnungen-und-beschreibungen.txt
 wikidata-eigenschaften.txt
