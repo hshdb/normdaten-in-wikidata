@@ -26,4 +26,6 @@ Schlagwort
   
 Thesaurus
   : Ein Thesaurus ist eine Sammlung von Schlagworten, welche hierarchisch und thematisch miteinander verknüpft sind. Ein Schlagwort in einem Thesaurus beinhaltet Synonyme, verwandte Begriffe (Assoziationen), Ober- und Unterbegriffe. 
+  
+  [Quelle](http://lotse.sub.uni-hamburg.de/chemie/literatur_recherchieren_und_beschaffen/strategien_zur_literatursuche/exkurs_stichwort_schlagwort-de.php)
 
