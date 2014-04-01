@@ -13,3 +13,11 @@ dd+dt { border: none; }
 dd+dd { border: none; }
  
 tr { border-bottom: 1px solid #AAA; }
+
+.caption { font-size: small; font-style: normal; }
+
+a[href^='#']:before { content: "↗ "; }
+h1 a[href^='#']:before { content: ""; }
+h2 a[href^='#']:before { content: ""; }
+h3 a[href^='#']:before { content: ""; }
+li a[href^='#']:before { content: ""; }
