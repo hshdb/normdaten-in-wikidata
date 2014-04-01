@@ -2,7 +2,8 @@
 
 Oberflächenbeschreibung
 
-Die Oberfläche von Wikidata setzt sich aus verschiedenen Komponenten zusammen. 
+Die Oberfläche von Wikidata setzt sich aus verschiedenen Komponenten zusammen.
+
 
 ![Oberflaeche.PNG](images/Oberflaeche.PNG)
 
