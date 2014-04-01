@@ -1,6 +1,6 @@
 ## Quellen
 
-Es ist nicht das primäre Ziel der Wikidata detaillierte Eigenschaften von Referenzen zu modellieren. In seiner einfachsten Form ist eine Referenz nur ein String, der zeigt einem Leser den Weg zu einer Quelle. Einige Referenzen können auch selbst Aussagen in Wikidata sein. Zum Beispiel ein Wikipedia-Artikel über ein Buch kann auch als Referenz verwendet werden.
+Es ist nicht das primäre Ziel der Wikidata, detaillierte Eigenschaften von Referenzen zu modellieren. In seiner einfachsten Form ist eine Referenz nur ein Pfad, der einem Leser den Weg zu einer Quelle zeigt. Einige Referenzen können auch selbst Aussagen in Wikidata sein. Ein Wikipedia-Artikel über ein Buch kann beispielsweise auch als Referenz verwendet werden.
 Eine Referenz kann widersprüchliche Aussagen beinhalten, zum Beispiel ein Buch kann mehrere Kapitel enthalten, in denen verschiedene Autoren widersprüchliche Informationen geben.
 In Wikidata sind bislang Quellen "zweiter Ordnung", das heißt Quellen über Quellen, nicht vorgesehen. Unabhängig von expliziten Quellen in Wikidata kann auch die Bearbeitung, mit der eine Aussage in Wikidata eingetragen wurde, als Quelle betrachtet werden. Die Information darüber seit wann eine Aussage oder Quellenangabe in Wikidata steht und wer sie dort zuerst eingetragen hat, ist in jedem Fall ein Hinweis zur Beurteilung der in Wikidata vorhandenen Daten.
 
