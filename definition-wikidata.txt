@@ -1,34 +1,5 @@
-# Wikidata
-## Definition
-Wikidata ist ein Daten-Repository (engl. für Lager, Depot), welches die Datengrundlage vieler Sprachversionen von Wikipedia darstellt.
+# Löschen
 
-![Sprachliste Wikipedia](images/sprachleiste1.jpg)
-
-In der obigen Abbildung sieht man ein Beispiel für die Funktionsweise von Wikidata: Verschiedene Bezeichnungen des Wikipedia-Artikels werden zentral in Wikidata gesammelt. Sie fungiert in dieser Hinsicht wie ein vielsprachiges Wörterbuch. 
-
-Wikidata ist eine freie Datenbank, die von Menschen wie auch von Maschinen gelesen und bearbeitet werden kann. Da Wikidata eine sekundäre Datenbank ist, kann es über Links mit u.a. Wikipedia verknüpft werden. Dadurch bietet sich die Möglichkeit, die Quellen zu überprüfen. Das Ziel von Wikidata ist eine strukturierte Zentralisierung von Daten und Fakten für die interne und externe Nutzung.
-
-Was Wikimedia Commons für Medien ist, leistet Wikidata für sonstige Daten: Durch Wikidata werden der Zugriff und die Verwaltung von strukturierten Daten wie Interwiki-Links, Infoboxen und statistischen Informationen zentralisiert. Wikidata enthält Daten in zahlreichen Sprachen, für die es Wikimedia-Projekte gibt. Lies die [Einführung](https://www.wikidata.org/wiki/Wikidata:Einf%C3%BChrung), um mehr über Wikidata zu erfahren!
-
-## Entstehung
-
-Das Projekt *Wikidata* wurde im April 2012 durch die *Wikimedia Foundation* ins Leben gerufen und von *Wikimedia Deutschland* bearbeitet. Finanziert wurde es mithilfe von Spenden, u.a. von Google.
-
-Offizieller Start war allerdings erst im Oktober 2012. Um dem Projekt eine Struktur zu geben, wurde es in drei Phasen aufgeteilt. 
-
-Zuerst wurden Sprachlinks von Wikipedia-Beiträgen in Wikidata zu 
-Datenobjekten und mit Beschreibungen und Bezeichnungen versehen. Um dies zu vereinfachen, wurden automatische Computerskripte (*Bots*) verwendet.
-Ab März 2013 waren dann alle Sprachversionen freigeschaltet.
-
-Der nächste Schritt beinhaltete, dass Aussagen zu den Datenobjekten hinzugefügt werden konnten. Dies geschah u.a. ebenfalls mit Bots und dem Datenfundament aus Wikipedia-Infoboxen und -Kategorien.
-
-Der letzte Schritt ist noch in Bearbeitung. Es soll ermöglicht werden, dass Listen automatisch erstellt und Fakten aktualisiert werden. 
-
-Ziel des Projektes ist es, dass Infoboxen entstehen die in einer zentralen Datenbank gespeichert sind und dass alle Wikimedia-Projekte darauf zugreifen können.
-
-**Quelle:**
-[Wikidata](https://www.wikidata.org/w/index.php?title=Wikidata:Hauptseite&oldid=108180618) - Nutzerquelle
-[heise](http://www.heise.de/newsticker/meldung/Wikidata-Daten-Fundus-fuer-Wikipedia-eroeffnet-1740780.html) - unsere Quelle 
 
 
 

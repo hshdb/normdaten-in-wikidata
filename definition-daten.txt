@@ -1,6 +1,6 @@
-## Warum Daten?
+## Warum eine Datenbank?
 
-Wikidata ist eine Datenbank, doch wa bedeutet das? In der Informatik besteht eine Datenbank aus einem Computerprogramm zur Verwaltung von Daten (¨Datenbankmanagementsystem¨) und den darin gespeicherten Daten (¨Datenbestand¨ oder ¨Datenbasis¨). Die Eigenschaften und Einstellungen des Datenbankmanagementsystems sorgen dafür, dass die Daten in einer Datenbank eine einheiliche Struktur besitzen.
+Wikidata ist eine Datenbank, doch was bedeutet das? In der Informatik besteht eine Datenbank aus einem Computerprogramm zur Verwaltung von Daten (¨Datenbankmanagementsystem¨) und den darin gespeicherten Daten (¨Datenbestand¨ oder ¨Datenbasis¨). Die Eigenschaften und Einstellungen des Datenbankmanagementsystems sorgen dafür, dass die Daten in einer Datenbank eine einheiliche Struktur besitzen.
 
 Im Falle von Wikidata besteht das **Datenbankmanagementsystem** aus der Wikidata-Software, die sich aus einer Wiki-Komponente namens ¨MediaWiki¨ und einer Datenbank-Komponente namens ¨Wikibase¨ zusammensetzt. MediaWiki wird auch für Wikipedia und die anderen Projekte der Wikimedia-Foundation eingesetzt, während Wikibase speziell für Wikidata entwickelt wurde.
 
@@ -16,15 +16,8 @@ Grundsätzlich bestehen **Daten** aus Zeichen, die von Computern verarbeitet wer
 
 Die Sicht auf **Daten als Fakten** entspringt einer naiv-naturwissenschaftlichen Weltsicht, nach der Daten Informationen über die Welt repräsentieren oder enthalten. Im Wesentlichen ist Wikidata durch diese Sicht motiviert: Wikidata soll speichern und Antwort darauf geben, was tatsächlich der Fall ist.
 
-Im Gegensatz dazu geht die Sicht auf **Daten als Beobachtungen** davon aus, dass alle Angaben über die Welt subjektiv sind. Um Daten zu interpretieren, ist deshalb immer ein Kontext notwendig. Kontexte können u.A. dabei helfen, verschiedene Bedeutungen von Daten zu erkennen und einzuschätzen wie vertrauenswürdig und nützlich Daten sind. Wikidata sieht mehrere Verfaren zur Angabe von Kontextinformationen vor (siehe Kapitel X zu Quellen, Qualifiern etc.). Da diese Informationen wiederum selbst nur als Daten vorliegen, lässt sich das Problem der Subjektivität von Daten aber nicht vollständig lösen.
+Im Gegensatz dazu geht die Sicht auf **Daten als Beobachtungen** davon aus, dass alle Angaben über die Welt subjektiv sind. Um Daten zu interpretieren, ist deshalb immer ein Kontext notwendig. Kontexte können unter Anderem dabei helfen, verschiedene Bedeutungen von Daten zu erkennen und einzuschätzen wie vertrauenswürdig und nützlich Daten sind. Wikidata sieht mehrere Verfaharen zur Angabe von Kontextinformationen vor (siehe die Kapitel zu [Quellen](#quellen) und [Qualifikatoren](#qualifikatoren)). Da diese Informationen wiederum selbst nur als Daten vorliegen, lässt sich das Problem der Subjektivität von Daten aber nicht vollständig lösen.
 
 Die Sicht auf **Daten als digitale Dokumente oder Objekte** ist vor allem bei digitalen Medien wie Texten, Bildern, Filmen oder Musik üblich. Die Wikimedia-Foundation betreibt zur Sammlung solcher Dokumente das digitale Medienarchiv Commons. Grundsätzlich lassen sich aber alle Daten auch als digitale Dokumente auffassen: so sind alle Bearbeitungen und Inhalte von Wikidata gleichzeitig Dokumente des menschlichen Antriebs, die Welt zu verstehen und zu deuten.
 
-*...hier kurze Zusammenfassung in 2-3 Sätzen...*
-
-Laut Definition der Norm des internationalen Technologiestandards ISO/IEC 2382-1 für Informationstechnik (seit 1993) sind Daten – eine wieder interpretierbare Darstellung von Information in formalisierter Art, geeignet zur Kommunikation, Interpretation oder Verarbeitung. In der Informatik und Datenverarbeitung versteht man Daten gemeinhin als (maschinen-) lesbare und -bearbeitbare, in der Regel digitale Repräsentation von Information. Ihr Inhalt wird dazu meist zunächst in Zeichen bzw. Zeichenketten kodiert, deren Aufbau strengen Regeln folgt, der sogenannten Syntax. Um aus Daten wieder die Informationen zu abstrahieren, müssen sie in einem Bedeutungskontext interpretiert werden. 
-
-Quellen:
-
-1.	http://de.wikipedia.org/wiki/Daten
-2.	Heinz-Peter Gumm, Manfred Sommer: Einführung in die Informatik. 10. Auflage. Oldenbourg Verlag, ISBN 978-3-486-70641-3, S. 4 f.
+Zusammengefasst ist Wikidata also eine Datenbank, die sowohl Fakten als auch (mit Quellen belegte) Beobachtungen enthält. Die Inhalte von Wikidata sind dabei so kodiert, dass sie automatisch verarbeitet und weiterverwendet werden können.

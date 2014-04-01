@@ -1,6 +1,0 @@
-# Übersetzungen bearbeiten
-Übersetzungen bearbeiten kann ein Übersetzer. Dieser kann beim Übersetzen von [Wikibase](https://translatewiki.net/wiki/Special:Translate?group=ext-wikibase-repo), der zugrundeliegenden Erweiterung von Wikidata mithelfen. Auch über die [Meta Seite](https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikidata) kann bei der Übersetzung weitergeholfen werden, ebenso können die Seiten über [Wikidata](https://www.wikidata.org/wiki/Special:LanguageStats)  übersetzt werden. 
-
-#Übersetzungen anlegen
-Wikidata arbeitet an einem Modell bei dem alle Sprachen bzw. Sprachlinks mit einem zentralen Punkt verknüpft werden. Sodass sämtliche Wiki Einträge bei einem Datensatz auf Wikidata verlinkt sind. Es können [Anträge](https://www.wikidata.org/w/index.php?title=Wikidata:Translators%27_noticeboard&oldid=115958854) zur Übersetzung gestellt werden oder Verbesserungsvorschläge und Rechtschreibkorrekturen angemerkt werden. 
-
