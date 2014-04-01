@@ -4,7 +4,7 @@ Das Inhaltsverzeichnis wird letzendlich automatisch aus der Kapitelstruktur erze
 
 * Vorwort
 * Abkürzungsverzeichnis
-* **1. Einleitung**
+* **1. Einleitung** (1 Einleitung Warum Wikidata? ; Warum eine Datenbank?; Über dieses Handbuch) 
 * **2. Wikidata**
 * 2.1. Definition (Merkkasten)
 * 2.2. Entstehung (Merkkasten?)
@@ -14,27 +14,31 @@ Das Inhaltsverzeichnis wird letzendlich automatisch aus der Kapitelstruktur erze
 * 3.2 Verknüpfung von Weiterleitungen mit Wikidata-Datenobjekten
 * 3.3 Verlinkung von Datenobjekten
 * 3.4 Das Prinzip von Wikidata:
-* 3.5 Dieses Item bearbeiten
 
 **4. Wikidata-Aussagen und Eigenschaften**
 * 4.1 Quellen - Richtlinien für die Beschaffung von Quellen für die    			Aussagen
 * 4.2 Datentypen
 * 4.3 Beschränkungen [Platzhalter] 
+* 4.4 Normdaten-Eigesnchaften 
+
+* **. Normdaten**
+* 3.1. Definition
+* 3.2. Entstehung (Merkkasten?)
 
 * **5. Normdaten in Wikidata**
 * 5.1. Unterschied zwischen Normdaten in Wikidata und anderen Normdaten
 * 5.2. Normdaten-Eigenschaften in Wikidata
 * 5.3  Oberflächenbeschreibung 
-
-* **3. Normdaten**
-* 3.1. Definition
-* 3.2. Entstehung (Merkkasten?)
+* 5.4  Wie können vorhandene Aussagen mit Normdateneigenschaften abgefragt werden? 
 
 * **5. Praktische Anwendung**
 * 5.1. Inhalte finden in Wikidata
 * 5.2. Datenobjekt erstellen
-* 5.3  Übersetzungen in Wikidata bearbeiten und anlegen
-* 5.4  Inhalte aus Wikidata abfragen und weiternutzen
+* 5.3  Aussagen erstellen
+* 5.4  Eigenschaften definieren 
+* 5.5  Übersetzungen in Wikidata bearbeiten und anlegen
+* 5.6  Dieses Item bearbeiten
+* 5.7  Inhalte aus Wikidata abfragen und weiternutzen
 * 5.5  Übersetzungen der Wikidata-Benutzeroberfläche
 
 * **6. Frequently Asked Questions (FAQ)**
