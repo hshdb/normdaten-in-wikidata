@@ -38,13 +38,13 @@ $include-before$
 $endfor$
 $if(title)$
 <header>
-<h1 class="title">$title$</h1>
-$for(author)$
-<h2 class="author">$author$</h2>
-$endfor$
-$if(date)$
-<h3 class="date">$date$</h3>
-$endif$
+  <div id="title">$title$</div>
+  $for(author)$
+  <div id="author">$author$</div>
+  $endfor$
+  $if(date)$
+  <div id="date">$date$</div>
+  $endif$
 </header>
 $endif$
 $if(toc)$
@@ -52,7 +52,9 @@ $if(toc)$
 $toc$
 </nav>
 $endif$
+<div id="content">
 $body$
+</div>
 <footer>
   $if(source-url)$<div>Ausgangsdaten: <a href="$source-url$">$source-url$</a></div>$endif$
   $if(commit-date)$<div>Letzte Änderung: $commit-date$</div>$endif$
