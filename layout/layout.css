@@ -9,15 +9,28 @@ footer {
   border-bottom: 2px solid #000;
 }
 
-dd+dt { border: none; }
-dd+dd { border: none; }
- 
+
 tr { border-bottom: 1px solid #AAA; }
 
-.caption { font-size: small; font-style: normal; }
+/* Glossar */
+dt { font-weight: bold; }
 
+
+/* Bildunterschriften */
+.caption { 
+    font-size: small; 
+    font-style: normal;
+    margin-top: 0.5em;
+}
+
+/* Interne Verweise durch Pfeil kennzeichnen */
 a[href^='#']:before { content: "↗ "; }
 h1 a[href^='#']:before { content: ""; }
 h2 a[href^='#']:before { content: ""; }
 h3 a[href^='#']:before { content: ""; }
+h4 a[href^='#']:before { content: ""; }
 li a[href^='#']:before { content: ""; }
+
+/* Inhaltsverzeichnis */
+#TOC ul { list-style-type: none; }
+#TOC > ul { padding: 0 }

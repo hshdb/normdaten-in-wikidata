@@ -376,37 +376,7 @@ caption /* This is for a table caption tag, not the p.caption Pandoc uses in a d
     margin-bottom: 0.3em; /* Good for when on top */
     padding-bottom: 0.2em;
     }
-
-/* ---- Definition lists ---- */
-
-dl /* The whole list */
-    {
-    border-top: 2pt solid black;
-    padding-top: 0.5em;
-    border-bottom: 2pt solid black;
-    }
-
-dt /* Definition term */
-    {
-    font-weight: bold;
-    }
-
-dd+dt /* 2nd or greater term in the list */
-    {
-    border-top: 1pt solid black;
-    padding-top: 0.5em;
-    }
-    
-dd /* A definition */
-    {
-    margin-bottom: 0.5em;
-    }
-
-dd+dd /* 2nd or greater definition of a term */
-    {
-    border-top: 1px solid black; /* To separate multiple definitions */
-    }
-    
+   
 /* ---- Footnotes ---- */
 
 a.footnote, a.footnoteRef { /* Pandoc, MultiMarkdown footnote links */
