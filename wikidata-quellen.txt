@@ -3,20 +3,10 @@
 Es ist nicht das primäre Ziel der Wikidata detaillierte Eigenschaften von Referenzen zu modellieren. In seiner einfachsten Form ist eine Referenz nur ein String, der zeigt einem Leser den Weg zu einer Quelle. Einige Referenzen können auch selbst Aussagen in Wikidata sein. Zum Beispiel ein Wikipedia-Artikel über ein Buch kann auch als Referenz verwendet werden.
 Eine Referenz kann widersprüchliche Aussagen beinhalten, zB. ein Buch kann mehrere Kapitel enthalten, in denen verschiedene Autoren widersprüchliche Informationen geben.
 In Wikidata sind bislang Quellen "zweiter Ordnung", das heißt Quellen über Quellen, wie sie bei wissenschaftlichen Publikationen manchmal mit der Schreibweise "zitiert nach" vorkommen, nicht vorgesehen. Unabhängig von expliziten Quellen in Wikidata kann auch die Bearbeitung, mit der eine Aussage in Wikidata eingetragen wurde, als Quelle betrachtet werden. Die Information darüber seit wann eine Aussage oder Quellenangabe in Wikidata steht und wer sie dort zuerst eingetragen hat, ist in jedem Fall ein Hinweis zur Beurteilung der in Wikidata vorhandenen Daten.
-##Wenn eine Aussage die Quellenangabe benötigt 
-Es sollte in Wikidata bei den meisten Aussagen die Data Herkunft angegeben werden. In einigen Fällen kann die Quellenangabe allerings übersprungen werden: 
-• wenn der Wert allgemein bekannt ist und nicht bestritten wurde 
-• wenn das Element sich auf einer externen Quelle bezieht. Es ermöglicht, die Informationen den anderen verbundenen Aussagen leicht zu überprüfen. Es ist somit nicht nötig die referenzierten Quellen in Wikipedia zu haben. 
-• wenn der Artikel selbst eine Quelle für eine Aussage ist - ein Buch für den Autor, ein Film für seine Akteure usw.
 
-_Richtlinien für die Beschaffung von Quellen für die Aussagen - link (!)_
-_wird noch ergänzt_
-         						**Beispiele:**
-**Bücher**:
-•	Work item: CRC Handbook of Chemistry and Physics (Q904273), edition item: CRC Handbook of Chemistry and Physics (92nd edition) (Q11927173)
-**Artikel**:
-•	Chenqiao Coup (Q8012976)
-•	article item Tectonic map and overall architecture of the Alpine orogen (Q13416617), use as source Northern Limestone Alps (Q4935045)
-**Database**:
-•	human (Q5) see: IUCN conservation status
+Es sollte in Wikidata bei den meisten Aussagen die Quellenangabe angegeben werden. In einigen Fällen kann sie allerdings übersprungen werden: 
+- Wenn der Wert allgemein bekannt ist und nicht bestritten wurde. 
+- Wenn das Element sich auf einer externen Quelle bezieht. Es ermöglicht, die Informationen den anderen verbundenen Aussagen leicht zu überprüfen. Es ist somit nicht nötig, die referenzierten Quellen in Wikipedia zu haben. 
+- Wenn der Artikel selbst eine Quelle für eine Aussage ist - ein Buch für den Autor, ein Film für seine Akteure usw.
 
+Es gibt verschiedene Richtlinien für die Beschaffung von Quellen für die Aussagen, die Sie [hier](http://www.wikidata.org/wiki/Help:Sources/de) anschauen können.
