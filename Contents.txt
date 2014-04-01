@@ -26,3 +26,4 @@ ueber-dieses-buch.txt
 aussagen-bearbeiten-und-anlegen.txt
 Einfuehrung_in_Wikidata.txt
 Einfuehrung_in_Normdaten.txt
+Bestandteile_von_Wikidata.txt
