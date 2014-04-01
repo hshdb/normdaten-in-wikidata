@@ -3,51 +3,37 @@
 Das Inhaltsverzeichnis wird letzendlich automatisch aus der Kapitelstruktur erzeugt. Diese Datei kann als Platzhalter dienen, um die vorgesehene Kapitelstruktur zu bearbeiten.
 
 * Vorwort
+* Inhaltsverzeichnis
 * Abkürzungsverzeichnis
 
-* **1. Einleitung** (1 Einleitung Warum Wikidata? ; Warum eine Datenbank?; Über dieses Handbuch) 
+* **1. Einleitung**
 
 * **2. Einführung in Normdaten**
-* 2.1. Definition
-* 2.2. Entstehung (Merkkasten?)
 
 * **3. Einführung in Wikidata**
-* 3.1. Definition (Merkkasten)
-* 3.2. Entstehung (Merkkasten?)
 
-**4. Bestandteile von Wikidata**
-* 4.1 Aussagen
-* 4.2 Datentypen
-* 4.3 Allgemein zu Wikidata-Datenobjekte
-* 4.4 Verknüpfung von Weiterleitungen mit Wikidata-Datenobjekten
-* 4.5 Verlinkung von Datenobjekten
-* 4.6 Das Prinzip von Wikidata
+* **4. Bestandteile von Wikidata**
+* 4.1 Item
+* 4.2 Aussagen
+* 4.3 Eigenschaften
 
 * **5. Normdaten in Wikidata**
-* 5.1. Unterschied zwischen Normdaten in Wikidata und anderen Normdaten
-* 5.2. Normdaten-Eigenschaften in Wikidata
-* 5.3  Oberflächenbeschreibung 
-* 5.4  Wie können vorhandene Aussagen mit Normdateneigenschaften abgefragt werden?
-
-        ( **4. Wikidata-Aussagen und Eigenschaften**
-        * 4.1 Quellen - Richtlinien für die Beschaffung von Quellen für   			die Aussagen
-        * 4.2 Datentypen
-        * 4.3 Beschränkungen [Platzhalter] 
-        * 4.4 Normdaten-Eigesnchaften )
+* 5.1. Normdaten-Eigenschaften in Wikidata
+* 5.2. Unterschied zwischen Normdaten in Wikidata und anderen Normdaten
 
 * **6. Praktische Anwendung**
 * 6.1. Inhalte finden in Wikidata
-* 6.2. Datenobjekt erstellen
-* 6.3  Aussagen erstellen
-* 6.4  Eigenschaften definieren 
-* 6.5  Übersetzungen in Wikidata bearbeiten und anlegen
-* 6.6  Dieses Item bearbeiten
-* 6.7  Inhalte aus Wikidata abfragen und weiternutzen
-* 6.8  Übersetzungen der Wikidata-Benutzeroberfläche
+* 6.2. Weiternutzung von vorhandenen Daten
+* 6.3  Item erstellen
+* 6.4  Aussagen bearbeiten
+* 6.5  Neue Wikidata-Eigenschaften erstellen
+* 6.6  Übersetzung und Kurzbeschreibung
 
-* **Frequently Asked Questions (FAQ)**
+* **Anhang**
+* FAQ
 * Stichwortverzeichnis
 * Glossar
+* Hilfreiche weiterleitende Literatur
 * Literaturverzeichnis
 * Abbildungsverzeichnis
 * Tabellenverzeichnis
