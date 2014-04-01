@@ -21,10 +21,10 @@ Das Inhaltsverzeichnis wird letzendlich automatisch aus der Kapitelstruktur erze
 * 4.2 Datentypen
 * 4.3 Beschränkungen [Platzhalter] 
 
-* **4. Normdaten in Wikidata**
-* 4.3. Unterschied zwischen Normdaten in Wikidata und anderen Normdaten
-* 4.4. Normdaten-Eigenschaften in Wikidata
-* 4.5 Oberflächenbeschreibung 
+* **5. Normdaten in Wikidata**
+* 5.1. Unterschied zwischen Normdaten in Wikidata und anderen Normdaten
+* 5.2. Normdaten-Eigenschaften in Wikidata
+* 5.3  Oberflächenbeschreibung 
 
 * **3. Normdaten**
 * 3.1. Definition
