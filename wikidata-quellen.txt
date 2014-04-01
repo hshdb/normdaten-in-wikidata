@@ -5,8 +5,9 @@ Eine Referenz kann widersprüchliche Aussagen beinhalten, zum Beispiel ein Buch 
 In Wikidata sind bislang Quellen "zweiter Ordnung", das heißt Quellen über Quellen, nicht vorgesehen. Unabhängig von expliziten Quellen in Wikidata kann auch die Bearbeitung, mit der eine Aussage in Wikidata eingetragen wurde, als Quelle betrachtet werden. Die Information darüber seit wann eine Aussage oder Quellenangabe in Wikidata steht und wer sie dort zuerst eingetragen hat, ist in jedem Fall ein Hinweis zur Beurteilung der in Wikidata vorhandenen Daten.
 
 Es sollte in Wikidata bei den meisten Aussagen die Quellenangabe angegeben werden. In einigen Fällen kann sie allerdings übersprungen werden: 
-- Wenn der Wert allgemein bekannt ist und nicht bestritten wurde. 
-- Wenn das Element sich auf einer externen Quelle bezieht. Es ermöglicht, die Informationen den anderen verbundenen Aussagen leicht zu überprüfen. Es ist somit nicht nötig, die referenzierten Quellen in Wikipedia zu haben. 
-- Wenn der Artikel selbst eine Quelle für eine Aussage ist - ein Buch für den Autor, ein Film für seine Akteure usw.
+
+* Wenn der Wert allgemein bekannt ist und nicht bestritten wurde. 
+* Wenn das Element sich auf einer externen Quelle bezieht. Es ermöglicht, die Informationen den anderen verbundenen Aussagen leicht zu überprüfen. Es ist somit nicht nötig, die referenzierten Quellen in Wikipedia zu haben. 
+* Wenn der Artikel selbst eine Quelle für eine Aussage ist - ein Buch für den Autor, ein Film für seine Akteure usw.
 
 Es gibt verschiedene Richtlinien für die Beschaffung von Quellen für die Aussagen, die Sie [hier](http://www.wikidata.org/wiki/Help:Sources/de) anschauen können.
