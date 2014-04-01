@@ -1,6 +1,7 @@
 # Abkürzungsverzeichnis {.unnumbered}
 - DDC = Dewey-Decimal-Classification
 - DNB = Deutsche Nationalbibliothek 
+- FAQ = Frequently Asked Questions
 - GND = Gemeinsame Normdatei
 - HsH = Hochschule Hannover
 - ICD-10 = **I**nternational Statistical **C**lassification of **D**iseases and Related Health Problems
