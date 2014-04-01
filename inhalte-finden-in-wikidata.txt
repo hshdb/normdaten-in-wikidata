@@ -12,7 +12,7 @@ Außerdem die Suche nach Datenobjekten wie Titel, die nach einem Datensatz zu ei
 ![Suchen_Erweitert.PNG](images/Suchen_Erweitert.PNG)
 ![Suchen_Auswahlm_glichkeiten.PNG](images/Suchen_Auswahlm_glichkeiten.PNG)
 
-Menüpunkte:
+Begrifferklärungen/Menüpunkte
 
 Inhaltsseiten: Suchen in Seiten
 Multimedia: Nach Dateien suchen
