@@ -12,10 +12,11 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
   : Eintrag in Wikidata, der sich auf einen Gegenstand (Person, Ort, Konzept...) bezieht. Jedes Wikidata-Datenobjekt hat eine eindeutige ID, die mit `Q` beginnt. Datenobjekte sind mit anderen Datenobjekten verknüpft.
   
 **Indexierung**
-  :...
+  : ...
   
 **Klassifikation**
-  :...
+  : Eine Klassifikation ist ein hierarchisches Verzeichnis von Schlagworten, welche nach Wissensgebieten geordnet sind (sog. Klassen). 
+  Die Ordnung einer Klassifikation erfolg stets vom allgemeinen zum speziellen. Die Klassifikationsnummern dienen der Suche nach einem speziellen Thema. Klassifikationsnummern bestehen dabei oft aus einem Buchstaben (Wissensgebiet) und einer Zahl (Teilgebiet). 
 
 **Normdaten**
   : ...
