@@ -32,6 +32,6 @@ Loeschen.txt
 Item_erstellen.txt
 Bestandteile_von_Wikidata.txt
 Neue_Wikidata-Eigenschaften_erstellen.txt
+Stichwortverzeichnis.txt
 Anhang.txt
 loeschen.txt
-
