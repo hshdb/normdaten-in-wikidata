@@ -4,9 +4,22 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
 
 **Aussage (statement)**
   : Eine Aussage ist eine Untereinheit eines Datenobjektes in Wikidata. Aussagen bestehen in der Regel aus einer normierten Eigenschaft, ihnen  zugewiesenen Datenobjekten und optionalen Quellenangaben. Nicht jede Eigenschaft muss als Wert ein Datenobjekt beinhalten, manche enthalten einfache externe Verlinkungen (Normdaten, Websiten...) oder einfache Daten (geografische Daten, Ländercodes...).
+  
+**Bot:** 
+  : ...
  
+ **Datenbankmanagementsystem**
+  : ...
+  
+**Datenbestand
+  : ...
+
 **Datentyp** 
   : ...
+  
+
+ 
+  
 **Eigenschaft (property)**
   : Eigenschaften sind Bestandteile von Aussagen. Ihnen können Werte (Items) zugeordnet werden. Jede Eigenschaft ist einzigartig und beschreibt die Merkmale der ihnen zugewiesenen Items.  
   
