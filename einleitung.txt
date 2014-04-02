@@ -1,4 +1,4 @@
-# Einleitung
+# Einleitung{.unnumbered}
 
 ## Warum dieses Handbuch?
 
