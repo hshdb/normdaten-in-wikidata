@@ -1,4 +1,4 @@
-# Literaturverzeichnis {.unnumbered}
+# Quellenverzeichnis {.unnumbered}
 
 ## Allgemeines {.unnumbered}
 
