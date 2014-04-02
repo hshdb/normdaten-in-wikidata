@@ -1,4 +1,5 @@
-# Wikidata-Datenobjekte
+
+# Wikidata-Item
 
 ## Allgemein zu Wikidata-Datenobjekte
 

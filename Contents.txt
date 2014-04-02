@@ -5,7 +5,6 @@ abkuerzungsverzeichnis.txt
 inhaltsverzeichnis.txt
 einleitung.txt
 definition-daten.txt
-definition-wikidata.txt
 definition-items.txt
 bezeichnungen-und-beschreibungen.txt
 wikidata-eigenschaften.txt
@@ -26,4 +25,10 @@ ueber-dieses-buch.txt
 aussagen-bearbeiten-und-anlegen.txt
 Einfuehrung_in_Wikidata.txt
 Einfuehrung_in_Normdaten.txt
+Wikidata-Item.txt
+Normdaten_Praxis.txt
+L_schentxt.txt
+Loeschen.txt
+Item_erstellen.txt
 Bestandteile_von_Wikidata.txt
+
