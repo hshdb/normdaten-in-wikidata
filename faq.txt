@@ -1,4 +1,4 @@
 # FAQ
 
-1. Wo finde ich 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+1. Stellt Wikidata Doppelarbeit dar, wenn es bereits entsprechende Wikipedia-Artikel gibt? 
+2. Wie kann ich die Benutzersprache in Wikidata auf meine Sprache umstellen? 

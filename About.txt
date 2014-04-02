@@ -1,7 +1,6 @@
-# Über WikiData
+**Handbuch *Normdaten in Wikidata***
 
-* Gründung von WikiData
-
-* Technische Umsetzung von WikiData
-Test
-
+* **[Bearbeitung](https://www.penflip.com/nichtich/normdaten-in-wikidata)** und [git-Repository](https://www.penflip.com/nichtich/normdaten-in-wikidata.git) bei Penflip
+* [Kopie des git-Repository](https://github.com/hshdb/normdaten-in-wikidata) bei GitHub
+* [Snapshots und Übersichten](http://hshwd.jakobvoss.de/) mit [HTML-Version](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html)
+* [Projektmanagement](https://trello.com/hshwd2014) bei Trello

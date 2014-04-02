@@ -5,16 +5,12 @@ Dieses Handbuch entstand im Rahmen eines Projektseminars im Bachelor-Studiengang
 ## Struktur des Handbuch-Repository {.unnumbered}
 
 * Die eigentlichen Inhalte befinden sich in [Markdown-Syntax](#verwendete-markdown-syntax) in Dateien mit der Endung `.txt`.
-
 * In der der Datei `Contents.txt` ist festgelegt, welche Markdown-Dateien in welcher Reihenfolge letztendlich das Handbuch bilden. Pro Zeile ist ein Dateiname angegeben; Leerzeilen und Zeilen, die mit `>` beginnen, werden ignoriert.
-
 * Das Verzeichnis `images/` enthält Bilder.
-
 * Das Verzeichnis `layout/` enthält Template- und Stylesheet-Dateien.
-
 * Die Dateien `About.txt` und `README.md` enthalten kurze Projektbeschreibungen, die nicht im Handbuch auftauchen.
-
 * Die Datei `Makefile` enthält Anweisungen, um aus den Inhaltsdateien das Handbuch in verschiedenen Ausgabeformaten zu erzeugen.
+* Das Verzeichnis `scripts/` enthält zusätzliche Programme zur Verwaltung und Erstellung von Übersichten.
 
 ## Verwendete Markdown-Syntax {.unnumbered}
 

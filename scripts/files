@@ -1,0 +1,14 @@
+#!/usr/bin/env perl
+
+my @included = map { chomp; $_ } `awk '/^[^ >]+\.txt/ {print}' Contents.txt`;
+my @allfiles = map { chomp; $_ } `ls *.txt`;
+
+my %all = map { $_ => 1 } @allfiles;
+delete $all{$_} for qw(Contents.txt About.txt synopsis.txt);
+
+foreach (@included) {
+    my $status = (delete $all{$_}) ? " " : "-";
+    print "$status $_\n";
+}
+
+print "? $_\n" for keys %all;

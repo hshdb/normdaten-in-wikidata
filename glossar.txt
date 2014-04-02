@@ -1,29 +1,30 @@
 # Glossar {.unnumbered}
 
-*Penflip kann derzeit noch keine Definitionslisten, das ist aber im Moment nebensächlich.*
+Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
 
-Hier werden verschiedene *Fachbegriffe* in kurzen Abschnitten erläutert:
+**Aussage (statement)**
+  : Eine Aussage ist eine Untereinheit eines Datenobjektes in Wikidata. Aussagen bestehen in der Regel aus einer normierten Eigenschaft, ihnen  zugewiesenen Datenobjekten und optionalen Quellenangaben. Nicht jede Eigenschaft muss als Wert ein Datenobjekt beinhalten, manche enthalten einfache externe Verlinkungen (Normdaten, Websiten...) oder einfache Daten (geografische Daten, Ländercodes...).
+  
+**Eigenschaft (property)**
+  : Eigenschaften sind Bestandteile von Aussagen. Ihnen können Werte (Items) zugeordnet werden. Jede Eigenschaft ist einzigartig und beschreibt die Merkmale der ihnen zugewiesenen Items.  
+  
+**Item (Datenobjekt)**
+  : Eintrag in Wikidata, der sich auf einen Gegenstand (Person, Ort, Konzept...) bezieht. Jedes Wikidata-Datenobjekt hat eine eindeutige ID, die mit `Q` beginnt. Datenobjekte sind mit anderen Datenobjekten verknüpft.
+  
+**Indexierung**
+  : ...
+  
+**Klassifikation**
+  : Eine Klassifikation ist ein hierarchisches Verzeichnis von Schlagworten, welche nach Wissensgebieten geordnet sind (sog. Klassen). 
+  Die Ordnung einer Klassifikation erfolg stets vom allgemeinen zum speziellen. Die Klassifikationsnummern dienen der Suche nach einem speziellen Thema. Klassifikationsnummern bestehen dabei oft aus einem Buchstaben (Wissensgebiet) und einer Zahl (Teilgebiet). 
 
-**Aussage**
-  : ...
-**Anderer Fachbegriff**
-  : ...
-**Eigenschaft**
-  : ...
-**Item**
- : ...
-**Metadaten**
-  : ...
 **Normdaten**
   : ...
-**Normdatei**
-  : ...  
-**Wikidata**
-  : ...
-**Wikidata-API**
-  : Schnittstelle, über die Wikidata per Programm abgefragt und bearbeitet werden kann.
   
+**Schlagwort**
+  : Ein Schlagwort beschreibt den Inhalt eines Dokumentes. Im Allgemeinen werden Schlagwörter aus einem kontrollierten und geordnetem Vokabular entnommen (Normdateien, Thesauri oder Klassifikationen). 
   
-  
-  
+**Thesaurus**
+  : Ein Thesaurus ist eine Sammlung von Schlagworten, welche hierarchisch und thematisch miteinander verknüpft sind. Ein Schlagwort in einem Thesaurus beinhaltet Synonyme, verwandte Begriffe (Assoziationen), Ober- und Unterbegriffe. 
+
 

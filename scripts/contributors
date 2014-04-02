@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# list all contributors to the repository
+git log
+
+# list all source pages in Wikidata/Wikipedia
+# ...
+
+# list all contributors of source pages
+# ...
+
