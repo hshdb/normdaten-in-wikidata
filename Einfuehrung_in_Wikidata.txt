@@ -6,8 +6,8 @@
 Wikidata ist der Name einer frei zugänglichen Datenbank, die unter anderem das Ziel hat, Wikipedia zu unterstützen. Das Projekt wurde von Wikimedia Deutschland gestartet und stellt als gemeinsame Quelle bestimmte Datentypen für Wikimedia-Projekte bereit, zum Beispiel geografische Daten oder sonstige allgemeingültige Daten, die in allen Artikeln der Wikimedia-Projekte verwendet werden können.
 
 Wikidata ist eine Wissensdatenbank, welche die reale Welt beschreibt und abbildet. Statt Artikel in den über 250 Sprachversionen der Wikipedia komplett manuell zu schreiben, sollen in Wikidata Fakten hinterlegt werden, sodass sie in jeder Version gleich angezeigt werden – beispielsweise die Höhe des Mount Everest oder die offizielle Einwohnerzahl von New York. Über eine einheitliche Schnittstelle sollen vor allem statistische Angaben über mehrere Seiten und Sprachversionen hinweg einfacher in Wikipedia aktualisiert werden können.
-
-Wikidata tritt hierfür an, die Erfassung formal beschreibbarer Metadaten auf eine neue Grundlage zu stellen und verbindet dabei erstmals auch alle Sprachvarianten der Wikipedia. Seit dem 24. April 2013 können in allen Wikipedia-Sprachversionen Wikidata-Metadaten eingebunden und dargestellt werden. Im Moment können sieben **Datentypen** (datatypes) (Item, Commons media file, String, Time, Geographic coordinates, Number und URL) für Eigenschaften (properties) verwendet werden. Andere Datentypen werden mit der Zeit hinzukommen.
+Wikidata tritt hierfür an, die Erfassung formal beschreibbarer Metadaten auf eine neue Grundlage zu stellen und verbindet dabei erstmals auch alle Sprachvarianten der Wikipedia. 
+Im Moment können in Wikidata sieben **Datentypen** (datatypes) (Item, Commons media file, String, Time, Geographic coordinates, Number und URL) für **Eigenschaften (properties)** verarbeitet werden. Andere Datentypen werden mit der Zeit hinzukommen.
 
 ## Definition
 Wikidata ist ein Daten-Repository (englisch für Lager, Depot), welches die Datengrundlage vieler Sprachversionen von Wikipedia darstellt.
@@ -26,9 +26,8 @@ Das Projekt Wikidata wurde im April 2012 durch die Wikimedia Foundation ins Lebe
 
 Offizieller Start war allerdings erst im Oktober 2012. Um dem Projekt eine Struktur zu geben, wurde es in drei Phasen aufgeteilt. 
 
-Zuerst wurden Sprachlinks von Wikipedia-Beiträgen in Wikidata zu 
-Datenobjekten und mit Beschreibungen und Bezeichnungen versehen. Um dies zu vereinfachen, wurden automatische Computerskripte (*Bots*) verwendet.
-Ab März 2013 waren dann alle Sprachversionen freigeschaltet.
+In Phase 1 wurden Sprachlinks von Wikipedia-Beiträgen in Wikidata zu 
+Datenobjekten und mit Beschreibungen und Bezeichnungen versehen. Um dies zu vereinfachen, wurden automatische Computerskripte (*Bots*) verwendet. Seit dem 24. April 2013 können in allen Wikipedia-Sprachversionen Wikidata-Metadaten eingebunden und dargestellt werden. 
 
 Der nächste Schritt beinhaltete, dass Aussagen zu den Datenobjekten hinzugefügt werden konnten. Dies geschah unter anderem ebenfalls mit Bots und dem Datenfundament aus Wikipedia-Infoboxen und -Kategorien.
 
