@@ -33,8 +33,8 @@ Das Inhaltsverzeichnis wird letzendlich automatisch aus der Kapitelstruktur erze
 * FAQ
 * Stichwortverzeichnis
 * Glossar
-* Hilfreiche weiterleitende Literatur
 * Literaturverzeichnis
+* Hilfreiche weiterleitende Literatur
 * Abbildungsverzeichnis
 * Tabellenverzeichnis
 
