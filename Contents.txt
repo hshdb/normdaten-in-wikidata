@@ -31,4 +31,4 @@ L_schentxt.txt
 Loeschen.txt
 Item_erstellen.txt
 Bestandteile_von_Wikidata.txt
-
+Stichwortverzeichnis.txt
