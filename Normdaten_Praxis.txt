@@ -1,17 +1,5 @@
-## Praxis: Wie können vorhandene Aussagen mit Normdateneigenschaften abgefragt werden?
 
-Problemssstellung: Der Benutzer hat Literatur vorliegen mit einer GND Nummer. Wie kommt man nun mit Hilfe dieser GND auf die entsprechende Internetseite. Welche Werkzeuge kann man verwenden um dieses Ziel zu erreichen?
-
-Beispiel:
-http://wikidata-wdq-mm.instance-proxy.wmflabs.org/api?q=string[227:"4028495-5"]
-
-In diesem Beispiel beschreibt die Zahl 227, die Normdaten-Eigenschaft. Diese Eigenschaft ist in Wikidata die Gemeinsame Normdatei (GND). Da wir in in unserem Beispiel nach einer GND-Nummer (4028495-5, Japan) suchen, setzen wir diese Zahlenkombination dahinter und bekommen Japan ausgegegeben.
-
-
-----
-*Siehe <https://www.wikidata.org/wiki/User:JakobVoss/Authority_control> für eine Vorläufige Liste*
-
-## Wie kann man Normdaten-Eigenschaften hinzufügen?
+## Praxis: Wie kann man Normdaten-Eigenschaften hinzufügen?
 
 Normdaten-Eigenschaften können verschiedene Aussagen beschreiben. Ist ein Land teil einer internationalen Organisation? Welcher Autor hat ein Buch verfasst? Unter welcher Nummer läuft ein Aufsatz in der Gemeinsamen Normdatei.
 
