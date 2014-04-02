@@ -1,0 +1,14 @@
+
+## Praxis: Wie kann man Normdaten-Eigenschaften hinzufügen?
+
+Normdaten-Eigenschaften können verschiedene Aussagen beschreiben. Ist ein Land teil einer internationalen Organisation? Welcher Autor hat ein Buch verfasst? Unter welcher Nummer läuft ein Aufsatz in der Gemeinsamen Normdatei.
+
+Erster Schritt
+
+![add_klicken.PNG](images/add_klicken.PNG)
+
+Zweiter Schritt
+
+![Eingabe_save.PNG](images/Eingabe_save.PNG)
+
+
