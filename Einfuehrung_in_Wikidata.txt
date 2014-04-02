@@ -3,9 +3,11 @@
 
 ## Warum Wikidata?
 
-Wikidata ist der Name einer frei bearbeitbaren Datenbank, die unter anderem das Ziel hat, Wikipedia zu unterstützen. Das Projekt wurde von Wikimedia Deutschland gestartet und stellt als gemeinsame Quelle bestimmte Datentypen für Wikimedia-Projekte bereit, zum Beispiel Geburtsdaten oder sonstige allgemeingültige Daten, die in allen Artikeln der Wikimedia-Projekte verwendet werden können.
+Wikidata ist der Name einer frei zugänglichen Datenbank, die unter anderem das Ziel hat, Wikipedia zu unterstützen. Das Projekt wurde von Wikimedia Deutschland gestartet und stellt als gemeinsame Quelle bestimmte Datentypen für Wikimedia-Projekte bereit, zum Beispiel geografische Daten oder sonstige allgemeingültige Daten, die in allen Artikeln der Wikimedia-Projekte verwendet werden können.
 
-Wikidata ist eine Wissensdatenbank, welche die reale Welt beschreibt und abbildet. Statt Artikel in den über 250 Sprachenausgaben komplett manuell zu schreiben, sollen in Wikidata Fakten hinterlegt werden, so dass sie in jeder Ausgabe gleich angezeigt werden – beispielsweise die Höhe des Mount Everest oder die offizielle Einwohnerzahl von New York. Über eine einheitliche Schnittstelle sollen vor allem statistische Angaben über mehrere Seiten und Sprachversionen hinweg einfacher in Wikipedia aktualisiert werden können. Das Projekt startete im April 2012. Es ist das erste Projekt der Wikimedia-Foundation seit 2006. Die Wikipedia hat es geschafft, binnen eines Jahrzehnts nahezu alle Enzyklopädien abzulösen und zum universellen Nachschlagewerk der Menschheit zu werden. Doch stößt das bisherige System der Erfassung von Informationen in Fließtext an seine Grenzen, wenn es um die einfache Wiederverwertbarkeit und maschinelle Abfragen geht. Wikidata tritt an, die Erfassung formal beschreibbarer Metadaten auf eine neue Grundlage zu stellen und verbindet dabei erstmals auch alle Sprachvarianten der Wikipedia. Seit 24. April 2013 können alle Wikipedia-Sprachversionen Daten von Wikidata in Artikel übernehmen. Im Moment können sieben Datentypen (datatypes) (Item, Commons media file, String, Time, Geographic coordinates, Number und URL) für Eigenschaften (properties) verwendet werden. Andere Datentypen werden mit der Zeit hinzukommen.
+Wikidata ist eine Wissensdatenbank, welche die reale Welt beschreibt und abbildet. Statt Artikel in den über 250 Sprachversionen der Wikipedia komplett manuell zu schreiben, sollen in Wikidata Fakten hinterlegt werden, sodass sie in jeder Version gleich angezeigt werden – beispielsweise die Höhe des Mount Everest oder die offizielle Einwohnerzahl von New York. Über eine einheitliche Schnittstelle sollen vor allem statistische Angaben über mehrere Seiten und Sprachversionen hinweg einfacher in Wikipedia aktualisiert werden können.
+
+Wikidata tritt hierfür an, die Erfassung formal beschreibbarer Metadaten auf eine neue Grundlage zu stellen und verbindet dabei erstmals auch alle Sprachvarianten der Wikipedia. Seit dem 24. April 2013 können in allen Wikipedia-Sprachversionen Wikidata-Metadaten eingebunden und dargestellt werden. Im Moment können sieben **Datentypen** (datatypes) (Item, Commons media file, String, Time, Geographic coordinates, Number und URL) für Eigenschaften (properties) verwendet werden. Andere Datentypen werden mit der Zeit hinzukommen.
 
 ## Definition
 Wikidata ist ein Daten-Repository (englisch für Lager, Depot), welches die Datengrundlage vieler Sprachversionen von Wikipedia darstellt.
@@ -20,7 +22,7 @@ Was Wikimedia Commons für Medien ist, leistet Wikidata für sonstige Daten: Dur
 
 ## Entstehung
 
-Das Projekt *Wikidata* wurde im April 2012 durch die *Wikimedia Foundation* ins Leben gerufen und von *Wikimedia Deutschland* bearbeitet. Finanziert wurde es mithilfe von Spenden, unter anderem von Google.
+Das Projekt Wikidata wurde im April 2012 durch die Wikimedia Foundation ins Leben gerufen und von Wikimedia Deutschland bearbeitet. Es ist das erste Projekt der Wikimedia-Foundation seit 2006. Finanziert wurde es mithilfe von Spenden, unter anderem von Google.
 
 Offizieller Start war allerdings erst im Oktober 2012. Um dem Projekt eine Struktur zu geben, wurde es in drei Phasen aufgeteilt. 
 
