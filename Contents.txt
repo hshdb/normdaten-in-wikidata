@@ -28,3 +28,4 @@ Einfuehrung_in_Normdaten.txt
 Wikidata-Item.txt
 Normdaten_Praxis.txt
 L_schentxt.txt
+Loeschen.txt
