@@ -2,23 +2,23 @@
 
 ## Allgemeines {.unnumbered}
 
-1. Monografien
-* Beispiel1
-* Beispiel2
-* Beispiel3
-* Beispiel4
+**Artikel und Bücher**
 
-2. Internetadressen
+* Denny Vrandečić und Markus Krötzsch (2014): *Wikidata: A Free Collaborative Knowledge Base*. 
+  In: Communications of the ACM (noch nicht erschienen, online unter <http://research.google.com/pubs/archive/42240.pdf>)
+* ...
+
+**Webseiten**
+
 * Beispiel1
 * Beispiel2
 * Beispiel3
 * Beispiel4
 
 ## Hilfreiche Literatur {.unnumbered}
+
 * [Wikidata-Hilfeseite](https://www.wikidata.org/w/index.php?title=Help:Contents/de&oldid=66338607&uselang=de)
 * [Liste der Eigenschaften](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_properties/de&oldid=48498796)
 * [Liste der Projektregeln und Richtlinien](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_policies_and_guidelines/de&oldid=102532266) 
 * [Hilfe: Aussagen](https://www.wikidata.org/w/index.php?title=Help:Statements/de&oldid=115977153)
-
-
 
