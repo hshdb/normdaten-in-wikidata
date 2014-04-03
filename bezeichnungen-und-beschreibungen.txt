@@ -1,6 +1,6 @@
 ## Praxis: Übersetzungen in Wikidata bearbeiten und anlegen
 
-![beispieluebersetzen.jpg](images/beispieluebersetzen.jpg)
+![Übersetzungen des Items](images/beispieluebersetzen.jpg)
 
 Bezeichnungen und Beschreibungen der Datenobjekte können auf der Seite der Datenobjekte unter "In anderen Sprachen" übersetzt werden. Wie im Screenshot zu sehen, werden automatisch die Sprachen Englisch, Plattdeutsch und Türkisch vorgeschlagen. Da es bereits eine englische Übersetzung gibt, kann diese nicht neu angelegt, sondern nur bearbeitet werden. Plattdeutsch und Türkisch haben noch keine Übersetzungen, also kann der Nutzer einfach in das leere Feld die entsprechende Bezeichnung beziehungsweise Beschreibung eintragen. Doch Vorsicht! Beim Übersetzen gibt es gewisse [Richtlinien](https://www.wikidata.org/wiki/Help:Sitelinks/de-formal) zu beachten. Es darf beispielsweise nur eine Sprache hinzugefügt werden, wenn es dazu auch einen passenden Wikipedia-Artikel in der jeweiligen Sprache gibt.
 
@@ -21,13 +21,13 @@ Diese Methode ist die komplizierteste der drei Varianten und diese zu erklären,
 
 Babel-Bausteine werden in die Benutzerseite geschrieben und dienen der Definition der eigenen Sprachkenntnisse. Nur die in den Bausteinen erwähnten Sprachen werden dann im Abschnitt "In anderen Sprachen" angezeigt. Um die Babel-Bausteine zu aktivieren, klickt man oben in der Leiste auf seinen Benutzernamen und gibt dort in die Benutzerbeschreibung den Baustein-Code, zum Beispiel {{#babel:en|de-3|fr-2|es-1|it-0}}, ein. Die Zahlen stehen hierbei für die Sprachkenntnisse, wobei 0 keine Kenntnisse bedeutet. Nach dem Speichern sieht man dann am rechten Rand der Benutzerseite diesen Kasten:
 
-![babel.jpg](images/babel.jpg)
+![Babel-Baustein](images/babel.jpg)
 
 #### Mithilfe der Liste der Bezeichnungen
 
 Die wohl einfachste Methode ist diese hier. Um die Liste der Bezeichnungen sehen zu können, muss diese zunächst in den Einstellungen aktiviert werden unter Einstellungen -> Helferlein -> labelLister. Wenn dieses Kästchen angehakt ist, erscheint nun auf der Seite des Datenobjekt ein weiteres Feld zwischen "Lesen" und "Versionsgeschichte", nämlich die "Liste der Bezeichnungen".
 
-![bezeichnerliste.jpg](images/bezeichnerliste.jpg)
+![Liste der Bezeichnungen](images/bezeichnerliste.jpg)
 
 Klickt man da nun drauf, erscheint ein PopUp-Fenster, das alle Übersetzungen der Bezeichnung enthält.
 
