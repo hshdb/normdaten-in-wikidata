@@ -4,5 +4,5 @@
 
 Die Oberfläche von Wikidata setzt sich aus verschiedenen Komponenten zusammen. 
 
-![Oberflaeche von Wikidata](images/Oberflaeche.PNG)
+![Oberfläche von Wikidata](images/Oberflaeche.PNG)
 
