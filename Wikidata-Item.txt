@@ -36,7 +36,7 @@ Im Moment ist es nur möglich, dass jede externe Seite (zum Beispiel Datei oder 
 
 ## Das Prinzip von Wikidata:
 
-![800px-GeneaWiki_screenshot_Bach.png](images/800px-GeneaWiki_screenshot_Bach.png)
+![Stammbaum von Johann Sebastian Bach](images/800px-GeneaWiki_screenshot_Bach.png)
 
 _Stammbaum von Johann Sebastian Bach_
 
