@@ -1,3 +1,5 @@
-# FAQ
+# FAQ {.unnumbered}
 
 1. Stellt Wikidata Doppelarbeit dar, wenn es bereits entsprechende Wikipedia-Artikel gibt? 
+2. Wie kann ich die Benutzersprache in Wikidata auf meine Sprache umstellen? 
+3. Warum gibt es das Feste Vokabular bei den Eigenschaften?

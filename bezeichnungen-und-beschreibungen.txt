@@ -1,0 +1,38 @@
+## Praxis: Übersetzungen in Wikidata bearbeiten und anlegen
+
+![beispieluebersetzen.jpg](images/beispieluebersetzen.jpg)
+
+Bezeichnungen und Beschreibungen der Datenobjekte können auf der Seite der Datenobjekte unter "In anderen Sprachen" übersetzt werden. Wie im Screenshot zu sehen, werden automatisch die Sprachen Englisch, Plattdeutsch und Türkisch vorgeschlagen. Da es bereits eine englische Übersetzung gibt, kann diese nicht neu angelegt, sondern nur bearbeitet werden. Plattdeutsch und Türkisch haben noch keine Übersetzungen, also kann der Nutzer einfach in das leere Feld die entsprechende Bezeichnung beziehungsweise Beschreibung eintragen. Doch Vorsicht! Beim Übersetzen gibt es gewisse [Richtlinien](https://www.wikidata.org/wiki/Help:Sitelinks/de-formal) zu beachten. Es darf beispielsweise nur eine Sprache hinzugefügt werden, wenn es dazu auch einen passenden Wikipedia-Artikel in der jeweiligen Sprache gibt.
+
+Du fragst dich vielleicht, warum gerade Englisch, Plattdeutsch und Türkisch als Sprachen vorgeschlagen werden. Es werden immer drei Sprachen aufgelistet und diese drei sind diejenigen, die in meiner Region (also Deutschland) gesprochen werden ([Quelle](https://www.wikidata.org/wiki/Help:Multilingual/de)).
+
+### Auswahl der angezeigten Sprachen
+
+Es gibt nun [verschiedene Möglichkeiten](https://www.wikidata.org/wiki/Help:Multilingual/de), die Sprachen zu ändern:
+1. Mithilfe der Universalen Sprachauswahl
+2. Mithilfe von Babel-Bausteinen
+3. Mithilfe der Liste der Bezeichnungen
+
+#### Mithilfe der Universalen Sprachauswahl
+
+Diese Methode ist die komplizierteste der drei Varianten und diese zu erklären, würde den Rahmen sprengen, deshalb wird sich hier auf die anderen beiden Methoden konzentriert. Für Interessierte gibt es aber einen [weiterführenden Link](https://www.mediawiki.org/wiki/Universal_Language_Selector?setlang=de). 
+
+#### Mithilfe von Babel-Bausteinen
+
+Babel-Bausteine werden in die Benutzerseite geschrieben und dienen der Definition der eigenen Sprachkenntnisse. Nur die in den Bausteinen erwähnten Sprachen werden dann im Abschnitt "In anderen Sprachen" angezeigt. Um die Babel-Bausteine zu aktivieren, klickt man oben in der Leiste auf seinen Benutzernamen und gibt dort in die Benutzerbeschreibung den Baustein-Code, zum Beispiel {{#babel:en|de-3|fr-2|es-1|it-0}}, ein. Die Zahlen stehen hierbei für die Sprachkenntnisse, wobei 0 keine Kenntnisse bedeutet. Nach dem Speichern sieht man dann am rechten Rand der Benutzerseite diesen Kasten:
+
+![babel.jpg](images/babel.jpg)
+
+#### Mithilfe der Liste der Bezeichnungen
+
+Die wohl einfachste Methode ist diese hier. Um die Liste der Bezeichnungen sehen zu können, muss diese zunächst in den Einstellungen aktiviert werden unter Einstellungen -> Helferlein -> labelLister. Wenn dieses Kästchen angehakt ist, erscheint nun auf der Seite des Datenobjekt ein weiteres Feld zwischen "Lesen" und "Versionsgeschichte", nämlich die "Liste der Bezeichnungen".
+
+![bezeichnerliste.jpg](images/bezeichnerliste.jpg)
+
+Klickt man da nun drauf, erscheint ein PopUp-Fenster, das alle Übersetzungen der Bezeichnung enthält.
+
+## Übersetzungen der Wikidata-Benutzeroberfläche
+
+Übersetzungen bearbeiten kann ein Übersetzer. Dieser kann beim Übersetzen von [Wikibase](https://translatewiki.net/wiki/Special:Translate?group=ext-wikibase-repo), der zugrundeliegenden Erweiterung von Wikidata mithelfen. Auch über die [Meta Seite](https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikidata) kann bei der Übersetzung weitergeholfen werden, ebenso können die Seiten über [Wikidata](https://www.wikidata.org/wiki/Special:LanguageStats)  übersetzt werden. 
+
+Wikidata arbeitet an einem Modell bei dem alle Sprachen beziehungsweise Sprachlinks mit einem zentralen Punkt verknüpft werden. Sodass sämtliche Wiki Einträge bei einem Datensatz auf Wikidata verlinkt sind. Es können [Anträge](https://www.wikidata.org/w/index.php?title=Wikidata:Translators%27_noticeboard&oldid=115958854) zur Übersetzung gestellt werden oder Verbesserungsvorschläge und Rechtschreibkorrekturen angemerkt werden. 

@@ -1,15 +1,9 @@
 ## Normdaten-Eigenschaften in Wikidata
+
 In Wikidata sind bereits mehrere _Eigenschaften_ zum Verlinken von Wikidata-Items und anderen Normdateien vorgesehen. So gibt es beispielsweise die Eigenschaft "GND-Nummer ([P227](https://www.wikidata.org/wiki/Property:P227))" zum Verlinken auf die Gemeinsame Normdatei und die Eigenschaft "DDC ([P1036](https://www.wikidata.org/wiki/Property:P1036))" zum Verlinken auf die Dewey-Dezimalklassifikation.
 
-*...Beispiel...*
+##  Normdaten-Eigenschaften
 
-*...vorhandene Normdaten-Eigenschaften...*
+Eigenschaften die unter einer Notation oder ID zusammengefügt werden bezeichnet man als Normdaten-Eigenschaften. Normdaten können ein- oder mehrsprachig sein. Wikidata ist meistens mehrsprachig. Dokumente sind mit Normdaten verküpft um sie besser auffindbar machen zu können. Verknüpfungen zwischen Normdaten aus Wikidata und Dokumenten in Wikipedia ist ein Ziel und wird teilweise bereits erreicht.
 
-*...wie lässt sich nach Normdaten-Eigenschaften suchen...*
 
-*...wie können weitere Normdaten-Eigenschaften hinzugefügt werden...*
-
-*...wie können vorhandene Verlinkungen abgefragt werden...
-
-----
-*Siehe <https://www.wikidata.org/wiki/User:JakobVoss/Authority_control> für eine Vorläufige Liste*

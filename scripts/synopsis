@@ -18,12 +18,19 @@ delete $allfiles{$_} for qw(Contents.txt About.txt);
 
 # Kapitel je Inhaltsdatei
 my %sections = map { $_ => [ do {
-        map { 
-            chomp; s/\{.*\}//g; 
-            $_;
-        } `grep -h '^#' $_`;
+        map { section($_) } `grep -h '^#' $_`;
     } ] } @files;
 
+sub section {
+    shift @_; 
+    chomp; s/ *\{.*\}//g; 
+    my $d = "." x ($_ =~ s/#//g);
+    s/^ +//;
+    my $title = $_;
+    s/[^a-zaäü ]//ig;
+    s/ /-/ig;
+    "${d}[$title](normdaten-in-wikidata.html#".lc($_).")";
+}
 
 my $section_length = max map { length $_ } map { @$_ } values %sections;
 
@@ -38,8 +45,7 @@ my $sep = ("-" x $section_length) . "- ---" . ("-" x $file_length). "--\n";
 printf "%-${section_length}s  %s\n", "Kapitel", "Datei";
 print $sep;
 foreach my $file (@files) {
-    my @sections =  map { chomp; s/\{.*\}//g; s/#/./g; decode_utf8($_) }
-        @{$sections{$file}};
+    my @sections =  map { decode_utf8($_) } @{$sections{$file}};
 
     my $status = $allfiles{$file}++;
     $status = $status ? ($status > 1 ? '!' : '=') : '?';

@@ -1,43 +1,44 @@
-# Wikidata-Items
 
-## Allgemein zu Wikidata-Items
+# Wikidata-Item
 
-Ein **Wikidata-Item** (oft auch als "Objekt" bezeichnet) ist ein Eintrag in Wikidata, der sich auf einen Gegenstand, ein Thema, oder ein Konzept in der wirklichen Welt bezieht. Durch eine eindeutige Datensatz-ID wird in Wikidata ein Item identifiziert. Die **Datensatz-ID** besteht aus dem _Buchstabend “Q“_ und _einer Nummer_. So steht beispielsweise `Q8` für "Glück" und `Q1` für das "Universum". Außerdem wird ein Item durch seine einzigartige Kombination aus mehrsprachiger Bezeichnung und Beschreibung.
+## Allgemein zu Wikidata-Datenobjekte
+
+Ein **Item** (oft auch als "Datenobjekt" bezeichnet) ist ein Eintrag in Wikidata, der sich auf einen Gegenstand, ein Thema, oder ein Konzept in der wirklichen Welt bezieht. Durch eine eindeutige Datensatz-ID wird in Wikidata ein Item identifiziert. Die **Datensatz-ID** besteht aus dem _Buchstaben “Q“_ und _einer Nummer_. So steht beispielsweise `Q8` für "Glück" und `Q1` für das "Universum". Außerdem wird ein Item durch seine einzigartige Kombination aus mehrsprachiger Bezeichnung und Beschreibung.
 Es können weiterst mehrere Alternativnamen festgelegt werden. 
 
 Wikidata-Items besitzen Links zu den zu verlinkenden Seiten, sie können über Aussagen verfügen, welche aus einer Eigenschaft (**property**) mit Wert (**value**) und zugehöriger Quelle (**source**) bestehen. 
 
-Relevanzkriterien sind bei Items die mindestens mit einem Wikipediaartikel oder über Eigenschaften mit anderen Items auf Wikidata verlinkt sind erforderlich.
+Relevanzkriterien sind bei Datenobjekte die mindestens mit einem Wikipediaartikel oder über Eigenschaften mit anderen Items auf Wikidata verlinkt sind erforderlich.
 
-## Verknüpfung von Weiterleitungen mit Wikidata-Items
+## Verknüpfung von Weiterleitungen mit Wikidata-Datenobjekten
 
 > Wikidata: [[:d:{{{1}}}|{{{1}}}]] (eintragen)
 
 Die _Weiterleitung_ darf nur nach dem **REDIRECT/WEITERLEITUNG-Schlüsselwort** erfolgen.
 Folgende Syntax ist zu beachten: 
 
-> {{Wikidata-Weiterleitung|Item-Nummer}} z. B. {{Wikidata-Weiterleitung|Q5334679}}
+> {{Wikidata-Weiterleitung|Item-Nummer}} zum Beispiel {{Wikidata-Weiterleitung|Q5334679}}
 
-**Achtung:** Im Moment ist es in Wikidata nicht möglich Weiterleitungen zu Items hinzuzufügen. Jedoch kann durch diese Schablone ein Thema trotzdem für Analyse-Skripte und Analyse-Tools mit einem Wikidata-Item verbunden werden, wenn zum Bsp. das Thema in einem Sammelartikel als Abschnitt vorhanden ist. 
+**Achtung:** Im Moment ist es in Wikidata nicht möglich Weiterleitungen zu Datenobjekten hinzuzufügen. Jedoch kann durch diese Schablone ein Thema trotzdem für Analyse-Skripte und Analyse-Tools mit einem Wikidata-Objekt verbunden werden, wenn zum Beispiel das Thema in einem Sammelartikel als Abschnitt vorhanden ist. 
 
-## Verlinkung von Items
+## Verlinkung von Datenobjekten
 
 Um eine verlinkte Seite oder einen Artikel auf einer anderen Wikimedia Seite zu identifizieren zu können, muss ein _Weblink_ (**sitelink**) oder Link angelegt werden, die dann auf die besagte Seite verweist. 
 
-Der **Link** besteht aus der _Domänenbezeichnung_ und dem _Seitentitel_ (zum Bsp. Lemma eines Artikels). Folgende Aufgaben hat die Verlinkung:
+Der **Link** besteht aus der _Domänenbezeichnung_ und dem _Seitentitel_ (zum Beispiel Lemma eines Artikels). Folgende Aufgaben hat die Verlinkung:
 
 -	Zugriff auf einen Eintrag einer externen Seite
 -	zentraler Speicherort der Interwiekilinkis
 
-Wikilinks können mit sogenannten _Auszeichnungen_ (**badges**) versehen werden, dies kann man als Status gleichsetzen. Somit ist es dem Anwender möglich zum Bsp. eine Seite als “ausgezeichneten Artikel“ zu versehen.
+Wikilinks können mit sogenannten _Auszeichnungen_ (**badges**) versehen werden, dies kann man als Status gleichsetzen. Somit ist es dem Anwender möglich zum Beispiel eine Seite als “ausgezeichneten Artikel“ zu versehen.
 
-Im Moment ist es nur möglich, dass jede externe Seite (zum Bsp Datei oder Wikiartikel) nur mit einem Link bei Wikidata eingetragen ist und ein Item kann nur einen einzigen Link auf eine externe Domäne besitzen.
+Im Moment ist es nur möglich, dass jede externe Seite (zum Beispiel Datei oder Wikiartikel) nur mit einem Link bei Wikidata eingetragen ist und ein Item kann nur einen einzigen Link auf eine externe Domäne besitzen.
 
 ## Das Prinzip von Wikidata:
 
 ![800px-GeneaWiki_screenshot_Bach.png](images/800px-GeneaWiki_screenshot_Bach.png)
 
-_Stammbaum von Johann Seabastian Bach_
+_Stammbaum von Johann Sebastian Bach_
 
 > Für ein sehr anschauliches Beispiel für solch ein Tool schau dir Mozart an. Das Tool ermöglicht nicht nur eine bloße Erfassung und Darstellung der Daten, sondern es „versteht“, dass dieses Item eine Person ist, und fragt zusätzliche, personenspezifische Items wie etwa Verwandte ab. Darüber hinaus zeigt es personenspezifische Informationen, wie z. B. Normdaten, die sich nicht auf andere Items beziehen. Mozarts Kompositionen werden aufgelistet und können auf der Seite wiedergegeben werden, wenn sie als Datei in Commons vorliegen. Bis zu einem gewissen Grad können auch die Sprachinformationen in Wikidata genutzt werden, sodass dieselbe Seite (größtenteils) auf Deutsch aufgerufen werden kann.
 Anstatt nur nach den direkten Verwandten zu suchen, kann ein Tool auch eine „Kette“ von bestimmten Eigenschaften zwischen Items verfolgen und einen „Item-Cluster“ – wie etwa einen Stammbaum (hübscher und umfangreicher Stammbaum von Mozart) – erzeugen. Der Stammbaum um John F. Kennedy herum enthält mehr als 10.000 Menschen. Auf ähnliche Weise kann ein Tool taxonomische Verbindungen zwischen Arten bis hin zu den Ursprüngen verfolgen und daraus einen vollständigen Lebensbaum (Achtung: riesige Seite!) erzeugen.

@@ -1,14 +1,94 @@
+/* Typografie angelehnt an MediaWiki (https://www.mediawiki.org/wiki/Typography_refresh) */
+body, body {
+    font-family: Arimo, "Liberation Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #252525;
+    font-size: 0.875em;
+    line-height: 1.5em;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Linux Libertine", Georgia, Times, serif;
+    color: #000;
+    border-bottom: 1px solid #aaa;
+}
+
+#content h1 {
+    font-size: 1.8em;
+    line-height: 1.3em;
+}
+#content h2 {
+    font-size: 1.4em;
+    line-height: 1.3em;
+}
+
+h1 a, h2 a, h3 a { color: #000 }
+
+#content p { margin: 0.5em 0 }
+
 footer {
     border-top: 1px solid #aaa;
     padding-top: 0.5em;
-}
-.figure img {
-  border: 1px solid #aaa;
 }
 .navbar {
   border-bottom: 2px solid #000;
 }
 
-dd+dt { border: none; }
-dd+dd { border: none; }
- 
+
+tr { border-bottom: 1px solid #AAA; }
+
+body { background: #ddd }
+#content {
+    text-align: center;
+    max-width: 80ex;
+    background: #fff;
+    padding: 1.5em 3em;
+    margin-left: auto; margin-right: auto;
+    border: 1px solid #aaa;
+}
+#content * {
+    text-align: left;
+}
+
+/* Glossar */
+dt { font-weight: bold; }
+dt { float:left;width:160px; clear:left; text-align:right;
+     overflow:hidden; text-overflow:ellipsis; white-space:nowrap } 
+dd { margin-left:180px } 
+
+/* Bilder */
+.figure img {
+    border: 1px solid #aaa;
+}
+
+/* Bildunterschriften */
+.caption { 
+    font-size: small; 
+    font-style: normal;
+    margin-top: 0.5em;
+}
+
+/* Interne Verweise durch Pfeil kennzeichnen */
+a[href^='#']:before { content: "↗ "; }
+h1 a[href^='#']:before { content: ""; }
+h2 a[href^='#']:before { content: ""; }
+h3 a[href^='#']:before { content: ""; }
+h4 a[href^='#']:before { content: ""; }
+li a[href^='#']:before { content: ""; }
+
+/* Inhaltsverzeichnis */
+#TOC { background: #fff }
+#TOC ul { list-style-type: none; }
+#TOC > ul { padding: 0 }
+
+/* Titelei */
+header {
+    background: #fff;
+}
+header div {
+    text-align: center;
+    font-weight: bold;
+    padding: 1em;
+}
+#title { font-size: 2em; }
+#date { font-size: 1.5em; }
+#author { font-size: 1.5em; }

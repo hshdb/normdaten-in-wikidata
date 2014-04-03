@@ -1,0 +1,63 @@
+
+# Einführung in Wikidata
+
+## Warum Wikidata?
+
+Wikidata ist der Name einer frei zugänglichen Datenbank, die unter anderem das Ziel hat, Wikipedia zu unterstützen. Das Projekt wurde von Wikimedia Deutschland gestartet und stellt als gemeinsame Quelle bestimmte Datentypen für Wikimedia-Projekte bereit, zum Beispiel geografische Daten oder sonstige allgemeingültige Daten, die in allen Artikeln der Wikimedia-Projekte verwendet werden können.
+
+Wikidata ist eine Wissensdatenbank, welche die reale Welt beschreibt und abbildet. Statt Artikel in den über 250 Sprachversionen der Wikipedia komplett manuell zu schreiben, sollen in Wikidata Fakten hinterlegt werden, sodass sie in jeder Version gleich angezeigt werden – beispielsweise die Höhe des Mount Everest oder die offizielle Einwohnerzahl von New York. Über eine einheitliche Schnittstelle sollen vor allem statistische Angaben über mehrere Seiten und Sprachversionen hinweg einfacher in Wikipedia aktualisiert werden können.
+Wikidata tritt hierfür an, die Erfassung formal beschreibbarer Metadaten auf eine neue Grundlage zu stellen und verbindet dabei erstmals auch alle Sprachvarianten der Wikipedia. 
+Im Moment können in Wikidata sieben **Datentypen** (datatypes) (Item, Commons media file, String, Time, Geographic coordinates, Number und URL) für **Eigenschaften (properties)** verarbeitet werden. Andere Datentypen werden mit der Zeit hinzukommen.
+
+## Definition
+Wikidata ist ein Daten-Repository (englisch für Lager, Depot), welches die Datengrundlage vieler Sprachversionen von Wikipedia darstellt.
+
+![Sprachliste Wikipedia](images/sprachleiste1.jpg)
+
+In der obigen Abbildung sieht man ein Beispiel für die Funktionsweise von Wikidata: Verschiedene Bezeichnungen des Wikipedia-Artikels werden zentral in Wikidata gesammelt. Sie fungiert in dieser Hinsicht wie ein vielsprachiges Wörterbuch. 
+
+Wikidata ist eine freie Datenbank, die von Menschen wie auch von Maschinen gelesen und bearbeitet werden kann. Da Wikidata eine **sekundäre Datenbank** (im Gegensatz zu einer **primären Datenbank**) ist, kann sie über Links mit anderen Projekten der Wikimedia Foundation verknüpft werden. Dadurch bietet sich die Möglichkeit, die Quellen zu überprüfen. Das Ziel von Wikidata ist eine strukturierte Zentralisierung von Daten und Fakten für die interne und externe Nutzung.
+
+Was Wikimedia Commons für Mediendateien (Bilder, Videos und Klänge) ist, leistet Wikidata für davon abweichende Daten: Durch Wikidata werden der Zugriff und die Verwaltung von strukturierten Daten wie Interwiki-Links, Infoboxen und statistischen Informationen zentralisiert. Wikidata enthält Daten in zahlreichen Sprachen, für die es Wikimedia-Projekte gibt. 
+
+## Entstehung
+
+Das Projekt Wikidata wurde im April 2012 durch die Wikimedia Foundation ins Leben gerufen und von Wikimedia Deutschland bearbeitet. Es ist das erste Projekt der Wikimedia-Foundation seit 2006. Finanziert wurde es mithilfe von Spenden, unter anderem von Google.
+
+Offizieller Start war allerdings erst im Oktober 2012. Um dem Projekt eine Struktur zu geben, wurde es in drei Phasen aufgeteilt. 
+
+In Phase 1 wurden Sprachlinks von Wikipedia-Beiträgen in Wikidata zu 
+Datenobjekten und mit Beschreibungen und Bezeichnungen versehen. Um dies zu vereinfachen, wurden automatische Computerskripte (**Bots**) verwendet. Seit dem 24. April 2013 können in allen Wikipedia-Sprachversionen Wikidata-Metadaten eingebunden und dargestellt werden. 
+
+Phase 2 beinhaltete die Aufgabe, dass **Aussagen** zu den **Items** hinzugefügt werden konnten. Dies geschah unter anderem ebenfalls mit Bots und dem Datenfundament aus Wikipedia-Infoboxen-und -Kategorien.
+
+Phase ist noch nicht abgeschlossen. Es soll ermöglicht werden, dass Listen automatisch erstellt und Fakten aktualisiert werden. 
+
+**Ziel des Projektes ist es, dass Infoboxen entstehen, die in einer zentralen Datenbank gespeichert sind, sodass alle Wikimedia-Projekte darauf zugreifen können.**
+
+**Quelle:**
+[Wikidata](https://www.wikidata.org/w/index.php?title=Wikidata:Hauptseite&oldid=108180618) 
+[heise](http://www.heise.de/newsticker/meldung/Wikidata-Daten-Fundus-fuer-Wikipedia-eroeffnet-1740780.html)
+
+## Warum ist eine Datenbank notwendig?
+
+Wikidata ist eine Datenbank, doch was bedeutet das? In der Informatik besteht eine Datenbank aus einem Computerprogramm zur Verwaltung von Daten (¨Datenbankmanagementsystem¨) und den darin gespeicherten Daten (¨Datenbestand¨ oder ¨Datenbasis¨). Die Eigenschaften und Einstellungen des Datenbankmanagementsystems sorgen dafür, dass die Daten in einer Datenbank eine einheiliche Struktur besitzen.
+
+Im Falle von Wikidata besteht das **Datenbankmanagementsystem** aus der Wikidata-Software, die sich aus einer Wiki-Komponente namens ¨MediaWiki¨ und einer Datenbank-Komponente namens ¨Wikibase¨ zusammensetzt. MediaWiki wird auch für Wikipedia und die anderen Projekte der Wikimedia-Foundation eingesetzt, während Wikibase speziell für Wikidata entwickelt wurde.
+
+Für den **Datenbestand** von Wikidata legt Wikibase fest, wie Daten in Wikidata allgemein strukturiert sein können: so besteht die Datenbasis beispielsweise aus Items (siehe Kapitel [Wikidata-Items](#wikidata-items)) und Aussagen (siehe Kapitel [Wikidata-Aussagen](#wikidata-aussagen)). Welche Daten konkret in Wikidata enthalten sind und worauf sich diese Daten beziehen, ist jedoch nicht festgelegt. Zum Verständnis der Inhalte von Wikidata ist deshalb hilfreich, sich kurz damit zu befassen, was Daten eigentlich sind.
+
+Grundsätzlich bestehen **Daten** aus Zeichen, die von Computern verarbeitet werden können. Eine allgemein anerkannte Definition von Daten gibt es jedoch nicht. Dies liegt unter anderem daran, das drei verschiedene Sichtweisen auf Daten möglich sind:
+
+* Daten als Fakten
+* Daten als Beobachtungen
+* Daten als digitale Dokumente
+
+Die Sicht auf Daten als Fakten entspringt einer naiv-naturwissenschaftlichen Weltsicht, nach der Daten Informationen über die Welt repräsentieren oder enthalten. Im Wesentlichen ist Wikidata durch diese Sicht motiviert: Wikidata soll Daten speichern und eine Querschnittssicht unserer heutigen Zivilisation ermöglichen. 
+
+Im Gegensatz dazu geht die Sicht auf Daten als Beobachtungen davon aus, dass alle Angaben über die Welt subjektiv sind. Um Daten zu interpretieren, ist deshalb immer ein Kontext notwendig. Kontexte können unter anderem dabei helfen, verschiedene Bedeutungen von Daten zu erkennen und einzuschätzen wie vertrauenswürdig und nützlich Daten sind. Wikidata sieht mehrere Verfahren zur Angabe von Kontextinformationen vor (siehe die Kapitel zu [Quellen](#quellen) und [Qualifikatoren](#qualifikatoren)). Da diese Informationen wiederum selbst nur als Daten vorliegen, lässt sich das Problem der Subjektivität von Daten aber nicht vollständig lösen.
+
+Die Sicht auf Daten als digitale Dokumente oder Objekte ist vor allem bei digitalen Medien wie Texten, Bildern, Filmen oder Musik üblich. Die Wikimedia-Foundation betreibt zur Sammlung solcher Dokumente das digitale Medienarchiv Commons. Grundsätzlich lassen sich aber alle Daten auch als digitale Dokumente auffassen: so sind alle Bearbeitungen und Inhalte von Wikidata gleichzeitig Dokumente des menschlichen Antriebs, die Welt zu verstehen und zu interpretieren.
+
+Zusammengefasst ist Wikidata also eine Datenbank, die sowohl Fakten als auch (mit Quellen belegte) Beobachtungen enthält. Die Inhalte von Wikidata sind dabei so kodiert, dass sie automatisch verarbeitet und weiterverwendet werden können.
+

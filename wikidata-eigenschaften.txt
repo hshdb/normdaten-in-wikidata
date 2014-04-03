@@ -1,0 +1,22 @@
+# Wikidata-Eigenschaften
+
+**Eigenschaften** (englisch "properties") werden in Wikidata benutzt, um Aussagen auszudrücken. Jede Eigenschaften wird durch eine ID referenziert, die mit `P` anfängt. Beispielsweise steht in Wikidata `P19` für den Geburtsort einer Person. Jede Eigenschaft kann ebenso wie Wikidata-Items mit Übersetzungen (siehe Kapitel X) und Aussagen (siehe Kapitel [Wikidata-Aussagen](#wikidata-aussagen)) beschrieben werden. So lautet beispielsweise die englische Bezeichnung für die Eigenschaft `P19` "place of birth" und die Deutsche Beschreibung "Ort, in dem ein Mensch geboren wurde". 
+
+Zur Ansicht und Bearbeitung der Benennungen und weiterer Angaben zu Aussagen hat jede Eigenschaft in Wikidata eine eigene Seite. Die URL dieser Seite lässt sich durch Voranstellen von `https://www.wikidata.org/wiki/Property:` konstruieren. Die Eigenschaft `P19` ist beispielsweise unter <https://www.wikidata.org/wiki/Property:P19> beschrieben.
+
+*...hier ein Screenshot von https://www.wikidata.org/wiki/Property:P19...*
+
+*...hier fehlt noch etwas zu der Liste aller Eigenschaften (<https://www.wikidata.org/wiki/Wikidata:List_of_properties/de>) und wie vorhandene Eigenschaften gefunden werden können (vor allem wenn der Name nicht bekannt ist)...*
+
+Einige Eigenschaften sind dazu gedacht, von Wikidata-Items auf andere Normdateien zu Verweisen (siehe Kapitel [Normdaten-Eigenschaften in Wikidata](#normdaten-eigenschaften-in-wikidata)).
+
+Eigenschaften können wie Wikidata-Items von allen Mitarbeitern bearbeitet werden, beispielsweise mit Übersetzungen und Beschreibungen der jeweiligen Eigenschaft. Das Anlegen neuer Eigenschaften ist jedoch nur ausgewählten Mitgliedern der Wikidata-Community möglich. Auf der Seite https://www.wikidata.org/wiki/Wikidata:Property_proposal/de können Vorschläge für neue Wikidata-Eigenschaften eingebracht werden.
+
+## Datentypen
+
+*...hier fehlt noch etwas zu Datentypen. Siehe dazu u.A. <https://www.wikidata.org/wiki/Special:ListDatatypes?uselang=de>. Für jeden (oder zumindest die wichtigsten) Datetyp sollte eine Beispiel-Eigenschaft genannt werden...*
+
+## Weitere Informationen und Einschränkungen
+
+*...für Beispiele siehe auf der "Diskussion"-Seite zu jeder einzelnen Wikidata-Eigenschaft, z.B. <https://www.wikidata.org/wiki/Property_talk:P19> sowie unter <https://www.wikidata.org/wiki/Template:Constraint>..*
+

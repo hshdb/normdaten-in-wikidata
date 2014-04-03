@@ -1,0 +1,36 @@
+## Praxis: Weiternutzung der vorhandenen Daten
+
+*Hier etwas zur automatischen Abfrage und zu Export-Möglichkeiten*
+
+***WikiData Query (WDQ)***
+
+Bislang bietet Wikidata keine einfache Möglichkeit, komplexere Abfragen an die Datenbank zu stellen; dafür sind zusätzliche Anwendungen notwendig, die auf die Inhalte der Wikidata-Datenbank zugreifen. WikiData Query (WDQ) ist eine solche Webanwendung die von Magnus Maske zur Abfrage von Wikidata entwickelt wurde.
+
+<http://wdq.wmflabs.org/>
+
+...
+
+Die Abfragen müssen in einer etwas kryptischen Abfragesprache formuliert werden. Etwas einfacher ist die Formulierung von Anfragen mit dem "Query interface" unter <http://wdq.wmflabs.org/wdq/> und mit dem Werkzeug "AutoList" unter <http://tools.wmflabs.org/wikidata-todo/autolist.html>.
+
+Beispielanfrage:
+
+    string[227:"224028495-5"]
+    
+steht für "gib alle Items, die eine Aussage mit der Eigenschaft P227 (GND-Identifier) haben, deren Wert die Zeichenkette "224028495-5" ist.
+
+Beispielanfrage: Items mit GND-ID, deren Standort (P625) innerhalb von 5 km des Gelände der Expo Hannover befindet:
+ 
+    claim[227] AND around[625,52.32148,9.8169,5]
+
+http://tools.wmflabs.org/wikidata-todo/autolist.html?q=tree[30][150][17%2C131]%20AND%20claim[138%3A676555
+
+Das zweite Beispiel zeigt ein Problem von Abfragen, das praktisch für formale Anfragen an Datenbanken zutrifft: der Computer denkt nicht mit, deshalb ist die Hochschule Hannover nicht in der Liste (?).
+
+Beispiele und Beschreibungen zu AutoList und WDQ:
+* http://blog.magnusmanske.de/?p=178 (Abfrage mit Qualifiern)
+* http://wdq.wmflabs.org/api_documentation.html (API-Dokumentation)
+* ...
+
+**Wikidata BEACON**
+* http://tools.wmflabs.org/wikidata-todo/beacon.php
+* http://magnusmanske.de/wordpress/?p=168
