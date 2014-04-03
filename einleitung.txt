@@ -1,6 +1,4 @@
-# Einleitung{.unnumbered}
-
-## Warum dieses Handbuch?
+# Einleitung
 
 Dieses Handbuch soll strukturierte Anleitung und Hilfe zur Bearbeitung und Unterstützung des Wikidata-Projektes leisten. Es werden Begriffe erläutert und eine ausführliche Schritt-für-Schritt Anleitung wird dem Benutzer die Abläufe und Möglichkeiten von Wikidata näher bringen.
 
