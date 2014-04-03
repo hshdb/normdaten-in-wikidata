@@ -5,10 +5,10 @@ Normdaten-Eigenschaften können verschiedene Aussagen beschreiben. Ist ein Land 
 
 Erster Schritt
 
-![add_klicken.PNG](images/add_klicken.PNG)
+![Eigenschaft hinzufügen](images/add_klicken.PNG)
 
 Zweiter Schritt
 
-![Eingabe_save.PNG](images/Eingabe_save.PNG)
+![Eigenschaft eingeben und speichern](images/Eingabe_save.PNG)
 
 
