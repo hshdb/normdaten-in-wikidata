@@ -10,9 +10,9 @@ Es existieren zwei Hauptsuchmöglichkeiten:
 2. Außerdem die Suche nach Datenobjekten wie Titel, die nach einem Datensatz zu einem Wikipedia-Artikel in der ausgewählten Sprache sucht. Hier muss der Titel genau gleich sein wie der Eintrag, den du suchst.
 --> Begriffseingabe des jeweiligen Namens in der Sprache
 
-![Suchen_Normal.PNG](images/Suchen_Normal.PNG)
-![Suchen_Erweitert.PNG](images/Suchen_Erweitert.PNG)
-![Suchen_Auswahlm_glichkeiten.PNG](images/Suchen_Auswahlm_glichkeiten.PNG)
+![Normale Suche](images/Suchen_Normal.PNG)
+![Erweiterte Suche](images/Suchen_Erweitert.PNG)
+![Auswahlmöglichkeiten bei der Suche](images/Suchen_Auswahlm_glichkeiten.PNG)
 
 Begrifferklärungen/Menüpunkte
 
