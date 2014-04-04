@@ -1,4 +1,4 @@
-# Wikidata-Aussagen
+## Wikidata-Aussagen
 
 Bei jedem Datenobjekt gibt es sogenannte Aussagen, die das aufgerufene Item näher beschreiben. Darin beinhaltet sind Eigenschaften, die mit einem festen Vokabular verbunden sind (zum Beispiel: statt _Internetadresse_ --> _URL_). 
 Es gibt drei Arten von Aussagen: 
@@ -16,7 +16,13 @@ Der aufgerufene Datensatz ist _Hannover_. Die Eigenschaften sind _Staat_
 
 ![wikidata_aussagen1.png](images/wikidata_aussagen1.png)
 
+Siehe <http://www.wikidata.org/wiki/Wikidata:Glossary/de#Behauptungen_und_Aussagen>
 
+## Qualifikatoren
 
+*...Aussagen könnnen mit Qualifikatoren versehen sein...*
 
+## Ränge
+
+*...Aussagen könnnen einen Rank haben...*
 

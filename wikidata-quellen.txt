@@ -1,4 +1,4 @@
-## Quellen
+### Quellen
 
 Es ist nicht das primäre Ziel der Wikidata, detaillierte Eigenschaften von Referenzen zu modellieren. In seiner einfachsten Form ist eine Referenz nur ein Pfad, der einem Leser den Weg zu einer Quelle zeigt. Einige Referenzen können auch selbst Aussagen in Wikidata sein. Ein Wikipedia-Artikel über ein Buch kann beispielsweise auch als Referenz verwendet werden.
 Eine Referenz kann widersprüchliche Aussagen beinhalten, zum Beispiel ein Buch kann mehrere Kapitel enthalten, in denen verschiedene Autoren widersprüchliche Informationen geben.
