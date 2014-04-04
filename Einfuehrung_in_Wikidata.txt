@@ -2,7 +2,7 @@
 
 Wikidata ist eine frei zugänglichen und bearbeitbare Datenbank, deren Inhalte gemeinfrei genutzt werden können. Das Projekt dient in erster Linie dazu, Wikipedia und andere Projekte der Wikimedia-Foundation durch eine zentrale Datenbank zu unterstützen. Unabhängig davon kann Wikidata aber auch für andere Anwendungen verwendet werden.
 
-## Entstehung
+## Entstehung von Wikidata
 
 Das Wikidata-Projekt wurde im April 2012 durch die Wikimedia Foundation ins Leben gerufen und von Wikimedia Deutschland umgesetzt. Nach Wikipedia, Wiktionary, Wikibooks, Wikiquote, Wikisource, Wikinews und Wikiversity war es das erste neue Projekt der Wikimedia-Foundation seit 2006. Die Entwicklung von Wikidata wurde durch mehrere Großspenden finanziert. Ab Ende Oktober 2012 konnten in Wikidata Bearbeitungen vorgenommen werden.
 
