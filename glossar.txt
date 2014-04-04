@@ -8,17 +8,14 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
 **Bot:** 
   : ...
  
- **Datenbankmanagementsystem**
+**Daten**
   : ...
-  
-**Datenbestand
+
+**Datenbestand**
   : ...
 
 **Datentyp** 
   : ...
-  
-
- 
   
 **Eigenschaft (property)**
   : Eigenschaften sind Bestandteile von Aussagen. Ihnen können Werte (Items) zugeordnet werden. Jede Eigenschaft ist einzigartig und beschreibt die Merkmale der ihnen zugewiesenen Items.  
@@ -32,6 +29,9 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
 **Klassifikation**
   : Eine Klassifikation ist ein hierarchisches Verzeichnis von Schlagworten, welche nach Wissensgebieten geordnet sind (sog. Klassen). 
   Die Ordnung einer Klassifikation erfolg stets vom allgemeinen zum speziellen. Die Klassifikationsnummern dienen der Suche nach einem speziellen Thema. Klassifikationsnummern bestehen dabei oft aus einem Buchstaben (Wissensgebiet) und einer Zahl (Teilgebiet). 
+
+**MediaWiki**
+  : ...
 
 **Normdaten**
   : ...
@@ -48,4 +48,5 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
 **Thesaurus**
   : Ein Thesaurus ist eine Sammlung von Schlagworten, welche hierarchisch und thematisch miteinander verknüpft sind. Ein Schlagwort in einem Thesaurus beinhaltet Synonyme, verwandte Begriffe (Assoziationen), Ober- und Unterbegriffe. 
 
-
+**Wikibase**
+  : ...
