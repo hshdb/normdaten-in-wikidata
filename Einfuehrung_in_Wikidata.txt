@@ -21,9 +21,9 @@ Wikidata hat einige Vorläufer in verwandten Projekten wie [Semantic MediaWiki](
 
 ## Wikidata als Datenbank
 
-Wikidata ist vor allem eine Datenbank, und somit ist ein System zur elektronischen Datenverwaltung. Die wesentliche Aufgabe eines DBS ist es, große Datenmengen effizient, widerspruchsfrei und dauerhaft zu speichern und benötigte Teilmengen in unterschiedlichen, bedarfsgerechten Darstellungsformen für Benutzer und Anwendungsprogramme bereitzustellen. In der Informatik besteht eine Datenbank aus einem Computerprogramm zur Verwaltung von Daten (Datenbankmanagementsystem) und darin gespeicherten Daten (**Datenbestand** oder Datenbasis).
-
-Im Falle von Wikidata besteht das Datenbankmanagementsystem aus der Wikidata-Software, die sich aus einer Wiki-Komponente namens **MediaWiki** und einer Datenbank-Komponente namens **Wikibase** zusammensetzt. MediaWiki wird auch für Wikipedia und die anderen Projekte der Wikimedia-Foundation eingesetzt, während Wikibase speziell für Wikidata entwickelt wurde.
+ Wikidata ist vor allem eine freie Datenbank, und somit ist ein System zur elektronischen Datenverwaltung, die von Menschen wie auch von Maschinen gelesen und bearbeitet werden kann. Da Wikidata eine **sekundäre Datenbank** (im Gegensatz zu einer **primären Datenbank**) ist, kann sie über Links mit anderen Projekten der Wikimedia Foundation verknüpft werden. Dadurch bietet sich die Möglichkeit, die Quellen zu überprüfen. Das Ziel von Wikidata ist eine strukturierte Zentralisierung von Daten und Fakten für die interne und externe Nutzung. Und außerdem große Datenmengen effizient, widerspruchsfrei und dauerhaft zu speichern und benötigte Teilmengen in unterschiedlichen, bedarfsgerechten Darstellungsformen für Benutzer und Anwendungsprogramme bereitzustellen. 
+ 
+ Wikidata Datenbank besteht aus einem Computerprogramm zur Verwaltung von Daten (Datenbankmanagementsystem) und darin gespeicherten Daten (**Datenbestand** oder Datenbasis). Im Falle von Wikidata besteht das Datenbankmanagementsystem aus der Wikidata-Software, die sich aus einer Wiki-Komponente namens **MediaWiki** und einer Datenbank-Komponente namens **Wikibase** zusammensetzt. MediaWiki wird auch für Wikipedia und die anderen Projekte der Wikimedia-Foundation eingesetzt, während Wikibase speziell für Wikidata entwickelt wurde.
 
 Wie jedes Datenbankmanagementsystem legt Wikibase fest, welche Struktur die gespeicherten Daten grundsätzlich haben können. Für den Datenbestand von Wikidata gilt, dass dieser aus [Items](#wikidata-items), [Eigenschaften](#wikidata-eigenschaften) und [Aussagen](#wikidata-aussagen) besteht.
 
@@ -58,8 +58,6 @@ Wikidata dient als Datengrundlage vieler Sprachversionen von Wikipedia.
 ![Sprachliste Wikipedia](images/sprachleiste1.jpg)
 
 In der obigen Abbildung sieht man ein Beispiel für die Funktionsweise von Wikidata: Verschiedene Bezeichnungen des Wikipedia-Artikels werden zentral in Wikidata gesammelt. Sie fungiert in dieser Hinsicht wie ein vielsprachiges Wörterbuch. 
-
-Wikidata ist eine freie Datenbank, die von Menschen wie auch von Maschinen gelesen und bearbeitet werden kann. Da Wikidata eine **sekundäre Datenbank** (im Gegensatz zu einer **primären Datenbank**) ist, kann sie über Links mit anderen Projekten der Wikimedia Foundation verknüpft werden. Dadurch bietet sich die Möglichkeit, die Quellen zu überprüfen. Das Ziel von Wikidata ist eine strukturierte Zentralisierung von Daten und Fakten für die interne und externe Nutzung.
 
 Was Wikimedia Commons für Mediendateien (Bilder, Videos und Klänge) ist, leistet Wikidata für davon abweichende Daten: Durch Wikidata werden der Zugriff und die Verwaltung von strukturierten Daten wie Interwiki-Links, Infoboxen und statistischen Informationen zentralisiert. Wikidata enthält Daten in zahlreichen Sprachen, für die es Wikimedia-Projekte gibt. 
 
