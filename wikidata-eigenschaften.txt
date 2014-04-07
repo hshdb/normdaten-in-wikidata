@@ -1,10 +1,17 @@
 ## Wikidata-Eigenschaften
 
-**Eigenschaften** (englisch "properties") werden in Wikidata benutzt, um Aussagen auszudrücken. Jede Eigenschaften wird durch eine ID referenziert, die mit `P` anfängt. Beispielsweise steht in Wikidata `P19` für den Geburtsort einer Person. Jede Eigenschaft kann ebenso wie Wikidata-Items mit Übersetzungen (siehe Kapitel X) und Aussagen (siehe Kapitel [Wikidata-Aussagen](#wikidata-aussagen)) beschrieben werden. So lautet beispielsweise die englische Bezeichnung für die Eigenschaft `P19` "place of birth" und die Deutsche Beschreibung "Ort, in dem ein Mensch geboren wurde". 
+**Eigenschaften** (englisch "properties") werden in Wikidata benutzt, um Aussagen auszudrücken.
 
-Zur Ansicht und Bearbeitung der Benennungen und weiterer Angaben zu Aussagen hat jede Eigenschaft in Wikidata eine eigene Seite. Die URL dieser Seite lässt sich durch Voranstellen von `https://www.wikidata.org/wiki/Property:` konstruieren. Die Eigenschaft `P19` ist beispielsweise unter <https://www.wikidata.org/wiki/Property:P19> beschrieben.
+Jede Eigenschaften wird durch eine ID referenziert, die mit `P` anfängt. Beispielsweise steht in Wikidata `P19` für den Geburtsort einer Person. Jede Eigenschaft kann ebenso wie Wikidata-Items mit Übersetzungen (siehe Kapitel X) und Aussagen (siehe Kapitel [Wikidata-Aussagen](#wikidata-aussagen)) beschrieben werden. So lautet beispielsweise die englische Bezeichnung für die Eigenschaft `P19` "place of birth" und die Deutsche Beschreibung "Ort, in dem ein Mensch geboren wurde". 
 
-*...hier ein Screenshot von https://www.wikidata.org/wiki/Property:P19...*
+Zur Ansicht und Bearbeitung der Benennungen und weiterer Angaben zu Aussagen hat jede Eigenschaft in Wikidata eine eigene Seite. Die URL dieser Seite lässt sich durch Voranstellen von `https://www.wikidata.org/wiki/Property:` konstruieren. 
+
+Die Eigenschaft `P19` ist beispielsweise unter <https://www.wikidata.org/wiki/Property:P19> beschrieben.
+
+![](images/P19.GIF)
+
+
+## Liste der Eigenschaften
 
 *...hier fehlt noch etwas zu der Liste aller Eigenschaften (<https://www.wikidata.org/wiki/Wikidata:List_of_properties/de>) und wie vorhandene Eigenschaften gefunden werden können (vor allem wenn der Name nicht bekannt ist)...*
 
@@ -20,5 +27,7 @@ Im Moment können in Wikidata sieben Datentypen (datatypes) (Item, Commons media
   
 ### Weitere Informationen und Einschränkungen
 
-*...für Beispiele siehe auf der "Diskussion"-Seite zu jeder einzelnen Wikidata-Eigenschaft, z.B. <https://www.wikidata.org/wiki/Property_talk:P19> sowie unter <https://www.wikidata.org/wiki/Template:Constraint>..*
+*...für Beispiele siehe auf der "Diskussion"-Seite zu jeder einzelnen Wikidata-Eigenschaft, z.B.:
+
+<https://www.wikidata.org/wiki/Property_talk:P19> <https://www.wikidata.org/wiki/Template:Constraint>..*
 
