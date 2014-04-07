@@ -34,7 +34,7 @@ Eigenschaften können wie Wikidata-Items von allen Mitarbeitern bearbeitet werde
 
 ### Datentypen
 
-*...hier fehlt noch etwas zu Datentypen. Siehe dazu u.A. <https://www.wikidata.org/wiki/Special:ListDatatypes?uselang=de>. Für jeden (oder zumindest die wichtigsten) Datetyp sollte eine Beispiel-Eigenschaft genannt werden...*
+*...hier fehlt noch etwas zu Datentypen. Siehe dazu u.A. <>. Für jeden (oder zumindest die wichtigsten) Datetyp sollte eine Beispiel-Eigenschaft genannt werden...*
 
 Im Moment können in Wikidata sieben Datentypen (datatypes) (Item, Commons media file, String, Time, Geographic coordinates, Number und URL) für **Eigenschaften (properties)** verarbeitet werden. Andere Datentypen werden mit der Zeit hinzukommen.
   
