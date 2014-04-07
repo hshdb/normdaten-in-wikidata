@@ -21,7 +21,7 @@ Wikidata hat einige Vorläufer in verwandten Projekten wie [Semantic MediaWiki](
 
 ## Wikidata als Datenbank
 
- Wikidata ist vor allem eine freie Datenbank, und somit ist ein System zur elektronischen Datenverwaltung, die von Menschen wie auch von Maschinen gelesen und bearbeitet werden kann. Da Wikidata eine **sekundäre Datenbank** (im Gegensatz zu einer **primären Datenbank**) ist, kann sie über Links mit anderen Projekten der Wikimedia Foundation verknüpft werden. Dadurch bietet sich die Möglichkeit, die Quellen zu überprüfen. Das Ziel von Wikidata ist eine strukturierte Zentralisierung von Daten und Fakten für die interne und externe Nutzung. Und außerdem große Datenmengen effizient, widerspruchsfrei und dauerhaft zu speichern und benötigte Teilmengen in unterschiedlichen, bedarfsgerechten Darstellungsformen für Benutzer und Anwendungsprogramme bereitzustellen. 
+ Wikidata ist vor allem eine freie Datenbank, und somit ist ein System zur elektronischen Datenverwaltung, die von Menschen wie auch von Maschinen gelesen und bearbeitet werden kann. Da Wikidata eine **sekundäre Datenbank** (im Gegensatz zu einer **primären Datenbank**) ist, kann sie über Links mit anderen Projekten der Wikimedia Foundation verknüpft werden. Dadurch bietet sich die Möglichkeit, die Quellen zu überprüfen. 
  
  Wikidata Datenbank besteht aus einem Computerprogramm zur Verwaltung von Daten (Datenbankmanagementsystem) und darin gespeicherten Daten (**Datenbestand** oder Datenbasis). Im Falle von Wikidata besteht das Datenbankmanagementsystem aus der Wikidata-Software, die sich aus einer Wiki-Komponente namens **MediaWiki** und einer Datenbank-Komponente namens **Wikibase** zusammensetzt. MediaWiki wird auch für Wikipedia und die anderen Projekte der Wikimedia-Foundation eingesetzt, während Wikibase speziell für Wikidata entwickelt wurde.
 
@@ -43,7 +43,7 @@ Zusammengefasst ist Wikidata also eine Datenbank, die sowohl Fakten als auch (mi
 
 *Hier sind noch einige Doppelungen und Widersprüche. Teile können umgestellt oder in den vorigen Abschnitt eingebaut werden!*
 
-Ziel des Projektes ist es, dass Infoboxen entstehen, die in einer zentralen Datenbank gespeichert sind, sodass alle Wikimedia-Projekte darauf zugreifen können.
+Ziel des Projektes ist es, dass Infoboxen entstehen, die in einer zentralen Datenbank effizient, widerspruchsfrei und dauerhaft gespeichert sind, sodass alle Wikimedia-Projekte darauf zugreifen können, also eine strukturierte Zentralisierung von Daten und Fakten für die interne und externe Nutzung.
 
 Wikidata stellt als gemeinsame Quelle bestimmte Wikimedia-Projekte bereit, zum Beispiel geografische Daten oder sonstige allgemeingültige Daten, die in allen Artikeln der Wikimedia-Projekte verwendet werden können.
 
