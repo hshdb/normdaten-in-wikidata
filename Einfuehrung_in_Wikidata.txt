@@ -1,6 +1,6 @@
 # Einführung in Wikidata
 
-Wikidata ist eine frei zugänglichen und bearbeitbare Datenbank, deren Inhalte gemeinfrei genutzt werden können. Das Projekt dient in erster Linie dazu, Wikipedia und andere Projekte der Wikimedia-Foundation durch eine zentrale Datenbank zu unterstützen. Unabhängig davon kann Wikidata aber auch für andere Anwendungen verwendet werden.
+Wikidata ist eine frei zugängliche und bearbeitbare Datenbank, deren Inhalte gemeinfrei genutzt werden können. Das Projekt dient in erster Linie dazu, Wikipedia und andere Projekte der Wikimedia-Foundation durch eine zentrale Datenbank zu unterstützen. Unabhängig davon kann Wikidata aber auch für andere Anwendungen verwendet werden.
 
 ## Entstehung von Wikidata
 
