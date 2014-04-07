@@ -4,11 +4,9 @@
 
 Es existieren zwei Hauptsuchmöglichkeiten:
 
-1. Die  Suche nach Informationen über Sprachgrenzen hinweg. 
---> Einfache Begriffseingabe
+1. Die  Suche nach Informationen über Sprachgrenzen hinweg ist die einfache Begriffseingabe.
 
-2. Außerdem die Suche nach Datenobjekten wie Titel, die nach einem Datensatz zu einem Wikipedia-Artikel in der ausgewählten Sprache sucht. Hier muss der Titel genau gleich sein wie der Eintrag, den du suchst.
---> Begriffseingabe des jeweiligen Namens in der Sprache
+2. Außerdem die Suche nach Datenobjekten wie Titel, die nach einem Datensatz zu einem Wikipedia-Artikel in der ausgewählten Sprache sucht. Hier muss der Titel genau gleich sein wie der Eintrag, den du suchst. Man gibt im Suchfeld den Begriff der jeweiligen Namens in der Sprache ein.
 
 ![Normale Suche](images/Suchen_Normal.PNG)
 ![Erweiterte Suche](images/Suchen_Erweitert.PNG)
