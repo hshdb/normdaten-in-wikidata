@@ -40,7 +40,7 @@ https://www.wikidata.org/wiki/Special:ListDatatypes?uselang=de
 ![Suche_Eigenschaften.PNG](images/Suche_Eigenschaften.PNG)
 
 
-Die wichtigsten Datentypen und eine Beispiel-Eigenschaft
+Die wichtigsten Datentypen und eine Beispiel-Eigenschaft:
 
 
 
