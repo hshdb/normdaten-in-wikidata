@@ -21,7 +21,7 @@ Wikidata hat einige Vorläufer in verwandten Projekten wie [Semantic MediaWiki](
 
 ## Wikidata als Datenbank
 
-Wikidata ist vor allem eine Datenbank, was heißt das? In der Informatik besteht eine Datenbank aus einem Computerprogramm zur Verwaltung von Daten (Datenbankmanagementsystem) und darin gespeicherten Daten (**Datenbestand** oder Datenbasis).
+Wikidata ist vor allem eine Datenbank, und somit ist ein System zur elektronischen Datenverwaltung. Die wesentliche Aufgabe eines DBS ist es, große Datenmengen effizient, widerspruchsfrei und dauerhaft zu speichern und benötigte Teilmengen in unterschiedlichen, bedarfsgerechten Darstellungsformen für Benutzer und Anwendungsprogramme bereitzustellen. In der Informatik besteht eine Datenbank aus einem Computerprogramm zur Verwaltung von Daten (Datenbankmanagementsystem) und darin gespeicherten Daten (**Datenbestand** oder Datenbasis).
 
 Im Falle von Wikidata besteht das Datenbankmanagementsystem aus der Wikidata-Software, die sich aus einer Wiki-Komponente namens **MediaWiki** und einer Datenbank-Komponente namens **Wikibase** zusammensetzt. MediaWiki wird auch für Wikipedia und die anderen Projekte der Wikimedia-Foundation eingesetzt, während Wikibase speziell für Wikidata entwickelt wurde.
 
