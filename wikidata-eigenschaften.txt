@@ -18,6 +18,7 @@ Jede Aussage auf einer Datenobjektseite verlinkt zu einer Eigenschaft und weist 
 ![Liste_der_Eigenschaften.GIF](images/Liste_der_Eigenschaften.GIF)
 
 
+
 *...hier fehlt noch etwas zu der Liste aller Eigenschaften (<https://www.wikidata.org/wiki/Wikidata:List_of_properties/de>) und wie vorhandene Eigenschaften gefunden werden können (vor allem wenn der Name nicht bekannt ist)...*
 
 Einige Eigenschaften sind dazu gedacht, von Wikidata-Items auf andere Normdateien zu Verweisen (siehe Kapitel [Normdaten-Eigenschaften in Wikidata](#normdaten-eigenschaften-in-wikidata)).
