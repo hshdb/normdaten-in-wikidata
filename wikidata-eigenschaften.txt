@@ -18,11 +18,13 @@ Jede Aussage auf einer Datenobjektseite verlinkt zu einer Eigenschaft und weist 
 ![Liste_der_Eigenschaften.GIF](images/Liste_der_Eigenschaften.GIF)
 
 
-## Suche von Eigesnchaften
+## Suche von Eigenschaften
 
 Ist man auf der Suche nach einer Eigenschaft, der Name allerdings bekannt ist, gibt es zwei Möglichkeiten um eine Suche erfolgreich zu gestalten. Diese Seite: https://www.wikidata.org/wiki/Wikidata:List_of_properties/de verlinkt direkt zu der Liste der Eigenschaften und der Suchmaske.
 
-![Suche_Eigenschaft.GIF](images/Suche_Eigenschaft.GIF)
+![Suche_Eigenschaften.PNG](images/Suche_Eigenschaften.PNG)
+
+
 
 
 
