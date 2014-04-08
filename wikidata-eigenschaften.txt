@@ -16,6 +16,13 @@ Jede Aussage auf einer Datenobjektseite verlinkt zu einer Eigenschaft und weist 
 
 ![Liste_der_Eigenschaften.GIF](images/Liste_der_Eigenschaften.GIF)
 
+**Suche von Eigenschaften**
+
+Ist man auf der Suche nach einer Eigenschaft, der Name allerdings bekannt ist, gibt es zwei Möglichkeiten um eine Suche erfolgreich zu gestalten. Diese Seite: https://www.wikidata.org/wiki/Wikidata:List_of_properties/de verlinkt direkt zu der Liste der Eigenschaften und der Suchmaske.
+
+![Suche_Eigenschaften.PNG](images/Suche_Eigenschaften.PNG)
+
+
 
 Einige Eigenschaften sind dazu gedacht, von Wikidata-Items auf andere Normdateien zu Verweisen (siehe Kapitel [Normdaten-Eigenschaften in Wikidata](#normdaten-eigenschaften-in-wikidata)).
 
@@ -39,7 +46,7 @@ Link zu anderen Objekten im Projekt. Es wird der „Objekt“-Namensraum auf Wik
 
 Beispiel:
 
-![Item.PNG](images/Item.PNG)
+![Item2.PNG](images/Item2.PNG)
 
 
 
@@ -49,7 +56,8 @@ Link zu Dateien, die auf Wikimedia Commons gespeichert sind. Es wird der „Date
 
 Beispiel:
 
-![Mediendatei_Commons.PNG](images/Mediendatei_Commons.PNG)
+![Commons.PNG](images/Commons.PNG)
+
 
 
 **Datentyp: Zeichenkette/String**
@@ -60,7 +68,8 @@ value – ausdrücklicher Wert für die sprachspezifische Variantenkette
 
 Beispiel:
 
-![Zeichenkette.PNG](images/Zeichenkette.PNG)
+![Zeichenkettet.PNG](images/Zeichenkettet.PNG)
+
 
 
 **Datentyp: Zeit/Time**
@@ -113,12 +122,9 @@ Beispiel:
 ![Quanitity2.PNG](images/Quanitity2.PNG)
 
 
-
-
-  
 Weitere Informationen und Einschränkungen:
 
-*...für Beispiele siehe auf der "Diskussion"-Seite zu jeder einzelnen Wikidata-Eigenschaft, z.B.:
+Für Beispiele siehe auf der "Diskussion"-Seite zu jeder einzelnen Wikidata-Eigenschaft, z.B.:
 
 <https://www.wikidata.org/wiki/Property_talk:P19> <https://www.wikidata.org/wiki/Template:Constraint>..*
 
