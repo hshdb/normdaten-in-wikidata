@@ -18,6 +18,9 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
 **Datentyp** 
   : Unter Datentypen versteht man "(...) die Zusammenfassung von Objektmengen". Auf jeden Datentypen können jeweils nur bestimmte (unveränderbare und zu Teilen auch selbst zuordenbare) Operationen angewendet werden. Man kann zwischen elementaren und dynamischen Datentypen unterscheiden. Elementare Datentypen sind endliche Wertebereiche, welche je nach Größe des Wertebereiches die Verarbeitungsgeschwindigkeit des Programmes einschränken. So steht z.B. der Datentyp 'Integer' (int) für ganzzahlige Werte zwischen −2^32 und 2^31 − 1 (Speicherplatzgröße 32 Bit). Dynamische Datentypen hingegen haben ledigliche anonyme, das heißt unbekannte Wertebereiche. Mit ihnen können Datentypen erstellt werden von beliebiger Größe. 
   
+**Deskriptor**
+  : ... 
+  
 **Eigenschaft (property)**
   : Eigenschaften sind Bestandteile von Aussagen. Ihnen können Werte (Items) zugeordnet werden. Jede Eigenschaft ist einzigartig und beschreibt die Merkmale der ihnen zugewiesenen Items.  
   
@@ -25,7 +28,7 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
   : Eintrag in Wikidata, der sich auf einen Gegenstand (Person, Ort, Konzept...) bezieht. Jedes Wikidata-Datenobjekt hat eine eindeutige ID, die mit `Q` beginnt. Datenobjekte sind mit anderen Datenobjekten verknüpft.
   
 **Indexierung**
-  : ...
+  : Das Indexieren beschreibt eine Methode der Inhaltserschließung von Dokumenten und medialen Inhalte jeglicher Art. Produkte von Indexierungen sind Schlagwörter und Stichwörter. Indexierte Dokumente sollen nach einer späteren Recherche mit - nach bestimmten Regeln von Dokumentationssprachen (mithilfe einer Klassifikation oder eines Thesaurus)- genau den vergebenen Schlag- und Stichwörtern wiedergefunden werden. 
   
 **Klassifikation**
   : Eine Klassifikation ist ein hierarchisches Verzeichnis von Schlagworten, welche nach Wissensgebieten geordnet sind (sog. Klassen). 
