@@ -4,7 +4,7 @@ Das Handbuch bietet eine detaillierte Anleitung zur Verwendung und Unterstützun
 
 Benutzer können in Wikidata Einträge ([Items](#wikidata-items)) angelegen, die Einträge durch [Aussagen](#wikidata-aussagen) beschreiben und mit anderen Items verknüpften. Mit [Quellen](#quellen) Qualifikatoren können Aussagen belegt und in einen Kontext eingesetzt werden. Benutzer können Verknüpfungen erstellen. Beispielsweise können Sie Objekte zu Personen mit einem Geburtsort, mit ihrer Beschäftigung oder mit ihrem Eintrag in einer Normdatei verknüpfen oder einen Politiker einer Partei zuordnen. Benutzer können einem Berggipfel, Plätzen oder einem Gebäude Geokoordinaten geben, eine Kommune der nächsthöheren Verwaltungseinheit zuordnen, einem Land das Staatsoberhaupt und die Nationalhymne verlinken usw. All diese Informationen können in jeder Sprache genutzt werden, um es in Infoboxen in der eigenen Sprache anzuzeigen. Auch wenn alle Informationen aus einer anderen Sprache stammen.
 
-Die Begriffsdefinitonen zu [Normdaten] (#einfuehrung_in_normdaten)leitet den Hauptteil des Buches ein. 
+Die Begriffsdefinitonen zu [Normdaten] (#einführung-in-normdaten)leitet den Hauptteil des Buches ein. Dem schließen sich Begriffe wie Wikidata und dessen Geschichte an.
 
 
 
