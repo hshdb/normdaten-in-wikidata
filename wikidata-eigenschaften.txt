@@ -40,7 +40,7 @@ https://www.wikidata.org/wiki/Special:ListDatatypes?uselang=de
 
 Im Moment können in Wikidata sieben Datentypen (datatypes) (Item, Commons media file, String, Time, Geographic coordinates und URL) für Eigenschaften (properties) verarbeitet werden. Andere Datentypen werden mit der Zeit hinzukommen.
 
-#Datentyp: Datenobjekt/Item#
+**Datentyp: Datenobjekt/Item**
 
 Link zu anderen Objekten im Projekt. Es wird der „Objekt“-Namensraum auf Wikidata für passende Einträge durchsucht. Er besteht aus einem einfachen Texteintragsfeld.
 
@@ -50,7 +50,7 @@ Beispiel:
 
 
 
-#Datentyp: Mediendatei/Media file/Commons#
+**Datentyp: Mediendatei/Media file/Commons**
 
 Link zu Dateien, die auf Wikimedia Commons gespeichert sind. Es wird der „Datei“-Namensraum auf Commons für passende Einträge durchsucht.
 
@@ -59,7 +59,7 @@ Beispiel:
 ![Mediendatei_Commons.PNG](images/Mediendatei_Commons.PNG)
 
 
-#Datentyp: Zeichenkette/String#
+**Datentyp: Zeichenkette/String**
 
 Literales Datenfeld für eine Glyphenkette. Typische Verwendung sind Kennungen mit geschriebenen Formen, die nicht von der Sprache des Lesers abhängig sind.
 
@@ -70,7 +70,7 @@ Beispiel:
 ![Zeichenkette.PNG](images/Zeichenkette.PNG)
 
 
-#Datentyp: Zeit/Time#
+**Datentyp: Zeit/Time**
 
 Literales Datenfeld für einen Zeitwert, angegeben als Zeit mit Genauigkeit und Begrenzungen. Die Zeit wird immer intern als gregorianisch gespeichert, kann jedoch andere Formate beim Parsen und Formatieren benutzen.
 
@@ -86,7 +86,7 @@ Beispiel:
 ![Zeit.PNG](images/Zeit.PNG)
 
 
-#Datentyp: Geographische Koordinaten/Geographic coordinates#
+**Datentyp: Geographische Koordinaten/Geographic coordinates**
 
 Literale Daten für eine geografische Position, die als Breitengrad-Längengrad-Paar in GMS oder Dezimalgrad für den Sternenkörper angegeben ist. Standards sind „Erde“, anschließend „WGS84“. Es wird eine Auflösung und ein Bereich hinzugefügt.
 
@@ -98,13 +98,13 @@ Beispiel:
 ![geographische_Koordination.PNG](images/geographische_Koordination.PNG)
 
 
-#Datentyp: URL#
+**Datentyp: URL**
 
 Zukünftig geplant.
 
 Literales Datenfeld für eine URL. URLs sind auf die Protokolle beschränkt, die auch für externe Links im Wikitext unterstützt werden.
 
-#Datentyp: Menge/Quantity#
+**Datentyp: Menge/Quantity**
 
 Literales Datenfeld für eine Menge, die sich auf eine Art klar definierte Einheit bezieht. Die tatsächliche Einheit geht in die Datenwerte, die eingegeben werden.
 
