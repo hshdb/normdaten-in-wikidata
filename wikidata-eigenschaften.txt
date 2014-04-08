@@ -40,23 +40,30 @@ https://www.wikidata.org/wiki/Special:ListDatatypes?uselang=de
 
 Im Moment können in Wikidata sieben Datentypen (datatypes) (Item, Commons media file, String, Time, Geographic coordinates und URL) für Eigenschaften (properties) verarbeitet werden. Andere Datentypen werden mit der Zeit hinzukommen.
 
-Datentyp: Datenobjekt/Item
+![Liste_Head.PNG](images/Liste_Head.PNG)
+
+
+#Datentyp: Datenobjekt/Item#
 
 Link zu anderen Objekten im Projekt. Es wird der „Objekt“-Namensraum auf Wikidata für passende Einträge durchsucht. Er besteht aus einem einfachen Texteintragsfeld.
 
-Datentyp: Mediendatei/Media file/Commons
+Beispiel:
+
+
+
+#Datentyp: Mediendatei/Media file/Commons#
 
 Link zu Dateien, die auf Wikimedia Commons gespeichert sind. Es wird der „Datei“-Namensraum auf Commons für passende Einträge durchsucht.
 
-Datentyp: Zeichenkette/String
+#Datentyp: Zeichenkette/String#
 
 Literales Datenfeld für eine Glyphenkette. Typische Verwendung sind Kennungen mit geschriebenen Formen, die nicht von der Sprache des Lesers abhängig sind.
 
 value – ausdrücklicher Wert für die sprachspezifische Variantenkette
 
-Datentyp: Zeit/Time
+#Datentyp: Zeit/Time#
 
-Literales Datenfeld für einen Zeitwert, angegeben als Zeit mit Genauigkeit und Begrenzungen. Die Zeit wird immer intern als gregorianisch gespeichert, kann jedoch andere Formate beim Parsen und Formatieren benutzen (?).
+Literales Datenfeld für einen Zeitwert, angegeben als Zeit mit Genauigkeit und Begrenzungen. Die Zeit wird immer intern als gregorianisch gespeichert, kann jedoch andere Formate beim Parsen und Formatieren benutzen.
 
 time – ausdrücklicher Wert für einen Zeitpunkt; dargestellt, wie in der Norm ISO8601 beschrieben. Das Jahr hat immer 11 Ziffern und das Datum ist immer vorzeichenbehaftet im Format +00000002013-01-01T00:00:00Z.
 timezone – ausdrücklicher Wert als vorzeichenbehaftete Ganzzahl. Die Zeitzoneninformationen wird als Unterschied zur UTC in Minuten angegeben.
@@ -65,7 +72,7 @@ after – ausdrücklicher Ganzzahlwert für eine Anzahl an Einheiten vor der ang
 precision – ausdrücklicher Wert, kodiert als kurze Ganzzahl mit folgender Bedeutung: 0: Milliarden Jahre; 1: Hundert Millionen Jahre … 6: Jahrtausende; 7: Jahrhunderte; 8: Jahrzehnte; 9: Jahre; 10: Monate; 11: Tage; 12: Stundee; 13: Minuten; 14: Sekunden.
 calendarmodel – ausdrücklicher Wert, angegeben als URI. Er identifiziert das Kalendermodell, das zur Anzeige dieses Zeitwertes verwendet werden soll.
 
-Datentyp: Geographische Koordinaten/Geographic coordinates
+#Datentyp: Geographische Koordinaten/Geographic coordinates#
 
 Zukünftig geplant.
 
@@ -74,13 +81,13 @@ Literale Daten für eine geografische Position, die als Breitengrad-Längengrad-
 latitude – impliziter erster Teil (float, dms, dm, dd) der Koordinatenkette. Die Richtung wird entweder mit einem Präfixzeichen oder mit dem Postfix „N/S“ angegeben.
 longitude – impliziter zweiter Teil (float, dms, dm, dd) der Koordinatenkette. Die Richtung wird entweder mit einem Präfixzeichen oder mit dem Postfix „O/W“ angegeben. Gglobe – ausdrücklicher (?) Datenwert, angegeben als Sternenkörper, dessen Standards auf Erde sind "http://www.wikidata.org/entity/Q2" precision – numerische Genauigkeit der Koordinate.
 
-Datentyp: URL
+#Datentyp: URL#
 
 Zukünftig geplant.
 
 Literales Datenfeld für eine URL. URLs sind auf die Protokolle beschränkt, die auch für externe Links im Wikitext unterstützt werden.
 
-Datentyp: Menge/Quantity
+#Datentyp: Menge/Quantity#
 
 Literales Datenfeld für eine Menge, die sich auf eine Art klar definierte Einheit bezieht. Die tatsächliche Einheit geht in die Datenwerte, die eingegeben werden.
 
