@@ -15,12 +15,6 @@ Die Eigenschaft `P19` ist beispielsweise unter <https://www.wikidata.org/wiki/Pr
 Jede Aussage auf einer Itemseite stellt eine Verbindung zu einer Eigenschaft her und weist ihr einen Wert zu. Die Eigenschaften sind nach Themen unterteilt:
 ![Liste_der_Eigenschaften.GIF](images/Liste_der_Eigenschaften.GIF)
 
-**Suche von Eigenschaften**
-
-Ist man auf der Suche nach einer Eigenschaft, der Name allerdings bekannt ist, gibt es zwei Möglichkeiten um eine Suche erfolgreich zu gestalten. Diese Seite: https://www.wikidata.org/wiki/Wikidata:List_of_properties/de verlinkt direkt zu der Liste der Eigenschaften und der Suchmaske.
-
-![Suche_Eigenschaften.PNG](images/Suche_Eigenschaften.PNG)
-
 Einige Eigenschaften sind dazu gedacht, von Wikidata-Items auf andere Normdateien zu Verweisen (siehe Kapitel [Normdaten-Eigenschaften in Wikidata](#normdaten-eigenschaften-in-wikidata)).
 
 Eigenschaften können wie Wikidata-Items von allen Mitarbeitern bearbeitet werden, beispielsweise mit Übersetzungen und Beschreibungen der jeweiligen Eigenschaft. Das Anlegen neuer Eigenschaften ist jedoch nur ausgewählten Mitgliedern der Wikidata-Community möglich. Auf der Seite https://www.wikidata.org/wiki/Wikidata:Property_proposal/de können Vorschläge für neue Wikidata-Eigenschaften eingebracht werden.
