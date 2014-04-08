@@ -6,7 +6,7 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
   : Eine Aussage ist eine Untereinheit eines Datenobjektes in Wikidata. Aussagen bestehen in der Regel aus einer normierten Eigenschaft, ihnen  zugewiesenen Datenobjekten und optionalen Quellenangaben. Nicht jede Eigenschaft muss als Wert ein Datenobjekt beinhalten, manche enthalten einfache externe Verlinkungen (Normdaten, Websiten...) oder einfache Daten (geografische Daten, Ländercodes...).
   
 **Bot:** 
-  : ...
+  : Ein Bot ist eine selbstständig arbeitende Software, welche einen "Index mit URLs und damit verbundenen Inhalten bzw. Schlagwörtern erzeugt und diese an den Auftraggeber zurücksendet."  
  
 **Daten**
   : Es gibt verschiedene Definitionsmöglichkeiten für den Begriff Daten. Grundsätzlich stellen Daten erfassbare (Zahlen-)Werte aus Beobachtungen, Messungen, Erhebungen u.ä. dar. 
