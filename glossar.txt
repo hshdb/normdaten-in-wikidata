@@ -35,7 +35,7 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
   Die Ordnung einer Klassifikation erfolg stets vom allgemeinen zum speziellen. Die Klassifikationsnummern dienen der Suche nach einem speziellen Thema. Klassifikationsnummern bestehen dabei oft aus einem Buchstaben (Wissensgebiet) und einer Zahl (Teilgebiet). 
 
 **MediaWiki**
-  : ...
+  : "MediaWiki ist ein freies Softwarepaket zum Betrieb eines Wikis, das ursprünglich für die Wikipedia geschrieben wurde. Es ist das Wikisystem aller von der Wikimedia-Stiftung (Wikimedia Foundation) betriebenen Wikis sowie vieler anderer Wikis, einschließlich dieser Website – der Website zu MediaWiki." 
 
 **Normdatei**
   : ...
