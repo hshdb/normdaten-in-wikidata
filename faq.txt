@@ -10,11 +10,11 @@
     
     ![Abbildung 2](images/faq_spracheaendern_2.png)
 
-    Wie Sie in Abbildung 3 sehen, wurde Englisch ausgewählt. Nun müssen Sie 	nur noch auf die Schaltfläche Auswählen klicken ( Abbildung 3)
+    Wie Sie in Abbildung 3 sehen, wurde Englisch ausgewählt. Nun müssen Sie 	nur noch auf die Schaltfläche Auswählen klicken
     
     ![Abbildung 3](images/faq_spracheaendern_3.png)
     
-und wie Sie in Abbildung 4 sehen wurde auf der Benutzeroberfläche die Sprache auf Englisch gesetzt.
+	und wie Sie in Abbildung 4 sehen wurde auf der Benutzeroberfläche die 		Sprache auf Englisch gesetzt.
 
    ![Abbildung 4](images/faq_spracheaendern_4.png)
 
