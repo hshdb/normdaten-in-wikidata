@@ -21,7 +21,7 @@ Wikidata hat einige Vorläufer in verwandten Projekten wie [Semantic MediaWiki](
 
 ## Wikidata als Datenbank
 
- Wikidata ist vor allem eine freie Datenbank, und somit ist ein System zur elektronischen Datenverwaltung, die von Menschen wie auch von Maschinen gelesen und bearbeitet werden kann. Da Wikidata eine **sekundäre Datenbank** (im Gegensatz zu einer **primären Datenbank**) ist, kann sie über Links mit anderen Projekten der Wikimedia Foundation verknüpft werden. Dadurch bietet sich die Möglichkeit, die Quellen zu überprüfen. 
+ Wikidata ist vor allem eine freie Datenbank, und somit ist ein System zur elektronischen Datenverwaltung, die von Menschen wie auch von Maschinen gelesen und bearbeitet werden kann. Wikidata kann über Links mit anderen Projekten der Wikimedia Foundation verknüpft werden. Dadurch bietet sich die Möglichkeit, die Quellen zu überprüfen. 
  
  Wikidata Datenbank besteht aus einem Computerprogramm zur Verwaltung von Daten (Datenbankmanagementsystem) und darin gespeicherten Daten (**Datenbestand** oder Datenbasis). Im Falle von Wikidata besteht das Datenbankmanagementsystem aus der Wikidata-Software, die sich aus einer Wiki-Komponente namens **MediaWiki** und einer Datenbank-Komponente namens **Wikibase** zusammensetzt. MediaWiki wird auch für Wikipedia und die anderen Projekte der Wikimedia-Foundation eingesetzt, während Wikibase speziell für Wikidata entwickelt wurde.
 
