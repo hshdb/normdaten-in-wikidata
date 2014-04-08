@@ -42,3 +42,13 @@ Bestimmungsmethode (P459) (Qualifikator): Schätzung (Wert des Qualifikators)
 Startzeitpunkt (P580) (Qualifikator): 14. Mai 1643 (Wert des Qualifikators)
 Endzeitpunkt (P582) (Qualifikator): 1. September 1715 (Wert des Qualifikators)
 
+### Ränge
+
+[Ränge](https://www.wikidata.org/wiki/Help:Ranking) sind Qualitätsfaktoren und helfen, die Qualität einer Aussage einzustufen. Das Ranking wird nur angewandt, wenn es mehr als eine Aussage gibt. Es gibt drei mögliche Rangstufen:
+
+1. Herabgestufter oder zweifelhafter Rang: Für Aussagen, die nicht als zuverlässig betrachtet werden können oder von denen man weiß, dass sie Fehler enthalten.
+2. Normaler Rang: Für Aussagen, die relevante Informationen enthalten. Diese Informationen gelten allgemein als korrekt. 
+3. Vorrangig: Für Aussagen mit den wichtigsten und aktuellsten Informationen.
+
+Daraus folgt die Konsequenz, dass Aussagen ohne Quelle oder mit der Quelle [Datenherkunft (P143)](https://www.wikidata.org/wiki/Property:P143) als zweifelhafter Rang eingestuft werden.
+
