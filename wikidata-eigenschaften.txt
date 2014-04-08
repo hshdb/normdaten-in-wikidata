@@ -113,6 +113,11 @@ unit – impliziter Teil der Zeichenkette, dessen Standards auf „1“ sind (Ma
 upperbound – Obergrenze der Menge
 lowerbound – Untergrenze der Menge
 
+Beispiel:
+
+![Quanitity.PNG](images/Quanitity.PNG)
+
+
   
 Weitere Informationen und Einschränkungen:
 
