@@ -24,16 +24,13 @@ Eigenschaften können wie Wikidata-Items von allen Mitarbeitern bearbeitet werde
 In Wikidata existierten verschiedene Datentypen.In Wikidata existiert eine enstprechende Liste: 
 https://www.wikidata.org/wiki/Special:ListDatatypes?uselang=de
 
-![Suche_Eigenschaften.PNG](images/Suche_Eigenschaften.PNG)
-
-
 **Die wichtigsten Datentypen und eine Beispiel-Eigenschaft:**
 
 Im Moment können in Wikidata sieben Datentypen (datatypes) (Item, Commons media file, String, Time, Geographic coordinates und URL) für Eigenschaften (properties) verarbeitet werden. Andere Datentypen werden mit der Zeit hinzukommen.
 
-**Datentyp: Datenobjekt/Item**
+**Datentyp: Item**
 
-Link zu anderen Objekten im Projekt. Es wird der „Objekt“-Namensraum auf Wikidata für passende Einträge durchsucht. Er besteht aus einem einfachen Texteintragsfeld.
+Links zu anderen Items im Projekt. Es wird der „Item“-Namensraum auf Wikidata für passende Einträge durchsucht. Er besteht aus einem einfachen Texteingabefeld. 
 
 Beispiel:
 
@@ -42,20 +39,14 @@ Spalte 2: ID
 Spalte 3: Datentyp
 Spalte 4: Beschreibung
 Spalte 5: Beispiel
-
 ![Item2.PNG](images/Item2.PNG)
-
-
 
 **Datentyp: Mediendatei/Media file/Commons**
 
 Link zu Dateien, die auf Wikimedia Commons gespeichert sind. Es wird der „Datei“-Namensraum auf Commons für passende Einträge durchsucht.
 
 Beispiel:
-
 ![Commons.PNG](images/Commons.PNG)
-
-
 
 **Datentyp: Zeichenkette/String**
 
@@ -67,13 +58,11 @@ Beispiel:
 
 ![Zeichenkettet.PNG](images/Zeichenkettet.PNG)
 
-
-
 **Datentyp: Zeit/Time**
 
 Literales Datenfeld für einen Zeitwert, angegeben als Zeit mit Genauigkeit und Begrenzungen. Die Zeit wird immer intern als gregorianisch gespeichert, kann jedoch andere Formate beim Parsen und Formatieren benutzen.
 
-time – ausdrücklicher Wert für einen Zeitpunkt; dargestellt, wie in der Norm ISO8601 beschrieben. Das Jahr hat immer 11 Ziffern und das Datum ist immer vorzeichenbehaftet im Format +00000002013-01-01T00:00:00Z.
+time – ausdrücklicher Wert für einen Zeitpunkt; dargestellt, wie in der Norm ISO8601 beschrieben. Das Jahr hat immer 11 Ziffern und das Datum ist immer vorzeichenbehaftet im Format +00000002013-01-01 T00:00:00Z.
 timezone – ausdrücklicher Wert als vorzeichenbehaftete Ganzzahl. Die Zeitzoneninformationen wird als Unterschied zur UTC in Minuten angegeben.
 before – ausdrücklicher Ganzzahlwert für eine Anzahl an Einheiten nach der angegebenen Zeit. Die Einheit ist als "precision" (siehe unten) angegeben.
 after – ausdrücklicher Ganzzahlwert für eine Anzahl an Einheiten vor der angegebenen Zeit. Die Einheit ist als "precision" (siehe unten) angegeben.
@@ -81,10 +70,7 @@ precision – ausdrücklicher Wert, kodiert als kurze Ganzzahl mit folgender Bed
 calendarmodel – ausdrücklicher Wert, angegeben als URI. Er identifiziert das Kalendermodell, das zur Anzeige dieses Zeitwertes verwendet werden soll.
 
 Beispiel:
-
 ![](images/Zeit2.PNG)
-
-
 
 **Datentyp: Geographische Koordinaten/Geographic coordinates**
 
@@ -94,15 +80,11 @@ latitude – impliziter erster Teil (float, dms, dm, dd) der Koordinatenkette. D
 longitude – impliziter zweiter Teil (float, dms, dm, dd) der Koordinatenkette. Die Richtung wird entweder mit einem Präfixzeichen oder mit dem Postfix „O/W“ angegeben. Gglobe – ausdrücklicher (?) Datenwert, angegeben als Sternenkörper, dessen Standards auf Erde sind "http://www.wikidata.org/entity/Q2" precision – numerische Genauigkeit der Koordinate.
 
 Beispiel:
-
 ![geographische_Koordination2.PNG](images/geographische_Koordination2.PNG)
-
-
 
 **Datentyp: URL**
 
 Zukünftig geplant.
-
 Literales Datenfeld für eine URL. URLs sind auf die Protokolle beschränkt, die auch für externe Links im Wikitext unterstützt werden.
 
 **Datentyp: Menge/Quantity**
@@ -115,13 +97,11 @@ upperbound – Obergrenze der Menge
 lowerbound – Untergrenze der Menge
 
 Beispiel:
-
 ![Quanitity2.PNG](images/Quanitity2.PNG)
-
 
 Weitere Informationen und Einschränkungen:
 
-Für Beispiele siehe auf der "Diskussion"-Seite zu jeder einzelnen Wikidata-Eigenschaft, z.B.:
+Für Beispiele siehe auf der Diskussionsseite zu jeder einzelnen Wikidata-Eigenschaft, z.B.:
 
-<https://www.wikidata.org/wiki/Property_talk:P19> <https://www.wikidata.org/wiki/Template:Constraint>..*
+<https://www.wikidata.org/wiki/Property_talk:P19> <https://www.wikidata.org/wiki/Template:Constraint>
 
