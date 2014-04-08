@@ -12,8 +12,7 @@ Die Eigenschaft `P19` ist beispielsweise unter <https://www.wikidata.org/wiki/Pr
 
 ### Vorhandene Eigenschaften
 
-Jede Aussage auf einer Datenobjektseite verlinkt zu einer Eigenschaft und weist ihr einen Wert zu. Die Eigenschaften sind nach Themen unterteilt:
-
+Jede Aussage auf einer Itemseite stellt eine Verbindung zu einer Eigenschaft her und weist ihr einen Wert zu. Die Eigenschaften sind nach Themen unterteilt:
 ![Liste_der_Eigenschaften.GIF](images/Liste_der_Eigenschaften.GIF)
 
 **Suche von Eigenschaften**
