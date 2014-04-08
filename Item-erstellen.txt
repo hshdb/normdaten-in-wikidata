@@ -13,6 +13,11 @@ Datenobjekte bestehen in der Regel aus einer Vielzahl von Aussagen. Diese enthal
 Für mehr siehe 2.1.4 oder auch [Help:Aussagen](https://www.wikidata.org/w/index.php?title=Help:Statements/de&oldid=108007039) 
 Eine Übersicht über alle Eigenschaften von Wikidata kann man unter folgendem Link [folgendem Link](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_properties/Summary_table/de&oldid=116061771) finden. Im Anhang dieser Übersicht kann man überprüfen, welche Werte Sie dort eintragen können.
 
+**Relevanzkriterien**
+*Hier soll ein Abschnitt folgen zu den Bedingungen, unter denen man in Wikidata überhaupt ein Item anlegen darf.* 
+
+Es gibt Relevanzkriterien für Items, die mindestens mit einem Wikipediaartikel oder über Eigenschaften mit anderen Items auf Wikidata verlinkt sind. 
+
 **Quellen:**
 
 * [Hilfe:editieren](https://www.wikidata.org/w/index.php?title=Help:Editing/de&oldid=94855342)
