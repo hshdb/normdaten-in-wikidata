@@ -47,7 +47,7 @@ Link zu anderen Objekten im Projekt. Es wird der „Objekt“-Namensraum auf Wik
 
 Beispiel:
 
-Spalte 1: Eigenschaften = Titel
+Spalte 1: Titel = Eigenschaft
 Spalte 2: ID
 Spalte 3: Datentyp
 Spalte 4: Beschreibung
