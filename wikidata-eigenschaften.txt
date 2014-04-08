@@ -40,14 +40,13 @@ https://www.wikidata.org/wiki/Special:ListDatatypes?uselang=de
 
 Im Moment können in Wikidata sieben Datentypen (datatypes) (Item, Commons media file, String, Time, Geographic coordinates und URL) für Eigenschaften (properties) verarbeitet werden. Andere Datentypen werden mit der Zeit hinzukommen.
 
-![Liste_Head.PNG](images/Liste_Head.PNG)
-
-
 #Datentyp: Datenobjekt/Item#
 
 Link zu anderen Objekten im Projekt. Es wird der „Objekt“-Namensraum auf Wikidata für passende Einträge durchsucht. Er besteht aus einem einfachen Texteintragsfeld.
 
 Beispiel:
+
+![Item.PNG](images/Item.PNG)
 
 
 
