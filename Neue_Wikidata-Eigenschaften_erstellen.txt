@@ -1,1 +1,3 @@
 ## Praxis: Neue Wikidata-Eigenschaften erstellen (fehlt noch!)
+
+Support anfragen um neue Eigenschaft anzulegen
