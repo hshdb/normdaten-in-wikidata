@@ -6,9 +6,13 @@ Aussagen in Wikidata können und sollten möglichst mit **Quellen** belegt werde
 * Wenn das Element sich auf einer externen Quelle bezieht. Es ermöglicht, die Informationen den anderen verbundenen Aussagen leicht zu überprüfen. Es ist somit nicht nötig, die referenzierten Quellen in Wikipedia zu haben. 
 * Wenn der Artikel selbst eine Quelle für eine Aussage ist - ein Buch für den Autor, ein Film für seine Akteure usw.
 
-Es gibt verschiedene Richtlinien für die Beschaffung von Quellen für die Aussagen, die Sie [hier](http://www.wikidata.org/wiki/Help:Sources/de) anschauen können.
+Es gibt verschiedene Richtlinien für die Beschaffung von Quellen für Aussagen, die Sie [hier](http://www.wikidata.org/wiki/Help:Sources/de) anschauen können.
 
-**Hier fehlen noch Informationen, woraus Quellen bestehen, nämlich mindestens aus einer Eigenschaft (z.B. nachgewiesen in (P248)) und aus einem Wert. Ein bis zwei konkrete Beispiele für Aussagen die mit Quellen belegt werden, wären auch hilfreich zum Verständnis**
+Quellen bestehen aus mindestens einer Eigenschaft und einem Wert. Die erste Aussage des Items [Deutschland](https://www.wikidata.org/wiki/Q183)  lautet "Mitglied von Welthandelsorganisation". Zu dieser Aussage gibt es drei Quellen:
+
+![Aussage mit drei Quellen](images/Aussage_Quelle_Deutschland.png)
+
+Die erste Quelle ist komplett aufgeklappt im Screenshot zu sehen. Wenn wir uns die Quelle genauer ansehen, fällt auf, dass es sich zwar um eine Quelle handelt, aber drei Eigenschaften angegeben sind. "Datenherkunft", "URL" und "Zitat" sind jeweils Eigenschaften und das darauffolgende (also für "Datenherkunft" z.B. "Bundesministerium für Wirtschaft und Technologie") die Werte.
 
 Es ist nicht das primäre Ziel der Wikidata, detaillierte Eigenschaften von **Belegen** zu modellieren. In seiner einfachsten Form ist eine Beleg nur ein Pfad, der einem Leser den Weg zu einer Quelle zeigt. Einige Belege können auch selbst Items in Wikidata beinhalten. Ein Wikipedia-Artikel über ein Buch kann beispielsweise auch als Beleg verwendet werden.
 Quellen können auch widersprüchliche Aussagen beinhalten, zum Beispiel ein Buch kann mehrere Kapitel enthalten, in denen verschiedene Autoren widersprüchliche Informationen geben.
