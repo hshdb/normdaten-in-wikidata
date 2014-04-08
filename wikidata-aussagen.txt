@@ -14,13 +14,31 @@ Beispiel: [Hannover](https://www.wikidata.org/w/index.php?title=Q1715&oldid=1166
 Der aufgerufene Datensatz ist _Hannover_. Die Eigenschaften sind _Staat_ 
 --> für das Wikidata-Item, _LCNAF_ --> für den außenstehenden Link und _Kfz-Kennzeichen_ --> für die einfache Beschreibung. 
 
-![wikidata_aussagen1.png](images/wikidata_aussagen1.png)
+![Wikidata Aussagen](images/wikidata_aussagen1.png)
 
 Siehe <http://www.wikidata.org/wiki/Wikidata:Glossary/de#Behauptungen_und_Aussagen>
 
-### Qualifikatoren und Ränge
+### Qualifikatoren
 
-*...Aussagen könnnen mit Qualifikatoren versehen sein...*
+[Qualifikatoren](https://www.wikidata.org/wiki/Help:Qualifiers/de) werden in Wikidata benutzt, um die Eigenschaft in einer Aussage näher zu beschreiben. Viele Aussagen benötigen weitere Qualifikatoren, um richtig interpretiert werden zu können. Sie liefern also zusätzliche Informationen und bestehen genau wie Aussagen aus Eigenschaft und Wert. 
+Qualifikatoren können auf unterschiedliche Art eingesetzt werden.
 
-*...Aussagen könnnen einen Rank haben...*
+Beispiel: 
+
+1. Um die Anwendung der Eigenschaft zu verändern
+> [Paris (Q90)(Objekt)](https://www.wikidata.org/wiki/Q90):
+Fläche (Eigenschaft): 213,010 sq mi (Wert der Eigenschaft)
+schließt aus (Qualifikator): Adélie Land (Wert des Qualifikators)
+
+2. Um die Gültigkeit des Werts zu beschränken
+> [Berlin (Q64)(Objekt)](https://www.wikidata.org/wiki/Q64):
+Bevölkerung (Eigenschaft): 3'500'000 (Wert der Eigenschaft)
+Zeitpunkt (P585): (Qualifikator): 2005 (Wert des Qualifikators)
+Bestimmungsmethode (P459) (Qualifikator): Schätzung (Wert des Qualifikators)
+
+3. Um weitere Details für den Wert einzugeben
+> [Ludwig XIV. (Q7742) (Objekt)](https://www.wikidata.org/wiki/Q7742):
+öffentliches Amt (P39) (Eigenschaft): König von Frankreich (property value)
+Startzeitpunkt (P580) (Qualifikator): 14. Mai 1643 (Wert des Qualifikators)
+Endzeitpunkt (P582) (Qualifikator): 1. September 1715 (Wert des Qualifikators)
 
