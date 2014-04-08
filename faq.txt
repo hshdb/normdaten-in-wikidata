@@ -13,3 +13,4 @@
 
     
 3. Warum gibt es das Feste Vokabular bei den Eigenschaften?
+ Die Eigenschaften sind in verschiedenensprachen vorhanden. 
