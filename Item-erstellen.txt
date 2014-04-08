@@ -1,0 +1,20 @@
+## Item erstellen
+![Neues Datenobjekt erstellen](images/objekterstellen2.png)
+
+Bevor man ein neues Objekt erstellt sollte man überprüfen, ob das Datenobjekt, welches man erstellen möchte [bereits existiert](https://www.wikidata.org/wiki/Special:ItemByTitle). Die Suche wird im Kaptitel [Inhalte finden](#inhalte-finden-in-wikidata) erklärt.
+
+Wenn das Objekt noch nicht vorhanden ist, bekommt man die Möglichkeit, ein neues Datenobjekt zu erstellen. Man wird mit einem Link auf die Erstellerseite weitergeleitet. Dort muss einmal die Bezeichnung sowie die Beschreibung des zu erstellenden Objekst eingetragen werden. Ist dies geschehen, kommt man auf die Objektseite.
+
+![Seite des neu erstellten Datenobjekts](images/objektseite.png)
+
+Auf dieser Objektseite hat man die Möglichkeit, Änderungen vorzunehmen oder weitere Sprachen beziehungsweise Übersetzungen für die Objektbezeichnung hinzuzufügen.
+
+Datenobjekte bestehen in der Regel aus einer Vielzahl von Aussagen. Diese enthalten Informationen über die reale Welt und sind der Kernteil jedes Datenobjektes. Sie gliedern sich in Eigenschaften (property) mit vorgegebenem Vokabular und ihnen zugewiesenen Werten/Inhalten. 
+Für mehr siehe 2.1.4 oder auch [Help:Aussagen](https://www.wikidata.org/w/index.php?title=Help:Statements/de&oldid=108007039) 
+Eine Übersicht über alle Eigenschaften von Wikidata kann man unter folgendem Link [folgendem Link](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_properties/Summary_table/de&oldid=116061771) finden. Im Anhang dieser Übersicht kann man überprüfen, welche Werte Sie dort eintragen können.
+
+**Quellen:**
+
+* [Hilfe:editieren](https://www.wikidata.org/w/index.php?title=Help:Editing/de&oldid=94855342)
+* [How To Edit Wikidata](http://upload.wikimedia.org/wikipedia/commons/9/94/How_to_Edit_Wikidata.pdf)
+
