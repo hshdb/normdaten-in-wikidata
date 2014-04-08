@@ -13,7 +13,7 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
   Aus der Sicht der Informatik sind Daten Zeichenfolgen, welche maschinenlesbar sein müssen, auf Datenträgern gespeichert sind und von "Datenverarbeitungsanlagen gespeichert, verarbeitet und/oder erzeugt werden können."
 
 **Datenbank**
-  : s. ->primäre Datenbank und ->sekundäre Datenbank
+  : ... 
   
 **Datenbestand**
   : Ein Datenbestand stellt die Gesamtheit aller ->Daten in einer Datenbank dar. In Wikidata ist der Datenbestand die Menge aller ->Items und ->Aussagen. 
