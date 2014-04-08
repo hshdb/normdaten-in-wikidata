@@ -4,4 +4,5 @@ Nur Administratoren und [Eigenschaftenersteller](https://www.wikidata.org/wiki/W
 
 1. Überprüfen Sie, ob die Eigenschaft bereits existiert.
 2. Überprüfen Sie, ob die Eigenschaft bereits vorgeschlagen oder abgelehnt wurde.
-3. Prüfen Sie, ob Sie der Eigenschaft eine ähnliche Bezeichnung und Beschreibung geben können wie einem bereits existierenden Infobox-Parameter in der Wikipedia. Sollte dies zutreffen, überlegen Sie, ob 
+3. Prüfen Sie, ob Sie der Eigenschaft eine ähnliche Bezeichnung und Beschreibung geben können wie einem bereits existierenden Infobox-Parameter in der Wikipedia. Sollte dies zutreffen, überlegen Sie, ob deren Daten automatisch nach Wikidata übertragen werden können.
+4. Wählen Sie den richtigen Datentyp für die Eigenschaft.
