@@ -2,7 +2,6 @@
 
 vorwort.txt
 abkuerzungsverzeichnis.txt
-inhaltsverzeichnis.txt
 einleitung.txt
 Einfuehrung_in_Normdaten.txt
 Einfuehrung_in_Wikidata.txt
