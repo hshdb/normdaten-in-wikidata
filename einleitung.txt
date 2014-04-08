@@ -6,7 +6,7 @@ Benutzer können in Wikidata Einträge ([Items](#wikidata-items)) angelegen, die
 
 Die Begriffsdefinitonen zu [Normdaten](#einführung-in-normdaten)leitet den Hauptteil des Buches, den Theorieteil ein. Dem schließen sich Begriffe wie [Wikidata] (#entstehung-von-wikidata) und dessen Geschichte an. Über Wikidata und [Inhalte](#inhalte-von-wikidata) bzw. Ziele von Wikidata lernt der Benutzer die Oberfläche von Wikidata kennen [Oberflächenbeschreibung](#oberflächenbeschreibung).
 
-In der zweiten Hälfte Praxis geht es um [Inhalte finden in Wikidata](#inhalte-finden-in-wikidata) wie [Aussagen in Wikidate bearbeitet und angelegt](#aussagen-in-wikidata-bearbeiten-und-anlegen) werden können.
+In der zweiten Hälfte Praxis geht es darum [Inhalte finden in Wikidata](#inhalte-finden-in-wikidata) wie [Aussagen in Wikidate bearbeitet und angelegt](#aussagen-in-wikidata-bearbeiten-und-anlegen) werden können.
 
 
 
