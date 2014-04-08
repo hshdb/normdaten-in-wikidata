@@ -9,7 +9,8 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
   : ...
  
 **Daten**
-  : Es gibt verschiedene Definitionsmöglichkeiten für den Begriff Daten. Aus der Sicht der Informatik sind Daten Zeichenfolgen, welche maschinenlesbar sein müssen, auf Datenträgern gespeichert sind und von "Datenverarbeitungsanlagen gespeichert, verarbeitet und/oder erzeugt werden können."
+  : Es gibt verschiedene Definitionsmöglichkeiten für den Begriff Daten. Grundsätzlich stellen Daten erfassbare (Zahlen-)Werte aus Beobachtungen, Messungen, Erhebungen u.ä. dar. 
+  Aus der Sicht der Informatik sind Daten Zeichenfolgen, welche maschinenlesbar sein müssen, auf Datenträgern gespeichert sind und von "Datenverarbeitungsanlagen gespeichert, verarbeitet und/oder erzeugt werden können."
 
 **Datenbestand**
   : ...
