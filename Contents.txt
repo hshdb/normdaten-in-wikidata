@@ -14,8 +14,6 @@ normdaten-in-wikidata.txt
 normdaten-eigenschaften-in-wikidata.txt
 unterschied-normd-wd-u-anderen-normd.txt
 inhalte-finden-in-wikidata.txt
-datenobjekt-erstellen.txt
-Item_erstellen.txt
 Item-erstellen.txt
 bezeichnungen-und-beschreibungen-uebersetzen.txt
 aussagen-bearbeiten-und-anlegen.txt
