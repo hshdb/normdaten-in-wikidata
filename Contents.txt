@@ -17,7 +17,7 @@ unterschied-normd-wd-u-anderen-normd.txt
 inhalte-finden-in-wikidata.txt
 datenobjekt-erstellen.txt
 Item_erstellen.txt
-bezeichnungen-und-beschreibungen.txt
+bezeichnungen-und-beschreibungen-uebersetzen.txt
 aussagen-bearbeiten-und-anlegen.txt
 Neue_Wikidata-Eigenschaften_erstellen.txt
 Normdaten_Praxis.txt
@@ -28,5 +28,4 @@ literatur.txt
 Stichwortverzeichnis.txt
 Anhang.txt
 Item-erstellen.txt
-l_schen.txt
-loeschen.txt
+
