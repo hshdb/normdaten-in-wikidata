@@ -13,7 +13,7 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
   Aus der Sicht der Informatik sind Daten Zeichenfolgen, welche maschinenlesbar sein müssen, auf Datenträgern gespeichert sind und von "Datenverarbeitungsanlagen gespeichert, verarbeitet und/oder erzeugt werden können."
 
 **Datenbank**
-  : ... 
+  : Eine Datenbank dient der Verwaltung großer Datenmengen, damit diese schnell, widerspruchsfrei und dauerhaft gespeichert und für verschiedene Benutzergruppen ausgegeben werden können. 
   
 **Datenbestand**
   : Ein Datenbestand stellt die Gesamtheit aller ->Daten in einer Datenbank dar. In Wikidata ist der Datenbestand die Menge aller ->Items und ->Aussagen. 
@@ -61,4 +61,4 @@ Die Beschreibung zur Bildung von Normdaten findet man in umfangreichen Regelwerk
   : Ein Thesaurus ist eine Sammlung von ->Schlagworten, welche hierarchisch und thematisch miteinander verknüpft sind. Ein Schlagwort in einem Thesaurus beinhaltet Synonyme, verwandte Begriffe (Assoziationen), Ober- und Unterbegriffe. 
 
 **Wikibase**
-  : ...
+  : Wikibase ist eine von der Wikimedia-Community entwickelte freie Software-Erweiterung. Wikibase hilft dem Anwender, sein Wiki zu einem strukturierten Datenrepository umzubauen. Zu Wikibase' Kernfunktionen gehören die Erstellung von ->Items, die Erstellung von Beschreibungen, Benennungen und Alternativnamen (Aliase) für Items. 
