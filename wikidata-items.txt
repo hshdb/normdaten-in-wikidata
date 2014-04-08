@@ -3,7 +3,7 @@
 
 ### Allgemein zu Wikidata-Items
 
-Ein **Item** (oft auch als "Datenobjekt" bezeichnet) ist ein Eintrag in Wikidata, der sich auf einen Gegenstand, ein Thema, oder ein Konzept in der wirklichen Welt bezieht. Durch eine eindeutige Datensatz-ID wird in Wikidata ein Item identifiziert. Die **Datensatz-ID** besteht aus dem _Buchstaben “Q“_ und _einer Nummer_. So steht beispielsweise `Q8` für "Glück" und `Q1` für das "Universum". Außerdem wird ein Item durch seine einzigartige Kombination aus mehrsprachiger Bezeichnung und Beschreibung.
+Ein **Item** (oft auch als "Datenobjekt" bezeichnet) ist ein Eintrag in Wikidata, der sich auf einen Gegenstand, ein Thema, oder ein Konzept in der wirklichen Welt bezieht. Durch eine eindeutige Datensatz-ID wird in Wikidata ein Item identifiziert. Die Datensatz-ID besteht aus dem _Buchstaben “Q“_ und _einer Nummer_. So steht beispielsweise `Q8` für "Glück" und `Q1` für das "Universum". Außerdem wird ein Item durch seine einzigartige Kombination aus mehrsprachiger Bezeichnung und Beschreibung.
 Es können weiterst mehrere Alternativnamen festgelegt werden. 
 
 Wikidata-Items besitzen Links zu den zu verlinkenden Seiten, sie können über Aussagen verfügen, welche aus einer Eigenschaft (**property**) mit Wert (**value**) und zugehöriger Quelle (**source**) bestehen. 
