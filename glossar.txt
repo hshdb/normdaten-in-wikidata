@@ -9,8 +9,7 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
   : Ein Bot ist eine selbstständig arbeitende Software, welche einen "Index mit URLs und damit verbundenen Inhalten bzw. Schlagwörtern erzeugt und diese an den Auftraggeber zurücksendet."  
  
 **Daten**
-  : Es gibt verschiedene Definitionsmöglichkeiten für den Begriff Daten. Grundsätzlich stellen Daten erfassbare (Zahlen-)Werte aus Beobachtungen, Messungen, Erhebungen u.ä. dar. 
-  Aus der Sicht der Informatik sind Daten Zeichenfolgen, welche maschinenlesbar sein müssen, auf Datenträgern gespeichert sind und von "Datenverarbeitungsanlagen gespeichert, verarbeitet und/oder erzeugt werden können."
+  : Es gibt verschiedene Definitionsmöglichkeiten für den Begriff Daten. Grundsätzlich stellen Daten erfassbare (Zahlen-)Werte aus Beobachtungen, Messungen, Erhebungen u.ä. dar. Aus der Sicht der Informatik sind Daten Zeichenfolgen, welche maschinenlesbar sein müssen, auf Datenträgern gespeichert sind und von "Datenverarbeitungsanlagen gespeichert, verarbeitet und/oder erzeugt werden können."
 
 **Datenbank**
   : Eine Datenbank dient der Verwaltung großer Datenmengen, damit diese schnell, widerspruchsfrei und dauerhaft gespeichert und für verschiedene Benutzergruppen ausgegeben werden können. 
@@ -25,8 +24,7 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
   : s. ->Schlagwort
   
 **Eigenschaft (property)**
-  : Eigenschaften sind Bestandteile von ->Aussagen. Ihnen können Werte 
-  (->Items) zugeordnet werden. Jede Eigenschaft ist einzigartig und beschreibt die Merkmale der ihnen zugewiesenen Items.  
+  : Eigenschaften sind Bestandteile von ->Aussagen. Ihnen können Werte (->Items) zugeordnet werden. Jede Eigenschaft ist einzigartig und beschreibt die Merkmale der ihnen zugewiesenen Items.  
   
 **Gemeinsame Normdatei (GND)**
   : Die Gemeinsame Normdatei ist ein Projekt der Deutschen Nationalbibliothek und einigen anderen deutschen Bibliotheken. Sie stellt den Zusammenschluss der ehemaligen getrennten Gemeinsamen Körperschaftsdatei (GKD), der Personennormendatei (PND), der Schlagwortnormdatei (SWD) und der Einheitssachtitel-Datei des Deutschen Musikarchivs (DMA-EST-Datei) dar. 
@@ -38,20 +36,16 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
   : Das Indexieren beschreibt eine Methode der Inhaltserschließung von Dokumenten und medialen Inhalten jeglicher Art. Produkte von Indexierungen sind ->Schlagwörter und Stichwörter. Indexierte Dokumente sollen nach einer späteren Recherche mit - nach bestimmten Regeln von Dokumentationssprachen (mithilfe einer ->Klassifikation oder eines ->Thesaurus)- genau den vergebenen Schlag- und Stichwörtern wiedergefunden werden. 
   
 **Klassifikation**
-  : Eine Klassifikation ist ein hierarchisches Verzeichnis von 
-  ->Schlagworten, welche nach Wissensgebieten geordnet sind (sog. Klassen). 
-Die Ordnung einer Klassifikation erfolgt stets vom allgemeinen zum speziellen. Die Klassifikationsnummern dienen der Suche nach einem speziellen Thema. Klassifikationsnummern bestehen dabei oft aus einem Buchstaben (Wissensgebiet) und einer Zahl (Teilgebiet). 
+  : Eine Klassifikation ist ein hierarchisches Verzeichnis von ->Schlagworten, welche nach Wissensgebieten geordnet sind (sog. Klassen). Die Ordnung einer Klassifikation erfolgt stets vom allgemeinen zum speziellen. Die Klassifikationsnummern dienen der Suche nach einem speziellen Thema. Klassifikationsnummern bestehen dabei oft aus einem Buchstaben (Wissensgebiet) und einer Zahl (Teilgebiet). 
 
 **MediaWiki**
   : "MediaWiki ist ein freies Softwarepaket zum Betrieb eines Wikis, das ursprünglich für die Wikipedia geschrieben wurde. Es ist das Wikisystem aller von der Wikimedia-Stiftung (Wikimedia Foundation) betriebenen Wikis sowie vieler anderer Wikis, einschließlich dieser Website – der Website zu MediaWiki." 
 
 **Normdatei**
-  : Eine Normdatei ist ein Gesamtverzeichnis aller ->Normdaten. Viele Länder bzw. Sprachengebiete haben für ihre Bibliothekssysteme oder auch 
-  ->Datenbestände eigene Normdateien entwickelt, z.B. die ->GND, LCCN, NDL, VIAF). In Wikidata selbst gibt es zwei Normdateienfunktionen: 1.: Wikidata kann externe Normdaten einbinden und 2.: Wikidata soll in Zukunft selbst eine Normdatei für Projekte der Wikimedia Foundation werden. 
+  : Eine Normdatei ist ein Gesamtverzeichnis aller ->Normdaten. Viele Länder bzw. Sprachengebiete haben für ihre Bibliothekssysteme oder auch ->Datenbestände eigene Normdateien entwickelt, z.B. die ->GND, LCCN, NDL, VIAF). In Wikidata selbst gibt es zwei Normdateienfunktionen: 1.: Wikidata kann externe Normdaten einbinden und 2.: Wikidata soll in Zukunft selbst eine Normdatei für Projekte der Wikimedia Foundation werden. 
 
 **Normdaten**
-  : Normdaten sind ->Daten, welche nach festgelegten Regeln erschlossen und beschrieben werden. Ein wichtiges Merkmal von Normdaten sind ihre eindeutigen Bezeichnungen: Normdaten sind stets unter einem einzigartigen Namen zu finden, welcher sich aus alphanumerischen Zeichen zusammensetzt. Manche Normdaten enthalten darüberhinaus synonyme, verwandte, Ober-und Unterbegriffe und manchmal auch Beschreibungstexte und Synonyme in anderen Sprachen (so zum Beispiel in Wikidata). 
-Fast jedes Datum kann normiert werden: Personen, Orte, geografische Einheiten, Körperschaften, Verwaltungseinheiten u.v.m. 
+  : Normdaten sind ->Daten, welche nach festgelegten Regeln erschlossen und beschrieben werden. Ein wichtiges Merkmal von Normdaten sind ihre eindeutigen Bezeichnungen: Normdaten sind stets unter einem einzigartigen Namen zu finden, welcher sich aus alphanumerischen Zeichen zusammensetzt. Manche Normdaten enthalten darüberhinaus synonyme, verwandte, Ober-und Unterbegriffe und manchmal auch Beschreibungstexte und Synonyme in anderen Sprachen (so zum Beispiel in Wikidata). Fast jedes Datum kann normiert werden: Personen, Orte, geografische Einheiten, Körperschaften, Verwaltungseinheiten u.v.m. 
 Die Beschreibung zur Bildung von Normdaten findet man in umfangreichen Regelwerken und Richtlinien. 
   
 **Schlagwort**
