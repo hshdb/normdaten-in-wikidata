@@ -38,20 +38,17 @@ Im Moment ist es nur möglich, dass jede externe Seite (zum Beispiel Datei oder 
 
 _Stammbaum von Johann Sebastian Bach_
 
-> Für ein sehr anschauliches Beispiel für solch ein Tool schau dir Mozart an. Das Tool ermöglicht nicht nur eine bloße Erfassung und Darstellung der Daten, sondern es „versteht“, dass dieses Item eine Person ist, und fragt zusätzliche, personenspezifische Items wie etwa Verwandte ab. Darüber hinaus zeigt es personenspezifische Informationen, wie z. B. Normdaten, die sich nicht auf andere Items beziehen. Mozarts Kompositionen werden aufgelistet und können auf der Seite wiedergegeben werden, wenn sie als Datei in Commons vorliegen. Bis zu einem gewissen Grad können auch die Sprachinformationen in Wikidata genutzt werden, sodass dieselbe Seite (größtenteils) auf Deutsch aufgerufen werden kann.
-Anstatt nur nach den direkten Verwandten zu suchen, kann ein Tool auch eine „Kette“ von bestimmten Eigenschaften zwischen Items verfolgen und einen „Item-Cluster“ – wie etwa einen Stammbaum (hübscher und umfangreicher Stammbaum von Mozart) – erzeugen. Der Stammbaum um John F. Kennedy herum enthält mehr als 10.000 Menschen. Auf ähnliche Weise kann ein Tool taxonomische Verbindungen zwischen Arten bis hin zu den Ursprüngen verfolgen und daraus einen vollständigen Lebensbaum (Achtung: riesige Seite!) erzeugen.
-
-> Diese Tools zeigen, dass Wikidata, obwohl es noch in den Kinderschuhen steckt, mit einem recht mäßigen Programmierungsaufwand komplexe Ergebnisse erzeugen kann. Eine futuristischere Demonstration der Möglichkeiten bietet das sprechende Wiri.
+*Text schreiben und Bild in einfachen Worten erklären.* 
 
 
 Quellen:
-[https://blog.wikimedia.de/2013/05/06/die-tool-umgebung-von-wikidata/](https://blog.wikimedia.de/2013/05/06/die-tool-umgebung-von-wikidata/)
+[blog.wikimedia](https://blog.wikimedia.de/2013/05/06/die-tool-umgebung-von-wikidata/)
 
-[https://www.wikidata.org/wiki/Wikidata:Glossary/de#Wikidata_editors ](https://www.wikidata.org/wiki/Wikidata:Glossary/de#Wikidata_editors )
+[Wikidata-Glossar](https://www.wikidata.org/wiki/Wikidata:Glossary/de#Wikidata_editors )
 
 [https://de.wikipedia.org/w/index.php?title=Vorlage:Wikidata-Weiterleitung&oldid=126947847)](https://de.wikipedia.org/w/index.php?title=Vorlage:Wikidata-Weiterleitung&oldid=126947847))
 
-[https://www.wikidata.org/w/index.php?title=Wikidata:Glossary/de&oldid=104808704](https://www.wikidata.org/w/index.php?title=Wikidata:Glossary/de&oldid=104808704)
+
 
 
 
