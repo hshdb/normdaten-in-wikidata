@@ -18,11 +18,9 @@ Der aufgerufene Datensatz ist _Hannover_. Die Eigenschaften sind _Staat_
 
 Siehe <http://www.wikidata.org/wiki/Wikidata:Glossary/de#Behauptungen_und_Aussagen>
 
-## Qualifikatoren
+### Qualifikatoren und Ränge
 
 *...Aussagen könnnen mit Qualifikatoren versehen sein...*
-
-## Ränge
 
 *...Aussagen könnnen einen Rank haben...*
 

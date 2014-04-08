@@ -1,4 +1,4 @@
-## Quellen
+### Quellen
 
 Aussagen in Wikidata können und sollten möglichst mit **Quellen** belegt werden. Folgende [Ausnahmen](http://www.wikidata.org/wiki/Help:Sources/Items_not_needing_sources/de) sind vorgesehen:
 
