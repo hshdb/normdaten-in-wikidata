@@ -24,6 +24,9 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
 **Eigenschaft (property)**
   : Eigenschaften sind Bestandteile von Aussagen. Ihnen können Werte (Items) zugeordnet werden. Jede Eigenschaft ist einzigartig und beschreibt die Merkmale der ihnen zugewiesenen Items.  
   
+**Gemeinsame Normdatei (GND)**
+  : ...
+  
 **Item (Datenobjekt)**
   : Eintrag in Wikidata, der sich auf einen Gegenstand (Person, Ort, Konzept...) bezieht. Jedes Wikidata-Datenobjekt hat eine eindeutige ID, die mit `Q` beginnt. Datenobjekte sind mit anderen Datenobjekten verknüpft.
   
@@ -41,7 +44,9 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
   : ...
 
 **Normdaten**
-  : ...
+  : Normdaten sind -> Daten, welche nach festgelegten Regeln erschlossen und beschrieben werden. Ein wichtiges Merkmal von Normdaten sind ihre eindeutigen Bezeichnungen: Normdaten sind stets unter einem einzigartigen Namen zu finden, welcher sich aus alphanumerischen Zeichen zusammensetzt. Manche Normdaten enthalten darüberhinaus synonyme, verwandte, Ober-und Unterbegriffe und manchmal auch Beschreibungstexte und synonyme in anderen Sprachen (so zum Beispiel in Wikidata). 
+Fast jedes Datum kann normiert werden: Personen, Orte, geografische Einheiten, Körperschaften, Verwaltungseinheiten u.v.m. 
+Die Beschreibung zur Bildung von Normdaten findet man in umfangreichen Regelwerken und Richtlinien. 
   
 **primäre Datenbank**
   : ...
