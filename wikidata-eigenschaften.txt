@@ -21,11 +21,9 @@ Eigenschaften können wie Wikidata-Items von allen Mitarbeitern bearbeitet werde
 
 ### Datentypen und andere Einschränkungen
 
-In Wikidata existierten verschiedene Datentypen.In Wikidata existiert eine enstprechende Liste: 
+In Wikidata existierten verschiedene **Datentypen**. Hier findet man eine Liste der Datentypen: 
 https://www.wikidata.org/wiki/Special:ListDatatypes?uselang=de
-
 ![Suche_Eigenschaften.PNG](images/Suche_Eigenschaften.PNG)
-
 
 **Die wichtigsten Datentypen und eine Beispiel-Eigenschaft:**
 
