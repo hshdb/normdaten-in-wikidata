@@ -1,4 +1,4 @@
-## Praxis: Weiternutzung der vorhandenen Daten
+## Weiternutzung der vorhandenen Daten
 
 *Hier etwas zur automatischen Abfrage und zu Export-Möglichkeiten*
 
