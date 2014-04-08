@@ -4,13 +4,13 @@ Jedes [Wikidata-Item](#wikidata-item) kann mit **Aussagen** beschrieben werden. 
 
 Es gibt drei Arten von Aussagen: 
 
-1. Der aufgerufene Datensatz wird durch eine Eigenschaft mit einem Wikidata-Item verlinkt.
+*hier nochmal klären und auf [Datentypen](#datentypen) verweisen!*
 
-2. Der aufgerufene Datensatz wird durch eine Eigenschaft mit einem außenstehenden Link verbunden.
+1. Aussagen, die ein Item über eine Eigenschaft mit einem anderen Wikidata-Item verlinken.
 
-3. Der aufgerufene Datensatz wird durch eine Eigenschaft inhaltlich oder objektiv beschrieben. 
+2. Aussagen, die ein Item durch eine Eigenschaft mit einem außenstehenden Link verbinden. (????)
 
-Beispiel: [Hannover](https://www.wikidata.org/w/index.php?title=Q1715&oldid=116640350)
+3. Aussagen, die ein Item durch eine Eigenschaft inhaltlich oder objektiv beschrieben. 
 
 Der aufgerufene Datensatz ist _Hannover_. Die Eigenschaften sind _Staat_ 
 --> für das Wikidata-Item, _LCNAF_ --> für den außenstehenden Link und _Kfz-Kennzeichen_ --> für die einfache Beschreibung. 
@@ -21,10 +21,9 @@ Siehe <http://www.wikidata.org/wiki/Wikidata:Glossary/de#Behauptungen_und_Aussag
 
 ### Qualifikatoren
 
-[Qualifikatoren](https://www.wikidata.org/wiki/Help:Qualifiers/de) werden in Wikidata benutzt, um die Eigenschaft einer Aussage näher zu beschreiben. Viele Aussagen benötigen weitere Qualifikatoren, um richtig interpretiert werden zu können. Sie liefern also zusätzliche Informationen und bestehen genau wie Aussagen aus Eigenschaft und Wert. 
-Qualifikatoren können auf unterschiedliche Art eingesetzt werden.
+**Qualifikatoren** werden in Wikidata benutzt, um eine Aussage näher zu beschreiben. Viele Aussagen benötigen weitere Qualifikatoren, um richtig interpretiert werden zu können. Sie liefern also zusätzliche Informationen und bestehen genau wie Aussagen aus einer Eigenschaft und einem Wert. 
 
-Beispiel: 
+Qualifikatoren können auf unterschiedliche Art eingesetzt werden.
 
 1. Um die Anwendung der Eigenschaft zu verändern
 > [Paris (Q90)(Objekt)](https://www.wikidata.org/wiki/Q90):
@@ -43,13 +42,16 @@ Bestimmungsmethode (P459) (Qualifikator): Schätzung (Wert des Qualifikators)
 Startzeitpunkt (P580) (Qualifikator): 14. Mai 1643 (Wert des Qualifikators)
 Endzeitpunkt (P582) (Qualifikator): 1. September 1715 (Wert des Qualifikators)
 
+Weitere Informationen zu Qualifikatoren stehen in Wikidata unter <https://www.wikidata.org/wiki/Help:Qualifiers/de>.
+
 ### Ränge
 
-[Ränge](https://www.wikidata.org/wiki/Help:Ranking) sind Qualitätsfaktoren und helfen, die Qualität einer Aussage einzustufen. Das Ranking wird nur angewandt, wenn es mehr als eine Aussage gibt. Es gibt drei mögliche Rangstufen:
+**Ränge** sind Qualitätsfaktoren und helfen, die Qualität einer Aussage einzustufen. Das Ranking wird nur angewandt, wenn es zu einem Item mehre Aussagen mit der gleichen Eigenschaft gibt. Es gibt drei mögliche Rangstufen:
 
 1. Herabgestufter oder zweifelhafter Rang: Für Aussagen, die nicht als zuverlässig betrachtet werden können oder von denen man weiß, dass sie Fehler enthalten.
 2. Normaler Rang: Für Aussagen, die relevante Informationen enthalten. Diese Informationen gelten allgemein als korrekt. 
 3. Vorrangig: Für Aussagen mit den wichtigsten und aktuellsten Informationen.
 
-Daraus folgt die Konsequenz, dass Aussagen ohne Quelle oder mit der Quelle [Datenherkunft (P143)](https://www.wikidata.org/wiki/Property:P143) als zweifelhafter Rang eingestuft werden.
+Aussagen ohne Quelle sowie Aussagen, die ohne weitere Hinweise aus einer anderen Datenbank kopiert wurden (Quellenangabe mit der Eigenschaft "Datenherkunft" ([`P143`](https://www.wikidata.org/wiki/Property:P143)) sollten grundsätzlich als zweifelhaft eingestuft werden.
 
+Weitere Informationen zu Rängen stehen in Wikidata unter <https://www.wikidata.org/wiki/Help:Ranking>.
