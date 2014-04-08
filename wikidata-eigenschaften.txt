@@ -83,7 +83,8 @@ calendarmodel – ausdrücklicher Wert, angegeben als URI. Er identifiziert das 
 
 Beispiel:
 
-![Zeit.PNG](images/Zeit.PNG)
+![](images/Zeit2.PNG)![Zeit2.PNG](images/Zeit2.PNG)
+
 
 
 **Datentyp: Geographische Koordinaten/Geographic coordinates**
@@ -95,7 +96,8 @@ longitude – impliziter zweiter Teil (float, dms, dm, dd) der Koordinatenkette.
 
 Beispiel:
 
-![geographische_Koordination.PNG](images/geographische_Koordination.PNG)
+![geographische_Koordination2.PNG](images/geographische_Koordination2.PNG)
+
 
 
 **Datentyp: URL**
@@ -115,7 +117,9 @@ lowerbound – Untergrenze der Menge
 
 Beispiel:
 
-![Quanitity.PNG](images/Quanitity.PNG)
+![Quanitity2.PNG](images/Quanitity2.PNG)
+
+
 
 
   
