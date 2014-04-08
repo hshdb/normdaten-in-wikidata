@@ -85,7 +85,7 @@ calendarmodel – ausdrücklicher Wert, angegeben als URI. Er identifiziert das 
 
 Beispiel:
 
-![](images/Zeit2.PNG)![Zeit2.PNG](images/Zeit2.PNG)
+![](images/Zeit2.PNG)
 
 
 
