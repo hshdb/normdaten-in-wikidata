@@ -1,2 +1,11 @@
 ## Praxis: Item erstellen (fehlt noch!)
+### Dieses Item bearbeiten
+
+> Diejenigen, die bereits freiwillig an Wikimedia-Projekten mitgewirkt haben, wird es nicht überraschen, dass auch für Wikidata immer mehr Tools zum Editieren zur Verfügung stehen. Einige dieser Tools verfügen über eine Doppelfunktion zur Abfrage von Wikidata und Anzeige der Ergebnisse einerseits, und zum Aufzeigen noch ausstehender „To-dos“ andererseits. Bei einem Blick auf die Aufteilung der Genres von Fernsehserien auf Wikidata wird schnell erkennbar, dass weit mehr als die Hälfte überhaupt keinem Gerne zugewiesen ist. (Tipp: Klicke in dem Tortendiagramm auf ein Tortenstück, um die zugehörigen Items anzuzeigen. Kannst du Lost irgendeinem Genre zuordnen?).
+
+> Bei der Bearbeitung in Wikidata wird ein Item normalerweise durch Suche nach seinem Namen verlinkt. Schlechte Karten hat man aber, wenn man nach „John Taylor“ sucht, denn im Moment gibt es 52 Items mit dem Namen, aber ohne verwertbaren Beschreibungen dazu. Will man alle Items finden, die dasselbe Label verwenden, hilft der Terminator weiter. Dieses Tool stellt außerdem eine täglich aktualisierte Liste mit Items bereit, die denselben Titel, aber keine Beschreibung aufweisen.
+
+> Auf ähnliche Weise lassen sich Items nach Wikipedia-Kategorie suchen. Wer einen komplexeren Filter benötigt, sein eigenes Tool schreiben möchte oder nach einer Lösung zur Arbeitserleichterung sucht, kann ein Tool verwenden, das zum Beispiel Opern ohne Librettist findet (zur Änderung der Anfrage muss allerdings die URL bearbeitet werden).
+
+> Zusätzlich existieren viele Tools auf JavaScript-Basis, mit denen direkt in Wikidata gearbeitet werden kann. Ob man nun alle Sprachlinks oder die komplette Taxonomie aller Arten mit einem einzelnen Klick importieren, das gegenwärtige Item als weibliche Fußballspielerin aus Bosnien festlegen oder Eigenschaften eines Items auf alle Items in derselben Wikipedia-Kategorie übertragen möchte – für all diese Aufgaben stehen Tools zur Verfügung.
 
