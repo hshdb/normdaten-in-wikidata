@@ -83,9 +83,7 @@ body {
 
 /* Glossar */
 dt { font-weight: bold; }
-dt { float:left;width:160px; clear:left; text-align:right;
-     overflow:hidden; text-overflow:ellipsis; white-space:nowrap } 
-dd { margin-left:180px } 
+dd { margin-left: 1.5em; } 
 
 /* Bilder */
 .figure img {
