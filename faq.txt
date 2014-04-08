@@ -21,4 +21,4 @@ und wie Sie in Abbildung 4 sehen wurde auf der Benutzeroberfläche die 		Sprache
 
     
 **3. Warum gibt es das feste Vokabular bei den Eigenschaften?** 
- Die Eigenschaften sind in verschiedenen Sprachen vorhanden. Damit die 
+ Die Eigenschaften sind in verschiedenen Sprachen vorhanden. Die Begriffe sind vorgegeben, damit eine problemlose Übersetzung ermöglicht wird.
