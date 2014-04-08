@@ -3,13 +3,20 @@
 1. Stellt Wikidata Doppelarbeit dar, wenn es bereits entsprechende Wikipedia-Artikel gibt? 
 2. Wie kann ich die Benutzeroberflächensprache in Wikidata auf meine Sprache umstellen?
 	Sie haben als fesgelegte Benutzersprache Deutsch eingestellt (Siehe 		Abbildung 1). Wenn Sie nun die Benutzersprache von Deutsch auf Englisch 	umstellen möchten, dann gehen Sie wie folgt vor:
+    
     ![Abbildung 1](images/faq_spracheaendern_1.png)
 
     Gehen Sie auf der linken Seite zur Sprachauswahl und wählen Sie dort 		Ihre bevorzugte Sprache aus – in diesem Fall Englisch (siehe Abbildung 2)
+    
     ![Abbildung 2](images/faq_spracheaendern_2.png)
 
-    Wie Sie in Abbildung 3 sehen, wurde Englisch ausgewählt. Nun müssen Sie 	nur noch auf die Schaltfläche Auswählen klicken ( Abbildung 3) ![Abbildung 3](images/faq_spracheaendern_3.png) und wie Sie in Abbildung 	4 sehen wurde auf der Benutzeroberfläche die Sprache auf Englisch gesetzt.
-    ![Abbildung 4](images/faq_spracheaendern_4.png)
+    Wie Sie in Abbildung 3 sehen, wurde Englisch ausgewählt. Nun müssen Sie 	nur noch auf die Schaltfläche Auswählen klicken ( Abbildung 3)
+    
+    ![Abbildung 3](images/faq_spracheaendern_3.png)
+    
+und wie Sie in Abbildung 4 sehen wurde auf der Benutzeroberfläche die Sprache auf Englisch gesetzt.
+
+   ![Abbildung 4](images/faq_spracheaendern_4.png)
 
     
 3. Warum gibt es das Feste Vokabular bei den Eigenschaften?
