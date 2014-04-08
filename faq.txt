@@ -1,6 +1,7 @@
 # FAQ {.unnumbered}
 
 **1. Stellt Wikidata Doppelarbeit dar, wenn es bereits entsprechende Wikipedia-Artikel gibt?**
+Nein, da Wikidata die Wikipedia Fakten übernimmt und aufbereitet. Diese können durch die Aussagen leicht in anderen Sprachen abgerufen werden, was in Wikipedia nicht möglich ist.
 
 **2. Wie kann ich die Benutzeroberflächensprache in Wikidata auf meine Sprache umstellen?**
 Sie haben als festgelegte Benutzersprache Deutsch eingestellt (Siehe 		Abbildung 1). Wenn Sie nun die Benutzersprache von Deutsch auf Englisch 	umstellen möchten, dann gehen Sie wie folgt vor:
