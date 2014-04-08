@@ -53,9 +53,7 @@ Wikidata tritt hierfür an, die Erfassung formal beschreibbarer Metadaten auf ei
 
 Im Moment können in Wikidata sieben [Datentypen](#datentypen).
 
-Wikidata dient als Datengrundlage vieler Sprachversionen von Wikipedia.
-
-![Sprachliste Wikipedia](images/sprachleiste1.jpg)
+Wikidata dient als Datengrundlage vieler ![Sprachversionen von Wikipedia](images/sprachleiste1.jpg).
 
 In der obigen Abbildung sieht man ein Beispiel für die Funktionsweise von Wikidata: Verschiedene Bezeichnungen des Wikipedia-Artikels werden zentral in Wikidata gesammelt. Sie fungiert in dieser Hinsicht wie ein vielsprachiges Wörterbuch. 
 
