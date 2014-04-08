@@ -20,5 +20,5 @@ und wie Sie in Abbildung 4 sehen wurde auf der Benutzeroberfläche die 		Sprache
 ![Abbildung 4](images/faq_spracheaendern_4.png)
 
     
-**3. Warum gibt es das Feste Vokabular bei den Eigenschaften?
+**3. Warum gibt es das feste Vokabular bei den Eigenschaften?
  Die Eigenschaften sind in verschiedenensprachen vorhanden.** 
