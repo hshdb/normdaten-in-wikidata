@@ -20,7 +20,7 @@ Siehe <http://www.wikidata.org/wiki/Wikidata:Glossary/de#Behauptungen_und_Aussag
 
 ### Qualifikatoren
 
-[Qualifikatoren](https://www.wikidata.org/wiki/Help:Qualifiers/de) werden in Wikidata benutzt, um die Eigenschaft in einer Aussage näher zu beschreiben. Viele Aussagen benötigen weitere Qualifikatoren, um richtig interpretiert werden zu können. Sie liefern also zusätzliche Informationen und bestehen genau wie Aussagen aus Eigenschaft und Wert. 
+[Qualifikatoren](https://www.wikidata.org/wiki/Help:Qualifiers/de) werden in Wikidata benutzt, um die Eigenschaft einer Aussage näher zu beschreiben. Viele Aussagen benötigen weitere Qualifikatoren, um richtig interpretiert werden zu können. Sie liefern also zusätzliche Informationen und bestehen genau wie Aussagen aus Eigenschaft und Wert. 
 Qualifikatoren können auf unterschiedliche Art eingesetzt werden.
 
 Beispiel: 
