@@ -94,7 +94,7 @@ dd { margin-left: 1.5em; }
 
 /* Bildunterschriften */
 #content .caption { 
-    font-size: small; 
+    font-size: 90%; 
     font-style: normal;
     margin-top: 0.5em;
     text-align: center;
@@ -106,7 +106,7 @@ h1 a[href^='#']:before { content: ""; }
 h2 a[href^='#']:before { content: ""; }
 h3 a[href^='#']:before { content: ""; }
 h4 a[href^='#']:before { content: ""; }
-li a[href^='#']:before { content: ""; }
+li > a[href^='#']:before { content: ""; }
 
 /* Inhaltsverzeichnis */
 #TOC { background: #fff }
