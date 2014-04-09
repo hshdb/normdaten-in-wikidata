@@ -1,0 +1,8 @@
+# Vorwort {.unnumbered}
+
+Dieses Handbuch entstand innerhalb von drei Monaten im Rahmen eines Projektseminars an der Hochschule Hannover (HsH). Neun Studierende des Bachelor-Studiengangs Informationsmanagement hatten im 6. Semester unter Projektleitung von Jakob Voß die Aufgabe, ohne wesentliche Vorkenntnisse ein Handbuch zum Thema "Normdaten in Wikidata" zu erstellen. Die Hauptautorinnen und -Autoren dieses Handbuchs sind Fransika Ludemann, Viktoria Berkelmann, Janna Kitroschat, Jasmin Bogner, Julian Schmitt, Katharina Seljuziki, Maiia Bartoshevska, Oliver Löffel und Susanna Bausch.
+
+Zur Verwaltung der Inhalte dieses Handbuchs wird ein Repository des Versionskontrollsystem *git* verwendet, das alle Bearbeitungsschritte und Änderungen beinhaltet. Auf diese Weise kann mit verschiedenen Werkzeugen zum Buches beigetragen werden, ohne zu stark an eine Software gebunden zu sein. Die einzelnen Texte sind in Markdown-Syntax verfasst, und werden mit Hilfe des Programms Pandoc in verschiedene Ausgabeformate überführt. Zur Bearbeitung der Texte wurde hauptsächlich die Online-Plattform  Penflip verwendet. Die URL des git-Repositories ist <https://www.penflip.com/nichtich/normdaten-in-wikidata.git>, darüber hinaus gibt es eine Kopie unter <https://github.com/hshdb/normdaten-in-wikidata>. Das Repository enthält die Datei `README.md` die weitere Hinweise zur technischen Umsetzung beinhaltet. Alle Inhalte können unter den Bedingungen der CC-BY-SA Lizenz weiterverwendet werden.
+
+**Was benötigt man für die Benutzung [Platzhalter]**
+
