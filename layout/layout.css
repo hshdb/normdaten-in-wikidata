@@ -40,20 +40,49 @@ tr { border-bottom: 1px solid #AAA; }
     margin-left: auto;
     margin-right: auto;
 }
-#content * {
-    text-align: left;
+#content * { text-align: left; }
+
+/* Inhaltsverzeichnis */
+#TOC {
+    background: #ddd;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.2em 1em;
+    max-width: 52ex;
+}
+#TOC * { text-align: left }
+
+/* Inhaltsverzeichnis: Gliederung */
+#TOC a { color: #252525; }
+#TOC ul { list-style-type: none; padding: 0 }
+#TOC li { font-weight: bold; }
+#TOC ul ul { padding-left: 1.3em }
+#TOC li li {
+    font-weight: normal; 
+    padding-left: 2em;
+    text-indent: -2em;
+}
+#TOC ul ul ul { padding-left: 0em }
+#TOC li li li {
+    font-style: italic; 
+    padding-left: 2.6em;
+    text-indent: -2.6em;
 }
 
-body {
-    margin: 0;
-    font-size: 1.2em;  
-    line-height: 1.5em;
-}
+.toc-section-number { margin-right: 0.3em; font-style: normal; }
 
-#content {
-    padding-left: 1em;
-    padding-right: 1em;
-}
+/* normal */
+    #content {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    body {
+        margin: 0;
+        font-size: 1.2em;  
+        line-height: 1.5em;
+    }
+
 
 /* ab 600px Breite: Schrift größer und nicht zu lange Zeilen */
 @media screen and (min-width: 600px) {
@@ -62,23 +91,19 @@ body {
     }
     body { 
         font-size: 1em;
-        line-height: 1.5em;
     }
 }
 
 @media screen and (min-width: 1024px) {
     body { 
         font-size: 1.2em;
-        line-height: 1.5em;
     }
 }
 
 @media screen and (min-width: 1200px) {
     body { 
         font-size: 1.5em;
-        line-height: 1.5em;
     }
-
 }
 
 /* Glossar */
@@ -107,11 +132,6 @@ h2 a[href^='#']:before { content: ""; }
 h3 a[href^='#']:before { content: ""; }
 h4 a[href^='#']:before { content: ""; }
 li > a[href^='#']:before { content: ""; }
-
-/* Inhaltsverzeichnis */
-#TOC { background: #fff }
-#TOC ul { list-style-type: none; }
-#TOC > ul { padding: 0 }
 
 /* Titelei */
 header {

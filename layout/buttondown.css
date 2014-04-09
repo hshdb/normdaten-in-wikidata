@@ -61,13 +61,6 @@ div#header, header
    Probably would need to use div[id$='TOC'] and div[id$='header'] as selectors.
 */
 
-div#TOC, nav#TOC
-    {
-    /* Put border on bottom to separate it from body. */
-    border-bottom: 1px solid #aaa;
-    margin-bottom: 0.5em;
-    }
-
 @media print
     {
     div#TOC, nav#TOC
