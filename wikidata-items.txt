@@ -12,15 +12,13 @@ Weitere Bestandteile von Items sind unter anderem Alternativnamen (Aliasse/Synon
 
 _Stammbaum von Johann Sebastian Bach_
 
-*Text schreiben und Bild in einfachen Worten erklären.* 
+*Oben sieht man eine Darstellung der Funktionsweise von miteinander verknüpften Wikidata-Items. Am Beispiel einer Person (hier: Johan Sebastian Bach) kann leicht erkannt werden, welche Maße die Relationsverknüpfungen zu anderen Personen annehmen können. Die blauen bzw. grauen Pfeile stehen für eine Vater-Sohn-Beziehung (Vater von/Sohn von) während die roten bzw. grauen Pfeile für eine Mutter-Sohn-Beziehung (Mutter von/Sohn von) stehen. Die Einbeziehung weiterer relevanter Personen / Relationenitems im Umkreis um das abgefragte "Item" würde den Rahmen jeder Grafik sprengen. 
 
 
 Quellen:
 [blog.wikimedia](https://blog.wikimedia.de/2013/05/06/die-tool-umgebung-von-wikidata/)
 
 [Wikidata-Glossar](https://www.wikidata.org/wiki/Wikidata:Glossary/de#Wikidata_editors )
-
-[https://de.wikipedia.org/w/index.php?title=Vorlage:Wikidata-Weiterleitung&oldid=126947847)](https://de.wikipedia.org/w/index.php?title=Vorlage:Wikidata-Weiterleitung&oldid=126947847))
 
 
 
