@@ -25,82 +25,37 @@ In Wikidata existieren verschiedene Datentypen, welcher in [dieser Liste](https:
 
 **Die wichtigsten Datentypen und eine Beispiel-Eigenschaft:**
 
-Im Moment können in Wikidata sieben Datentypen (datatypes) (Item, Commons media file, String, Time, Geographic coordinates und URL) für Eigenschaften (properties) verarbeitet werden. Andere Datentypen werden mit der Zeit hinzukommen.
+Im Moment können in Wikidata sieben Datentypen (Item, Commons media file, String, Time, Geographic coordinates und URL) für Eigenschaften (properties) verarbeitet werden. 
 
-**Datentyp: Item**
+_Datentyp: Item_
 
-Links zu anderen Items im Projekt. Es wird der „Item“-Namensraum auf Wikidata für passende Einträge durchsucht. Er besteht aus einem einfachen Texteingabefeld. 
-
-Beispiel:
-
-Spalte 1: Titel = Eigenschaft
-Spalte 2: ID
-Spalte 3: Datentyp
-Spalte 4: Beschreibung
-Spalte 5: Beispiel
-![Item2.PNG](images/Item2.PNG)
+In diesen Datentyp können Verknüpfungen zu anderen Items in Wikidata eingegeben werden. Die Eingabe erfolt über ein einfaches Texteingabefeld. 
 
 **Datentyp: Mediendatei/Media file/Commons**
 
-Link zu Dateien, die auf Wikimedia Commons gespeichert sind. Es wird der „Datei“-Namensraum auf Commons für passende Einträge durchsucht.
-
-Beispiel:
-![Commons.PNG](images/Commons.PNG)
+Dieser Datentyp übernimmt die Verlinkung zu Mediendokumenten (vor allem Bilder, Videos und Klänge), welche auf Wikimedia Commons gespeichert sind.
+Auf diese Weise können Bilder usw. einem Wikipediaartikel zugeordnet werden. 
 
 **Datentyp: Zeichenkette/String**
 
-Literales Datenfeld für eine Glyphenkette. Typische Verwendung sind Kennungen mit geschriebenen Formen, die nicht von der Sprache des Lesers abhängig sind.
-
-value – ausdrücklicher Wert für die sprachspezifische Variantenkette
-
-Beispiel:
-
-![Zeichenkettet.PNG](images/Zeichenkettet.PNG)
+Dieser Datentyp akzeptiert als Eingaben alle Zeichenketten, welche nach Möglichkeit jedoch nicht sprachenabhängig sein sollten (z.B. nicht übersetzbare Konzepte wie Eigennamen). 
 
 **Datentyp: Zeit/Time**
 
-Literales Datenfeld für einen Zeitwert, angegeben als Zeit mit Genauigkeit und Begrenzungen. Die Zeit wird immer intern als gregorianisch gespeichert, kann jedoch andere Formate beim Parsen und Formatieren benutzen.
-
-time – ausdrücklicher Wert für einen Zeitpunkt; dargestellt, wie in der Norm ISO8601 beschrieben. Das Jahr hat immer 11 Ziffern und das Datum ist immer vorzeichenbehaftet im Format +00000002013-01-01 T00:00:00Z.
-timezone – ausdrücklicher Wert als vorzeichenbehaftete Ganzzahl. Die Zeitzoneninformationen wird als Unterschied zur UTC in Minuten angegeben.
-before – ausdrücklicher Ganzzahlwert für eine Anzahl an Einheiten nach der angegebenen Zeit. Die Einheit ist als "precision" (siehe unten) angegeben.
-after – ausdrücklicher Ganzzahlwert für eine Anzahl an Einheiten vor der angegebenen Zeit. Die Einheit ist als "precision" (siehe unten) angegeben.
-precision – ausdrücklicher Wert, kodiert als kurze Ganzzahl mit folgender Bedeutung: 0: Milliarden Jahre; 1: Hundert Millionen Jahre … 6: Jahrtausende; 7: Jahrhunderte; 8: Jahrzehnte; 9: Jahre; 10: Monate; 11: Tage; 12: Stundee; 13: Minuten; 14: Sekunden.
-calendarmodel – ausdrücklicher Wert, angegeben als URI. Er identifiziert das Kalendermodell, das zur Anzeige dieses Zeitwertes verwendet werden soll.
-
-Beispiel:
-![](images/Zeit2.PNG)
+Hier können nur Werte eingegeben werden, welche eine zeitliche Information ausdrücken, z.B. Jahreszahlen, Jahres-Datums-Zahlen (Geburtstage usw.), Zeitzonen, Zeitpunkte (Uhrzeit z.B.) und noch einige mehr. Für mehr Informationen können sie [hier](https://www.wikidata.org/wiki/Special:ListDatatypes) weiterlesen. 
 
 **Datentyp: Geographische Koordinaten/Geographic coordinates**
 
-Literale Daten für eine geografische Position, die als Breitengrad-Längengrad-Paar in GMS oder Dezimalgrad für den Sternenkörper angegeben ist. Standards sind „Erde“, anschließend „WGS84“. Es wird eine Auflösung und ein Bereich hinzugefügt.
-
-latitude – impliziter erster Teil (float, dms, dm, dd) der Koordinatenkette. Die Richtung wird entweder mit einem Präfixzeichen oder mit dem Postfix „N/S“ angegeben.
-longitude – impliziter zweiter Teil (float, dms, dm, dd) der Koordinatenkette. Die Richtung wird entweder mit einem Präfixzeichen oder mit dem Postfix „O/W“ angegeben. Gglobe – ausdrücklicher (?) Datenwert, angegeben als Sternenkörper, dessen Standards auf Erde sind "http://www.wikidata.org/entity/Q2" precision – numerische Genauigkeit der Koordinate.
-
-Beispiel:
-![geographische_Koordination2.PNG](images/geographische_Koordination2.PNG)
+In diesem Datentypen finden alle Werte mit geografischen Informationen ihren Platz. Dazu zählen vor allem Daten von Breiten- und Längengraden (bei Ortsbestimmungen) und die Position von Sternen bzw. Sternenbildern. 
 
 **Datentyp: URL**
 
-Zukünftig geplant.
-Literales Datenfeld für eine URL. URLs sind auf die Protokolle beschränkt, die auch für externe Links im Wikitext unterstützt werden.
+In diesem Datentyp werden externe URLs abgelegt. Die URLs müssen hierbei Protokollen gehorchen, die auch für alle Interwikilinks von Wikidata gelten. 
 
 **Datentyp: Menge/Quantity**
 
-Literales Datenfeld für eine Menge, die sich auf eine Art klar definierte Einheit bezieht. Die tatsächliche Einheit geht in die Datenwerte, die eingegeben werden.
+In diesem Datentyp können Mengenangaben eingegeben werden, das sind in der Regel vor allem Zahlenwerte, zum Beispiel die errungenen Wählerstimmen bei einer Wahl. 
 
-amount – impliziter Teil der Zeichenkette (Mapping des Einheitspräfixes ist unklar).
-unit – impliziter Teil der Zeichenkette, dessen Standards auf „1“ sind (Mapping zum Standardisieren des Körpers ist unklar).
-upperbound – Obergrenze der Menge
-lowerbound – Untergrenze der Menge
-
-Beispiel:
-![Quanitity2.PNG](images/Quanitity2.PNG)
-
-Weitere Informationen und Einschränkungen:
-
-Für Beispiele siehe auf der Diskussionsseite zu jeder einzelnen Wikidata-Eigenschaft, z.B.:
-
-<https://www.wikidata.org/wiki/Property_talk:P19> <https://www.wikidata.org/wiki/Template:Constraint>
+<https://www.wikidata.org/wiki/Property_talk:P19> 
+<https://www.wikidata.org/wiki/Template:Constraint>
 
