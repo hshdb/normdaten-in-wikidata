@@ -6,30 +6,6 @@
 Ein **Item** (deutsch: Datenobjekt) stellt in Wikidata eine zentrale Einheit dar. Fast alles kann in Wikidata zu einem Item werden (ausgenommen sind Daten, die keinem Kontext zugeordnet sind) , vor allem Gegenständlichkeiten, Konzepte, Vorstellungen und vieles mehr können Items sein. Ein Item besteht immer aus einer Datensatz-ID, die sich aus dem Buchstaben `Q` und einer Nummer zusammensetzt. Beispielsweise steht `Q17` für Japan. Jedes Item kann verschiedene Bezeichnungen und Beschreibungen in allen Sprachen erhalten. Dies trägt noch weiter zu einer eindeutigen Identifizierung bei. 
 Weitere Bestandteile von Items sind unter anderem Alternativnamen (Aliasse/Synonyme), Links zu einer Artikelseite in einem Wikimedia-Projekt und Aussagen mit Eigenschaften, Werten und Quellen. Die Relevanzrichtlinien von Wikidata verlangen zudem, dass nur Items erstellt werden sollen, die eine Beziehung zu anderen Items herstellen und/oder eine Verlinkung zu einem Wikipediaartikel besitzen. 
 
-### Verknüpfung von Weiterleitungen mit Wikidata-Items
-
-> Wikidata: [[:d:{{{1}}}|{{{1}}}]] (eintragen)
-
-Die _Weiterleitung_ darf nur nach dem **REDIRECT/WEITERLEITUNG-Schlüsselwort** erfolgen.
-Folgende Syntax ist zu beachten: 
-
-> {{Wikidata-Weiterleitung|Item-Nummer}} zum Beispiel {{Wikidata-Weiterleitung|Q5334679}}
-
-**Achtung:** Im Moment ist es in Wikidata nicht möglich Weiterleitungen zu Items hinzuzufügen. Jedoch kann mithilfe dieser Schablone ein Thema trotzdem für Analyse-Skripte und Analyse-Tools mit einem Wikidata-Item verbunden werden, wenn zum Beispiel das Thema in einem Sammelartikel als Abschnitt vorhanden ist. 
-
-### Verlinkung von Items
-
-Um eine verlinkte Seite oder einen Artikel auf einer anderen Wikimedia-Seite identifizieren zu können, muss ein _Weblink_ (sitelink) angelegt werden, die dann auf die besagte Seite verweist. 
-
-Der Link besteht aus der _Domänenbezeichnung_ und dem _Seitentitel_ (zum Beispiel dem Lemma eines Artikels). Folgende Aufgaben hat die Verlinkung:
-
--	Zugriff auf einen Eintrag einer externen Seite
--	zentraler Speicherort der Interwikilinks
-
-Wikilinks können mit sogenannten _Auszeichnungen_ (badges) versehen werden, dies kann man als Status gleichsetzen. Somit ist es dem Anwender möglich zum Beispiel eine Seite als “ausgezeichneten Artikel“ zu versehen.
-
-Im Moment ist es nur möglich, dass jede externe Seite (zum Beispiel Datei oder Wikiartikel) nur mit einem Link bei Wikidata eingetragen ist und ein Item kann nur einen einzigen Link auf eine externe Domäne besitzen.
-
 ### Das Prinzip von Wikidata
 
 ![Stammbaum von Johann Sebastian Bach](images/800px-GeneaWiki_screenshot_Bach.png)
