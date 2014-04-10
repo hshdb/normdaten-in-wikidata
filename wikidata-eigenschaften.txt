@@ -31,20 +31,20 @@ _Datentyp: Item_
 
 In diesen Datentyp können Verknüpfungen zu anderen Items in Wikidata eingegeben werden. Die Eingabe erfolt über ein einfaches Texteingabefeld. 
 
-**Datentyp: Mediendatei/Media file/Commons**
+_Datentyp: Mediendatei/Media file/Commons_
 
 Dieser Datentyp übernimmt die Verlinkung zu Mediendokumenten (vor allem Bilder, Videos und Klänge), welche auf Wikimedia Commons gespeichert sind.
 Auf diese Weise können Bilder usw. einem Wikipediaartikel zugeordnet werden. 
 
-**Datentyp: Zeichenkette/String**
+_Datentyp: Zeichenkette/String_
 
 Dieser Datentyp akzeptiert als Eingaben alle Zeichenketten, welche nach Möglichkeit jedoch nicht sprachenabhängig sein sollten (z.B. nicht übersetzbare Konzepte wie Eigennamen). 
 
-**Datentyp: Zeit/Time**
+_Datentyp: Zeit/Time_
 
 Hier können nur Werte eingegeben werden, welche eine zeitliche Information ausdrücken, z.B. Jahreszahlen, Jahres-Datums-Zahlen (Geburtstage usw.), Zeitzonen, Zeitpunkte (Uhrzeit z.B.) und noch einige mehr. Für mehr Informationen können sie [hier](https://www.wikidata.org/wiki/Special:ListDatatypes) weiterlesen. 
 
-**Datentyp: Geographische Koordinaten/Geographic coordinates**
+_**Datentyp: Geographische Koordinaten/Geographic coordinates**_
 
 In diesem Datentypen finden alle Werte mit geografischen Informationen ihren Platz. Dazu zählen vor allem Daten von Breiten- und Längengraden (bei Ortsbestimmungen) und die Position von Sternen bzw. Sternenbildern. 
 
