@@ -17,12 +17,11 @@ Jede Aussage auf einer Itemseite stellt eine Verbindung zu einer Eigenschaft her
 
 Einige Eigenschaften sind dazu gedacht, von Wikidata-Items auf andere Normdateien zu Verweisen (siehe Kapitel [Normdaten-Eigenschaften in Wikidata](#normdaten-eigenschaften-in-wikidata)).
 
-Eigenschaften können wie Wikidata-Items von allen Mitarbeitern bearbeitet werden, beispielsweise mit Übersetzungen und Beschreibungen der jeweiligen Eigenschaft. Das Anlegen neuer Eigenschaften ist jedoch nur ausgewählten Mitgliedern der Wikidata-Community möglich. Auf der Seite [Property_proposal](https://www.wikidata.org/wiki/Wikidata:Property_proposal/de) können Vorschläge für neue Wikidata-Eigenschaften eingebracht werden.
+Eigenschaften können wie Wikidata-Items von allen Mitarbeitern bearbeitet werden, beispielsweise mit Übersetzungen und Beschreibungen der jeweiligen Eigenschaft. Das Anlegen neuer Eigenschaften ist jedoch nur ausgewählten Mitgliedern der Wikidata-Community möglich. Auf der Seite [Property_proposal](https://www.wikidata.org/wiki/Wikidata:Property_proposal/de) können Vorschläge für neue Wikidata-Eigenschaften eingebracht und von der Wikidata-Community diskutiert werden. 
 
 ### Datentypen und andere Einschränkungen
 
-In Wikidata existierten verschiedene Datentypen.In Wikidata existiert eine enstprechende Liste: 
-https://www.wikidata.org/wiki/Special:ListDatatypes?uselang=de
+In Wikidata existieren verschiedene Datentypen, welcher in [dieser Liste](https://www.wikidata.org/wiki/Special:ListDatatypes?uselang=de) zu finden sind. Datentypen haben die Aufgabe, zu bestimmen, welche Art von Werten den Eigenschaften zugeordnet werden können. Für jede Eigenschaft ist vordefiniert (worden), welche Datentypen sie als Wert "akzeptiert" (z.B. keine Buchstaben oder sonstigen Zeichen für Zahlenfelder wie bei der GND-Nummer).
 
 **Die wichtigsten Datentypen und eine Beispiel-Eigenschaft:**
 
