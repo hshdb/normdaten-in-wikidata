@@ -6,7 +6,9 @@ Benutzer können in Wikidata Einträge ([Items](#wikidata-items)) angelegen, die
 
 Die Begriffsdefinitonen zu [Normdaten](#einführung-in-normdaten)leitet den Hauptteil des Buches, den Theorieteil ein. Hier wird neben der Definiton ebenso die Anwendungsweise erklärt. Dem schließen sich Begriffe wie [Wikidata] (#entstehung-von-wikidata) und die Geschichte dieses Projektes an. Über Wikidata und [Inhalte](#inhalte-von-wikidata) bzw. Ziele von Wikidata lernt der Benutzer die Oberfläche von Wikidata näher kennen und findet hier auch eine [Oberflächenbeschreibung](#oberflächenbeschreibung)vor.
 
-In der zweiten Hälfte Praxis geht es um [Inhalte finden] (#inhalte-finden-in-wikidata) und wie [Aussagen in Wikidata](#aussagen-in-wikidata-bearbeiten-und-anlegen) bearbeitet und angelegt werden können. Des weiteren ist das erstellen von neuen [Wikidata-Eigenschaften](#Neue Wikidata-Eigenschaften erstellen) ein wichtiger Punkt. Dabei gehts auch um die sogennante ID-Referenzierung und entsprechende Beispiele. [Übersetzungen in Wikidata bearbeiten und anlegen](#bezeichnungen-und-beschreibungen-uebersetzen) erklärt Möglichkeiten und Hilfen für diese Tägigkeit.
+In der zweiten Hälfte Praxis geht es um [Inhalte finden] (#inhalte-finden-in-wikidata) und wie [Aussagen in Wikidata](#aussagen-in-wikidata-bearbeiten-und-anlegen) bearbeitet und angelegt werden können. Des weiteren ist das erstellen von neuen [Wikidata-Eigenschaften](#Neue Wikidata-Eigenschaften erstellen) ein wichtiger Punkt. Dabei gehts auch um die sogennante ID-Referenzierung und entsprechende Beispiele. [Übersetzungen in Wikidata bearbeiten und anlegen](#bezeichnungen-und-beschreibungen-uebersetzen) erklärt Möglichkeiten und Hilfen für diese Tägigkeit. Erklärt werden "Universale Sprachauswahl", "Babel-Bausteinen" und "Liste der Bezeichnungen". Dabei wird auch auf die [Weiternutzung von vorandenen Daten eingegangen](#wikidata-weiternutzen.txt).
+
+Das Handbuch verfügt auch über ein [FAQ](#faq) welches die dringensten Fragen beantwortet.
 
 
 
