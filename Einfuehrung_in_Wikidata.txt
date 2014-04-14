@@ -13,9 +13,7 @@ Die Entwicklung von Wikidata wurde in drei Phasen aufgeteilt:
 
 * Phase 2 beinhaltete die Aufgabe, dass zu den Items [Aussagen](#wikidata-aussagen) hinzugefügt werden konnten. Dies geschah unter anderem ebenfalls mit Bots und dem Datenfundament aus Wikipedia-Infoboxen-und -Kategorien.
 
-* Phase 3 ist noch nicht abgeschlossen. Es soll ermöglicht werden, dass Listen automatisch erstellt und Fakten aktualisiert werden. 
-
-*Die Erklärung von Phase 3 ist noch etwas unklar, außerdem sollte hier schon auf Kapitel dieses Handbuchs (Items, Aussagen, Beschreibungen...) verwiesen werden!*
+* Phase 3 ist noch nicht abgeschlossen. Es soll automatische Übersetzungen und Aktualisierungen von Listen ermöglichen, basierend auf mehrsprachigen Daten von Wikidata.  In der dritten Phase sollen alle Daten von Wiki-Links, Infoboxen und Listen aufgenommen und vereinigt werden. 
 
 Wikidata hat einige Vorläufer in verwandten Projekten wie [Semantic MediaWiki](http://semantic-mediawiki.org/) und [DBPedia](http://dbpedia.org/). Im Gegensatz zu diesen basiert Wikidata jedoch nicht auf Techniken des Semantic Web.
 
@@ -41,13 +39,9 @@ Zusammengefasst ist Wikidata eine Datenbank, die sowohl Fakten als auch (mit Que
 
 ## Ziele von Wikidata
 
-*Hier sind noch einige Doppelungen und Widersprüche. Teile können umgestellt oder in den vorigen Abschnitt eingebaut werden!*
+Ziel des Projektes ist es, dass Infoboxen entstehen, die in einer zentralen Datenbank effizient, widerspruchsfrei und dauerhaft gespeichert sind. Sie dient als Quelle für alle anderen Wikimedia-Projekten und ermöglicht so eine strukturierte Zentralisierung von Daten und Fakten, wie zum Beispiel geografische Daten oder sonstige allgemeingültige Daten für die interne und externe Nutzung.
 
-Ziel des Projektes ist es, dass Infoboxen entstehen, die in einer zentralen Datenbank effizient, widerspruchsfrei und dauerhaft gespeichert sind, sodass alle Wikimedia-Projekte darauf zugreifen können, also eine strukturierte Zentralisierung von Daten und Fakten für die interne und externe Nutzung.
-
-Wikidata stellt als gemeinsame Quelle bestimmte Wikimedia-Projekte bereit, zum Beispiel geografische Daten oder sonstige allgemeingültige Daten, die in allen Artikeln der Wikimedia-Projekte verwendet werden können.
-
-Die in Wikidata verwalteten Daten bilden eine "Wissensdatenbank" welche die reale Welt beschreibt und abbildet. Statt Artikel in den über 250 Sprachversionen der Wikipedia komplett manuell zu schreiben, sollen in Wikidata Fakten hinterlegt werden, sodass sie in jeder Version gleich angezeigt werden –- beispielsweise die Höhe des Mount Everest oder die offizielle Einwohnerzahl von New York. Über eine einheitliche Schnittstelle sollen vor allem statistische Angaben über mehrere Seiten und Sprachversionen hinweg einfacher in Wikipedia aktualisiert werden können.
+Die in Wikidata verwalteten Daten bilden eine "Wissensdatenbank" welche die reale Welt beschreibt und abbildet. Statt Artikel in den über 250 Sprachversionen der Wikipedia komplett manuell zu schreiben, sollen in Wikidata Fakten hinterlegt werden, sodass sie in jeder Version gleich angezeigt werden – beispielsweise die Höhe des Mount Everest oder die offizielle Einwohnerzahl von New York. Über eine einheitliche Schnittstelle sollen vor allem statistische Angaben über mehrere Seiten und Sprachversionen hinweg einfacher in Wikipedia aktualisiert werden können.
 
 Wikidata tritt hierfür an, die Erfassung formal beschreibbarer Metadaten auf eine neue Grundlage zu stellen und verbindet dabei erstmals auch alle Sprachvarianten der Wikipedia.  
 
