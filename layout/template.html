@@ -21,10 +21,9 @@ $endif$
   <link rel="stylesheet" href="http://assets.annotateit.org/annotator/v1.2.7/annotator.min.css">
   <script>
     jQuery(function ($$) {
-      $$('#content').annotator();
+      $$(document.body).annotator().annotator('setupPlugins');
     });
   </script>
-
 
 $if(quotes)$
   <style type="text/css">q { quotes: "“" "”" "‘" "’"; }</style>
