@@ -14,6 +14,18 @@ $endif$
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+
+  <!-- jQuery und Annotator -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="http://assets.annotateit.org/annotator/v1.2.7/annotator-full.min.js"></script>
+  <link rel="stylesheet" href="http://assets.annotateit.org/annotator/v1.2.7/annotator.min.css">
+  <script>
+    jQuery(function ($$) {
+      $$('#content').annotator();
+    });
+  </script>
+
+
 $if(quotes)$
   <style type="text/css">q { quotes: "“" "”" "‘" "’"; }</style>
 $endif$
