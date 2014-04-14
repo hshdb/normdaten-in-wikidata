@@ -15,7 +15,7 @@ Eine Übersicht über alle Eigenschaften von Wikidata kann man unter folgendem L
 
 **Relevanzkriterien**
 *Hier soll ein Abschnitt folgen zu den Bedingungen, unter denen man in Wikidata überhaupt ein Item anlegen darf.* 
-Zum Erstellen eines Items gibt es drei verschiedene Relevanzkriterien. Es muss erstens einen gültigen Sitelink zu Wikipedia, Wikitravel , Wikisource, Wikiquote oder zur Wikimedia Commons -Seite bestehen. Oder zweitens der Artikel bezieht sich auf eine Instanz einer klaren konzeptionellen oder Materialeinheit. Der dritte Kriterienpunkt ist, dass der Eintrag wichtig ist um die Aussagen eines schon bestehenden Items zu erörten.
+Zum Erstellen eines Items gibt es drei verschiedene Relevanzkriterien. Es muss erstens einen gültigen Sitelink zu Wikipedia, Wikitravel , Wikisource, Wikiquote oder zur Wikimedia Commons -Seite bestehen. Oder zweitens der Artikel bezieht sich auf eine Instanz einer klaren konzeptionellen oder materiellen Einheit. Der dritte Kriterienpunkt ist, dass der Eintrag wichtig ist um die Aussagen eines schon bestehenden Items zu erörten.
 
 **Quellen:**
 
