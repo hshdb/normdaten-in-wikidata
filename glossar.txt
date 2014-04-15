@@ -61,16 +61,16 @@ Die Beschreibung zur Bildung von Normdaten findet man in umfangreichen Regelwerk
 : Eine [Ontologie](#einführung-in-normdaten) stellt einen Wissensbereich dar. Der Wissensbereich beinhaltet standardisierte Begriffe, Ableitungsregeln, Beziehungen zwischen den Begriffen und einer Taxonomie (mit Klassen, Relationen, Funktionen und Axiomen). In der Informatik werden Ontologien hauptsächlich zur automatischen Erschließung von Inhalten und zur Wissensrepräsentation benutzt. 
 
 **Qualifikator**
-  : „Ein Qualifikator ist Teil einer Behauptung (…)“, der etwas über die Behauptung in einer beschreibenden Form ausdrückt. Ein Qualifikator kann ein Ausdruck einer Sprache sein oder eine veränderte Beschreibung der Behauptung.  
+  : „Ein [Qualifikator](#qualifikatoren) ist Teil einer Behauptung (…)“, der etwas über die Behauptung in einer beschreibenden Form ausdrückt. Ein Qualifikator kann ein Ausdruck einer Sprache sein oder eine veränderte Beschreibung der Behauptung.  
 
 **Quellen (sources)**
-  :  Quellen können jeder Wikidata-Aussage hinzugefügt werden. Viele Quellen sind wiederrum Items in Wikidata. Das Ziel der Quellen ist weniger die Verifizierung von Aussagen, sondern die Vernetzung und Relationierung der Items in Wikidata selbst
+  :  [Quellen](#quellen) können jeder Wikidata-Aussage hinzugefügt werden. Viele Quellen sind wiederrum Items in Wikidata. Das Ziel der Quellen ist weniger die Verifizierung von Aussagen, sondern die Vernetzung und Relationierung der Items in Wikidata selbst
   
 **Rang**
-  :  Mit Rängen werden verschiedene Qualitätsstufen für mehrere unterschiedliche -> Aussagen zu einer gleichen -> Eigenschaft gekennzeichnet. Es gibt drei Ränge: den herabgestuften bzw. zweifelhaften Rang, den normalen Rang und den vorrangig zu behandelnden Rang. 
+  :  Mit [Rängen](#ränge) werden verschiedene Qualitätsstufen für mehrere unterschiedliche -> Aussagen zu einer gleichen -> Eigenschaft gekennzeichnet. Es gibt drei Ränge: den herabgestuften bzw. zweifelhaften Rang, den normalen Rang und den vorrangig zu behandelnden Rang. 
   
 **Thesaurus**
-  : Ein Thesaurus ist eine Sammlung von ->Schlagworten, welche hierarchisch und thematisch miteinander verknüpft sind. Ein Schlagwort in einem Thesaurus beinhaltet Synonyme, verwandte Begriffe (Assoziationen), Ober- und Unterbegriffe. 
+  : Ein [Thesaurus](#einführung-in-normdaten) ist eine Sammlung von ->Schlagworten, welche hierarchisch und thematisch miteinander verknüpft sind. Ein Schlagwort in einem Thesaurus beinhaltet Synonyme, verwandte Begriffe (Assoziationen), Ober- und Unterbegriffe. 
 
 **Wikibase**
-  : Wikibase ist eine von der Wikimedia-Community entwickelte freie Software-Erweiterung. Wikibase hilft dem Anwender, sein Wiki zu einem strukturierten Datenrepository umzubauen. Zu Wikibase' Kernfunktionen gehören die Erstellung von ->Items, die Erstellung von Beschreibungen, Benennungen und Alternativnamen (Aliase) für Items. 
+  : [Wikibase](#wikidata-als-datenbank) ist eine von der Wikimedia-Community entwickelte freie Software-Erweiterung. Wikibase hilft dem Anwender, sein Wiki zu einem strukturierten Datenrepository umzubauen. Zu Wikibase' Kernfunktionen gehören die Erstellung von ->Items, die Erstellung von Beschreibungen, Benennungen und Alternativnamen (Aliase) für Items. 
