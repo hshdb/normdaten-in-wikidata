@@ -34,6 +34,13 @@ footer {
 
 tr { border-bottom: 1px solid #AAA; }
 
+/* Monospace im Fliesstext nicht verkleinern */
+code, kbd, tt {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+
+
 /* Inhalt zentriert */
 #content {
     text-align: center;
@@ -119,8 +126,7 @@ dd { margin-left: 1.5em; }
 
 /* Bildunterschriften */
 #content .caption { 
-    font-size: 90%; 
-    font-style: normal;
+    font-style: italic;
     margin-top: 0.5em;
     text-align: center;
 }
