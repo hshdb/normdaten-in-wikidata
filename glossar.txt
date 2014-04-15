@@ -26,7 +26,7 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
 **Eigenschaft (property)**
   : Eigenschaften sind Bestandteile von ->Aussagen. Ihnen können Werte (->Items) zugeordnet werden. Jede Eigenschaft ist einzigartig und beschreibt die Merkmale der ihnen zugewiesenen Items.  
   
-**Gemeinsame Normdatei (GND)**
+**GND (Gemeinsame Normdatei)**
   : Die Gemeinsame Normdatei ist ein Projekt der Deutschen Nationalbibliothek und einigen anderen deutschen Bibliotheken. Sie stellt den Zusammenschluss der ehemaligen getrennten Gemeinsamen Körperschaftsdatei (GKD), der Personennormendatei (PND), der Schlagwortnormdatei (SWD) und der Einheitssachtitel-Datei des Deutschen Musikarchivs (DMA-EST-Datei) dar. 
   
 **Item (Datenobjekt)**
