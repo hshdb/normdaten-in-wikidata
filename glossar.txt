@@ -45,32 +45,32 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
   : Eine [Klassifikation](#einführung-in-normdaten) ist ein hierarchisches Verzeichnis von ->Schlagworten, welche nach Wissensgebieten geordnet sind (sog. Klassen). Die Ordnung einer Klassifikation erfolgt stets vom allgemeinen zum speziellen. Die Klassifikationsnummern dienen der Suche nach einem speziellen Thema. Klassifikationsnummern bestehen dabei oft aus einem Buchstaben (Wissensgebiet) und einer Zahl (Teilgebiet). 
 
 **MediaWiki**
-  : "MediaWiki ist ein freies Softwarepaket zum Betrieb eines Wikis, das ursprünglich für die Wikipedia geschrieben wurde. Es ist das Wikisystem aller von der Wikimedia-Stiftung (Wikimedia Foundation) betriebenen Wikis sowie vieler anderer Wikis, einschließlich dieser Website – der Website zu MediaWiki." 
+  : "[MediaWiki](#wikidata-als-datenbank)ist ein freies Softwarepaket zum Betrieb eines Wikis, das ursprünglich für die Wikipedia geschrieben wurde. Es ist das Wikisystem aller von der Wikimedia-Stiftung (Wikimedia Foundation) betriebenen Wikis sowie vieler anderer Wikis, einschließlich dieser Website – der Website zu MediaWiki." 
   
   **Metadaten**
-  : Metadaten sind Daten, welche Eigenschaften und Merkmale anderer Daten beschreiben. Metadaten können am Beispiel eines Buches der Titel, die ISBN, das Erscheinungsjahr, der Verlag usw. sein. Metadaten finden sich in der gesamten digitalen Welt wieder und haben gerade im wissenschaftlichen Bereich eine sehr wichtige Bedeutung.                       
+  : [Metadaten](#einführung-in-normdaten) sind Daten, welche Eigenschaften und Merkmale anderer Daten beschreiben. Metadaten können am Beispiel eines Buches der Titel, die ISBN, das Erscheinungsjahr, der Verlag usw. sein. Metadaten finden sich in der gesamten digitalen Welt wieder und haben gerade im wissenschaftlichen Bereich eine sehr wichtige Bedeutung.                       
 
 **Normdatei**
-  : Eine Normdatei ist ein Gesamtverzeichnis aller ->Normdaten. Viele Länder bzw. Sprachengebiete haben für ihre Bibliothekssysteme oder auch ->Datenbestände eigene Normdateien entwickelt, z.B. die ->GND, LCCN, NDL, VIAF). In Wikidata selbst gibt es zwei Normdateienfunktionen: 1.: Wikidata kann externe Normdaten einbinden und 2.: Wikidata soll in Zukunft selbst eine Normdatei für Projekte der Wikimedia Foundation werden. 
+  : Eine [Normdatei](#einführung-in-normdaten) ist ein Gesamtverzeichnis aller ->Normdaten. Viele Länder bzw. Sprachengebiete haben für ihre Bibliothekssysteme oder auch ->Datenbestände eigene Normdateien entwickelt, z.B. die ->GND, LCCN, NDL, VIAF). In Wikidata selbst gibt es zwei Normdateienfunktionen: 1.: Wikidata kann externe Normdaten einbinden und 2.: Wikidata soll in Zukunft selbst eine Normdatei für Projekte der Wikimedia Foundation werden. 
 
 **Normdaten**
-  : Normdaten sind ->Daten, welche nach festgelegten Regeln erschlossen und beschrieben werden. Ein wichtiges Merkmal von Normdaten sind ihre eindeutigen Bezeichnungen: Normdaten sind stets unter einem einzigartigen Namen zu finden, welcher sich aus alphanumerischen Zeichen zusammensetzt. Manche Normdaten enthalten darüberhinaus synonyme, verwandte, Ober-und Unterbegriffe und manchmal auch Beschreibungstexte und Synonyme in anderen Sprachen (so zum Beispiel in Wikidata). Fast jedes Datum kann normiert werden: Personen, Orte, geografische Einheiten, Körperschaften, Verwaltungseinheiten u.v.m. 
+  : [Normdaten](#einführung-in-normdaten) sind ->Daten, welche nach festgelegten Regeln erschlossen und beschrieben werden. Ein wichtiges Merkmal von Normdaten sind ihre eindeutigen Bezeichnungen: Normdaten sind stets unter einem einzigartigen Namen zu finden, welcher sich aus alphanumerischen Zeichen zusammensetzt. Manche Normdaten enthalten darüberhinaus synonyme, verwandte, Ober-und Unterbegriffe und manchmal auch Beschreibungstexte und Synonyme in anderen Sprachen (so zum Beispiel in Wikidata). Fast jedes Datum kann normiert werden: Personen, Orte, geografische Einheiten, Körperschaften, Verwaltungseinheiten u.v.m. 
 Die Beschreibung zur Bildung von Normdaten findet man in umfangreichen Regelwerken und Richtlinien. 
   
 **Ontologie**
-: Eine Ontologie stellt einen Wissensbereich dar. Der Wissensbereich beinhaltet standardisierte Begriffe, Ableitungsregeln, Beziehungen zwischen den Begriffen und einer Taxonomie (mit Klassen, Relationen, Funktionen und Axiomen). In der Informatik werden Ontologien hauptsächlich zur automatischen Erschließung von Inhalten und zur Wissensrepräsentation benutzt. 
+: Eine [Ontologie](#einführung-in-normdaten) stellt einen Wissensbereich dar. Der Wissensbereich beinhaltet standardisierte Begriffe, Ableitungsregeln, Beziehungen zwischen den Begriffen und einer Taxonomie (mit Klassen, Relationen, Funktionen und Axiomen). In der Informatik werden Ontologien hauptsächlich zur automatischen Erschließung von Inhalten und zur Wissensrepräsentation benutzt. 
 
 **Qualifikator**
-  : „Ein Qualifikator ist Teil einer Behauptung (…)“, der etwas über die Behauptung in einer beschreibenden Form ausdrückt. Ein Qualifikator kann ein Ausdruck einer Sprache sein oder eine veränderte Beschreibung der Behauptung.  
+  : „Ein [Qualifikator](#qualifikatoren) ist Teil einer Behauptung (…)“, der etwas über die Behauptung in einer beschreibenden Form ausdrückt. Ein Qualifikator kann ein Ausdruck einer Sprache sein oder eine veränderte Beschreibung der Behauptung.  
 
 **Quellen (sources)**
-  :  Quellen können jeder Wikidata-Aussage hinzugefügt werden. Viele Quellen sind wiederrum Items in Wikidata. Das Ziel der Quellen ist weniger die Verifizierung von Aussagen, sondern die Vernetzung und Relationierung der Items in Wikidata selbst
+  :  [Quellen](#quellen) können jeder Wikidata-Aussage hinzugefügt werden. Viele Quellen sind wiederrum Items in Wikidata. Das Ziel der Quellen ist weniger die Verifizierung von Aussagen, sondern die Vernetzung und Relationierung der Items in Wikidata selbst
   
 **Rang**
-  :  Mit Rängen werden verschiedene Qualitätsstufen für mehrere unterschiedliche -> Aussagen zu einer gleichen -> Eigenschaft gekennzeichnet. Es gibt drei Ränge: den herabgestuften bzw. zweifelhaften Rang, den normalen Rang und den vorrangig zu behandelnden Rang. 
+  :  Mit [Rängen](#ränge) werden verschiedene Qualitätsstufen für mehrere unterschiedliche -> Aussagen zu einer gleichen -> Eigenschaft gekennzeichnet. Es gibt drei Ränge: den herabgestuften bzw. zweifelhaften Rang, den normalen Rang und den vorrangig zu behandelnden Rang. 
   
 **Thesaurus**
-  : Ein Thesaurus ist eine Sammlung von ->Schlagworten, welche hierarchisch und thematisch miteinander verknüpft sind. Ein Schlagwort in einem Thesaurus beinhaltet Synonyme, verwandte Begriffe (Assoziationen), Ober- und Unterbegriffe. 
+  : Ein [Thesaurus](#einführung-in-normdaten) ist eine Sammlung von ->Schlagworten, welche hierarchisch und thematisch miteinander verknüpft sind. Ein Schlagwort in einem Thesaurus beinhaltet Synonyme, verwandte Begriffe (Assoziationen), Ober- und Unterbegriffe. 
 
 **Wikibase**
-  : Wikibase ist eine von der Wikimedia-Community entwickelte freie Software-Erweiterung. Wikibase hilft dem Anwender, sein Wiki zu einem strukturierten Datenrepository umzubauen. Zu Wikibase' Kernfunktionen gehören die Erstellung von ->Items, die Erstellung von Beschreibungen, Benennungen und Alternativnamen (Aliase) für Items. 
+  : [Wikibase](#wikidata-als-datenbank) ist eine von der Wikimedia-Community entwickelte freie Software-Erweiterung. Wikibase hilft dem Anwender, sein Wiki zu einem strukturierten Datenrepository umzubauen. Zu Wikibase' Kernfunktionen gehören die Erstellung von ->Items, die Erstellung von Beschreibungen, Benennungen und Alternativnamen (Aliase) für Items. 

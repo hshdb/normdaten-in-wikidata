@@ -5,82 +5,28 @@ der Dewey-Dezimalklassifikation. Im Folgenden ist beschrieben, welche [Normdaten
 
 ## Normdaten-Eigenschaften in Wikidata
  
-Wie unter [Inhalte finden in Wikidata](#inhalte-finden-in-wikidata) beschrieben, gibt es verschiedene Möglichkeiten zur Suche nach vorhandenen Wikidata-Eigenschaften. Eine garantiert aktuelle Übersicht aller Eigenschaften, die speziell dazu dienen, auf Normdateien zu verweisen, existiert nicht. Die [tabellarischen Übersicht aller Eigenschaften](https://www.wikidata.org/wiki/Wikidata:List_of_properties/Summary_table/de) enthält eine manuell gepflegte Liste, aus der die meisten Normdaten-Eigenschaften hervorgehen. 
+Wie unter [Inhalte finden in Wikidata](#inhalte-finden-in-wikidata) beschrieben, gibt es verschiedene Möglichkeiten zur Suche nach vorhandenen Wikidata-Eigenschaften. Eine garantiert aktuelle Übersicht aller Eigenschaften, die speziell dazu dienen, auf Normdateien zu verweisen, existiert nicht. Die [tabellarische Übersicht aller Eigenschaften](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_properties/Summary_table/de&oldid=120803723) enthält eine manuell gepflegte Liste, aus der die meisten Normdaten-Eigenschaften hervorgehen. 
  
-Gemein ist allen Normdaten-Eigenschaften, dass sie den [Datentyp](#datentypen) Zeichenkette/String haben, da der Wert eine Aussage mit Normdaten-Eigenschaft eine Notation, ID-Nummer o.Ä. ist.
+Gemein ist allen Normdaten-Eigenschaften, dass sie den [Datentyp](#datentypen) Zeichenkette/String haben, da der Wert eine Aussage mit Normdaten-Eigenschaft und einer Notation, ID-Nummer oder Ähnlichem ist.
  
-*hier muss noch mehr geschrieben werden: welche Normdaten-Eigenschaften gibt es in Wikidata. Ggf. auf andere Kapitel verweisen! Ggf. hilfreicher Link zur weiteren Bearbeitung: <https://www.wikidata.org/wiki/User:JakobVoss/Authority_control>*
+Eigenschaften, die unter einer Notation oder ID zusammengefügt werden, bezeichnet man als Normdaten-Eigenschaften. Normdaten können ein- oder mehrsprachig sein. Wikidata ist meistens mehrsprachig. Verknüpfungen zwischen Normdaten aus Wikidata und Dokumenten in Wikipedia ist ein Ziel des Wikidata-Projektes und wird bereits zu Teilen umgesetzt. 
  
-Eigenschaften die unter einer Notation oder ID zusammengefügt werden bezeichnet man als Normdaten-Eigenschaften. Normdaten können ein- oder mehrsprachig sein. Wikidata ist meistens mehrsprachig. Verknüpfungen zwischen Normdaten aus Wikidata und Dokumenten in Wikipedia ist ein Ziel und wird teilweise bereits erreicht.
- 
-_* Umfangreichere Liste von Normdaten Eigenschaften?..._
- 
-Die folgende Liste stellt den Stand vom ... dar. Da jederzeit neue Eigenschaften in Wikidata hinzukommen (siehe Kapitel ...) ist die Liste zwangsläufig nicht aktuell. Neue Vorschläge siehen Sie im Artikel  "[Property proposal/Authority control](https://www.wikidata.org/wiki/Wikidata:Property_proposal/Authority_control)". 
+Die folgende Liste stellt den Stand vom 15. April 2014, 07:45 Uhr dar. Da jederzeit neue Eigenschaften in Wikidata hinzukommen (können), ist die Liste zwangsläufig nicht aktuell. Neue Vorschläge siehen Sie im Artikel  "[Property proposal/Authority control](https://www.wikidata.org/wiki/Wikidata:Property_proposal/Authority_control)". 
  
     GND-Nummer (P227)
-    ISNI (P213)
     LCNAF (P244)
-    ULAN (P245)
     VIAF (P214)
-    BnF (P268)
-    SUDOC Normdaten (P269)
-    CALIS (P270)
-    CiNii Normdaten (P271)
     Web NDL Authorities (P349)
-    SBN (P396)
-    NLA (P409)
-    HURDAT-Kennung (P502)
     ISO-Norm (P503)
-    ORCID (P496)
-    CBDB-ID (P497)
-    BNCF (P508)
-    Léonore-ID (P640)
-    Google Books (P675)
-    NKCR (P691)
-    Historic-Scotland-ID (P709)
-    Canmore-ID (P718)
-    DBNL-ID (P723)
-    Internet-Archive-ID (P724)
-    Europeana-ID (P727)
-    PBB-ID (P745)
-    DPLA-ID (P760)
     ISIL-ID (P791)
-    Open-Library-ID (P648)
-    RSL (P947)
-    PTBNP (P1005)
-    NTA-Nummer (P1006)
-    BAV (Vatikan) (P1017)
-    IDEO Job ID (P1043)
-    PSH-ID (P1051)
-    Portuguese Job Code CPP-2010 (P1052)
-    ResearcherID (P1053)
-    NDL Editionen (P1054)
-    ERA-Journal-ID (P1058)
-    DDBC (P1187)
-    Dharma Drum Buddhist College place ID (P1188)
-    ISMN (P1208)
-    ID (General Administration of Press and Publication) (P1209)
-    English Heritage list number (P1216)
-    Internet Broadway Database venue ID (P1217)
-    Internet Broadway Database production ID (P1218)
-    Internet Broadway Database show ID (P1219)
-    Internet Broadway Database person ID (P1220)
-    Linguist list code (P1232)
-    ISFDB author ID (P1233)
-    ISFDB publication ID (P1234)
-    ISFDB series ID (P1235)
-    RKD-Werk-ID (P350)
-    Chinesische Bibliotheksklassifikation (P1189)
     ...
     
 ## Unterschiede zu anderen Normdateien
 Wikidata vs. Gemeinsame Normdatei (GND)
  
 - _Wikidata:_
-Die Einträge bei Wikidata werden maßgeblich durch freischaffende Wikidataautoren und durch Bots (automatisch agierende Computerprogramme) erstellt. 
-Jeder kann sich bei Wikidata anmelden und einen Eintrag hinterlassen.
-Die Wikidata-Datensätze werden in erster Linie für Wikipedia oder andere Wikimedia-Projekte erstellt.
-Die Normdaten in Wikidata unterliegen einem Regelwerk, welches von der Wikidata-Community erarbeitet worden ist. 
+Die Einträge bei Wikidata werden maßgeblich durch freischaffende Wikidataautoren und durch Bots erstellt. Jeder kann sich bei Wikidata anmelden und einen Eintrag hinterlassen. Die Wikidata-Datensätze werden in erster Linie für Wikipedia oder andere Wikimedia-Projekte erstellt.
+Die Normdaten in Wikidata unterliegen einem Regelwerk, welches von der Wikidata-Community erarbeitet worden ist (und dynamisch neuen bzw. veränderten Anforderungen angepasst wird). 
 Die  Wikimedia-Foundation hat den Vorteil verschiedener Normdateien erkannt und bietet den Bearbeitern der Datensätze die Möglichkeit an, Normdaten (GND, LCCN, NDL, VIAF) in die Artikel einzubinden. 
  
 - _GND:_

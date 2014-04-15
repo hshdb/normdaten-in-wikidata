@@ -1,13 +1,12 @@
 # Bestandteile von Wikidata
 
-## Oberflächenbeschreibung
+## Beschreibung der Item-Seite
 
-Die Oberfläche von Wikidata setzt sich aus verschiedenen Komponenten zusammen. 
+Die Seite des Items setzt sich aus verschiedenen Komponenten zusammen.
 
 ![Oberfläche von Wikidata](images/Oberflaeche.PNG)
 
 Ganz oben steht der Name des [Items](#wikidata-items) mit ID (in diesem Fall "Japan ([`Q17`](https://wikidata.org/wiki/Q17))") und darunter folgt eine Kurzbeschreibung dieses Items sowie Synonyme. Es werden außerdem Übersetzungen des Items und der Kurzbeschreibung angezeigt. 
 Nach den Übersetzungen kommen die [Aussagen](#wikidata-aussagen). Aussagen lassen sich aufteilen in [Eigenschaft](#wikidata-eigenschaften) und Wert. Sie dienen dazu, das Item näher zu beschreiben.
 
-Die linke Seite von Wikidata fungiert als Navigations- und Werkzeugleiste. Als angemeldeter User kann man auf der oberen Leiste Einstellungen bezüglich des Nutzerkontos vornehmen wie zum Beispiel die Sprache verändern oder das Profil bearbeiten.
 

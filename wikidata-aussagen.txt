@@ -6,7 +6,7 @@ Der aufgerufene Datensatz ist _Hannover_. Die Eigenschaften sind _Staat_
 
 ![Wikidata Aussagen](images/wikidata_aussagen1.png)
 
-Für genauere Information siehen Sie [Behauptungen und Aussagen](http://www.wikidata.org/wiki/Wikidata:Glossary/de#Behauptungen_und_Aussagen).
+Für genauere Information sehen Sie [Behauptungen und Aussagen](http://www.wikidata.org/wiki/Wikidata:Glossary/de#Behauptungen_und_Aussagen).
 
 ### Qualifikatoren
 
