@@ -2,7 +2,7 @@
 
 Aussagen in Wikidata können und sollten möglichst mit **Quellen** belegt werden. Folgende [Ausnahmen](http://www.wikidata.org/wiki/Help:Sources/Items_not_needing_sources/de) sind vorgesehen:
 
-* Wenn der Wert allgemein bekannt ist und nicht bestritten wurde. 
+* Wenn der Wert allgemein bekannt ist und nicht bestritten wurde.
 * Wenn das Element sich auf einer externen Quelle bezieht. Es ermöglicht, die Informationen den anderen verbundenen Aussagen leicht zu überprüfen. Es ist somit nicht nötig, die referenzierten Quellen in Wikipedia zu haben. 
 * Wenn der Artikel selbst eine Quelle für eine Aussage ist - ein Buch für den Autor, ein Film für seine Akteure usw.
 
