@@ -3,7 +3,7 @@
 
 ### Allgemein zu Wikidata-Items
 
-Ein **Item** (deutsch: Datenobjekt) stellt in Wikidata eine zentrale Einheit dar. Fast alles kann in Wikidata zu einem Item werden (ausgenommen sind Daten, die keinem Kontext zugeordnet sind) , vor allem Gegenständlichkeiten, Konzepte, Vorstellungen und vieles mehr können Items sein. Ein Item besteht immer aus einer Datensatz-ID, die sich aus dem Buchstaben `Q` und einer Nummer zusammensetzt. Beispielsweise steht `Q17` für Japan. Jedes Item kann verschiedene Bezeichnungen und Beschreibungen in allen Sprachen erhalten. Dies trägt noch weiter zu einer eindeutigen Identifizierung bei. 
+Ein **Item** (deutsch: **Datenobjekt**) stellt in Wikidata eine zentrale Einheit dar. Fast alles kann in Wikidata zu einem Item werden (ausgenommen sind Daten, die keinem Kontext zugeordnet sind) , vor allem Gegenständlichkeiten, Konzepte, Vorstellungen und vieles mehr können Items sein. Ein Item besteht immer aus einer Datensatz-ID, die sich aus dem Buchstaben `Q` und einer Nummer zusammensetzt. Beispielsweise steht `Q17` für Japan. Jedes Item kann verschiedene Bezeichnungen und Beschreibungen in allen Sprachen erhalten. Dies trägt noch weiter zu einer eindeutigen Identifizierung bei. 
 Weitere Bestandteile von Items sind unter anderem Alternativnamen (Aliasse/Synonyme), Links zu einer Artikelseite in einem Wikimedia-Projekt und Aussagen mit Eigenschaften, Werten und Quellen. Die Relevanzrichtlinien von Wikidata verlangen zudem, dass nur Items erstellt werden sollen, die eine Beziehung zu anderen Items herstellen und/oder eine Verlinkung zu einem Wikipediaartikel besitzen. 
 
 ### Das Prinzip von Wikidata
