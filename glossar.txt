@@ -58,7 +58,7 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
 Die Beschreibung zur Bildung von Normdaten findet man in umfangreichen Regelwerken und Richtlinien. 
   
 **Ontologie**
-: ...
+: Eine Ontologie stellt einen Wissensbereich dar. Der Wissensbereich beinhaltet standardisierte Begriffe, Ableitungsregeln, Beziehungen zwischen den Begriffen und einer Taxonomie (mit Klassen, Relationen, Funktionen und Axiomen). In der Informatik werden Ontologien hauptsächlich zur automatischen Erschließung von Inhalten und zur Wissensrepräsentation benutzt. 
 
 **Qualifikator**
   : ...
