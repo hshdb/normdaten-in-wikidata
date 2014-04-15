@@ -1,17 +1,6 @@
 ## Wikidata-Aussagen
 
-Jedes [Wikidata-Item](#wikidata-item) kann mit Aussagen beschrieben werden. Im Wesentlichen besteht eine Aussage aus einer [Eigenschaften](#wikidata-eigenschaften) und einem Wert. Beispielsweise enthält das Item für die Stadt Hannover ([`Q1715`](https://www.wikidata.org/wiki/Q1715)) eine Aussage die angibt, dass sich Hannover in Deutschland befindet. Die entsprechende Eigenschaft dafür hat die Bezeichnung "Staat" ([P17](https://www.wikidata.org/wiki/Property:P17)).
-
-Es gibt drei Arten von Aussagen: 
-
-*hier nochmal klären und auf [Datentypen](#datentypen) verweisen!*
-
-1. Aussagen, die ein Item über eine Eigenschaft mit einem anderen Wikidata-Item verlinken.
-
-2. Aussagen, die ein Item durch eine Eigenschaft mit einem außenstehenden Link verbinden. (????)
-
-3. Aussagen, die ein Item durch eine Eigenschaft inhaltlich oder objektiv beschrieben. 
-
+Jedes [Wikidata-Item](#wikidata-item) kann mit Aussagen beschrieben werden. Im Wesentlichen besteht eine Aussage aus einer [Eigenschaften](#wikidata-eigenschaften) und einem Wert. Beispielsweise enthält das Item für die Stadt Hannover ([`Q1715`](https://www.wikidata.org/wiki/Q1715)) eine Aussage die angibt, dass sich Hannover in Deutschland befindet. Die entsprechende Eigenschaft dafür hat die Bezeichnung "Staat" ([P17](https://www.wikidata.org/wiki/Property:P17)). Aussagen in Wikidata können mit einem anderen Wikidata-Item oder mit einem externen Link verlinkt werden oder durch eine Eigenschaft inhaltlich oder objektiv beschrieben. 
 Der aufgerufene Datensatz ist _Hannover_. Die Eigenschaften sind _Staat_ 
 --> für das Wikidata-Item, _LCNAF_ --> für den außenstehenden Link und _Kfz-Kennzeichen_ --> für die einfache Beschreibung. 
 
