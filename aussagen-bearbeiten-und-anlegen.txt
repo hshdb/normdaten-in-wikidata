@@ -12,15 +12,6 @@ Um eine neue Aussage zu erstellen, muss man auf das "hinzufügen" am Ende der Au
 
 ![Neue Aussage hinzufügen](images/neue-aussage.png)
 
-Normdaten-Eigenschaften können verschiedene Aussagen beschreiben. Ist ein Land teil einer internationalen Organisation? Welcher Autor hat ein Buch verfasst? Unter welcher Nummer läuft ein Aufsatz in der Gemeinsamen Normdatei.
-
-Erster Schritt
-
-![Eigenschaft hinzufügen](images/add_klicken.PNG)
-
-Zweiter Schritt
-
-![Eigenschaft eingeben und speichern](images/Eingabe_save.PNG)
 
 
 
