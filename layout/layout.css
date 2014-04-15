@@ -41,8 +41,8 @@ code, kbd, tt {
     background: #eee;
     border: 2px solid #eee;
 }
-code a { color: #000; }
-code a:hover { text-decoration: none; font-weight: bold; }
+a code { color: #000; }
+a:hover code { text-decoration: none; font-weight: bold; }
 
 /* Inhalt zentriert */
 #content {
