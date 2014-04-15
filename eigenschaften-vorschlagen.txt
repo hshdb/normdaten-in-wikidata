@@ -1,4 +1,4 @@
-## Neue Wikidata-Eigenschaften erstellen 
+## Neue Eigenschaften vorschlagen
 
 Nur Administratoren und [Eigenschaftenersteller](https://www.wikidata.org/wiki/Wikidata:Property_creators/de) können neue Wikidata-Eigenschaften erstellen. Normale User müssen eine neue Eigenschaft [vorschlagen](https://www.wikidata.org/wiki/Wikidata:Property_proposal/de) und dieser Vorschlag wird dann geprüft. Bevor Sie aber eine neue Eigenschaft anbieten, beachten Sie bitte folgendes: 
 

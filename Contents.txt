@@ -17,8 +17,7 @@ inhalte-finden-in-wikidata.txt
 Item-erstellen.txt
 items-benennen-und-beschreiben.txt
 aussagen-bearbeiten-und-anlegen.txt
-Neue_Wikidata-Eigenschaften_erstellen.txt
-Normdaten_Praxis.txt
+eigenschaften-vorschlagen.txt
 wikidata-weiternutzen.txt
 faq.txt
 glossar.txt

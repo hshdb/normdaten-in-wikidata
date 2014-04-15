@@ -6,7 +6,7 @@
 
 *Hier fehlt ein Einleitungssatz für das Unterkapitel*
 
-### Suche nach Wikidata-Items
+### Suche nach Items
 
 Um vorhandene [Items](#wikidata-items) zu finden gibt es zwei wesentliche Suchmöglichkeiten:
 
@@ -29,7 +29,7 @@ Hilfe- und Projektseiten: Suchen in Wikidata, Hilfeseiten
 Alles: Gesamten Inhalt durchsuchen (inklusive Diskussionseiten)
 Erweitert: Suche in weiteren Namensräumen
 
-### Suche nach Wikidata-Eigenschaften
+### Suche nach Eigenschaften
 
 Ist man auf der Suche nach einer [Eigenschaft](#wikidata-eigenschaften), der Name bekannt ist, gibt es zwei Möglichkeiten um eine Suche erfolgreich zu gestalten. Diese Seite: https://www.wikidata.org/wiki/Wikidata:List_of_properties/de verlinkt direkt zu der Liste der Eigenschaften und der Suchmaske.
 
