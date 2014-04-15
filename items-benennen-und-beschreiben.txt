@@ -1,4 +1,4 @@
-## Übersetzungen in Wikidata bearbeiten und anlegen
+## Items benennen und beschreiben
 
 Wikidata arbeitet an einem Modell bei dem alle Sprachen beziehungsweise Sprachlinks mit einem zentralen Punkt verknüpft werden. Sodass sämtliche Wiki Einträge bei einem Datensatz auf Wikidata verlinkt sind. Es können [Anträge](https://www.wikidata.org/w/index.php?title=Wikidata:Translators%27_noticeboard&oldid=115958854) zur Übersetzung gestellt werden oder Verbesserungsvorschläge und Rechtschreibkorrekturen angemerkt werden. 
 
