@@ -3,7 +3,6 @@
 Wikidata vs. Gemeinsame Normdatei (GND)
 
 - _Wikidata:_
-
 Die Einträge bei Wikidata werden maßgeblich durch freischaffende Wikidataautoren und durch Bots (automatisch agierende Computerprogramme) erstellt. 
 Jeder kann sich bei Wikidata anmelden und einen Eintrag hinterlassen.
 Die Wikidata-Datensätze werden in erster Linie für Wikipedia oder andere Wikimedia-Projekte erstellt.
