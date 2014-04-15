@@ -35,7 +35,7 @@ Weitere Informationen zu Qualifikatoren stehen in Wikidata in der [Liste von Qua
 
 ### Ränge
 
-**Ränge** sind Qualitätsfaktoren und helfen, die Qualität einer Aussage einzustufen. Das Ranking wird nur angewandt, wenn es zu einem Item mehre Aussagen mit der gleichen Eigenschaft gibt. Es gibt drei mögliche Rangstufen:
+**Ränge** sind Qualitätsfaktoren, die helfen, die Qualität einer Aussage einzustufen. Das Ranking wird nur angewandt, wenn es zu einem Item mehrere Aussagen mit der gleichen Eigenschaft gibt. Es gibt drei mögliche Rangstufen:
 
 1. Herabgestufter oder zweifelhafter Rang: Für Aussagen, die nicht als zuverlässig betrachtet werden können oder von denen man weiß, dass sie Fehler enthalten.
 2. Normaler Rang: Für Aussagen, die relevante Informationen enthalten. Diese Informationen gelten allgemein als korrekt. 
