@@ -12,8 +12,7 @@ Die Eigenschaft `P19` ist beispielsweise unter <https://www.wikidata.org/wiki/Pr
 
 ### Vorhandene Eigenschaften
 
-Jede Aussage auf einer Itemseite stellt eine Verbindung zu einer Eigenschaft her und weist ihr einen Wert zu. Dieser Wert besitzt wiederrum eine Verlinkung zu der Item-Seite dieses Wertes. Die Eigenschaften sind nach Themen unterteilt:
-`Bild neu bearbeiten und einfügen`
+Jede Aussage auf einer Itemseite stellt eine Verbindung zu einer Eigenschaft her und weist ihr einen Wert zu. Dieser Wert besitzt wiederrum eine Verlinkung zu der Item-Seite dieses Wertes.
 
 Einige Eigenschaften sind dazu gedacht, von Wikidata-Items auf andere Normdateien zu Verweisen (siehe Kapitel [Normdaten-Eigenschaften in Wikidata](#normdaten-eigenschaften-in-wikidata)).
 
