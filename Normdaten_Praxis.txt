@@ -1,15 +1,4 @@
 ## Wie lassen sich Wikidata-Items mit anderen Normdateien verknüpfen?
 
-*hier fehlt noch bessere Einleitung, verweis auf andere Kapitel und ganze Sätze*
-
-Normdaten-Eigenschaften können verschiedene Aussagen beschreiben. Ist ein Land teil einer internationalen Organisation? Welcher Autor hat ein Buch verfasst? Unter welcher Nummer läuft ein Aufsatz in der Gemeinsamen Normdatei.
-
-Erster Schritt
-
-![Eigenschaft hinzufügen](images/add_klicken.PNG)
-
-Zweiter Schritt
-
-![Eigenschaft eingeben und speichern](images/Eingabe_save.PNG)
 
 
