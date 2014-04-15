@@ -12,8 +12,6 @@ https://www.wikidata.org/wiki/Wikidata:Property_proposal/Authority_control
 
 Die folgende Liste stellt den Stand vom ... dar. Da jederzeit neue Eigenschaften in Wikidata hinzukommen (siehe Kapitel ...) ist die Liste zwangsläufig nicht aktuell. Neue Vorschläge siehe <https://www.wikidata.org/wiki/Wikidata:Property_proposal/Authority_control>.
 
-**hier Liste oder Tabelle**
-
     GND-Nummer (P227)
     ISNI (P213)
     LCNAF (P244)
