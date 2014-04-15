@@ -12,7 +12,6 @@ wikidata-aussagen.txt
 wikidata-quellen.txt
 normdaten-in-wikidata.txt
 normdaten-eigenschaften-in-wikidata.txt
-unterschied-normd-wd-u-anderen-normd.txt
 inhalte-finden-in-wikidata.txt
 Item-erstellen.txt
 items-benennen-und-beschreiben.txt
