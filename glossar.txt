@@ -3,28 +3,28 @@
 Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
 
 **Aussage (statement)**
-  : Eine Aussage ist eine Untereinheit eines ->Items in Wikidata. Aussagen bestehen in der Regel aus einer normierten ->Eigenschaft, ihnen zugewiesenen Items und optionalen Quellenangaben. Nicht jede Eigenschaft muss als Wert ein Item beinhalten, manche enthalten einfache externe Verlinkungen (Normdaten, Websiten...) oder einfache ->Daten (geografische Daten, Ländercodes...).
+  : Eine [Aussage](#wikidata-aussagen) ist eine Untereinheit eines ->Items in Wikidata. Aussagen bestehen in der Regel aus einer normierten ->Eigenschaft, ihnen zugewiesenen Items und optionalen Quellenangaben. Nicht jede Eigenschaft muss als Wert ein Item beinhalten, manche enthalten einfache externe Verlinkungen (Normdaten, Websiten...) oder einfache ->Daten (geografische Daten, Ländercodes...).
 
 **Beleg**
-  : In Wikidata ist ein Beleg ein Verweis auf eine ->Quelle. Er hat die Aufgabe, zweifelhafte Informationen bzw. -> Eigenschaften mit einem ->Item in Wikidata zu verknüpfen. Diese Quellen können alle möglichen Items (oder auch externe Dokumente) sein (Hyperlinks zu Websiten, Bücher, graue Literatur uvm.). 
+  : In Wikidata ist ein [Beleg](#wikidata-quellen) ein Verweis auf eine ->Quelle. Er hat die Aufgabe, zweifelhafte Informationen bzw. -> Eigenschaften mit einem ->Item in Wikidata zu verknüpfen. Diese Quellen können alle möglichen Items (oder auch externe Dokumente) sein (Hyperlinks zu Websiten, Bücher, graue Literatur uvm.). 
 
 **Bot:** 
-  : Ein Bot ist eine selbstständig arbeitende Software, welche einen "Index mit URLs und damit verbundenen Inhalten bzw. Schlagwörtern erzeugt und diese an den Auftraggeber zurücksendet."  
+  : Ein [Bot](#einfuehrung-in-wikidata) ist eine selbstständig arbeitende Software, welche einen "Index mit URLs und damit verbundenen Inhalten bzw. Schlagwörtern erzeugt und diese an den Auftraggeber zurücksendet."  
  
 **Daten**
-  : Es gibt verschiedene Definitionsmöglichkeiten für den Begriff Daten. Grundsätzlich stellen Daten erfassbare (Zahlen-)Werte aus Beobachtungen, Messungen, Erhebungen u.ä. dar. Aus der Sicht der Informatik sind Daten Zeichenfolgen, welche maschinenlesbar sein müssen, auf Datenträgern gespeichert sind und von "Datenverarbeitungsanlagen gespeichert, verarbeitet und/oder erzeugt werden können."
+  : Es gibt verschiedene Definitionsmöglichkeiten für den Begriff [Daten](#inhalte-von-wikidata). Grundsätzlich stellen Daten erfassbare (Zahlen-)Werte aus Beobachtungen, Messungen, Erhebungen u.ä. dar. Aus der Sicht der Informatik sind Daten Zeichenfolgen, welche maschinenlesbar sein müssen, auf Datenträgern gespeichert sind und von "Datenverarbeitungsanlagen gespeichert, verarbeitet und/oder erzeugt werden können."
 
 **Datenbank**
-  : Eine Datenbank dient der Verwaltung großer Datenmengen, damit diese schnell, widerspruchsfrei und dauerhaft gespeichert und für verschiedene Benutzergruppen ausgegeben werden können. 
+  : Eine [Datenbank](#einleitung) dient der Verwaltung großer Datenmengen, damit diese schnell, widerspruchsfrei und dauerhaft gespeichert und für verschiedene Benutzergruppen ausgegeben werden können. 
   
 **Datenbestand**
-  : Ein Datenbestand stellt die Gesamtheit aller ->Daten in einer Datenbank dar. In Wikidata ist der Datenbestand die Menge aller ->Items und ->Aussagen. 
+  : Ein [Datenbestand](#wikidata-als-datenbank) stellt die Gesamtheit aller ->Daten in einer Datenbank dar. In Wikidata ist der Datenbestand die Menge aller ->Items und ->Aussagen. 
 
 **Datenobjekt**
   : s. -> Item
 
 **Datentyp** 
-  : Unter Datentypen versteht man "(...) die Zusammenfassung von Objektmengen". Auf jeden Datentypen können jeweils nur bestimmte (unveränderbare und zu Teilen auch selbst zuordenbare) Operationen angewendet werden. Man kann zwischen elementaren und dynamischen Datentypen unterscheiden. Elementare Datentypen sind endliche Wertebereiche, welche je nach Größe des Wertebereiches die Verarbeitungsgeschwindigkeit des Programmes einschränken. So steht z.B. der Datentyp 'Integer' (int) für ganzzahlige Werte zwischen −2^32 und 2^31 − 1 (Speicherplatzgröße 32 Bit). Dynamische Datentypen hingegen haben ledigliche anonyme, das heißt unbekannte Wertebereiche. Mit ihnen können Datentypen erstellt werden von beliebiger Größe. 
+  : Unter [Datentypen](#datentypen-und-andere-einschränkungen) versteht man "(...) die Zusammenfassung von Objektmengen". Auf jeden Datentypen können jeweils nur bestimmte (unveränderbare und zu Teilen auch selbst zuordenbare) Operationen angewendet werden. Man kann zwischen elementaren und dynamischen Datentypen unterscheiden. Elementare Datentypen sind endliche Wertebereiche, welche je nach Größe des Wertebereiches die Verarbeitungsgeschwindigkeit des Programmes einschränken. So steht z.B. der Datentyp 'Integer' (int) für ganzzahlige Werte zwischen −2^32 und 2^31 − 1 (Speicherplatzgröße 32 Bit). Dynamische Datentypen hingegen haben ledigliche anonyme, das heißt unbekannte Wertebereiche. Mit ihnen können Datentypen erstellt werden von beliebiger Größe. 
   
 **Deskriptor** (synonym: Schlagwort)
   : Ein Deskriptor beschreibt den Inhalt eines Dokumentes. Im Allgemeinen werden Deskriptoren aus einem kontrollierten und geordnetem Vokabular entnommen (->Normdateien, ->Thesauri oder ->Klassifikationen). 
