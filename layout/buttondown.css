@@ -210,7 +210,6 @@ p.caption /* Pandoc figure-style caption within div.figure */
 
 pre, code 
     {
-    background-color: #fdf7ee;
     /* BEGIN word wrap */
     /* Need all the following to word wrap instead of scroll box */
     /* This will override the overflow:auto if present */
@@ -224,6 +223,7 @@ pre, code
 
 pre /* Code blocks */
     {
+    background-color: #fdf7ee;
     /* Distinguish pre blocks from other text by more than the font with a background tint. */
     padding: 0.5em; /* Since we have a background color */
     border-radius: 5px; /* Softens it */
