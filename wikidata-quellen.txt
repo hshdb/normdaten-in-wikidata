@@ -6,7 +6,7 @@ Aussagen in Wikidata können und sollten möglichst mit **Quellen** belegt werde
 * Wenn das Element sich auf einer externen Quelle bezieht. Es ermöglicht, die Informationen den anderen verbundenen Aussagen leicht zu überprüfen. Es ist somit nicht nötig, die referenzierten Quellen in Wikipedia zu haben. 
 * Wenn der Artikel selbst eine Quelle für eine Aussage ist - ein Buch für den Autor, ein Film für seine Akteure usw.
 
-Es gibt verschiedene Richtlinien für die Beschaffung von Quellen für Aussagen, die Sie [hier](http://www.wikidata.org/wiki/Help:Sources/de) anschauen können.
+Es gibt verschiedene Richtlinien für die Beschaffung von Quellen für Aussagen, die Sie  in Wikidata  unter [Belege](http://www.wikidata.org/wiki/Help:Sources/de) anschauen können.
 
 Quellen bestehen aus mindestens einer Eigenschaft und einem Wert. Die erste Aussage des Items [Deutschland](https://www.wikidata.org/wiki/Q183)  lautet "Mitglied von Welthandelsorganisation". Zu dieser Aussage gibt es drei Quellen:
 
