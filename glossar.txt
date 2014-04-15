@@ -20,8 +20,8 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
 **Datentyp** 
   : Unter Datentypen versteht man "(...) die Zusammenfassung von Objektmengen". Auf jeden Datentypen können jeweils nur bestimmte (unveränderbare und zu Teilen auch selbst zuordenbare) Operationen angewendet werden. Man kann zwischen elementaren und dynamischen Datentypen unterscheiden. Elementare Datentypen sind endliche Wertebereiche, welche je nach Größe des Wertebereiches die Verarbeitungsgeschwindigkeit des Programmes einschränken. So steht z.B. der Datentyp 'Integer' (int) für ganzzahlige Werte zwischen −2^32 und 2^31 − 1 (Speicherplatzgröße 32 Bit). Dynamische Datentypen hingegen haben ledigliche anonyme, das heißt unbekannte Wertebereiche. Mit ihnen können Datentypen erstellt werden von beliebiger Größe. 
   
-**Deskriptor**
-  : s. ->Schlagwort
+**Deskriptor** (synonym: Schlagwort)
+  : Ein Deskriptor beschreibt den Inhalt eines Dokumentes. Im Allgemeinen werden Deskriptoren aus einem kontrollierten und geordnetem Vokabular entnommen (->Normdateien, ->Thesauri oder ->Klassifikationen). 
   
 **Eigenschaft (property)**
   : Eigenschaften sind Bestandteile von ->Aussagen. Ihnen können Werte (->Items) zugeordnet werden. Jede Eigenschaft ist einzigartig und beschreibt die Merkmale der ihnen zugewiesenen Items.  
@@ -59,9 +59,6 @@ Die Beschreibung zur Bildung von Normdaten findet man in umfangreichen Regelwerk
 
 **Quellen (sources)**
   : ...
-
-**Schlagwort**
-  : Ein Schlagwort beschreibt den Inhalt eines Dokumentes. Im Allgemeinen werden Schlagwörter aus einem kontrollierten und geordnetem Vokabular entnommen (->Normdateien, ->Thesauri oder ->Klassifikationen). 
   
 **Thesaurus**
   : Ein Thesaurus ist eine Sammlung von ->Schlagworten, welche hierarchisch und thematisch miteinander verknüpft sind. Ein Schlagwort in einem Thesaurus beinhaltet Synonyme, verwandte Begriffe (Assoziationen), Ober- und Unterbegriffe. 
