@@ -1,4 +1,4 @@
-## Aussagen in Wikidata bearbeiten und anlegen
+## Aussagen bearbeiten
 
 ![Aussagen](images/aussagen.png)
 
