@@ -20,7 +20,7 @@ Eigenschaften können wie Wikidata-Items von allen Mitarbeitern bearbeitet werde
 
 ### Datentypen und andere Einschränkungen
 
-In Wikidata existieren verschiedene Datentypen, welcher in [dieser Liste](https://www.wikidata.org/wiki/Special:ListDatatypes?uselang=de) zu finden sind. Datentypen haben die Aufgabe, zu bestimmen, welche Art von Werten den Eigenschaften zugeordnet werden können. Für jede Eigenschaft ist vordefiniert (worden), welche Datentypen sie als Wert "akzeptiert" (z.B. keine Buchstaben oder sonstigen Zeichen für Zahlenfelder wie bei der GND-Nummer).
+In Wikidata existieren verschiedene **Datentypen**, welcher in [dieser Liste](https://www.wikidata.org/wiki/Special:ListDatatypes?uselang=de) zu finden sind. Datentypen haben die Aufgabe, zu bestimmen, welche Art von Werten den Eigenschaften zugeordnet werden können. Für jede Eigenschaft ist vordefiniert (worden), welche Datentypen sie als Wert "akzeptiert" (z.B. keine Buchstaben oder sonstigen Zeichen für Zahlenfelder wie bei der GND-Nummer).
 
 **Die wichtigsten Datentypen und eine Beispiel-Eigenschaft:**
 
