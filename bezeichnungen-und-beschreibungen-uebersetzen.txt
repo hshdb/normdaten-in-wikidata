@@ -17,7 +17,7 @@ Es gibt nun [verschiedene Möglichkeiten](https://www.wikidata.org/wiki/Help:Mul
 
 #### Mithilfe der Universalen Sprachauswahl
 
-Diese Methode ist die komplizierteste der drei Varianten und diese zu erklären, würde den Rahmen sprengen, deshalb wird sich hier auf die anderen beiden Methoden konzentriert. Für Interessierte gibt es aber einen [weiterführenden Link](https://www.mediawiki.org/wiki/Universal_Language_Selector?setlang=de). 
+Diese Methode ist die komplizierteste der drei Varianten und diese zu erklären, würde den Rahmen sprengen, deshalb wird sich hier auf die anderen beiden Methoden konzentriert. Für Interessierte gibt es aber einen [weiterführenden Link](https://www.mediawiki.org/wiki/Universal_Language_Selector?setlang=de).
 
 #### Mithilfe von Babel-Bausteinen
 
