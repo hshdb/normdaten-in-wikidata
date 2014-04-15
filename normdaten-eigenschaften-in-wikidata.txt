@@ -7,7 +7,9 @@ Gemein ist allen Normdaten-Eigenschaften, dass sie den [Datentyp](#datentypen) Z
 *hier muss noch mehr geschrieben werden: welche Normdaten-Eigenschaften gibt es in Wikidata. Ggf. auf andere Kapitel verweisen! Ggf. hilfreicher Link zur weiteren Bearbeitung: <https://www.wikidata.org/wiki/User:JakobVoss/Authority_control>*
 
 Eigenschaften die unter einer Notation oder ID zusammengefügt werden bezeichnet man als Normdaten-Eigenschaften. Normdaten können ein- oder mehrsprachig sein. Wikidata ist meistens mehrsprachig. Verknüpfungen zwischen Normdaten aus Wikidata und Dokumenten in Wikipedia ist ein Ziel und wird teilweise bereits erreicht.
-* Umfangreichere Liste von Normdaten Eigenschaften?...
+
+_* Umfangreichere Liste von Normdaten Eigenschaften?..._
+
 Die folgende Liste stellt den Stand vom ... dar. Da jederzeit neue Eigenschaften in Wikidata hinzukommen (siehe Kapitel ...) ist die Liste zwangsläufig nicht aktuell. Neue Vorschläge siehen Sie im Artikel  "[Property proposal/Authority control](https://www.wikidata.org/wiki/Wikidata:Property_proposal/Authority_control)". 
 
     GND-Nummer (P227)
