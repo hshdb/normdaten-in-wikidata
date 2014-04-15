@@ -27,22 +27,22 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
   : Unter [Datentypen](#datentypen-und-andere-einschränkungen) versteht man "(...) die Zusammenfassung von Objektmengen". Auf jeden Datentypen können jeweils nur bestimmte (unveränderbare und zu Teilen auch selbst zuordenbare) Operationen angewendet werden. Man kann zwischen elementaren und dynamischen Datentypen unterscheiden. Elementare Datentypen sind endliche Wertebereiche, welche je nach Größe des Wertebereiches die Verarbeitungsgeschwindigkeit des Programmes einschränken. So steht z.B. der Datentyp 'Integer' (int) für ganzzahlige Werte zwischen −2^32 und 2^31 − 1 (Speicherplatzgröße 32 Bit). Dynamische Datentypen hingegen haben ledigliche anonyme, das heißt unbekannte Wertebereiche. Mit ihnen können Datentypen erstellt werden von beliebiger Größe. 
   
 **Deskriptor** (synonym: Schlagwort)
-  : Ein Deskriptor beschreibt den Inhalt eines Dokumentes. Im Allgemeinen werden Deskriptoren aus einem kontrollierten und geordnetem Vokabular entnommen (->Normdateien, ->Thesauri oder ->Klassifikationen). 
+  : Ein [Deskriptor](#einführung-in-normdaten) beschreibt den Inhalt eines Dokumentes. Im Allgemeinen werden Deskriptoren aus einem kontrollierten und geordnetem Vokabular entnommen (->Normdateien, ->Thesauri oder ->Klassifikationen). 
   
 **Eigenschaft (property)**
-  : Eigenschaften sind Bestandteile von ->Aussagen. Ihnen können Werte (->Items) zugeordnet werden. Jede Eigenschaft ist einzigartig und beschreibt die Merkmale der ihnen zugewiesenen Items.  
+  : [Eigenschaften](#wikidata-eigenschaften) sind Bestandteile von ->Aussagen. Ihnen können Werte (->Items) zugeordnet werden. Jede Eigenschaft ist einzigartig und beschreibt die Merkmale der ihnen zugewiesenen Items.  
   
 **GND (Gemeinsame Normdatei)**
-  : Die Gemeinsame Normdatei ist ein Projekt der Deutschen Nationalbibliothek und einigen anderen deutschen Bibliotheken. Sie stellt den Zusammenschluss der ehemaligen getrennten Gemeinsamen Körperschaftsdatei (GKD), der Personennormendatei (PND), der Schlagwortnormdatei (SWD) und der Einheitssachtitel-Datei des Deutschen Musikarchivs (DMA-EST-Datei) dar. 
+  : Die [Gemeinsame Normdatei](#einführung-in-normdaten) ist ein Projekt der Deutschen Nationalbibliothek und einigen anderen deutschen Bibliotheken. Sie stellt den Zusammenschluss der ehemaligen getrennten Gemeinsamen Körperschaftsdatei (GKD), der Personennormendatei (PND), der Schlagwortnormdatei (SWD) und der Einheitssachtitel-Datei des Deutschen Musikarchivs (DMA-EST-Datei) dar. 
   
 **Item (Datenobjekt)**
-  : Eintrag in Wikidata, der sich auf einen Gegenstand (Person, Ort, Konzept...) bezieht. Jedes Wikidata-Item hat eine eindeutige ID, die mit `Q` beginnt. Items sind mit anderen Items mit Interwikilinks verknüpft.
+  : [Item](#allgemein-zu-wikidata-items) ist ein Eintrag in Wikidata, der sich auf einen Gegenstand (Person, Ort, Konzept...) bezieht. Jedes Wikidata-Item hat eine eindeutige ID, die mit `Q` beginnt. Items sind mit anderen Items mit Interwikilinks verknüpft.
   
 **Indexierung**
-  : Das Indexieren beschreibt eine Methode der Inhaltserschließung von Dokumenten und medialen Inhalten jeglicher Art. Produkte von Indexierungen sind ->Schlagwörter und Stichwörter. Indexierte Dokumente sollen nach einer späteren Recherche mit - nach bestimmten Regeln von Dokumentationssprachen (mithilfe einer ->Klassifikation oder eines ->Thesaurus)- genau den vergebenen Schlag- und Stichwörtern wiedergefunden werden. 
+  : Das [Indexieren](#einführung-in-normdaten) beschreibt eine Methode der Inhaltserschließung von Dokumenten und medialen Inhalten jeglicher Art. Produkte von Indexierungen sind ->Schlagwörter und Stichwörter. Indexierte Dokumente sollen nach einer späteren Recherche mit - nach bestimmten Regeln von Dokumentationssprachen (mithilfe einer ->Klassifikation oder eines ->Thesaurus)- genau den vergebenen Schlag- und Stichwörtern wiedergefunden werden. 
   
 **Klassifikation**
-  : Eine Klassifikation ist ein hierarchisches Verzeichnis von ->Schlagworten, welche nach Wissensgebieten geordnet sind (sog. Klassen). Die Ordnung einer Klassifikation erfolgt stets vom allgemeinen zum speziellen. Die Klassifikationsnummern dienen der Suche nach einem speziellen Thema. Klassifikationsnummern bestehen dabei oft aus einem Buchstaben (Wissensgebiet) und einer Zahl (Teilgebiet). 
+  : Eine [Klassifikation](#einführung-in-normdaten) ist ein hierarchisches Verzeichnis von ->Schlagworten, welche nach Wissensgebieten geordnet sind (sog. Klassen). Die Ordnung einer Klassifikation erfolgt stets vom allgemeinen zum speziellen. Die Klassifikationsnummern dienen der Suche nach einem speziellen Thema. Klassifikationsnummern bestehen dabei oft aus einem Buchstaben (Wissensgebiet) und einer Zahl (Teilgebiet). 
 
 **MediaWiki**
   : "MediaWiki ist ein freies Softwarepaket zum Betrieb eines Wikis, das ursprünglich für die Wikipedia geschrieben wurde. Es ist das Wikisystem aller von der Wikimedia-Stiftung (Wikimedia Foundation) betriebenen Wikis sowie vieler anderer Wikis, einschließlich dieser Website – der Website zu MediaWiki." 
