@@ -6,7 +6,7 @@ Der aufgerufene Datensatz ist _Hannover_. Die Eigenschaften sind _Staat_
 
 ![Wikidata Aussagen](images/wikidata_aussagen1.png)
 
-Siehe <http://www.wikidata.org/wiki/Wikidata:Glossary/de#Behauptungen_und_Aussagen>
+Für genauere Information siehen Sie [Behauptungen und Aussagen](http://www.wikidata.org/wiki/Wikidata:Glossary/de#Behauptungen_und_Aussagen).
 
 ### Qualifikatoren
 
@@ -31,7 +31,7 @@ Bestimmungsmethode (P459) (Qualifikator): Schätzung (Wert des Qualifikators)
 Startzeitpunkt (P580) (Qualifikator): 14. Mai 1643 (Wert des Qualifikators)
 Endzeitpunkt (P582) (Qualifikator): 1. September 1715 (Wert des Qualifikators)
 
-Weitere Informationen zu Qualifikatoren stehen in Wikidata unter <https://www.wikidata.org/wiki/Help:Qualifiers/de>.
+Weitere Informationen zu Qualifikatoren stehen in Wikidata in der [Liste von Qualifikatoren](https://www.wikidata.org/wiki/Help:Qualifiers/de). 
 
 ### Ränge
 
