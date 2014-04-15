@@ -1,4 +1,4 @@
-## Item erstellen
+## Neues Item anlegen
 Bevor man ein neues Objekt erstellt sollte man überprüfen, ob das Datenobjekt, welches man erstellen möchte [bereits existiert](https://www.wikidata.org/wiki/Special:ItemByTitle). Die Suche wird im Kapitel [Inhalte finden](#inhalte-finden-in-wikidata) erklärt.
 
 ![Neues Datenobjekt erstellen](images/objekterstellen2.png)
