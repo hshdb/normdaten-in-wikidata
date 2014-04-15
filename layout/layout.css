@@ -34,12 +34,15 @@ footer {
 
 tr { border-bottom: 1px solid #AAA; }
 
-/* Monospace im Fliesstext nicht verkleinern */
+/* Monospace im Fliesstext */
 code, kbd, tt {
-    font-family: monospace, monospace;
-    font-size: 1em;
+    font-family: "Inconsolata", "Consolata", "Monaco", monospace, monospace;
+    font-size: 0.9em;
+    background: #eee;
+    border: 2px solid #eee;
 }
-
+code a { color: #000; }
+code a:hover { text-decoration: none; font-weight: bold; }
 
 /* Inhalt zentriert */
 #content {
@@ -132,7 +135,7 @@ dd { margin-left: 1.5em; }
 }
 
 /* Interne Verweise durch Pfeil kennzeichnen */
-a[href^='#']:before { content: "↗ "; }
+a[href^='#']:before { content: "↗ "; } /* NARROW NO-BREAK SPACE' (U+202F) */
 h1 a[href^='#']:before { content: ""; }
 h2 a[href^='#']:before { content: ""; }
 h3 a[href^='#']:before { content: ""; }
