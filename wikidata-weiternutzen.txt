@@ -2,8 +2,7 @@
 
 *Hier etwas zur automatischen Abfrage und zu Export-Möglichkeiten*
 
-***WikiData Query (WDQ)***
-
+- _WikiData Query (WDQ)_:
 Bislang bietet Wikidata keine einfache Möglichkeit, komplexere Abfragen an die Datenbank zu stellen; dafür sind zusätzliche Anwendungen notwendig, die auf die Inhalte der Wikidata-Datenbank zugreifen. WikiData Query (WDQ) ist eine solche Webanwendung die von Magnus Maske zur Abfrage von Wikidata entwickelt wurde.
 
 <http://wdq.wmflabs.org/>
@@ -31,6 +30,7 @@ Beispiele und Beschreibungen zu AutoList und WDQ:
 * http://wdq.wmflabs.org/api_documentation.html (API-Dokumentation)
 * ...
 
+- _Quellen:_
 **Wikidata BEACON**
-* http://tools.wmflabs.org/wikidata-todo/beacon.php
-* http://magnusmanske.de/wordpress/?p=168
+* [Wikidata BEACON](http://tools.wmflabs.org/wikidata-todo/beacon.php)
+* [The Whelming - BEACON](http://magnusmanske.de/wordpress/?p=168)
