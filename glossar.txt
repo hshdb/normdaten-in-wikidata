@@ -40,6 +40,9 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
 
 **MediaWiki**
   : "MediaWiki ist ein freies Softwarepaket zum Betrieb eines Wikis, das ursprünglich für die Wikipedia geschrieben wurde. Es ist das Wikisystem aller von der Wikimedia-Stiftung (Wikimedia Foundation) betriebenen Wikis sowie vieler anderer Wikis, einschließlich dieser Website – der Website zu MediaWiki." 
+  
+  **Metadaten**
+  : ...
 
 **Normdatei**
   : Eine Normdatei ist ein Gesamtverzeichnis aller ->Normdaten. Viele Länder bzw. Sprachengebiete haben für ihre Bibliothekssysteme oder auch ->Datenbestände eigene Normdateien entwickelt, z.B. die ->GND, LCCN, NDL, VIAF). In Wikidata selbst gibt es zwei Normdateienfunktionen: 1.: Wikidata kann externe Normdaten einbinden und 2.: Wikidata soll in Zukunft selbst eine Normdatei für Projekte der Wikimedia Foundation werden. 
@@ -48,6 +51,9 @@ Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
   : Normdaten sind ->Daten, welche nach festgelegten Regeln erschlossen und beschrieben werden. Ein wichtiges Merkmal von Normdaten sind ihre eindeutigen Bezeichnungen: Normdaten sind stets unter einem einzigartigen Namen zu finden, welcher sich aus alphanumerischen Zeichen zusammensetzt. Manche Normdaten enthalten darüberhinaus synonyme, verwandte, Ober-und Unterbegriffe und manchmal auch Beschreibungstexte und Synonyme in anderen Sprachen (so zum Beispiel in Wikidata). Fast jedes Datum kann normiert werden: Personen, Orte, geografische Einheiten, Körperschaften, Verwaltungseinheiten u.v.m. 
 Die Beschreibung zur Bildung von Normdaten findet man in umfangreichen Regelwerken und Richtlinien. 
   
+**Ontologie**
+: ...
+
 **Qualifikator**
   : ...
 
