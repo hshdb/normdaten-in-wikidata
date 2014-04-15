@@ -21,5 +21,3 @@ faq.txt
 glossar.txt
 literatur.txt
 Stichwortverzeichnis.txt
-Anhang.txt
-
