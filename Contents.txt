@@ -11,7 +11,6 @@ wikidata-eigenschaften.txt
 wikidata-aussagen.txt
 wikidata-quellen.txt
 normdaten-in-wikidata.txt
-normdaten-eigenschaften-in-wikidata.txt
 inhalte-finden-in-wikidata.txt
 Item-erstellen.txt
 items-benennen-und-beschreiben.txt
