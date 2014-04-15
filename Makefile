@@ -53,7 +53,8 @@ clean:
 PANDOC_OPTIONS=-s -S --toc -N -V build-date="$(BUILD_DATE)" -V commit-date="$(COMMIT_DATE)" -V source-url="$(SOURCE_URL)"
 LATEX_OPTIONS=--template layout/template.tex \
 			-V fontsize=10pt -V papersize=a5paper \
-			--chapters
+			--chapters\
+			--latex-engine xelatex
 HTML_OPTIONS=--template layout/template.html --css layout/buttondown.css --css layout/layout.css --include-before layout/header.html
 
 .md.pdf:

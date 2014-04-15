@@ -1,4 +1,4 @@
-## Weiternutzung der vorhandenen Daten
+## Abfrage und Weiternutzung von Wikidata-Inhalten
 
 *Hier etwas zur automatischen Abfrage und zu Export-Möglichkeiten*
 

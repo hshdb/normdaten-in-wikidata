@@ -128,9 +128,13 @@ $endif$
 % Abbildungen durchgängig nummerieren
 \usepackage{chngcntr}
 \counterwithout{figure}{chapter}
-\makeatletter % wegen XeTeX/Polyglossia
-\g@addto@macro\captionsngerman{\renewcommand\figurename{Bild}} % "Bild" statt "Abbildung"
-\makeatother
+\ifxetex
+  \renewcommand\figurename{Bild}
+\else
+  \makeatletter % wegen XeTeX/Polyglossia
+  \g@addto@macro\captionsngerman{\renewcommand\figurename{Bild}} % "Bild" statt "Abbildung"
+  \makeatother
+\fi
 
 $for(header-includes)$
 $header-includes$
