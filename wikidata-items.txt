@@ -15,14 +15,3 @@ Ganz oben steht der Name des Items mit ID (in diesem Fall "Japan ([`Q17`](https:
 Nach den Übersetzungen kommen die [Aussagen](#wikidata-aussagen). Aussagen lassen sich aufteilen in [Eigenschaft](#wikidata-eigenschaften) und Wert. Sie dienen dazu, das Item näher zu beschreiben.
 
 
-### Das Prinzip von Wikidata
-
-![Stammbaum von Johann Sebastian Bach](images/800px-GeneaWiki_screenshot_Bach.png)
-
-_Stammbaum von Johann Sebastian Bach_
-
-Oben sieht man eine Darstellung der Funktionsweise von miteinander verknüpften Wikidata-Items. Am Beispiel einer Person (hier: Johan Sebastian Bach) kann leicht erkannt werden, welche Maße die Relationsverknüpfungen zu anderen Personen annehmen können. Die blauen bzw. grauen Pfeile stehen für eine Vater-Sohn-Beziehung (Vater von/Sohn von) während die roten bzw. grauen Pfeile für eine Mutter-Sohn-Beziehung (Mutter von/Sohn von) stehen. Die Einbeziehung weiterer relevanter Personen / Relationenitems im Umkreis um das abgefragte "Item" würde den Rahmen jeder Grafik sprengen. 
-
-Quellen:
-[blog.wikimedia](https://blog.wikimedia.de/2013/05/06/die-tool-umgebung-von-wikidata/)
-

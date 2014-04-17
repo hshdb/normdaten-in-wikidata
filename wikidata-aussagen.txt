@@ -6,7 +6,21 @@ Der aufgerufene Datensatz ist _Hannover_. Die Eigenschaften sind _Staat_
 
 ![Wikidata Aussagen](images/wikidata_aussagen1.png)
 
+*Ab hier ist der Text noch nicht so gut und sollte überarbeitet werden!*
+
 Für genauere Information sehen Sie [Behauptungen und Aussagen](http://www.wikidata.org/wiki/Wikidata:Glossary/de#Behauptungen_und_Aussagen).
+
+Durch Aussagen, die auf andere Wikidata-Item verweisen, sind die Items in Wikidata miteinander verknüpft:
+
+![Stammbaum von Johann Sebastian Bach](images/800px-GeneaWiki_screenshot_Bach.png)
+
+_Stammbaum von Johann Sebastian Bach_
+
+Oben sieht man eine Darstellung der Funktionsweise von miteinander verknüpften Wikidata-Items. Am Beispiel einer Person (hier: Johan Sebastian Bach) kann leicht erkannt werden, welche Maße die Relationsverknüpfungen zu anderen Personen annehmen können. Die blauen bzw. grauen Pfeile stehen für eine Vater-Sohn-Beziehung (Vater von/Sohn von) während die roten bzw. grauen Pfeile für eine Mutter-Sohn-Beziehung (Mutter von/Sohn von) stehen. Die Einbeziehung weiterer relevanter Personen / Relationenitems im Umkreis um das abgefragte "Item" würde den Rahmen jeder Grafik sprengen. 
+
+Quellen *(von was?!)*:
+[blog.wikimedia](https://blog.wikimedia.de/2013/05/06/die-tool-umgebung-von-wikidata/)
+
 
 ### Qualifikatoren
 
