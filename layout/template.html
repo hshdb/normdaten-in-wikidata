@@ -16,6 +16,7 @@ $endif$
   <![endif]-->
 
   <!-- jQuery und Annotator -->
+$if(annotator)$  
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="http://assets.annotateit.org/annotator/v1.2.7/annotator-full.min.js"></script>
   <link rel="stylesheet" href="http://assets.annotateit.org/annotator/v1.2.7/annotator.min.css">
@@ -24,6 +25,7 @@ $endif$
       $$(document.body).annotator().annotator('setupPlugins');
     });
   </script>
+$endif$
 
 $if(quotes)$
   <style type="text/css">q { quotes: "“" "”" "‘" "’"; }</style>
