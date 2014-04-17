@@ -11,15 +11,16 @@ Gemein ist allen Normdaten-Eigenschaften, dass sie den [Datentyp](#datentypen) Z
  
 Eigenschaften, die unter einer Notation oder ID zusammengefügt werden, bezeichnet man als Normdaten-Eigenschaften. Normdaten können ein- oder mehrsprachig sein. Wikidata ist meistens mehrsprachig. Verknüpfungen zwischen Normdaten aus Wikidata und Dokumenten in Wikipedia ist ein Ziel des Wikidata-Projektes und wird bereits zu Teilen umgesetzt. 
  
-Die folgende Liste stellt den Stand vom 15. April 2014, 07:45 Uhr dar. Da jederzeit neue Eigenschaften in Wikidata hinzukommen (können), ist die Liste zwangsläufig nicht aktuell. Neue Vorschläge siehen Sie im Artikel  "[Property proposal/Authority control](https://www.wikidata.org/wiki/Wikidata:Property_proposal/Authority_control)". 
+Da jederzeit neue Eigenschaften in Wikidata hinzukommen können (siehe [Neue Eigenschaften vorschlagen](#neue-eigenschaften-vorschlagen)) ist es schwierig eine vollständige Liste von Normdaten-Eigenschaften anzugeben. Unter [Property proposal/Authority control](https://www.wikidata.org/wiki/Wikidata:Property_proposal/Authority_control) in Wikidata finden sich Vorschläge für neue Normdaten-Eigenschaften.
+
+**Beispiele für Normdaten-Eigenschaften**
  
-    GND-Nummer (P227)
-    LCNAF (P244)
-    VIAF (P214)
-    Web NDL Authorities (P349)
-    ISO-Norm (P503)
-    ISIL-ID (P791)
-    ...
+* GND-Nummer ([`P227`](https://www.wikidata.org/wiki/Property:P227))
+* LCNAF ([`P244`](https://www.wikidata.org/wiki/Property:P244))
+* VIAF ([`P214`](https://www.wikidata.org/wiki/Property:P214))
+* Web NDL Authorities ([`P349`](https://www.wikidata.org/wiki/Property:P349))
+* ISO-Norm ([`P503`](https://www.wikidata.org/wiki/Property:P503))
+* ISIL-ID ([`P791`](https://www.wikidata.org/wiki/Property:P791))
     
 ## Unterschiede zu anderen Normdateien
 Wikidata vs. Gemeinsame Normdatei (GND)
