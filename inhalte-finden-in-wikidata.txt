@@ -1,7 +1,3 @@
-# Praktische Anwendung
-
-*Hier fehlt ein Einleitungssatz für das Kapitel*
-
 ## Inhalte finden in Wikidata
 
 *Hier fehlt ein Einleitungssatz für das Unterkapitel*
