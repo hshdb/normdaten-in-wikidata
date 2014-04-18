@@ -29,7 +29,7 @@ Das ist die einfachste Methode. Für die Anzeige der Liste der Bezeichnungen mus
 
 ![Liste der Bezeichnungen](images/bezeichnerliste.jpg)
 
-Klickt man da nun darauf, erscheint ein PopUp-Fenster, welches alle Übersetzungen der Bezeichnung enthält. Für eine Änderung bzw. Eintragung einer neuen Itembezeichnung und Itembeschreibung müssen Sie "Bearbeiten" im PopUp-Fenster anwählen. Anschließend geben Sie den Sprachencode ein und nach der Eingabe öffnet sich das Bearbeitungsfenster für die Sprachenbezeichnungen, Aliasse und Beschreibungen. Nachdem Sie auf "Speichern" geklickt haben, werden die Änderungen auf der Itemseite angezeigt. 
+Klickt man da nun darauf, erscheint ein PopUp-Fenster, welches alle Übersetzungen der Bezeichnung enthält. Für eine Änderung bzw. Eintragung einer neuen Itembezeichnung und Itembeschreibung müssen Sie "Bearbeiten" im PopUp-Fenster anwählen. Anschließend geben Sie den [Sprachencode](https://de.wikipedia.org/wiki/Wikipedia:Sprachen#Alle_Wikipedias) ein und nach der Eingabe öffnet sich das Bearbeitungsfenster für die Sprachenbezeichnungen, Aliasse und Beschreibungen. Nachdem Sie auf "Speichern" geklickt haben, werden die Änderungen auf der Itemseite angezeigt. 
 
 
 
