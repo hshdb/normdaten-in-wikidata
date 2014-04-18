@@ -1,4 +1,4 @@
-## Übersetzungen und Sprachen in Wikidata
+## Übersetzungen und Spracheneinstellungen in Wikidata
 
 Wikidata arbeitet an einem Modell bei dem alle Sprachen beziehungsweise Sprachlinks an einem zentralen Punkt zusammengeführt und verknüpft werden. Auf diese Weise werden alle Wiki-Einträge (in allen Sprachen) an einer zentralen Stelle angezeigt. Es können [Anträge](https://www.wikidata.org/w/index.php?title=Wikidata:Translators%27_noticeboard&oldid=115958854) zur Übersetzung gestellt werden oder Verbesserungsvorschläge und Rechtschreibkorrekturen angemerkt werden. 
 
