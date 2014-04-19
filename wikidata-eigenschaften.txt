@@ -24,28 +24,28 @@ In Wikidata existieren verschiedene **Datentypen**, welcher in [einer Liste](htt
 
 **Die wichtigsten Datentypen und eine Beispiel-Eigenschaft:**
 
-Im Moment können in Wikidata sieben Datentypen (Item, Commons media file, String, Time, Geographic coordinates und URL) für Eigenschaften (properties) verarbeitet werden. 
+Im Moment können in Wikidata sieben Datentypen (Item, Commons media file, String, Time, Geographic coordinates und URL) für Eigenschaften verarbeitet werden. 
 
 _Datentyp: Item_
 
-In diesen Datentyp können Verknüpfungen zu anderen Items in Wikidata eingegeben werden. Die Eingabe erfolt über ein einfaches Texteingabefeld. 
+In diesen Datentyp können Verknüpfungen zu anderen Items in Wikidata eingegeben werden. Die Eingabe erfolgt über ein einfaches Texteingabefeld. 
 
 _Datentyp: Mediendatei/Media file/Commons_
 
-Dieser Datentyp übernimmt die Verlinkung zu Mediendokumenten (vor allem Bilder, Videos und Klänge), welche auf Wikimedia Commons gespeichert sind.
-Auf diese Weise können Bilder usw. einem Wikipediaartikel zugeordnet werden. 
+Dieser Datentyp übernimmt die Verlinkung zu Mediendokumenten. Vor allem Bilder, Videos und Klänge, welche auf Wikimedia Commons gespeichert sind.
+Auf diese Weise können die Mediendokumente einem Wikipediaartikel zugeordnet werden. 
 
 _Datentyp: Zeichenkette/String_
 
-Dieser Datentyp akzeptiert als Eingaben alle Zeichenketten, welche nach Möglichkeit jedoch nicht sprachenabhängig sein sollten (z.B. nicht übersetzbare Konzepte wie Eigennamen). 
+Dieser Datentyp akzeptiert als Eingaben alle Zeichenketten. Diese sollten nach Möglichkeit jedoch nicht sprachenabhängig sein, wie zum Beispiel nicht übersetzbare Konzepte wie Eigennamen. 
 
 _Datentyp: Zeit/Time_
 
-Hier können nur Werte eingegeben werden, welche eine zeitliche Information ausdrücken, z.B. Jahreszahlen, Jahres-Datums-Zahlen (Geburtstage usw.), Zeitzonen, Zeitpunkte (Uhrzeit z.B.) und noch einige mehr. Für mehr Informationen können sie [hier](https://www.wikidata.org/wiki/Special:ListDatatypes) weiterlesen. 
+Hier können nur Werte eingegeben werden, welche eine zeitliche Information ausdrücken. Zum Beispiel Jahreszahlen, Jahres-Datums-Zahlen, Zeitzonen, Zeitpunkte und noch einige mehr. Für mehr Informationen können sie [hier](https://www.wikidata.org/wiki/Special:ListDatatypes) weiterlesen. 
 
 _Datentyp: Geographische Koordinaten/Geographic coordinates_
 
-In diesem Datentypen finden alle Werte mit geografischen Informationen ihren Platz. Dazu zählen vor allem Daten von Breiten- und Längengraden (bei Ortsbestimmungen) und die Position von Sternen bzw. Sternenbildern. 
+In diesem Datentyp finden alle Werte mit geografischen Informationen ihren Platz. Dazu zählen vor allem Daten von Breiten- und Längengraden wie bei Ortsbestimmungen und die Position von Sternen beziehungsweise Sternenbildern. 
 
 _Datentyp: URL_
 
