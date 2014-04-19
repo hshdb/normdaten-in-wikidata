@@ -53,7 +53,7 @@ In diesem Datentyp werden externe URLs abgelegt. Die URLs müssen hierbei Protok
 
 _Datentyp: Menge/Quantity_
 
-In diesem Datentyp können Mengenangaben eingegeben werden, das sind in der Regel vor allem Zahlenwerte, zum Beispiel die errungenen Wählerstimmen bei einer Wahl. 
+In diesem Datentyp können Mengenangaben eingegeben werden. Das sind in der Regel vor allem Zahlenwerte wie zum Beispiel die errungenen Wählerstimmen bei einer Wahl. 
 
 Für ausführlichere technische Informationen zum Datenmodell in Wikidata, siehe hier: [Datentypen (englisch)](https://meta.wikimedia.org/wiki/Wikidata/Data_model#Datatypes_and_their_Values)
 
