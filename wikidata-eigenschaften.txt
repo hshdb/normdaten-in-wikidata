@@ -2,7 +2,7 @@
 
 **Eigenschaften** (englisch "properties") werden in Wikidata benutzt, um Aussagen auszudrücken.
 
-Jede Eigenschaften wird durch eine ID referenziert, die mit `P` anfängt. Beispielsweise steht in Wikidata `P19` für den Geburtsort einer Person. Jede Eigenschaft kann ebenso wie Wikidata-Items mit Übersetzungen (siehe Kapitel [Items benennen und beschreiben](#items-benennen-und-beschreiben)) und Aussagen (siehe Kapitel [Wikidata-Aussagen](#wikidata-aussagen)) beschrieben werden. So lautet beispielsweise die englische Bezeichnung für die Eigenschaft `P19` "place of birth" und die Deutsche Beschreibung "Ort, in dem ein Mensch geboren wurde". 
+Jede Eigenschaft wird durch eine ID referenziert, die mit `P` anfängt. Beispielsweise steht in Wikidata `P19` für den Geburtsort einer Person. Jede Eigenschaft kann ebenso wie Wikidata-Items mit Übersetzungen (siehe Kapitel [Items benennen und beschreiben](#items-benennen-und-beschreiben)) und Aussagen (siehe Kapitel [Wikidata-Aussagen](#wikidata-aussagen)) beschrieben werden. So lautet beispielsweise die englische Bezeichnung für die Eigenschaft `P19` "place of birth" und die Deutsche Beschreibung "Ort, in dem ein Mensch geboren wurde". 
 
 Zur Ansicht und Bearbeitung der Benennungen und weiterer Angaben zu Aussagen hat jede Eigenschaft in Wikidata eine eigene Seite. Die URL dieser Seite lässt sich durch Voranstellen von `https://www.wikidata.org/wiki/Property:` konstruieren. 
 
@@ -12,7 +12,7 @@ Die Eigenschaft `P19` ist beispielsweise unter <https://www.wikidata.org/wiki/Pr
 
 ### Vorhandene Eigenschaften
 
-Jede Aussage auf einer Itemseite stellt eine Verbindung zu einer Eigenschaft her und weist ihr einen Wert zu. Dieser Wert besitzt wiederrum eine Verlinkung zu der Item-Seite dieses Wertes.
+Jede Aussage auf einer Item-Seite stellt eine Verbindung zu einer Eigenschaft her und weist ihr einen Wert zu. Dieser Wert besitzt wiederrum eine Verlinkung zu der Item-Seite dieses Wertes.
 
 Einige Eigenschaften sind dazu gedacht, von Wikidata-Items auf andere Normdateien zu Verweisen (siehe Kapitel [Normdaten-Eigenschaften in Wikidata](#normdaten-eigenschaften-in-wikidata)).
 
@@ -20,7 +20,7 @@ Eigenschaften können wie Wikidata-Items von allen Mitarbeitern bearbeitet werde
 
 ### Datentypen und andere Einschränkungen
 
-In Wikidata existieren verschiedene **Datentypen**, welcher in [dieser Liste](https://www.wikidata.org/wiki/Special:ListDatatypes?uselang=de) zu finden sind. Datentypen haben die Aufgabe, zu bestimmen, welche Art von Werten den Eigenschaften zugeordnet werden können. Für jede Eigenschaft ist vordefiniert (worden), welche Datentypen sie als Wert "akzeptiert" (z.B. keine Buchstaben oder sonstigen Zeichen für Zahlenfelder wie bei der GND-Nummer).
+In Wikidata existieren verschiedene **Datentypen**, welcher in [einer Liste](https://www.wikidata.org/wiki/Special:ListDatatypes?uselang=de) zu finden sind. Datentypen haben die Aufgabe zu bestimmen, welche Art von Werten den Eigenschaften zugeordnet werden können. Für jede Eigenschaft ist vordefiniert, welche Datentypen sie als Wert "akzeptiert". Beispielsweise sind keine Buchstaben oder sonstige Zeichen für Zahlenfelder bei der GND-Nummer einzugeben.
 
 **Die wichtigsten Datentypen und eine Beispiel-Eigenschaft:**
 
