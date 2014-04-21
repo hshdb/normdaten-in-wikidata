@@ -1,10 +1,10 @@
 # Einführung in Wikidata
 
-Wikidata ist eine frei zugängliche und bearbeitbare Datenbank, deren Inhalte gemeinfrei genutzt werden können. Das Projekt dient in erster Linie dazu, Wikipedia und andere Projekte der Wikimedia-Foundation durch eine zentrale Datenbank zu unterstützen. Unabhängig davon kann Wikidata aber auch für andere Anwendungen verwendet werden.
+Wikidata ist eine frei zugängliche und bearbeitbare Datenbank, deren Inhalte gemeinfrei genutzt werden können. Wie unter [Entstehung von Wikdata](#entstehung-von-wikidata) und [Inhalte von Wikidata](#inhalte-von-wikidata) beschrieben, dient Wikidata in erster Linie als zentrale Datenbank für alle Wikimedia-Projekte. Unabhängig davon kann [Wikidata aber auch als Normdatei](#normdaten-in-wikidata) verwendet werden. Im Folgenden wird zunächst erklärt, [was für eine Art von Datenbank](#wikidata-als-datenbank) Wikidata ist und [was für Inhalte](#inhalte-von-Wikidata) darin zu finden sind. Wenn Sie mehr an der [praktischen Anwendung](#praktische-anwendungen) oder an den [Bestandteilen von Wikidata](#bestandteile-von-wikidata) interessiert sind, können Sie auch gleich zu den entsprechenden Kapiteln springen.
 
 ## Entstehung von Wikidata
 
-Das Wikidata-Projekt wurde im April 2012 durch die Wikimedia Foundation ins Leben gerufen und von Wikimedia Deutschland umgesetzt. Nach Wikipedia, Wiktionary, Wikibooks, Wikiquote, Wikisource, Wikinews und Wikiversity war es das erste neue Projekt der Wikimedia-Foundation seit 2006. Die Entwicklung von Wikidata wurde durch mehrere Großspenden finanziert. Ab Ende Oktober 2012 konnten in Wikidata Bearbeitungen vorgenommen werden.
+Das Wikidata-Projekt wurde im April 2012 durch die Wikimedia Foundation ins Leben gerufen und von Wikimedia Deutschland umgesetzt. Das primäre Ziel von Wikidata war es, Wikipedia und andere Wikimedia-Projekte durch eine zentrale Datenbank zu unterstützen, die Möglichkeiten von Wikidata gehen jedoch weit darüber hinaus.  Nach Wikipedia, Wiktionary, Wikibooks, Wikiquote, Wikisource, Wikinews und Wikiversity war Wikidata das erste neue Projekt der Wikimedia-Foundation seit 2006 (inzwischen ist außerdem Wikiversity hinzugekommen). Die Entwicklung von Wikidata wurde durch mehrere Großspenden finanziert. Ab Ende Oktober 2012 konnten in Wikidata Bearbeitungen vorgenommen werden.
 
 Die Entwicklung von Wikidata wurde in drei Phasen aufgeteilt: 
 
@@ -16,6 +16,16 @@ Die Entwicklung von Wikidata wurde in drei Phasen aufgeteilt:
 * Phase 3 ist noch nicht abgeschlossen. Es soll automatische Übersetzungen und Aktualisierungen von Listen ermöglichen, basierend auf mehrsprachigen Daten von Wikidata.  In der dritten Phase sollen alle Daten von Wiki-Links, Infoboxen und Listen aufgenommen und vereinigt werden. 
 
 Wikidata hat einige Vorläufer in verwandten Projekten wie [Semantic MediaWiki](http://semantic-mediawiki.org/) und [DBPedia](http://dbpedia.org/). Im Gegensatz zu diesen basiert Wikidata jedoch nicht auf Techniken des Semantic Web.
+
+## Ziele von Wikidata
+
+Ziel des Projektes ist es, dass Infoboxen entstehen, die in einer zentralen Datenbank effizient, widerspruchsfrei und dauerhaft gespeichert sind. Sie dient als Quelle für alle anderen Wikimedia-Projekten und ermöglicht so eine strukturierte Zentralisierung von Daten und Fakten, wie zum Beispiel geografische Daten oder sonstige allgemeingültige Daten für die interne und externe Nutzung.
+
+Die in Wikidata verwalteten Daten bilden eine "Wissensdatenbank" welche die reale Welt beschreibt und abbildet. Statt Artikel in den über 250 Sprachversionen der Wikipedia komplett manuell zu schreiben, sollen in Wikidata Fakten hinterlegt werden, sodass sie in jeder Version gleich angezeigt werden – beispielsweise die Höhe des Mount Everest oder die offizielle Einwohnerzahl von New York. Über eine einheitliche Schnittstelle sollen vor allem statistische Angaben über mehrere Seiten und Sprachversionen hinweg einfacher in Wikipedia aktualisiert werden können.
+
+Wikidata tritt hierfür an, die Erfassung formal beschreibbarer Metadaten auf eine neue Grundlage zu stellen und verbindet dabei erstmals auch alle Sprachvarianten der Wikipedia.  
+
+Wikimedia Commons enthält Mediendateien (Bilder, Videos und Klänge), Wikidata beinhaltet alle davon abweichende Daten (Orte, Verwaltungseinheiten, Körperschaften, Namen ...): mithilfe von Wikidata werden der Zugriff und die Verwaltung von strukturierten Daten wie Interwiki-Links, Infoboxen und statistischen Informationen zentralisiert. 
 
 ## Wikidata als Datenbank
 
@@ -37,13 +47,4 @@ Grundsätzlich enthält Wikidata **Daten**. Daten bestehen aus Zeichen, die von 
 
 Zusammengefasst ist Wikidata eine Datenbank, die sowohl Fakten als auch (mit Quellen belegte) Beobachtungen enthält. Die Inhalte von Wikidata sind dabei so kodiert, dass sie automatisch verarbeitet und weiterverwendet werden können.
 
-## Ziele von Wikidata
-
-Ziel des Projektes ist es, dass Infoboxen entstehen, die in einer zentralen Datenbank effizient, widerspruchsfrei und dauerhaft gespeichert sind. Sie dient als Quelle für alle anderen Wikimedia-Projekten und ermöglicht so eine strukturierte Zentralisierung von Daten und Fakten, wie zum Beispiel geografische Daten oder sonstige allgemeingültige Daten für die interne und externe Nutzung.
-
-Die in Wikidata verwalteten Daten bilden eine "Wissensdatenbank" welche die reale Welt beschreibt und abbildet. Statt Artikel in den über 250 Sprachversionen der Wikipedia komplett manuell zu schreiben, sollen in Wikidata Fakten hinterlegt werden, sodass sie in jeder Version gleich angezeigt werden – beispielsweise die Höhe des Mount Everest oder die offizielle Einwohnerzahl von New York. Über eine einheitliche Schnittstelle sollen vor allem statistische Angaben über mehrere Seiten und Sprachversionen hinweg einfacher in Wikipedia aktualisiert werden können.
-
-Wikidata tritt hierfür an, die Erfassung formal beschreibbarer Metadaten auf eine neue Grundlage zu stellen und verbindet dabei erstmals auch alle Sprachvarianten der Wikipedia.  
-
-Wikimedia Commons enthält Mediendateien (Bilder, Videos und Klänge), Wikidata beinhaltet alle davon abweichende Daten (Orte, Verwaltungseinheiten, Körperschaften, Namen ...): mithilfe von Wikidata werden der Zugriff und die Verwaltung von strukturierten Daten wie Interwiki-Links, Infoboxen und statistischen Informationen zentralisiert. 
 

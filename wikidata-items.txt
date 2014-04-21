@@ -1,26 +1,17 @@
+# Bestandteile von Wikidata
+
+*Hier fehlen noch 1-3 Sätze Einleitung des Kapitels*
 
 ## Wikidata-Items
 
-### Allgemein zu Wikidata-Items
+Ein **Item** (deutsch: **Datenobjekt**) stellt in Wikidata eine zentrale Einheit dar. Fast alles kann in Wikidata zu einem Item werden (ausgenommen sind Daten, die keinem Kontext zugeordnet sind), vor allem aber Gegenständlichkeiten, Konzepte und Vorstellungen. Ein Item besteht immer aus einer Datensatz-ID, die sich aus dem Buchstaben `Q` und einer Nummer zusammensetzt. Beispielsweise steht `Q17` für Japan. Jedes Item kann pro Sprache einen Namen und eine Kurzbeschreibung sowie mehrere Alternativnamen (Synonyme) haben (siehe [Items benennen und beschreiben](#items-benennen-und-beschreiben)). Dies trägt noch weiter zu einer eindeutigen Identifizierung bei. Weitere Bestandteile von Items sind Links zu Seiten in Wikimedia-Projekten (Wikipedia, Wikivoyage, Wikimedia Commons...) sowie  [Aussagen](#wikidata-aussagen) mit Eigenschaften, Werten und Quellen. Die Relevanzrichtlinien von Wikidata verlangen, dass nur Items erstellt werden sollen (siehe [Items erstellen](#items-erstellen)), die mit anderen Items herstellen mit Seiten der Wikimedia-Projekte verlinkt sind.
 
-Ein **Item** (deutsch: **Datenobjekt**) stellt in Wikidata eine zentrale Einheit dar. Fast alles kann in Wikidata zu einem Item werden (ausgenommen sind Daten, die keinem Kontext zugeordnet sind), vor allem aber Gegenständlichkeiten, Konzepte und Vorstellungen. Ein Item besteht immer aus einer Datensatz-ID, die sich aus dem Buchstaben `Q` und einer Nummer zusammensetzt. Beispielsweise steht `Q17` für Japan. Jedes Item kann 
-pro Sprache einen Namen und eine Kurzbeschreibung sowie mehrere Alternativnamen (Synonyme) haben (siehe [Items benennen und beschreiben](#items-benennen-und-beschreiben)). Dies trägt noch weiter zu einer eindeutigen Identifizierung bei. Weitere Bestandteile von Items sind Links zu Seiten in Wikimedia-Projekten (Wikipedia, Wikivoyage, Wikimedia Commons...) sowie  [Aussagen](#wikidata-aussagen) mit Eigenschaften, Werten und Quellen. Die Relevanzrichtlinien von Wikidata verlangen, dass nur Items erstellt werden sollen (siehe [Items erstellen](#items-erstellen)), die mit anderen Items herstellen mit Seiten der Wikimedia-Projekte verlinkt sind.
+Die Seite des Items setzt sich aus verschiedenen Komponenten zusammen.
 
-### Das Prinzip von Wikidata
+![Oberfläche von Wikidata](images/Oberflaeche.PNG)
 
-![Stammbaum von Johann Sebastian Bach](images/800px-GeneaWiki_screenshot_Bach.png)
+Ganz oben steht der Name des Items mit ID (in diesem Fall "Japan ([`Q17`](https://wikidata.org/wiki/Q17))") und darunter folgt eine Kurzbeschreibung dieses Items sowie Synonyme. Es werden außerdem Übersetzungen des Items und der Kurzbeschreibung angezeigt. 
 
-_Stammbaum von Johann Sebastian Bach_
-
-Oben sieht man eine Darstellung der Funktionsweise von miteinander verknüpften Wikidata-Items. Am Beispiel einer Person (hier: Johan Sebastian Bach) kann leicht erkannt werden, welche Maße die Relationsverknüpfungen zu anderen Personen annehmen können. Die blauen bzw. grauen Pfeile stehen für eine Vater-Sohn-Beziehung (Vater von/Sohn von) während die roten bzw. grauen Pfeile für eine Mutter-Sohn-Beziehung (Mutter von/Sohn von) stehen. Die Einbeziehung weiterer relevanter Personen / Relationenitems im Umkreis um das abgefragte "Item" würde den Rahmen jeder Grafik sprengen. 
-
-
-Quellen:
-[blog.wikimedia](https://blog.wikimedia.de/2013/05/06/die-tool-umgebung-von-wikidata/)
-
-[Wikidata-Glossar](https://www.wikidata.org/wiki/Wikidata:Glossary/de#Wikidata_editors )
-
-
-
+Nach den Übersetzungen kommen die [Aussagen](#wikidata-aussagen). Aussagen lassen sich aufteilen in [Eigenschaft](#wikidata-eigenschaften) und Wert. Sie dienen dazu, das Item näher zu beschreiben.
 
 

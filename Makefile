@@ -88,8 +88,8 @@ info:
 upload: upload-html upload-pdf
 upload-html: html ftp.cfg
 	ncftpput -R -f ftp.cfg / $(TARGET).html index.html
-upload-pdf: pdf ftp.cfg
-	ncftpput -R -f ftp.cfg / $(TARGET).pdf index.html
+upload-pdf: ftp.cfg
+	make pdf; ncftpput -R -f ftp.cfg / $(TARGET).pdf index.html
 
 pull-and-upload: pull upload
 

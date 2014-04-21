@@ -5,12 +5,12 @@ abkuerzungsverzeichnis.txt
 einleitung.txt
 Einfuehrung_in_Normdaten.txt
 Einfuehrung_in_Wikidata.txt
-Bestandteile_von_Wikidata.txt
 wikidata-items.txt
 wikidata-eigenschaften.txt
 wikidata-aussagen.txt
 wikidata-quellen.txt
 normdaten-in-wikidata.txt
+wikidata-startseite.txt
 inhalte-finden-in-wikidata.txt
 Item-erstellen.txt
 items-benennen-und-beschreiben.txt
@@ -20,4 +20,3 @@ wikidata-weiternutzen.txt
 faq.txt
 glossar.txt
 literatur.txt
-Stichwortverzeichnis.txt

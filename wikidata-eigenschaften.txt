@@ -2,7 +2,7 @@
 
 **Eigenschaften** (englisch "properties") werden in Wikidata benutzt, um Aussagen auszudrücken.
 
-Jede Eigenschaften wird durch eine ID referenziert, die mit `P` anfängt. Beispielsweise steht in Wikidata `P19` für den Geburtsort einer Person. Jede Eigenschaft kann ebenso wie Wikidata-Items mit Übersetzungen (siehe Kapitel [Items benennen und beschreiben](#items-benennen-und-beschreiben)) und Aussagen (siehe Kapitel [Wikidata-Aussagen](#wikidata-aussagen)) beschrieben werden. So lautet beispielsweise die englische Bezeichnung für die Eigenschaft `P19` "place of birth" und die Deutsche Beschreibung "Ort, in dem ein Mensch geboren wurde". 
+Jede Eigenschaft wird durch eine ID referenziert, die mit `P` anfängt. Beispielsweise steht in Wikidata `P19` für den Geburtsort einer Person. Jede Eigenschaft kann ebenso wie Wikidata-Items mit Übersetzungen (siehe Kapitel [Items benennen und beschreiben](#items-benennen-und-beschreiben)) und Aussagen (siehe Kapitel [Wikidata-Aussagen](#wikidata-aussagen)) beschrieben werden. So lautet beispielsweise die englische Bezeichnung für die Eigenschaft `P19` "place of birth" und die Deutsche Beschreibung "Ort, in dem ein Mensch geboren wurde". 
 
 Zur Ansicht und Bearbeitung der Benennungen und weiterer Angaben zu Aussagen hat jede Eigenschaft in Wikidata eine eigene Seite. Die URL dieser Seite lässt sich durch Voranstellen von `https://www.wikidata.org/wiki/Property:` konstruieren. 
 
@@ -12,7 +12,7 @@ Die Eigenschaft `P19` ist beispielsweise unter <https://www.wikidata.org/wiki/Pr
 
 ### Vorhandene Eigenschaften
 
-Jede Aussage auf einer Itemseite stellt eine Verbindung zu einer Eigenschaft her und weist ihr einen Wert zu. Dieser Wert besitzt wiederrum eine Verlinkung zu der Item-Seite dieses Wertes.
+Jede Aussage auf einer Item-Seite stellt eine Verbindung zu einer Eigenschaft her und weist ihr einen Wert zu. Dieser Wert besitzt wiederrum eine Verlinkung zu der Item-Seite dieses Wertes.
 
 Einige Eigenschaften sind dazu gedacht, von Wikidata-Items auf andere Normdateien zu Verweisen (siehe Kapitel [Normdaten-Eigenschaften in Wikidata](#normdaten-eigenschaften-in-wikidata)).
 
@@ -20,32 +20,32 @@ Eigenschaften können wie Wikidata-Items von allen Mitarbeitern bearbeitet werde
 
 ### Datentypen und andere Einschränkungen
 
-In Wikidata existieren verschiedene **Datentypen**, welcher in [dieser Liste](https://www.wikidata.org/wiki/Special:ListDatatypes?uselang=de) zu finden sind. Datentypen haben die Aufgabe, zu bestimmen, welche Art von Werten den Eigenschaften zugeordnet werden können. Für jede Eigenschaft ist vordefiniert (worden), welche Datentypen sie als Wert "akzeptiert" (z.B. keine Buchstaben oder sonstigen Zeichen für Zahlenfelder wie bei der GND-Nummer).
+In Wikidata existieren verschiedene **Datentypen**, welcher in [einer Liste](https://www.wikidata.org/wiki/Special:ListDatatypes?uselang=de) zu finden sind. Datentypen haben die Aufgabe zu bestimmen, welche Art von Werten den Eigenschaften zugeordnet werden können. Für jede Eigenschaft ist vordefiniert, welche Datentypen sie als Wert "akzeptiert". Beispielsweise sind keine Buchstaben oder sonstige Zeichen für Zahlenfelder bei der GND-Nummer einzugeben.
 
 **Die wichtigsten Datentypen und eine Beispiel-Eigenschaft:**
 
-Im Moment können in Wikidata sieben Datentypen (Item, Commons media file, String, Time, Geographic coordinates und URL) für Eigenschaften (properties) verarbeitet werden. 
+Im Moment können in Wikidata sieben Datentypen (Item, Commons media file, String, Time, Geographic coordinates und URL) für Eigenschaften verarbeitet werden. 
 
 _Datentyp: Item_
 
-In diesen Datentyp können Verknüpfungen zu anderen Items in Wikidata eingegeben werden. Die Eingabe erfolt über ein einfaches Texteingabefeld. 
+In diesen Datentyp können Verknüpfungen zu anderen Items in Wikidata eingegeben werden. Die Eingabe erfolgt über ein einfaches Texteingabefeld. 
 
 _Datentyp: Mediendatei/Media file/Commons_
 
-Dieser Datentyp übernimmt die Verlinkung zu Mediendokumenten (vor allem Bilder, Videos und Klänge), welche auf Wikimedia Commons gespeichert sind.
-Auf diese Weise können Bilder usw. einem Wikipediaartikel zugeordnet werden. 
+Dieser Datentyp übernimmt die Verlinkung zu Mediendokumenten. Vor allem Bilder, Videos und Klänge, welche auf Wikimedia Commons gespeichert sind.
+Auf diese Weise können die Mediendokumente einem Wikipediaartikel zugeordnet werden. 
 
 _Datentyp: Zeichenkette/String_
 
-Dieser Datentyp akzeptiert als Eingaben alle Zeichenketten, welche nach Möglichkeit jedoch nicht sprachenabhängig sein sollten (z.B. nicht übersetzbare Konzepte wie Eigennamen). 
+Dieser Datentyp akzeptiert als Eingaben alle Zeichenketten. Diese sollten nach Möglichkeit jedoch nicht sprachenabhängig sein, wie zum Beispiel nicht übersetzbare Konzepte wie Eigennamen. 
 
 _Datentyp: Zeit/Time_
 
-Hier können nur Werte eingegeben werden, welche eine zeitliche Information ausdrücken, z.B. Jahreszahlen, Jahres-Datums-Zahlen (Geburtstage usw.), Zeitzonen, Zeitpunkte (Uhrzeit z.B.) und noch einige mehr. Für mehr Informationen können sie [hier](https://www.wikidata.org/wiki/Special:ListDatatypes) weiterlesen. 
+Hier können nur Werte eingegeben werden, welche eine zeitliche Information ausdrücken. Zum Beispiel Jahreszahlen, Jahres-Datums-Zahlen, Zeitzonen, Zeitpunkte und noch einige mehr. Für mehr Informationen können sie [hier](https://www.wikidata.org/wiki/Special:ListDatatypes) weiterlesen. 
 
 _Datentyp: Geographische Koordinaten/Geographic coordinates_
 
-In diesem Datentypen finden alle Werte mit geografischen Informationen ihren Platz. Dazu zählen vor allem Daten von Breiten- und Längengraden (bei Ortsbestimmungen) und die Position von Sternen bzw. Sternenbildern. 
+In diesem Datentyp finden alle Werte mit geografischen Informationen ihren Platz. Dazu zählen vor allem Daten von Breiten- und Längengraden wie bei Ortsbestimmungen und die Position von Sternen beziehungsweise Sternenbildern. 
 
 _Datentyp: URL_
 
@@ -53,7 +53,7 @@ In diesem Datentyp werden externe URLs abgelegt. Die URLs müssen hierbei Protok
 
 _Datentyp: Menge/Quantity_
 
-In diesem Datentyp können Mengenangaben eingegeben werden, das sind in der Regel vor allem Zahlenwerte, zum Beispiel die errungenen Wählerstimmen bei einer Wahl. 
+In diesem Datentyp können Mengenangaben eingegeben werden. Das sind in der Regel vor allem Zahlenwerte wie zum Beispiel die errungenen Wählerstimmen bei einer Wahl. 
 
 Für ausführlichere technische Informationen zum Datenmodell in Wikidata, siehe hier: [Datentypen (englisch)](https://meta.wikimedia.org/wiki/Wikidata/Data_model#Datatypes_and_their_Values)
 
