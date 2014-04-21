@@ -3,10 +3,10 @@
 Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
 
 **Aussage (statement)**
-  : Eine [Aussage](#wikidata-aussagen) ist eine Untereinheit eines ->Items in Wikidata. Aussagen bestehen in der Regel aus einer normierten ->Eigenschaft, ihnen zugewiesenen Items und optionalen Quellenangaben. Nicht jede Eigenschaft muss als Wert ein Item beinhalten, manche enthalten einfache externe Verlinkungen (Normdaten, Websiten...) oder einfache ->Daten (geografische Daten, Ländercodes...).
+  : Eine [Aussage](#wikidata-aussagen) ist eine Untereinheit eines ->Items in Wikidata. Aussagen bestehen in der Regel aus einer normierten ->Eigenschaft, ihnen zugewiesenen Items und optionalen Belege. Nicht jede Eigenschaft muss als Wert ein Item beinhalten, manche enthalten einfache externe Verlinkungen (Normdaten, Websiten...) oder einfache ->Daten (geografische Daten, Ländercodes...).
 
 **Beleg**
-  : In Wikidata ist ein [Beleg](#wikidata-quellen) ein Verweis auf eine ->Quelle. Er hat die Aufgabe, zweifelhafte Informationen bzw. -> Eigenschaften mit einem ->Item in Wikidata zu verknüpfen. Diese Quellen können alle möglichen Items (oder auch externe Dokumente) sein (Hyperlinks zu Websiten, Bücher, graue Literatur uvm.). 
+  : Ein [Beleg](#belege) in Wikidata ist eine beliebige Literatur- oder Quellenangabe, die eine ->Aussage bestätig. Belege können ihrerseits auf andere Items verweisen, beispielsweise auf ein Buch, das in Wikidata einen eigenen Eintrag hat.
 
 **Bot:** 
   : Ein [Bot](#einfuehrung-in-wikidata) ist eine selbstständig arbeitende Software, welche einen "Index mit URLs und damit verbundenen Inhalten bzw. Schlagwörtern erzeugt und diese an den Auftraggeber zurücksendet."  
@@ -63,9 +63,6 @@ Die Beschreibung zur Bildung von Normdaten findet man in umfangreichen Regelwerk
 **Qualifikator**
   : „Ein [Qualifikator](#qualifikatoren) ist Teil einer Behauptung (…)“, der etwas über die Behauptung in einer beschreibenden Form ausdrückt. Ein Qualifikator kann ein Ausdruck einer Sprache sein oder eine veränderte Beschreibung der Behauptung.  
 
-**Quellen (sources)**
-  :  [Quellen](#quellen) können jeder Wikidata-Aussage hinzugefügt werden. Viele Quellen sind wiederrum Items in Wikidata. Das Ziel der Quellen ist weniger die Verifizierung von Aussagen, sondern die Vernetzung und Relationierung der Items in Wikidata selbst
-  
 **Rang**
   :  Mit [Rängen](#ränge) werden verschiedene Qualitätsstufen für mehrere unterschiedliche -> Aussagen zu einer gleichen -> Eigenschaft gekennzeichnet. Es gibt drei Ränge: den herabgestuften bzw. zweifelhaften Rang, den normalen Rang und den vorrangig zu behandelnden Rang. 
   
