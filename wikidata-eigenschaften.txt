@@ -8,7 +8,7 @@ Zur Ansicht und Bearbeitung der Benennungen und weiterer Angaben zu Aussagen hat
 
 Die Eigenschaft `P19` ist beispielsweise unter <https://www.wikidata.org/wiki/Property:P19> beschrieben.
 
-![](images/P19.GIF)
+![](images/p19.png)
 
 ### Vorhandene Eigenschaften
 
