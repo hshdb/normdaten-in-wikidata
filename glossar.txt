@@ -1,16 +1,13 @@
 # Glossar {.unnumbered}
 
-Hier werden verschiedene **Fachbegriffe** in kurzen Abschnitten erläutert:
-
 **Aussage (statement)**
   : Eine [Aussage](#wikidata-aussagen) ist eine Untereinheit eines ->Items in Wikidata. Aussagen bestehen in der Regel aus einer normierten ->Eigenschaft, ihnen zugewiesenen Items und optionalen Belege. Nicht jede Eigenschaft muss als Wert ein Item beinhalten, manche enthalten einfache externe Verlinkungen (Normdaten, Websiten...) oder einfache ->Daten (geografische Daten, Ländercodes...).
 
 **Beleg**
   : Ein [Beleg](#belege) in Wikidata ist eine beliebige Literatur- oder Quellenangabe, die eine ->Aussage bestätig. Belege können ihrerseits auf andere Items verweisen, beispielsweise auf ein Buch, das in Wikidata einen eigenen Eintrag hat.
 
-**Bot:** 
-  : Ein [Bot](#einfuehrung-in-wikidata) ist eine selbstständig arbeitende Software, welche einen "Index mit URLs und damit verbundenen Inhalten bzw. Schlagwörtern erzeugt und diese an den Auftraggeber zurücksendet."  
-  Siehe <http://www.wikidata.org/wiki/Wikidata:Bots/de>.
+**Bot** 
+  : Ein [Bot](#einfuehrung-in-wikidata) ist eine selbstständig arbeitende Software, welche einen "Index mit URLs und damit verbundenen Inhalten bzw. Schlagwörtern erzeugt und diese an den Auftraggeber zurücksendet." Siehe  <http://www.wikidata.org/wiki/Wikidata:Bots/de>.
 
 **Daten**
   : Es gibt verschiedene Definitionsmöglichkeiten für den Begriff [Daten](#inhalte-von-wikidata). Grundsätzlich stellen Daten erfassbare (Zahlen-)Werte aus Beobachtungen, Messungen, Erhebungen u.ä. dar. Aus der Sicht der Informatik sind Daten Zeichenfolgen, welche maschinenlesbar sein müssen, auf Datenträgern gespeichert sind und von "Datenverarbeitungsanlagen gespeichert, verarbeitet und/oder erzeugt werden können."

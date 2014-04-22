@@ -82,6 +82,30 @@ a:hover code { text-decoration: none; font-weight: bold; }
 
 .toc-section-number { margin-right: 0.3em; font-style: normal; }
 
+/* Merkkästen */
+div.example {
+    margin-left: 0;
+    border: 1px solid orange;
+    background: #fbc97f;
+}
+div.example p {
+    margin: 1ex 1em !important;
+}
+
+pre {
+    background: none;
+    border: none;
+    border-left: 4px solid #aaa;
+    margin-left: 2em;
+}
+pre code {
+    background: none;
+    border: 0px;
+    font-size: 1em;
+    line-height: 1em; /* !important;*/
+}
+
+
 /* normal */
     #content {
         padding-left: 1em;

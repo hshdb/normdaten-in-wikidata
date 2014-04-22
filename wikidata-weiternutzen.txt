@@ -47,12 +47,16 @@ Beispiele und Beschreibungen zu AutoList und WDQ:
 
 **[Wikidata BEACON](http://tools.wmflabs.org/wikidata-todo/beacon.php)** ist eine weitere Webanwendung von Magnus Maske, mit der speziell Normdaten-Mappings aus Wikidata abgefragt werden können. Die Mappings werden im [BEACON-Format](http://gbv.github.io/beaconspec/beacon.html) bereitgestellt und bestehen im Wesentlichen aus einer Tabelle die Item-IDs aus Wikidata den entsprechenden IDs einer anderen Normdatei gegenüberstellt.
 
----Beispiel
+<div class="example">
+Ein gekürzter Auszug aus dem Normdaten-Mapping von Wikidata zu GND. Konkret wird hier der URI
+<http://www.wikidata.org/wiki/Q17> auf die URI <http://d-nb.info/gnd/4028495-5> gemappt, da beide
+Normdatensätze sich auf Japan beziehen:
 
-    #PREFIX: http://www.wikidata.org/wiki/
-    #TARGET: http://d-nb.info/gnd/
+~~~
+#PREFIX: http://www.wikidata.org/wiki/
+#TARGET: http://d-nb.info/gnd/
 
-    Q17|Japan|4028495-5
-
----
+Q17|Japan|4028495-5
+~~~
+</div>
 
