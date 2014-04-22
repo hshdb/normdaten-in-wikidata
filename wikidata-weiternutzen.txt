@@ -1,15 +1,22 @@
-## Abfrage und Weiternutzung von Wikidata-Inhalten
+## Weiternutzung in anderen Anwendungen
 
-*Hier etwas zur automatischen Abfrage und zu Export-Möglichkeiten*
+Prinzipiell lässt sich Wikidata auch direkt zum Nachschlagen nutzen. Das volle Potential entfalten die Datenbank allerdings erst durch Einbindung ihrer Inhalte in andere Anwendungen. Dank Freigabe mit der [http://creativecommons.org/publicdomain/zero/1.0/deed.de](CC0 Lizenz) sind die Wikidata-Inhalte uneingeschränkt nutzbar. Im Folgenden werden die praktischen Möglichkeiten der Weiternutzung mit besonderem Schwerpunkt auf Normdaten vorgestellt.
 
-### Downloads und Schnittstellen
+### Download der Datenbank
 
-* *...wo/wie gesamte Wikidata herunterladen...*
-* *Hinweis auf MediaWikiAPI*
+Für einen vollständigen Zugriff werden unter <http://dumps.wikimedia.org/wikidatawiki/> in regelmäßigen Abständen **Abzüge der Wikidata-Datenbank** bereitgestellt. Zur Auswertung der Daten sind jedoch aufgrund von Umfang und Datenstruktur weitere Programme wie das [Wikidata Toolkit](https://www.mediawiki.org/wiki/Wikidata_Toolkit) notwendig.
 
-### WikiData Query (WDQ)
+### Zugriff per MediaWiki-API
 
-Bislang bietet Wikidata keine einfache Möglichkeit, komplexere Abfragen an die Datenbank zu stellen; dafür sind zusätzliche Anwendungen notwendig, die auf die Inhalte der Wikidata-Datenbank zugreifen. WikiData Query (WDQ) ist eine solche Webanwendung die von Magnus Maske zur Abfrage von Wikidata entwickelt wurde.
+Wie andere MediaWiki-Installation bietet auch Wikidata die Möglichkeit, Inhalte über eine Schnittstelle abzufragen. Die **MediaWiki-API** unter <http://wikidata.org/w/api.php> ermöglicht praktisch alle Aktionen, die auch über die Benutzeroberfläche von Wikidata möglich sind (Suche, Bearbeitung...). Diese Möglichkeit wird unter anderem von [Wikidata-Bots](http://www.wikidata.org/wiki/Wikidata:Bots/de) verwendet, die Automatisch Inhalte in Wikidata eintragen oder ergänzen. Zum Zugriff auf die API bietet es sich an, auf vorhandene Programmbibliotheken wie [Pywikibot](http://www.mediawiki.org/wiki/Manual:Pywikibot) oder [Catmandu-Wikidata](https://metacpan.org/release/Catmandu-Wikidata) zurückzugreifen.
+
+*hier könnte noch ein Beispiel hin, z.B. Abfrage von Normdaten-Eigenschaften*
+
+### Abfragen mit WikiData Query
+
+*muss noch besser erklärt/zusammengefasst werden!*
+
+Bislang bietet Wikidata keine einfache Möglichkeit, komplexere Abfragen an die Datenbank zu stellen; dafür sind zusätzliche Anwendungen notwendig, die auf die Inhalte der Wikidata-Datenbank zugreifen. **WikiData Query** (WDQ) ist eine solche Webanwendung die von Magnus Maske zur Abfrage von Wikidata entwickelt wurde.
 
 <http://wdq.wmflabs.org/>
 
@@ -36,9 +43,16 @@ Beispiele und Beschreibungen zu AutoList und WDQ:
 * http://wdq.wmflabs.org/api_documentation.html (API-Dokumentation)
 * ...
 
-### Abfrage von Normdaten-Mappings
+### Bereitstellung von Normdaten-Mappings
 
-**Wikidata BEACON**
-* [Wikidata BEACON](http://tools.wmflabs.org/wikidata-todo/beacon.php)
-* [The Whelming - BEACON](http://magnusmanske.de/wordpress/?p=168)
+**[Wikidata BEACON](http://tools.wmflabs.org/wikidata-todo/beacon.php)** ist eine weitere Webanwendung von Magnus Maske, mit der speziell Normdaten-Mappings aus Wikidata abgefragt werden können. Die Mappings werden im [BEACON-Format](http://gbv.github.io/beaconspec/beacon.html) bereitgestellt und bestehen im Wesentlichen aus einer Tabelle die Item-IDs aus Wikidata den entsprechenden IDs einer anderen Normdatei gegenüberstellt.
+
+---Beispiel
+
+    #PREFIX: http://www.wikidata.org/wiki/
+    #TARGET: http://d-nb.info/gnd/
+
+    Q17|Japan|4028495-5
+
+---
 

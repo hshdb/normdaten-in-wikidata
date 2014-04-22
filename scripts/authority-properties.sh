@@ -10,5 +10,6 @@ catmandu convert Wikidata --ids "$PROPERTIES" --fix "$FIX" to JSON
 #catmandu convert Wikidata --ids "$PROPERTIES" --fix "$FIX" to Template --template json2csv.tt
 
 # TODO: see https://www.wikidata.org/wiki/MediaWiki:Gadget-AuthorityControl.js
+# see also <http://meta.wikimedia.org/wiki/Reasonator/stringprops>
 # TODO: get Wikidata, item, retain authority properties, create mapping / search for literature
 # TODO: add literature link to each authority property in Wikidata

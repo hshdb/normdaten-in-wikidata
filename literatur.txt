@@ -28,7 +28,8 @@ Artikel, Bücher, Webseiten etc.
   <https://www.wikidata.org/w/index.php?title=Help:Statements/de>
 * Vorschläge für neue Normdaten-Eigenschaften
   <https://www.wikidata.org/wiki/Wikidata:Property_proposal/Authority_control>
-* ...
+* Projektseite der Wikibase-Software
+  <https://www.mediawiki.org/wiki/Wikibase>
 
 ## Quellen beim Verfassen dieses Handbuchs {.unnumbered}
 
