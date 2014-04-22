@@ -45,7 +45,7 @@ build: all
 	@rsync -rupt --del images build/
 
 clean:
-	rm -rf $(TARGET_FILES) build/
+	rm -rf $(TARGET_FILES) build/ *.aux *.log *.lof *.out *.toc
 
 # konkrete Regeln für die jeweiligen Ausgabeformate
 .SUFFIXES: .md .pdf .html .tex
