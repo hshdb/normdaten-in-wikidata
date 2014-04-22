@@ -12,15 +12,15 @@ Die Eigenschaft `P19` ist beispielsweise unter <https://www.wikidata.org/wiki/Pr
 
 ### Vorhandene Eigenschaften
 
-Jede Aussage auf einer Item-Seite stellt eine Verbindung zu einer Eigenschaft her und weist ihr einen Wert zu. Dieser Wert besitzt wiederrum eine Verlinkung zu der Item-Seite dieses Wertes.
+Jede Aussage auf einer Item-Seite stellt eine Verbindung zu einer Eigenschaft her und weist ihr einen Wert zu. Dieser Wert besitzt wiederum eine Verlinkung zu der Item-Seite dieses Wertes.
 
-Einige Eigenschaften sind dazu gedacht, von Wikidata-Items auf andere Normdateien zu Verweisen (siehe Kapitel [Normdaten-Eigenschaften in Wikidata](#normdaten-eigenschaften-in-wikidata)).
+Einige Eigenschaften sind dazu gedacht von Wikidata-Items auf andere Normdateien zu verweisen. Genauer beschrieben wird dies im Kapitel [Normdaten-Eigenschaften in Wikidata](#normdaten-eigenschaften-in-wikidata).
 
 Eigenschaften können wie Wikidata-Items von allen Mitarbeitern bearbeitet werden, beispielsweise mit Übersetzungen und Beschreibungen der jeweiligen Eigenschaft. Das Anlegen neuer Eigenschaften ist jedoch nur ausgewählten Mitgliedern der Wikidata-Community möglich. Auf der Seite [Property_proposal](https://www.wikidata.org/wiki/Wikidata:Property_proposal/de) können Vorschläge für neue Wikidata-Eigenschaften eingebracht und von der Wikidata-Community diskutiert werden. 
 
 ### Datentypen und andere Einschränkungen
 
-In Wikidata existieren verschiedene **Datentypen**, welcher in [einer Liste](https://www.wikidata.org/wiki/Special:ListDatatypes?uselang=de) zu finden sind. Datentypen haben die Aufgabe zu bestimmen, welche Art von Werten den Eigenschaften zugeordnet werden können. Für jede Eigenschaft ist vordefiniert, welche Datentypen sie als Wert "akzeptiert". Beispielsweise sind keine Buchstaben oder sonstige Zeichen für Zahlenfelder bei der GND-Nummer einzugeben.
+In Wikidata existieren verschiedene **Datentypen**, welche in [einer Liste](https://www.wikidata.org/wiki/Special:ListDatatypes?uselang=de) zu finden sind. Datentypen haben die Aufgabe zu bestimmen, welche Art von Werten den Eigenschaften zugeordnet werden können. Für jede Eigenschaft ist vordefiniert, welche Datentypen sie als Wert "akzeptiert". Beispielsweise sind keine Buchstaben oder sonstige Zeichen für Zahlenfelder bei der GND-Nummer einzugeben.
 
 **Die wichtigsten Datentypen und eine Beispiel-Eigenschaft:**
 
@@ -32,8 +32,7 @@ In diesen Datentyp können Verknüpfungen zu anderen Items in Wikidata eingegebe
 
 _Datentyp: Mediendatei/Media file/Commons_
 
-Dieser Datentyp übernimmt die Verlinkung zu Mediendokumenten. Vor allem Bilder, Videos und Klänge, welche auf Wikimedia Commons gespeichert sind.
-Auf diese Weise können die Mediendokumente einem Wikipediaartikel zugeordnet werden. 
+Dieser Datentyp übernimmt die Verlinkung zu Mediendokumenten. Vor allem Bilder, Videos und Klänge, welche auf Wikimedia Commons gespeichert sind. Auf diese Weise können die Mediendokumente einem Wikipediaartikel zugeordnet werden. 
 
 _Datentyp: Zeichenkette/String_
 
