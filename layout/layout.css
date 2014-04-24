@@ -145,6 +145,11 @@ dt { font-weight: bold; }
 dd { margin-left: 1.5em; } 
 
 /* Bilder */
+p > img {
+    float: right;
+    margin-left: 0.5em;
+}
+
 .figure img {
     border: 1px solid #aaa;
     max-width: 100%; 
