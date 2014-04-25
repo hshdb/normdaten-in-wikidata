@@ -1,0 +1,16 @@
+wd_simple();
+
+move_field("labels.en","en");
+move_field("labels.de","de");
+move_field("descriptions.de","description");
+
+remove_field("descriptions");
+remove_field("labels");
+remove_field("aliases");
+remove_field("ns");
+remove_field("lastrevid");
+remove_field("pageid");
+remove_field("title");
+remove_field("type");
+remove_field("datatype");
+remove_field("modified");
