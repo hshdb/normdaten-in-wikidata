@@ -11,7 +11,7 @@ Gemein ist allen Normdaten-Eigenschaften, dass sie den [Datentyp](#datentypen) Z
  
 Eigenschaften, die unter einer Notation oder ID zusammengefügt werden, bezeichnet man als Normdaten-Eigenschaften. Normdaten können ein- oder mehrsprachig sein. Wikidata ist meistens mehrsprachig. Verknüpfungen zwischen Normdaten aus Wikidata und Dokumenten in Wikipedia ist ein Ziel des Wikidata-Projektes und wird bereits zu Teilen umgesetzt. 
  
-Da jederzeit neue Eigenschaften in Wikidata hinzukommen können (siehe [Neue Eigenschaften vorschlagen](#neue-eigenschaften-vorschlagen)) ist es schwierig eine vollständige Liste von Normdaten-Eigenschaften anzugeben. Unter [Property proposal/Authority control](https://www.wikidata.org/wiki/Wikidata:Property_proposal/Authority_control) in Wikidata finden sich Vorschläge für neue Normdaten-Eigenschaften.
+Da jederzeit neue Eigenschaften in Wikidata hinzukommen können (siehe [Neue Eigenschaften vorschlagen](#neue-eigenschaften-vorschlagen)) ist es schwierig eine vollständige Liste von Normdaten-Eigenschaften anzugeben. Im Anhang ist eine [Liste aller Normdaten-Eigenschaften](#liste-aller-normdaten-eigenschaften) zum Erstellungszeitpunkt dieses Handbuchs enthalten. Unter [Property proposal/Authority control](https://www.wikidata.org/wiki/Wikidata:Property_proposal/Authority_control) in Wikidata finden sich Vorschläge für neue Normdaten-Eigenschaften.
 
 **Beispiele für Normdaten-Eigenschaften**
  

@@ -1,0 +1,266 @@
+# Liste aller Normdaten-Eigenschaften {.unnumbered}
+
+Die folgende Liste wurde automatisch erstellt und stellt den Stand zum XXXX
+dar. Zu diesem Zeitpunkt hatte Wikidata insgesamt Y Normdaten-Eigenschaften.
+
+id | Name | Beschreibung
+---|------|-------------
+[`P212`](https://www.wikidata.org/wiki/Property:P212) | ISBN-13 | Internationale Standardbuchnummer (Vorgänger: ISBN-10, s. P957)
+[`P213`](https://www.wikidata.org/wiki/Property:P213) | ISNI | International Standard Name Identifier (Eingabe mit Leerzeichen. Beispiel: 0000 0001 0886 1508.)
+[`P214`](https://www.wikidata.org/wiki/Property:P214) | VIAF | virtuelle internationale Normdatei für Personendaten (bitte nur individualisierte VIAFs eintragen, d.h. Nummern ohne den Vermerk "undifferentiated")
+[`P215`](https://www.wikidata.org/wiki/Property:P215) | Spektralklasse | Klassifizierung astronomischer Objekte nach dem Spektrum
+[`P218`](https://www.wikidata.org/wiki/Property:P218) | ISO 639-1 | Kennung für Namen von Sprachen von der Internationalen Organisation für Normung
+[`P219`](https://www.wikidata.org/wiki/Property:P219) | ISO 639-2 | Kennung für Namen von Sprachen von der Internationalen Organisation für Normung
+[`P220`](https://www.wikidata.org/wiki/Property:P220) | ISO 639-3 | Kennung für Namen von Sprachen von der Internationalen Organisation für Normung
+[`P225`](https://www.wikidata.org/wiki/Property:P225) | wissenschaftlicher Name | wissenschaftliche Benennung des Lebewesens
+[`P227`](https://www.wikidata.org/wiki/Property:P227) | GND-Nummer | internationale Normdatei für Personennamen, Körperschaften und Schlagworte (bitte nicht Typ n eintragen = Name, mehrdeutig)
+[`P231`](https://www.wikidata.org/wiki/Property:P231) | CAS-Nummer | internationaler Bezeichnungsstandard für chemische Stoffe
+[`P232`](https://www.wikidata.org/wiki/Property:P232) | EINECS-Nummer | Altstoffverzeichnis der EU
+[`P233`](https://www.wikidata.org/wiki/Property:P233) | SMILES | chemischer Strukturcode
+[`P234`](https://www.wikidata.org/wiki/Property:P234) | InChI | Internationale chemische Bezeichnung der IUPAC
+[`P235`](https://www.wikidata.org/wiki/Property:P235) | InChIKey | 
+[`P236`](https://www.wikidata.org/wiki/Property:P236) | ISSN | Internationale Standardnummer für fortlaufende Sammelwerke
+[`P238`](https://www.wikidata.org/wiki/Property:P238) | IATA-Flughafencode | alphanumerischer Code für Flughäfen
+[`P239`](https://www.wikidata.org/wiki/Property:P239) | ICAO-Flughafencode | alphanumerischer Code für Flughäfen
+[`P243`](https://www.wikidata.org/wiki/Property:P243) | OCLC | OCLC-Nummer in WorldCat
+[`P244`](https://www.wikidata.org/wiki/Property:P244) | LCNAF | Normdatensatz der Library of Congress (für einzelne Bücher siehe P1144)
+[`P245`](https://www.wikidata.org/wiki/Property:P245) | ULAN | Identifikationsnummer in der Union List of Artist Names
+[`P246`](https://www.wikidata.org/wiki/Property:P246) | Elementsymbol | Kurzschreibweise für einzelne Atome eines chemischen Elements
+[`P247`](https://www.wikidata.org/wiki/Property:P247) | COSPAR-Bezeichnung | Katalognummer eines Raumflugkörpers auf einer Umlaufbahn
+[`P267`](https://www.wikidata.org/wiki/Property:P267) | ATC-Code | Code des Anatomisch-Therapeutisch-Chemischen Klassifikationssystems
+[`P268`](https://www.wikidata.org/wiki/Property:P268) | BnF | Normdateneintrag in der französischen Nationalbibliothek
+[`P269`](https://www.wikidata.org/wiki/Property:P269) | SUDOC Normdaten | Normdateneintrag im gleichnamigen französischen Bibliotheksverbund (s. auch P1025)
+[`P270`](https://www.wikidata.org/wiki/Property:P270) | CALIS | Normdateneintrag im gleichnamigen chinesischen Bibliotheksverbund
+[`P271`](https://www.wikidata.org/wiki/Property:P271) | CiNii Normdaten | Normdateneintrag im gleichnamigen japanischen Verbundkatalog
+[`P278`](https://www.wikidata.org/wiki/Property:P278) | GOST 7.75-97 | Sprachencode
+[`P300`](https://www.wikidata.org/wiki/Property:P300) | ISO 3166-2 Code | aus Ländercode und ein- bis dreistelligem alphanummerischem Code für subnationale Einheiten
+[`P303`](https://www.wikidata.org/wiki/Property:P303) | EE-Nummer | Objekt ist ein Bezeichner der EE-Liste der Rassetauben (ELRT)
+[`P345`](https://www.wikidata.org/wiki/Property:P345) | IMDb-Identifikationsnummer | Identifikationsnummer in der Internet Movie Database (IMDb) inklusive Präfix (tt-, nm-, ch-, co-)
+[`P347`](https://www.wikidata.org/wiki/Property:P347) | Joconde | ID in der Joconde-Datenbank des französischen Kulturministeriums
+[`P349`](https://www.wikidata.org/wiki/Property:P349) | Web NDL Authorities | Normdateneintrag in der Nationalen Parlamentsbibliothek (NDL), Japan
+[`P350`](https://www.wikidata.org/wiki/Property:P350) | RKD-Werk-ID | Identifikationsnummer in der Datenbank des Niederländischen Instituts für Kunstgeschichte (Rijksbureau voor Kunsthistorische Documentatie)
+[`P351`](https://www.wikidata.org/wiki/Property:P351) | Entrez-Gene-Nummer | Identifikationsnummer in der Entrez-Gene-Datenbank
+[`P352`](https://www.wikidata.org/wiki/Property:P352) | UniProt-ID | Identifikationsnummer in der UniProt-Datenbank
+[`P353`](https://www.wikidata.org/wiki/Property:P353) | Gen-Symbol | 
+[`P354`](https://www.wikidata.org/wiki/Property:P354) | HGNC-ID | 
+[`P356`](https://www.wikidata.org/wiki/Property:P356) | DOI | digitaler Identifikator für physische, digitale oder abstrakte Objekte
+[`P359`](https://www.wikidata.org/wiki/Property:P359) | Rijksmonument-Nummer | Identifikationsnummer von Rijksmonumenten, vergeben vom Rijksdienst voor het Cultureel Erfgoed
+[`P373`](https://www.wikidata.org/wiki/Property:P373) | Commons-Kategorie | Name der Kategorie auf Wikimedia Commons, welche Dateien zu dem Objekt (item) beinhaltet (ohne das Präfix "Category")
+[`P374`](https://www.wikidata.org/wiki/Property:P374) | INSEE-Gemeindecode | Schlüssel für französische Gemeinden
+[`P377`](https://www.wikidata.org/wiki/Property:P377) | SCN | Satellite Catalog Number
+[`P380`](https://www.wikidata.org/wiki/Property:P380) | Mérimée-Kennzeichnung | Identifikator für die französischen Kulturdenkmäler-Datenbank Mérimée
+[`P381`](https://www.wikidata.org/wiki/Property:P381) | KGS-DS-Nummer | Identifizierungsnummer des Kulturgüterschutzes in der Schweiz
+[`P382`](https://www.wikidata.org/wiki/Property:P382) | CBS-Code | vierstelliger niederländischer Ortscode des Centraal Bureau voor de Statistiek
+[`P395`](https://www.wikidata.org/wiki/Property:P395) | Kfz-Kennzeichen | international: Kfz-Nationalitätszeichen oder Kennzeichnung für Fahrzeuge in internationalem Verkehr. Innerstaatlich: Unterscheidungszeichen für den Verwaltungsbezirk
+[`P396`](https://www.wikidata.org/wiki/Property:P396) | SBN | Normdatennummer der Italienischen Nationalbibliothek
+[`P402`](https://www.wikidata.org/wiki/Property:P402) | OpenStreetMap-Relation-ID | ID des geographischen Objekts in OpenStreetMap
+[`P409`](https://www.wikidata.org/wiki/Property:P409) | NLA | Normdatennummer der Australischen Nationalbibliothek
+[`P424`](https://www.wikidata.org/wiki/Property:P424) | Wikimedia-Sprachcode | Kürzel der Sprache, wie es in den Wikimedia-Projekten verwendet wird
+[`P428`](https://www.wikidata.org/wiki/Property:P428) | botanisches Autorenkürzel gemäß IPNI | offizielle Abkürzung des Subjekts Namen, wenn in der Taxonomie verwendet
+[`P434`](https://www.wikidata.org/wiki/Property:P434) | MusicBrainz-Künstler-ID | ID des Künstlers (Musiker, Schriftsteller) in MusicBrainz
+[`P435`](https://www.wikidata.org/wiki/Property:P435) | MusicBrainz-Werk-ID | ID des Werkes in MusicBrainz
+[`P436`](https://www.wikidata.org/wiki/Property:P436) | MusicBrainz-Veröffentlichungsgruppen-ID | ID der Veröffentlichungsgruppe (vor allem Alben) in MusicBrainz
+[`P439`](https://www.wikidata.org/wiki/Property:P439) | Amtlicher Gemeindeschlüssel | für kreisfreie Städte und Kommunen in Deutschland
+[`P442`](https://www.wikidata.org/wiki/Property:P442) | chinesischer Code für Verwaltungseinheiten | vergeben vom staatlichen Amt für Statistik der Volksrepublik China
+[`P464`](https://www.wikidata.org/wiki/Property:P464) | NOR | französischer Identifikationscode für amtliche Texte
+[`P477`](https://www.wikidata.org/wiki/Property:P477) | Historic-Places-ID | Identifikationsnummer im Canadian Register of Historic Places
+[`P481`](https://www.wikidata.org/wiki/Property:P481) | Palissy-ID | Identifikator für die französischen Kulturdenkmäler-Datenbank Palissy
+[`P486`](https://www.wikidata.org/wiki/Property:P486) | MeSH-ID | Primärschlüssel der Medical-Subject-Headings-Datenbank
+[`P490`](https://www.wikidata.org/wiki/Property:P490) | provisorischer Name | Benennung von Asteroiden und Kometen unmittelbar nach ihrer Entdeckung, vor der Vergabe des dauerhaften Namens durch die Internationale Astronomische Union
+[`P492`](https://www.wikidata.org/wiki/Property:P492) | OMIM-ID | Identifikationsnummer in der Gen-Datenbank Online Mendelian Inheritance in Man
+[`P493`](https://www.wikidata.org/wiki/Property:P493) | ICD-9 | Internationale statistische Klassifikation der Krankheiten – Version 9
+[`P494`](https://www.wikidata.org/wiki/Property:P494) | ICD-10 | Internationale statistische Klassifikation der Krankheiten und verwandter Gesundheitsprobleme, 10. Revision
+[`P496`](https://www.wikidata.org/wiki/Property:P496) | ORCID | alphanumerischer Code zur Identifizierung wissenschaftlicher Autoren
+[`P498`](https://www.wikidata.org/wiki/Property:P498) | Währungscode (ISO 4217) | Norm für Währungs-Abkürzungen von der Internationalen Organisation für Normung
+[`P502`](https://www.wikidata.org/wiki/Property:P502) | HURDAT-Kennung | Identifikationsnummer in der North Atlantic hurricane database
+[`P506`](https://www.wikidata.org/wiki/Property:P506) | ISO 15924 | Code für Schriftsysteme
+[`P508`](https://www.wikidata.org/wiki/Property:P508) | BNCF | bibliographischer Eintrag der italienischen Nationalbibliothek
+[`P528`](https://www.wikidata.org/wiki/Property:P528) | Katalognummer | Bezeichnung in einem Katalog
+[`P535`](https://www.wikidata.org/wiki/Property:P535) | Find a Grave | Identifikationsnummer in der Begräbnisstätten-Datenbank "Find a Grave"
+[`P536`](https://www.wikidata.org/wiki/Property:P536) | ATP-Kennung | Identifikator für Tennisspieler in der Datenbank der ATP
+[`P539`](https://www.wikidata.org/wiki/Property:P539) | Museofile | Primärschlüssel der Datenbank des französischen Kulturministeriums
+[`P549`](https://www.wikidata.org/wiki/Property:P549) | MGP-ID | Identifikationsnummer in der Mathematiker-Datenbank des Mathematics Genealogy Project
+[`P553`](https://www.wikidata.org/wiki/Property:P553) | Nutzerkonto in sozialem Netzwerk | zusammen mit Property:P554 zu verwenden
+[`P557`](https://www.wikidata.org/wiki/Property:P557) | DiseasesDB-ID | Kennung in der Diseases Database (diseasesdatabase.com)
+[`P563`](https://www.wikidata.org/wiki/Property:P563) | ICD-O | medizinische Klassifikation für die Onkologie
+[`P586`](https://www.wikidata.org/wiki/Property:P586) | IPNI-Autor-ID | Identifikator für eine Person im International Plant Names Index (IPNI)
+[`P587`](https://www.wikidata.org/wiki/Property:P587) | MMSI | Rufnummer des mobilen Seefunkdienstes
+[`P590`](https://www.wikidata.org/wiki/Property:P590) | GNIS | Identifikationsnummer im Geographic Names Information System der Vereinigten Staaten
+[`P592`](https://www.wikidata.org/wiki/Property:P592) | ChEMBL | Kennung in der chemischen/biologischen Datenbank ChEMBL
+[`P593`](https://www.wikidata.org/wiki/Property:P593) | HomoloGene-ID | Identifikationsnummer in der Datenbank von HomoloGene des National Center for Biotechnology Information
+[`P594`](https://www.wikidata.org/wiki/Property:P594) | Ensembl-ID | Identifikationsnummer in der Datenbank des bioinformatisches Forschungsprojekts Ensembl
+[`P597`](https://www.wikidata.org/wiki/Property:P597) | WTA-Kennung | Identifikator für Tennisspielerinnen in der Datenbank der WTA
+[`P599`](https://www.wikidata.org/wiki/Property:P599) | ITF-ID | Kennung eines Tennisspielers auf der ITF-Webseite
+[`P600`](https://www.wikidata.org/wiki/Property:P600) | Wine AppDB-Identifikationsnummer | ID in der Winehq Applikations-Datenbank
+[`P604`](https://www.wikidata.org/wiki/Property:P604) | MedlinePlus-ID | frei zugängliche Datenbank von Krankheitsbeschreibungen
+[`P613`](https://www.wikidata.org/wiki/Property:P613) | OS-Planquadrat | auf Karten des britischen Ordnance Survey verwendetes Koordinatensystem (National Grid)
+[`P627`](https://www.wikidata.org/wiki/Property:P627) | IUCN-ID | Referenz für IUCN Artenschutzstatus (P141)
+[`P628`](https://www.wikidata.org/wiki/Property:P628) | E-Nummer | Nummer für Lebensmittelzusätze, die in der EU legal sind
+[`P630`](https://www.wikidata.org/wiki/Property:P630) | Straßen-ID der Stadt Paris | digitale Kennung für Straßen in Paris
+[`P633`](https://www.wikidata.org/wiki/Property:P633) | Répertoire du patrimoine culturel du Québec | Identifikationsnummer im Verzeichnis des kulturellen Erbes von Quebec
+[`P635`](https://www.wikidata.org/wiki/Property:P635) | ISTAT-ID | vom staatlichen italienischen Statistikamt vergebene Identifikationsnummer für Gemeinden
+[`P637`](https://www.wikidata.org/wiki/Property:P637) | Protein-ID | 
+[`P638`](https://www.wikidata.org/wiki/Property:P638) | PDB-ID | 3D-Strukturdaten für Gene in der PDB-Datenbank
+[`P639`](https://www.wikidata.org/wiki/Property:P639) | RNA-ID | 
+[`P640`](https://www.wikidata.org/wiki/Property:P640) | Léonore-ID | Identifikationsnummer einer Person in der Léonore-Datenbank
+[`P643`](https://www.wikidata.org/wiki/Property:P643) | Genloc Chr | Chromosom-Nummer
+[`P646`](https://www.wikidata.org/wiki/Property:P646) | Freebase-ID | Kennung des gleichbedeutenden Eintrags in der Freebase-Datenbank
+[`P648`](https://www.wikidata.org/wiki/Property:P648) | Open-Library-ID | numerische Buch-Kennung für Werke ("W"), einzelne Ausgaben ("M") und Autoren ("A")
+[`P649`](https://www.wikidata.org/wiki/Property:P649) | NRHP | Identifikationsnummer im National Register of Historic Places des US-amerikanischen National Park Service
+[`P650`](https://www.wikidata.org/wiki/Property:P650) | RKD-Künstler-ID | Identifikationsnummer in der Datenbank des Niederländischen Instituts für Kunstgeschichte (Rijksbureau voor Kunsthistorische Documentatie)
+[`P651`](https://www.wikidata.org/wiki/Property:P651) | BPN | Identifikationsnummer in der Datenbank des niederländischen Biografisch Portaal
+[`P652`](https://www.wikidata.org/wiki/Property:P652) | UNII | von der FDA definierter Identifikator für einzelne Inhaltsstoff chemischer Verbindungen
+[`P653`](https://www.wikidata.org/wiki/Property:P653) | PubMed-Health | Identifikator für die PubMed-Health-Seite, die Artikel über medizinische Themen bereitstellt
+[`P657`](https://www.wikidata.org/wiki/Property:P657) | RTECS-Nummer | Identifikationsnummer in der Registry of Toxic Effects of Chemical Substances (Datenbank toxikologischer Informationen)
+[`P661`](https://www.wikidata.org/wiki/Property:P661) | ChemSpider-ID | Datenbank chemischer Verbindungen
+[`P662`](https://www.wikidata.org/wiki/Property:P662) | PubChem-ID (CID) | Datenbank von chemischen Verbindungen
+[`P665`](https://www.wikidata.org/wiki/Property:P665) | KEGG ID | 
+[`P668`](https://www.wikidata.org/wiki/Property:P668) | GeneReviews-ID | Kennung in der GeneReviews-Datenbank
+[`P671`](https://www.wikidata.org/wiki/Property:P671) | Mouse Genome Informatics ID | Kennung in der Datenbank Mouse Genome Informatics
+[`P672`](https://www.wikidata.org/wiki/Property:P672) | MeSH Code | 
+[`P673`](https://www.wikidata.org/wiki/Property:P673) | eMedicine | 
+[`P675`](https://www.wikidata.org/wiki/Property:P675) | Google Books | Kennung in der Google-Books-Datenbank
+[`P677`](https://www.wikidata.org/wiki/Property:P677) | ÚSOP-Code | von drusop.nature.cz
+[`P683`](https://www.wikidata.org/wiki/Property:P683) | ChEBI-ID | Moleküldatenbank und -ontologie
+[`P685`](https://www.wikidata.org/wiki/Property:P685) | NCBI-ID | Identifikator in der taxonomischen Datenbank des National Center for Biotechnology Information (NCBI)
+[`P686`](https://www.wikidata.org/wiki/Property:P686) | Gene-Ontology-Identifikator | ID in der Gene-Ontology-Datenbank
+[`P687`](https://www.wikidata.org/wiki/Property:P687) | BHL-Seiten-ID | Identifikator einer Seite in der Biodiversity Heritage Library (BHL)
+[`P691`](https://www.wikidata.org/wiki/Property:P691) | NKCR | Datenbanklink zum Portal der Nationalbibliothek der Tschechischen Republik
+[`P698`](https://www.wikidata.org/wiki/Property:P698) | PubMed-ID (PMID) | Identifikator für Artikel in der PubMed-Datenbank
+[`P699`](https://www.wikidata.org/wiki/Property:P699) | Disease-Ontology-ID | Kennung in der Disease-Ontology-Datenbank
+[`P701`](https://www.wikidata.org/wiki/Property:P701) | Dodis-Nummer | Kennung in der Dodis-Datenbank (Diplomatische Dokumente der Schweiz 1945-1969)
+[`P704`](https://www.wikidata.org/wiki/Property:P704) | Ensembl-Transkript-Identifikator | 
+[`P705`](https://www.wikidata.org/wiki/Property:P705) | Ensembl-Protein-Identifikator | 
+[`P709`](https://www.wikidata.org/wiki/Property:P709) | Historic-Scotland-ID | 
+[`P715`](https://www.wikidata.org/wiki/Property:P715) | Drugbank-ID | Kennung in der Drugbank-Datenbank
+[`P716`](https://www.wikidata.org/wiki/Property:P716) | JPL Small-Body Database ID | Kennung in der Datenbank JPL Small-Body Database
+[`P717`](https://www.wikidata.org/wiki/Property:P717) | *Minor Planet Center observatory code* | 
+[`P718`](https://www.wikidata.org/wiki/Property:P718) | Canmore-ID | 
+[`P721`](https://www.wikidata.org/wiki/Property:P721) | OKATO-ID | Code im Klassifizierungsschlüssel administrativer Objekte in Russland
+[`P722`](https://www.wikidata.org/wiki/Property:P722) | UIC internationale Bahnhofsnummer | UIC internationale Bahnhofsnummer
+[`P723`](https://www.wikidata.org/wiki/Property:P723) | DBNL-ID | 
+[`P724`](https://www.wikidata.org/wiki/Property:P724) | Internet-Archive-ID | eindeutige Identifikationsnummer eines Datenobjekts auf archive.org
+[`P727`](https://www.wikidata.org/wiki/Property:P727) | Europeana-ID | europäische virtuelle Bibliothek
+[`P731`](https://www.wikidata.org/wiki/Property:P731) | Litholex Primärschlüssel | Lithostratigraphische Datenbank für Deutschland und gewartet von der BGR
+[`P732`](https://www.wikidata.org/wiki/Property:P732) | BGS-Lexikon-ID | Identifikator im lithostratigraphischen Lexikon der britischen geologischen Bundesanstalt
+[`P733`](https://www.wikidata.org/wiki/Property:P733) | DINOloket | Datenbank der niederländischen geologischen Einheiten (Data Informatie Nederlandse Ondergrond)
+[`P745`](https://www.wikidata.org/wiki/Property:P745) | PBB-ID | Plattdeutsche Biblio- und Biographie
+[`P758`](https://www.wikidata.org/wiki/Property:P758) | Kulturminne identifier | Kennung in der Kulturminne-Datenbank der Riksantikvaren
+[`P759`](https://www.wikidata.org/wiki/Property:P759) | *Alberta Register of Historic Places identifier* | 
+[`P764`](https://www.wikidata.org/wiki/Property:P764) | OKTMO-ID | Code im Klassifizierungsschlüssel munizipaler Gebilde in Russland
+[`P771`](https://www.wikidata.org/wiki/Property:P771) | Gemeindenummer in der Schweiz | Nummer des Bundesamtes für Statistik (BFS) in der Schweiz
+[`P774`](https://www.wikidata.org/wiki/Property:P774) | FIPS 55-3 (Orte in USA) | 
+[`P782`](https://www.wikidata.org/wiki/Property:P782) | LAU | staatliche administrative Hierarchieebene, EU (ehemals NUTS-4 und NUTS-5)
+[`P791`](https://www.wikidata.org/wiki/Property:P791) | ISIL-ID | Internationale Kennung für Bibliotheken und verwandte Organisationen
+[`P804`](https://www.wikidata.org/wiki/Property:P804) | GNIS-Antarctica-ID | Identifikationsnummer in der Antarktika-Datenbank des GNIS
+[`P806`](https://www.wikidata.org/wiki/Property:P806) | italienische Kataster-ID | 
+[`P808`](https://www.wikidata.org/wiki/Property:P808) | *code Bien de Interés Cultural* | 
+[`P809`](https://www.wikidata.org/wiki/Property:P809) | Weltdatenbank über geschützte Gebiete (WDPA) | 
+[`P815`](https://www.wikidata.org/wiki/Property:P815) | ITIS-TSN | die vom Integrated Taxonomic Information System (ITIS) vergebene Taxonomic Serial Number (TSN)
+[`P818`](https://www.wikidata.org/wiki/Property:P818) | arXiv ID | Identificationsqode im ArXive-Archiv
+[`P819`](https://www.wikidata.org/wiki/Property:P819) | *ADS bibcode* | 
+[`P821`](https://www.wikidata.org/wiki/Property:P821) | *CGNDB Unique Identifier* | 
+[`P824`](https://www.wikidata.org/wiki/Property:P824) | Meteoritical-Bulletin-Identifikator | 
+[`P827`](https://www.wikidata.org/wiki/Property:P827) | *BBC program identifier* | 
+[`P829`](https://www.wikidata.org/wiki/Property:P829) | OEIS-ID | Enzyklopädie der Integer-Sequenzen
+[`P830`](https://www.wikidata.org/wiki/Property:P830) | EOL-ID | Identifikator in der Encyclopedia of Life (EOL)
+[`P838`](https://www.wikidata.org/wiki/Property:P838) | BioLib-ID | Identifikator in der Biological Library (BioLib)
+[`P839`](https://www.wikidata.org/wiki/Property:P839) | IMSLP-ID | Identifikationsnummer des Internationalen Notenbibliothek-Projekts
+[`P842`](https://www.wikidata.org/wiki/Property:P842) | Fossilworks-ID | Identifikator für fossile Tiere, Pflanzen, und Mikroorganismen
+[`P843`](https://www.wikidata.org/wiki/Property:P843) | SIRUTA Code | 
+[`P845`](https://www.wikidata.org/wiki/Property:P845) | Sawkatchewan'sches Kulturgüterverzeichnis | 
+[`P846`](https://www.wikidata.org/wiki/Property:P846) | GBIF-ID | Identifikator bei der Global Biodiversity Information Facility (GBIF)
+[`P850`](https://www.wikidata.org/wiki/Property:P850) | WoRMS-ID | Kennung im World Register of Marine Species
+[`P858`](https://www.wikidata.org/wiki/Property:P858) | ESPN SCRUM ID | Identifikation internationaler Rugby-Spieler von der website www.espnscrum.com
+[`P860`](https://www.wikidata.org/wiki/Property:P860) | *e-archiv.li ID* | 
+[`P861`](https://www.wikidata.org/wiki/Property:P861) | premiershiprugby.com ID | 
+[`P863`](https://www.wikidata.org/wiki/Property:P863) | *InPhO identifier * | 
+[`P864`](https://www.wikidata.org/wiki/Property:P864) | *ACM Digital Library author identifier* | 
+[`P865`](https://www.wikidata.org/wiki/Property:P865) | BMLO | 
+[`P866`](https://www.wikidata.org/wiki/Property:P866) | Perlentaucher | Deeplinks auf das gleichnamige Onlinemagazin für Literatur und Kultur
+[`P867`](https://www.wikidata.org/wiki/Property:P867) | ROME-Berufscode | ROME-Code für einen Beruf, mit einem Buchstaben und vier Nummern
+[`P882`](https://www.wikidata.org/wiki/Property:P882) | FIPS 6-4 (counties in USA) | 
+[`P884`](https://www.wikidata.org/wiki/Property:P884) | Russische Gewässerkennzahl | 
+[`P886`](https://www.wikidata.org/wiki/Property:P886) | *LIR* | 
+[`P888`](https://www.wikidata.org/wiki/Property:P888) | JSTOR | 
+[`P889`](https://www.wikidata.org/wiki/Property:P889) | *Mathematical Reviews identifier* | 
+[`P892`](https://www.wikidata.org/wiki/Property:P892) | RFC | 
+[`P893`](https://www.wikidata.org/wiki/Property:P893) | *Social Science Research Network ID* | 
+[`P902`](https://www.wikidata.org/wiki/Property:P902) | Artikelnummer im HLS | Identifikationsnummer im Historischen Lexikon der Schweiz
+[`P906`](https://www.wikidata.org/wiki/Property:P906) | SELIBR | Normdatei des schwedischen Verbundkatalogs LIBRIS
+[`P907`](https://www.wikidata.org/wiki/Property:P907) | AMG Spiele ID | 
+[`P909`](https://www.wikidata.org/wiki/Property:P909) | *Nova Scotia Register of Historic Places identifier* | 
+[`P911`](https://www.wikidata.org/wiki/Property:P911) | Südafrikanischer Gemeinde-Code | 
+[`P920`](https://www.wikidata.org/wiki/Property:P920) | *Spanish subject headings for public libraries* | 
+[`P933`](https://www.wikidata.org/wiki/Property:P933) | *heritagefoundation.ca ID* | 
+[`P935`](https://www.wikidata.org/wiki/Property:P935) | Commons-Galerie | Name der Galerieseite(n) auf Wikimedia Commons mit Dateien zu dem Objekt (item)
+[`P938`](https://www.wikidata.org/wiki/Property:P938) | FishBase-ID | Identifikator bei FishBase
+[`P939`](https://www.wikidata.org/wiki/Property:P939) | KSH Code | 
+[`P946`](https://www.wikidata.org/wiki/Property:P946) | ISIN | International Securities Identification Number
+[`P947`](https://www.wikidata.org/wiki/Property:P947) | RSL | Normdatennummer der Russischen Staatsbibliothek (RSL)
+[`P949`](https://www.wikidata.org/wiki/Property:P949) | NLI (Israel) | Normdatei der Israelischen Nationalbibliothek (National Library of Israel)
+[`P950`](https://www.wikidata.org/wiki/Property:P950) | BNE | Normdatei der Spanischen Nationalbibliothek (Biblioteca Nacional de España)
+[`P951`](https://www.wikidata.org/wiki/Property:P951) | NSZL | Normdatei der Széchényi-Nationalbibliothek (Ungarn)
+[`P957`](https://www.wikidata.org/wiki/Property:P957) | ISBN-10 | Internationale Standardbuchnummer (Nachfolger: ISBN-13, s. P212)
+[`P959`](https://www.wikidata.org/wiki/Property:P959) | MSW-ID | Identifikator in der taxonomische Datenbank für Säugetiere Mammal Species of the World
+[`P960`](https://www.wikidata.org/wiki/Property:P960) | Tropicos-ID | Identifikator für einen wissenschaftlichen Namen eines Taxons bei Tropicos
+[`P961`](https://www.wikidata.org/wiki/Property:P961) | IPNI-TaxonName-ID | Identifikator für den wissenschaftlichen Namen eines Taxons im International Plant Names Index (IPNI)
+[`P962`](https://www.wikidata.org/wiki/Property:P962) | MycoBank-ID | Identifikator für den wissenschaftlichen Namen eines Taxons bei der MycoBank
+[`P964`](https://www.wikidata.org/wiki/Property:P964) | Gemeindekennziffer in Österreich | Ziffernfolge zur Identifizierung politischer Gemeinden in Österreich
+[`P966`](https://www.wikidata.org/wiki/Property:P966) | MusicBrainz-Label-ID | Identifikationsnummer des Labels in der Musikdatenbank MusicBrainz
+[`P982`](https://www.wikidata.org/wiki/Property:P982) | MusicBrainz-Gebiets-ID | Identifikationsnummer des Gebiets in der Musikdatenbank MusicBrainz
+[`P998`](https://www.wikidata.org/wiki/Property:P998) | dmoz | Open Directory Project
+[`P1003`](https://www.wikidata.org/wiki/Property:P1003) | NLR (Rumänien) | Normdatei der Rumänischen Nationalbibliothek (Biblioteca Națională a României)
+[`P1004`](https://www.wikidata.org/wiki/Property:P1004) | MusicBrainz-Location-ID | Identifikationsnummer des Veranstaltungsortes oder Studios in MusicBrainz
+[`P1005`](https://www.wikidata.org/wiki/Property:P1005) | PTBNP | Normdatei der Portugiesischen Nationalbibliothek (Biblioteca Nacional de Portugal)
+[`P1006`](https://www.wikidata.org/wiki/Property:P1006) | NTA-Nummer | Normdatei der Königlichen Bibliothek der Niederlande
+[`P1014`](https://www.wikidata.org/wiki/Property:P1014) | Art & Architecture Thesaurus ID | ID im Art & Architecture Thesaurus des Getty Research Institute
+[`P1015`](https://www.wikidata.org/wiki/Property:P1015) | BIBSYS | Normdatei des norwegischen Bibliotheksdienstes
+[`P1017`](https://www.wikidata.org/wiki/Property:P1017) | BAV (Vatikan) | Normdatei der Vatikanischen Apostolischen Bibliothek (lat. "Bibliotheca Apostolica Vaticana")
+[`P1024`](https://www.wikidata.org/wiki/Property:P1024) | *SBFI occupation code* | 
+[`P1025`](https://www.wikidata.org/wiki/Property:P1025) | SUDOC Editionen | Eintrag im französischen Verbundkatalog für Bücher und andere Medien (s. auch P269)
+[`P1036`](https://www.wikidata.org/wiki/Property:P1036) | DDC | Klassifikation für die inhaltliche Erschließung (Verwendung mit dem Qualifikator P747: Ausgabe)
+[`P1042`](https://www.wikidata.org/wiki/Property:P1042) | ZDB-ID | Datensatz der Zeitschriftendatenbank
+[`P1043`](https://www.wikidata.org/wiki/Property:P1043) | IDEO Job ID | 
+[`P1044`](https://www.wikidata.org/wiki/Property:P1044) | SWB Online-Katalog | Link zum Katalog des Südwestdeutschen Bibliotheksverbundes
+[`P1045`](https://www.wikidata.org/wiki/Property:P1045) | Sycomore-ID | Identifikationsummer einer Person in der Sycomore-Datenbank der französischen Nationalversammlung
+[`P1047`](https://www.wikidata.org/wiki/Property:P1047) | Katholische-Hierarchie-ID | ID einer Person auf  catholic-hierarchy.org
+[`P1048`](https://www.wikidata.org/wiki/Property:P1048) | NCL (Taiwan) | Normdateneintrag in der Nationalbibliothek Taiwans (National Central Library)
+[`P1051`](https://www.wikidata.org/wiki/Property:P1051) | PSH-ID | Identifikator für die Datenbank der Tschechischen Technischen Bibliothek
+[`P1053`](https://www.wikidata.org/wiki/Property:P1053) | ResearcherID | 
+[`P1054`](https://www.wikidata.org/wiki/Property:P1054) | NDL Editionen | Katalogeintrag in der Nationalen Parlamentsbibliothek (NDL) Japans für Bücher und andere Medien (s. auch P349)
+[`P1055`](https://www.wikidata.org/wiki/Property:P1055) | NLM-ID | Katalog der US-amerikanischen Medizinischen Nationalbibliothek (NLM)
+[`P1058`](https://www.wikidata.org/wiki/Property:P1058) | ERA-Journal-ID | 
+[`P1059`](https://www.wikidata.org/wiki/Property:P1059) | CVR | Nummer im dänischen Centrale Virksomhedsregister für Organisationen
+[`P1067`](https://www.wikidata.org/wiki/Property:P1067) | thailändische Verwaltungsstrukturkennziffer | numerischer Code der Verwaltungseinheiten Thailands
+[`P1070`](https://www.wikidata.org/wiki/Property:P1070) | PlantList-ID | Identifikator für den wissenschaftlichen Namen eines Taxons in der Datenbank „The Plant List“
+[`P1076`](https://www.wikidata.org/wiki/Property:P1076) | ICTV-ID | Identifikator des Virus beim International Committee on Taxonomy of Viruses
+[`P1077`](https://www.wikidata.org/wiki/Property:P1077) | KOATUU-Schlüssel | Schlüssel zur Klassifizierung administrativer Objekte der Ukraine
+[`P1084`](https://www.wikidata.org/wiki/Property:P1084) | EUL Katalog | Verbundkatalog der ägyptischen Universitätsbibliotheken
+[`P1085`](https://www.wikidata.org/wiki/Property:P1085) | LibraryThing-Werk-ID | numerische Buch-Kennung des gleichnamigen Literaturverwaltungsprogramms
+[`P1115`](https://www.wikidata.org/wiki/Property:P1115) | ATVK-ID | Identifikator für Verwaltungseinheiten in Lettland
+[`P1133`](https://www.wikidata.org/wiki/Property:P1133) | DGO4-Nummer | 
+[`P1138`](https://www.wikidata.org/wiki/Property:P1138) | Kunstindex Danmark | 
+[`P1144`](https://www.wikidata.org/wiki/Property:P1144) | LoC Editionen | Katalogeintrag in der Library of Congress (LoC) für Bücher und andere Medien (s. auch P244)
+[`P1146`](https://www.wikidata.org/wiki/Property:P1146) | IAAF-ID | 
+[`P1153`](https://www.wikidata.org/wiki/Property:P1153) | Scopus-Autor-ID | 
+[`P1156`](https://www.wikidata.org/wiki/Property:P1156) | Scopus-Quelle-ID | 
+[`P1159`](https://www.wikidata.org/wiki/Property:P1159) | CODEN | 
+[`P1160`](https://www.wikidata.org/wiki/Property:P1160) | *ISO 4 abbreviation* | 
+[`P1182`](https://www.wikidata.org/wiki/Property:P1182) | LIBRIS Editionen | 
+[`P1190`](https://www.wikidata.org/wiki/Property:P1190) | Universelle Dezimalklassifikation | Klassifikation für die inhaltliche Erschließung
+[`P1207`](https://www.wikidata.org/wiki/Property:P1207) | NUKAT Normdaten | Normdateneintrag im polnischen Verbundkatalog NUKAT
+[`P1212`](https://www.wikidata.org/wiki/Property:P1212) | Atlas ID | 
+[`P1216`](https://www.wikidata.org/wiki/Property:P1216) | *English Heritage list number* | 
+[`P1220`](https://www.wikidata.org/wiki/Property:P1220) | *Internet Broadway Database person ID* | 
+[`P1222`](https://www.wikidata.org/wiki/Property:P1222) | NARA-Personen-ID | 
+[`P1223`](https://www.wikidata.org/wiki/Property:P1223) | *NARA organization ID* | 
+[`P1224`](https://www.wikidata.org/wiki/Property:P1224) | *NARA geographic ID* | 
+[`P1225`](https://www.wikidata.org/wiki/Property:P1225) | *NARA topical subject ID* | 
+[`P1226`](https://www.wikidata.org/wiki/Property:P1226) | *NARA specific records type ID* | 
+[`P1229`](https://www.wikidata.org/wiki/Property:P1229) | Openpolis-ID | 
+[`P1231`](https://www.wikidata.org/wiki/Property:P1231) | *NARA catalogue record ID* | 
+[`P1237`](https://www.wikidata.org/wiki/Property:P1237) | *Box Office Mojo film ID* | 
+[`P1238`](https://www.wikidata.org/wiki/Property:P1238) | *Swedish Football Association ID* | 
+[`P1245`](https://www.wikidata.org/wiki/Property:P1245) | Bedeutungsdefinition in OmegaWiki | "DefinedMeaning"-Kennzeichnungsnummer in OmegaWiki
+[`P1250`](https://www.wikidata.org/wiki/Property:P1250) | *Danish Bibliometric Research Indicator (BFI) SNO/CNO* | 

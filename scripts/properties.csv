@@ -1,0 +1,260 @@
+id,de,en,description
+P212,ISBN-13,ISBN-13,"Internationale Standardbuchnummer (Vorgänger: ISBN-10, s. P957)"
+P213,ISNI,"ISNI (ISO 27729)","International Standard Name Identifier (Eingabe mit Leerzeichen. Beispiel: 0000 0001 0886 1508.)"
+P214,VIAF,"VIAF identifier","virtuelle internationale Normdatei für Personendaten (bitte nur individualisierte VIAFs eintragen, d.h. Nummern ohne den Vermerk ""undifferentiated"")"
+P215,Spektralklasse,"spectral class","Klassifizierung astronomischer Objekte nach dem Spektrum"
+P218,"ISO 639-1","ISO 639-1","Kennung für Namen von Sprachen von der Internationalen Organisation für Normung"
+P219,"ISO 639-2","ISO 639-2","Kennung für Namen von Sprachen von der Internationalen Organisation für Normung"
+P220,"ISO 639-3","ISO 639-3","Kennung für Namen von Sprachen von der Internationalen Organisation für Normung"
+P225,"wissenschaftlicher Name","taxon name","wissenschaftliche Benennung des Lebewesens"
+P227,GND-Nummer,"GND identifier","internationale Normdatei für Personennamen, Körperschaften und Schlagworte (bitte nicht Typ n eintragen = Name, mehrdeutig)"
+P231,CAS-Nummer,"CAS registry number","internationaler Bezeichnungsstandard für chemische Stoffe"
+P232,EINECS-Nummer,"EINECS number","Altstoffverzeichnis der EU"
+P233,SMILES,SMILES,"chemischer Strukturcode"
+P234,InChI,InChI,"Internationale chemische Bezeichnung der IUPAC"
+P235,InChIKey,InChIKey,
+P236,ISSN,ISSN,"Internationale Standardnummer für fortlaufende Sammelwerke"
+P238,IATA-Flughafencode,"IATA airport code","alphanumerischer Code für Flughäfen"
+P239,ICAO-Flughafencode,"ICAO airport code","alphanumerischer Code für Flughäfen"
+P243,OCLC,"OCLC control number","OCLC-Nummer in WorldCat"
+P244,LCNAF,"LCNAF identifier","Normdatensatz der Library of Congress (für einzelne Bücher siehe P1144)"
+P245,ULAN,"Union List of Artist Names","Identifikationsnummer in der Union List of Artist Names"
+P246,Elementsymbol,"element symbol","Kurzschreibweise für einzelne Atome eines chemischen Elements"
+P247,COSPAR-Bezeichnung,"COSPAR ID","Katalognummer eines Raumflugkörpers auf einer Umlaufbahn"
+P267,ATC-Code,"ATC code","Code des Anatomisch-Therapeutisch-Chemischen Klassifikationssystems"
+P268,BnF,"BnF identifier","Normdateneintrag in der französischen Nationalbibliothek"
+P269,"SUDOC Normdaten","SUDOC authorities","Normdateneintrag im gleichnamigen französischen Bibliotheksverbund (s. auch P1025)"
+P270,CALIS,CALIS,"Normdateneintrag im gleichnamigen chinesischen Bibliotheksverbund"
+P271,"CiNii Normdaten","CiNii author identifier","Normdateneintrag im gleichnamigen japanischen Verbundkatalog"
+P278,"GOST 7.75-97","GOST 7.75-97 code",Sprachencode
+P300,"ISO 3166-2 Code","ISO 3166-2","aus Ländercode und ein- bis dreistelligem alphanummerischem Code für subnationale Einheiten"
+P303,EE-Nummer,"EE breed number","Objekt ist ein Bezeichner der EE-Liste der Rassetauben (ELRT)"
+P345,IMDb-Identifikationsnummer,"IMDb identifier","Identifikationsnummer in der Internet Movie Database (IMDb) inklusive Präfix (tt-, nm-, ch-, co-)"
+P347,Joconde,"Joconde ID","ID in der Joconde-Datenbank des französischen Kulturministeriums"
+P349,"Web NDL Authorities","NDL identifier","Normdateneintrag in der Nationalen Parlamentsbibliothek (NDL), Japan"
+P350,RKD-Werk-ID,RKDimages,"Identifikationsnummer in der Datenbank des Niederländischen Instituts für Kunstgeschichte (Rijksbureau voor Kunsthistorische Documentatie)"
+P351,Entrez-Gene-Nummer,"Entrez Gene ID","Identifikationsnummer in der Entrez-Gene-Datenbank"
+P352,UniProt-ID,"UniProt ID","Identifikationsnummer in der UniProt-Datenbank"
+P353,Gen-Symbol,"gene symbol",
+P354,HGNC-ID,"HGNC ID",
+P356,DOI,DOI,"digitaler Identifikator für physische, digitale oder abstrakte Objekte"
+P359,Rijksmonument-Nummer,"Rijksmonument identifier","Identifikationsnummer von Rijksmonumenten, vergeben vom Rijksdienst voor het Cultureel Erfgoed"
+P373,Commons-Kategorie,"Commons category","Name der Kategorie auf Wikimedia Commons, welche Dateien zu dem Objekt (item) beinhaltet (ohne das Präfix ""Category"")"
+P374,INSEE-Gemeindecode,"INSEE municipality code","Schlüssel für französische Gemeinden"
+P377,SCN,SCN,"Satellite Catalog Number"
+P380,Mérimée-Kennzeichnung,"Mérimée identifier","Identifikator für die französischen Kulturdenkmäler-Datenbank Mérimée"
+P381,KGS-DS-Nummer,"PCP reference number","Identifizierungsnummer des Kulturgüterschutzes in der Schweiz"
+P382,CBS-Code,"CBS municipality code","vierstelliger niederländischer Ortscode des Centraal Bureau voor de Statistiek"
+P395,Kfz-Kennzeichen,"licence plate code","international: Kfz-Nationalitätszeichen oder Kennzeichnung für Fahrzeuge in internationalem Verkehr. Innerstaatlich: Unterscheidungszeichen für den Verwaltungsbezirk"
+P396,SBN,"SBN identifier","Normdatennummer der Italienischen Nationalbibliothek"
+P402,OpenStreetMap-Relation-ID,"OpenStreetMap Relation ID","ID des geographischen Objekts in OpenStreetMap"
+P409,NLA,"NLA identifier","Normdatennummer der Australischen Nationalbibliothek"
+P424,Wikimedia-Sprachcode,"Wikimedia language code","Kürzel der Sprache, wie es in den Wikimedia-Projekten verwendet wird"
+P428,"botanisches Autorenkürzel gemäß IPNI","botanist author abbreviation","offizielle Abkürzung des Subjekts Namen, wenn in der Taxonomie verwendet"
+P434,MusicBrainz-Künstler-ID,"MusicBrainz artist ID","ID des Künstlers (Musiker, Schriftsteller) in MusicBrainz"
+P435,MusicBrainz-Werk-ID,"MusicBrainz work ID","ID des Werkes in MusicBrainz"
+P436,MusicBrainz-Veröffentlichungsgruppen-ID,"MusicBrainz release group ID","ID der Veröffentlichungsgruppe (vor allem Alben) in MusicBrainz"
+P439,"Amtlicher Gemeindeschlüssel","German municipality key","für kreisfreie Städte und Kommunen in Deutschland"
+P442,"chinesischer Code für Verwaltungseinheiten","China administrative division code","vergeben vom staatlichen Amt für Statistik der Volksrepublik China"
+P464,NOR,NOR,"französischer Identifikationscode für amtliche Texte"
+P477,Historic-Places-ID,"Canadian Register of Historic Places identifier","Identifikationsnummer im Canadian Register of Historic Places"
+P481,Palissy-ID,"Palissy identifier","Identifikator für die französischen Kulturdenkmäler-Datenbank Palissy"
+P486,MeSH-ID,"MeSH ID","Primärschlüssel der Medical-Subject-Headings-Datenbank"
+P490,"provisorischer Name","provisional designation","Benennung von Asteroiden und Kometen unmittelbar nach ihrer Entdeckung, vor der Vergabe des dauerhaften Namens durch die Internationale Astronomische Union"
+P492,OMIM-ID,"OMIM ID","Identifikationsnummer in der Gen-Datenbank Online Mendelian Inheritance in Man"
+P493,ICD-9,ICD-9,"Internationale statistische Klassifikation der Krankheiten – Version 9"
+P494,ICD-10,ICD-10,"Internationale statistische Klassifikation der Krankheiten und verwandter Gesundheitsprobleme, 10. Revision"
+P496,ORCID,ORCID,"alphanumerischer Code zur Identifizierung wissenschaftlicher Autoren"
+P498,"Währungscode (ISO 4217)","ISO 4217 code","Norm für Währungs-Abkürzungen von der Internationalen Organisation für Normung"
+P502,HURDAT-Kennung,"HURDAT identifier","Identifikationsnummer in der North Atlantic hurricane database"
+P506,"ISO 15924","ISO 15924","Code für Schriftsysteme"
+P508,BNCF,"BNCF Thesaurus","bibliographischer Eintrag der italienischen Nationalbibliothek"
+P528,Katalognummer,"catalog code","Bezeichnung in einem Katalog"
+P535,"Find a Grave","Find a Grave ID","Identifikationsnummer in der Begräbnisstätten-Datenbank ""Find a Grave"""
+P536,ATP-Kennung,"ATP ID","Identifikator für Tennisspieler in der Datenbank der ATP"
+P539,Museofile,Museofile,"Primärschlüssel der Datenbank des französischen Kulturministeriums"
+P549,MGP-ID,"Mathematics Genealogy Project identifier","Identifikationsnummer in der Mathematiker-Datenbank des Mathematics Genealogy Project"
+P553,"Nutzerkonto in sozialem Netzwerk","website account on","zusammen mit Property:P554 zu verwenden"
+P557,DiseasesDB-ID,DiseasesDB,"Kennung in der Diseases Database (diseasesdatabase.com)"
+P563,ICD-O,ICD-O,"medizinische Klassifikation für die Onkologie"
+P586,IPNI-Autor-ID,"IPNI author ID","Identifikator für eine Person im International Plant Names Index (IPNI)"
+P587,MMSI,MMSI,"Rufnummer des mobilen Seefunkdienstes"
+P590,GNIS,"GNIS ID","Identifikationsnummer im Geographic Names Information System der Vereinigten Staaten"
+P592,ChEMBL,"ChEMBL ID","Kennung in der chemischen/biologischen Datenbank ChEMBL"
+P593,HomoloGene-ID,"Homologene ID","Identifikationsnummer in der Datenbank von HomoloGene des National Center for Biotechnology Information"
+P594,Ensembl-ID,"Ensembl Gene ID","Identifikationsnummer in der Datenbank des bioinformatisches Forschungsprojekts Ensembl"
+P597,WTA-Kennung,"WTA ID","Identifikator für Tennisspielerinnen in der Datenbank der WTA"
+P599,ITF-ID,"ITF ID","Kennung eines Tennisspielers auf der ITF-Webseite"
+P600,"Wine AppDB-Identifikationsnummer","Wine AppDB-ID","ID in der Winehq Applikations-Datenbank"
+P604,MedlinePlus-ID,"MedlinePlus ID","frei zugängliche Datenbank von Krankheitsbeschreibungen"
+P613,OS-Planquadrat,"OS grid reference","auf Karten des britischen Ordnance Survey verwendetes Koordinatensystem (National Grid)"
+P627,IUCN-ID,IUCN-ID,"Referenz für IUCN Artenschutzstatus (P141)"
+P628,E-Nummer,"E number","Nummer für Lebensmittelzusätze, die in der EU legal sind"
+P630,"Straßen-ID der Stadt Paris","Paris city digital code","digitale Kennung für Straßen in Paris"
+P633,"Répertoire du patrimoine culturel du Québec","Répertoire du patrimoine culturel du Québec identifier","Identifikationsnummer im Verzeichnis des kulturellen Erbes von Quebec"
+P635,ISTAT-ID,"ISTAT ID","vom staatlichen italienischen Statistikamt vergebene Identifikationsnummer für Gemeinden"
+P637,Protein-ID,"RefSeq Protein ID",
+P638,PDB-ID,"PDB ID","3D-Strukturdaten für Gene in der PDB-Datenbank"
+P639,RNA-ID,"RefSeq RNA ID",
+P640,Léonore-ID,"Léonore ID","Identifikationsnummer einer Person in der Léonore-Datenbank"
+P643,"Genloc Chr","Genloc Chr (deprecated, use P1057)",Chromosom-Nummer
+P646,Freebase-ID,"Freebase identifier","Kennung des gleichbedeutenden Eintrags in der Freebase-Datenbank"
+P648,Open-Library-ID,"Open Library identifier","numerische Buch-Kennung für Werke (""W""), einzelne Ausgaben (""M"") und Autoren (""A"")"
+P649,NRHP,"NRHP reference number","Identifikationsnummer im National Register of Historic Places des US-amerikanischen National Park Service"
+P650,RKD-Künstler-ID,RKDartists,"Identifikationsnummer in der Datenbank des Niederländischen Instituts für Kunstgeschichte (Rijksbureau voor Kunsthistorische Documentatie)"
+P651,BPN,BPN,"Identifikationsnummer in der Datenbank des niederländischen Biografisch Portaal"
+P652,UNII,UNII,"von der FDA definierter Identifikator für einzelne Inhaltsstoff chemischer Verbindungen"
+P653,PubMed-Health,"PubMed Health","Identifikator für die PubMed-Health-Seite, die Artikel über medizinische Themen bereitstellt"
+P657,RTECS-Nummer,"RTECS number","Identifikationsnummer in der Registry of Toxic Effects of Chemical Substances (Datenbank toxikologischer Informationen)"
+P661,ChemSpider-ID,"ChemSpider ID","Datenbank chemischer Verbindungen"
+P662,"PubChem-ID (CID)","PubChem ID (CID)","Datenbank von chemischen Verbindungen"
+P665,"KEGG ID","KEGG ID",
+P668,GeneReviews-ID,"GeneReviews ID","Kennung in der GeneReviews-Datenbank"
+P671,"Mouse Genome Informatics ID","Mouse Genome Informatics ID","Kennung in der Datenbank Mouse Genome Informatics"
+P672,"MeSH Code","MeSH Code",
+P673,eMedicine,eMedicine,
+P675,"Google Books","Google Books identifier","Kennung in der Google-Books-Datenbank"
+P677,"ÚSOP-Code","ÚSOP code","von drusop.nature.cz"
+P683,ChEBI-ID,"ChEBI ID","Moleküldatenbank und -ontologie"
+P685,NCBI-ID,"NCBI Taxonomy ID","Identifikator in der taxonomischen Datenbank des National Center for Biotechnology Information (NCBI)"
+P686,Gene-Ontology-Identifikator,"Gene Ontology ID","ID in der Gene-Ontology-Datenbank"
+P687,BHL-Seiten-ID,"BHL Page Id","Identifikator einer Seite in der Biodiversity Heritage Library (BHL)"
+P691,NKCR,"NKC identifier","Datenbanklink zum Portal der Nationalbibliothek der Tschechischen Republik"
+P698,"PubMed-ID (PMID)","PubMed ID","Identifikator für Artikel in der PubMed-Datenbank"
+P699,Disease-Ontology-ID,"Disease Ontology ID","Kennung in der Disease-Ontology-Datenbank"
+P701,Dodis-Nummer,Dodis,"Kennung in der Dodis-Datenbank (Diplomatische Dokumente der Schweiz 1945-1969)"
+P704,Ensembl-Transkript-Identifikator,"Ensembl Transcript ID",
+P705,Ensembl-Protein-Identifikator,"Ensembl Protein ID",
+P709,Historic-Scotland-ID,"Historic Scotland ID",
+P715,Drugbank-ID,"Drugbank ID","Kennung in der Drugbank-Datenbank"
+P716,"JPL Small-Body Database ID","JPL Small-Body Database identifier","Kennung in der Datenbank JPL Small-Body Database"
+P717,,"Minor Planet Center observatory code",
+P718,Canmore-ID,"Canmore ID",
+P721,OKATO-ID,"OKATO identifier","Code im Klassifizierungsschlüssel administrativer Objekte in Russland"
+P722,"UIC internationale Bahnhofsnummer","UIC station code","UIC internationale Bahnhofsnummer"
+P723,DBNL-ID,"DBNL ID",
+P724,Internet-Archive-ID,"Internet Archive ID","eindeutige Identifikationsnummer eines Datenobjekts auf archive.org"
+P727,Europeana-ID,"Europeana ID","europäische virtuelle Bibliothek"
+P731,"Litholex Primärschlüssel","Litholex ID","Lithostratigraphische Datenbank für Deutschland und gewartet von der BGR"
+P732,BGS-Lexikon-ID,"BGS Lexicon ID","Identifikator im lithostratigraphischen Lexikon der britischen geologischen Bundesanstalt"
+P733,DINOloket,"DINOloket ","Datenbank der niederländischen geologischen Einheiten (Data Informatie Nederlandse Ondergrond)"
+P745,PBB-ID,"Low German Bibliography and Biography ID","Plattdeutsche Biblio- und Biographie"
+P758,"Kulturminne identifier","Kulturminne identifier","Kennung in der Kulturminne-Datenbank der Riksantikvaren"
+P759,,"Alberta Register of Historic Places identifier",
+P764,OKTMO-ID,"OKTMO identifier","Code im Klassifizierungsschlüssel munizipaler Gebilde in Russland"
+P771,"Gemeindenummer in der Schweiz","Swiss municipality code","Nummer des Bundesamtes für Statistik (BFS) in der Schweiz"
+P774,"FIPS 55-3 (Orte in USA)","FIPS 55-3 (locations in the US)",
+P782,LAU,LAU,"staatliche administrative Hierarchieebene, EU (ehemals NUTS-4 und NUTS-5)"
+P791,ISIL-ID,"ISIL ID","Internationale Kennung für Bibliotheken und verwandte Organisationen"
+P804,GNIS-Antarctica-ID,"GNIS Antarctica ID","Identifikationsnummer in der Antarktika-Datenbank des GNIS"
+P806,"italienische Kataster-ID","Italian cadastre code",
+P808,,"code Bien de Interés Cultural",
+P809,"Weltdatenbank über geschützte Gebiete (WDPA)","WDPA id",
+P815,ITIS-TSN,"ITIS TSN","die vom Integrated Taxonomic Information System (ITIS) vergebene Taxonomic Serial Number (TSN)"
+P818,"arXiv ID","arXiv eprint identifier","Identificationsqode im ArXive-Archiv"
+P819,,"ADS bibcode",
+P821,,"CGNDB Unique Identifier",
+P824,Meteoritical-Bulletin-Identifikator,"Meteoritical Bulletin Database ID",
+P827,,"BBC program identifier",
+P829,OEIS-ID,"OEIS ID","Enzyklopädie der Integer-Sequenzen"
+P830,EOL-ID,"Encyclopedia of Life ID","Identifikator in der Encyclopedia of Life (EOL)"
+P838,BioLib-ID,"BioLib ID","Identifikator in der Biological Library (BioLib)"
+P839,IMSLP-ID,"IMSLP ID","Identifikationsnummer des Internationalen Notenbibliothek-Projekts"
+P842,Fossilworks-ID,"Fossilworks ID","Identifikator für fossile Tiere, Pflanzen, und Mikroorganismen"
+P843,"SIRUTA Code","SIRUTA code",
+P845,"Sawkatchewan'sches Kulturgüterverzeichnis","Saskatchewan Register of Heritage Property identifier",
+P846,GBIF-ID,"Global Biodiversity Information Facility ID","Identifikator bei der Global Biodiversity Information Facility (GBIF)"
+P850,WoRMS-ID,"World Register of Marine Species identifier","Kennung im World Register of Marine Species"
+P858,"ESPN SCRUM ID","ESPN SCRUM ID","Identifikation internationaler Rugby-Spieler von der website www.espnscrum.com"
+P860,,"e-archiv.li ID",
+P861,"premiershiprugby.com ID","premiershiprugby.com ID",
+P863,,"InPhO identifier ",
+P864,,"ACM Digital Library author identifier",
+P865,BMLO,BMLO,
+P866,Perlentaucher,"Perlentaucher ID","Deeplinks auf das gleichnamige Onlinemagazin für Literatur und Kultur"
+P867,ROME-Berufscode,"ROME Occupation Code (v3)","ROME-Code für einen Beruf, mit einem Buchstaben und vier Nummern"
+P882,"FIPS 6-4 (counties in USA)","FIPS 6-4 (US counties)",
+P884,"Russische Gewässerkennzahl","State Water Register Code (Russia)",
+P886,,LIR,
+P888,JSTOR,"JSTOR article ID",
+P889,,"Mathematical Reviews identifier",
+P892,RFC,"Request for Comments identifier",
+P893,,"Social Science Research Network ID",
+P902,"Artikelnummer im HLS",HDS,"Identifikationsnummer im Historischen Lexikon der Schweiz"
+P906,SELIBR,SELIBR,"Normdatei des schwedischen Verbundkatalogs LIBRIS"
+P907,"AMG Spiele ID","AMG Game ID",
+P909,,"Nova Scotia Register of Historic Places identifier",
+P911,"Südafrikanischer Gemeinde-Code","South African municipality code",
+P920,,"Spanish subject headings for public libraries",
+P933,,"heritagefoundation.ca ID",
+P935,Commons-Galerie,"Commons gallery","Name der Galerieseite(n) auf Wikimedia Commons mit Dateien zu dem Objekt (item)"
+P938,FishBase-ID,"FishBase species identifier","Identifikator bei FishBase"
+P939,"KSH Code","KSH code",
+P946,ISIN,ISIN,"International Securities Identification Number"
+P947,RSL,"RSL identifier","Normdatennummer der Russischen Staatsbibliothek (RSL)"
+P949,"NLI (Israel)","NLI (Israel) identifier","Normdatei der Israelischen Nationalbibliothek (National Library of Israel)"
+P950,BNE,"BNE identifier","Normdatei der Spanischen Nationalbibliothek (Biblioteca Nacional de España)"
+P951,NSZL,"NSZL identifier","Normdatei der Széchényi-Nationalbibliothek (Ungarn)"
+P957,ISBN-10,ISBN-10,"Internationale Standardbuchnummer (Nachfolger: ISBN-13, s. P212)"
+P959,MSW-ID,"MSW species identifier","Identifikator in der taxonomische Datenbank für Säugetiere Mammal Species of the World"
+P960,Tropicos-ID,"Tropicos taxon name identifier","Identifikator für einen wissenschaftlichen Namen eines Taxons bei Tropicos"
+P961,IPNI-TaxonName-ID,"IPNI taxon name identifier","Identifikator für den wissenschaftlichen Namen eines Taxons im International Plant Names Index (IPNI)"
+P962,MycoBank-ID,"MycoBank taxon name identifier","Identifikator für den wissenschaftlichen Namen eines Taxons bei der MycoBank"
+P964,"Gemeindekennziffer in Österreich","Austrian municipality key","Ziffernfolge zur Identifizierung politischer Gemeinden in Österreich"
+P966,MusicBrainz-Label-ID,"MusicBrainz label ID","Identifikationsnummer des Labels in der Musikdatenbank MusicBrainz"
+P982,MusicBrainz-Gebiets-ID,"MusicBrainz area ID","Identifikationsnummer des Gebiets in der Musikdatenbank MusicBrainz"
+P998,dmoz,dmoz,"Open Directory Project"
+P1003,"NLR (Rumänien)","NLR (Romania) identifier","Normdatei der Rumänischen Nationalbibliothek (Biblioteca Națională a României)"
+P1004,MusicBrainz-Location-ID,"MusicBrainz place ID","Identifikationsnummer des Veranstaltungsortes oder Studios in MusicBrainz"
+P1005,PTBNP,"PTBNP identifier","Normdatei der Portugiesischen Nationalbibliothek (Biblioteca Nacional de Portugal)"
+P1006,NTA-Nummer,"NTA identifier (Netherlands)","Normdatei der Königlichen Bibliothek der Niederlande"
+P1014,"Art & Architecture Thesaurus ID","Art & Architecture Thesaurus ID","ID im Art & Architecture Thesaurus des Getty Research Institute"
+P1015,BIBSYS,"BIBSYS identifier","Normdatei des norwegischen Bibliotheksdienstes"
+P1017,"BAV (Vatikan)","BAV (Vatican Library) identifier","Normdatei der Vatikanischen Apostolischen Bibliothek (lat. ""Bibliotheca Apostolica Vaticana"")"
+P1024,,"SBFI occupation code",
+P1025,"SUDOC Editionen","SUDOC editions","Eintrag im französischen Verbundkatalog für Bücher und andere Medien (s. auch P269)"
+P1036,DDC,"Dewey Decimal Classification","Klassifikation für die inhaltliche Erschließung (Verwendung mit dem Qualifikator P747: Ausgabe)"
+P1042,ZDB-ID,"ZDB identifier","Datensatz der Zeitschriftendatenbank"
+P1043,"IDEO Job ID","IDEO Job ID",
+P1044,"SWB Online-Katalog","SWB editions","Link zum Katalog des Südwestdeutschen Bibliotheksverbundes"
+P1045,Sycomore-ID,"Sycomore ID","Identifikationsummer einer Person in der Sycomore-Datenbank der französischen Nationalversammlung"
+P1047,Katholische-Hierarchie-ID,"Catholic Hierarchy ID","ID einer Person auf  catholic-hierarchy.org"
+P1048,"NCL (Taiwan)","NCL identifier","Normdateneintrag in der Nationalbibliothek Taiwans (National Central Library)"
+P1051,PSH-ID,"PSH ID","Identifikator für die Datenbank der Tschechischen Technischen Bibliothek"
+P1053,ResearcherID,ResearcherID,
+P1054,"NDL Editionen","NDL editions","Katalogeintrag in der Nationalen Parlamentsbibliothek (NDL) Japans für Bücher und andere Medien (s. auch P349)"
+P1055,NLM-ID,"NLM ID","Katalog der US-amerikanischen Medizinischen Nationalbibliothek (NLM)"
+P1058,ERA-Journal-ID,"ERA Journal ID",
+P1059,CVR,CVR,"Nummer im dänischen Centrale Virksomhedsregister für Organisationen"
+P1067,"thailändische Verwaltungsstrukturkennziffer","Thailand central administrative unit code","numerischer Code der Verwaltungseinheiten Thailands"
+P1070,PlantList-ID,PlantList-ID,"Identifikator für den wissenschaftlichen Namen eines Taxons in der Datenbank „The Plant List“"
+P1076,ICTV-ID,"ICTV virus ID","Identifikator des Virus beim International Committee on Taxonomy of Viruses"
+P1077,KOATUU-Schlüssel,"KOATUU identifier","Schlüssel zur Klassifizierung administrativer Objekte der Ukraine"
+P1084,"EUL Katalog","EUL editions","Verbundkatalog der ägyptischen Universitätsbibliotheken"
+P1085,LibraryThing-Werk-ID,"LibraryThing work identifier","numerische Buch-Kennung des gleichnamigen Literaturverwaltungsprogramms"
+P1115,ATVK-ID,"ATVK ID","Identifikator für Verwaltungseinheiten in Lettland"
+P1133,DGO4-Nummer,"DGO4 identifier",
+P1138,"Kunstindex Danmark","Kunstindeks Danmark",
+P1144,"LoC Editionen","LCOC LCCN (bibliographic)","Katalogeintrag in der Library of Congress (LoC) für Bücher und andere Medien (s. auch P244)"
+P1146,IAAF-ID,"IAAF ID",
+P1153,Scopus-Autor-ID,"Scopus Author ID",
+P1156,Scopus-Quelle-ID,"Scopus Source ID",
+P1159,CODEN,CODEN,
+P1160,,"ISO 4 abbreviation",
+P1182,"LIBRIS Editionen","LIBRIS editions",
+P1190,"Universelle Dezimalklassifikation","Universal Decimal Classification","Klassifikation für die inhaltliche Erschließung"
+P1207,"NUKAT Normdaten","NUKAT authorities","Normdateneintrag im polnischen Verbundkatalog NUKAT"
+P1212,"Atlas ID","Atlas ID",
+P1216,,"English Heritage list number",
+P1220,,"Internet Broadway Database person ID",
+P1222,NARA-Personen-ID,"NARA person ID",
+P1223,,"NARA organization ID",
+P1224,,"NARA geographic ID",
+P1225,,"NARA topical subject ID",
+P1226,,"NARA specific records type ID",
+P1229,Openpolis-ID,"Openpolis ID",
+P1231,,"NARA catalogue record ID",
+P1237,,"Box Office Mojo film ID",
+P1238,,"Swedish Football Association ID",
+P1245,"Bedeutungsdefinition in OmegaWiki","OmegaWiki Defined Meaning","""DefinedMeaning""-Kennzeichnungsnummer in OmegaWiki"
+P1250,,"Danish Bibliometric Research Indicator (BFI) SNO/CNO",

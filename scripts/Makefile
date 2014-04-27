@@ -4,6 +4,10 @@ default:
 	echo make property-ids.csv
 	echo make properties.csv
 
+../properties.txt:
+	catmandu convert CSV to Template --template `pwd`/table.tt --template_before `pwd`/properties-before.tt \
+		< properties.csv > $@
+
 # collect a sorted list of authority id properties
 property-ids.csv: reasonator.csv gadget.csv
 	awk -F, '{print$$1}' reasonator.csv gadget.csv \
