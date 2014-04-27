@@ -1,6 +1,6 @@
 # Einführung in Wikidata
 
-Wikidata ist eine frei zugängliche und bearbeitbare Datenbank. Wie unter [Entstehung von Wikdata](#entstehung-von-wikidata) beschrieben, dient Wikidata in erster Linie als zentrale Datenbank für alle Projekte der Wikimedia Foundation. Unabhängig davon kann Wikidata aber [auch als Normdatei](#normdaten-in-wikidata) verwendet werden. Die Inhalte sind durch Angabe der [CC-Lizenz](http://creativecommons.org/publicdomain/zero/1.0/deed.de) gemeinfrei, das heisst ohne Einschränkungen zur [Nutzung in anderen Anwendungen](#weiternutzung-in-anderen-anwendungen). Im Folgenden wird zunächst erklärt, [was für eine Art von Datenbank](#wikidata-als-datenbank) Wikidata ist und [was für Inhalte](#inhalte-von-wikidata) darin zu finden sind. Wenn Sie mehr an der [praktischen Anwendung](#praktische-anwendungen) oder an den [Bestandteilen von Wikidata](#bestandteile-von-wikidata) interessiert sind, können Sie auch gleich zu den entsprechenden Kapiteln springen.
+Wikidata ist eine frei zugängliche und eine frei veränderbare Datenbank. Wie unter [Entstehung von Wikdata](#entstehung-von-wikidata) beschrieben, dient Wikidata in erster Linie als zentrale Datenbank für alle Projekte der Wikimedia Foundation. Unabhängig davon kann Wikidata aber [auch als Normdatei](#normdaten-in-wikidata) verwendet werden. Die Inhalte sind durch Angabe der [CC-Lizenz](http://creativecommons.org/publicdomain/zero/1.0/deed.de) gemeinfrei, das heisst ohne Einschränkungen zur [Nutzung in anderen Anwendungen](#weiternutzung-in-anderen-anwendungen). Im Folgenden wird zunächst erklärt, [was für eine Art von Datenbank](#wikidata-als-datenbank) Wikidata ist und [was für Inhalte](#inhalte-von-wikidata) darin zu finden sind. Wenn Sie mehr an der [praktischen Anwendung](#praktische-anwendungen) oder an den [Bestandteilen von Wikidata](#bestandteile-von-wikidata) interessiert sind, können Sie auch gleich zu den entsprechenden Kapiteln springen.
 
 ## Entstehung von Wikidata
 
@@ -9,11 +9,11 @@ Das Wikidata-Projekt wurde im April 2012 durch die Wikimedia Foundation ins Lebe
 Die Entwicklung von Wikidata wurde in drei Phasen aufgeteilt: 
 
 * In Phase 1 wurden Sprachlinks von Wikipedia-Beiträgen in Wikidata zu 
-[Items](#wikidata-items) und mit Beschreibungen und Bezeichnungen versehen. Um dies zu vereinfachen, wurden automatische Computerskripte (**Bots**) verwendet. Seit dem 24. April 2013 können in allen Wikipedia-Sprachversionen Wikidata-Metadaten eingebunden und dargestellt werden. 
+[Items](#wikidata-items) mit Beschreibungen und Bezeichnungen versehen. Um dies zu vereinfachen, wurden automatische Computerskripte (**Bots**) verwendet. Seit dem 24. April 2013 können in allen Wikipedia-Sprachversionen Wikidata-Metadaten eingebunden und dargestellt werden. 
 
 * Phase 2 beinhaltete die Aufgabe, dass zu den Items [Aussagen](#wikidata-aussagen) hinzugefügt werden konnten. Dies geschah unter anderem ebenfalls mit Bots und dem Datenfundament aus Wikipedia-Infoboxen-und -Kategorien.
 
-* Phase 3 ist noch nicht abgeschlossen. Es soll automatische Übersetzungen und Aktualisierungen von Listen ermöglichen, basierend auf mehrsprachigen Daten von Wikidata.  In der dritten Phase sollen alle Daten von Wiki-Links, Infoboxen und Listen aufgenommen und vereinigt werden. 
+* Phase 3 ist noch nicht abgeschlossen. Es soll automatische Übersetzungen und Aktualisierungen von Listen ermöglichen, basierend auf mehrsprachigen Daten von Wikidata.  Außerdem sollen alle Daten von Wiki-Links, Infoboxen und Listen aufgenommen und vereinigt werden. 
 
 Wikidata hat einige Vorläufer in verwandten Projekten wie [Semantic MediaWiki](http://semantic-mediawiki.org/) und [DBPedia](http://dbpedia.org/). Im Gegensatz zu diesen basiert Wikidata jedoch nicht auf Techniken des Semantic Web.
 
@@ -25,7 +25,7 @@ Die in Wikidata verwalteten Daten bilden eine "Wissensdatenbank" welche die real
 
 Wikidata tritt hierfür an, die Erfassung formal beschreibbarer Metadaten auf eine neue Grundlage zu stellen und verbindet dabei erstmals auch alle Sprachvarianten der Wikipedia.  
 
-Wikimedia Commons enthält Mediendateien (Bilder, Videos und Klänge), Wikidata beinhaltet alle davon abweichende Daten (Orte, Verwaltungseinheiten, Körperschaften, Namen ...): mithilfe von Wikidata werden der Zugriff und die Verwaltung von strukturierten Daten wie Interwiki-Links, Infoboxen und statistischen Informationen zentralisiert. 
+Wikimedia Commons enthält Mediendateien wie Bilder, Videos und Klänge. Wikidata beinhaltet alle davon abweichende Daten zum Beispiel Orte, Verwaltungseinheiten, Körperschaften, Namen und so weiter). Mithilfe von Wikidata werden der Zugriff und die Verwaltung von strukturierten Daten wie Interwiki-Links, Infoboxen und statistischen Informationen zentralisiert. 
 
 ## Wikidata als Datenbank
 
