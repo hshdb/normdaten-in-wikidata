@@ -31,6 +31,7 @@ synopsis.md: $(TXTFILES)
 html: $(TARGET).html index.html
 pdf: $(TARGET).pdf
 tex: $(TARGET).tex
+docx: $(TARGET).docx
 
 TARGET_FILES=$(TARGET).md $(TARGET).html $(TARGET).pdf synopsis.md
 
@@ -48,7 +49,7 @@ clean:
 	rm -rf $(TARGET_FILES) build/ *.aux *.log *.lof *.out *.toc
 
 # konkrete Regeln für die jeweiligen Ausgabeformate
-.SUFFIXES: .md .pdf .html .tex
+.SUFFIXES: .md .pdf .html .tex .docx
 
 PANDOC_OPTIONS=-s -S --toc -N -V build-date="$(BUILD_DATE)" -V commit-date="$(COMMIT_DATE)" -V source-url="$(SOURCE_URL)"
 LATEX_OPTIONS=--template layout/template.tex \
@@ -56,6 +57,7 @@ LATEX_OPTIONS=--template layout/template.tex \
 			--chapters\
 			--latex-engine xelatex
 HTML_OPTIONS=--template layout/template.html --css layout/buttondown.css --css layout/layout.css --include-before layout/header.html
+ODT_OPTIONS=
 
 .md.pdf:
 	pandoc $(PANDOC_OPTIONS) -o $@ $(LATEX_OPTIONS) $<
@@ -65,7 +67,10 @@ HTML_OPTIONS=--template layout/template.html --css layout/buttondown.css --css l
 
 .md.html:
 	pandoc $(PANDOC_OPTIONS) -o $@ $(HTML_OPTIONS) $<
-	
+
+.md.docx:
+	pandoc $(PANDOC_OPTIONS) -t docx -o $@ $(ODT_OPTIONS) $<
+
 # Übersichten
 .PHONY: quellen.md
 
@@ -85,11 +90,13 @@ info:
 	./scripts/files
 
 # upload build files if ftp.cfg exists
-upload: upload-html upload-pdf
+upload: upload-html upload-pdf upload-docx
 upload-html: html ftp.cfg
 	ncftpput -R -f ftp.cfg / $(TARGET).html index.html
 upload-pdf: ftp.cfg
-	make pdf; ncftpput -R -f ftp.cfg / $(TARGET).pdf index.html
+	make pdf; ncftpput -R -f ftp.cfg / $(TARGET).pdf
+upload-docx: ftp.cg
+	make docx; ncftpput -R -f ftp.cfg / $(TARGET).docx
 
 pull-and-upload: pull upload
 

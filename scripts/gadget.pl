@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+# Collect Wikidata authority control properties used in Gadget-AuthorityControl.js
 use v5.14;
 my $url = "http://www.wikidata.org/w/index.php?title=MediaWiki:Gadget-AuthorityControl.js&action=raw";
 open my $fh, "curl -s '$url' |";
