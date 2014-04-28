@@ -1,20 +1,20 @@
 ## Neue Items anlegen
-Bevor man ein neues Item erstellt sollte man überprüfen, ob für das Objekt, für das man ein Item anlegen möchte [bereits ein Item existiert](https://www.wikidata.org/wiki/Special:ItemByTitle). Die Suche wird im Kapitel [Inhalte finden](#inhalte-finden-in-wikidata) erklärt.
+Bevor man ein neues Item erstellt, sollte man überprüfen, ob für das Objekt, für das man ein Item anlegen möchte, [bereits ein Item existiert](https://www.wikidata.org/wiki/Special:ItemByTitle). Die Suche wird im Kapitel [Inhalte finden](#inhalte-finden-in-wikidata) erklärt.
 
 ![Neues Datenobjekt erstellen](images/objekterstellen2.png)
 
-Wenn das Item noch nicht vorhanden ist bekommt man die Möglichkei, ein neues Item zu erstellen. Man wird mit einem Link auf die Ersteller Seite weitergeleitet. Dort muss einmal die Bezeichnung sowie die Beschreibung des zu erstellenden Objekts eingetragen werden. Ist dies geschehen, kommt man auf die Objektseite.
+Wenn das Item noch nicht vorhanden ist, bekommt man die Möglichkei, ein neues Item zu erstellen. Man wird mit einem Link auf die Erstellerseite weitergeleitet. Dort muss einmal die Bezeichnung sowie die Beschreibung des zu erstellenden Objekts eingetragen werden. Ist dies geschehen, kommt man auf die Objektseite.
 
 ![Seite des neu erstellten Datenobjekts](images/objektseite.png)
 
-Auf dieser Objektseite hat man die Möglichkeit, Änderungen vorzunehmen oder weitere Sprachen beziehungsweise Übersetzungen für die Objektbezeichnung hinzuzufügen.
+Auf der Objektseite hat man die Möglichkeit Änderungen vorzunehmen oder weitere Sprachen beziehungsweise Übersetzungen für die Objektbezeichnung hinzuzufügen.
 
 Datenobjekte bestehen in der Regel aus einer Vielzahl von Aussagen. Diese enthalten Informationen über die reale Welt und sind der Kernteil jedes Items. Sie gliedern sich in Eigenschaften (property) mit vorgegebenem Vokabular und ihnen zugewiesenen Werten beziehungsweise Inhalten. 
 Für mehr siehe [Kapitel 4](#bestandteile-von-wikidata) oder auch [Help:Aussagen](https://www.wikidata.org/w/index.php?title=Help:Statements/de&oldid=108007039). Eine Übersicht über alle Eigenschaften von Wikidata kann man unter [folgendem Link](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_properties/Summary_table/de&oldid=116061771) finden. Im Anhang dieser Übersicht kann man überprüfen, welche Werte Sie dort eintragen können.
 
 **Relevanzkriterien**
 
-Zum Erstellen eines Items gibt es drei verschiedene Relevanzkriterien. Es muss erstens einen gültigen Sitelink zu Wikipedia, Wikitravel , Wikisource, Wikiquote oder zur Wikimedia Commons -Seite bestehen. Oder zweitens der Artikel bezieht sich auf eine Instanz einer klaren konzeptionellen oder materiellen Einheit. Der dritte Kriterienpunkt ist, dass der Eintrag  eine strukturelle Notwendigkeit hat um zum Beispiel die Aussagen eines schon bestehenden Items zu erörten.
+Zum Erstellen eines Items gibt es drei verschiedene Relevanzkriterien. Es muss erstens einen gültigen Sitelink zu Wikipedia, Wikitravel , Wikisource, Wikiquote oder zur Wikimedia Commons -Seite bestehen. Oder zweitens der Artikel bezieht sich auf eine Instanz einer klaren konzeptionellen oder materiellen Einheit. Der dritte Kriterienpunkt ist, dass der Eintrag eine strukturelle Notwendigkeit hat, um zum Beispiel die Aussagen eines schon bestehenden Items zu erörten.
 
 **Quellen:**
 
