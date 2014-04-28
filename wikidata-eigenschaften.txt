@@ -6,7 +6,7 @@ Jede Eigenschaft wird durch eine ID referenziert, die mit `P` anfängt. Beispiel
 
 _**Zur Ansicht und Bearbeitung der Benennungen und weiterer Angaben zu Aussagen hat jede Eigenschaft in Wikidata eine eigene Seite. Die URL dieser Seite lässt sich durch Voranstellen von `https://www.wikidata.org/wiki/Property:` konstruieren.**_ 
 
-Die Eigenschaft `P19` ist beispielsweise unter <https://www.wikidata.org/wiki/Property:P19> beschrieben.
+_**Die Eigenschaft `P19` ist beispielsweise unter <https://www.wikidata.org/wiki/Property:P19> beschrieben.**_
 
 ![](images/p19.png)
 
