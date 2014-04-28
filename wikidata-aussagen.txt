@@ -12,8 +12,7 @@ Für genauere Information sehen Sie [Behauptungen und Aussagen](http://www.wikid
 **Qualifikatoren** werden in Wikidata benutzt, um eine Aussage näher zu beschreiben. Viele Aussagen benötigen weitere Qualifikatoren, um richtig interpretiert werden zu können. Sie liefern also zusätzliche Informationen und bestehen genau wie Aussagen aus einer Eigenschaft und einem Wert. 
 
 Qualifikatoren können auf drei unterschiedliche Arten eingesetzt werden. Die erte Art ist, um die Anwendung der Eigenschaften zu verändern; wie zum Beispiel ein ausgeschlossenes Landstücke bei einer Flächen Eigenschaft zu benennen.
-2.	Die Gültigkeit des Wertes zu beschränken wie eine Jahreszahl bei einer Volkszählung. 
-3.	Weitere Details müssen notwendigerweise angegeben werden wie beispielsweise der Beginn und endzeitpunkt einer Herrschaft. 
+Die Gültigkeit des Wertes zu beschränken wie eine Jahreszahl bei einer Volkszählung ist die Zweite Art. Drittens wenn weitere Details notwendigerweise angegeben werden müssen, wie beispielsweise der Beginn und Endzeitpunkt einer Herrschaft. 
 Weitere Informationen zu Qualifikatoren stehen in Wikidata in der [Liste von Qualifikatoren](https://www.wikidata.org/wiki/Help:Qualifiers/de). 
 
 ### Ränge
