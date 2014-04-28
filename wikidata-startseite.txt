@@ -1,6 +1,6 @@
 # Praktische Anwendung
 
-*Hier fehlt ein Einleitungssatz für das Kapitel*
+In diesem Abschnitt wird die Möglichkeit gegeben, sich am Projekt Wikidata zu beteiligen. In einfach erklärten Schritten wird die Benutzung der Wikidata-Seite transparent gemacht.
 
 ## Übersicht der Wikidata-Startseite
 
