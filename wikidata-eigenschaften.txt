@@ -12,7 +12,7 @@ Zur Ansicht und Bearbeitung der Benennungen und weiterer Angaben zu Aussagen hat
 
 Die Eigenschaft `P19` ist beispielsweise im folgenden Screenshot beschrieben.
 
-![](images/p19.png)
+![](images/Eigenschaft.PNG)
 
 ### Vorhandene Eigenschaften
 
