@@ -19,6 +19,8 @@
   <https://www.wikidata.org/wiki/Wikidata:Introduction/de>
 * Liste der Wikidata-Eigenschaften
 <https://www.wikidata.org/wiki/Wikidata:List_of_properties/de>
+* Wikidata Schritt für Schritt bearbeiten
+<http://upload.wikimedia.org/wikipedia/commons/9/94/How_to_Edit_Wikidata.pdf>
 * Weitere Projekte von Wikimedia
 <http://de.wikipedia.org/w/index.php?title=Wikipedia:Schwesterprojekte&oldid=127371039>
 
