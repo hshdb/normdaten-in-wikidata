@@ -1,11 +1,7 @@
 ## Spracheinstellung in Wikidata
 Sie fragen sich vielleicht, warum gerade Englisch, Plattdeutsch und Türkisch als Sprachen vorgeschlagen werden. Es werden immer drei Sprachen aufgelistet und diese drei sind diejenigen, die in der Region des Nutzers (in diesem Fall also Deutschland) gesprochen werden.
 
-Es gibt nun [drei verschiedene Möglichkeiten](https://www.wikidata.org/wiki/Help:Multilingual/de), die Sprachen zu ändern:
-
-1. Mithilfe der Universalen Sprachauswahl
-2. Mithilfe von Babel-Bausteinen
-3. Mithilfe der Liste der Bezeichnungen
+Es gibt nun [zwei verschiedene Möglichkeiten](https://www.wikidata.org/wiki/Help:Multilingual/de), die Sprachen zu ändern:
 
 **Universale Sprachauswahl**
 
@@ -15,13 +11,6 @@ Diese Methode ist die komplizierteste der drei Varianten und diese zu erklären,
 
 ![Babel-Baustein](images/babel.jpg) Babel-Bausteine werden in die Benutzerseite geschrieben und dienen der Definition der eigenen Sprachkenntnisse. Nur die in den Bausteinen erwähnten Sprachen werden dann im Abschnitt "In anderen Sprachen" angezeigt. Um die Babel-Bausteine zu aktivieren, klickt man oben in der Leiste auf seinen Benutzernamen und gibt dort in die Benutzerbeschreibung den Baustein-Code, zum Beispiel `{{#babel:en|de-3|fr-2|es-1|it-0}}`, ein. Die Zahlen stehen hierbei für die Sprachkenntnisse, wobei 0 keine Kenntnisse bedeutet. Nach dem Speichern werden die Sprachkenntnisse auf der Benutzerseite wie abgebildet in einem Kasten dargestellt.
 
-**Liste der Bezeichnungen**
-
-Das ist die einfachste Methode. Für die Anzeige der Liste der Bezeichnungen muss diese zunächst in  in den Einstellungen im Reiter "Helferlein" im Punkt "LabelLister" aktiviert werden. Wenn dieses Kästchen angehakt ist, erscheint nun auf der Seite des Items ein weiteres Feld zwischen "Lesen" und "Versionsgeschichte", nämlich die "Liste der Bezeichnungen".
-
-![Liste_der_Bezeichnungen.PNG](images/Liste_der_Bezeichnungen.PNG)
-
-Klickt man da nun darauf, erscheint ein PopUp-Fenster, welches alle Übersetzungen der Bezeichnung enthält. Für eine Änderung bzw. Eintragung einer neuen Itembezeichnung und Itembeschreibung müssen Sie "Bearbeiten" im PopUp-Fenster anwählen. Anschließend geben Sie den [Sprachencode](https://de.wikipedia.org/wiki/Wikipedia:Sprachen#Alle_Wikipedias) ein und nach der Eingabe öffnet sich das Bearbeitungsfenster für die Sprachbezeichnungen, Aliasse und Beschreibungen. Nachdem Sie auf "Speichern" geklickt haben, werden die Änderungen auf der Itemseite angezeigt. 
 
 
 
