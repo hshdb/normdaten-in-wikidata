@@ -12,8 +12,3 @@ Das Handbuch verfügt auch über [FAQ](#faq) welches die dringendsten Fragen bea
 
 
 
-
-
-
-
-*Überarbeiten: Die Einleitung sollte einen Überblick über das Buch geben und auf die entsprechenden Kapitel verweisen (auch das hilfreiche [Glossar](#glossar))*
