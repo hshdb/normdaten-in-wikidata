@@ -4,13 +4,17 @@
 
 Artikel, Bücher, Webseiten etc.
 
-* Denny Vrandečić und Markus Krötzsch (2014): *Wikidata: A Free Collaborative Knowledge Base*. 
-  In: Communications of the ACM (noch nicht erschienen, online unter <http://research.google.com/pubs/archive/42240.pdf>)
-* ... <http://de.wikipedia.org/wiki/Wikidata>
-* ... <http://cre.fm/cre205-wikidata>
-* ... <https://www.mediawiki.org/wiki/MediaWiki/de>
-* ... <http://wiki.infowiss.net/Indexierung>
-* ...
+* Krötzsch, Markus; Vrandečić, Denny (2014): Wikidata: A Free Collaborative Knowledge Base. 
+  In: Communications of the ACM (noch nicht erschienen). Online verfügbar unter <http://research.google.com/pubs/archive/42240.pdf>, zuletzt geprüft am 29.04.2014.
+* Wikipedia (2014): Wikidata. Online verfügbar unter <http://de.wikipedia.org/wiki/Wikidata>, zuletzt geprüft am 29.04.2014.
+* CRE (2013): CRE205 Wikidata. Online verfügbar unter <http://cre.fm/cre205-wikidata>, zuletzt geprüft am 29.04.2014.
+* MediaWiki (2014). Online verfügbar unter <https://www.mediawiki.org/wiki/MediaWiki/de>, zuletzt geprüft am 29.04.2014.
+* InfoWissWiki (o.J.): Indexierung. Online verfügbar unter <http://wiki.infowiss.net/Indexierung>, zuletzt geprüft am 29.04.2014.
+* Munzinger Online/Brockhaus - Enzyklopädie in 30 Bänden (o.J.): Daten. Online verfügbar unter <http://www.munzinger.de/document/12005015204>, zuletzt geprüft am 08.04.2014.
+* Munzinger Online/Brockhaus - Enzyklopädie in 30 Bänden (o.J.): Datentyp. Online verfügbar unter <http://www.munzinger.de/document/12005015705>, zuletzt geprüft am 08.04.2014.
+* Munzinger Online/Brockhaus - Enzyklopädie in 30 Bänden (o.J.): Metadaten. Online verfügbar unter <http://www.munzinger.de/document/12600142809>, zuletzt geprüft am 15.04.2014.
+* Munzinger Online/Brockhaus - Enzyklopädie in 30 Bänden (o.J.): Roboter. Online verfügbar unter <http://www.munzinger.de/document/12032780495>, zuletzt geprüft am 08.04.2014.
+* Hesse, Wolfgang (2002): Ontologien. Herausgegeben von der Gesellschaft für Informatik. Online verfügbar unter <http://www.gi.de/service/informatiklexikon/detailansicht/article/ontologien.html>, zuletzt geprüft am 29.04.2014.
 
 ## Hilfreiche Seiten in Wikidata {.unnumbered}
 
@@ -31,12 +35,7 @@ Artikel, Bücher, Webseiten etc.
 * Projektseite der Wikibase-Software
   <https://www.mediawiki.org/wiki/Wikibase>
 
-## Quellen beim Verfassen dieses Handbuchs {.unnumbered}
 
-* [Gesellschaft für Informatik](http://www.gi.de/service/informatiklexikon/detailansicht/article/ontologien.html)
-* Eintrag "Daten" in Munzinger Online/Brockhaus - Enzyklopädie in 30 Bänden. 21. Auflage. Aktualisiert mit Artikeln aus der Brockhaus-Redaktion, URL: http://www.munzinger.de/document/12005015204 (abgerufen von Hochschule Hannover Bibliothek am 8.4.2014)
-* Eintrag "Daten" in Munzinger Online/Brockhaus - Enzyklopädie in 30 Bänden. 21. Auflage. Aktualisiert mit Artikeln aus der Brockhaus-Redaktion, URL: http://www.munzinger.de/document/12005015203 (abgerufen von Hochschule Hannover Bibliothek am 8.4.2014)
-* Eintrag "Datentyp" in Munzinger Online/Brockhaus - Enzyklopädie in 30 Bänden. 21. Auflage. Aktualisiert mit Artikeln aus der Brockhaus-Redaktion, URL: http://www.munzinger.de/document/12005015705 (abgerufen von Hochschule Hannover Bibliothek am 8.4.2014)
-* Eintrag "Metadaten" in Munzinger Online/Brockhaus - Enzyklopädie in 30 Bänden. 21. Auflage. Aktualisiert mit Artikeln aus der Brockhaus-Redaktion, URL: http://www.munzinger.de/document/12600142809 (abgerufen von Hochschule Hannover Bibliothek am 15.4.2014)
-* Eintrag "Roboter" in Munzinger Online/Brockhaus - Enzyklopädie in 30 Bänden. 21. Auflage. Aktualisiert mit Artikeln aus der Brockhaus-Redaktion, URL: http://www.munzinger.de/document/12032780495 (abgerufen von Hochschule Hannover Bibliothek am 8.4.2014)
+
+
 
