@@ -5,7 +5,7 @@ Der aufgerufene Datensatz im Screenshot ist Hannover. Die Eigenschaft Staat besc
 
 ![Wikidata Aussagen](images/wikidata_aussagen1.png)
 
-Für genauere Information sehen Sie [Behauptungen und Aussagen](http://www.wikidata.org/wiki/Wikidata:Glossary/de#Behauptungen_und_Aussagen).
+Genauere Informationen finden Sie unter [Behauptungen und Aussagen](http://www.wikidata.org/wiki/Wikidata:Glossary/de#Behauptungen_und_Aussagen).
 
 ### Qualifikatoren
 
