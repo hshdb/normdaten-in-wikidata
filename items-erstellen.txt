@@ -1,5 +1,6 @@
 ## Wikidata-Bearbeitungen
-... 
+Im nun folgenden Kapitel soll ihnen gezeigt werden, wie man ein Item komplett neu anlegt, wie man Übersetzungen zu Bezeichnungen und Beschreibungen erschafft und wie Aussagen neu definiert bzw. bearbeitet werden können. 
+
 ### Neue Items anlegen
 Bevor man ein neues Item erstellt, sollte man überprüfen, ob für das Objekt, für das man ein Item anlegen möchte, [bereits ein Item existiert](https://www.wikidata.org/wiki/Special:ItemByTitle). Die Suche wird im Kapitel [Inhalte finden](#inhalte-finden-in-wikidata) erklärt.
 
