@@ -19,7 +19,8 @@ Diese Methode ist die komplizierteste der drei Varianten und diese zu erklären,
 
 Das ist die einfachste Methode. Für die Anzeige der Liste der Bezeichnungen muss diese zunächst in den Einstellungen aktiviert werden unter Einstellungen -> Helferlein -> labelLister. Wenn dieses Kästchen angehakt ist, erscheint nun auf der Seite des Items ein weiteres Feld zwischen "Lesen" und "Versionsgeschichte", nämlich die "Liste der Bezeichnungen".
 
-![Liste der Bezeichnungen](images/bezeichnerliste.jpg)
+![Liste_der_Bezeichnungen.PNG](images/Liste_der_Bezeichnungen.PNG)
+
 
 Klickt man da nun darauf, erscheint ein PopUp-Fenster, welches alle Übersetzungen der Bezeichnung enthält. Für eine Änderung bzw. Eintragung einer neuen Itembezeichnung und Itembeschreibung müssen Sie "Bearbeiten" im PopUp-Fenster anwählen. Anschließend geben Sie den [Sprachencode](https://de.wikipedia.org/wiki/Wikipedia:Sprachen#Alle_Wikipedias) ein und nach der Eingabe öffnet sich das Bearbeitungsfenster für die Sprachenbezeichnungen, Aliasse und Beschreibungen. Nachdem Sie auf "Speichern" geklickt haben, werden die Änderungen auf der Itemseite angezeigt. 
 
