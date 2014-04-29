@@ -5,19 +5,24 @@ Prinzipiell kann Wikidata direkt als Datenbank zum Nachschlagen von Informatione
 ### Alternative Benutzeroberflächen
 
 Die Standard-Benutzeroberfläche von Wikidata ist vor allem auf das [Bearbeiten](#aussagen-bearbeiten) von Inhalten ausgelegt. Zum reinen Stöbern in den Datenbeständen ist diese Ansicht eher unübersichtlich. Eine Alternative bieten Benutzeroberflächen und Anwendungen, die Wikidata-Inhalte in ansprechender Form präsentieren. Ein Beispiel hierfür ist die Webanwendung Reasonator unter
-http://tools.wmflabs.org/reasonator/.
+<http://tools.wmflabs.org/reasonator/>.
 
 ![Alternative Item-Anzeige mit Reasonator](images/reasonator-example.png)
 
-### Download der Datenbank
-
-Für einen vollständigen Zugriff werden unter <http://dumps.wikimedia.org/wikidatawiki/> in regelmäßigen Abständen **Abzüge der Wikidata-Datenbank** bereitgestellt. Zur Auswertung der Daten sind jedoch aufgrund von Umfang und Datenstruktur weitere Programme wie das [Wikidata Toolkit](https://www.mediawiki.org/wiki/Wikidata_Toolkit) notwendig.
-
 ### Zugriff per MediaWiki-API
 
-Wie andere MediaWiki-Installation bietet auch Wikidata die Möglichkeit, Inhalte über eine Schnittstelle abzufragen. Die **MediaWiki-API** unter <http://wikidata.org/w/api.php> ermöglicht praktisch alle Aktionen, die auch über die Benutzeroberfläche von Wikidata möglich sind (Suche, Bearbeitung...). Diese Möglichkeit wird unter anderem von [Wikidata-Bots](http://www.wikidata.org/wiki/Wikidata:Bots/de) verwendet, die Automatisch Inhalte in Wikidata eintragen oder ergänzen. Zum Zugriff auf die API bietet es sich an, auf vorhandene Programmbibliotheken wie [Pywikibot](http://www.mediawiki.org/wiki/Manual:Pywikibot) oder [Catmandu-Wikidata](https://metacpan.org/release/Catmandu-Wikidata) zurückzugreifen.
+Wie andere MediaWiki-Installation bietet auch Wikidata die Möglichkeit, Inhalte über eine Schnittstelle abzufragen. Die MediaWiki-API unter <http://wikidata.org/w/api.php> ermöglicht praktisch alle Aktionen, die auch über die Benutzeroberfläche von Wikidata möglich sind (Suche, Bearbeitung...). Diese Möglichkeit wird unter anderem von Bots verwendet, die Inhalte in Wikidata automatisch eintragen oder ergänzen. Zum Zugriff auf die API bietet es sich an, auf vorhandene Programmbibliotheken wie [Pywikibot](http://www.mediawiki.org/wiki/Manual:Pywikibot) oder [Catmandu-Wikidata](https://metacpan.org/release/Catmandu-Wikidata) zurückzugreifen.
 
+--- {.example}
+
+http://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q17&props=claims&format=jsonfm
 *hier könnte noch ein Beispiel hin, z.B. Abfrage von Normdaten-Eigenschaften*
+
+---
+
+### Download der gesamten Datenbank
+
+Für einen vollständigen Zugriff werden unter <http://dumps.wikimedia.org/wikidatawiki/> in regelmäßigen Abständen Abzüge der Wikidata-Datenbank bereitgestellt. Zur Auswertung der Daten sind jedoch aufgrund von Umfang und Datenstruktur weitere Programme wie das [Wikidata Toolkit](https://www.mediawiki.org/wiki/Wikidata_Toolkit) notwendig.
 
 ### Abfragen mit WikiData Query
 
