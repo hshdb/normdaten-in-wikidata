@@ -23,7 +23,9 @@ Einige Eigenschaften sind dazu gedacht von Wikidata-Items auf andere Normdateien
 Eigenschaften können wie Wikidata-Items von allen Mitarbeitern bearbeitet werden, beispielsweise mit Übersetzungen und Beschreibungen der jeweiligen Eigenschaft. 
 
 <div class="example ">
+
 Das Anlegen neuer Eigenschaften ist jedoch nur ausgewählten Mitgliedern der Wikidata-Community möglich.
+
 </div>
 
 Auf der Seite [Property_proposal](https://www.wikidata.org/wiki/Wikidata:Property_proposal/de) können Vorschläge für neue Wikidata-Eigenschaften eingebracht und von der Wikidata-Community diskutiert werden. 
