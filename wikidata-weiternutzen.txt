@@ -1,4 +1,4 @@
-## Weiternutzung in anderen Anwendungen
+## Wikidata in anderen Anwendungen weiternutzen
 
 Prinzipiell kann Wikidata direkt als Datenbank zum Nachschlagen von Informationen genutzt werden. Das volle Potential entfalten die Inhalte allerdings erst durch Einbindung in andere Anwendungen. Dank Freigabe unter der [http://creativecommons.org/publicdomain/zero/1.0/deed.de](CC0 Lizenz) ist dies uneingeschränkt möglich. Im Folgenden werden die praktischen Möglichkeiten der Weiternutzung mit besonderem Schwerpunkt auf Normdaten vorgestellt.
 
@@ -13,12 +13,12 @@ Die Standard-Benutzeroberfläche von Wikidata ist vor allem auf das [Bearbeiten]
 
 Wie andere MediaWiki-Installation bietet auch Wikidata die Möglichkeit, Inhalte über eine Schnittstelle abzufragen. Die MediaWiki-API unter <http://wikidata.org/w/api.php> ermöglicht praktisch alle Aktionen, die auch über die Benutzeroberfläche von Wikidata möglich sind (Suche, Bearbeitung...). Diese Möglichkeit wird unter anderem von Bots verwendet, die Inhalte in Wikidata automatisch eintragen oder ergänzen. Zum Zugriff auf die API bietet es sich an, auf vorhandene Programmbibliotheken wie [Pywikibot](http://www.mediawiki.org/wiki/Manual:Pywikibot) oder [Catmandu-Wikidata](https://metacpan.org/release/Catmandu-Wikidata) zurückzugreifen.
 
---- {.example}
+<div class="example">
 
 http://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q17&props=claims&format=jsonfm
 *hier könnte noch ein Beispiel hin, z.B. Abfrage von Normdaten-Eigenschaften*
 
----
+</div>
 
 ### Download der gesamten Datenbank
 
@@ -64,11 +64,9 @@ Ein gekürzter Auszug aus dem Normdaten-Mapping von Wikidata zu GND. Konkret wir
 <http://www.wikidata.org/wiki/Q17> auf die URI <http://d-nb.info/gnd/4028495-5> gemappt, da beide
 Normdatensätze sich auf Japan beziehen:
 
-~~~
-#PREFIX: http://www.wikidata.org/wiki/
-#TARGET: http://d-nb.info/gnd/
+    #PREFIX: http://www.wikidata.org/wiki/
+    #TARGET: http://d-nb.info/gnd/
 
-Q17|Japan|4028495-5
-~~~
+    Q17|Japan|4028495-5
 </div>
 
