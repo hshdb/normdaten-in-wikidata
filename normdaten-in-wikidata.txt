@@ -1,15 +1,19 @@
 # Normdaten in Wikidata
 
-Der Datenbestand von Wikidata bildet eine eigene Normdatei (siehe  [Einführung in Normdaten](#einführung-in-normdaten)) mit den [Wikidata-Items](#wikidata-items) als Normdatensätze. Mit dieser Besonderheit können Wikidata-Items als Deskriptor in anderen Datenbanken verwendet werden. Ein Beispiel hierfür ist das Item ([`Q17`](https://www.wikidata.org/wiki/Q17)), um Literatur über Japan zu kennzeichnen. Darüber hinaus enthält Wikidata zahlreiche [Eigenschaften](#wikidata-eigenschaften) zum Verlinken von Wikidata-Items mit Normdatensätzen aus anderen Normdateien. Beispielsweise kann mit der Eigenschaft "GND-Nummer" ([`P227`](https://www.wikidata.org/wiki/Property:P227)) vom Wikidata-Item `Q17` auf den Normdatensatz [`4028495-5`](http://d-nb.info/gnd/4028495-5) zu Japan in der Gemeinsamen Normdatei verwiesen werden oder mit der Eigenschaft "DDC" ([`P1036`](https://www.wikidata.org/wiki/Property:P1036)) auf die Notation `T2--52` der Dewey-Dezimalklassifikation. Im Folgenden ist beschrieben, welche [Normdaten-Eigenschaften in Wikidata](#normdaten-eigenschaften-in-wikidata) verfügbar sind und wie sich Wikidata als Normdatei [von anderen Normdateien unterscheidet](#unterschiede-zu-anderen-normdateien).
+Der Datenbestand von Wikidata bildet eine eigene [Normdatei](#einführung-in-normdaten) deren Normdatensätze aus den [Wikidata-Items](#wikidata-items) bestehen. Beispielsweise kann das Wikidata-Items [`Q17`](https://www.wikidata.org/wiki/Q17) (Japan) als Deskriptor verwendet werden, um Literatur über Japan zu kennzeichnen. Im Folgenden ist beschrieben, wie Wikidata durch [Normdaten-Eigenschaften](#normdaten-eigenschaften-in-wikidata) mit anderen Normdatein verknüpft ist und worin sich Wikidata als Normdatei von [anderen Normdateien unterscheidet](#unterschiede-zu-anderen-normdateien).
 
 ## Normdaten-Eigenschaften in Wikidata
- 
-Wie unter [Inhalte finden in Wikidata](#inhalte-finden-in-wikidata) beschrieben, gibt es verschiedene Möglichkeiten zur Suche nach vorhandenen Wikidata-Eigenschaften. Eine garantiert aktuelle Übersicht aller Eigenschaften, die speziell dazu dienen, auf Normdateien zu verweisen, existiert nicht. Die [tabellarische Übersicht aller Eigenschaften](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_properties/Summary_table/de&oldid=120803723) enthält eine manuell gepflegte Liste, aus der die meisten Normdaten-Eigenschaften hervorgehen. 
- 
-Alle Normdaten-Eigenschaften haben den [Datentyp](#datentypen) Zeichenkette/String gemeinsam, da der Wert eine Aussage mit Normdaten-Eigenschaft und einer Notation, ID-Nummer oder Ähnlichem ist.
- 
+
 Eigenschaften, die unter einer Notation oder ID zusammengefügt werden, bezeichnet man als Normdaten-Eigenschaften. Normdaten können ein- oder mehrsprachig sein. Wikidata dagegen ist meistens mehrsprachig. Verknüpfungen zwischen Normdaten aus Wikidata und Dokumenten in Wikipedia ist ein Ziel des Wikidata-Projektes und wird bereits zu Teilen umgesetzt. 
- 
+
+Wikidata enthält zahlreiche [Eigenschaften](#wikidata-eigenschaften) zum Verlinken von Wikidata-Items mit Normdatensätzen aus anderen Normdateien. Beispielsweise kann mit der Eigenschaft "GND-Nummer" ([`P227`](https://www.wikidata.org/wiki/Property:P227)) vom Wikidata-Item [`Q17`](https://www.wikidata.org/wiki/Q17) auf den Normdatensatz [`4028495-5`](http://d-nb.info/gnd/4028495-5) zu Japan in der Gemeinsamen Normdatei verwiesen werden oder mit der Eigenschaft "DDC" ([`P1036`](https://www.wikidata.org/wiki/Property:P1036)) auf die Notation `T2--52` der Dewey-Dezimalklassifikation. Diese **Normdaten-Eigenschaften** bilden Mappings zwischen Wikidata und anderen Normdateien.  
+
+![Mappings mittels Normdaten-Eigenschaften](images/mappings.png)
+
+Alle Normdaten-Eigenschaften haben den [Datentyp](#datentypen) Zeichenkette/String gemeinsam, da der Wert eine Aussage mit Normdaten-Eigenschaft und einer Notation, ID-Nummer oder Ähnlichem ist.
+
+Eine garantiert aktuelle Übersicht aller Eigenschaften, die speziell dazu dienen, auf Normdateien zu verweisen, existiert nicht. Die [tabellarische Übersicht aller Eigenschaften](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_properties/Summary_table/de&oldid=120803723) enthält eine manuell gepflegte Liste, aus der die meisten Normdaten-Eigenschaften hervorgehen. 
+
 Da jederzeit neue Eigenschaften in Wikidata hinzukommen können (siehe [Neue Eigenschaften vorschlagen](#neue-eigenschaften-vorschlagen)) ist es schwierig eine vollständige Liste von Normdaten-Eigenschaften anzugeben. Im Anhang ist eine [Liste aller Normdaten-Eigenschaften](#liste-aller-normdaten-eigenschaften) zum Erstellungszeitpunkt dieses Handbuchs enthalten. Unter [Property proposal/Authority control](https://www.wikidata.org/wiki/Wikidata:Property_proposal/Authority_control) in Wikidata finden sich Vorschläge für neue Normdaten-Eigenschaften.
 
 <div class="example ">
