@@ -17,6 +17,8 @@
   <https://www.wikidata.org/w/index.php?title=Help:Contents/de&oldid=66338607&uselang=de>
 * Einführung in Wikidata
   <https://www.wikidata.org/wiki/Wikidata:Introduction/de>
+* Weitere Projekte von Wikimedia
+<http://de.wikipedia.org/w/index.php?title=Wikipedia:Schwesterprojekte&oldid=127371039>
 
 
 
