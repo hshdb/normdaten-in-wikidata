@@ -29,6 +29,9 @@
   
 **Eigenschaft (property)**
   : [Eigenschaften](#wikidata-eigenschaften) sind Bestandteile von Aussagen. Ihnen können Werte (Items) zugeordnet werden. Jede Eigenschaft ist einzigartig und beschreibt die Merkmale der ihnen zugewiesenen Items.  
+
+**Github**
+  : Mit Hilfe von [Github](#vorwort) kann mit verschiedenen Werkzeugen zum Buch beigetragen werden, ohne zu stark an eine Software gebunden zu sein. Die einzelnen Texte sind in Markdown-Syntax verfasst, und werden mit Hilfe des Programms Pandoc in verschiedene Ausgabeformate überführt. Zur Bearbeitung der Texte wurde hauptsächlich die Online-Plattform  Penflip verwendet. Die URL des git-Repositories ist <https://www.penflip.com/nichtich/normdaten-in-wikidata.git>, darüber hinaus gibt es eine Kopie unter <https://github.com/hshdb/normdaten-in-wikidata>. Das Repository enthält die Datei `README.md` die weitere Hinweise zur technischen Umsetzung beinhaltet. Alle Inhalte können unter den Bedingungen der CC-BY-SA Lizenz weiterverwendet werden. 
   
 **GND (Gemeinsame Normdatei)**
   : Die [Gemeinsame Normdatei](#einführung-in-normdaten) ist ein Projekt der Deutschen Nationalbibliothek und einigen anderen deutschen Bibliotheken. Sie stellt den Zusammenschluss der ehemaligen getrennten Gemeinsamen Körperschaftsdatei (GKD), der Personennormendatei (PND), der Schlagwortnormdatei (SWD) und der Einheitssachtitel-Datei des Deutschen Musikarchivs (DMA-EST-Datei) dar. 
