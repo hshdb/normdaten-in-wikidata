@@ -1,13 +1,11 @@
 # Praktische Anwendung
 
 Wikidata ist grundsätzlich ein freies Projekt, an dem jede Person mitarbeiten kann. Das folgende Kapitel möchte jedem Interessierten die Mitarbeit an Wikidata ermöglichen. Am Anfang erfolgt eine Erläuterung der Startseite von Wikidata und welche Funktionen für Bearbeiter von Bedeutung sind. 
-Im zweiten Unterkapitel wird die Suchfunktion von Wikidata behandelt und vorgestellt. Kapitel 6.3 und 6.4 erläutern im Detail wie Items und Aussagen in Wikidata angelegt und bearbeitet werden können. Danach folgen zwei Darstellungen, auf welche Weise man Übersetzungen anlegen bzw. die Oberflächenanzeige von Wikidata ändern kann. Den Abschluss machen die beiden 
+Im zweiten Unterkapitel wird die Suchfunktion von Wikidata behandelt und vorgestellt. Kapitel 6.3 und 6.4 erläutern im Detail wie Items und Aussagen in Wikidata angelegt und bearbeitet werden können. Danach folgen zwei Darstellungen, auf welche Weise man Übersetzungen anlegen bzw. die Oberflächenanzeige von Wikidata ändern kann. Zum Abschluss wird erläutert, wie man in Wikidata neue Eigenschaften vorstellungen kann und auf welche Weise man Wikidata in anderen Anwendungen benutzen kann. 
 
 ## Übersicht der Wikidata-Startseite
 
 * ein Satz zur Anmeldung / Registrierung in Wikidata
+* Bilderklärung der Startseite
 
-## Inhalte finden in Wikidata
-Sie wollen etwas in Wikidata suchen. Wissen aber nicht wie? Dieses Kapitel wird es Ihnen zeigen.
-*Hier fehlt ein Einleitungssatz für das Unterkapitel*
 
