@@ -9,7 +9,7 @@ Das Wikidata-Projekt wurde im April 2012 durch die Wikimedia Foundation ins Lebe
 Die Entwicklung von Wikidata wurde in drei Phasen aufgeteilt: 
 
 * In Phase 1 wurden Sprachlinks von Wikipedia-Beiträgen in Wikidata zu 
-[Items](#wikidata-items) mit Beschreibungen und Bezeichnungen versehen. Um dies zu vereinfachen, wurden automatische Computerskripte (**Bots**) verwendet. Seit dem 24. April 2013 können in allen Wikipedia-Sprachversionen Wikidata-Metadaten eingebunden und dargestellt werden. 
+[Items](#wikidata-items) mit Beschreibungen und Bezeichnungen versehen. Um dies zu vereinfachen, wurden automatische Computerskripte verwendet. Seit dem 24. April 2013 können in allen Wikipedia-Sprachversionen Wikidata-Metadaten eingebunden und dargestellt werden. 
 
 * Phase 2 beinhaltete die Aufgabe, dass zu den Items [Aussagen](#wikidata-aussagen) hinzugefügt werden konnten. Dies geschah unter anderem ebenfalls mit Bots und dem Datenfundament aus Wikipedia-Infoboxen-und -Kategorien.
 
