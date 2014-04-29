@@ -1,10 +1,14 @@
 ### Belege
 
-Aussagen in Wikidata können und sollten möglichst zusätzlich mit **Belegen** versehen werden. _**Folgende [Ausnahmen](http://www.wikidata.org/wiki/Help:Sources/Itemsnotneedingsources/de) sind vorgesehen:
+Aussagen in Wikidata können und sollten möglichst zusätzlich mit **Belegen** versehen werden. 
+
+<div class="example ">
+Folgende [Ausnahmen](http://www.wikidata.org/wiki/Help:Sources/Itemsnotneedingsources/de) sind vorgesehen:
 
  Wenn der Wert allgemein bekannt ist und nicht bestritten wurde.
  Wenn das Element sich auf einer externen Quelle bezieht. Es ermöglicht, die Informationen den anderen verbundenen Aussagen leicht zu überprüfen. Es ist somit nicht nötig, die referenzierten Quellen als Beleg in Wikipedia zu haben. 
- Wenn das Item selbst als Beleg für Aussagen über seinen Gegenstand dient -- beispielsweise sind die Autoren und Autorinnen eines Buches in der Regel dem Buch selbst zu entnehmen.(Merken)**_
+ Wenn das Item selbst als Beleg für Aussagen über seinen Gegenstand dient -- beispielsweise sind die Autoren und Autorinnen eines Buches in der Regel dem Buch selbst zu entnehmen.
+ </div>
 
 Belege bestehen aus mindestens einer Eigenschaft und einem Wert. Die erste Aussage des Items [Deutschland](https://www.wikidata.org/wiki/Q183)  lautet "Mitglied von Welthandelsorganisation". Zu dieser Aussage gibt es drei Belege:
 
