@@ -21,11 +21,7 @@ Wikidata hat einige Vorläufer in verwandten Projekten wie [Semantic MediaWiki](
 
 Hauptziel von Wikidata ist es eine strukturierte und zentralisierte "Wissensdatenbank" zu schaffen, welche die reale Welt in Daten und Fakten beschreibt und abbildet. Statt in Wikipedia die verschiedensprachigen Artikel manuell zu erstellen, sollen in Wikidata Fakten hinterlegt werden, sodass diese in jeder Version gleich angezeigt werden. Beispielsweise die Höhe des Mount Everest oder die offizielle Einwohnerzahl von New York. Mit Hilfe diese einheitliche Erfassung sollen vor allem statistische Angaben und formal beschreibbare Metadaten über mehrere Seiten und Sprachversionen hinweg in Wikipedia aktualisiert werden können. 
 
-Die dabei entstehenden Infoboxen werden in einer zentralen Datenbank effizient, widerspruchsfrei und dauerhaft gespeichert. Sie dienen als Quellen für alle anderen Wikimedia-Projekte. 
-
-Wikidata tritt hierfür an, die Erfassung formal beschreibbarer Metadaten auf eine neue Grundlage zu stellen und verbindet dabei erstmals auch alle Sprachvarianten der Wikipedia.  
-
-Wikimedia Commons enthält Mediendateien wie Bilder, Videos und Klänge. Wikidata beinhaltet alle davon abweichende Daten zum Beispiel Orte, Verwaltungseinheiten, Körperschaften, Namen und so weiter). Mithilfe von Wikidata werden der Zugriff und die Verwaltung von strukturierten Daten wie Interwiki-Links, Infoboxen und statistischen Informationen zentralisiert. 
+Die dabei entstehenden Infoboxen werden in einer zentralen Datenbank effizient, widerspruchsfrei und dauerhaft gespeichert. Sie dienen als Quellen für alle anderen [Wikipedia  Schwesterprojekte](http://de.wikipedia.org/w/index.php?title=Wikipedia:Schwesterprojekte&oldid=127371039).
 
 ## Wikidata als Datenbank
 
