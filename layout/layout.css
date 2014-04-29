@@ -87,9 +87,7 @@ div.example {
     margin-left: 0;
     border: 1px solid orange;
     background: #fbc97f;
-}
-div.example p {
-    margin: 1ex 1em !important;
+    padding: 1ex 1em;
 }
 
 pre {
