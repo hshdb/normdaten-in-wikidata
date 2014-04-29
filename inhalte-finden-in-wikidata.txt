@@ -6,11 +6,19 @@ Dieses Kapitel zeigt wie sie in Wikidata die Suche verwenden können, um [Items]
 
 Um vorhandene [Items](#wikidata-items) zu finden gibt es zwei wesentliche Suchmöglichkeiten:
 
-1. Die Eingabe in den Suchschlichts (Suche nach Informationen über Sprachgrenzen hinweg ist die einfache Begriffseingabe.)
+1. Die Eingabe eines Suchbegriffes in das Suchfeld. Es können hierbei unterschiedliche Ergebnisse angezeigt werden (Suchergebnisliste). Zu beachten ist, dass die Suche mit der Enter-Taste oder dem Klick auf das Lupensymbol ausgelöst werden muss. Bei der manuellen Auswahl einer Vorschau der Suchergebnisse nach der Eingabe eines Suchbegriffes führt zu einer konkreten Item-Seite (s.u.).  
 
-2. Außerdem die Suche nach Items wie Titel, die nach einem Datensatz zu einem Wikipedia-Artikel in der ausgewählten Sprache sucht. Hier muss der Titel genau gleich sein wie der Eintrag, den Sie suchen. Man gibt im Suchfeld den Begriff der jeweiligen Namens in der Sprache ein.
+![Suchergebnisliste.png](images/Suchergebnisliste.png)
+
+2. Die Eingabe einer konkreten Bezeichnung des Items und der manuellen Auswahl nach der Anzeige der Vorschauergebnisse. Das bevorzugte Ergebnis kann mit der Maus oder der Tastatur ausgewählt werden (+Enter-Taste). 
+
+![Vorschau_Suchergebnisse.png](images/Vorschau_Suchergebnisse.png)
+
+
 
 ![Normale Suche](images/Suchen_Normal.PNG)
+
+
 
 ![Erweiterte Suche](images/Suchen_Erweitert.PNG)
 
