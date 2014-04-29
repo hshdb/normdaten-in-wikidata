@@ -1,10 +1,10 @@
 ## Wikidata in anderen Anwendungen weiternutzen
 
-Prinzipiell kann Wikidata direkt als Datenbank zum Nachschlagen von Informationen genutzt werden. Das volle Potential entfalten die Inhalte allerdings erst durch Einbindung in andere Anwendungen. Dank Freigabe unter der [http://creativecommons.org/publicdomain/zero/1.0/deed.de](CC0 Lizenz) ist dies uneingeschränkt möglich. Im Folgenden werden die praktischen Möglichkeiten der Weiternutzung mit besonderem Schwerpunkt auf Normdaten vorgestellt.
+Prinzipiell kann Wikidata direkt als Datenbank zum Nachschlagen von Informationen genutzt werden. Das volle Potential entfalten die Inhalte allerdings erst durch Einbindung in andere Anwendungen. Dank Freigabe unter der [CC0 Lizenz](http://creativecommons.org/publicdomain/zero/1.0/deed.de) ist dies uneingeschränkt möglich. Im Folgenden werden die praktischen Möglichkeiten der Weiternutzung mit besonderem Schwerpunkt auf Normdaten vorgestellt.
 
 ### Alternative Benutzeroberflächen
 
-Die Standard-Benutzeroberfläche von Wikidata ist vor allem auf das [Bearbeiten](#aussagen-bearbeiten) von Inhalten ausgelegt. Zum reinen Stöbern in den Datenbeständen ist diese Ansicht eher unübersichtlich. Eine Alternative bieten Benutzeroberflächen und Anwendungen, die Wikidata-Inhalte in ansprechender Form präsentieren. Ein Beispiel hierfür ist die Webanwendung Reasonator unter
+Die Standard-Benutzeroberfläche von Wikidata ist vor allem auf das [Bearbeiten](#aussagen-bearbeiten) von Inhalten ausgelegt. Zum reinen Stöbern in den Datenbeständen ist diese Ansicht eher unübersichtlich. Eine Alternative bieten Benutzeroberflächen und Anwendungen, die Wikidata-Inhalte in ansprechender Form präsentieren. Ein Beispiel hierfür ist die Reasonator-Webanwendung unter
 <http://tools.wmflabs.org/reasonator/>.
 
 ![Alternative Item-Anzeige mit Reasonator](images/reasonator-example.png)
@@ -14,22 +14,22 @@ Die Standard-Benutzeroberfläche von Wikidata ist vor allem auf das [Bearbeiten]
 Wie andere MediaWiki-Installation bietet auch Wikidata die Möglichkeit, Inhalte über eine Schnittstelle abzufragen. Die MediaWiki-API unter <http://wikidata.org/w/api.php> ermöglicht praktisch alle Aktionen, die auch über die Benutzeroberfläche von Wikidata möglich sind (Suche, Bearbeitung...). Diese Möglichkeit wird unter anderem von Bots verwendet, die Inhalte in Wikidata automatisch eintragen oder ergänzen. Zum Zugriff auf die API bietet es sich an, auf vorhandene Programmbibliotheken wie [Pywikibot](http://www.mediawiki.org/wiki/Manual:Pywikibot) oder [Catmandu-Wikidata](https://metacpan.org/release/Catmandu-Wikidata) zurückzugreifen.
 
 <div class="example">
-Die URL
-
-<http://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q17&props=labels&format=json>
-
-liefert die Namen von Japan (Item [`Q17`](https://www.wikidata.org/wiki/Q17)) in allen in Wikidata vorhandenen Sprachen.
+Die URL <http://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q17&props=labels&format=json> liefert die Namen von Japan (Item [`Q17`](https://www.wikidata.org/wiki/Q17)) in allen in Wikidata vorhandenen Sprachen im JSON-Format.
 </div>
 
 ### Download der gesamten Datenbank
 
 Für einen vollständigen Zugriff werden unter <http://dumps.wikimedia.org/wikidatawiki/> in regelmäßigen Abständen Abzüge der Wikidata-Datenbank bereitgestellt. Zur Auswertung der Daten sind jedoch aufgrund von Umfang und Datenstruktur weitere Programme wie das [Wikidata Toolkit](https://www.mediawiki.org/wiki/Wikidata_Toolkit) notwendig.
 
-### Abfragen mit WikiData Query
+### Komplexere Abfragen und Analysen
 
-*muss noch besser erklärt/zusammengefasst werden!*
+Bislang bietet Wikidata noch keine einfache Möglichkeit für komplexere Datenbank-Abfragen, so dass für umfangreichere Analysen im Zweifelsfall die gesamte Datenbank heruntergeladen werden muss. Alternativ dazu gibt es einige Programme mit denen Abfragen an eine möglichst aktuelle Kopie der Wikidata-Datenabank gestellt werden können.
 
-Bislang bietet Wikidata keine einfache Möglichkeit, komplexere Abfragen an die Datenbank zu stellen; dafür sind zusätzliche Anwendungen notwendig, die auf die Inhalte der Wikidata-Datenbank zugreifen. **WikiData Query** (WDQ) ist eine solche Webanwendung die von Magnus Maske zur Abfrage von Wikidata entwickelt wurde.
+Für die Einbindung in MediaWiki beinhaltet die Wikibase-Software eine [Komponente zur Programmierung von Wikidata-Abfragen in der Programmiersprache Lua](http://www.mediawiki.org/wiki/Extension:Wikibase_Client/Lua). Diese Variante soll zunehmend in den Wikis der Wikimedia-Foundation verwendet werden, um dort Infoboxen, Listen und andere strukturierte Inhalte anzuzeigen.
+
+...TODO ab hier noch nicht fertig...
+
+zu stellen. dafür sind zusätzliche Anwendungen notwendig, die auf die Inhalte der Wikidata-Datenbank zugreifen. **WikiData Query** (WDQ) ist eine solche Webanwendung die von Magnus Maske zur Abfrage von Wikidata entwickelt wurde.
 
 <http://wdq.wmflabs.org/>
 
