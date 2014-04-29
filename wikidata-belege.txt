@@ -12,7 +12,7 @@ Wenn das Item selbst als Beleg für Aussagen über seinen Gegenstand dient -- be
 
 </div>
 
-Belege bestehen aus mindestens einer Eigenschaft und einem Wert. Die erste Aussage des Items [Deutschland](https://www.wikidata.org/wiki/Q183)  lautet "Mitglied von Welthandelsorganisation". Zu dieser Aussage gibt es drei Belege:
+Belege bestehen aus mindestens einer Eigenschaft und einem Wert. Die erste Aussage des Items [Deutschland <code>(Q183)</code>](https://www.wikidata.org/wiki/Q183)  lautet "Mitglied von Welthandelsorganisation". Zu dieser Aussage gibt es drei Belege:
 
 ![Aussage mit drei Belegen](images/Aussage_Quelle_Deutschland.png)
 
