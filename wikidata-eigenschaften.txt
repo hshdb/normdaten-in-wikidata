@@ -66,5 +66,5 @@ _Datentyp: Menge/Quantity_
 
 In diesem Datentyp können Mengenangaben eingegeben werden. Das sind in der Regel vor allem Zahlenwerte wie zum Beispiel die errungenen Wählerstimmen bei einer Wahl. 
 
-Für ausführlichere technische Informationen zum Datenmodell in Wikidata, schauen Sie hier: [Datentypen (englisch)](https://meta.wikimedia.org/wiki/Wikidata/Data_model#Datatypes_and_their_Values)
+Für ausführlichere technische Informationen schauen Sie auf die Seite des [Datenmodells in Wikidata ](https://meta.wikimedia.org/wiki/Wikidata/Data_model#Datatypes_and_their_Values).
 
