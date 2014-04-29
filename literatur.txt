@@ -3,13 +3,9 @@
 * Krötzsch, Markus; Vrandečić, Denny (2014): Wikidata: A Free Collaborative Knowledge Base. 
   In: Communications of the ACM (noch nicht erschienen). Online verfügbar unter <http://research.google.com/pubs/archive/42240.pdf>, zuletzt geprüft am 29.04.2014.
 * Wikipedia (2014): Wikidata. Online verfügbar unter <http://de.wikipedia.org/wiki/Wikidata>, zuletzt geprüft am 29.04.2014.
-* CRE (2013): CRE205 Wikidata. Online verfügbar unter <http://cre.fm/cre205-wikidata>, zuletzt geprüft am 29.04.2014.
+* Chaosradio Express (2013): CRE205 Wikidata. Online verfügbar unter <http://cre.fm/cre205-wikidata>, zuletzt geprüft am 29.04.2014.
 * MediaWiki (2014). Online verfügbar unter <https://www.mediawiki.org/wiki/MediaWiki/de>, zuletzt geprüft am 29.04.2014.
 * InfoWissWiki (o.J.): Indexierung. Online verfügbar unter <http://wiki.infowiss.net/Indexierung>, zuletzt geprüft am 29.04.2014.
-* Munzinger Online/Brockhaus - Enzyklopädie in 30 Bänden (o.J.): Daten. Online verfügbar unter <http://www.munzinger.de/document/12005015204>, zuletzt geprüft am 08.04.2014.
-* Munzinger Online/Brockhaus - Enzyklopädie in 30 Bänden (o.J.): Datentyp. Online verfügbar unter <http://www.munzinger.de/document/12005015705>, zuletzt geprüft am 08.04.2014.
-* Munzinger Online/Brockhaus - Enzyklopädie in 30 Bänden (o.J.): Metadaten. Online verfügbar unter <http://www.munzinger.de/document/12600142809>, zuletzt geprüft am 15.04.2014.
-* Munzinger Online/Brockhaus - Enzyklopädie in 30 Bänden (o.J.): Roboter. Online verfügbar unter <http://www.munzinger.de/document/12032780495>, zuletzt geprüft am 08.04.2014.
 * Hesse, Wolfgang (2002): Ontologien. Herausgegeben von der Gesellschaft für Informatik. Online verfügbar unter <http://www.gi.de/service/informatiklexikon/detailansicht/article/ontologien.html>, zuletzt geprüft am 29.04.2014.
 
 ## Hilfreiche Seiten in Wikidata {.unnumbered}
