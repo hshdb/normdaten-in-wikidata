@@ -4,9 +4,11 @@
 
 Jede Eigenschaft wird durch eine ID referenziert, die mit `P` anfängt. Beispielsweise steht in Wikidata `P19` für den Geburtsort einer Person. Jede Eigenschaft kann ebenso wie Wikidata-Items mit Übersetzungen (siehe Kapitel [Items benennen und beschreiben](#items-benennen-und-beschreiben)) und Aussagen (siehe Kapitel [Wikidata-Aussagen](#wikidata-aussagen)) beschrieben werden. So lautet beispielsweise die englische Bezeichnung für die Eigenschaft `P19` "place of birth" und die Deutsche Beschreibung "Ort, in dem ein Mensch geboren wurde". 
 
-_**Zur Ansicht und Bearbeitung der Benennungen und weiterer Angaben zu Aussagen hat jede Eigenschaft in Wikidata eine eigene Seite. Die URL dieser Seite lässt sich durch Voranstellen von `https://www.wikidata.org/wiki/Property:` konstruieren.(Merken)**_ 
+<div class="example ">
+Zur Ansicht und Bearbeitung der Benennungen und weiterer Angaben zu Aussagen hat jede Eigenschaft in Wikidata eine eigene Seite. Die URL dieser Seite lässt sich durch Voranstellen von `https://www.wikidata.org/wiki/Property:` konstruieren.
+</div>
 
-_**Die Eigenschaft `P19` ist beispielsweise unter <https://www.wikidata.org/wiki/Property:P19> beschrieben.(Beispiel)**_
+Die Eigenschaft `P19` ist beispielsweise im folgenden Screenshot beschrieben.
 
 ![](images/p19.png)
 
@@ -16,7 +18,13 @@ Jede Aussage auf einer Item-Seite stellt eine Verbindung zu einer Eigenschaft he
 
 Einige Eigenschaften sind dazu gedacht von Wikidata-Items auf andere Normdateien zu verweisen. Genauer beschrieben wird dies im Kapitel [Normdaten-Eigenschaften in Wikidata](#normdaten-eigenschaften-in-wikidata).
 
-Eigenschaften können wie Wikidata-Items von allen Mitarbeitern bearbeitet werden, beispielsweise mit Übersetzungen und Beschreibungen der jeweiligen Eigenschaft. _**Das Anlegen neuer Eigenschaften ist jedoch nur ausgewählten Mitgliedern der Wikidata-Community möglich.(Anmerkung)**_ Auf der Seite [Property_proposal](https://www.wikidata.org/wiki/Wikidata:Property_proposal/de) können Vorschläge für neue Wikidata-Eigenschaften eingebracht und von der Wikidata-Community diskutiert werden. 
+Eigenschaften können wie Wikidata-Items von allen Mitarbeitern bearbeitet werden, beispielsweise mit Übersetzungen und Beschreibungen der jeweiligen Eigenschaft. 
+
+<div class="example ">
+Das Anlegen neuer Eigenschaften ist jedoch nur ausgewählten Mitgliedern der Wikidata-Community möglich.
+</div>
+
+Auf der Seite [Property_proposal](https://www.wikidata.org/wiki/Wikidata:Property_proposal/de) können Vorschläge für neue Wikidata-Eigenschaften eingebracht und von der Wikidata-Community diskutiert werden. 
 
 ### Datentypen und andere Einschränkungen
 
