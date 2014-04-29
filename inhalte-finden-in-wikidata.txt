@@ -31,7 +31,7 @@ Ist man auf der Suche nach einer [Eigenschaft](#wikidata-eigenschaften), dessen 
 
 ![Suche_Eigenschaften.PNG](images/Suche_Eigenschaften.PNG)
 
-*TODO:  Was ist wenn der Name der Eigenschaft nicht bekannt ist?*
+Wenn der Name der Eigenschaft nicht bekannt ist, gibt es die Möglichkeit mit Hilfe einer [Eigenschaftentabelle] (https://www.wikidata.org/wiki/Wikidata:List_of_properties/Summary_table) diese Eigenschaft zu ermitteln. 
 
 ### Suche nach Aussagen
 
