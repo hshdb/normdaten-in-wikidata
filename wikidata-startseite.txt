@@ -79,7 +79,18 @@ Zum Erstellen eines Items gibt es drei verschiedene Relevanzkriterien. Es muss e
 * [How To Edit Wikidata](http://upload.wikimedia.org/wikipedia/commons/9/94/How_to_Edit_Wikidata.pdf)
 
 
-
+## Aussagen bearbeiten
+![Aussagen](images/aussagen.png)
+ 
+Aussagen lassen sich bei Wikidata auf der Seite des Items bearbeiten und anlegen. Mit einem Klick auf "bearbeiten" (sehen Sie obiger Screenshot) kann man den Wert einer schon bestehenden Eigenschaft bearbeiten. Bei Klicken auf "hinzufügen" ist es möglich, einen neuen Wert zu erstellen. Allerdings können die Begriffe nicht frei gewählt werden, man muss aus einem Pool bereits bestehender und von Wikidata normierten Begriffen auswählen. Das Bearbeiten eines Werts sieht folgendermaßen aus:
+ 
+![Aussage bearbeiten](images/aussage-bearbeiten.png)
+ 
+Um eine neue Aussage zu erstellen, muss man auf das "hinzufügen" am Ende der Aussagenliste klicken (rote Umrandung). Auch die Begriffe für die Eigenschaften sind nicht frei wählbar, sie müssen ebenfalls aus einer bestehenden Liste ausgewählt werden.
+ 
+Wie auf den Screenshots zu sehen, können Aussagen zusätzlich mit [Belegen](#belege) versehen werden.
+ 
+![Neue Aussage hinzufügen](images/neue-aussage.png)
 
 
 ## Übersetzungen in Wikidata
@@ -90,20 +101,6 @@ Wikidata arbeitet an einem Modell bei dem alle Sprachen beziehungsweise Sprachli
 
 Anderssprachige Bezeichnungen und Beschreibungen von Items können auf der Seite der jeweiligen Items unter "In anderen Sprachen" eingetragen werden. Wie im Screenshot zu sehen ist, werden automatisch die Sprachen Englisch, Plattdeutsch und Türkisch vorgeschlagen. Da es bereits eine englische Übersetzung gibt, kann diese nicht neu angelegt, sondern nur bearbeitet werden. Plattdeutsch und Türkisch haben noch keine Übersetzungen, also kann der Nutzer einfach in das leere Feld die entsprechende Bezeichnung beziehungsweise Beschreibung eintragen. Hierbei ist Vorsicht angeraten: beim Übersetzen gibt es gewisse [Richtlinien](https://www.wikidata.org/wiki/Help:Sitelinks/de-formal) zu beachten. Es darf beispielsweise nur dann eine Sprache hinzugefügt werden, wenn es dazu auch einen passenden Wikipedia-Artikel in der jeweiligen Sprache gibt.
 
-
-## Aussagen bearbeiten
-
-![Aussagen](images/aussagen.png)
-
-Aussagen lassen sich bei Wikidata auf der Seite des Items bearbeiten und anlegen. Mit einem Klick auf "bearbeiten" (sehen Sie obiger Screenshot) kann man den Wert einer schon bestehenden Eigenschaft bearbeiten. Bei Klicken auf "hinzufügen" ist es möglich, einen neuen Wert zu erstellen. Allerdings können die Begriffe nicht frei gewählt werden, man muss aus einem Pool bereits bestehender und von Wikidata normierten Begriffen auswählen. Das Bearbeiten eines Werts sieht folgendermaßen aus:
-
-![Aussage bearbeiten](images/aussage-bearbeiten.png)
-
-Um eine neue Aussage zu erstellen, muss man auf das "hinzufügen" am Ende der Aussagenliste klicken (rote Umrandung). Auch die Begriffe für die Eigenschaften sind nicht frei wählbar, sie müssen ebenfalls aus einer bestehenden Liste ausgewählt werden.
-
-Wie auf den Screenshots zu sehen, können Aussagen zusätzlich mit [Belegen](#belege) versehen werden.
-
-![Neue Aussage hinzufügen](images/neue-aussage.png)
 
 ## Spracheinstellung in Wikidata ändern
 Sie fragen sich vielleicht, warum gerade Englisch, Plattdeutsch und Türkisch als Sprachen vorgeschlagen werden. Es werden immer drei Sprachen aufgelistet und diese drei sind diejenigen, die in der Region des Nutzers (in diesem Fall also Deutschland) gesprochen werden ([Quelle](https://www.wikidata.org/wiki/Help:Multilingual/de)).
