@@ -4,6 +4,7 @@ Wikidata ist grundsätzlich ein freies Projekt, an dem jede Person mitarbeiten k
 Im zweiten Unterkapitel wird die Suchfunktion von Wikidata behandelt und vorgestellt. Kapitel 6.3 und 6.4 erläutern im Detail wie Items und Aussagen in Wikidata angelegt und bearbeitet werden können. Danach folgen zwei Darstellungen, auf welche Weise man Übersetzungen anlegen bzw. die Oberflächenanzeige von Wikidata ändern kann. Zum Abschluss wird erläutert, wie man in Wikidata neue Eigenschaften vorstellungen kann und auf welche Weise man Wikidata in anderen Anwendungen benutzen kann. 
 
 ## Übersicht der Wikidata-Startseite
+Für die aktive Benutzung von Wikidata empfiehlt sich der Besitz eines eigenen Accountes, damit bei eventuellen Änderungen andere Nutzer zuordnen können wer etwas geändert hat, um dann entsprechend darauf reagieren zu können. Einen Benutzeraccount können sie von jeder Wikidataseite aus anlegen. Der Button dafür befindet sich am oberen rechten Rand der Website.
 
 ![Startseite von Wikidata in deutscher Spracheinstellung](images/Startseite.PNG)
 In der obigen Abbildung sehen sie die deutsche Ansicht der Wikidata-Startseite im abgemeldeten Modus. Für die leichte Bedienbarkeit kann die Oberfläche von Wikidata in fast allen Sprachen angezeigt werden. Hier kann man zwischen zwei Ebenen unterscheiden: der Sprachauswahl für das Kontextmenü und der Sprachauswahl für den Inhaltsbereich. Ersteres ist im abgemeldeten Modus in der linken Spalte zu finden und letzteres findet sich zentral auf der Wikidata-Startseite. 
