@@ -34,4 +34,4 @@ Im Gegensatz dazu wird die Gemeinsame Normdatei (GND) von mehreren Institutionen
 Die Normdaten haben als Grundlage die Regeln der alphabetischen Katalogisierung (RAK-WB) und die Regeln für den Schlagwortkatalog (RSWK). 
 Die GND zeichnet sich nicht nur durch ihre Vorzugsbenennungen aus, sondern vor allem durch ihre zahlreichen Synonyme (in anderen Sprachen und Schriften) und Verknüpfungen zu weiteren Datensätzen aus. 
  
- Weiterführende Literatur und HIlfen finden sie bei [Wikidata:Liste der Projektregeln und Richtlinien](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_policies_and_guidelines/de&oldid=102532266) oder im [Hilfe-Portal Wikidata](https://www.wikidata.org/w/index.php?title=Help:Contents/de&oldid=66338607 ).
+ Weiterführende Literatur und Hilfen finden sie bei [Wikidata:Liste der Projektregeln und Richtlinien](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_policies_and_guidelines/de&oldid=102532266) oder im [Hilfe-Portal Wikidata](https://www.wikidata.org/w/index.php?title=Help:Contents/de&oldid=66338607 ).
