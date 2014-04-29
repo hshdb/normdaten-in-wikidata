@@ -16,7 +16,7 @@ Wie andere MediaWiki-Installation bietet auch Wikidata die Möglichkeit, Inhalte
 <div class="example">
 Die URL
 
-http://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q17&props=labels&format=json
+<http://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q17&props=labels&format=json>
 
 liefert die Namen von Japan (Item [`Q17`](https://www.wikidata.org/wiki/Q17)) in allen in Wikidata vorhandenen Sprachen.
 </div>
