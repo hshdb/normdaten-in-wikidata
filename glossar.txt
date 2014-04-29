@@ -1,7 +1,7 @@
 # Glossar {.unnumbered}
 
 **Aussage (statement)**
-  : Eine [Aussage](#wikidata-aussagen) ist eine Untereinheit eines Items in Wikidata. Aussagen bestehen in der Regel aus einer normierten Eigenschaft, ihnen zugewiesenen Items und optionalen Belege. Nicht jede Eigenschaft muss als Wert ein Item beinhalten, manche enthalten einfache externe Verlinkungen (Normdaten, Websiten...) oder einfache Daten (geografische Daten, Ländercodes...).
+  : Eine [Aussage](#wikidata-aussagen) ist eine Untereinheit eines Items in Wikidata. Aussagen bestehen in der Regel aus einer normierten Eigenschaft, ihnen zugewiesenen Items und optionalen Belege. Nicht jede Eigenschaft muss als Wert ein Item beinhalten, manche enthalten einfache externe Verlinkungen (Normdaten, Websiten...) oder einfache Daten (geografische Daten, Ländercodes...). Wikidata gibt keine Auskunft über die Richtigkeit von Aussagen, sondern beschränkt sich auf das Sammeln und die Bereitstellung von Daten, zusammen mit der dem Nachweis der Quelle. 
 
 **Beleg**
   : Ein [Beleg](#belege) in Wikidata ist eine beliebige Literatur- oder Quellenangabe, die eine Aussage bestätigt. Belege können ihrerseits auf andere Items verweisen, beispielsweise auf ein Buch, das in Wikidata einen eigenen Eintrag hat.
