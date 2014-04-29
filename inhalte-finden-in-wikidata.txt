@@ -1,6 +1,6 @@
 ## Inhalte finden in Wikidata
 
-Dieses Kapitel zeigt wie sie in Wikidata die Suche verwenden können, um Items, Eigenschaften und Aussagen zu suchen und zu finden. 
+Dieses Kapitel zeigt wie sie in Wikidata die Suche verwenden können, um [Items](#suche-nach-items), [Eigenschaften](#suche-nach-eigenschaften) und [Aussagen](#suche-nach-aussagen) zu suchen und zu finden. 
 
 ### Suche nach Items
 
