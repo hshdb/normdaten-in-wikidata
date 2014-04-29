@@ -1,15 +1,3 @@
-## Aussagen bearbeiten
 
-![Aussagen](images/aussagen.png)
-
-Aussagen lassen sich bei Wikidata auf der Seite des Items bearbeiten und anlegen. Mit einem Klick auf "bearbeiten" (sehen Sie obiger Screenshot) kann man den Wert einer schon bestehenden Eigenschaft bearbeiten. Bei Klicken auf "hinzufügen" ist es möglich, einen neuen Wert zu erstellen. Allerdings können die Begriffe nicht frei gewählt werden, man muss aus einem Pool bereits bestehender und von Wikidata normierten Begriffen auswählen. Das Bearbeiten eines Werts sieht folgendermaßen aus:
-
-![Aussage bearbeiten](images/aussage-bearbeiten.png)
-
-Um eine neue Aussage zu erstellen, muss man auf das "hinzufügen" am Ende der Aussagenliste klicken (rote Umrandung). Auch die Begriffe für die Eigenschaften sind nicht frei wählbar, sie müssen ebenfalls aus einer bestehenden Liste ausgewählt werden.
-
-Wie auf den Screenshots zu sehen, können Aussagen zusätzlich mit [Belegen](#belege) versehen werden.
-
-![Neue Aussage hinzufügen](images/neue-aussage.png)
 
 
