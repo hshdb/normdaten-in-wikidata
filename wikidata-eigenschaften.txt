@@ -52,7 +52,7 @@ Dieser Datentyp akzeptiert als Eingaben alle Zeichenketten. Diese sollten nach M
 
 _Datentyp: Zeit/Time_
 
-Hier können nur Werte eingegeben werden, welche eine zeitliche Information ausdrücken. Zum Beispiel Jahreszahlen, Jahres-Datums-Zahlen, Zeitzonen, Zeitpunkte und noch einige mehr. Für mehr Informationen können sie [hier](https://www.wikidata.org/wiki/Special:ListDatatypes) weiterlesen. 
+Hier können nur Werte eingegeben werden, welche eine zeitliche Information ausdrücken. Zum Beispiel Jahreszahlen, Jahres-Datums-Zahlen, Zeitzonen, Zeitpunkte und noch einige mehr. Für mehr Informationen können Sie [hier](https://www.wikidata.org/wiki/Special:ListDatatypes) weiterlesen. 
 
 _Datentyp: Geographische Koordinaten/Geographic coordinates_
 
@@ -66,5 +66,5 @@ _Datentyp: Menge/Quantity_
 
 In diesem Datentyp können Mengenangaben eingegeben werden. Das sind in der Regel vor allem Zahlenwerte wie zum Beispiel die errungenen Wählerstimmen bei einer Wahl. 
 
-Für ausführlichere technische Informationen zum Datenmodell in Wikidata, siehe hier: [Datentypen (englisch)](https://meta.wikimedia.org/wiki/Wikidata/Data_model#Datatypes_and_their_Values)
+Für ausführlichere technische Informationen zum Datenmodell in Wikidata, schauen Sie hier: [Datentypen (englisch)](https://meta.wikimedia.org/wiki/Wikidata/Data_model#Datatypes_and_their_Values)
 
