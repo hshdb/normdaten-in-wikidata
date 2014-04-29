@@ -1,6 +1,7 @@
 # Praktische Anwendung
 
-In diesem Abschnitt wird die Möglichkeit gegeben, sich am Projekt Wikidata zu beteiligen. In einfach erklärten Schritten wird die Benutzung der Wikidata-Seite transparent gemacht.
+Wikidata ist grundsätzlich ein freies Projekt, an dem jede Person mitarbeiten kann. Das folgende Kapitel möchte jedem Interessierten die Mitarbeit an Wikidata ermöglichen. Am Anfang erfolgt eine Erläuterung der Startseite von Wikidata und welche Funktionen für Bearbeiter von Bedeutung sind. 
+Im zweiten Unterkapitel wird die Suchfunktion von Wikidata behandelt und vorgestellt. Kapitel 6.3 erläutert im Detail wie Items in Wikidata angelegt werden können und Kapitel 6.4 stellt die verschiedenen Möglichkeiten der Spracheinstellungen dar. 
 
 ## Übersicht der Wikidata-Startseite
 
