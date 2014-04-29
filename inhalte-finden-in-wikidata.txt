@@ -27,7 +27,7 @@ Erweitert: Suche in weiteren Namensräumen
 
 ### Suche nach Eigenschaften
 
-Ist man auf der Suche nach einer [Eigenschaft](#wikidata-eigenschaften), dessen Name bekannt ist, gibt es zwei Möglichkeiten um eine Suche erfolgreich zu gestalten. Diese Seite: https://www.wikidata.org/wiki/Wikidata:List_of_properties/de verlinkt direkt zu der Liste der Eigenschaften und der Suchmaske.
+Ist man auf der Suche nach einer [Eigenschaft](#wikidata-eigenschaften), dessen Name bekannt ist, gibt es zwei Möglichkeiten um eine Suche erfolgreich zu gestalten. Die Seite [Liste der Eigenschaften](https://www.wikidata.org/wiki/Wikidata:List_of_properties/de) verlinkt direkt dorthin und zur Suchmaske.
 
 ![Suche_Eigenschaften.PNG](images/Suche_Eigenschaften.PNG)
 
