@@ -19,9 +19,9 @@ Wikidata hat einige Vorläufer in verwandten Projekten wie [Semantic MediaWiki](
 
 ## Ziele von Wikidata
 
-Hauptziel des Projektes ist es, dass Infoboxen entstehen, die in einer zentralen Datenbank effizient, widerspruchsfrei und dauerhaft gespeichert werden. Diese dienen als Quellen für alle anderen Wikimedia-Projekte und ermöglichen so eine strukturierte Zentralisierung von Daten und Fakten, wie zum Beispiel geografische Daten oder sonstige allgemeingültige Daten für die interne und externe Weiternutzung.
+Hauptziel von Wikidata ist es eine strukturierte und zentralisierte "Wissensdatenbank" zu schaffen, welche die reale Welt in Daten und Fakten beschreibt und abbildet. Statt in Wikipedia die verschiedensprachigen Artikel manuell zu erstellen, sollen in Wikidata Fakten hinterlegt werden, sodass diese in jeder Version gleich angezeigt werden. Beispielsweise die Höhe des Mount Everest oder die offizielle Einwohnerzahl von New York. Mit Hilfe diese einheitliche Erfassung sollen vor allem statistische Angaben und formal beschreibbare Metadaten über mehrere Seiten und Sprachversionen hinweg in Wikipedia aktualisiert werden können. 
 
-Die in Wikidata verwalteten Daten bilden eine "Wissensdatenbank" welche die reale Welt beschreibt und abbildet. Statt Artikel in den über 250 Sprachversionen der Wikipedia komplett manuell zu schreiben, sollen in Wikidata Fakten hinterlegt werden, sodass sie in jeder Version gleich angezeigt werden – beispielsweise die Höhe des Mount Everest oder die offizielle Einwohnerzahl von New York. Über eine einheitliche Schnittstelle sollen vor allem statistische Angaben über mehrere Seiten und Sprachversionen hinweg einfacher in Wikipedia aktualisiert werden können.
+Die dabei entstehenden Infoboxen werden in einer zentralen Datenbank effizient, widerspruchsfrei und dauerhaft gespeichert. Sie dienen als Quellen für alle anderen Wikimedia-Projekte. 
 
 Wikidata tritt hierfür an, die Erfassung formal beschreibbarer Metadaten auf eine neue Grundlage zu stellen und verbindet dabei erstmals auch alle Sprachvarianten der Wikipedia.  
 
