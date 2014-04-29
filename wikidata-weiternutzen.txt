@@ -14,10 +14,11 @@ Die Standard-Benutzeroberfläche von Wikidata ist vor allem auf das [Bearbeiten]
 Wie andere MediaWiki-Installation bietet auch Wikidata die Möglichkeit, Inhalte über eine Schnittstelle abzufragen. Die MediaWiki-API unter <http://wikidata.org/w/api.php> ermöglicht praktisch alle Aktionen, die auch über die Benutzeroberfläche von Wikidata möglich sind (Suche, Bearbeitung...). Diese Möglichkeit wird unter anderem von Bots verwendet, die Inhalte in Wikidata automatisch eintragen oder ergänzen. Zum Zugriff auf die API bietet es sich an, auf vorhandene Programmbibliotheken wie [Pywikibot](http://www.mediawiki.org/wiki/Manual:Pywikibot) oder [Catmandu-Wikidata](https://metacpan.org/release/Catmandu-Wikidata) zurückzugreifen.
 
 <div class="example">
+Die URL
 
-http://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q17&props=claims&format=jsonfm
-*hier könnte noch ein Beispiel hin, z.B. Abfrage von Normdaten-Eigenschaften*
+http://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q17&props=labels&format=json
 
+liefert die Namen von Japan (Item [`Q17`](https://www.wikidata.org/wiki/Q17)) in allen in Wikidata vorhandenen Sprachen.
 </div>
 
 ### Download der gesamten Datenbank
