@@ -21,5 +21,10 @@ und wie Sie in Abbildung 4 sehen wurde auf der Benutzeroberfläche die 		Sprache
 ![Abbildung 4](images/faq_spracheaendern_4.png)
 
     
-**3. Warum gibt es das feste Vokabular bei den Eigenschaften?** 
+**3. Warum ist es das feste Vokabular bei den Eigenschaften?** 
  Die Eigenschaften sind in verschiedenen Sprachen vorhanden. Die Begriffe sind vorgegeben, damit eine problemlose Übersetzung ermöglicht wird. Bei fehlenden Begriffen können diese der Communitie vorgeschlagen werden. Siehe [Neue Wikidata Eigenschaften](#neue-wikidata-eigenschaften-erstellen) erstellen. 
+ 
+ **4.  Wie erzeuge ich ein neues Objekt (Item)?
+ 
+ 
+
