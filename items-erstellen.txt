@@ -13,7 +13,7 @@ Wenn das Item noch nicht vorhanden ist, bekommt man die Möglichkeit, ein neues 
 Auf der Objektseite hat man die Möglichkeit, Änderungen vorzunehmen oder weitere Sprachen beziehungsweise Übersetzungen für die Objektbezeichnung hinzuzufügen.
 
 Datenobjekte bestehen in der Regel aus einer Vielzahl von Aussagen. Diese enthalten Informationen über die reale Welt und sind der Kernteil jedes Items. Sie gliedern sich in Eigenschaften (property) mit vorgegebenem Vokabular und ihnen zugewiesenen Werten beziehungsweise Inhalten. 
-Für mehr siehe [Kapitel 4](#bestandteile-von-wikidata) oder auch [Help:Aussagen](https://www.wikidata.org/w/index.php?title=Help:Statements/de&oldid=108007039). Eine Übersicht über alle Eigenschaften von Wikidata kann man unter [folgendem Link](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_properties/Summary_table/de&oldid=116061771) finden. Im Anhang dieser Übersicht kann man überprüfen, welche Werte Sie dort eintragen können.
+Für mehr siehe [Kapitel 4](#bestandteile-von-wikidata) oder auch [Help:Aussagen](https://www.wikidata.org/w/index.php?title=Help:Statements/de&oldid=108007039). Eine Übersicht über alle Eigenschaften von Wikidata kann man unter [Liste der Eigenschaften](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_properties/Summary_table/de&oldid=116061771) finden. Im Anhang dieser Übersicht können Sie überprüfen, welche Werte Sie dort eintragen können.
 
 **Relevanzkriterien**
 
