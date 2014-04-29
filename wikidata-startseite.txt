@@ -5,6 +5,11 @@ Im zweiten Unterkapitel wird die Suchfunktion von Wikidata behandelt und vorgest
 
 ## Übersicht der Wikidata-Startseite
 
+![](images/Startseite.PNG)
+
+
+
+
 * ein Satz zur Anmeldung / Registrierung in Wikidata
 * Bilderklärung der Startseite
 
