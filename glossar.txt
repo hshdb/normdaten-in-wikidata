@@ -10,7 +10,7 @@
   : Ein [Bot](#einfuehrung-in-wikidata) ist eine selbstständig arbeitende Software, die Bearbeitungen ohne menschliche Entscheidungen vornehmen kann. Bots können Interwikilinks, Bezeichnungen, Beschreibungen, Aussagen,Quellen hinzufügen und bearbeiten. Außerdem können Bots Objekte automatisiert erstellen.  Um mehr Information zu Bots zu finden siehe  <http://www.wikidata.org/wiki/Wikidata:Bots/de>.
 
 **Daten**
-  : Grundsätzlich stellen  [Daten](#inhalte-von-wikidata) erfassbare (Zahlen-)Werte aus Beobachtungen, Messungen, Erhebungen und ähnliches dar. Aus der Sicht der Informatik sind Daten Zeichenfolgen, welche maschinenlesbar sein müssen, auf Datenträgern gespeichert sind und von "Datenverarbeitungsanlagen gespeichert, verarbeitet und/oder erzeugt werden können."
+  :  [Daten](#inhalte-von-wikidata) in Wikidata sind die Sammlung aller strukturierten Daten und somit der gesamte Bestand der Datenbank. Generell sind alles Daten, was Wikidata-Autoren und Bots in Wikidata auf den Seiten der Datensätze eingeben, welche dann die Datensätze in der Wikidata ergeben. Diese Seiten gehören zu den drei Daten-Namensräumen (entitiy namespaces): Der Hauptnamensraum für die Datenobjekte (items), der Eigenschaftsnamensraum für die Eigenschaften (properties) und der Abfragenamensraum für die Abfragen (queries). Andere Wikidataseiten bestehen aus unstrukturiertem Inhalt, beispielsweise Fließtext und gelten als Metaseiten. Die speziellen Daten der Eigenschaften (property data) sind die Werte (values) in den Aussagen (statements), die ganz bestimmte Datentypen erfordern.
 
 **Datenbank**
   : Eine [Datenbank](#einleitung) dient der Verwaltung großer Datenmengen, damit diese schnell, widerspruchsfrei und dauerhaft gespeichert und für verschiedene Benutzergruppen ausgegeben werden können. 
@@ -19,7 +19,7 @@
   : Ein [Datenbestand](#wikidata-als-datenbank) stellt die Gesamtheit aller Daten in einer Datenbank dar. In Wikidata ist der Datenbestand die Menge aller Items und Aussagen. 
 
 **Datenobjekt**
-  : s. -> Item
+  : siehe Item
 
 **Datentyp** 
   : Unter [Datentypen](#datentypen-und-andere-einschränkungen) versteht man die Zusammenfassung von Objektmengen. Datentypen haben die Aufgabe zu bestimmen, welche Art von Werten den Eigenschaften zugeordnet werden können. Datentypen, die in Wikidata Installation verfügbar sind: Datenobjekt, Mediendatei auf Commons, Zeichenkette, Zeit, Koordinate, URL und Menge.
@@ -55,11 +55,11 @@
   : Eine [Normdatei](#einführung-in-normdaten) ist ein Gesamtverzeichnis aller Normdaten. Viele Länder beziehungsweise,Sprachengebiete haben für ihre Bibliothekssysteme oder auch Datenbestände eigene Normdateien entwickelt, zum Beispiel die GND, LCCN, NDL, VIAF. In Wikidata selbst gibt es zwei Normdateienfunktionen: Wikidata kann externe Normdaten einbinden und  Wikidata soll in Zukunft selbst eine Normdatei für Projekte der Wikimedia Foundation werden. 
 
 **Normdaten**
-  : [Normdaten](#einführung-in-normdaten) sind Daten, welche nach festgelegten Regeln erschlossen und beschrieben werden. Normdaten sind stets unter einem einzigartigen Namen zu finden, welcher sich aus alphanumerischen Zeichen zusammensetzt. Manche Normdaten in Wikidata enthalten  Synonyme, Verwandte, Ober-und Unterbegriffe und manchmal auch Beschreibungstexte und Synonyme in anderen Sprachen. Fast jedes Datum kann normiert werden: Personen, Orte, geografische Einheiten, Körperschaften, Verwaltungseinheiten u.v.m.  Die Beschreibung zur Bildung von Normdaten findet man in umfangreichen Regelwerken und Richtlinien. 
+  : [Normdaten](#einführung-in-normdaten) sind Daten, welche nach festgelegten Regeln erschlossen und beschrieben werden. Normdaten sind stets unter einem einzigartigen Namen zu finden, welcher sich aus alphanumerischen Zeichen zusammensetzt. Manche Normdaten in Wikidata enthalten  Synonyme, Verwandte, Ober-und Unterbegriffe und manchmal auch Beschreibungstexte und Synonyme in anderen Sprachen. Fast jedes Datum kann normiert werden: Personen, Orte, geografische Einheiten, Körperschaften, Verwaltungseinheiten und viel mehr.  Die Beschreibung zur Bildung von Normdaten findet man in umfangreichen Regelwerken und Richtlinien. 
   
 **Ontologie**
-  : Eine [Ontologie](#einführung-in-normdaten) stellt einen Wissensbereich dar. Der Wissensbereich beinhaltet standardisierte Begriffe, Ableitungsregeln, Beziehungen zwischen den Begriffen und einer Taxonomie (mit Klassen, Relationen, Funktionen und Axiomen). Im Bezug Wikidata einschließt die Ontologie Hierarchie und Relation.
-
+  : Eine [Ontologie](#einführung-in-normdaten) beinhaltet Eigenschaften (properties) in Aussagen (statements). Ontologie wird genutzt, um die beschriebenen Gegenstände der realen Welt in Beziehung zu setzen mit den anderen in Datenobjekten vorhandenen Daten und mit Quellenangaben.
+  
 **Qualifikator**
   : Ein [Qualifikator](#qualifikatoren) ist Teil einer Behauptung, der etwas über die Behauptung in einer beschreibenden Form ausdrückt. Ein Qualifikator kann ein Ausdruck einer Sprache sein oder eine veränderte Beschreibung der Behauptung.  
 
