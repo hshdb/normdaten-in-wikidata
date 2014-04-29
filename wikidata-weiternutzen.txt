@@ -25,36 +25,13 @@ Für einen vollständigen Zugriff werden unter <http://dumps.wikimedia.org/wikid
 
 Bislang bietet Wikidata noch keine einfache Möglichkeit für komplexere Datenbank-Abfragen, so dass für umfangreichere Analysen im Zweifelsfall die gesamte Datenbank heruntergeladen werden muss. Alternativ dazu gibt es einige Programme mit denen Abfragen an eine möglichst aktuelle Kopie der Wikidata-Datenabank gestellt werden können.
 
-Für die Einbindung in MediaWiki beinhaltet die Wikibase-Software eine [Komponente zur Programmierung von Wikidata-Abfragen in der Programmiersprache Lua](http://www.mediawiki.org/wiki/Extension:Wikibase_Client/Lua). Diese Variante soll zunehmend in den Wikis der Wikimedia-Foundation verwendet werden, um dort Infoboxen, Listen und andere strukturierte Inhalte anzuzeigen.
+Für die Einbindung in MediaWiki beinhaltet die Wikibase-Software eine [Komponente zur Programmierung von Wikidata-Abfragen in der Programmiersprache Lua](http://www.mediawiki.org/wiki/Extension:Wikibase_Client/Lua). Diese Variante soll zunehmend in den Wikis der Wikimedia-Foundation verwendet werden, um dort Infoboxen, Listen und andere strukturierte Inhalte anzuzeigen. Eine weitere Möglichkeit ist die Webanwendung WikiData Query (WDQ) unter <http://wdq.wmflabs.org/>. Dort können in einer speziellen Abfragesprache und über ein Webinterface Abfragen zusammengestellt werden, beispielsweise um Listen von Wikidata-Items mit gemeinsamen Eigenschaften zu erstellen.
 
-...TODO ab hier noch nicht fertig...
+<div class="example">
 
-zu stellen. dafür sind zusätzliche Anwendungen notwendig, die auf die Inhalte der Wikidata-Datenbank zugreifen. **WikiData Query** (WDQ) ist eine solche Webanwendung die von Magnus Maske zur Abfrage von Wikidata entwickelt wurde.
+Die Anfrage `string[227:"224028495-5"]` fragt in in WikiData Query alle Items ab, die eine Aussage mit der Eigenschaft [`P227`](https://www.wikidata.org/wiki/Property:P227) (GND-Identifier) haben, deren Wert die Zeichenkette "224028495-5" ist. Auf diese Weise kann zu einer GND-Nummer, falls vorhanden, das entsprechende Wikidata-Item nachgeschlagen werden.
 
-<http://wdq.wmflabs.org/>
-
-...
-
-Die Abfragen müssen in einer etwas kryptischen Abfragesprache formuliert werden. Etwas einfacher ist die Formulierung von Anfragen mit dem "Query interface" unter <http://wdq.wmflabs.org/wdq/> und mit dem Werkzeug "AutoList" unter <http://tools.wmflabs.org/wikidata-todo/autolist.html>.
-
-Beispielanfrage:
-
-    string[227:"224028495-5"]
-    
-steht für "gib alle Items, die eine Aussage mit der Eigenschaft P227 (GND-Identifier) haben, deren Wert die Zeichenkette "224028495-5" ist.
-
-Beispielanfrage: Items mit GND-ID, deren Standort (P625) innerhalb von 5 km des Gelände der Expo Hannover befindet:
- 
-    claim[227] AND around[625,52.32148,9.8169,5]
-
-http://tools.wmflabs.org/wikidata-todo/autolist.html?q=tree[30][150][17%2C131]%20AND%20claim[138%3A676555
-
-Das zweite Beispiel zeigt ein Problem von Abfragen, das praktisch für formale Anfragen an Datenbanken zutrifft: der Computer denkt nicht mit, deshalb ist die Hochschule Hannover nicht in der Liste (?).
-
-Beispiele und Beschreibungen zu AutoList und WDQ:
-* http://blog.magnusmanske.de/?p=178 (Abfrage mit Qualifiern)
-* http://wdq.wmflabs.org/api_documentation.html (API-Dokumentation)
-* ...
+</div>
 
 ### Bereitstellung von Normdaten-Mappings
 
