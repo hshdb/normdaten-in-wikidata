@@ -31,9 +31,9 @@ Wie jedes Datenbankmanagementsystem legt Wikibase fest, welche Struktur die gesp
 
 ## Inhalte von Wikidata
 
-Grundsätzlich enthält Wikidata **Daten**. Daten bestehen aus Zeichen, die von Computern verarbeitet werden können. Eine allgemein anerkannte Definition von Daten gibt es jedoch nicht. Dies liegt unter anderem daran, das drei verschiedene Sichtweisen auf Daten möglich sind, die im Folgendem erklärt sind.
+Grundsätzlich enthält Wikidata **Daten**. Daten bestehen aus Zeichen, die von Computern verarbeitet werden können. Eine allgemein anerkannte Definition von Daten gibt es jedoch nicht. Dies liegt unter anderem daran, dass drei verschiedene Sichtweisen auf Daten möglich sind, die im Folgendem erklärt sind.
 
-* Die Sicht auf "Daten als Fakten" entspringt einer naiv-naturwissenschaftlichen Weltsicht, nach der Daten Informationen über die Welt repräsentieren oder enthalten. Im Wesentlichen ist Wikidata durch diese Sicht motiviert: Wikidata soll Fakten sammeln und eine Sammlung des Wissens unserer heutigen Zivilisation ermöglichen. 
+* Die Sicht auf "Daten als Fakten" entspringt einer naiv-naturwissenschaftlichen Weltsicht, nach der Daten Informationen über die Welt repräsentieren oder enthalten. Im Wesentlichen ist Wikidata durch diese Sicht motiviert. Wikidata soll Fakten sammeln und eine Sammlung des Wissens unserer heutigen Zivilisation ermöglichen. 
 
 * Im Gegensatz dazu geht die Sicht auf "Daten als Beobachtungen" davon aus, dass alle Angaben über die Welt subjektiv sind. Um Daten zu interpretieren, ist deshalb immer ein Kontext notwendig. Kontexte können unter anderem dabei helfen, verschiedene Bedeutungen von Daten zu erkennen und einzuschätzen wie vertrauenswürdig und nützlich Daten sind. Wikidata sieht mehrere Verfahren zur Angabe von Kontextinformationen vor (siehe die Kapitel zu [Belegen](#belege) und [Qualifikatoren](#qualifikatoren)). Da diese Informationen wiederum selbst nur als Daten vorliegen, lässt sich das Problem der Subjektivität von Daten aber nicht vollständig lösen.
 
