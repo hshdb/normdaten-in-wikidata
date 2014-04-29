@@ -14,18 +14,9 @@
   <http://wikidata.org>
 * Wikidata-Hilfeseite
   <https://www.wikidata.org/w/index.php?title=Help:Contents/de&oldid=66338607&uselang=de>
-* ...
+* Einführung in Wikidata
   <https://www.wikidata.org/wiki/Wikidata:Introduction/de>
-* Liste der Wikidata-Eigenschaften
-  <https://www.wikidata.org/w/index.php?title=Wikidata:List_of_properties/de>
-* Liste der Wikidata-Projektregeln und Richtlinien
-  <https://www.wikidata.org/w/index.php?title=Wikidata:List_of_policies_and_guidelines/de>
-* Hilfe zu Aussagen
-  <https://www.wikidata.org/w/index.php?title=Help:Statements/de>
-* Vorschläge für neue Normdaten-Eigenschaften
-  <https://www.wikidata.org/wiki/Wikidata:Property_proposal/Authority_control>
-* Projektseite der Wikibase-Software
-  <https://www.mediawiki.org/wiki/Wikibase>
+
 
 
 
