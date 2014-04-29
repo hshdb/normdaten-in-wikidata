@@ -5,7 +5,9 @@
 Jede Eigenschaft wird durch eine ID referenziert, die mit `P` anfängt. Beispielsweise steht in Wikidata `P19` für den Geburtsort einer Person. Jede Eigenschaft kann ebenso wie Wikidata-Items mit Übersetzungen (siehe Kapitel [Items benennen und beschreiben](#items-benennen-und-beschreiben)) und Aussagen (siehe Kapitel [Wikidata-Aussagen](#wikidata-aussagen)) beschrieben werden. So lautet beispielsweise die englische Bezeichnung für die Eigenschaft `P19` "place of birth" und die Deutsche Beschreibung "Ort, in dem ein Mensch geboren wurde". 
 
 <div class="example ">
+
 Zur Ansicht und Bearbeitung der Benennungen und weiterer Angaben zu Aussagen hat jede Eigenschaft in Wikidata eine eigene Seite. Die URL dieser Seite lässt sich durch Voranstellen von `https://www.wikidata.org/wiki/Property:` konstruieren.
+
 </div>
 
 Die Eigenschaft `P19` ist beispielsweise im folgenden Screenshot beschrieben.
