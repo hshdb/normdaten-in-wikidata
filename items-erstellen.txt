@@ -1,16 +1,16 @@
 ## Wikidata-Bearbeitungen
-Im nun folgenden Kapitel soll ihnen gezeigt werden, wie man ein Item komplett neu anlegt, wie man Übersetzungen zu Bezeichnungen und Beschreibungen erschafft und wie Aussagen neu definiert bzw. bearbeitet werden können. 
+Im nun folgenden Kapitel soll Ihnen gezeigt werden, wie man ein Item komplett neu anlegt, wie man Übersetzungen zu Bezeichnungen und Beschreibungen erschafft und wie Aussagen neu definiert bzw. bearbeitet werden können. 
 
 ### Neue Items anlegen
 Bevor man ein neues Item erstellt, sollte man überprüfen, ob für das Objekt, für das man ein Item anlegen möchte, [bereits ein Item existiert](https://www.wikidata.org/wiki/Special:ItemByTitle). Die Suche wird im Kapitel [Inhalte finden](#inhalte-finden-in-wikidata) erklärt.
 
 ![Neues Datenobjekt erstellen](images/objekterstellen2.png)
 
-Wenn das Item noch nicht vorhanden ist, bekommt man die Möglichkei, ein neues Item zu erstellen. Man wird mit einem Link auf die Erstellerseite weitergeleitet. Dort muss einmal die Bezeichnung sowie die Beschreibung des zu erstellenden Objekts eingetragen werden. Ist dies geschehen, kommt man auf die Objektseite.
+Wenn das Item noch nicht vorhanden ist, bekommt man die Möglichkeit, ein neues Item zu erstellen. Man wird mit einem Link auf die Erstellerseite weitergeleitet. Dort muss einmal die Bezeichnung sowie die Beschreibung des zu erstellenden Objekts eingetragen werden. Ist dies geschehen, kommt man auf die Objektseite.
 
 ![Seite des neu erstellten Datenobjekts](images/objektseite.png)
 
-Auf der Objektseite hat man die Möglichkeit Änderungen vorzunehmen oder weitere Sprachen beziehungsweise Übersetzungen für die Objektbezeichnung hinzuzufügen.
+Auf der Objektseite hat man die Möglichkeit, Änderungen vorzunehmen oder weitere Sprachen beziehungsweise Übersetzungen für die Objektbezeichnung hinzuzufügen.
 
 Datenobjekte bestehen in der Regel aus einer Vielzahl von Aussagen. Diese enthalten Informationen über die reale Welt und sind der Kernteil jedes Items. Sie gliedern sich in Eigenschaften (property) mit vorgegebenem Vokabular und ihnen zugewiesenen Werten beziehungsweise Inhalten. 
 Für mehr siehe [Kapitel 4](#bestandteile-von-wikidata) oder auch [Help:Aussagen](https://www.wikidata.org/w/index.php?title=Help:Statements/de&oldid=108007039). Eine Übersicht über alle Eigenschaften von Wikidata kann man unter [folgendem Link](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_properties/Summary_table/de&oldid=116061771) finden. Im Anhang dieser Übersicht kann man überprüfen, welche Werte Sie dort eintragen können.
@@ -38,7 +38,7 @@ Für die Anzeige der Liste der Bezeichnungen muss diese zunächst in  in den Ein
 
 ![Liste_der_Bezeichnungen.PNG](images/Liste_der_Bezeichnungen.PNG)
 
-Klickt man da nun darauf, erscheint ein PopUp-Fenster, welches alle Übersetzungen der Bezeichnung enthält. Für eine Änderung bzw. Eintragung einer neuen Itembezeichnung und Itembeschreibung müssen Sie "Bearbeiten" im PopUp-Fenster anwählen. Anschließend geben Sie den [Sprachencode](https://de.wikipedia.org/wiki/Wikipedia:Sprachen#Alle_Wikipedias) ein und nach der Eingabe öffnet sich das Bearbeitungsfenster für die Sprachbezeichnungen, Aliasse und Beschreibungen. Nachdem Sie auf "Speichern" geklickt haben, werden die Änderungen auf der Itemseite angeze
+Klickt man nun darauf, erscheint ein PopUp-Fenster, welches alle Übersetzungen der Bezeichnung enthält. Für eine Änderung bzw. Eintragung einer neuen Itembezeichnung und Itembeschreibung müssen Sie "Bearbeiten" im PopUp-Fenster anwählen. Anschließend geben Sie den [Sprachencode](https://de.wikipedia.org/wiki/Wikipedia:Sprachen#Alle_Wikipedias) ein und nach der Eingabe öffnet sich das Bearbeitungsfenster für die Sprachbezeichnungen, Aliasse und Beschreibungen. Nachdem Sie auf "Speichern" geklickt haben, werden die Änderungen auf der Itemseite angeze
 
 ### Aussagen bearbeiten
 
