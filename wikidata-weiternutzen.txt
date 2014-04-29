@@ -1,6 +1,13 @@
 ## Weiternutzung in anderen Anwendungen
 
-Prinzipiell lässt sich Wikidata auch direkt zum Nachschlagen nutzen. Das volle Potential entfalten die Datenbank allerdings erst durch Einbindung ihrer Inhalte in andere Anwendungen. Dank Freigabe mit der [http://creativecommons.org/publicdomain/zero/1.0/deed.de](CC0 Lizenz) sind die Wikidata-Inhalte uneingeschränkt nutzbar. Im Folgenden werden die praktischen Möglichkeiten der Weiternutzung mit besonderem Schwerpunkt auf Normdaten vorgestellt.
+Prinzipiell kann Wikidata direkt als Datenbank zum Nachschlagen von Informationen genutzt werden. Das volle Potential entfalten die Inhalte allerdings erst durch Einbindung in andere Anwendungen. Dank Freigabe unter der [http://creativecommons.org/publicdomain/zero/1.0/deed.de](CC0 Lizenz) ist dies uneingeschränkt möglich. Im Folgenden werden die praktischen Möglichkeiten der Weiternutzung mit besonderem Schwerpunkt auf Normdaten vorgestellt.
+
+### Alternative Benutzeroberflächen
+
+Die Standard-Benutzeroberfläche von Wikidata ist vor allem auf das [Bearbeiten](#aussagen-bearbeiten) von Inhalten ausgelegt. Zum reinen Stöbern in den Datenbeständen ist diese Ansicht eher unübersichtlich. Eine Alternative bieten Benutzeroberflächen und Anwendungen, die Wikidata-Inhalte in ansprechender Form präsentieren. Ein Beispiel hierfür ist die Webanwendung Reasonator unter
+http://tools.wmflabs.org/reasonator/.
+
+![Alternative Item-Anzeige mit Reasonator](images/reasonator-example.png)
 
 ### Download der Datenbank
 
