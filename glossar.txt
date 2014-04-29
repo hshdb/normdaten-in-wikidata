@@ -70,4 +70,4 @@
   : Ein [Thesaurus](#einführung-in-normdaten) ist eine Sammlung von Schlagworten, welche hierarchisch und thematisch miteinander verknüpft sind. Ein Schlagwort in einem Thesaurus beinhaltet Synonyme, verwandte Begriffe (Assoziationen), Ober- und Unterbegriffe. 
 
 **Wikibase**
-  : [Wikibase](#wikidata-als-datenbank) ist eine von der Wikimedia-Community entwickelte freie Software-Erweiterung. Wikibase hilft dem Anwender, sein Wiki zu einem strukturierten Datenrepository umzubauen. Zu Wikibase' Kernfunktionen gehören die Erstellung von Items, die Erstellung von Beschreibungen, Benennungen und Alternativnamen (Aliase) für Items. 
+  : [Wikibase](#wikidata-als-datenbank) ist eine von der Wikimedia-Community entwickelte freie Software-Erweiterung. Wikibase hilft dem Anwender, sein Wiki zu einem strukturierten Datenrepository umzubauen. Zu Wikibase' Kernfunktionen gehören die Erstellung von Items, die Erstellung von Beschreibungen, Benennungen und Alternativnamen für Items. 
