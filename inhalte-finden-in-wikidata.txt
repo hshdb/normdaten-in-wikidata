@@ -39,7 +39,7 @@ Wie können vorhandene [Aussagen](#wikidata-aussagen), beispielsweise  mit Normd
 
 <div class="example">
 
-Problemstellung: Sie haben Literatur vorliegen mit einer GND Nummer. Wie kommt man nun mithilfe dieser GND auf die entsprechende Internetseite? Welche Werkzeuge kann man verwenden, um dieses Ziel zu erreichen?
+In diesem Beispiel soll geklärt werden, wie Sie am besten vorgehen, wenn Sie eine Literatur mit einer GND Nummer haben. Mit Hilfe dieser besagten GND gelangen Sie auf die entsprechende Internetseite. Weiterhin soll geklärt werden, welche Werkzeuge Sie verwenden sollen, um dieses Ziel zu erreichen. 
 ~~~
 Beispiel:
 http://wikidata-wdq-mm.instance-proxy.wmflabs.org/api?q=string[227:"4028495-5"]
