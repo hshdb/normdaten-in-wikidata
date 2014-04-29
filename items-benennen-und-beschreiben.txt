@@ -17,7 +17,7 @@ Diese Methode ist die komplizierteste der drei Varianten und diese zu erklären,
 
 **Liste der Bezeichnungen**
 
-Das ist die einfachste Methode. Für die Anzeige der Liste der Bezeichnungen muss diese zunächst in den Einstellungen aktiviert werden unter Einstellungen -> Helferlein -> labelLister. Wenn dieses Kästchen angehakt ist, erscheint nun auf der Seite des Items ein weiteres Feld zwischen "Lesen" und "Versionsgeschichte", nämlich die "Liste der Bezeichnungen".
+Das ist die einfachste Methode. Für die Anzeige der Liste der Bezeichnungen muss diese zunächst in den Einstellungen aktiviert werden unter Einstellungen. Wenn dieses Kästchen angehakt ist, erscheint nun auf der Seite des Items ein weiteres Feld zwischen "Lesen" und "Versionsgeschichte", nämlich die "Liste der Bezeichnungen".
 
 ![Liste_der_Bezeichnungen.PNG](images/Liste_der_Bezeichnungen.PNG)
 
