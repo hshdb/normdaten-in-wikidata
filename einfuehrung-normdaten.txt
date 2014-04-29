@@ -4,7 +4,7 @@
 
 Eine **Normdatei** ist ein Verzeichnis von normierten Begriffen zur Verwendung als **Deskriptor** in der Dokumentation. Im Englischen werden Normdateien als „authority files“ bezeichnet. Normierte Begriffe können Personennamen, Körperschaftsnamen und beliebige andere Mengen von Bezeichnungen von Dingen, Vorgängen oder abstrakten Vorstellungen sein. Der Bildung von Normbegriffen liegt eine **Ontologie** (Hierarchie & Relation) zugrunde, die die jeweils zu normierenden Begriffe und die Art der Normierung festlegt. Die Normbegriffe gehören nach Vergabe zu den **Metadaten** des jeweiligen Datensatzes.
 
-Mit **Normdaten** kann man eindeutig auf verschiedene Objekte (beispielsweise Orte, Person, Themen, Organisationen) verweisen. Normdaten werden beispielsweise in Bibliotheken zur Erschließung und zur **Indexierung** von Dokumenten eingesetzt. Beispiele für Normdateien sind die **GND**, die ICD-10 (eine **Klassifikation**) oder der Art & Architecture Thesaurus (ein **Thesaurus**). Einzelne Normdatensätze werden in einer Normdatei durch eindeutige Benennungen ("bevorzugte Benennungen") oder durch ID-Nummern identifiziert.
+Mit **Normdaten** kann man eindeutig auf verschiedene Objekte (beispielsweise Orte, Person, Themen, Organisationen) verweisen. Normdaten werden unter anderem in Bibliotheken zur Erschließung und zur **Indexierung** von Dokumenten eingesetzt. Beispiele für Normdateien sind die **GND**, die ICD-10 (eine **Klassifikation**) oder der Art & Architecture Thesaurus (ein **Thesaurus**). Einzelne Normdatensätze werden in einer Normdatei durch eindeutige Benennungen ("bevorzugte Benennungen") oder durch ID-Nummern identifiziert. Mithilfe von **Mapping** können verschiedenen Informationssystemen interoperal Normadateien abgleichen und eine **Konkordanzen** erstellen. Eine Konkordanz ist eine Liste, in der alle Stellen angegeben sind, in der das gesuchte Wort vorkommt. 
 
 <div class="example">
 Ausschnitt des Normdatensatz zu "Hannover" in der GND, wie er im [Katalog der Deutschen Nationalbibliothek](http://d-nb.info/gnd/4023349-2)  abgerufen werden kann:
@@ -33,4 +33,5 @@ Thema in:
 </div>
 
 Sie sehen hier im Merkkasten ausschnittsweise, dass Hannover der offizielle Name der Stadt ist (bevorzugte Benennung). Daneben gibt es noch andere Bezeichnungen, eine kurze Beschreibung, was der Datensatz beinhaltet und woran dieser Datensatz beteiligt ist (aktiv oder passiv in Publikationen).
+
 
