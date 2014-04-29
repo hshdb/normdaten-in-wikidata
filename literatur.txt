@@ -1,9 +1,5 @@
 # Literaturverzeichnis {.unnumbered}
 
-## Literatur über Wikidata oder Normdaten {.unnumbered}
-
-Artikel, Bücher, Webseiten etc.
-
 * Krötzsch, Markus; Vrandečić, Denny (2014): Wikidata: A Free Collaborative Knowledge Base. 
   In: Communications of the ACM (noch nicht erschienen). Online verfügbar unter <http://research.google.com/pubs/archive/42240.pdf>, zuletzt geprüft am 29.04.2014.
 * Wikipedia (2014): Wikidata. Online verfügbar unter <http://de.wikipedia.org/wiki/Wikidata>, zuletzt geprüft am 29.04.2014.
