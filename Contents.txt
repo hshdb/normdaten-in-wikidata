@@ -12,9 +12,8 @@ wikidata-belege.txt
 normdaten-in-wikidata.txt
 wikidata-startseite.txt
 inhalte-finden-in-wikidata.txt
-items-erstellen.txt
 items-benennen-und-beschreiben.txt
-aussagen-bearbeiten-und-anlegen.txt
+items-erstellen.txt
 eigenschaften-vorschlagen.txt
 wikidata-weiternutzen.txt
 faq.txt
