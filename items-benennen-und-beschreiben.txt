@@ -1,12 +1,3 @@
-## Übersetzungen in Wikidata
-
-Wikidata arbeitet an einem Modell bei dem alle Sprachen beziehungsweise Sprachlinks an einem zentralen Punkt zusammengeführt und verknüpft werden. Auf diese Weise werden alle Wiki-Einträge (in allen Sprachen) an einer zentralen Stelle angezeigt. Es können [Anträge](https://www.wikidata.org/w/index.php?title=Wikidata:Translators%27_noticeboard&oldid=115958854) zur Übersetzung gestellt werden oder Verbesserungsvorschläge und Rechtschreibkorrekturen angemerkt werden. 
-
-![Übersetzungen des Items](images/beispieluebersetzen.jpg)
-
-Anderssprachige Bezeichnungen und Beschreibungen von Items können auf der Seite der jeweiligen Items unter "In anderen Sprachen" eingetragen werden. Wie im Screenshot zu sehen ist, werden automatisch die Sprachen Englisch, Plattdeutsch und Türkisch vorgeschlagen. Da es bereits eine englische Übersetzung gibt, kann diese nicht neu angelegt, sondern nur bearbeitet werden. Plattdeutsch und Türkisch haben noch keine Übersetzungen, also kann der Nutzer einfach in das leere Feld die entsprechende Bezeichnung beziehungsweise Beschreibung eintragen. Hierbei ist Vorsicht angeraten: beim Übersetzen gibt es gewisse [Richtlinien](https://www.wikidata.org/wiki/Help:Sitelinks/de-formal) zu beachten. Es darf beispielsweise nur dann eine Sprache hinzugefügt werden, wenn es dazu auch einen passenden Wikipedia-Artikel in der jeweiligen Sprache gibt.
-
-
 ## Spracheinstellung in Wikidata
 Sie fragen sich vielleicht, warum gerade Englisch, Plattdeutsch und Türkisch als Sprachen vorgeschlagen werden. Es werden immer drei Sprachen aufgelistet und diese drei sind diejenigen, die in der Region des Nutzers (in diesem Fall also Deutschland) gesprochen werden ([Quelle](https://www.wikidata.org/wiki/Help:Multilingual/de)).
 
