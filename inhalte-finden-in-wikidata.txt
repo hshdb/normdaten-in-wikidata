@@ -8,11 +8,12 @@ Um vorhandene [Items](#wikidata-items) zu finden gibt es zwei wesentliche Suchm�
 
 1. Die Eingabe eines Suchbegriffes in das Suchfeld. Es können hierbei unterschiedliche Ergebnisse angezeigt werden (Suchergebnisliste). Zu beachten ist, dass die Suche mit der Enter-Taste oder dem Klick auf das Lupensymbol ausgelöst werden muss. Bei der manuellen Auswahl einer Vorschau der Suchergebnisse nach der Eingabe eines Suchbegriffes führt zu einer konkreten Item-Seite (s.u.).  
 
-![Suchergebnisliste.png](images/Suchergebnisliste.png)
+![Suchergebnisliste](images/Suchergebnisliste.jpg)
 
 2. Die Eingabe einer konkreten Bezeichnung des Items und der manuellen Auswahl nach der Anzeige der Vorschauergebnisse. Das bevorzugte Ergebnis kann mit der Maus oder der Tastatur ausgewählt werden (+Enter-Taste). 
 
-![Vorschau_Suchergebnisse.png](images/Vorschau_Suchergebnisse.png)
+![Suchergebnisvoranzeige](images/Suchergebnisvoranzeige.jpg)
+
 
 Weitere Suchoptionen kann man am einfachsten einblenden, wenn man die Enter-Taste in einem leeren Suchfeld betätigt (s. "erweiterte_Suchoptionen"). Auf dieser Seite kann man entscheiden, ob man nach "Inhaltsseiten", "Multimedia", "Hilfe- und Projektseiten", "Übersetzungen" oder nach Allem ("Alles") suchen möchte. 
 
