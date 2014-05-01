@@ -17,9 +17,12 @@ Um vorhandene [Items](#wikidata-items) zu finden gibt es zwei wesentliche Suchm�
 
 Weitere Suchoptionen kann man am einfachsten einblenden, wenn man die Enter-Taste in einem leeren Suchfeld betätigt. Auf dieser Seite kann man entscheiden, ob man nach "Inhaltsseiten", "Multimedia", "Hilfe- und Projektseiten", "Übersetzungen" oder nach Allem ("Alles") suchen möchte. 
 
-![Erweiterte Suche](images/Suchen_Erweitert.PNG)
+![Erweiterte_Suche.PNG](images/Erweiterte_Suche.PNG)
 
-![Auswahlmöglichkeiten bei der erweiterten Suche](images/Suchen_Auswahlm_glichkeiten.PNG)
+
+
+![Auswahlm_glichkeiten_bei_der_erweiterten_Suche.PNG](images/Auswahlm_glichkeiten_bei_der_erweiterten_Suche.PNG)
+
 
 Begrifferklärungen/Menüpunkte
 
