@@ -47,7 +47,8 @@ Um eine neue Aussage zu erstellen, muss man auf "hinzufügen" am Ende der Aussag
 
 Wie auf den Screenshots zu sehen, können Aussagen zusätzlich mit [Belegen](#belege) versehen werden.
 
-![Neue Aussage hinzufügen](images/neue-aussage.png)
+![Neue_Aussage_hinzuf_gen.PNG](images/Neue_Aussage_hinzuf_gen.PNG)
+
 
 ### Neue Eigenschaften vorschlagen
 
