@@ -39,11 +39,11 @@ Klickt man nun darauf, erscheint ein PopUp-Fenster, welches alle Übersetzungen 
 
 ![Aussagen](images/aussagen.png)
 
-Aussagen lassen sich bei Wikidata auf der Seite des Items bearbeiten und anlegen. Mit einem Klick auf "bearbeiten" (sehen Sie obiger Screenshot) kann man den Wert einer schon bestehenden Eigenschaft bearbeiten. Bei Klicken auf "hinzufügen" ist es möglich, einen neuen Wert zu erstellen. Allerdings können die Begriffe nicht frei gewählt werden, man muss aus einem Pool bereits bestehender und von Wikidata normierten Begriffen auswählen. Das Bearbeiten eines Werts sieht folgendermaßen aus:
+Aussagen lassen sich bei Wikidata auf der Seite des Items bearbeiten und anlegen. Mit einem Klick auf "bearbeiten" (siehe oben), kann man den Wert einer schon bestehenden Eigenschaft bearbeiten. Bei Klicken auf "hinzufügen" ist es möglich, einen neuen Wert zu erstellen. Allerdings können die Begriffe nicht frei gewählt werden, man muss aus einem Pool bereits bestehender und von Wikidata normierten Begriffen auswählen. Das Bearbeiten eines Werts sieht folgendermaßen aus:
 
 ![Aussage bearbeiten](images/aussage-bearbeiten.png)
 
-Um eine neue Aussage zu erstellen, muss man auf das "hinzufügen" am Ende der Aussagenliste klicken (rote Umrandung). Auch die Begriffe für die Eigenschaften sind nicht frei wählbar, sie müssen ebenfalls aus einer bestehenden Liste ausgewählt werden.
+Um eine neue Aussage zu erstellen, muss man auf "hinzufügen" am Ende der Aussagenliste klicken (siehe unten, rote Umrandung). Auch die Begriffe für die Eigenschaften sind nicht frei wählbar, sie müssen ebenfalls aus einer bestehenden Liste ausgewählt werden.
 
 Wie auf den Screenshots zu sehen, können Aussagen zusätzlich mit [Belegen](#belege) versehen werden.
 
@@ -51,7 +51,7 @@ Wie auf den Screenshots zu sehen, können Aussagen zusätzlich mit [Belegen](#be
 
 ### Neue Eigenschaften vorschlagen
 
-Nur Administratoren und [Eigenschaftenersteller](https://www.wikidata.org/wiki/Wikidata:Property_creators/de) können neue Wikidata-Eigenschaften erstellen. Normale User müssen eine neue Eigenschaft [vorschlagen](https://www.wikidata.org/wiki/Wikidata:Property_proposal/de) und dieser Vorschlag wird dann geprüft. Bevor Sie aber eine neue Eigenschaft anbieten, beachten Sie bitte folgendes: 
+Nur Administratoren und [Eigenschaftenersteller](https://www.wikidata.org/wiki/Wikidata:Property_creators/de) können neue Wikidata-Eigenschaften erstellen. Normale User können eine neue Eigenschaft [vorschlagen](https://www.wikidata.org/wiki/Wikidata:Property_proposal/de) und dieser Vorschlag wird dann geprüft. Bevor Sie aber eine neue Eigenschaft in die Diskussion einbringen, beachten Sie bitte folgendes: 
 
 1. Überprüfen Sie in der [Liste der Eigenschaften](https://www.wikidata.org/wiki/Wikidata:List_of_properties/de), ob die Eigenschaft bereits existiert.
 2. Überprüfen Sie, ob die Eigenschaft bereits vorgeschlagen oder abgelehnt wurde.
