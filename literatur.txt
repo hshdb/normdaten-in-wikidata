@@ -12,15 +12,23 @@
 ## Hilfreiche Seiten in Wikidata {.unnumbered}
 
 * Wikidata-Startseite
-  <http://wikidata.org>
+<http://wikidata.org>
 * Wikidata-Hilfeseite
   <https://www.wikidata.org/w/index.php?title=Help:Contents/de&oldid=66338607&uselang=de>
+* Hilfe: Ranking
+<https://www.wikidata.org/wiki/Help:Ranking?uselang=de>
+* Hilfe: Belege
+<http://www.wikidata.org/wiki/Help:Sources/de>
+* Wikidata: Liste der Projektregeln und Richtlinien
+<https://www.wikidata.org/w/index.php?title=Wikidata:List_of_policies_and_guidelines/de&oldid=102532266>
 * Einführung in Wikidata
   <https://www.wikidata.org/wiki/Wikidata:Introduction/de>
 * Liste der Wikidata-Eigenschaften
 <https://www.wikidata.org/wiki/Wikidata:List_of_properties/de>
 * Wikidata Schritt für Schritt bearbeiten
 <http://upload.wikimedia.org/wikipedia/commons/9/94/How_to_Edit_Wikidata.pdf>
+* Das Datenmodell der Wikibase
+<https://www.mediawiki.org/wiki/Wikibase/DataModel>
 * Weitere Projekte von Wikimedia
 <http://de.wikipedia.org/w/index.php?title=Wikipedia:Schwesterprojekte&oldid=127371039>
 
