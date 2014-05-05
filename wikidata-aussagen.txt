@@ -16,10 +16,12 @@ Qualifikatoren können auf drei unterschiedliche Arten eingesetzt werden. Die er
 beispielsweise eine Beschränkung der Jahreszahl bei einer Volkszählung. Die dritte Art der Qualifikatoren gibt weitere Details zu einer Aussage an, wie zum Beispiel der Beginn und Endzeitpunkt einer Herrschaft. 
 
 <div class="example ">
+
 Beispiel für - Berlin (Q64)(Objekt):
 Bevölkerung (Eigenschaft): 3'500'000 (Wert der Eigenschaft)
 point in time (P585): (Qualifikator): 2005 (Wert des Qualifikators)
 determination method (P459) (Qualifikator): Schätzung (Wert des Qualifikators)
+
 </div>
 
 Weitere Informationen zu Qualifikatoren stehen in Wikidata in der [Liste von Qualifikatoren](https://www.wikidata.org/wiki/Help:Qualifiers/de). 
