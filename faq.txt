@@ -34,5 +34,9 @@ Sie finden es im Glossar. Siehe [Glossar](http://hshwd.jakobvoss.de/normdaten-in
  **6.Wie benutze ich Quellen?**
  Belege bestehen aus mindestens einer Eigenschaft und einem Wert.
 Lesen Sie [Kapitel 4.3.3 Belege](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#belege "Kapitel 4.3.3 Belege") sowie [Hilfe: Belege](http://www.wikidata.org/wiki/Help:Sources/de "Hilfe: Belege")
+
+**Wie arbeitet die Suche?**
+Die beiden wichtigsten Möglichkeiten sind Suche (die umfassendste Suche über Sprachgrenzen hinweg) und Datenobjekte nach Titel, die nach einem Datensatz zu einem Wikipedia-Artikel in der ausgewählten Sprache. Hier muss der Titel genau gleich sein wie der Eintrag, den Sie suchen. Bitte probieren Sie beide Möglichkeiten aus, damit Sie einen Eintrag auch wirklich finden können.
+Siehe [Kapitel 6.3 Inhalte finden in Wikidata](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#inhalte-finden-in-wikidata "Kapitel 6.3 Inhalte finden in Wikidata")
  
 
