@@ -25,6 +25,10 @@ und wie Sie in Abbildung 4 sehen wurde auf der Benutzeroberfläche die 		Sprache
  Die Eigenschaften sind in verschiedenen Sprachen vorhanden. Die Begriffe sind vorgegeben, damit eine problemlose Übersetzung ermöglicht wird. Bei fehlenden Begriffen können diese der Communitie vorgeschlagen werden. Siehe [Neue Wikidata Eigenschaften](#neue-wikidata-eigenschaften-erstellen) erstellen. 
  
  **4.Wie erzeuge ich ein neues Objekt (Item)?**
- 
+ Überprüfen Sie, ob das Objekt bereits vorhanden ist!
+Wenn das Item noch nicht vorhanden ist, erhalten Sie die Möglichkeit ein neues Item zu erstellen. Man wird mit einem Link auf die Erstellungsseite weitergeleitet. Dort muss die Bezeichnung sowie die Beschreibung des zu erstellenden Items eingetragen werden. Ist dies geschehen, kommt man auf die Itemseite. Siehe [Kapitel 6.4.1 Neue Items anlegen](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#neue-items-anlegen "Items anlegen")
+
+**5.Ich beherrsche die Wikidata-Terminologie noch nicht. Wo werden die Bezeichnungen der Benutzeroberfläche erklärt?**
+Sie finden es im Glossar. Siehe [http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#glossar](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#glossar "Glossar")
  
 
