@@ -43,11 +43,11 @@ Aussagen lassen sich bei Wikidata auf der Seite des Items bearbeiten und anlegen
 
 ![Aussage bearbeiten](images/aussage-bearbeiten.png)
 
-Um eine neue Aussage zu erstellen, muss man auf "hinzufügen" am Ende der Aussagenliste klicken (siehe unten, rote Umrandung). Auch die Begriffe für die Eigenschaften sind nicht frei wählbar, sie müssen ebenfalls aus einer bestehenden Liste ausgewählt werden.
+Um eine neue Aussage zu erstellen, muss man auf "hinzufügen" am Ende der Aussagenliste klicken (siehe unten, blaue Umrandung). Auch die Begriffe für die Eigenschaften sind nicht frei wählbar, sie müssen ebenfalls aus einer bestehenden Liste ausgewählt werden.
 
 Wie auf den Screenshots zu sehen, können Aussagen zusätzlich mit [Belegen](#belege) versehen werden.
 
-![Neue_Aussage_hinzuf_gen.PNG](images/Neue_Aussage_hinzuf_gen.PNG)
+![Neue Aussage hinzufügen](images/Neue_Aussage_hinzuf_gen.PNG)
 
 
 ### Neue Eigenschaften vorschlagen
