@@ -9,7 +9,9 @@ Diese Methode ist die komplizierteste der drei Varianten und diese zu erklären,
 
 **Babel-Bausteine**
 
-![Babel-Baustein](images/babel.jpg) Babel-Bausteine werden in die Benutzerseite geschrieben und dienen der Definition der eigenen Sprachkenntnisse. Nur die in den Bausteinen erwähnten Sprachen werden dann im Abschnitt "In anderen Sprachen" angezeigt. Um die Babel-Bausteine zu aktivieren, klickt man oben in der Leiste auf seinen Benutzernamen und gibt dort in die Benutzerbeschreibung den Baustein-Code, zum Beispiel `{{#babel:en|de-3|fr-2|es-1|it-0}}`, ein. Die Zahlen stehen hierbei für die Sprachkenntnisse, wobei 0 keine Kenntnisse bedeutet. Nach dem Speichern werden die Sprachkenntnisse auf der Benutzerseite wie abgebildet in einem Kasten dargestellt.
+![Babel-Baustein](images/babel.jpg) 
+
+Babel-Bausteine werden in die Benutzerseite geschrieben und dienen der Definition der eigenen Sprachkenntnisse. Nur die in den Bausteinen erwähnten Sprachen werden dann im Abschnitt "In anderen Sprachen" angezeigt. Um die Babel-Bausteine zu aktivieren, klickt man oben in der Leiste auf seinen Benutzernamen und gibt dort in die Benutzerbeschreibung den Baustein-Code, zum Beispiel `{{#babel:en|de-3|fr-2|es-1|it-0}}`, ein. Die Zahlen stehen hierbei für die Sprachkenntnisse, wobei 0 keine Kenntnisse bedeutet. Nach dem Speichern werden die Sprachkenntnisse auf der Benutzerseite wie abgebildet in einem Kasten dargestellt.
 
 
 
