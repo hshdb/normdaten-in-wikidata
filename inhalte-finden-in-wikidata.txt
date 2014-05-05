@@ -4,39 +4,31 @@ Dieses Kapitel zeigt wie sie in Wikidata die Suche verwenden können, um [Items]
 
 ### Suche nach Items
 
-Um vorhandene [Items](#wikidata-items) zu finden gibt es zwei wesentliche Suchmöglichkeiten:
-
-1. Die Eingabe eines Suchbegriffes in das Suchfeld. Es können hierbei unterschiedliche Ergebnisse angezeigt werden (Suchergebnisliste). Zu beachten ist, dass die Suche mit der Enter-Taste oder dem Klick auf das Lupensymbol ausgelöst werden muss. Bei der manuellen Auswahl einer Vorschau der Suchergebnisse nach der Eingabe eines Suchbegriffes führt zu einer konkreten Item-Seite (s.u.).  
+Um vorhandene [Items](#wikidata-items) zu finden gibt es hauptsächlich zwei Herangehensweisen: die Eingabe eines Suchbegriffes in das Suchfeld. Es können hierbei unterschiedliche Ergebnisse angezeigt werden (Suchergebnisliste). Zu beachten ist, dass die Suche mit der Enter-Taste oder dem Klick auf das Lupensymbol ausgelöst werden muss. Bei der manuellen Auswahl einer Vorschau der Suchergebnisse nach der Eingabe eines Suchbegriffes führt zu einer konkreten Item-Seite (s.u.).  
 
 ![Suchergebnisliste](images/Suchergebnisliste.jpg)
 
-2. Die Eingabe einer konkreten Bezeichnung des Items und der manuellen Auswahl nach der Anzeige der Vorschauergebnisse. Das bevorzugte Ergebnis kann mit der Maus oder der Tastatur ausgewählt werden (+Enter-Taste). 
+Die andere Möglichkeit ist die Eingabe einer konkreten Bezeichnung des Items und der manuellen Auswahl nach der Anzeige der Vorschauergebnisse. Das bevorzugte Ergebnis kann mit der Maus oder der Tastatur ausgewählt werden (+Enter-Taste). 
 
 ![Suchergebnisvoranzeige](images/Suchergebnisvoranzeige.jpg)
 
-
 Weitere Suchoptionen kann man am einfachsten einblenden, wenn man die Enter-Taste in einem leeren Suchfeld betätigt. Auf dieser Seite kann man entscheiden, ob man nach "Inhaltsseiten", "Multimedia", "Hilfe- und Projektseiten", "Übersetzungen" oder nach Allem ("Alles") suchen möchte. 
 
-![Erweiterte_Suche.PNG](images/Erweiterte_Suche.PNG)
+![Erweiterte Suche ](images/Erweiterte_Suche.PNG)
 
 
+![Auswahlmöglichkeiten bei der erweiterten Suche](images/Auswahlm_glichkeiten_bei_der_erweiterten_Suche.PNG)
 
-![Auswahlm_glichkeiten_bei_der_erweiterten_Suche.PNG](images/Auswahlm_glichkeiten_bei_der_erweiterten_Suche.PNG)
-
-
-Begrifferklärungen/Menüpunkte
+**Begrifferklärungen/Menüpunkte**
 
 Auf den Inhaltsseiten kann man nach sämtlichen Objekten von Wikidata suchen. Über den Reiter Multimedia können Dateien gefunden werden (hauptsächlich Bilder), die in Aussagen verknüpft sind (aus Wikimedia Commons). Mit dem Reiter Hilfe- und Projektseiten ist es dem Benutzer möglich, nach Hilfen und anderen Erklärungen zu Elementen der Wikidata-Benutzung zu suchen. 
 Die Reiter für Übersetzungen und Alles funktionieren nach dem gleichen Prinzip: **in Ersterem sucht man nach übersetzten Wikidataseiten????** und in Zweiterem kann man alle zuvorgenannten Bereiche zugleich absuchen, wenn zum Beispiel unklar ist, was genau gesucht wird. 
-
-
 
 ### Suche nach Eigenschaften
 
 Ist man auf der Suche nach einer [Eigenschaft](#wikidata-eigenschaften) gibt es zwei Möglichkeiten, um eine Suche erfolgreich zu gestalten. Die Seite [Liste der Eigenschaften](https://www.wikidata.org/wiki/Wikidata:List_of_properties/de) verlinkt zu einer (unvollständigen) Übersicht und zu einer Suchmaske, in welcher man gezielt nach Eigenschaften suchen kann. Diese Möglichkeit ist dann sinnvoll, wenn man eine Eigenschaftsbezeichnung bereits kennt. 
 
-![Suche_nach_Eigenschaften.PNG](images/Suche_nach_Eigenschaften.PNG)
-
+![Suche nach Eigenschaften](images/Suche_nach_Eigenschaften.PNG)
 
 Wenn der Name der Eigenschaft nicht bekannt ist, gibt es die Möglichkeit mit Hilfe einer [Eigenschaftentabelle](https://www.wikidata.org/wiki/Wikidata:List_of_properties/Summary_table) diese Eigenschaft zu ermitteln. 
 
