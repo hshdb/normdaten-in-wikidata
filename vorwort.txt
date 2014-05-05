@@ -1,6 +1,6 @@
 # Vorwort {.unnumbered}
 
-Dieses Handbuch entstand innerhalb von drei Monaten im Rahmen eines Projektseminars an der Hochschule Hannover (HsH). Neun Studierende des Bachelor-Studiengangs Informationsmanagement hatten im 6. Semester unter Projektleitung von Jakob Voß die Aufgabe, ohne wesentliche Vorkenntnisse ein Handbuch zum Thema "Normdaten in Wikidata" zu erstellen. Die Hauptautorinnen und -Autoren dieses Handbuchs sind Franziska Ludemann, Viktoria Berkelmann, Janna Kitroschat, Jasmin Bogner, Julian Schmitt, Katharina Seljuziki, Maiia Bartoshevska, Oliver Löffel und Susanna Bausch.
+Dieses Handbuch entstand innerhalb von drei Monaten im Rahmen eines Projektseminars an der Hochschule Hannover (HsH). Neun Studierende des Bachelor-Studiengangs Informationsmanagement hatten im 6. Semester unter Projektleitung von Jakob Voß die Aufgabe, ohne wesentliche Vorkenntnisse ein Handbuch zum Thema "Normdaten in Wikidata" zu erstellen. Die Hauptautorinnen und -Autoren dieses Handbuchs sind Franziska Ludemann, Viktoria Berkelmann, Janna Kitroschat, Jasmin Bogner, Julian Schmitt, Katharina Seljuzki, Maiia Bartoshevska, Oliver Löffel und Susanna Bausch.
 
 Zur Verwaltung der Inhalte dieses Handbuchs wird ein Repository des Versionskontrollsystem *git* verwendet, das alle Bearbeitungsschritte und Änderungen beinhaltet. 
 
