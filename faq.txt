@@ -31,4 +31,8 @@ Wenn das Item noch nicht vorhanden ist, erhalten Sie die Möglichkeit ein neues 
 **5.Ich beherrsche die Wikidata-Terminologie noch nicht. Wo werden die Bezeichnungen der Benutzeroberfläche erklärt?**
 Sie finden es im Glossar. Siehe [Glossar](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#glossar "Glossar")
  
+ **6.Wie benutze ich Quellen?**
+ Belege bestehen aus mindestens einer Eigenschaft und einem Wert.
+Lesen Sie [Kapitel 4.3.3 Belege](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#belege "Kapitel 4.3.3 Belege") sowie [Hilfe: Belege](http://www.wikidata.org/wiki/Help:Sources/de "Hilfe: Belege")
+ 
 
