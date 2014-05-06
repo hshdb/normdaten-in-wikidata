@@ -12,9 +12,9 @@ Es gibt einige [Ausnahmen](http://www.wikidata.org/wiki/Help:Sources/Itemsnotnee
 
 </div>
 
-Belege bestehen aus mindestens einer Eigenschaft und einem Wert. Die erste Aussage des Items [Deutschland <code>(Q183)</code>](https://www.wikidata.org/wiki/Q183)  lautet "Mitglied von Welthandelsorganisation". Zu dieser Aussage gibt es drei Belege:
+Belege bestehen aus mindestens einer Eigenschaft und einem Wert. Die erste Aussage des Items [Deutschland <code>(Q183)</code>](https://www.wikidata.org/wiki/Q183) lautet "Mitglied von Welthandelsorganisation". Zu dieser Aussage gibt es drei Belege. Jeder Beleg setzt sich zusammen aus "Datenherkunft", "URL" und "Zitat". 
 
-![Aussage mit drei Belegen](images/Aussage_Quelle_Deutschland.png)
+![Aussage mit drei Einzelnachweisen](images/einzelnachweise.jpg)
 
 Der erste Beleg ist komplett aufgeklappt im Screenshot zu sehen. Genauer betrachtet ist der Beleg in drei Eigenschaften aufgegliedert. "Datenherkunft", "URL" und "Zitat" sind jeweils die Eigenschaften und das darauf Folgende (für "Datenherkunft" zum Beispiel "Bundesministerium für Wirtschaft und Technologie") sind Werte.
 
