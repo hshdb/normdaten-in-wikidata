@@ -1,0 +1,260 @@
+id,de,en,desciption,label,url
+1003,"NLR (Rumänien)","NLR (Romania) identifier","Normdatei der Rumänischen Nationalbibliothek (Biblioteca Națională a României)", NLR (Romania) identifier, http://alephnew.bibnat.ro:8991/F?func=find-b&request={ID}&find_code=SYS&adjacent=Y&local_base=NLR10
+1004,MusicBrainz-Location-ID,"MusicBrainz place ID","Identifikationsnummer des Veranstaltungsortes oder Studios in MusicBrainz", MusicBrainz Place ID, //musicbrainz.org/place/{ID}
+1005,PTBNP,"PTBNP identifier","Normdatei der Portugiesischen Nationalbibliothek (Biblioteca Nacional de Portugal)", PTBNP identifier, http://purl.pt/index/geral/aut/PT/{ID}.html
+1006,NTA-Nummer,"NTA identifier (Netherlands)","Normdatei der Königlichen Bibliothek der Niederlande", NTA name identifier, http://opc4.kb.nl/PPN?PPN={ID}
+1014,"Art & Architecture Thesaurus ID","Art & Architecture Thesaurus ID","ID im Art & Architecture Thesaurus des Getty Research Institute", AAT, http://vocab.getty.edu/aat/{ID}
+1015,BIBSYS,"BIBSYS identifier","Normdatei des norwegischen Bibliotheksdienstes"
+1017,"BAV (Vatikan)","BAV (Vatican Library) identifier","Normdatei der Vatikanischen Apostolischen Bibliothek (lat. ""Bibliotheca Apostolica Vaticana"")"
+1024,,"SBFI occupation code",
+1025,"SUDOC Editionen","SUDOC editions","Eintrag im französischen Verbundkatalog für Bücher und andere Medien (s. auch P269)", SUDOC catalog (editions only), http://www.sudoc.fr/{ID}
+1036,DDC,"Dewey Decimal Classification","Klassifikation für die inhaltliche Erschließung (Verwendung mit dem Qualifikator P747: Ausgabe)", DDC, http://dewey.info/class/{ID}/about
+1042,ZDB-ID,"ZDB identifier","Datensatz der Zeitschriftendatenbank", ZDB identifier, http://dispatch.opac.d-nb.de/DB=1.1/CMD?ACT=SRCHA&IKT=8506&TRM={ID}
+1043,"IDEO Job ID","IDEO Job ID",, IDEO Job ID, http://www.onisep.fr/onisep-portail/portal/media-type/html/group/gp/page/interieur.espace.guide.metiers.detail/js_peid/InitGuideResultatDetail/js_peid/GuideResultatMetiersDetail?typeRecherche=metierParNom&ficheIdeo={ID}
+1044,"SWB Online-Katalog","SWB editions","Link zum Katalog des Südwestdeutschen Bibliotheksverbundes", SWB editions (union catalog), http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN={ID}&INDEXSET=1
+1045,Sycomore-ID,"Sycomore ID","Identifikationsummer einer Person in der Sycomore-Datenbank der französischen Nationalversammlung", Sycomore, http://www.assemblee-nationale.fr/sycomore/fiche.asp?num_dept={ID}
+1047,Katholische-Hierarchie-ID,"Catholic Hierarchy ID","ID einer Person auf  catholic-hierarchy.org", Catholic Hierarchy, http://www.catholic-hierarchy.org/bishop/b{ID}.html
+1048,"NCL (Taiwan)","NCL identifier","Normdateneintrag in der Nationalbibliothek Taiwans (National Central Library)", NCL identifier, http://aleweb.ncl.edu.tw/F/?func=accref&acc_sequence={ID}
+1051,PSH-ID,"PSH ID","Identifikator für die Datenbank der Tschechischen Technischen Bibliothek", PSH, http://pshmanager.techlib.cz/psh_csv
+1053,ResearcherID,ResearcherID,, ResearcherID, http://www.researcherid.com/rid/{ID}
+1054,"NDL Editionen","NDL editions","Katalogeintrag in der Nationalen Parlamentsbibliothek (NDL) Japans für Bücher und andere Medien (s. auch P349)", NDL editions, http://iss.ndl.go.jp/books?op_id=1&any={ID}
+1055,NLM-ID,"NLM ID","Katalog der US-amerikanischen Medizinischen Nationalbibliothek (NLM)", NLM, //www.ncbi.nlm.nih.gov/nlmcatalog/{ID}
+1058,ERA-Journal-ID,"ERA Journal ID",, ERA ID, http://lamp.infosys.deakin.edu.au/era/?page=jnamedet12f&eraid={ID}
+1059,CVR,CVR,"Nummer im dänischen Centrale Virksomhedsregister für Organisationen", CVR identifier, http://cvr.dk/Site/Forms/PublicService/DisplayCompany.aspx?cvrnr={ID}
+1067,"thailändische Verwaltungsstrukturkennziffer","Thailand central administrative unit code","numerischer Code der Verwaltungseinheiten Thailands"
+1070,PlantList-ID,PlantList-ID,"Identifikator für den wissenschaftlichen Namen eines Taxons in der Datenbank „The Plant List“", PlantList, http://www.theplantlist.org/tpl1.1/record/{ID}
+1076,ICTV-ID,"ICTV virus ID","Identifikator des Virus beim International Committee on Taxonomy of Viruses"
+1077,KOATUU-Schlüssel,"KOATUU identifier","Schlüssel zur Klassifizierung administrativer Objekte der Ukraine"
+1084,"EUL Katalog","EUL editions","Verbundkatalog der ägyptischen Universitätsbibliotheken", EUL control number, http://srv3.eulc.edu.eg/eulc_v5/libraries/Start.aspx?fn=ApplySearch&BibID={ID}
+1085,LibraryThing-Werk-ID,"LibraryThing work identifier","numerische Buch-Kennung des gleichnamigen Literaturverwaltungsprogramms", LibraryThing work identifier, http://www.librarything.com/work/{ID}
+1115,ATVK-ID,"ATVK ID","Identifikator für Verwaltungseinheiten in Lettland"
+1133,DGO4-Nummer,"DGO4 identifier",, DGO4 classified properties ID, http://lampspw.wallonie.be/dgo4/site_thema/index.php?details={ID}&thema=bc_pat
+1138,"Kunstindex Danmark","Kunstindeks Danmark",, Kunstindeks Danmark, https://www.kulturarv.dk/kid/VisKunstner.do?kunstnerId={ID}
+1144,"LoC Editionen","LCOC LCCN (bibliographic)","Katalogeintrag in der Library of Congress (LoC) für Bücher und andere Medien (s. auch P244)", LCCN editions, http://lccn.loc.gov/{ID}
+1146,IAAF-ID,"IAAF ID",, IAAF ID, http://www.iaaf.org/athletes/athlete={ID}
+1153,Scopus-Autor-ID,"Scopus Author ID",
+1156,Scopus-Quelle-ID,"Scopus Source ID",
+1159,CODEN,CODEN,
+1160,,"ISO 4 abbreviation",
+1182,"LIBRIS Editionen","LIBRIS editions",, LIBRIS editions, http://libris.kb.se/bib/{ID}
+1190,"Universelle Dezimalklassifikation","Universal Decimal Classification","Klassifikation für die inhaltliche Erschließung"
+1207,"NUKAT Normdaten","NUKAT authorities","Normdateneintrag im polnischen Verbundkatalog NUKAT"
+1212,"Atlas ID","Atlas ID",
+1216,,"English Heritage list number",
+1220,,"Internet Broadway Database person ID",
+1222,NARA-Personen-ID,"NARA person ID",, NARA person authority control, http://research.archives.gov/person/{ID}
+1223,,"NARA organization ID",, NARA organization authority control, http://research.archives.gov/organization/{ID}
+1224,,"NARA geographic ID",, NARA geographic authority control, http://research.archives.gov/geographic-reference/{ID}
+1225,,"NARA topical subject ID",, NARA subject authority control, http://research.archives.gov/topical-subject/{ID}
+1226,,"NARA specific records type ID",, NARA records type authority control, http://research.archives.gov/specific-records-type/{ID}
+1229,Openpolis-ID,"Openpolis ID",
+1231,,"NARA catalogue record ID",, NARA online catalog, research.archives.gov/description/{ID}
+1237,,"Box Office Mojo film ID",, Box Office Mojo film ID, http://boxofficemojo.com/movies/?id={ID}.htm
+1238,,"Swedish Football Association ID",, Swedish Football Association playerid, http://svenskfotboll.se/allsvenskan/person/?playerid={ID}
+1245,"Bedeutungsdefinition in OmegaWiki","OmegaWiki Defined Meaning","""DefinedMeaning""-Kennzeichnungsnummer in OmegaWiki"
+1250,,"Danish Bibliometric Research Indicator (BFI) SNO/CNO",
+212,ISBN-13,ISBN-13,"Internationale Standardbuchnummer (Vorgänger: ISBN-10, s. P957)"
+213,ISNI,"ISNI (ISO 27729)","International Standard Name Identifier (Eingabe mit Leerzeichen. Beispiel: 0000 0001 0886 1508.)", ISNI, http://www.isni.org/{ID}
+214,VIAF,"VIAF identifier","virtuelle internationale Normdatei für Personendaten (bitte nur individualisierte VIAFs eintragen, d.h. Nummern ohne den Vermerk ""undifferentiated"")", VIAF, //viaf.org/viaf/{ID}/
+215,Spektralklasse,"spectral class","Klassifizierung astronomischer Objekte nach dem Spektrum"
+218,"ISO 639-1","ISO 639-1","Kennung für Namen von Sprachen von der Internationalen Organisation für Normung"
+219,"ISO 639-2","ISO 639-2","Kennung für Namen von Sprachen von der Internationalen Organisation für Normung"
+220,"ISO 639-3","ISO 639-3","Kennung für Namen von Sprachen von der Internationalen Organisation für Normung", ISO 639-3, http://www-01.sil.org/iso639-3/documentation.asp?id={ID}
+225,"wissenschaftlicher Name","taxon name","wissenschaftliche Benennung des Lebewesens", taxon name, //species.wikimedia.org/wiki/{ID}
+227,GND-Nummer,"GND identifier","internationale Normdatei für Personennamen, Körperschaften und Schlagworte (bitte nicht Typ n eintragen = Name, mehrdeutig)", GND, http://d-nb.info/gnd/{ID}
+231,CAS-Nummer,"CAS registry number","internationaler Bezeichnungsstandard für chemische Stoffe", CAS, //tools.wmflabs.org/magnustools/cas.php?cas={ID}
+232,EINECS-Nummer,"EINECS number","Altstoffverzeichnis der EU"
+233,SMILES,SMILES,"chemischer Strukturcode", SMILES molecular spec, http://chemapps.stolaf.edu/jmol/jmol.php?model={ID}
+234,InChI,InChI,"Internationale chemische Bezeichnung der IUPAC", InChl chem ID, http://chemapps.stolaf.edu/jmol/jmol.php?&model=InChI={ID}
+235,InChIKey,InChIKey,, InChIKey, //www.ncbi.nlm.nih.gov/sites/entrez?cmd=search&db=pccompound&term=%22{ID}%22[InChIKey]
+236,ISSN,ISSN,"Internationale Standardnummer für fortlaufende Sammelwerke", ISSN, //www.worldcat.org/search?fq=x0:jrnl&q=n2:{ID}
+238,IATA-Flughafencode,"IATA airport code","alphanumerischer Code für Flughäfen"
+239,ICAO-Flughafencode,"ICAO airport code","alphanumerischer Code für Flughäfen"
+243,OCLC,"OCLC control number","OCLC-Nummer in WorldCat"
+244,LCNAF,"LCNAF identifier","Normdatensatz der Library of Congress (für einzelne Bücher siehe P1144)", LCCN, http://lccn.loc.gov/{ID}
+245,ULAN,"Union List of Artist Names","Identifikationsnummer in der Union List of Artist Names", ULAN, //www.getty.edu/vow/ULANFullDisplay?find=&role=&nation=&subjectid={ID}
+246,Elementsymbol,"element symbol","Kurzschreibweise für einzelne Atome eines chemischen Elements", element symbol (table), http://www.iupac.org/highlights/periodic-table-of-the-elements.html
+247,COSPAR-Bezeichnung,"COSPAR ID","Katalognummer eines Raumflugkörpers auf einer Umlaufbahn", NSSDC ID, http://nssdc.gsfc.nasa.gov/nmc/spacecraftDisplay.do?id={ID}
+267,ATC-Code,"ATC code","Code des Anatomisch-Therapeutisch-Chemischen Klassifikationssystems", ATC code, http://www.whocc.no/atc_ddd_index/?code={ID}
+268,BnF,"BnF identifier","Normdateneintrag in der französischen Nationalbibliothek", BNF, http://catalogue.bnf.fr/ark:/12148/cb{ID}/PUBLIC
+269,"SUDOC Normdaten","SUDOC authorities","Normdateneintrag im gleichnamigen französischen Bibliotheksverbund (s. auch P1025)", SUDOC, http://www.idref.fr/{ID}
+270,CALIS,CALIS,"Normdateneintrag im gleichnamigen chinesischen Bibliotheksverbund", CALIS, http://opac.calis.edu.cn/aopac/ajsp/detail.jsp?actionfrom=1&actl=CAL++{ID}%23
+271,"CiNii Normdaten","CiNii author identifier","Normdateneintrag im gleichnamigen japanischen Verbundkatalog", CiNii, http://ci.nii.ac.jp/author/{ID}
+278,"GOST 7.75-97","GOST 7.75-97 code",Sprachencode
+300,"ISO 3166-2 Code","ISO 3166-2","aus Ländercode und ein- bis dreistelligem alphanummerischem Code für subnationale Einheiten"
+303,EE-Nummer,"EE breed number","Objekt ist ein Bezeichner der EE-Liste der Rassetauben (ELRT)", EE breed number (list), http://www.entente-ee.com/deutsch/sparten/tauben/Dateien/2012/ELRT%2011-06-2012.pdf
+345,IMDb-Identifikationsnummer,"IMDb identifier","Identifikationsnummer in der Internet Movie Database (IMDb) inklusive Präfix (tt-, nm-, ch-, co-)", IMDb, http://www.imdb.com/Name?{ID}
+347,Joconde,"Joconde ID","ID in der Joconde-Datenbank des französischen Kulturministeriums", Joconde, http://www.culture.gouv.fr/public/mistral/joconde_fr?ACTION=CHERCHER&FIELD_1=REF&VALUE_1={ID}
+349,"Web NDL Authorities","NDL identifier","Normdateneintrag in der Nationalen Parlamentsbibliothek (NDL), Japan", NDL, http://id.ndl.go.jp/auth/ndlna/{ID}
+350,RKD-Werk-ID,RKDimages,"Identifikationsnummer in der Datenbank des Niederländischen Instituts für Kunstgeschichte (Rijksbureau voor Kunsthistorische Documentatie)", RKDimages, http://explore.rkd.nl/nl/images/{ID}
+351,Entrez-Gene-Nummer,"Entrez Gene ID","Identifikationsnummer in der Entrez-Gene-Datenbank", Entrez Gene, http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=gene&cmd=retrieve&dopt=default&list_uids={ID}
+352,UniProt-ID,"UniProt ID","Identifikationsnummer in der UniProt-Datenbank", Uniprot, http://www.uniprot.org/uniprot/{ID}
+353,Gen-Symbol,"gene symbol",, HGNC/HUGO gene symbol, http://www.genenames.org/data/hgnc_data.php?match={ID}
+354,HGNC-ID,"HGNC ID",, HGNC, http://www.genenames.org/data/hgnc_data.php?hgnc_id={ID}
+356,DOI,DOI,"digitaler Identifikator für physische, digitale oder abstrakte Objekte", DOI, http://dx.doi.org/{ID}
+359,Rijksmonument-Nummer,"Rijksmonument identifier","Identifikationsnummer von Rijksmonumenten, vergeben vom Rijksdienst voor het Cultureel Erfgoed", Rijksmonument, http://monumentenregister.cultureelerfgoed.nl/php/main.php?cAction=search&cOffset=1&cLimit=25&oOrder=ASC&cSubmit=1&sCompMonNr={ID}
+373,Commons-Kategorie,"Commons category","Name der Kategorie auf Wikimedia Commons, welche Dateien zu dem Objekt (item) beinhaltet (ohne das Präfix ""Category"")", Commons category, //commons.wikimedia.org/wiki/Category:{ID}
+374,INSEE-Gemeindecode,"INSEE municipality code","Schlüssel für französische Gemeinden", INSEE commune code, http://www.insee.fr/fr/bases-de-donnees/esl/comparateur.asp?codgeo=com-{ID}
+377,SCN,SCN,"Satellite Catalog Number", SCN, http://www.n2yo.com/satellite/?s={ID}
+380,Mérimée-Kennzeichnung,"Mérimée identifier","Identifikator für die französischen Kulturdenkmäler-Datenbank Mérimée", Mérimée, http://www.culture.gouv.fr/public/mistral/merimee_fr?ACTION=CHERCHER&FIELD_1=REF&VALUE_1={ID}
+381,KGS-DS-Nummer,"PCP reference number","Identifizierungsnummer des Kulturgüterschutzes in der Schweiz", KGS identifier, //toolserver.org/~erfgoed/api/api.php?action=search&format=html&srcountry=ch&srid={ID}
+382,CBS-Code,"CBS municipality code","vierstelliger niederländischer Ortscode des Centraal Bureau voor de Statistiek"
+395,Kfz-Kennzeichen,"licence plate code","international: Kfz-Nationalitätszeichen oder Kennzeichnung für Fahrzeuge in internationalem Verkehr. Innerstaatlich: Unterscheidungszeichen für den Verwaltungsbezirk"
+396,SBN,"SBN identifier","Normdatennummer der Italienischen Nationalbibliothek", SBN, http://id.sbn.it/af/{ID}
+402,OpenStreetMap-Relation-ID,"OpenStreetMap Relation ID","ID des geographischen Objekts in OpenStreetMap", OpenStreetmap, http://www.openstreetmap.org/?relation={ID}
+409,NLA,"NLA identifier","Normdatennummer der Australischen Nationalbibliothek", NLA, http://nla.gov.au/anbd.aut-an{ID}
+424,Wikimedia-Sprachcode,"Wikimedia language code","Kürzel der Sprache, wie es in den Wikimedia-Projekten verwendet wird", Wikimedia language code, //{ID}.wikipedia.org
+428,"botanisches Autorenkürzel gemäß IPNI","botanist author abbreviation","offizielle Abkürzung des Subjekts Namen, wenn in der Taxonomie verwendet", botanist author abbreviation, http://www.ipni.org/ipni/advPlantNameSearch.do?find_includePublicationAuthors=on&find_includePublicationAuthors=off&find_includeBasionymAuthors=on&find_includeBasionymAuthors=off&find_rankToReturn=all&output_format=normal&find_authorAbbrev={ID}
+434,MusicBrainz-Künstler-ID,"MusicBrainz artist ID","ID des Künstlers (Musiker, Schriftsteller) in MusicBrainz", MusicBrainz Artist ID, //musicbrainz.org/artist/{ID}
+435,MusicBrainz-Werk-ID,"MusicBrainz work ID","ID des Werkes in MusicBrainz", MusicBrainz Work ID, //musicbrainz.org/work/{ID}
+436,MusicBrainz-Veröffentlichungsgruppen-ID,"MusicBrainz release group ID","ID der Veröffentlichungsgruppe (vor allem Alben) in MusicBrainz", MusicBrainz Release Group ID, //musicbrainz.org/release-group/{ID}
+439,"Amtlicher Gemeindeschlüssel","German municipality key","für kreisfreie Städte und Kommunen in Deutschland"
+442,"chinesischer Code für Verwaltungseinheiten","China administrative division code","vergeben vom staatlichen Amt für Statistik der Volksrepublik China"
+464,NOR,NOR,"französischer Identifikationscode für amtliche Texte", NOR (French law), http://www.legifrance.gouv.fr/UnTexteDeJorf.do?numjo={ID}
+477,Historic-Places-ID,"Canadian Register of Historic Places identifier","Identifikationsnummer im Canadian Register of Historic Places"
+481,Palissy-ID,"Palissy identifier","Identifikator für die französischen Kulturdenkmäler-Datenbank Palissy", Palissy, http://www.culture.gouv.fr/public/mistral/palissy_fr?ACTION=CHERCHER&FIELD_1=REF&VALUE_1={ID}
+486,MeSH-ID,"MeSH ID","Primärschlüssel der Medical-Subject-Headings-Datenbank", Mesh, //www.nlm.nih.gov/cgi/mesh/2013/MB_cgi?field=uid&term={ID}
+490,"provisorischer Name","provisional designation","Benennung von Asteroiden und Kometen unmittelbar nach ihrer Entdeckung, vor der Vergabe des dauerhaften Namens durch die Internationale Astronomische Union"
+492,OMIM-ID,"OMIM ID","Identifikationsnummer in der Gen-Datenbank Online Mendelian Inheritance in Man", OMIM, //omim.org/entry/{ID}
+493,ICD-9,ICD-9,"Internationale statistische Klassifikation der Krankheiten – Version 9", ICD 9, http://www.icd9data.com/getICD9Code.ashx?icd9={ID}
+494,ICD-10,ICD-10,"Internationale statistische Klassifikation der Krankheiten und verwandter Gesundheitsprobleme, 10. Revision", ICD 10, http://apps.who.int/classifications/icd10/browse/2010/en#/{ID}
+496,ORCID,ORCID,"alphanumerischer Code zur Identifizierung wissenschaftlicher Autoren", ORCID, http://orcid.org/{ID}
+498,"Währungscode (ISO 4217)","ISO 4217 code","Norm für Währungs-Abkürzungen von der Internationalen Organisation für Normung", ISO 4217 currency codes (list), http://www.currency-iso.org/dam/downloads/table_a1.xls
+502,HURDAT-Kennung,"HURDAT identifier","Identifikationsnummer in der North Atlantic hurricane database", HURDAT identifier, http://www.nhc.noaa.gov/archive/{ID}
+506,"ISO 15924","ISO 15924","Code für Schriftsysteme"
+508,BNCF,"BNCF Thesaurus","bibliographischer Eintrag der italienischen Nationalbibliothek"
+528,Katalognummer,"catalog code","Bezeichnung in einem Katalog"
+535,"Find a Grave","Find a Grave ID","Identifikationsnummer in der Begräbnisstätten-Datenbank ""Find a Grave""", Find a Grave, http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid={ID}
+536,ATP-Kennung,"ATP ID","Identifikator für Tennisspieler in der Datenbank der ATP", ATP id, http://www.atpworldtour.com/Tennis/Players/{ID}.aspx
+539,Museofile,Museofile,"Primärschlüssel der Datenbank des französischen Kulturministeriums", Museofile, http://www.culture.gouv.fr/public/mistral/museo_fr?ACTION=CHERCHER&FIELD_98=REF&VALUE_98={ID}
+549,MGP-ID,"Mathematics Genealogy Project identifier","Identifikationsnummer in der Mathematiker-Datenbank des Mathematics Genealogy Project", MGP, http://genealogy.math.ndsu.nodak.edu/id.php?id={ID}
+553,"Nutzerkonto in sozialem Netzwerk","website account on","zusammen mit Property:P554 zu verwenden"
+557,DiseasesDB-ID,DiseasesDB,"Kennung in der Diseases Database (diseasesdatabase.com)", DiseasesDB, http://www.diseasesdatabase.com/ddb{ID}.htm
+563,ICD-O,ICD-O,"medizinische Klassifikation für die Onkologie", ICD-O, http://www.progenetix.org/cgi-bin/subsets.cgi?project=progenetix&subsetType=ICDM&ICDMcodes_m={ID}
+586,IPNI-Autor-ID,"IPNI author ID","Identifikator für eine Person im International Plant Names Index (IPNI)", IPNI author, http://www.ipni.org/ipni/idAuthorSearch.do?id={ID}
+587,MMSI,MMSI,"Rufnummer des mobilen Seefunkdienstes", MMSI author, http://www.marinetraffic.com/ais/fr/shipdetails.aspx?MMSI={ID}
+590,GNIS,"GNIS ID","Identifikationsnummer im Geographic Names Information System der Vereinigten Staaten", GNIS, //geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:{ID}
+592,ChEMBL,"ChEMBL ID","Kennung in der chemischen/biologischen Datenbank ChEMBL", ChEMBL, https://www.ebi.ac.uk/chembl/compound/inspect/{ID}
+593,HomoloGene-ID,"Homologene ID","Identifikationsnummer in der Datenbank von HomoloGene des National Center for Biotechnology Information"
+594,Ensembl-ID,"Ensembl Gene ID","Identifikationsnummer in der Datenbank des bioinformatisches Forschungsprojekts Ensembl", Ensembl ID, http://www.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g={ID}
+597,WTA-Kennung,"WTA ID","Identifikator für Tennisspielerinnen in der Datenbank der WTA", WTA id, http://www.wtatennis.com/players/player/{ID}
+599,ITF-ID,"ITF ID","Kennung eines Tennisspielers auf der ITF-Webseite", ITF id, http://www.itftennis.com/procircuit/players/player/profile.aspx?playerid={ID}
+600,"Wine AppDB-Identifikationsnummer","Wine AppDB-ID","ID in der Winehq Applikations-Datenbank", Wine AppDB-ID, //appdb.winehq.org/appview.php?iAppId={ID}
+604,MedlinePlus-ID,"MedlinePlus ID","frei zugängliche Datenbank von Krankheitsbeschreibungen", MedlinePlus, //www.nlm.nih.gov/medlineplus/ency/article/{ID}.htm
+613,OS-Planquadrat,"OS grid reference","auf Karten des britischen Ordnance Survey verwendetes Koordinatensystem (National Grid)"
+627,IUCN-ID,IUCN-ID,"Referenz für IUCN Artenschutzstatus (P141)", IUCN, http://www.iucnredlist.org/details/{ID}/0
+628,E-Nummer,"E number","Nummer für Lebensmittelzusätze, die in der EU legal sind", E Number, http://www.codexalimentarius.net/gsfaonline/additives/results.html?searchBy=ins&ins={ID}
+630,"Straßen-ID der Stadt Paris","Paris city digital code","digitale Kennung für Straßen in Paris", Paris streets, http://www.v2asp.paris.fr/commun/v2asp/v2/nomenclature_voies/Voieactu/{ID}.nom.htm
+633,"Répertoire du patrimoine culturel du Québec","Répertoire du patrimoine culturel du Québec identifier","Identifikationsnummer im Verzeichnis des kulturellen Erbes von Quebec", Quebec protected places, http://www.patrimoine-culturel.gouv.qc.ca/rpcq/detail.do?methode=consulter&id={ID}&type=bien
+635,ISTAT-ID,"ISTAT ID","vom staatlichen italienischen Statistikamt vergebene Identifikationsnummer für Gemeinden"
+637,Protein-ID,"RefSeq Protein ID",
+638,PDB-ID,"PDB ID","3D-Strukturdaten für Gene in der PDB-Datenbank", PDB ID, http://www.rcsb.org/pdb/explore/explore.do?structureId={ID}
+639,RNA-ID,"RefSeq RNA ID",
+640,Léonore-ID,"Léonore ID","Identifikationsnummer einer Person in der Léonore-Datenbank", Léonore, http://www.culture.gouv.fr/public/mistral/leonore_fr?ACTION=CHERCHER&FIELD_1=COTE&VALUE_1={ID}
+643,"Genloc Chr","Genloc Chr (deprecated, use P1057)",Chromosom-Nummer
+646,Freebase-ID,"Freebase identifier","Kennung des gleichbedeutenden Eintrags in der Freebase-Datenbank", Freebase ID (note that property values are supposed to start with slashes), http://www.freebase.com{ID}
+648,Open-Library-ID,"Open Library identifier","numerische Buch-Kennung für Werke (""W""), einzelne Ausgaben (""M"") und Autoren (""A"")", Open Library, https://openlibrary.org/books/{ID}
+649,NRHP,"NRHP reference number","Identifikationsnummer im National Register of Historic Places des US-amerikanischen National Park Service"
+650,RKD-Künstler-ID,RKDartists,"Identifikationsnummer in der Datenbank des Niederländischen Instituts für Kunstgeschichte (Rijksbureau voor Kunsthistorische Documentatie)", RKDartists, http://explore.rkd.nl/nl/artists/{ID}
+651,BPN,BPN,"Identifikationsnummer in der Datenbank des niederländischen Biografisch Portaal", BPN, http://www.biografischportaal.nl/persoon/{ID}
+652,UNII,UNII,"von der FDA definierter Identifikator für einzelne Inhaltsstoff chemischer Verbindungen", UNII, http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno={ID}
+653,PubMed-Health,"PubMed Health","Identifikator für die PubMed-Health-Seite, die Artikel über medizinische Themen bereitstellt", PubMed Health, //www.ncbi.nlm.nih.gov/pubmedhealth/{ID}
+657,RTECS-Nummer,"RTECS number","Identifikationsnummer in der Registry of Toxic Effects of Chemical Substances (Datenbank toxikologischer Informationen)"
+661,ChemSpider-ID,"ChemSpider ID","Datenbank chemischer Verbindungen", Chemspider, http://www.chemspider.com/Chemical-Structure.{ID}
+662,"PubChem-ID (CID)","PubChem ID (CID)","Datenbank von chemischen Verbindungen", PubChem ID, https://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid={ID}
+665,"KEGG ID","KEGG ID",, KEGG ID, http://www.kegg.jp/entry/{ID}
+668,GeneReviews-ID,"GeneReviews ID","Kennung in der GeneReviews-Datenbank", GeneReviews ID, //www.ncbi.nlm.nih.gov/books/{ID}
+671,"Mouse Genome Informatics ID","Mouse Genome Informatics ID","Kennung in der Datenbank Mouse Genome Informatics", Mouse Gene Informatics ID, http://www.informatics.jax.org/marker/MGI:{ID}
+672,"MeSH Code","MeSH Code",
+673,eMedicine,eMedicine,, eMedicine, http://emedicine.medscape.com/article/{ID}
+675,"Google Books","Google Books identifier","Kennung in der Google-Books-Datenbank", Google Books identifier, http://books.google.com/books?id={ID}
+677,"ÚSOP-Code","ÚSOP code","von drusop.nature.cz", ÚSOP Code, http://drusop.nature.cz/ost/chrobjekty/chrob_find/index.php?frame=1&h_kod={ID}
+683,ChEBI-ID,"ChEBI ID","Moleküldatenbank und -ontologie", ChEBI, https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:{ID}
+685,NCBI-ID,"NCBI Taxonomy ID","Identifikator in der taxonomischen Datenbank des National Center for Biotechnology Information (NCBI)", NCBI Taxonomy ID, //www.ncbi.nlm.nih.gov/taxonomy/{ID}
+686,Gene-Ontology-Identifikator,"Gene Ontology ID","ID in der Gene-Ontology-Datenbank", Gene Ontology ID, http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:{ID}
+687,BHL-Seiten-ID,"BHL Page Id","Identifikator einer Seite in der Biodiversity Heritage Library (BHL)", BHL Page ID, http://biodiversitylibrary.org/page/{ID}
+691,NKCR,"NKC identifier","Datenbanklink zum Portal der Nationalbibliothek der Tschechischen Republik", NK CR, http://aut.nkp.cz/{ID}
+698,"PubMed-ID (PMID)","PubMed ID","Identifikator für Artikel in der PubMed-Datenbank", PubMed ID, //www.ncbi.nlm.nih.gov/pubmed/?term={ID}
+699,Disease-Ontology-ID,"Disease Ontology ID","Kennung in der Disease-Ontology-Datenbank", diseases ontology ID, http://disease-ontology.org/term/DOID%3A{ID}
+701,Dodis-Nummer,Dodis,"Kennung in der Dodis-Datenbank (Diplomatische Dokumente der Schweiz 1945-1969)", DODIS, http://dodis.ch/{ID}
+704,Ensembl-Transkript-Identifikator,"Ensembl Transcript ID",
+705,Ensembl-Protein-Identifikator,"Ensembl Protein ID",
+709,Historic-Scotland-ID,"Historic Scotland ID",, Historic Scotland ID, http://hsewsf.sedsh.gov.uk/hslive/hsstart?P_HBNUM={ID}
+715,Drugbank-ID,"Drugbank ID","Kennung in der Drugbank-Datenbank", Drugbank ID, http://www.drugbank.ca/drugs/DB{ID}
+716,"JPL Small-Body Database ID","JPL Small-Body Database identifier","Kennung in der Datenbank JPL Small-Body Database", JPL Small-Body Database, http://ssd.jpl.nasa.gov/sbdb.cgi?sstr={ID}
+717,,"Minor Planet Center observatory code",, MP, http://newton.dm.unipi.it/neodys/index.php?pc=2.1.0&o={ID}
+718,Canmore-ID,"Canmore ID",, Canmore ID, http://canmore.rcahms.gov.uk/en/site/{ID}/details/
+721,OKATO-ID,"OKATO identifier","Code im Klassifizierungsschlüssel administrativer Objekte in Russland", OKATO, http://www.mosclassific.ru/mClass/okato_view.php?text={ID}
+722,"UIC internationale Bahnhofsnummer","UIC station code","UIC internationale Bahnhofsnummer"
+723,DBNL-ID,"DBNL ID",, DBNL ID, http://www.dbnl.org/auteurs/auteur.php?id={ID}
+724,Internet-Archive-ID,"Internet Archive ID","eindeutige Identifikationsnummer eines Datenobjekts auf archive.org", Internet Archive ID, https://archive.org/details/{ID}
+727,Europeana-ID,"Europeana ID","europäische virtuelle Bibliothek", Europeana ID, http://www.europeana.eu/portal/record/{ID}.html
+731,"Litholex Primärschlüssel","Litholex ID","Lithostratigraphische Datenbank für Deutschland und gewartet von der BGR", Litholex ID, //www.bgr.de/app/litholex/gesamt_ausgabe_neu.php?id={ID}
+732,BGS-Lexikon-ID,"BGS Lexicon ID","Identifikator im lithostratigraphischen Lexikon der britischen geologischen Bundesanstalt", BGX Lexicon ID, //www.bgs.ac.uk/Lexicon/lexicon.cfm?pub={ID}
+733,DINOloket,"DINOloket ","Datenbank der niederländischen geologischen Einheiten (Data Informatie Nederlandse Ondergrond)", Dinoloket ID, http://www.dinoloket.nl/{ID}
+745,PBB-ID,"Low German Bibliography and Biography ID","Plattdeutsche Biblio- und Biographie", PBuB identifier, http://www.ins-bremen.de/pbub/autor-werke.php?ID={ID}&START=1&ORD=JAHR
+758,"Kulturminne identifier","Kulturminne identifier","Kennung in der Kulturminne-Datenbank der Riksantikvaren", Kulturminne, http://www.kulturminnesok.no/kulturminnesok/kulturminne/?LOK_ID={ID}
+759,,"Alberta Register of Historic Places identifier",, Alberta Historic Places ID, https://hermis.alberta.ca/ARHP/Details.aspx?DeptID=1&ObjectID={ID}
+764,OKTMO-ID,"OKTMO identifier","Code im Klassifizierungsschlüssel munizipaler Gebilde in Russland", OKTMO, http://classif.spb.ru/classificators/view/tma.php?st=A&kr=1&kod={ID}
+771,"Gemeindenummer in der Schweiz","Swiss municipality code","Nummer des Bundesamtes für Statistik (BFS) in der Schweiz"
+774,"FIPS 55-3 (Orte in USA)","FIPS 55-3 (locations in the US)",
+782,LAU,LAU,"staatliche administrative Hierarchieebene, EU (ehemals NUTS-4 und NUTS-5)"
+791,ISIL-ID,"ISIL ID","Internationale Kennung für Bibliotheken und verwandte Organisationen", ISIL-ID, http://dispatch.opac.d-nb.de/DB=1.2/CMD?ACT=SRCHA&IKT=8529&TRM={ID}
+804,GNIS-Antarctica-ID,"GNIS Antarctica ID","Identifikationsnummer in der Antarktika-Datenbank des GNIS", GNIS Antarctica ID, //geonames.usgs.gov/pls/gnispublic/f?p=gnispq:5:::NO::P5_ANTAR_ID:{ID}
+806,"italienische Kataster-ID","Italian cadastre code",
+808,,"code Bien de Interés Cultural",, code Bien de Interés Cultural (BIC), //toolserver.org/~platonides/wlm/ids.php?bic={ID}
+809,"Weltdatenbank über geschützte Gebiete (WDPA)","WDPA id",, WDPA ID, http://protectedplanet.net/sites/{ID}
+815,ITIS-TSN,"ITIS TSN","die vom Integrated Taxonomic Information System (ITIS) vergebene Taxonomic Serial Number (TSN)", ITIS TSN, http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value={ID}
+818,"arXiv ID","arXiv eprint identifier","Identificationsqode im ArXive-Archiv", arXiv, http://arxiv.org/abs/{ID}
+819,,"ADS bibcode",, ADS bibcode, http://adsabs.harvard.edu/abs/{ID}
+821,,"CGNDB Unique Identifier",, CGNDB ID, http://www4.rncan.gc.ca/search-place-names/unique.php?id={ID}
+824,Meteoritical-Bulletin-Identifikator,"Meteoritical Bulletin Database ID",, ADS bibcode, http://www.lpi.usra.edu/meteor/metbull.php?code={ID}
+827,,"BBC program identifier",, BBC Identifier, http://www.bbc.co.uk/programmes/{ID}
+829,OEIS-ID,"OEIS ID","Enzyklopädie der Integer-Sequenzen", On-Line Encyclopedia of Integer Sequences, //oeis.org/{ID}
+830,EOL-ID,"Encyclopedia of Life ID","Identifikator in der Encyclopedia of Life (EOL)", EOL, http://eol.org/pages/{ID}
+838,BioLib-ID,"BioLib ID","Identifikator in der Biological Library (BioLib)", BioLib, http://www.biolib.cz/en/taxon/id{ID}
+839,IMSLP-ID,"IMSLP ID","Identifikationsnummer des Internationalen Notenbibliothek-Projekts", IMSLP ID, http://imslp.org/wiki/{ID}
+842,Fossilworks-ID,"Fossilworks ID","Identifikator für fossile Tiere, Pflanzen, und Mikroorganismen", Fossilworks ID, http://fossilworks.org/bridge.pl?a=taxonInfo&taxon_no={ID}
+843,"SIRUTA Code","SIRUTA code",
+845,"Sawkatchewan'sches Kulturgüterverzeichnis","Saskatchewan Register of Heritage Property identifier",, Saskatchewan ID, http://heritageapp.cyr.gov.sk.ca/public/index.cfm?action=propdetails&id={ID}
+846,GBIF-ID,"Global Biodiversity Information Facility ID","Identifikator bei der Global Biodiversity Information Facility (GBIF)", GBIF-ID, http://data.gbif.org/species/{ID}
+850,WoRMS-ID,"World Register of Marine Species identifier","Kennung im World Register of Marine Species", WoRMS-ID, http://www.marinespecies.org/aphia.php?p=taxdetails&id={ID}
+858,"ESPN SCRUM ID","ESPN SCRUM ID","Identifikation internationaler Rugby-Spieler von der website www.espnscrum.com"
+860,,"e-archiv.li ID",, e-archiv.li, http://www.e-archiv.li/personDetail.aspx?persID={ID}
+861,"premiershiprugby.com ID","premiershiprugby.com ID",, premiershiprugby.com, http://www.premiershiprugby.com/matchcentre/fixtures/squads.php?player={ID}&includeref=dynamic
+863,,"InPhO identifier ",, Indiana Philosophy Ontology project, https://inpho.cogs.indiana.edu/idea/{ID}.html
+864,,"ACM Digital Library author identifier",, Association for Computing Machinery Digital Library author identifier, //dl.acm.org/author_page.cfm?id={ID}
+865,BMLO,BMLO,, Bayerisches Musiker-Lexikon Online, http://bmlo.de/{ID}
+866,Perlentaucher,"Perlentaucher ID","Deeplinks auf das gleichnamige Onlinemagazin für Literatur und Kultur", Perlentaucher, http://www.perlentaucher.de/autor/{ID}.html
+867,ROME-Berufscode,"ROME Occupation Code (v3)","ROME-Code für einen Beruf, mit einem Buchstaben und vier Nummern", Rome occupation code, //recrutement.pole-emploi.fr/fichesrome/ficherome?codeRome={ID}&domaine=Candidat
+882,"FIPS 6-4 (counties in USA)","FIPS 6-4 (US counties)",
+884,"Russische Gewässerkennzahl","State Water Register Code (Russia)",, State Water Register Code (Russia), http://vwo.osm.rambler.ru/?page=findname&name={ID}
+886,,LIR,, Lexicon istoric retic (LIR), http://www.e-lir.ch/e-LIR___Lexicon.{ID}.450.0.html
+888,JSTOR,"JSTOR article ID",, JSTOR, http://www.jstor.org/stable/{ID}
+889,,"Mathematical Reviews identifier",, ?Mathematical Reviews identifier, http://www.ams.org/mathscinet-getitem?mr={ID}
+892,RFC,"Request for Comments identifier",, Request for Comments number (IETF), //tools.ietf.org/html/rfc{ID}
+893,,"Social Science Research Network ID",, Social Science Research Network, http://ssrn.com/abstract={ID}
+902,"Artikelnummer im HLS",HDS,"Identifikationsnummer im Historischen Lexikon der Schweiz"
+906,SELIBR,SELIBR,"Normdatei des schwedischen Verbundkatalogs LIBRIS", Libris library catalog, //libris.kb.se/auth/{ID}
+907,"AMG Spiele ID","AMG Game ID",, AMG Game ID, http://allgame.com/game.php?id={ID}
+909,,"Nova Scotia Register of Historic Places identifier",, Nova Scotia Register of Historic Places ID, https://eapps.ednet.ns.ca/HPIPublic/PropertyDisplay.aspx?Fid={ID}
+911,"Südafrikanischer Gemeinde-Code","South African municipality code",
+920,,"Spanish subject headings for public libraries",, Spanish subject headings for public libraries, http://id.sgcb.mcu.es/lem/ver/Autoridades/{ID}/concept
+933,,"heritagefoundation.ca ID",, heritagefoundation.ca ID, http://www.heritagefoundation.ca/property-search/property-details-page.aspx?id={ID}
+935,Commons-Galerie,"Commons gallery","Name der Galerieseite(n) auf Wikimedia Commons mit Dateien zu dem Objekt (item)", Commons gallery, //commons.wikimedia.org/wiki/{ID}
+938,FishBase-ID,"FishBase species identifier","Identifikator bei FishBase", Fishbase ID, http://www.fishbase.org/Summary/speciesSummary.php?id={ID}
+939,"KSH Code","KSH code",, Hungarian Central Statistical Office (KSH), http://www.ksh.hu/apps/!cp.hnt2.telep?nn={ID}
+946,ISIN,ISIN,"International Securities Identification Number", ISIN, http://tools.wmflabs.org/isin/?language=de&isin={ID}
+947,RSL,"RSL identifier","Normdatennummer der Russischen Staatsbibliothek (RSL)", Russian State Library identifier, http://aleph.rsl.ru/F?func=find-b&find_code=SYS&adjacent=Y&local_base=RSL11&request={ID}
+949,"NLI (Israel)","NLI (Israel) identifier","Normdatei der Israelischen Nationalbibliothek (National Library of Israel)", NLI (Israel) identifier, http://a20.libnet.ac.il/F?func=find-b&REQUEST={ID}&find_code=SYS&local_base=NNL10
+950,BNE,"BNE identifier","Normdatei der Spanischen Nationalbibliothek (Biblioteca Nacional de España)", BNE identifier, http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&authority_id={ID}
+951,NSZL,"NSZL identifier","Normdatei der Széchényi-Nationalbibliothek (Ungarn)"
+957,ISBN-10,ISBN-10,"Internationale Standardbuchnummer (Nachfolger: ISBN-13, s. P212)"
+959,MSW-ID,"MSW species identifier","Identifikator in der taxonomische Datenbank für Säugetiere Mammal Species of the World", MSW species identifier, http://www.departments.bucknell.edu/biology/resources/msw3/browse.asp?s=y&id={ID}
+960,Tropicos-ID,"Tropicos taxon name identifier","Identifikator für einen wissenschaftlichen Namen eines Taxons bei Tropicos"
+961,IPNI-TaxonName-ID,"IPNI taxon name identifier","Identifikator für den wissenschaftlichen Namen eines Taxons im International Plant Names Index (IPNI)", IPNI taxon name identifier, http://www.ipni.org/ipni/idPlantNameSearch.do?id={ID}
+962,MycoBank-ID,"MycoBank taxon name identifier","Identifikator für den wissenschaftlichen Namen eines Taxons bei der MycoBank", MycoBank taxon name identifier, http://www.mycobank.org/MycoTaxo.aspx?Link=T&Rec={ID}
+964,"Gemeindekennziffer in Österreich","Austrian municipality key","Ziffernfolge zur Identifizierung politischer Gemeinden in Österreich"
+966,MusicBrainz-Label-ID,"MusicBrainz label ID","Identifikationsnummer des Labels in der Musikdatenbank MusicBrainz", MusicBrainz Label ID, //musicbrainz.org/label/{ID}
+982,MusicBrainz-Gebiets-ID,"MusicBrainz area ID","Identifikationsnummer des Gebiets in der Musikdatenbank MusicBrainz", MusicBrainz Area ID, //musicbrainz.org/area/{ID}
+998,dmoz,dmoz,"Open Directory Project", Open Directory Project (DMOZ), http://www.dmoz.org/{ID}

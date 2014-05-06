@@ -1,0 +1,168 @@
+1003, NLR, http://alephnew.bibnat.ro:8991/F?func=find-b&request={ID}&find_code=SYS&adjacent=Y&local_base=NLR10
+1005, PTBNP, http://purl.pt/index/geral/aut/PT/{ID}.html
+1006, NTA PPN, http://opc4.kb.nl/PPN?PPN={ID}
+1014, AAT ID, 
+1015, BIBSYS, http://ask.bibsys.no/ask/action/result?cmd=&kilde=biblio&cql=bs.autid+%3D+{ID}&feltselect=bs.autid
+1017, BAV, 
+1024, SBFI, http://www.sbfi.admin.ch/bvz/grundbildung/index.html?detail=1&typ=EFZ&lang=fr&item={ID}
+1036, Dewey Decimal Classification, http://dewey.info/class/{ID}/about
+1042, ZDB, http://dispatch.opac.d-nb.de/DB=1.1/CMD?ACT=SRCHA&IKT=8506&TRM={ID}
+1043, IDEO Job ID, http://www.onisep.fr/onisep-portail/portal/media-type/html/group/gp/page/interieur.espace.guide.metiers.detail/js_peid/InitGuideResultatDetail/js_peid/GuideResultatMetiersDetail?typeRecherche=metierParNom&ficheIdeo={ID}
+1044, SWB on-line, http://swb.bsz-bw.de/DB=2.1/PPNSET?PPN={ID}&INDEXSET=1
+1045, Sycomore, http://www.assemblee-nationale.fr/sycomore/fiche.asp?num_dept={ID}
+1047, Catholic Hierarchy, http://www.catholic-hierarchy.org/bishop/b{ID}.html
+1058, ERA, http://lamp.infosys.deakin.edu.au/era/?page=jnamedet12f&eraid={ID}
+1067, TIS 1099, 
+1070, Plant list, http://www.theplantlist.org/tpl1.1/record/{ID}
+1076, ICTV Virus, 
+1077, KOATUU, 
+1085, LibraryThing work identifier, http://www.librarything.com/work/{ID}
+1115, ATVK, 
+1146, IAAF, http://www.iaaf.org/athletes/athlete={ID}
+1153, Scopus author, http://www.scopus.com/authid/detail.url?authorId={ID}
+1156, Scopus source, https://www.scopus.com/source/sourceInfo.url?sourceId={ID}
+1159, CODEN, 
+1160, ISO 4, 
+1190, Universal Decimal Classification, 
+1207, NUKAT, 
+1212, ATLAS, http://cartelfr.louvre.fr/cartelfr/visite?srv=car_not_frame&idNotice={ID}
+1216, English heritage, http://list.english-heritage.org.uk/resultsingle.aspx?uid={ID}
+1220, IBDB, http://www.ibdb.com/person.php?id={ID}
+1229, OpenPolis, http://politici.openpolis.it/politico/{ID}
+1245, OmegaWiki DM, 
+1250, BFI SNO/CNO-code, 
+212, ISBN-13, https://www.wikidata.org/wiki/Special:BookSources/{ID}
+213, ISNI, http://www.isni.org/{ID}
+214, VIAF, http://viaf.org/viaf/{ID}/
+215, stellar classification, 
+218, ISO-639-1, 
+219, ISO-639-2, 
+220, ISO-639-3, http://www-01.sil.org/iso639-3/documentation.asp?id={ID}
+227, GND, http://d-nb.info/gnd/{ID}
+231, CAS, https://tools.wmflabs.org/magnustools/cas.php?cas={ID}
+232, EINECS, http://esis.jrc.ec.europa.eu/lib/esis_reponse.php?GENRE=ECNO&ENTREE={ID}&PGM=esi&FROM=FORMULAIRE&CPT_DEB=1
+233, SMILES, http://chemapps.stolaf.edu/jmol/jmol.php?model={ID}
+234, InChI, http://chemapps.stolaf.edu/jmol/jmol.php?&model=InChI={ID}
+235, InChIKey, https://www.ncbi.nlm.nih.gov/sites/entrez?cmd=search&db=pccompound&term=%22{ID}%22[InChIKey]
+236, ISSN, https://www.worldcat.org/search?fq=x0:jrnl&q=n2:{ID}
+238, IATA airport code, 
+239, ICAO airport code, 
+243, OCLC control nr, https://www.worldcat.org/oclc/{ID}?lang=en
+244, LCCN, http://lccn.loc.gov/{ID}
+245, ULAN, http://www.getty.edu/vow/ULANFullDisplay?find=&role=&nation=&prev_page=1&subjectid={ID}
+267, ATC code, http://www.whocc.no/atc_ddd_index/?code={ID}
+268, BNF, http://catalogue.bnf.fr/ark:/12148/cb{ID}/PUBLIC
+269, SUDOC, http://www.idref.fr/{ID}
+270, CALIS, http://opac.calis.edu.cn/aopac/ajsp/detail.jsp?actionfrom=1&actl=CAL++{ID}%23
+271, CiNii, http://ci.nii.ac.jp/author/{ID}
+278, GOST 7.75-97, 
+300, ISO 3166-2, 
+345, IMDb, http://www.imdb.com/name/{ID}/
+347, Joconde, http://www.culture.gouv.fr/public/mistral/joconde_fr?ACTION=CHERCHER&FIELD_1=REF&VALUE_1={ID}
+349, NDL, http://id.ndl.go.jp/auth/ndlna/{ID}
+351, Entrez Gene, http://www.ncbi.nlm.nih.gov/gene/{ID}
+352, UniProt, http://www.uniprot.org/uniprot/{ID}
+354, HGNC, http://www.genenames.org/data/hgnc_data.php?hgnc_id={ID}
+374, INSEE, http://www.insee.fr/fr/bases-de-donnees/esl/comparateur.asp?codgeo=com-{ID}/
+380, Mérimée, http://www.culture.gouv.fr/public/mistral/merimee_fr?ACTION=CHERCHER&FIELD_1=REF&VALUE_1={ID}
+381, PCB, https://toolserver.org/~erfgoed/api/api.php?action=search&format=html&srcountry=ch&srid={ID}
+382, CBS, 
+395, licence plate code, 
+396, SBN, http://id.sbn.it/af/{ID}
+402, OSM, http://www.openstreetmap.org/?relation={ID}
+409, NLA, http://nla.gov.au/anbd.aut-an{ID}
+434, MusicBrainz, http://musicbrainz.org/artist/{ID}
+435, MusicBrainz works, https://musicbrainz.org/work/{ID}
+436, MusicBrainz release group, https://musicbrainz.org/release-group/{ID}
+439, German municipality, 
+442, China division code, 
+477, Historic places, http://www.historicplaces.ca/en/rep-reg/place-lieu.aspx?id={ID}
+486, MeSH, https://www.nlm.nih.gov/cgi/mesh/2013/MB_cgi?field=uid&term={ID}
+490, provisional designation, 
+492, OMIM, https://omim.org/entry/{ID}
+493, ICD-9, http://www.icd9data.com/getICD9Code.ashx?icd9={ID}
+494, ICD-10, http://apps.who.int/classifications/icd10/browse/2010/en#/{ID}
+496, ORCID, http://orcid.org/{ID}
+506, ISO 15924, 
+508, BNCF, http://thes.bncf.firenze.sbn.it/termine.php?id={ID}
+528, SIMBAD, http://simbad.u-strasbg.fr/simbad/sim-id?Ident={ID}
+535, Find a Grave ID, http://www.findagrave.com/cgi-bin/fg.cgi?page=gr&GRid={ID}
+536, ATP, 
+549, MGP, http://genealogy.math.ndsu.nodak.edu/id.php?id={ID}
+553, SMA, 
+557, DiseasesDB, http://www.diseasesdatabase.com/ddb{ID}.htm
+563, ICD-O, http://www.progenetix.org/cgi-bin/subsets.cgi?project=progenetix&subsetType=ICDM&ICDMcodes_m={ID}
+590, GNIS, https://geonames.usgs.gov/pls/gnispublic/f?p=gnispq:3:::NO::P3_FID:{ID}
+592, ChEMBL, https://www.ebi.ac.uk/chembl/compound/inspect/{ID}
+593, Homologene, 
+594, Ensembl Gene, http://www.ensembl.org/Homo_sapiens/Gene/Summary?db=core;g={ID}
+597, WTA, http://www.wtatennis.com/players/player/{ID}
+599, ITF, http://www.itftennis.com/procircuit/players/player/profile.aspx?playerid={ID}
+604, MedlinePlus, https://www.nlm.nih.gov/medlineplus/ency/article/{ID}.htm
+613, OS grid reference, 
+630, Paris street, http://www.v2asp.paris.fr/commun/v2asp/v2/nomenclature_voies/Voieactu/{ID}.nom.htm
+633, Patrimoine culturel, http://www.patrimoine-culturel.gouv.qc.ca/rpcq/detail.do?methode=consulter&id={ID}&type=bien
+635, ISTAT ID, 
+637, RefSeq Protein, 
+638, PDB, http://www.rcsb.org/pdb/explore/explore.do?structureId={ID}
+639, RefSeq RNA, 
+640, Léonore, http://www.culture.gouv.fr/public/mistral/leonore_fr?ACTION=CHERCHER&FIELD_1=COTE&VALUE_1={ID}
+643, Genloc Chr - deprecated, 
+646, Freebase, http://www.freebase.com{ID}
+649, NRHP reference, 
+650, RKDartists, http://explore.rkd.nl/nl/artists/{ID}
+651, BPN, http://www.biografischportaal.nl/persoon/{ID}
+657, RTECS, 
+661, ChemSpider, http://www.chemspider.com/Chemical-Structure.{ID}
+662, PubChem, https://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid={ID}
+665, KEGG, http://www.kegg.jp/entry/{ID}
+672, MeSH code, 
+673, eMedicine, http://emedicine.medscape.com/article/{ID}
+677, ÚSOP, http://drusop.nature.cz/ost/chrobjekty/chrob_find/index.php?frame=1&h_kod={ID}
+683, ChEBI, https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:{ID}
+685, NCBI Taxonomy ID, http://www.ncbi.nlm.nih.gov/taxonomy/{ID}
+686, Gene Ontology, http://amigo.geneontology.org/cgi-bin/amigo/term_details?term=GO:{ID}
+691, NKC, http://aut.nkp.cz/{ID}
+704, Ensembl Transcript, 
+705, Ensembl Protein, 
+715, Drugbank, http://www.drugbank.ca/drugs/DB{ID}
+716, JPL Small-Body Database, http://ssd.jpl.nasa.gov/sbdb.cgi?sstr={ID}
+721, OKATO, http://www.mosclassific.ru/mClass/okato_view.php?text={ID}
+722, UIC station, 
+723, DBNL, http://www.dbnl.org/auteurs/auteur.php?id={ID}
+764, OKTMO, http://classif.spb.ru/classificators/view/tmo.php?st=A&kr=1&kod={ID}
+771, Swiss municipality, 
+774, FIPS 55-3, 
+782, LAU, 
+791, ISIL, http://dispatch.opac.d-nb.de/DB=1.2/CMD?ACT=SRCHA&IKT=8529&TRM={ID}
+806, Italian cadastre code, 
+809, WPDA, http://protectedplanet.net/sites/{ID}/
+815, ITIS, http://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value={ID}
+830, Encyclopedia of Life, http://eol.org/pages/{ID}
+838, BioLib, http://www.biolib.cz/en/taxon/id{ID}
+839, IMSLP, http://imslp.org/wiki/{ID}
+842, Fossilworks, http://fossilworks.org/bridge.pl?a=taxonInfo&taxon_no={ID}
+843, SIRUTA, 
+846, Global Biodiversity Information Facility, http://data.gbif.org/species/{ID}
+858, ESPN Scrum, http://www.espnscrum.com/statsguru/rugby/player/{ID}.htm
+865, BMLO, http://bmlo.de/{ID}
+866, Perlentaucher ID, http://www.perlentaucher.de/autor/{ID}.html
+867, ROME code, https://recrutement.pole-emploi.fr/fichesrome/ficherome?codeRome={ID}&domaine=Candidat
+882, FIPS 6-4 (US counties), http://quickfacts.census.gov/qfd/states/51/{ID}.html
+884, State Water Register Code, http://vwo.osm.rambler.ru/?page=findname&name={ID}
+902, HDS, http://www.hls-dhs-dss.ch/textes/d/D{ID}.php
+906, SELIBR, https://libris.kb.se/auth/{ID}
+911, South African municipality code, 
+939, KSH, http://www.ksh.hu/apps/!cp.hnt2.telep?nn={ID}
+946, ISIN, http://tools.wmflabs.org/isin/?language=de&isin={ID}
+947, RSL, http://aleph.rsl.ru/F?func=find-b&find_code=SYS&adjacent=Y&local_base=RSL11&request={ID}
+949, NLI, http://a20.libnet.ac.il/F?func=find-b&REQUEST={ID}&find_code=SYS&local_base=NNL10
+950, BNE, http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&authority_id={ID}
+951, NSZL, 
+957, ISBN-10, 
+959, MSW species, http://www.departments.bucknell.edu/biology/resources/msw3/browse.asp?s=y&id={ID}
+960, Tropicos, http://www.tropicos.org/Name/{ID}
+961, IPNI, http://www.ipni.org/ipni/idPlantNameSearch.do?id={ID}
+964, Austrian municipality, 
+966, MusicBrainz label, https://musicbrainz.org/label/{ID}
+982, MusicBrainz area, https://musicbrainz.org/area/{ID}
