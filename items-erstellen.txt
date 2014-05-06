@@ -29,7 +29,7 @@ Anderssprachige Bezeichnungen und Beschreibungen von Items können auf der Seite
 
 **Liste der Bezeichnungen**
 
-Für die Anzeige der Liste der Bezeichnungen muss diese zunächst in  in den Einstellungen im Reiter "Helferlein" im Punkt "LabelLister" aktiviert werden. Wenn dieses Kästchen angehakt ist, erscheint nun auf der Seite des Items ein weiteres Feld zwischen "Lesen" und "Versionsgeschichte", nämlich die "Liste der Bezeichnungen".
+Für die Anzeige der Liste der Bezeichnungen muss diese zunächst in  in den [Einstellungen](https://www.wikidata.org/wiki/Special:Preferences)(Achtung: Anmeldung erforderlich!) im Reiter "Helferlein" im Punkt "LabelLister" aktiviert werden. Wenn dieses Kästchen angehakt ist, erscheint nun auf der Seite des Items ein weiteres Feld zwischen "Lesen" und "Versionsgeschichte", nämlich die "Liste der Bezeichnungen".
 
 ![Liste der Bezeichnungen des Items "Japan"](images/Liste_der_Bezeichnungen.PNG)
 
