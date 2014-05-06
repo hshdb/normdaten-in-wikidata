@@ -6,7 +6,10 @@ Nein, Wikidata übernimmt die Fakten von Wikipedia und bereitet sie auf. Diese k
 **2. Wie kann ich die Benutzeroberflächensprache auf meine Sprache umstellen?**
 Die Voreinstellung der Wikidata-Oberflächensprache ist ohne Anmeldung Englisch. Wenn Sie nun die Benutzersprache von Englisch auf Deutsch umstellen möchten, dann ist die Sprachumstellung sehr einfach zu bewältigen. Auf der linken Seite der Wikidata-Startseite befindet sich eine Sprachauswahl und dort können sie jede Sprache (in unserem Fall Deutsch), die in Wikidata vorhanden ist, auswählen. 
 
-![Abbildung 2](images/faq_spracheaendern_2.png)
+
+![Sprachumstellung von englisch zu deutsch](images/sprachumstellung_wikidata.jpg)
+
+
 
 Wie Sie in Abbildung 3 sehen, wurde Englisch ausgewählt. Nun müssen Sie nur noch auf die Schaltfläche Auswählen klicken
     
