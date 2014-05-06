@@ -12,7 +12,7 @@ P231,CAS-Nummer,"CAS registry number","internationaler Bezeichnungsstandard für
 P232,EINECS-Nummer,"EINECS number","Altstoffverzeichnis der EU"
 P233,SMILES,SMILES,"chemischer Strukturcode"
 P234,InChI,InChI,"Internationale chemische Bezeichnung der IUPAC"
-P235,InChIKey,InChIKey,
+P235,InChIKey,InChIKey,"Eine vom InChI Code einer chemischen Verbindungen abgeleitete, 25 Zeichen lange, aus Buchstaben (14 + 10) sowie einem Bindestrich bestehende Zeichenkette zur 'eindeutigen' Kennzeichnung der Substanz."
 P236,ISSN,ISSN,"Internationale Standardnummer für fortlaufende Sammelwerke"
 P238,IATA-Flughafencode,"IATA airport code","alphanumerischer Code für Flughäfen"
 P239,ICAO-Flughafencode,"ICAO airport code","alphanumerischer Code für Flughäfen"
@@ -35,8 +35,8 @@ P349,"Web NDL Authorities","NDL identifier","Normdateneintrag in der Nationalen 
 P350,RKD-Werk-ID,RKDimages,"Identifikationsnummer in der Datenbank des Niederländischen Instituts für Kunstgeschichte (Rijksbureau voor Kunsthistorische Documentatie)"
 P351,Entrez-Gene-Nummer,"Entrez Gene ID","Identifikationsnummer in der Entrez-Gene-Datenbank"
 P352,UniProt-ID,"UniProt ID","Identifikationsnummer in der UniProt-Datenbank"
-P353,Gen-Symbol,"gene symbol",
-P354,HGNC-ID,"HGNC ID",
+P353,Gen-Symbol,"gene symbol","Offizielles Gen-Symbol"
+P354,HGNC-ID,"HGNC ID","Gene-ID aus der Datenbank HGNC"
 P356,DOI,DOI,"digitaler Identifikator für physische, digitale oder abstrakte Objekte"
 P359,Rijksmonument-Nummer,"Rijksmonument identifier","Identifikationsnummer von Rijksmonumenten, vergeben vom Rijksdienst voor het Cultureel Erfgoed"
 P373,Commons-Kategorie,"Commons category","Name der Kategorie auf Wikimedia Commons, welche Dateien zu dem Objekt (item) beinhaltet (ohne das Präfix ""Category"")"
@@ -93,9 +93,9 @@ P628,E-Nummer,"E number","Nummer für Lebensmittelzusätze, die in der EU legal 
 P630,"Straßen-ID der Stadt Paris","Paris city digital code","digitale Kennung für Straßen in Paris"
 P633,"Répertoire du patrimoine culturel du Québec","Répertoire du patrimoine culturel du Québec identifier","Identifikationsnummer im Verzeichnis des kulturellen Erbes von Quebec"
 P635,ISTAT-ID,"ISTAT ID","vom staatlichen italienischen Statistikamt vergebene Identifikationsnummer für Gemeinden"
-P637,Protein-ID,"RefSeq Protein ID",
+P637,Protein-ID,"RefSeq Protein ID","Protein Kennzeichnung"
 P638,PDB-ID,"PDB ID","3D-Strukturdaten für Gene in der PDB-Datenbank"
-P639,RNA-ID,"RefSeq RNA ID",
+P639,RNA-ID,"RefSeq RNA ID","RNA Kennzeichnung"
 P640,Léonore-ID,"Léonore ID","Identifikationsnummer einer Person in der Léonore-Datenbank"
 P643,"Genloc Chr","Genloc Chr (deprecated, use P1057)",Chromosom-Nummer
 P646,Freebase-ID,"Freebase identifier","Kennung des gleichbedeutenden Eintrags in der Freebase-Datenbank"
@@ -108,10 +108,10 @@ P653,PubMed-Health,"PubMed Health","Identifikator für die PubMed-Health-Seite, 
 P657,RTECS-Nummer,"RTECS number","Identifikationsnummer in der Registry of Toxic Effects of Chemical Substances (Datenbank toxikologischer Informationen)"
 P661,ChemSpider-ID,"ChemSpider ID","Datenbank chemischer Verbindungen"
 P662,"PubChem-ID (CID)","PubChem ID (CID)","Datenbank von chemischen Verbindungen"
-P665,"KEGG ID","KEGG ID",
+P665,"KEGG ID","KEGG ID","Datenbanken, die sich mit Genomen, enzymatische Wege und biologische Chemie beschäfftigt"
 P668,GeneReviews-ID,"GeneReviews ID","Kennung in der GeneReviews-Datenbank"
 P671,"Mouse Genome Informatics ID","Mouse Genome Informatics ID","Kennung in der Datenbank Mouse Genome Informatics"
-P672,"MeSH Code","MeSH Code",
+P672,"MeSH Code","MeSH Code","Medical Subject Headings (MeSH)-Codes sind ein Index und Thesaurus für die Lebenswissenschaften (≠ MeSH ID)"
 P673,eMedicine,eMedicine,
 P675,"Google Books","Google Books identifier","Kennung in der Google-Books-Datenbank"
 P677,"ÚSOP-Code","ÚSOP code","von drusop.nature.cz"
@@ -149,7 +149,7 @@ P791,ISIL-ID,"ISIL ID","Internationale Kennung für Bibliotheken und verwandte O
 P804,GNIS-Antarctica-ID,"GNIS Antarctica ID","Identifikationsnummer in der Antarktika-Datenbank des GNIS"
 P806,"italienische Kataster-ID","Italian cadastre code",
 P808,,"code Bien de Interés Cultural",
-P809,"Weltdatenbank über geschützte Gebiete (WDPA)","WDPA id",
+P809,WDPA-ID,"WDPA id","Nummer in der Weltdatenbank über geschützte Gebiete (World Database on Protected Areas)"
 P815,ITIS-TSN,"ITIS TSN","die vom Integrated Taxonomic Information System (ITIS) vergebene Taxonomic Serial Number (TSN)"
 P818,"arXiv ID","arXiv eprint identifier","Identificationsqode im ArXive-Archiv"
 P819,,"ADS bibcode",
@@ -242,6 +242,8 @@ P1156,Scopus-Quelle-ID,"Scopus Source ID",
 P1159,CODEN,CODEN,
 P1160,,"ISO 4 abbreviation",
 P1182,"LIBRIS Editionen","LIBRIS editions",
+P1184,,handle,
+P1185,Rodovid-ID,"Rodovid ID",
 P1190,"Universelle Dezimalklassifikation","Universal Decimal Classification","Klassifikation für die inhaltliche Erschließung"
 P1207,"NUKAT Normdaten","NUKAT authorities","Normdateneintrag im polnischen Verbundkatalog NUKAT"
 P1212,"Atlas ID","Atlas ID",
@@ -254,7 +256,11 @@ P1225,,"NARA topical subject ID",
 P1226,,"NARA specific records type ID",
 P1229,Openpolis-ID,"Openpolis ID",
 P1231,,"NARA catalogue record ID",
+P1232,,"Linguist list code",
 P1237,,"Box Office Mojo film ID",
 P1238,,"Swedish Football Association ID",
 P1245,"Bedeutungsdefinition in OmegaWiki","OmegaWiki Defined Meaning","""DefinedMeaning""-Kennzeichnungsnummer in OmegaWiki"
 P1250,,"Danish Bibliometric Research Indicator (BFI) SNO/CNO",
+P1256,"Iconclass ID","Iconclass notation","Kennung des ikonographischen Themas"
+P1258,"Rotten Tomatoes ID","Rotten Tomatoes ID",
+P1273,CANTIC,CANTIC,

@@ -1,8 +1,8 @@
 #.PHONY: reasonator.csv gadget.csv
 	
 default:
-	echo make property-ids.csv
-	echo make properties.csv
+	make property-ids.csv
+	make properties.csv
 
 ../properties.txt:
 	catmandu convert CSV to Template --template `pwd`/table.tt --template_before `pwd`/properties-before.tt \

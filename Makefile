@@ -71,6 +71,10 @@ ODT_OPTIONS=
 .md.docx:
 	pandoc $(PANDOC_OPTIONS) -t docx -o $@ $(ODT_OPTIONS) $<
 
+snapshot.html: $(TARGET).md 
+	pandoc $(PANDOC_OPTIONS) -o $@ $(HTML_OPTIONS) -V snapshot=1 $<
+
+
 # Übersichten
 .PHONY: quellen.md
 

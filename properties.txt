@@ -18,7 +18,7 @@ id | Name | Beschreibung
 [`P232`](https://www.wikidata.org/wiki/Property:P232) | EINECS-Nummer | Altstoffverzeichnis der EU
 [`P233`](https://www.wikidata.org/wiki/Property:P233) | SMILES | chemischer Strukturcode
 [`P234`](https://www.wikidata.org/wiki/Property:P234) | InChI | Internationale chemische Bezeichnung der IUPAC
-[`P235`](https://www.wikidata.org/wiki/Property:P235) | InChIKey | 
+[`P235`](https://www.wikidata.org/wiki/Property:P235) | InChIKey | Eine vom InChI Code einer chemischen Verbindungen abgeleitete, 25 Zeichen lange, aus Buchstaben (14 + 10) sowie einem Bindestrich bestehende Zeichenkette zur 'eindeutigen' Kennzeichnung der Substanz.
 [`P236`](https://www.wikidata.org/wiki/Property:P236) | ISSN | Internationale Standardnummer für fortlaufende Sammelwerke
 [`P238`](https://www.wikidata.org/wiki/Property:P238) | IATA-Flughafencode | alphanumerischer Code für Flughäfen
 [`P239`](https://www.wikidata.org/wiki/Property:P239) | ICAO-Flughafencode | alphanumerischer Code für Flughäfen
@@ -41,8 +41,8 @@ id | Name | Beschreibung
 [`P350`](https://www.wikidata.org/wiki/Property:P350) | RKD-Werk-ID | Identifikationsnummer in der Datenbank des Niederländischen Instituts für Kunstgeschichte (Rijksbureau voor Kunsthistorische Documentatie)
 [`P351`](https://www.wikidata.org/wiki/Property:P351) | Entrez-Gene-Nummer | Identifikationsnummer in der Entrez-Gene-Datenbank
 [`P352`](https://www.wikidata.org/wiki/Property:P352) | UniProt-ID | Identifikationsnummer in der UniProt-Datenbank
-[`P353`](https://www.wikidata.org/wiki/Property:P353) | Gen-Symbol | 
-[`P354`](https://www.wikidata.org/wiki/Property:P354) | HGNC-ID | 
+[`P353`](https://www.wikidata.org/wiki/Property:P353) | Gen-Symbol | Offizielles Gen-Symbol
+[`P354`](https://www.wikidata.org/wiki/Property:P354) | HGNC-ID | Gene-ID aus der Datenbank HGNC
 [`P356`](https://www.wikidata.org/wiki/Property:P356) | DOI | digitaler Identifikator für physische, digitale oder abstrakte Objekte
 [`P359`](https://www.wikidata.org/wiki/Property:P359) | Rijksmonument-Nummer | Identifikationsnummer von Rijksmonumenten, vergeben vom Rijksdienst voor het Cultureel Erfgoed
 [`P373`](https://www.wikidata.org/wiki/Property:P373) | Commons-Kategorie | Name der Kategorie auf Wikimedia Commons, welche Dateien zu dem Objekt (item) beinhaltet (ohne das Präfix "Category")
@@ -99,9 +99,9 @@ id | Name | Beschreibung
 [`P630`](https://www.wikidata.org/wiki/Property:P630) | Straßen-ID der Stadt Paris | digitale Kennung für Straßen in Paris
 [`P633`](https://www.wikidata.org/wiki/Property:P633) | Répertoire du patrimoine culturel du Québec | Identifikationsnummer im Verzeichnis des kulturellen Erbes von Quebec
 [`P635`](https://www.wikidata.org/wiki/Property:P635) | ISTAT-ID | vom staatlichen italienischen Statistikamt vergebene Identifikationsnummer für Gemeinden
-[`P637`](https://www.wikidata.org/wiki/Property:P637) | Protein-ID | 
+[`P637`](https://www.wikidata.org/wiki/Property:P637) | Protein-ID | Protein Kennzeichnung
 [`P638`](https://www.wikidata.org/wiki/Property:P638) | PDB-ID | 3D-Strukturdaten für Gene in der PDB-Datenbank
-[`P639`](https://www.wikidata.org/wiki/Property:P639) | RNA-ID | 
+[`P639`](https://www.wikidata.org/wiki/Property:P639) | RNA-ID | RNA Kennzeichnung
 [`P640`](https://www.wikidata.org/wiki/Property:P640) | Léonore-ID | Identifikationsnummer einer Person in der Léonore-Datenbank
 [`P643`](https://www.wikidata.org/wiki/Property:P643) | Genloc Chr | Chromosom-Nummer
 [`P646`](https://www.wikidata.org/wiki/Property:P646) | Freebase-ID | Kennung des gleichbedeutenden Eintrags in der Freebase-Datenbank
@@ -114,10 +114,10 @@ id | Name | Beschreibung
 [`P657`](https://www.wikidata.org/wiki/Property:P657) | RTECS-Nummer | Identifikationsnummer in der Registry of Toxic Effects of Chemical Substances (Datenbank toxikologischer Informationen)
 [`P661`](https://www.wikidata.org/wiki/Property:P661) | ChemSpider-ID | Datenbank chemischer Verbindungen
 [`P662`](https://www.wikidata.org/wiki/Property:P662) | PubChem-ID (CID) | Datenbank von chemischen Verbindungen
-[`P665`](https://www.wikidata.org/wiki/Property:P665) | KEGG ID | 
+[`P665`](https://www.wikidata.org/wiki/Property:P665) | KEGG ID | Datenbanken, die sich mit Genomen, enzymatische Wege und biologische Chemie beschäfftigt
 [`P668`](https://www.wikidata.org/wiki/Property:P668) | GeneReviews-ID | Kennung in der GeneReviews-Datenbank
 [`P671`](https://www.wikidata.org/wiki/Property:P671) | Mouse Genome Informatics ID | Kennung in der Datenbank Mouse Genome Informatics
-[`P672`](https://www.wikidata.org/wiki/Property:P672) | MeSH Code | 
+[`P672`](https://www.wikidata.org/wiki/Property:P672) | MeSH Code | Medical Subject Headings (MeSH)-Codes sind ein Index und Thesaurus für die Lebenswissenschaften (≠ MeSH ID)
 [`P673`](https://www.wikidata.org/wiki/Property:P673) | eMedicine | 
 [`P675`](https://www.wikidata.org/wiki/Property:P675) | Google Books | Kennung in der Google-Books-Datenbank
 [`P677`](https://www.wikidata.org/wiki/Property:P677) | ÚSOP-Code | von drusop.nature.cz
@@ -155,7 +155,7 @@ id | Name | Beschreibung
 [`P804`](https://www.wikidata.org/wiki/Property:P804) | GNIS-Antarctica-ID | Identifikationsnummer in der Antarktika-Datenbank des GNIS
 [`P806`](https://www.wikidata.org/wiki/Property:P806) | italienische Kataster-ID | 
 [`P808`](https://www.wikidata.org/wiki/Property:P808) | *code Bien de Interés Cultural* | 
-[`P809`](https://www.wikidata.org/wiki/Property:P809) | Weltdatenbank über geschützte Gebiete (WDPA) | 
+[`P809`](https://www.wikidata.org/wiki/Property:P809) | WDPA-ID | Nummer in der Weltdatenbank über geschützte Gebiete (World Database on Protected Areas)
 [`P815`](https://www.wikidata.org/wiki/Property:P815) | ITIS-TSN | die vom Integrated Taxonomic Information System (ITIS) vergebene Taxonomic Serial Number (TSN)
 [`P818`](https://www.wikidata.org/wiki/Property:P818) | arXiv ID | Identificationsqode im ArXive-Archiv
 [`P819`](https://www.wikidata.org/wiki/Property:P819) | *ADS bibcode* | 
@@ -248,6 +248,8 @@ id | Name | Beschreibung
 [`P1159`](https://www.wikidata.org/wiki/Property:P1159) | CODEN | 
 [`P1160`](https://www.wikidata.org/wiki/Property:P1160) | *ISO 4 abbreviation* | 
 [`P1182`](https://www.wikidata.org/wiki/Property:P1182) | LIBRIS Editionen | 
+[`P1184`](https://www.wikidata.org/wiki/Property:P1184) | *handle* | 
+[`P1185`](https://www.wikidata.org/wiki/Property:P1185) | Rodovid-ID | 
 [`P1190`](https://www.wikidata.org/wiki/Property:P1190) | Universelle Dezimalklassifikation | Klassifikation für die inhaltliche Erschließung
 [`P1207`](https://www.wikidata.org/wiki/Property:P1207) | NUKAT Normdaten | Normdateneintrag im polnischen Verbundkatalog NUKAT
 [`P1212`](https://www.wikidata.org/wiki/Property:P1212) | Atlas ID | 
@@ -260,7 +262,11 @@ id | Name | Beschreibung
 [`P1226`](https://www.wikidata.org/wiki/Property:P1226) | *NARA specific records type ID* | 
 [`P1229`](https://www.wikidata.org/wiki/Property:P1229) | Openpolis-ID | 
 [`P1231`](https://www.wikidata.org/wiki/Property:P1231) | *NARA catalogue record ID* | 
+[`P1232`](https://www.wikidata.org/wiki/Property:P1232) | *Linguist list code* | 
 [`P1237`](https://www.wikidata.org/wiki/Property:P1237) | *Box Office Mojo film ID* | 
 [`P1238`](https://www.wikidata.org/wiki/Property:P1238) | *Swedish Football Association ID* | 
 [`P1245`](https://www.wikidata.org/wiki/Property:P1245) | Bedeutungsdefinition in OmegaWiki | "DefinedMeaning"-Kennzeichnungsnummer in OmegaWiki
 [`P1250`](https://www.wikidata.org/wiki/Property:P1250) | *Danish Bibliometric Research Indicator (BFI) SNO/CNO* | 
+[`P1256`](https://www.wikidata.org/wiki/Property:P1256) | Iconclass ID | Kennung des ikonographischen Themas
+[`P1258`](https://www.wikidata.org/wiki/Property:P1258) | Rotten Tomatoes ID | 
+[`P1273`](https://www.wikidata.org/wiki/Property:P1273) | CANTIC | 

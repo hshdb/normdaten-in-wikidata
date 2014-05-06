@@ -16,7 +16,7 @@ $endif$
   <![endif]-->
 
   <!-- jQuery und Annotator -->
-$if(annotator)$  
+$if(snapshot)$  
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
   <script src="http://assets.annotateit.org/annotator/v1.2.7/annotator-full.min.js"></script>
   <link rel="stylesheet" href="http://assets.annotateit.org/annotator/v1.2.7/annotator.min.css">
@@ -59,6 +59,11 @@ $if(title)$
   <div id="date">$date$</div>
   $endif$
 </header>
+$endif$
+$if(snapshot)$
+<p>
+Dies ist ein Snapshot des Handbuch erstellt am $build-date$!
+</p>
 $endif$
 $if(toc)$
 <nav id="$idprefix$TOC">
