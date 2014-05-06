@@ -23,13 +23,13 @@ Für einen vollständigen Zugriff werden unter <http://dumps.wikimedia.org/wikid
 
 ### Komplexere Abfragen und Analysen
 
-Bislang bietet Wikidata noch keine einfache Möglichkeit für komplexere Datenbank-Abfragen, so dass für umfangreichere Analysen im Zweifelsfall die gesamte Datenbank heruntergeladen werden muss. Alternativ dazu gibt es einige Programme mit denen Abfragen an eine möglichst aktuelle Kopie der Wikidata-Datenabank gestellt werden können.
+Bislang bietet Wikidata noch keine einfache Möglichkeit für komplexere Datenbank-Abfragen, so dass für umfangreichere Analysen im Zweifelsfall die gesamte Datenbank heruntergeladen werden muss. Alternativ dazu gibt es einige Programme mit denen Abfragen an eine möglichst aktuelle Kopie der Wikidata-Datenbank gestellt werden können.
 
 Für die Einbindung in MediaWiki beinhaltet die Wikibase-Software eine [Komponente zur Programmierung von Wikidata-Abfragen in der Programmiersprache Lua](http://www.mediawiki.org/wiki/Extension:Wikibase_Client/Lua). Diese Variante soll zunehmend in den Wikis der Wikimedia-Foundation verwendet werden, um dort Infoboxen, Listen und andere strukturierte Inhalte anzuzeigen. Eine weitere Möglichkeit ist die Webanwendung WikiData Query (WDQ) unter <http://wdq.wmflabs.org/>. Dort können in einer speziellen Abfragesprache und über ein Webinterface Abfragen zusammengestellt werden, beispielsweise um Listen von Wikidata-Items mit gemeinsamen Eigenschaften zu erstellen.
 
 <div class="example">
 
-Die Anfrage `string[227:"224028495-5"]` fragt in in WikiData Query alle Items ab, die eine Aussage mit der Eigenschaft [`P227`](https://www.wikidata.org/wiki/Property:P227) (GND-Identifier) haben, deren Wert die Zeichenkette "224028495-5" ist. Auf diese Weise kann zu einer GND-Nummer, falls vorhanden, das entsprechende Wikidata-Item nachgeschlagen werden.
+Die Anfrage `string[227:"224028495-5"]` fragt in WikiData Query alle Items ab, die eine Aussage mit der Eigenschaft [`P227`](https://www.wikidata.org/wiki/Property:P227) (GND-Identifier) haben, deren Wert die Zeichenkette "224028495-5" ist. Auf diese Weise kann zu einer GND-Nummer, falls vorhanden, das entsprechende Wikidata-Item nachgeschlagen werden.
 
 </div>
 
