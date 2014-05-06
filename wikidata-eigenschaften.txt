@@ -6,7 +6,7 @@ Jede Eigenschaft wird durch eine ID referenziert, die mit `P` anfängt. Beispiel
 
 <div class="example ">
 
-Zur Ansicht und Bearbeitung der Benennungen und weiterer Angaben zu Aussagen hat jede Eigenschaft in Wikidata eine eigene Seite. Die URL dieser Seite lässt sich durch Voranstellen von `https://www.wikidata.org/wiki/Property:` konstruieren.
+Zur Ansicht und Bearbeitung der Benennungen und weiterer Angaben zu Aussagen hat jede Eigenschaft in Wikidata eine eigene Seite. Die URL (Uniform Resource Locator) dieser Seite lässt sich durch Voranstellen von `https://www.wikidata.org/wiki/Property:` konstruieren.
 
 </div>
 
