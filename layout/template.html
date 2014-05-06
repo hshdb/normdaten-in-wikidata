@@ -12,14 +12,14 @@ $endif$
   <title>$if(title-prefix)$$title-prefix$ - $endif$$pagetitle$</title>
   <style type="text/css">code{white-space: pre;}</style>
   <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
   <!-- jQuery und Annotator -->
 $if(snapshot)$  
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="http://assets.annotateit.org/annotator/v1.2.7/annotator-full.min.js"></script>
-  <link rel="stylesheet" href="http://assets.annotateit.org/annotator/v1.2.7/annotator.min.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="layout/annotator-full.min.js"></script>
+  <link rel="stylesheet" href="layout/annotator.min.css">
   <script>
     jQuery(function ($$) {
       $$(document.body).annotator().annotator('setupPlugins');
