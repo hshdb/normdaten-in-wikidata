@@ -12,16 +12,13 @@ Die andere Möglichkeit ist die Eingabe einer konkreten Bezeichnung des Items un
 
 ![Suchergebnisvoranzeige](images/Suchergebnisvoranzeige.jpg)
 
-Weitere Suchoptionen kann man am einfachsten einblenden, wenn man die Enter-Taste in einem leeren Suchfeld betätigt. Auf dieser Seite kann man entscheiden, ob man nach "Inhaltsseiten", "Multimedia", "Hilfe- und Projektseiten", "Übersetzungen" oder nach Allem ("Alles") suchen möchte. 
+Weitere Suchoptionen kann man am einfachsten einblenden, wenn man die Enter-Taste in einem leeren Suchfeld betätigt. Man wird auf eine Art erweiterte Suche weitergeleitet. Wichtig für den Benutzer sind hier die Suchmöglich speziell nach Items ("Inhaltsseiten") und nach Hilfeseiten ("Hilfe- und Projektseiten"). 
 
 ![Erweiterte Suche ](images/Erweiterte_Suche.PNG)
 
-![Auswahlmöglichkeiten bei der erweiterten Suche](images/Auswahlm_glichkeiten_bei_der_erweiterten_Suche.PNG)
-
 **Begrifferklärungen/Menüpunkte**
 
-Auf den Inhaltsseiten kann man nach sämtlichen Objekten von Wikidata suchen. Über den Reiter Multimedia können Dateien gefunden werden (hauptsächlich Bilder), die in Aussagen verknüpft sind (aus Wikimedia Commons). Mit dem Reiter Hilfe- und Projektseiten ist es dem Benutzer möglich, nach Hilfen und anderen Erklärungen zu Elementen der Wikidata-Benutzung zu suchen. 
-Die Reiter für Übersetzungen und Alles funktionieren nach dem gleichen Prinzip: **in Ersterem sucht man nach übersetzten Wikidataseiten????** und in Zweiterem kann man alle zuvorgenannten Bereiche zugleich absuchen, wenn zum Beispiel unklar ist, was genau gesucht wird. 
+Auf den Inhaltsseiten kann man nach sämtlichen Items von Wikidata suchen. Mit dem Reiter "Hilfe- und Projektseiten" ist es dem Benutzer möglich, nach Hilfen und anderen Erklärungen zu Elementen der Wikidata-Benutzung zu suchen. 
 
 ### Suche nach Eigenschaften
 
