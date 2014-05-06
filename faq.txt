@@ -13,8 +13,8 @@ Falls das Item nicht vorhanden ist, können Sie das [neue Item erstellen](http:/
 **4. Ich suche eine Übersichtsseite zu wichtigen Begriffen von Wikidata. Gibt es so etwas?**
 Wikidata besitzt ein ausführliches Glossar, in dem wichtige Begriffe von Wikidata und dessen Funktionsweise beschrieben sind. Sie finden das Glossar auf [dieser Website](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#glossar "Glossar"). 
  
- **5. Wie benutze ich Quellen?**
- Belege bestehen aus mindestens einer Eigenschaft und einem Wert.
+ **5. Was sind Belege?**
+Belege bestehen aus mindestens einer Eigenschaft und einem Wert. Die Eigenschaften, die eine Aussagen belegen sollen,  werden aus dem Pool von verfügbaren (und festgelegten) Eigenschaften ausgelegt. Der Wert ist ein Nachweis einer Information, die in einer Aussage verwendet wird, z.B. ein Zitat, eine Website oder ein anderes Dokument, dass die Qualitätssicherung gewährleistet. 
 Lesen Sie [Kapitel 4.3.3 Belege](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#belege "Kapitel 4.3.3 Belege") sowie [Hilfe: Belege](http://www.wikidata.org/wiki/Help:Sources/de "Hilfe: Belege")
 
 **6. Wie arbeitet die Suche?**
