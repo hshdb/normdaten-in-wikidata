@@ -3,28 +3,21 @@
 **1. Stellt Wikidata Doppelarbeit dar, wenn es bereits entsprechende Wikipedia-Artikel gibt?**
 Nein, Wikidata übernimmt die Fakten von Wikipedia und bereitet sie auf. Diese können durch die Aussagen leicht in anderen Sprachen abgerufen werden, was in Wikipedia nicht möglich ist.
 
-**2. Wie kann ich die Benutzeroberflächensprache auf meine Sprache umstellen?**
-Die Voreinstellung der Wikidata-Oberflächensprache ist ohne Anmeldung Englisch. Wenn Sie nun die Benutzersprache von Englisch auf Deutsch umstellen möchten, dann ist die Sprachumstellung sehr einfach zu bewältigen. Auf der linken Seite der Wikidata-Startseite befindet sich eine Sprachauswahl und dort können sie jede Sprache (in unserem Fall Deutsch), die in Wikidata vorhanden ist, auswählen. 
-
-![Sprachumstellung von englisch zu deutsch](images/sprachumstellung_wikidata.jpg)
-
-Zuletzt sei noch erwähnt, dass die Benutzeroberflächensprache lediglich die funktionalen Bestandteile von Wikidata übersetzt, d.h. die Inhalte von Wikidata (die Items, die Hilfeseiten, die Aussagen etc.) werden bei Default-Einstellungen immer noch in Englisch dargestellt. 
-
-**3. Warum ist es das feste Vokabular bei den Eigenschaften?** 
- Die Eigenschaften sind in verschiedenen Sprachen vorhanden. Die Begriffe sind vorgegeben, damit eine problemlose Übersetzung ermöglicht wird. Bei fehlenden Begriffen können diese der Communitie vorgeschlagen werden. Siehe [Neue Wikidata Eigenschaften](#neue-wikidata-eigenschaften-erstellen) erstellen. 
+**2. Warum gibt es ein festes Vokabular für Eigenschaften?** 
+Eigenschaften sind in verschiedenen Sprachen vorhanden. Die Begriffe sind vorgegeben, damit eine problemlose Übersetzung ermöglicht wird. Bei fehlenden Begriffen können diese der Community vorgeschlagen werden. Ausführliche Informationen zu diesem Thema finden sie im Kapitel [Neue Wikidata Eigenschaften](#neue-wikidata-eigenschaften-erstellen).
  
- **4.Wie erzeuge ich ein neues Objekt (Item)?**
- Überprüfen Sie, ob das Objekt bereits vorhanden ist!
-Wenn das Item noch nicht vorhanden ist, erhalten Sie die Möglichkeit ein neues Item zu erstellen. Man wird mit einem Link auf die Erstellungsseite weitergeleitet. Dort muss die Bezeichnung sowie die Beschreibung des zu erstellenden Items eingetragen werden. Ist dies geschehen, kommt man auf die Itemseite. Siehe [Kapitel 6.4.1 Neue Items anlegen](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#neue-items-anlegen "Items anlegen")
+ **3. Wie erzeuge ich ein neues Item?**
+Zuerst sollten Sie überprüfen, ob das Item, dass Sie erstellen möchte, möglicherweise bereits existiert. 
+Falls das Item nicht vorhanden ist, können Sie das [neue Item erstellen](http://www.wikidata.org/wiki/Special:NewItem?uselang=de). Auf dieser Seite müssen Sie zuerst die Bezeichnung sowie die Beschreibung des zu erstellenden Items eintragen. Ist dies geschehen, kommen sie auf die Itemseite. [Kapitel 6.4.1 Neue Items anlegen](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#neue-items-anlegen) zeigt Ihnen ausführlich, wie man ein Item anlegen kann. 
 
-**5.Ich beherrsche die Wikidata-Terminologie noch nicht. Wo werden die Bezeichnungen der Benutzeroberfläche erklärt?**
-Sie finden es im Glossar. Siehe [Glossar](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#glossar "Glossar")
+**4. Ich suche eine Übersichtsseite zu wichtigen Begriffen von Wikidata. Gibt es so etwas?**
+Wikidata besitzt ein ausführliches Glossar, in dem wichtige Begriffe von Wikidata und dessen Funktionsweise beschrieben sind. Sie finden das Glossar auf [dieser Website](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#glossar "Glossar"). 
  
- **6.Wie benutze ich Quellen?**
+ **5. Wie benutze ich Quellen?**
  Belege bestehen aus mindestens einer Eigenschaft und einem Wert.
 Lesen Sie [Kapitel 4.3.3 Belege](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#belege "Kapitel 4.3.3 Belege") sowie [Hilfe: Belege](http://www.wikidata.org/wiki/Help:Sources/de "Hilfe: Belege")
 
-**7.Wie arbeitet die Suche?**
+**6. Wie arbeitet die Suche?**
 Die beiden wichtigsten Möglichkeiten sind Suche (die umfassendste Suche über Sprachgrenzen hinweg) und Datenobjekte nach Titel, die nach einem Datensatz zu einem Wikipedia-Artikel in der ausgewählten Sprache. Hier muss der Titel genau gleich sein wie der Eintrag, den Sie suchen. Bitte probieren Sie beide Möglichkeiten aus, damit Sie einen Eintrag auch wirklich finden können.
 Siehe [Kapitel 6.3 Inhalte finden in Wikidata](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#inhalte-finden-in-wikidata "Kapitel 6.3 Inhalte finden in Wikidata")
  
