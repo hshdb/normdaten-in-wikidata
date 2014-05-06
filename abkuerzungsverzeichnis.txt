@@ -1,16 +1,6 @@
 # Abkürzungsverzeichnis {.unnumbered}
 - DDC: Dewey-Decimal-Classification
 - GND: Gemeinsame Normdatei
-- ICD-10: International Statistical Classification of Diseases and Related Health Problems
-- ID: Identifikator
-- LCCN: Library of Congress Control Number 
-- LCNAF: Library of Congress Name Authority File 
-- NDL: National Diet Library
-- RAK-WB: Regeln der alphabetischen Katalogisierung in wissenschaftlichen Bibliotheken
-- RSWK: Regeln für den Schlagwortkatalog 
 - URL: Uniform Resource Locator 
-- VIAF: Virtual International Authority File 
-- WD:P: Wikidata: Properties
-- ZDB: Zeitschriftendatenbank
 
 
