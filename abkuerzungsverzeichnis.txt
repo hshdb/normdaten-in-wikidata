@@ -1,6 +1,0 @@
-# Abkürzungsverzeichnis {.unnumbered}
-- DDC: Dewey-Decimal-Classification
-- GND: Gemeinsame Normdatei
-- URL: Uniform Resource Locator 
-
-

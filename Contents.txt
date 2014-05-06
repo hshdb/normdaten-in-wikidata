@@ -1,7 +1,6 @@
 > Das Buch besteht derzeit aus folgenden Dateien:
 
 vorwort.txt
-abkuerzungsverzeichnis.txt
 einleitung.txt
 einfuehrung-normdaten.txt
 einfuehrung-wikidata.txt
