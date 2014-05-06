@@ -14,7 +14,6 @@ Die Ansicht der Eigenschaft [`P19`](https://www.wikidata.org/wiki/Property:P19) 
 
 ![Eigenschaft P19: Geburtsort](images/place_of_birth.jpg)
 
-
 ### Vorhandene Eigenschaften
 
 Jede Aussage auf einer Item-Seite stellt eine Verbindung zu einer Eigenschaft her und weist ihr einen Wert zu. Dieser Wert besitzt wiederum eine Verlinkung zu der Item-Seite dieses Wertes.
