@@ -12,6 +12,6 @@ Die Seite des Items setzt sich aus verschiedenen Komponenten zusammen (siehe Abb
 
 Ganz oben steht der Name des Items mit ID (in diesem Fall "Japan ([`Q17`](https://wikidata.org/wiki/Q17))") und darunter folgt eine Kurzbeschreibung dieses Items sowie Synonyme. Es werden außerdem Übersetzungen des Items und der Kurzbeschreibung angezeigt. 
 
-Nach den Übersetzungen kommen die [Aussagen](#wikidata-aussagen). Aussagen lassen sich aufteilen in [Eigenschaft](#wikidata-eigenschaften) und Wert. Sie dienen dazu, das Item näher zu beschreiben. Eigenschaften beschreiben (immer gleichbleibende) Merkmale der Inhalte, welche in den Werten eingetragen werden können. Der Wert hingegen ist das Rohdatum, welcher das Item näher beschreiben soll.  Im obigen Beispiel ist "instance of" (deutsch = ist ein(e)) eine Aussage und "country" (deutsch = Land) ein der Eigenschaft zugewiesener Wert. 
+Nach den Übersetzungen kommen die [Aussagen](#wikidata-aussagen). Aussagen lassen sich aufteilen in [Eigenschaft](#wikidata-eigenschaften) und Wert. Sie dienen dazu, das Item näher zu beschreiben. Eigenschaften beschreiben (immer gleichbleibende) Merkmale der Inhalte, welche in den Werten eingetragen werden können. Der Wert hingegen ist das Rohdatum, welcher das Item näher beschreiben soll. Im obigen Beispiel ist "DDC" eine Aussage und "T2--52"  ein der Eigenschaft zugewiesener Wert. 
 
 
