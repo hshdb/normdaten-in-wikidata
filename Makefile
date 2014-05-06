@@ -71,8 +71,11 @@ ODT_OPTIONS=
 .md.docx:
 	pandoc $(PANDOC_OPTIONS) -t docx -o $@ $(ODT_OPTIONS) $<
 
+# Snapshot zum Korrekturlesen mit Annotator
+SNAPSHOT_OPTIONS = -V snapshot=1
+
 snapshot.html: $(TARGET).md 
-	pandoc $(PANDOC_OPTIONS) -o $@ $(HTML_OPTIONS) -V snapshot=1 $<
+	pandoc $(PANDOC_OPTIONS) -o $@ $(HTML_OPTIONS) $(SNAPSHOT_OPTIONS) $<
 
 
 # Übersichten

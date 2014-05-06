@@ -49,6 +49,24 @@ $endfor$
 $for(include-before)$
 $include-before$
 $endfor$
+
+$if(snapshot)$
+<p>
+  Dies ist ein Snapshot des Handbuch erstellt am $build-date$!
+  Für Anmerkungen und Korrekturen verwenden Sie bitte
+  <ul>  
+      <li>melden Sie sich auf
+          <a href="http://annotateit.org">Annotateit.org</a>
+          an und kommetieren Sie direkt auf dieser Seite!
+      </li>    
+      <li>
+        melden Sie sich bei Penflip and und schlagen Sie änderungen
+        an der jeweils aktuelle Version unter $source-url$ vor!
+      </li>
+  </ul>
+</p>
+$endif$
+
 $if(title)$
 <header>
   <div id="title">$title$</div>
@@ -60,11 +78,6 @@ $if(title)$
   $endif$
 </header>
 $endif$
-$if(snapshot)$
-<p>
-Dies ist ein Snapshot des Handbuch erstellt am $build-date$!
-</p>
-$endif$
 $if(toc)$
 <nav id="$idprefix$TOC">
 $toc$
@@ -74,7 +87,6 @@ $endif$
 $body$
 </div>
 <footer>
-  $if(source-url)$<div>Ausgangsdaten: <a href="$source-url$">$source-url$</a></div>$endif$
   $if(commit-date)$<div>Letzte Änderung: $commit-date$</div>$endif$
   $if(build-date)$<div>Erstellungszeit: $build-date$</div>$endif$
 </footer>
