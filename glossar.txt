@@ -1,13 +1,13 @@
 # Glossar {.unnumbered}
 
 **Aussage (statement)**
-  : Eine [Aussage](#wikidata-aussagen) ist eine Untereinheit eines Items in Wikidata. Aussagen bestehen in der Regel aus einer normierten Eigenschaft, ihnen zugewiesenen Items und optionalen Belege. Nicht jede Eigenschaft muss als Wert ein Item beinhalten, manche enthalten einfache externe Verlinkungen (Normdaten, Websiten...) oder einfache Daten (geografische Daten, Ländercodes...). Wikidata gibt keine Auskunft über die Richtigkeit von Aussagen, sondern beschränkt sich auf das Sammeln und die Bereitstellung von Daten, zusammen mit der dem Nachweis der Quelle. 
+  : Eine [Aussage](#wikidata-aussagen) ist eine Untereinheit eines Items in Wikidata. Aussagen bestehen in der Regel aus einer normierten Eigenschaft, ihnen zugewiesenen Items und optionalen Belege. Nicht jede Eigenschaft muss als Wert ein Item beinhalten, manche enthalten einfache externe Verlinkungen (Normdaten, Webseiten...) oder einfache Daten (geografische Daten, Ländercodes...). Wikidata gibt keine Auskunft über die Richtigkeit von Aussagen, sondern beschränkt sich auf das Sammeln und die Bereitstellung von Daten, zusammen mit der dem Nachweis der Quelle. 
 
 **Beleg**
   : Ein [Beleg](#belege) in Wikidata ist eine beliebige Literatur- oder Quellenangabe, die eine Aussage bestätigt. Belege können ihrerseits auf andere Items verweisen, beispielsweise auf ein Buch, das in Wikidata einen eigenen Eintrag hat.
 
 **Bot** 
-  : Ein [Bot](#einfuehrung-in-wikidata) ist eine selbstständig arbeitende Software, die Bearbeitungen ohne menschliche Entscheidungen vornehmen kann. Bots können Interwikilinks, Bezeichnungen, Beschreibungen, Aussagen,Quellen hinzufügen und bearbeiten. Außerdem können Bots Objekte automatisiert erstellen.  Um mehr Information zu Bots zu finden siehe  <http://www.wikidata.org/wiki/Wikidata:Bots/de>.
+  : Ein [Bot](#einfuehrung-in-wikidata) ist eine selbstständig arbeitende Software, die Bearbeitungen ohne menschliche Entscheidungen vornehmen kann. Bots können Interwikilinks, Bezeichnungen, Beschreibungen, Aussagen, Quellen hinzufügen und bearbeiten. Außerdem können Bots Objekte automatisiert erstellen.  Um mehr Information zu Bots zu finden siehe  <http://www.wikidata.org/wiki/Wikidata:Bots/de>.
 
 **Daten**
   :  [Daten](#inhalte-von-wikidata) in Wikidata sind die Sammlung aller strukturierten Daten und somit der gesamte Bestand der Datenbank. Generell sind alles Daten, was Wikidata-Autoren und Bots in Wikidata auf den Seiten der Datensätze eingeben, welche dann die Datensätze in der Wikidata ergeben. Diese Seiten gehören zu den drei Daten-Namensräumen (entitiy namespaces): Der Hauptnamensraum für die Datenobjekte (items), der Eigenschaftsnamensraum für die Eigenschaften (properties) und der Abfragenamensraum für die Abfragen (queries). Andere Wikidataseiten bestehen aus unstrukturiertem Inhalt, beispielsweise Fließtext und gelten als Metaseiten. Die speziellen Daten der Eigenschaften (property data) sind die Werte (values) in den Aussagen (statements), die ganz bestimmte Datentypen erfordern.
@@ -25,7 +25,7 @@
   : Unter [Datentypen](#datentypen-und-andere-einschränkungen) versteht man die Zusammenfassung von Objektmengen. Datentypen haben die Aufgabe zu bestimmen, welche Art von Werten den Eigenschaften zugeordnet werden können. Datentypen, die in Wikidata Installation verfügbar sind: Datenobjekt, Mediendatei auf Commons, Zeichenkette, Zeit, Koordinate, URL und Menge.
   
 **Deskriptor** (synonym: Schlagwort)
-  : Ein [Deskriptor](#einführung-in-normdaten) beschreibt den Inhalt eines Dokumentes. Im Allgemeinen werden Deskriptoren aus einem kontrollierten und geordnetem Vokabular entnommen (Normdateien, Thesauri oder Klassifikationen). 
+  : Ein [Deskriptor](#einführung-in-normdaten) beschreibt den Inhalt eines Dokumentes. Im Allgemeinen werden Deskriptoren aus einem kontrollierten und geordneten Vokabular entnommen (Normdateien, Thesauri oder Klassifikationen). 
   
 **Eigenschaft (property)**
   : [Eigenschaften](#wikidata-eigenschaften) sind Bestandteile von Aussagen. Ihnen können Werte (Items) zugeordnet werden. Jede Eigenschaft ist einzigartig und beschreibt die Merkmale der ihnen zugewiesenen Items.  
@@ -37,7 +37,7 @@
   : Die [Gemeinsame Normdatei](#einführung-in-normdaten) ist ein Projekt der Deutschen Nationalbibliothek und einigen anderen deutschen Bibliotheken. Sie stellt den Zusammenschluss der ehemaligen getrennten Gemeinsamen Körperschaftsdatei (GKD), der Personennormendatei (PND), der Schlagwortnormdatei (SWD) und der Einheitssachtitel-Datei des Deutschen Musikarchivs (DMA-EST-Datei) dar. 
   
 **Item (Datenobjekt)**
-  : [Item](#allgemein-zu-wikidata-items) ist ein Eintrag in Wikidata, der sich auf einen Gegenstand (Person, Ort, Konzept...) bezieht. Jedes Wikidata-Item hat eine eindeutige ID, die mit `Q` beginnt. Items sind mit anderen Items mit Interwikilinks verknüpft.
+  : [Item](#allgemein-zu-wikidata-items) ist ein Eintrag in Wikidata, der sich auf einen Gegenstand (Person, Ort, Konzept) bezieht. Jedes Wikidata-Item hat eine eindeutige ID, die mit `Q` beginnt. Items sind mit anderen Items mit Interwikilinks verknüpft.
   
 **Indexierung**
   : Das [Indexieren](#einführung-in-normdaten) beschreibt eine Methode der Inhaltserschließung von Dokumenten und medialen Inhalten jeglicher Art. Produkte von Indexierungen sind Schlagwörter und Stichwörter. Indexierte Dokumente sollen nach einer späteren Recherche mit - nach bestimmten Regeln von Dokumentationssprachen (mithilfe einer Klassifikation oder eines Thesaurus) - genau den vergebenen Schlag- und Stichwörtern wiedergefunden werden. 
@@ -49,13 +49,13 @@
   : In Bezug auf Normdaten ist ein [Mapping](#einfuehrung-in-normdaten) eine Abbildung von Normdaten aus einer Normdatei auf Normdaten einer anderen Normdatei.
 
 **MediaWiki**
-  : [MediaWiki](#wikidata-als-datenbank) ist ein freies Softwarepaket zum Betrieb eines Wikis, das ursprünglich für die Wikipedia geschrieben wurde. Es ist das Wikisystem aller von der Wikimedia-Stiftung (Wikimedia Foundation) betriebenen Wikis sowie vieler anderer Wikis, einschließlich dieser Website – der Website zu MediaWiki. 
+  : [MediaWiki](#wikidata-als-datenbank) ist ein freies Softwarepaket zum Betrieb eines Wikis, das ursprünglich für die Wikipedia geschrieben wurde. Das Wikisystem wird von allen Wikis der Wikimedia-Stiftung (Wikimedia Foundation) betriebenen. 
   
 **Metadaten**
   : [Metadaten](#einführung-in-normdaten) sind Daten, welche Eigenschaften und Merkmale anderer Daten beschreiben. Metadaten können am Beispiel eines Buches der Titel, die ISBN, das Erscheinungsjahr, der Verlag und ähnliches sein. Metadaten finden sich in der gesamten digitalen Welt wieder und haben gerade im wissenschaftlichen Bereich eine sehr wichtige Bedeutung.                       
 
 **Normdatei**
-  : Eine [Normdatei](#einführung-in-normdaten) ist ein Gesamtverzeichnis aller Normdaten. Viele Länder beziehungsweise,Sprachengebiete haben für ihre Bibliothekssysteme oder auch Datenbestände eigene Normdateien entwickelt, zum Beispiel die GND, LCCN, NDL, VIAF. In Wikidata selbst gibt es zwei Normdateienfunktionen: Wikidata kann externe Normdaten einbinden und  Wikidata soll in Zukunft selbst eine Normdatei für Projekte der Wikimedia Foundation werden. 
+  : Eine [Normdatei](#einführung-in-normdaten) ist ein Gesamtverzeichnis aller Normdaten. Viele Länder beziehungsweise, Sprachengebiete haben für ihre Bibliothekssysteme oder auch Datenbestände eigene Normdateien entwickelt, zum Beispiel die GND, LCCN, NDL, VIAF. In Wikidata selbst gibt es zwei Normdateienfunktionen: Wikidata kann externe Normdaten einbinden und  Wikidata soll in Zukunft selbst eine Normdatei für Projekte der Wikimedia Foundation werden. 
 
 **Normdaten**
   : [Normdaten](#einführung-in-normdaten) sind Daten, welche nach festgelegten Regeln erschlossen und beschrieben werden. Normdaten sind stets unter einem einzigartigen Namen zu finden, welcher sich aus alphanumerischen Zeichen zusammensetzt. Manche Normdaten in Wikidata enthalten  Synonyme, Verwandte, Ober-und Unterbegriffe und manchmal auch Beschreibungstexte und Synonyme in anderen Sprachen. Fast jedes Datum kann normiert werden: Personen, Orte, geografische Einheiten, Körperschaften, Verwaltungseinheiten und viel mehr.  Die Beschreibung zur Bildung von Normdaten findet man in umfangreichen Regelwerken und Richtlinien. 
