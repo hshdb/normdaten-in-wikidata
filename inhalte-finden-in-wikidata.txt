@@ -12,16 +12,14 @@ Die andere Möglichkeit ist die Eingabe einer konkreten Bezeichnung des Items un
 
 ![Suchergebnisvoranzeige](images/Suchergebnisvoranzeige.jpg)
 
-Weitere Suchoptionen kann man am einfachsten einblenden, wenn man die Enter-Taste in einem leeren Suchfeld betätigt. Auf dieser Seite kann man entscheiden, ob man nach "Inhaltsseiten", "Multimedia", "Hilfe- und Projektseiten", "Übersetzungen" oder nach Allem ("Alles") suchen möchte. 
+Weitere Suchoptionen kann man am einfachsten einblenden, wenn man die Enter-Taste in einem leeren Suchfeld betätigt. Man wird auf eine Art erweiterte Suche weitergeleitet. Wichtig für den Benutzer sind hier die Suchmöglich speziell nach Items ("Inhaltsseiten") und nach Hilfeseiten ("Hilfe- und Projektseiten"). 
 
-![Erweiterte Suche ](images/Erweiterte_Suche.PNG)
+![Erweiterte Suche](images/erweiterte_suche.jpg)
 
-![Auswahlmöglichkeiten bei der erweiterten Suche](images/Auswahlm_glichkeiten_bei_der_erweiterten_Suche.PNG)
 
-**Begrifferklärungen/Menüpunkte**
+**Begriff Erklärungen/Menüpunkte**
 
-Auf den Inhaltsseiten kann man nach sämtlichen Objekten von Wikidata suchen. Über den Reiter Multimedia können Dateien gefunden werden (hauptsächlich Bilder), die in Aussagen verknüpft sind (aus Wikimedia Commons). Mit dem Reiter Hilfe- und Projektseiten ist es dem Benutzer möglich, nach Hilfen und anderen Erklärungen zu Elementen der Wikidata-Benutzung zu suchen. 
-Die Reiter für Übersetzungen und Alles funktionieren nach dem gleichen Prinzip: **in Ersterem sucht man nach übersetzten Wikidataseiten????** und in Zweiterem kann man alle zuvorgenannten Bereiche zugleich absuchen, wenn zum Beispiel unklar ist, was genau gesucht wird. 
+Auf den Inhaltsseiten kann man nach sämtlichen Items von Wikidata suchen. Mit dem Reiter "Hilfe- und Projektseiten" ist es dem Benutzer möglich, nach Hilfen und anderen Erklärungen zu Elementen der Wikidata-Benutzung zu suchen. 
 
 ### Suche nach Eigenschaften
 
@@ -33,23 +31,12 @@ Wenn der Name der Eigenschaft nicht bekannt ist, gibt es die Möglichkeit mit Hi
 
 ### Suche nach Aussagen 
 
-_Dieser ganze Abschnitt ist völlig unverständlich und der Link funktioniert nicht. _
+_Dieser ganze Abschnitt ist völlig unverständlich. Er sollte besser mit dem Abschnitt [Komplexere Abfragen und Analysen](#komplexere-abfragen-und-analysen) koordiniert werden! _
 
 Wie können vorhandene [Aussagen](#wikidata-aussagen), beispielsweise  mit Normdateneigenschaften, abgefragt werden?
 
+Beispielsweise können alle Personen aufgelistet werden, die in einer bestimmten Stadt geboren sind.
+
 ![SimpleQuery](images/simple-query.png)
 
-In diesem Beispiel soll geklärt werden, wie Sie am besten vorgehen, wenn Sie Literatur mit einer GND-Nummer haben. Mit Hilfe der GND gelangen Sie auf die  Weiterhin soll geklärt werden, welche Werkzeuge Sie verwenden sollen, um dieses Ziel zu erreichen. 
-
-<div class="example">
-**Beispiel [Japan](http://wikidata-wdq-mm.instance-proxy.wmflabs.org/api?q=string[227:4028495-5)**
-
-In diesem Beispiel beschreibt die Zahl 227 die Normdaten-Eigenschaft. Diese Eigenschaft ist in Wikidata die Gemeinsame Normdatei (GND). Da wir in unserem Beispiel nach einer GND-Nummer (4028495-5, Japan) suchen, setzen wir diese Zahlenkombination dahinter und bekommen Japan ausgegegeben.
-
-</div>
-
-Im Kapitel [Abfragen mit WikiData Query](#abfragen-mit-wikiData-query) ist beschrieben, dass in Wikidata keine umfassenden Datenbankabfragen durchgeführt werden können. Es sind hierfür andere Anwendungen, wie zum Beispiel die Webanwendung WikiData Query (WDQ), erforderlich. 
-
-Das Kapitel [Weiternutzung in anderen Anwendungen](#weiternutzung-in-anderen-anwendungen) erklärt ihnen, wie sie mit Hilfe von anderen Anwendungen das optimale Suchergebnis mit der Datenbank erreichen und die Weiternutzung, besonders von Normdaten, optimieren. 
-
-
+Im Kapitel [Weiternutzung in anderen Anwendungen](#weiternutzung-in-anderen-anwendungen) ist beschrieben, dass in Wikidata keine umfassenden Datenbankabfragen durchgeführt werden können. Es sind hierfür andere Anwendungen, wie zum Beispiel die Webanwendung WikiData Query (WDQ), erforderlich. 

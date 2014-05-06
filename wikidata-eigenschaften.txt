@@ -10,9 +10,9 @@ Zur Ansicht und Bearbeitung der Benennungen und weiterer Angaben zu Aussagen hat
 
 </div>
 
-Die Eigenschaft `P19` ist beispielsweise im folgenden Screenshot beschrieben.
+Die Ansicht der Eigenschaft [`P19`](https://www.wikidata.org/wiki/Property:P19) können Sie unten im Screenshot betrachten. 
 
-![](images/Eigenschaft.PNG)
+![Eigenschaft P19: Geburtsort](images/place_of_birth.jpg)
 
 ### Vorhandene Eigenschaften
 

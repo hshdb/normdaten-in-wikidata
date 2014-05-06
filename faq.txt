@@ -4,21 +4,22 @@
 Nein, Wikidata übernimmt die Fakten von Wikipedia und bereitet sie auf. Diese können durch die Aussagen leicht in anderen Sprachen abgerufen werden, was in Wikipedia nicht möglich ist.
 
 **2. Warum gibt es ein festes Vokabular für Eigenschaften?** 
-Eigenschaften sind in verschiedenen Sprachen vorhanden. Die Begriffe sind vorgegeben, damit eine problemlose Übersetzung ermöglicht wird. Bei fehlenden Begriffen können diese der Community vorgeschlagen werden. Ausführliche Informationen zu diesem Thema finden sie im Kapitel [Neue Wikidata Eigenschaften](#neue-wikidata-eigenschaften-erstellen).
+Eigenschaften sind in verschiedenen Sprachen vorhanden. Die Begriffe sind vorgegeben, damit eine problemlose Übersetzung ermöglicht wird. Bei fehlenden Begriffen können diese der Community vorgeschlagen werden. Ausführliche Informationen zu diesem Thema finden Sie im Kapitel [Neue Wikidata Eigenschaften](#neue-wikidata-eigenschaften-erstellen).
  
  **3. Wie erzeuge ich ein neues Item?**
-Zuerst sollten Sie überprüfen, ob das Item, dass Sie erstellen möchte, möglicherweise bereits existiert. 
+Zuerst sollten Sie überprüfen, ob das Item, dass Sie erstellen möchten, möglicherweise bereits existiert. 
 Falls das Item nicht vorhanden ist, können Sie das [neue Item erstellen](http://www.wikidata.org/wiki/Special:NewItem?uselang=de). Auf dieser Seite müssen Sie zuerst die Bezeichnung sowie die Beschreibung des zu erstellenden Items eintragen. Ist dies geschehen, kommen sie auf die Itemseite. [Kapitel 6.4.1 Neue Items anlegen](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#neue-items-anlegen) zeigt Ihnen ausführlich, wie man ein Item anlegen kann. 
 
 **4. Ich suche eine Übersichtsseite zu wichtigen Begriffen von Wikidata. Gibt es so etwas?**
 Wikidata besitzt ein ausführliches Glossar, in dem wichtige Begriffe von Wikidata und dessen Funktionsweise beschrieben sind. Sie finden das Glossar auf [dieser Website](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#glossar "Glossar"). 
  
  **5. Was sind Belege?**
-Belege bestehen aus mindestens einer Eigenschaft und einem Wert. Die Eigenschaften, die eine Aussagen belegen sollen,  werden aus dem Pool von verfügbaren (und festgelegten) Eigenschaften ausgelegt. Der Wert ist ein Nachweis einer Information, die in einer Aussage verwendet wird, z.B. ein Zitat, eine Website oder ein anderes Dokument, dass die Qualitätssicherung gewährleistet. 
+Belege bestehen aus mindestens einer Eigenschaft und einem Wert. Die Eigenschaften, die eine Aussage belegen sollen,  werden aus dem Pool von verfügbaren (und festgelegten) Eigenschaften ausgelegt. Der Wert ist ein Nachweis einer Information, die in einer Aussage verwendet wird, zum Beispiel ein Zitat, eine Website oder ein anderes Dokument, dass die Qualitätssicherung gewährleistet. 
 Lesen Sie [Kapitel 4.3.3 Belege](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#belege "Kapitel 4.3.3 Belege") sowie [Hilfe: Belege](http://www.wikidata.org/wiki/Help:Sources/de "Hilfe: Belege")
 
-**6. Wie arbeitet die Suche?**
-Die beiden wichtigsten Möglichkeiten sind Suche (die umfassendste Suche über Sprachgrenzen hinweg) und Datenobjekte nach Titel, die nach einem Datensatz zu einem Wikipedia-Artikel in der ausgewählten Sprache. Hier muss der Titel genau gleich sein wie der Eintrag, den Sie suchen. Bitte probieren Sie beide Möglichkeiten aus, damit Sie einen Eintrag auch wirklich finden können.
-Siehe [Kapitel 6.3 Inhalte finden in Wikidata](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#inhalte-finden-in-wikidata "Kapitel 6.3 Inhalte finden in Wikidata")
+**6. Wie finde ich etwas in Wikidata?**
+Die beiden wichtigsten Möglichkeiten sind die Suchfunktion (die umfassende Suche über Sprachgrenzen hinweg) und die Suche von [Datenobjekten nach Titeln](http://www.wikidata.org/wiki/Special:ItemByTitle?uselang=de). Letzteres funktioniert wie folgt: Sie geben bei "Website" eine Sprache eines Wikimedia-Projektes ein ("de" -> "Deutsch (dewiki)") und bei "Seite" gibt man die Bezeichnung eines Items ein ("Japan"). Sie werden anschließend auf die Item-Seite von Japan weitergeleitet. Wichtig zu beachten ist: der Eintrag, den Sie in das Suchfeld eingeben, muss genau mit der Bezeichnung des Items übereinstimmen. 
+Beide Suchmöglichkeiten haben ihre Vor- und Nachteile, Sie können beide Optionen nach ihrem Gutdünken anwenden. 
+Eine ausführliche Beschreibung  der Suchfunktionen finden Sie im [Kapitel 6.4 Inhalte finden in Wikidata](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#inhalte-finden-in-wikidata). 
  
 
