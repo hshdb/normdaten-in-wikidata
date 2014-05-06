@@ -14,7 +14,8 @@ Die andere Möglichkeit ist die Eingabe einer konkreten Bezeichnung des Items un
 
 Weitere Suchoptionen kann man am einfachsten einblenden, wenn man die Enter-Taste in einem leeren Suchfeld betätigt. Man wird auf eine Art erweiterte Suche weitergeleitet. Wichtig für den Benutzer sind hier die Suchmöglich speziell nach Items ("Inhaltsseiten") und nach Hilfeseiten ("Hilfe- und Projektseiten"). 
 
-![Erweiterte Suche ](images/Erweiterte_Suche.PNG)
+![Erweiterte Suche](images/erweiterte_suche.jpg)
+
 
 **Begrifferklärungen/Menüpunkte**
 
