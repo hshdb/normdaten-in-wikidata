@@ -1,6 +1,6 @@
 ## Inhalte finden in Wikidata
 
-Dieses Kapitel zeigt wie sie in Wikidata die Suche verwenden können, um [Items](#suche-nach-items), [Eigenschaften](#suche-nach-eigenschaften) und [Aussagen](#suche-nach-aussagen) zu suchen und zu finden. 
+Dieses Kapitel beschreibt verschiedene Suchmöglichkeiten um in Wikidata [Items](#suche-nach-items), [Eigenschaften](#suche-nach-eigenschaften) und [Aussagen](#suche-nach-aussagen) zu finden. Weitere Suchmöglichkeiten sind unter [Wikidata in anderen Anwendungen weiternutzen](#wikidata-in-anderen-anwendungen-weiternutzen) beschrieben.
 
 ### Suche nach Items
 
@@ -15,7 +15,6 @@ Die andere Möglichkeit ist die Eingabe einer konkreten Bezeichnung des Items un
 Weitere Suchoptionen kann man am einfachsten einblenden, wenn man die Enter-Taste in einem leeren Suchfeld betätigt. Auf dieser Seite kann man entscheiden, ob man nach "Inhaltsseiten", "Multimedia", "Hilfe- und Projektseiten", "Übersetzungen" oder nach Allem ("Alles") suchen möchte. 
 
 ![Erweiterte Suche ](images/Erweiterte_Suche.PNG)
-
 
 ![Auswahlmöglichkeiten bei der erweiterten Suche](images/Auswahlm_glichkeiten_bei_der_erweiterten_Suche.PNG)
 
@@ -37,6 +36,8 @@ Wenn der Name der Eigenschaft nicht bekannt ist, gibt es die Möglichkeit mit Hi
 _Dieser ganze Abschnitt ist völlig unverständlich und der Link funktioniert nicht. _
 
 Wie können vorhandene [Aussagen](#wikidata-aussagen), beispielsweise  mit Normdateneigenschaften, abgefragt werden?
+
+![SimpleQuery](images/simple-query.png)
 
 In diesem Beispiel soll geklärt werden, wie Sie am besten vorgehen, wenn Sie Literatur mit einer GND-Nummer haben. Mit Hilfe der GND gelangen Sie auf die  Weiterhin soll geklärt werden, welche Werkzeuge Sie verwenden sollen, um dieses Ziel zu erreichen. 
 
