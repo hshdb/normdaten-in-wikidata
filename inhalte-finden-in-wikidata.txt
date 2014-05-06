@@ -17,7 +17,7 @@ Weitere Suchoptionen kann man am einfachsten einblenden, wenn man die Enter-Tast
 ![Erweiterte Suche](images/erweiterte_suche.jpg)
 
 
-**Begrifferklärungen/Menüpunkte**
+**Begriff Erklärungen/Menüpunkte**
 
 Auf den Inhaltsseiten kann man nach sämtlichen Items von Wikidata suchen. Mit dem Reiter "Hilfe- und Projektseiten" ist es dem Benutzer möglich, nach Hilfen und anderen Erklärungen zu Elementen der Wikidata-Benutzung zu suchen. 
 
