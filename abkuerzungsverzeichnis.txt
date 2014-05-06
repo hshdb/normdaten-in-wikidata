@@ -1,19 +1,16 @@
 # Abkürzungsverzeichnis {.unnumbered}
-- DDC = **D**ewey-**D**ecimal-**C**lassification
-- DNB = **D**eutsche **N**ational**b**ibliothek 
-- FAQ = **F**requently **A**sked **Q**uestions
-- GND = **G**emeinsame **N**orm**d**atei
-- HsH = **H**och**s**chule **H**annover
-- ICD-10 = **I**nternational Statistical **C**lassification of **D**iseases and Related Health Problems
-- ID = **Id**entifikator
-- LCCN = **L**ibrary of **C**ongress **C**ontrol **N**umber 
-- LCNAF = **L**ibrary of **C**ongress **N**ame **A**uthority **F**ile 
-- NDL = **N**ational **D**iet **L**ibrary
-- RAK-WB = **R**egeln der **a**lphabetischen **K**atalogisierung in **w**issenschaftlichen **B**ibliotheken
-- RSWK = **R**egeln für den **S**chlag**w**ort**k**atalog 
-- URL = **U**niform **R**esource **L**ocator 
-- VIAF = **V**irtual **I**nternational **A**uthority **F**ile 
-- WD:P = **W**iki**d**ata: **P**roperties
-- ZDB = **Z**eitschriften**d**aten**b**ank 
+- DDC: Dewey-Decimal-Classification
+- GND: Gemeinsame Normdatei
+- ICD-10: International Statistical Classification of Diseases and Related Health Problems
+- ID: Identifikator
+- LCCN: Library of Congress Control Number 
+- LCNAF: Library of Congress Name Authority File 
+- NDL: National Diet Library
+- RAK-WB: Regeln der alphabetischen Katalogisierung in wissenschaftlichen Bibliotheken
+- RSWK: Regeln für den Schlagwortkatalog 
+- URL: Uniform Resource Locator 
+- VIAF: Virtual International Authority File 
+- WD:P: Wikidata: Properties
+- ZDB: Zeitschriftendatenbank
 
 
