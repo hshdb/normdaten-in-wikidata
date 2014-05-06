@@ -33,7 +33,7 @@ Wenn der Name der Eigenschaft nicht bekannt ist, gibt es die Möglichkeit mit Hi
 
 _Dieser ganze Abschnitt ist völlig unverständlich. Er sollte besser mit dem Abschnitt [Komplexere Abfragen und Analysen](#komplexere-abfragen-und-analysen) koordiniert werden! _
 
-Wie können vorhandene [Aussagen](#wikidata-aussagen), beispielsweise  mit Normdateneigenschaften, abgefragt werden?
+Wie können vorhandene [Aussagen](#wikidata-aussagen), beispielsweise mit Normdateneigenschaften, abgefragt werden?
 
 Beispielsweise können alle Personen aufgelistet werden, die in einer bestimmten Stadt geboren sind.
 
