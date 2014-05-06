@@ -8,12 +8,8 @@ Die Voreinstellung der Wikidata-Oberflächensprache ist ohne Anmeldung Englisch.
 
 ![Sprachumstellung von englisch zu deutsch](images/sprachumstellung_wikidata.jpg)
 
-Wie Sie in Abbildung 3 sehen, wurde Englisch ausgewählt. Nun müssen Sie nur noch auf die Schaltfläche Auswählen klicken
-    
-![Abbildung 3](images/faq_spracheaendern_3a.png)
-    
-und wie Sie in Abbildung 4 sehen wurde auf der Benutzeroberfläche die Sprache auf Englisch gesetzt.
- 
+Zuletzt sei noch erwähnt, dass die Benutzeroberflächensprache lediglich die funktionalen Bestandteile von Wikidata übersetzt, d.h. die Inhalte von Wikidata (die Items, die Hilfeseiten, die Aussagen etc.) werden bei Default-Einstellungen immer noch in Englisch dargestellt. 
+
 **3. Warum ist es das feste Vokabular bei den Eigenschaften?** 
  Die Eigenschaften sind in verschiedenen Sprachen vorhanden. Die Begriffe sind vorgegeben, damit eine problemlose Übersetzung ermöglicht wird. Bei fehlenden Begriffen können diese der Communitie vorgeschlagen werden. Siehe [Neue Wikidata Eigenschaften](#neue-wikidata-eigenschaften-erstellen) erstellen. 
  
