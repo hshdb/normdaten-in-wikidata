@@ -16,8 +16,8 @@ Eine (ggf. nicht aktuelle) Kopie des Repository liegt bei GitHub unter
 
 Zum Erzeugen der verschiedenen Ausgabeformate werden `make` und `pandoc`
 benötigt, um mit `make html` bzw. `make pdf` auf der Kommandozeile die HTML-
-und PDF-Version zu erzeugen. Für die PDF-Erstellung wird zusätzlich LaTeX
-mit verschiedenen LaTeX-Paketen benötigt.
+und PDF-Version zu erzeugen. Für die PDF-Erstellung wird zusätzlich
+LaTeX/XeLaTeX mit verschiedenen LaTeX-Paketen benötigt.
 
 ## Struktur des Handbuch-Repository
  
