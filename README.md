@@ -7,7 +7,7 @@ Das Haupt-Repository liegt bei Penflip.com unter
 URLs geklont werden:
 
 * <https://www.penflip.com/nichtich/normdaten-in-wikidata.git>
-* <git@www.penflip.com:nichtich/normdaten-in-wikidata.git>
+* `git@www.penflip.com:nichtich/normdaten-in-wikidata.git`
 
 Eine (ggf. nicht aktuelle) Kopie des Repository liegt bei GitHub unter
 <https://github.com/hshdb/normdaten-in-wikidata>.
