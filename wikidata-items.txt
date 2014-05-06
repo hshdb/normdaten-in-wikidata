@@ -8,7 +8,7 @@ Ein **Item** (deutsch: **Datenobjekt**) stellt in Wikidata eine zentrale Einheit
 
 Die Seite des Items setzt sich aus verschiedenen Komponenten zusammen (siehe Abbildung unten).
 
-![Bestandteile_eines_Items.PNG](images/Bestandteile_eines_Items.PNG)
+![Bestandteile eines Items](images/Bestandteile_eines_Items.PNG)
 
 
 
