@@ -4,14 +4,15 @@ Dieses Kapitel möchte zwei nicht uninteressante Themen anschneiden: wie kann de
 ### Änderung der Inhaltssprache von Wikidata
 Sie fragen sich vielleicht, warum gerade Englisch, Plattdeutsch und Türkisch als Sprachen vorgeschlagen werden. Es werden immer drei Sprachen aufgelistet und diese drei sind diejenigen, die in der Region des Nutzers (in diesem Fall also Deutschland) gesprochen werden.
 
-Es gibt [zwei verschiedene Möglichkeiten](https://www.wikidata.org/wiki/Help:Multilingual/de), die Sprachen zu ändern.
+Es gibt [zwei verschiedene Möglichkeiten](https://www.wikidata.org/wiki/Help:Multilingual/de) die Sprachen zu ändern.
 
 **Universale Sprachauswahl**
 
 Diese Methode ist die komplizierteste von zwei möglichen Varianten und diese zu erklären, würde den Rahmen sprengen, deshalb werden im Folgenden lediglich die Babel-Bausteine erklärt. Für Interessierte gibt es aber einen [weiterführenden Link](https://www.mediawiki.org/wiki/Universal_Language_Selector?setlang=de) mit weiteren Informationen zu dieser Einstellungsoption.
 
 **Babel-Bausteine**
-_Achtung: Diese Option ist nur für angemeldete bzw. registrierte Nutzer verfügbar_
+
+_Achtung: Diese Option ist nur für angemeldete beziehungsweise registrierte Nutzer verfügbar_
 
 ![Babel-Baustein](images/babel.jpg) 
 
