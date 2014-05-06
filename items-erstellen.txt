@@ -4,11 +4,9 @@ Im nun folgenden Kapitel soll ihnen gezeigt werden, wie man ein Item neu anlegt,
 ### Neue Items anlegen
 Bevor man ein neues Item erstellt, sollte man überprüfen ob [dieses Item bereits existiert](https://www.wikidata.org/wiki/Special:ItemByTitle?uselang=de). Die Suche wird im Kapitel [Inhalte finden](#inhalte-finden-in-wikidata) erklärt.
 
-![Neues Datenitem erstellen](images/objekterstellen2.png)
+![Die Erstellung eines neuen Items](images/neues_datemitem.jpg)
 
-Wenn das Item noch nicht vorhanden ist, erhält man die Möglichkeit ein neues Item zu erstellen. Man wird mit einem Link auf die Erstellungsseite weitergeleitet. Dort muss die Bezeichnung sowie die Beschreibung des zu erstellenden Items eingetragen werden. Ist dies geschehen, kommt man auf die Itemseite.
-
-![Seite des neu erstellten Items](images/objektseite.png)
+Wenn das Item noch nicht vorhanden ist, erhält man die Möglichkeit ein neues Item zu erstellen. Man wird mit einem Link auf die Erstellungsseite weitergeleitet (s.o. "Die Erstellung eines neuen Items"). Dort muss die Bezeichnung sowie die Beschreibung des zu erstellenden Items eingetragen werden. Ist dies geschehen, kommt man auf die Itemseite.
 
 Auf der Itemseite hat man die Möglichkeit, Änderungen vorzunehmen oder weitere Sprachen beziehungsweise Übersetzungen für die Itembezeichnung hinzuzufügen.
 
@@ -37,7 +35,7 @@ Klickt man nun darauf, erscheint ein PopUp-Fenster, welches alle Übersetzungen 
 
 ### Aussagen bearbeiten
 
-![Aussagen](images/aussagen.png)
+![Standard-Ansicht von Aussagen](images/aussagen.jpg)
 
 Aussagen lassen sich bei Wikidata auf der Seite des Items bearbeiten und anlegen. Mit einem Klick auf "bearbeiten" (siehe oben), kann man den Wert einer schon bestehenden Eigenschaft bearbeiten. Bei Klicken auf "hinzufügen" ist es möglich, einen neuen Wert zu erstellen. Allerdings können die Begriffe nicht frei gewählt werden, man muss aus einem Pool bereits bestehender und von Wikidata normierten Begriffen auswählen. Das Bearbeiten eines Werts sieht folgendermaßen aus:
 
@@ -45,10 +43,9 @@ Aussagen lassen sich bei Wikidata auf der Seite des Items bearbeiten und anlegen
 
 Um eine neue Aussage zu erstellen, muss man auf "hinzufügen" am Ende der Aussagenliste klicken (siehe unten, blaue Umrandung). Auch die Begriffe für die Eigenschaften sind nicht frei wählbar, sie müssen ebenfalls aus einer bestehenden Liste ausgewählt werden.
 
-Wie auf den Screenshots zu sehen, können Aussagen zusätzlich mit [Belegen](#belege) versehen werden.
-
 ![Neue Aussage hinzufügen](images/Neue_Aussage_hinzuf_gen.PNG)
 
+Wie auf den Screenshots zu sehen ist, können Aussagen zusätzlich mit [Belegen](#belege) versehen werden.
 
 ### Neue Eigenschaften vorschlagen
 
