@@ -4,7 +4,7 @@ Dieses Kapitel beschreibt verschiedene Suchmöglichkeiten um in Wikidata [Items]
 
 ### Suche nach Items
 
-Um vorhandene [Items](#wikidata-items) zu finden gibt es hauptsächlich zwei Herangehensweisen: die Eingabe eines Suchbegriffes in das Suchfeld. Es können hierbei unterschiedliche Ergebnisse angezeigt werden (Suchergebnisliste). Zu beachten ist, dass die Suche mit der Enter-Taste oder dem Klick auf das Lupensymbol ausgelöst werden muss. Bei der manuellen Auswahl einer Vorschau der Suchergebnisse nach der Eingabe eines Suchbegriffes führt zu einer konkreten Item-Seite (s.u.).  
+Um vorhandene [Items](#wikidata-items) zu finden gibt es hauptsächlich zwei Herangehensweisen. Einerseits die Eingabe eines Suchbegriffes in das Suchfeld, hierbei können unterschiedliche Ergebnisse angezeigt werden (Suchergebnisliste). Zu beachten ist, dass die Suche mit der Enter-Taste oder dem Klick auf das Lupensymbol ausgeführt wird. Andererseits kann nach der Eingabe eines Suchbegriffes über die Vorschau eine manuelle Auswahl zum konkreten Item führen (s.u.).  
 
 ![Suchergebnisliste](images/Suchergebnisliste.jpg)
 
