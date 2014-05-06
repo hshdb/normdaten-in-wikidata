@@ -77,21 +77,18 @@ SNAPSHOT_OPTIONS = -V snapshot=1
 snapshot.html: $(TARGET).md 
 	pandoc $(PANDOC_OPTIONS) -o $@ $(HTML_OPTIONS) $(SNAPSHOT_OPTIONS) $<
 
+TODAY=`date +%F`
+snapshot: snapshot.html
+	cp snapshot.html build/$(TODAY).html
 
-# Übersichten
-.PHONY: quellen.md
 
-quellen.md:
-	./scripts/quellen > quellen.md
-
-index.md: About.txt synopsis.md quellen.md
+index.md: About.txt synopsis.md
 	cat About.txt > index.md
 	echo "* [HTML-Version]($(TARGET).html)" >> index.md
 	echo "* [PDF-Version]($(TARGET).pdf)" >> index.md
 	echo >> index.md
 	cat synopsis.md >> index.md
 	echo >> index.md
-	cat quellen.md >> index.md
 
 info:
 	./scripts/files
@@ -111,7 +108,7 @@ pull-and-upload: pull upload
 pull:
 	@git fetch
 	@if [ "$$(git log HEAD..origin/master --oneline)" ] ;\
-	 then git merge origin master; rm -f quellen.md ;\
+	 then git merge origin master; \
 	 else echo "no changes"; exit 1 ; fi
 
 
@@ -135,4 +132,4 @@ website: build
 deps:
 	sudo apt-get install pandoc pandoc-citeproc\
 	   	texlive-latex-recommended\
-		texlice-fonts-extra texlive-fonts-recommended
+		texlive-fonts-extra texlive-fonts-recommended

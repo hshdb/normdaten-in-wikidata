@@ -1,7 +1,7 @@
 before_install:
     - sudo apt-get update -qq 
     - sudo apt-get install -qq ncftp 
-    - sudo apt-get install -qq pandoc texlive-full 
+    - make deps
 
 script: make all
 
