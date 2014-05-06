@@ -20,6 +20,6 @@ Lesen Sie [Kapitel 4.3.3 Belege](http://hshwd.jakobvoss.de/normdaten-in-wikidata
 **6. Wie finde ich etwas in Wikidata?**
 Die beiden wichtigsten Möglichkeiten sind die Suchfunktion (die umfassende Suche über Sprachgrenzen hinweg) und die Suche von [Datenobjekten nach Titeln](http://www.wikidata.org/wiki/Special:ItemByTitle?uselang=de). Letzteres funktioniert wie folgt: Sie geben bei "Website" eine Sprache eines Wikimedia-Projektes ein (z.B. "de" -> "Deutsch (dewiki)" und bei "Seite" gibt man die Bezeichnung eines Items ein (z.B. "Japan"). Sie werden anschließend auf die Item-Seite von Japan weitergeleitet. Wichtig zu beachten ist: der Eintrag, den Sie in das Suchfeld eingeben, muss genau mit der Bezeichnung des Items übereinstimmen. 
 Beide Suchmöglichkeiten haben ihre Vor- und Nachteile, Sie können beide Optionen nach ihrem Gutdünken anwenden. 
-Eine ausführliche Beschreibung  der Suchfunktionen finden Sie im [Kapitel 6.4 Inhalte finden in Wikidata](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#inhalte-finden-in-wikidata "Kapitel 6.3 Inhalte finden in Wikidata"). 
+Eine ausführliche Beschreibung  der Suchfunktionen finden Sie im [Kapitel 6.4 Inhalte finden in Wikidata](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#inhalte-finden-in-wikidata). 
  
 
