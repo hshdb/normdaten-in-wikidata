@@ -6,9 +6,9 @@ Aussagen in Wikidata können und sollten möglichst zusätzlich mit **Belegen** 
 
 Es gibt einige [Ausnahmen](http://www.wikidata.org/wiki/Help:Sources/Itemsnotneedingsources/de), wie unter anderem
 
-Wenn der Wert allgemein bekannt ist und nicht bestritten wurde.
-Wenn das Element sich auf einer externen Quelle bezieht. Es ermöglicht, die Informationen den anderen verbundenen Aussagen leicht zu überprüfen. Es ist somit nicht nötig, die referenzierten Quellen als Beleg in Wikipedia zu haben. 
-Wenn das Item selbst als Beleg für Aussagen über seinen Gegenstand dient -- beispielsweise sind die Autoren und Autorinnen eines Buches in der Regel dem Buch selbst zu entnehmen.
+* Wenn der Wert allgemein bekannt ist und nicht bestritten wurde.
+* Wenn das Element sich auf einer externen Quelle bezieht. Es ermöglicht, die Informationen den anderen verbundenen Aussagen leicht zu überprüfen. Es ist somit nicht nötig, die referenzierten Quellen als Beleg in Wikipedia zu haben. 
+* Wenn das Item selbst als Beleg für Aussagen über seinen Gegenstand dient -- beispielsweise sind die Autoren und Autorinnen eines Buches in der Regel dem Buch selbst zu entnehmen.
 
 </div>
 
