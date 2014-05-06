@@ -11,6 +11,7 @@ Es gibt nun [zwei verschiedene Möglichkeiten](https://www.wikidata.org/wiki/Hel
 Diese Methode ist die komplizierteste von zwei möglichen Varianten und diese zu erklären, würde den Rahmen sprengen, deshalb werden im Folgenden lediglich die Babe-Bausteine erklärt. Für Interessierte gibt es aber einen [weiterführenden Link](https://www.mediawiki.org/wiki/Universal_Language_Selector?setlang=de) mit weiteren Informationen zu dieser Einstellungsoption.
 
 **Babel-Bausteine**
+_Achtung: Diese Option ist nur für angemeldete bzw. registrierte Nutzer verfügbar_
 
 ![Babel-Baustein](images/babel.jpg) 
 
