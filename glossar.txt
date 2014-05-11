@@ -62,6 +62,9 @@
   
 **Normdaten-Eigenschaft**
   : In Wikidata ist eine Normdaten-Eigenschaft eine *Eigenschaft*, die dazu dient mittels ID oder Notation auf einen Normdatensatz in einer anderen Normdatei zu verweisen.
+  
+**Notation**
+  : Eine nach bestimmten Regeln, meistens mit Zahlen oder einer Mischung aus Zahlen und Buchstaben, gebildete Zeichenfolge. Sie dient der eindeutigen Zuweisung in einer Klassifikation.
 
 **Ontologie**
   : Eine [Ontologie](#einführung-in-normdaten) beinhaltet Eigenschaften (properties) in Aussagen (statements). Ontologie wird genutzt, um die beschriebenen Gegenstände der realen Welt in Beziehung zu setzen mit den anderen in Datenobjekten vorhandenen Daten und mit Quellenangaben.
