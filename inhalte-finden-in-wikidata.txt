@@ -39,4 +39,4 @@ Beispielsweise können alle Personen aufgelistet werden, die in einer bestimmten
 
 ![SimpleQuery](images/simple-query.png)
 
-Im Kapitel [Weiternutzung in anderen Anwendungen](#weiternutzung-in-anderen-anwendungen) ist beschrieben, dass in Wikidata keine umfassenden Datenbankabfragen durchgeführt werden können. Es sind hierfür andere Anwendungen, wie zum Beispiel die Webanwendung WikiData Query (WDQ), erforderlich. 
+Im Kapitel [Weiternutzung in anderen Anwendungen](#wikidata-in-anderen-anwendungen-weiternutzen) ist beschrieben, dass in Wikidata keine umfassenden Datenbankabfragen durchgeführt werden können. Es sind hierfür andere Anwendungen, wie zum Beispiel die Webanwendung WikiData Query (WDQ), erforderlich. 
