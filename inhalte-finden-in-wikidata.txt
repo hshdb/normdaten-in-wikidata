@@ -16,7 +16,6 @@ Weitere Suchoptionen kann man am einfachsten einblenden, wenn man die Enter-Tast
 
 ![Erweiterte Suche](images/erweiterte_suche.jpg)
 
-
 **Begriff Erklärungen/Menüpunkte**
 
 Auf den Inhaltsseiten kann man nach sämtlichen Items von Wikidata suchen. Mit dem Reiter "Hilfe- und Projektseiten" ist es dem Benutzer möglich, nach Hilfen und anderen Erklärungen zu Elementen der Wikidata-Benutzung zu suchen. 
@@ -31,12 +30,8 @@ Wenn der Name der Eigenschaft nicht bekannt ist, gibt es die Möglichkeit mit Hi
 
 ### Suche nach Aussagen 
 
-_Dieser ganze Abschnitt ist völlig unverständlich. Er sollte besser mit dem Abschnitt [Komplexere Abfragen und Analysen](#komplexere-abfragen-und-analysen) koordiniert werden! _
-
-Wie können vorhandene [Aussagen](#wikidata-aussagen), beispielsweise mit Normdateneigenschaften, abgefragt werden?
-
-Beispielsweise können alle Personen aufgelistet werden, die in einer bestimmten Stadt geboren sind.
+Wikidata ist zwar eine Datenbank, komplexere Datenbankabfragen sind zum jetzigen Entwicklungsstand aber  nicht möglich. Für die Suche nach [Aussagen](#wikidata-aussagen), beziehungsweise nach Items mit bestimmten Aussagen muss deshalb noch auf externe Hilfsmittel zurückgegegriffen werden, wie sie unter [Komplexere Abfragen und Analysen](#komplexere-abfragen-und-analysen) beschrieben sind. Eine einfache Suche ist zumindest in Entwicklung und wird wie im Folgenden abgebildet unter <https://www.wikidata.org/wiki/Special:SimpleQuery> bereitstehen. Die einfache Suche ermöglicht beispielsweise Anfragen wie die nach allen Items *X* mit der Aussage "*X* ist ein(e) ([`P31`](https://www.wikidata.org/wiki/Property:P31)) Kontinent ([`Q5107`](https://www.wikidata.org/wiki/Q5107))", also eine automatische Liste aller Kontinente. Für Normdaten-Eigenschaften lässt siche die einfache Suche nutzen, um ausgehend von einem Normdatensatz das zugehörige Wikidata-Item zu finden.
 
 ![SimpleQuery](images/simple-query.png)
 
-Im Kapitel [Weiternutzung in anderen Anwendungen](#wikidata-in-anderen-anwendungen-weiternutzen) ist beschrieben, dass in Wikidata keine umfassenden Datenbankabfragen durchgeführt werden können. Es sind hierfür andere Anwendungen, wie zum Beispiel die Webanwendung WikiData Query (WDQ), erforderlich. 
+
