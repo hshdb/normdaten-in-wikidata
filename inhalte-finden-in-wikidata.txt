@@ -32,6 +32,6 @@ Wenn der Name der Eigenschaft nicht bekannt ist, gibt es die Möglichkeit mit Hi
 
 Wikidata ist zwar eine Datenbank, komplexere Datenbankabfragen sind zum jetzigen Entwicklungsstand aber  nicht möglich. Für die Suche nach [Aussagen](#wikidata-aussagen), beziehungsweise nach Items mit bestimmten Aussagen muss deshalb noch auf externe Hilfsmittel zurückgegegriffen werden, wie sie unter [Komplexere Abfragen und Analysen](#komplexere-abfragen-und-analysen) beschrieben sind. Eine einfache Suche ist zumindest in Entwicklung und wird wie im Folgenden abgebildet unter <https://www.wikidata.org/wiki/Special:SimpleQuery> bereitstehen. Die einfache Suche ermöglicht beispielsweise Anfragen wie die nach allen Items *X* mit der Aussage "*X* ist ein(e) ([`P31`](https://www.wikidata.org/wiki/Property:P31)) Kontinent ([`Q5107`](https://www.wikidata.org/wiki/Q5107))", also eine automatische Liste aller Kontinente. Für Normdaten-Eigenschaften lässt siche die einfache Suche nutzen, um ausgehend von einem Normdatensatz das zugehörige Wikidata-Item zu finden.
 
-![SimpleQuery](images/simple-query.png)
+![Einfache Suche nach Aussagen (geplant)](images/simple-query.png)
 
 
