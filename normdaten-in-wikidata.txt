@@ -1,6 +1,6 @@
 # Normdaten in Wikidata
 
-Der Datenbestand von Wikidata bildet eine eigene [Normdatei](#einführung-in-normdaten) deren Normdatensätze aus den [Wikidata-Items](#wikidata-items) bestehen. Beispielsweise kann das Wikidata-Items [`Q17`](https://www.wikidata.org/wiki/Q17) (Japan) als Deskriptor verwendet werden, um Literatur über Japan zu kennzeichnen. Im Folgenden ist beschrieben, wie Wikidata durch [Normdaten-Eigenschaften](#normdaten-eigenschaften-in-wikidata) mit anderen Normdateien verknüpft ist und worin sich Wikidata als Normdatei von [anderen Normdateien unterscheidet](#unterschiede-zu-anderen-normdateien).
+Der Datenbestand von Wikidata bildet eine eigene [Normdatei](#einführung-in-normdaten), deren Normdatensätze aus den [Wikidata-Items](#wikidata-items) bestehen. Beispielsweise kann das Wikidata-Item [`Q17`](https://www.wikidata.org/wiki/Q17) (Japan) als Deskriptor verwendet werden, um Literatur über Japan zu kennzeichnen. Im Folgenden ist beschrieben, wie Wikidata durch [Normdaten-Eigenschaften](#normdaten-eigenschaften-in-wikidata) mit anderen Normdateien verknüpft ist und worin sich Wikidata als Normdatei von [anderen Normdateien unterscheidet](#unterschiede-zu-anderen-normdateien).
 
 ## Normdaten-Eigenschaften in Wikidata
 
@@ -36,6 +36,6 @@ Die Normdaten in Wikidata unterliegen einem Regelwerk, welches von der Wikidata-
  
 Im Gegensatz dazu wird die Gemeinsame Normdatei (GND) von mehreren Institutionen verwaltet. Unter anderem sind dies die Deutsche Nationalbibliothek (DNB), alle deutschsprachigen Bibliotheksverbünde, die Zeitschriftendatenbank (ZDB) und zahlreiche weitere Einrichtungen. 
 Die Normdaten haben als Grundlage die Regeln der alphabetischen Katalogisierung (RAK-WB) und die Regeln für den Schlagwortkatalog (RSWK). 
-Die GND zeichnet sich nicht nur durch ihre Vorzugsbenennungen aus, sondern vor allem durch ihre zahlreichen Synonyme (in anderen Sprachen und Schriften) und Verknüpfungen zu weiteren Datensätzen aus. 
+Die GND zeichnet sich nicht nur durch ihre Vorzugsbenennungen aus, sondern vor allem durch ihre zahlreichen Synonyme (in anderen Sprachen und Schriften) und Verknüpfungen zu weiteren Datensätzen. 
  
  Weiterführende Literatur und Hilfen finden Sie in der [Wikidata Liste der Projektregeln und Richtlinien](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_policies_and_guidelines/de&oldid=102532266) oder im [Hilfe-Portal Wikidata](https://www.wikidata.org/w/index.php?title=Help:Contents/de&oldid=66338607 ).
