@@ -1,0 +1,6 @@
+# Zur Weiternutzung dieses Handbuchs {.unnumbered}
+
+Zur Verwaltung der Inhalte dieses Handbuchs wird ein Repository des Versionskontrollsystem *git* verwendet, das alle Bearbeitungsschritte und Änderungen beinhaltet. 
+
+Mit Hilfe von Github kann mit verschiedenen Werkzeugen zum Buch beigetragen werden, ohne zu stark an eine Software gebunden zu sein. Die einzelnen Texte sind in Markdown-Syntax verfasst, und werden mit Hilfe des Programms Pandoc in verschiedene Ausgabeformate überführt. Zur Bearbeitung der Texte wurde hauptsächlich die Online-Plattform  Penflip verwendet. Die URL des git-Repositories ist <https://www.penflip.com/nichtich/normdaten-in-wikidata.git>, darüber hinaus gibt es eine Kopie unter <https://github.com/hshdb/normdaten-in-wikidata>. Das Repository enthält die Datei `README.md` die weitere Hinweise zur technischen Umsetzung beinhaltet. Alle Inhalte können unter den Bedingungen der CC-BY-SA Lizenz weiterverwendet werden. 
+

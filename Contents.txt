@@ -15,7 +15,8 @@ inhalte-finden-in-wikidata.txt
 items-erstellen.txt
 eigenschaften-vorschlagen.txt
 wikidata-weiternutzen.txt
-faq.txt
 glossar.txt
+faq.txt
 literatur.txt
 properties.txt
+handbuch-weiternutzung.txt

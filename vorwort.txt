@@ -2,8 +2,6 @@
 
 Dieses Handbuch entstand innerhalb von drei Monaten im Rahmen eines Projektseminars an der Hochschule Hannover (HsH). Neun Studierende des Bachelor-Studiengangs Informationsmanagement hatten im 6. Semester unter Projektleitung von Jakob Voß die Aufgabe, ohne wesentliche Vorkenntnisse ein Handbuch zum Thema "Normdaten in Wikidata" zu erstellen. Die Hauptautorinnen und -Autoren dieses Handbuchs sind Franziska Ludemann, Viktoria Berkelmann, Janna Kitroschat, Jasmin Bogner, Julian Schmitt, Katharina Seljuzki, Maiia Bartoshevska, Oliver Löffel und Susanna Bausch.
 
-Zur Verwaltung der Inhalte dieses Handbuchs wird ein Repository des Versionskontrollsystem  *git* verwendet, das alle Bearbeitungsschritte und Änderungen beinhaltet. 
-
 Das Handbuch gliedert sich in einen theoretischen ersten Teil, welcher die grundlegenden Eigenschaften von Wikidata und Normdaten in Wikidata erläutert. Im zweiten Teil erhält der Leser einen Einblick in das praktische Arbeiten mit und in Wikidata. Abgerundet wird der Text durch zahlreiche Beispiele, Merkkästen und ein umfangreiches [Glossar](#glossar). 
 
 **Was benötigt man für die Benutzung?**
@@ -19,3 +17,6 @@ Beispiele und wichtige Hinweise sind durch Merkkästen wie diesen hier hervorgeh
 Des Weiteren existieren externe Verlinkungen, zum Beispiel [Wikidata-Hauptseite](https://www.wikidata.org/w/index.php?title=Wikidata:Hauptseite&oldid=119860805). Zu dieser Form zählen alle Literaturhinweise und Quellen dieses Handbuches. Auch externe Verlinkungen zu Wikidata-Items und Wikidata-Eigenschaften erscheinen mit Schreibmaschinenschrift, zum Beispiel Japan [`Q17`](https://www.wikidata.org/wiki/Q17)). 
 
 Da es sich um ein dynamisches Projekt handelt, ist es möglich, dass die im Buch abgebildeten Screenshots nicht dem aktuellen Webseitendesign entsprechen. Der letzte Stand der Screenshots ist Mai 2014.
+
+Alle Inhalte dieses Handbuchs können unter den Bedingungen der CC-BY-SA-Lizenz verwendet werden. Wie unter ... beschrieben stehen dazu alle Texte, Bilder und sonstige Ausgangsdateien in einem Repository unter <> zur Verfügung.
+
