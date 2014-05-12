@@ -241,28 +241,28 @@ P1146,IAAF-ID,"IAAF ID",
 P1150,RVK-Notation,"Regensburg Classification","Klassifikation für die inhaltliche Erschließung"
 P1153,Scopus-Autor-ID,"Scopus Author ID",
 P1156,Scopus-Quelle-ID,"Scopus Source ID",
-P1159,CODEN,CODEN,
-P1160,,"ISO 4 abbreviation",
+P1159,CODEN,CODEN,"CODEN bibliographischer Code"
+P1160,"ISO 4 Abkürzung","ISO 4 abbreviation","ISO 4 bibliographischer Code (Abkürzung), der 1972 eingeführt wurde"
 P1182,"LIBRIS Editionen","LIBRIS editions","ID für Objekte im Libris Katalog über spezifische Bücher"
-P1184,,handle,
+P1184,Handle,handle,"Handle System Kennzeichner (Obermenge des DOI)"
 P1185,Rodovid-ID,"Rodovid ID","Personen ID auf der Webseite rodovid.org"
 P1190,"Universelle Dezimalklassifikation","Universal Decimal Classification","Klassifikation für die inhaltliche Erschließung"
 P1207,"NUKAT Normdaten","NUKAT authorities","Normdateneintrag im polnischen Verbundkatalog NUKAT"
 P1212,"Atlas ID","Atlas ID","ID in der Atlas Datenbank des Louvre Museums"
-P1216,"Listennummer der Organisation für Denkmalschutz in England","English Heritage list number",
-P1220,"Internet Broadway Database Personen ID","Internet Broadway Database person ID",
+P1216,"Listennummer der Organisation für Denkmalschutz in England","English Heritage list number","Nummer in der Liste der Gebäude"
+P1220,"Internet Broadway Database Personen ID","Internet Broadway Database person ID","Internet Broadway Database Kennzeichner"
 P1222,NARA-Personen-ID,"NARA person ID",
 P1223,NARA-Organisationen-ID,"NARA organization ID",
 P1224,NARA-Geographikum-ID,"NARA geographic ID",
-P1225,,"NARA topical subject ID",
+P1225,"NARA Fachgebiets-ID","NARA topical subject ID",
 P1226,"NARA Spezifischer Dokumententyp ID","NARA specific records type ID",
 P1229,Openpolis-ID,"Openpolis ID","ID in Openpolis, eine Datenbank über italienische Politiker"
-P1231,,"NARA catalogue record ID",
-P1232,,"Linguist list code",
+P1231,"NARA Katalogdatensatz ID","NARA catalogue record ID","Eindeutiger Kennzeichner für Katalogdatensätze"
+P1232,"Linguist Listencode","Linguist list code",
 P1237,"Box Office Mojo Film ID","Box Office Mojo film ID","ID für einen Film auf der Webseite Box Office Mojo"
-P1238,,"Swedish Football Association ID",
+P1238,"Schwedische Fußballassoziation ID","Swedish Football Association ID","Datenbank über schwedische Fußballspieler"
 P1245,"Bedeutungsdefinition in OmegaWiki","OmegaWiki Defined Meaning","""DefinedMeaning""-Kennzeichnungsnummer in OmegaWiki"
-P1250,,"Danish Bibliometric Research Indicator (BFI) SNO/CNO",
+P1250,"Dänischer Bibliometrischer Forschungsindikator (BFI) SNO/CNO","Danish Bibliometric Research Indicator (BFI) SNO/CNO",
 P1256,"Iconclass ID","Iconclass notation","Kennung des ikonographischen Themas"
 P1258,"Rotten Tomatoes ID","Rotten Tomatoes ID","ID in Rotten Tomatoes, Präfix ""m/"" für Filme, ""tv/"" für TV Serien und ""celebrity/"" für berühmte Personen"
 P1273,CANTIC,CANTIC,
