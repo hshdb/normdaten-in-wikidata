@@ -17,11 +17,11 @@ beispielsweise eine Beschränkung der Jahreszahl bei einer Volkszählung. Die dr
 
 <div class="example ">
 
-**Beispiel für Berlin (`Q64`)(Objekt)**
+**Beispiel für Ludwig XIV.  (`Q7742`)(Objekt)**
 
-Bevölkerung (Eigenschaft): 3'500'000 (Wert der Eigenschaft)
-point in time (`P585`): (Qualifikator): 2005 (Wert des Qualifikators)
-determination method (`P459`) (Qualifikator): Schätzung (Wert des Qualifikators)
+öffentliches Amt (Eigenschaft): König von Frankreich (Wert der Eigenschaft)
+Startzeitpunkt (`P580`): (Qualifikator): 14. Mai 1643 (Wert des Qualifikators)
+Endzeitpunkt (`P582`) (Qualifikator): 1. September 1715 (Wert des Qualifikators)
 
 </div>
 
