@@ -138,21 +138,18 @@ $endif$
 
 % Abstände von Kapitelüberschriften
 \renewcommand*{\chapterheadstartvskip}{}
+%\renewcommand*{\chapterheadendvskip}{}
 
 $for(header-includes)$
 $header-includes$
 $endfor$
 
-$if(title)$
 \title{$title$}
-$endif$
 \author{$for(author)$$author$$sep$ \and $endfor$}
 \date{$date$}
 
 \begin{document}
-$if(title)$
 \maketitle
-$endif$
 
 $for(include-before)$
 $include-before$
