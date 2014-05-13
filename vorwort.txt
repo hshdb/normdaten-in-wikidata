@@ -7,7 +7,6 @@ Das Handbuch gliedert sich in einen theoretischen Teil, der die grundlegenden Ei
 **Was benötigt man für die Benutzung?**
 
 Für die erfolgreiche Benutzung des Handbuches benötigt man ein internetfähiges Endgerät und einen Account bei Wikidata.
-
 <div class="example">
 Beispiele und wichtige Hinweise sind durch Merkkästen wie diesen hier hervorgehoben. Alle  **fett markierten** Begriffe im Fließtext werden im [Glossar](#glossar) definiert. Interne Verweise auf Kapitel dieses Handbuchs sind mit einem Pfeil gekennzeichnet.
 
