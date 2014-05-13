@@ -1,6 +1,6 @@
 ## Wikidata-Aussagen
 
-Jedes [Wikidata-Item](#wikidata-items) kann mit Aussagen beschrieben werden. Im Wesentlichen besteht eine Aussage aus einer [Eigenschaft](#wikidata-eigenschaften) und einem Wert. Beispielsweise enthält das Item für die Stadt Hannover ([`Q1715`](https://www.wikidata.org/wiki/Q1715)) eine Aussage, die angibt, dass sich Hannover in Deutschland befindet. Die entsprechende Eigenschaft dafür hat die Bezeichnung "Staat" ([P17](https://www.wikidata.org/wiki/Property:P17)). Aussagen in Wikidata können mit einem anderen Wikidata-Item oder mit einem externen Link verlinkt werden, oder durch eine Eigenschaft inhaltlich oder objektiv beschrieben. 
+Jedes [Wikidata-Item](#wikidata-items) kann mit Aussagen (statements) beschrieben werden. Im Wesentlichen besteht eine Aussage aus einer [Eigenschaft](#wikidata-eigenschaften) und einem Wert. Beispielsweise enthält das Item für die Stadt Hannover ([`Q1715`](https://www.wikidata.org/wiki/Q1715)) eine Aussage, die angibt, dass sich Hannover in Deutschland befindet. Die entsprechende Eigenschaft dafür hat die Bezeichnung "Staat" ([P17](https://www.wikidata.org/wiki/Property:P17)). Aussagen in Wikidata können mit einem anderen Wikidata-Item oder mit einem externen Link verlinkt werden, oder durch eine Eigenschaft inhaltlich oder objektiv beschrieben. 
 Der aufgerufene Datensatz im Screenshot ist Hannover. Die Eigenschaft Staat beschreibt das interne Wikidata-Item Deutschland. Die Eigenschaft LCNAF (Library of Congress Name Authoryity File) gibt einen externen Link wieder. Die KFZ- Kennzeichnung ist ein Beispiel für eine einfache Wertbeschreibung. 
 
 ![Aussagen mit Eigenschaften](images/Wikidata-Aussagen.PNG)
@@ -10,7 +10,7 @@ Genauere Informationen finden Sie unter [Behauptungen und Aussagen](http://www.w
 
 ### Qualifikatoren
 
-**Qualifikatoren** werden in Wikidata benutzt, um eine Aussage näher zu beschreiben. Viele Aussagen benötigen weitere Qualifikatoren, um richtig interpretiert werden zu können. Sie liefern also zusätzliche Informationen und bestehen genau wie Aussagen aus einer Eigenschaft und einem Wert. 
+**Qualifikatoren** (Qualifiers) werden in Wikidata benutzt, um eine Aussage näher zu beschreiben. Viele Aussagen benötigen weitere Qualifikatoren, um richtig interpretiert werden zu können. Sie liefern also zusätzliche Informationen und bestehen genau wie Aussagen aus einer Eigenschaft und einem Wert. 
 
 Qualifikatoren können auf drei unterschiedliche Arten eingesetzt werden. Die erste Art verändert die Anwendung der Eigenschaften; wie zum Beispiel das Benennen eines ausgeschlossenen Landstücks bei einer Flächen Eigenschaft. Die zweite Art der Qualifikatoren beschränkt die Gültigkeit des Wertes, 
 beispielsweise eine Beschränkung der Jahreszahl bei einer Volkszählung. Die dritte Art der Qualifikatoren gibt weitere Details zu einer Aussage an, wie zum Beispiel der Beginn und Endzeitpunkt einer Herrschaft. 
@@ -35,6 +35,6 @@ Weitere Informationen zu Qualifikatoren stehen in Wikidata in der [Liste von Qua
 2. Der Normale Rang ist für Aussagen, die relevante Informationen enthalten. Diese Informationen gelten allgemein als korrekt. 
 3. Vorrangig ist ein Rang, bei Aussagen mit den wichtigsten und aktuellsten Informationen.
 
-Aussagen ohne Belege sowie Aussagen, die ohne weitere Hinweise aus einer anderen Datenbank kopiert wurden (Belege mit der Eigenschaft "Datenherkunft" ([`P143`](https://www.wikidata.org/wiki/Property:P143)) sollten grundsätzlich als zweifelhaft eingestuft werden.
+Aussagen ohne Belege sowie Aussagen, die ohne weitere Hinweise aus einer anderen Datenbank kopiert wurden Belege mit der Eigenschaft "Datenherkunft" ([`P143`](https://www.wikidata.org/wiki/Property:P143)) sollten grundsätzlich als zweifelhaft eingestuft werden.
 
 Weitere Informationen zu Rängen stehen in Wikidata unter [Ranking](https://www.wikidata.org/wiki/Help:Ranking). 

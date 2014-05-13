@@ -26,8 +26,6 @@ Beteiligt an:
 Thema in:
   ...    
 ~~~
-
-
 </div>
 
 Sie sehen hier im Merkkasten ausschnittsweise, dass Hannover der offizielle Name der Stadt ist (bevorzugte Benennung). Daneben gibt es noch andere Bezeichnungen, eine kurze Beschreibung, was der Datensatz beinhaltet und woran dieser Datensatz beteiligt ist (aktiv oder passiv in Publikationen).

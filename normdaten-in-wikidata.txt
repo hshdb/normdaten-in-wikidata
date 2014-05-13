@@ -29,13 +29,13 @@ Da jederzeit neue Eigenschaften in Wikidata hinzukommen können (siehe [Neue Eig
     
     
 ## Unterschiede zu anderen Normdateien
-Im Folgenden werden die Unterschiede zwischen Wikidata und der Gemeinsamen Normdatei (GND) kenntlich gemacht. 
+
+Im Folgenden werden die Unterschiede zwischen Wikidata und anderen Normdateien wie der Gemeinsamen Normdatei (GND) kenntlich gemacht. 
  
 Die Einträge bei Wikidata werden maßgeblich durch freischaffende Wikidataautoren und durch Bots erstellt. Jeder kann sich bei Wikidata anmelden und einen Eintrag hinterlassen. Die Wikidata-Datensätze werden in erster Linie für Wikipedia oder andere Wikimedia-Projekte erstellt.
 Die Normdaten in Wikidata unterliegen einem Regelwerk, welches von der Wikidata-Community erarbeitet wurde und dynamisch neuen beziehungsweise veränderten Anforderungen angepasst wird. Die Wikimedia-Foundation hat den Vorteil verschiedener Normdateien erkannt und bietet den Bearbeitern der Datensätze die Möglichkeit an Normdaten (GND, LCCN, NDL, VIAF) in die Artikel einzubinden. 
  
 Im Gegensatz dazu wird die Gemeinsame Normdatei (GND) von mehreren Institutionen verwaltet. Unter anderem sind dies die Deutsche Nationalbibliothek (DNB), alle deutschsprachigen Bibliotheksverbünde, die Zeitschriftendatenbank (ZDB) und zahlreiche weitere Einrichtungen. 
-Die Normdaten haben als Grundlage die Regeln der alphabetischen Katalogisierung (RAK-WB) und die Regeln für den Schlagwortkatalog (RSWK). 
-Die GND zeichnet sich nicht nur durch ihre Vorzugsbenennungen aus, sondern vor allem durch ihre zahlreichen Synonyme (in anderen Sprachen und Schriften) und Verknüpfungen zu weiteren Datensätzen. 
+Der GND und anderen Normdateien liegt meist ein genaues Regelwerk zugrunde, beispielsweise die Regeln für den Schlagwortkatalog (RSWK) oder Resource Description and Access (RDA) .  
  
  Weiterführende Literatur und Hilfen finden Sie in der [Wikidata Liste der Projektregeln und Richtlinien](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_policies_and_guidelines/de&oldid=102532266) oder im [Hilfe-Portal Wikidata](https://www.wikidata.org/w/index.php?title=Help:Contents/de&oldid=66338607 ).
