@@ -71,6 +71,10 @@ ODT_OPTIONS=
 .md.docx:
 	pandoc $(PANDOC_OPTIONS) -t docx -o $@ $(ODT_OPTIONS) $<
 
+# PDF-Version
+a4: $(TARGET).pdf
+	pdfnup $(TARGET).pdf --nup '2x1'
+
 # Snapshot zum Korrekturlesen mit Annotator
 SNAPSHOT_OPTIONS = -V snapshot=1
 

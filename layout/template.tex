@@ -136,6 +136,9 @@ $endif$
   \makeatother
 \fi
 
+% Abstände von Kapitelüberschriften
+\renewcommand*{\chapterheadstartvskip}{}
+
 $for(header-includes)$
 $header-includes$
 $endfor$
@@ -159,6 +162,8 @@ $if(toc)$
 {
 \hypersetup{linkcolor=black}
 \setcounter{tocdepth}{$toc-depth$}
+\renewcommand{\contentsname}{Inhaltsverzeichnis}
+\renewcommand{\listfigurename}{Abbildungsverzeichnis}
 \tableofcontents
 \listoffigures
 %\listoftables
