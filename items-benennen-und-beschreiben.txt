@@ -12,11 +12,12 @@ Diese Methode ist die komplizierteste von zwei möglichen Varianten und diese zu
 
 **Babel-Bausteine**
 
-_Achtung: Diese Option ist nur für angemeldete beziehungsweise registrierte Nutzer verfügbar_
+Es gibt für _angemeldte Nutzer_ die Möglichkeit, auf ihrer persönlichen Profilseite (Benutzerseite), ihre bevorzugten Spracheinstellungen einzustellen. 
 
 ![Babel-Baustein](images/babel.jpg) 
 
-Babel-Bausteine werden in die Benutzerseite geschrieben und dienen der Definition der eigenen Sprachkenntnisse. Nur die in den Bausteinen erwähnten Sprachen werden dann im Abschnitt "In anderen Sprachen" angezeigt. Um die Babel-Bausteine zu aktivieren, klickt man oben in der Leiste auf seinen Benutzernamen und gibt dort in die Benutzerbeschreibung den Baustein-Code, zum Beispiel `{{#babel:en|de-3|fr-2|es-1|it-0}}`, ein. Die Zahlen stehen hierbei für die Sprachkenntnisse, wobei 0 keine Kenntnisse bedeutet. Nach dem Speichern werden die Sprachkenntnisse auf der Benutzerseite wie abgebildet in einem Kasten dargestellt.
+Babel-Bausteine werden in die Benutzerseite geschrieben und dienen der Definition der eigenen Sprachkenntnisse. Falls Babel-Bausteine auf der Benutzerseite gesetzt sind, werden im Item-Abschnitt "In anderen Sprachen" die Sprachversionen der Babel-Bausteine angezeigt. Anderenfalls sucht sich das System die Sprachen selbst aus (häufig: Deutsch, Türkisch, Plattdeutsch). Um die Babel-Bausteine zu aktivieren, klickt man oben in der Leiste auf seinen Benutzernamen und gibt dort in die Benutzerbeschreibung den Baustein-Code, zum Beispiel `{{#babel:en|de-3|fr-2|es-1|it-0}}`, ein. Der Sprachencode, welcher auf "#babel:" folgt, steht dabei für die eigene Muttersprache und dies wird dann im Babelbaustein auch so angezeigt.
+Die Zahlen stehen für die Sprachkenntnisse, wobei 0 keine Kenntnisse und 3 sehr gute Sprachkenntnisse bedeutet. Nach dem Speichern werden die Sprachkenntnisse auf der Benutzerseite wie abgebildet in einem Kasten dargestellt.
 
 ## Änderung der Oberflächensprache von Wikidata
 Die Default-Spracheinstellung der Wikidata-Oberflächensprache ist Englisch. Wenn Sie nun die Benutzersprache von Englisch auf Deutsch umstellen möchten, dann ist die Sprachumstellung sehr einfach zu bewältigen. Auf der linken Seite der Wikidata-Startseite befindet sich eine Sprachauswahl und dort können sie jede Sprache (in unserem Fall Deutsch), die in Wikidata vorhanden ist, auswählen. 
