@@ -43,7 +43,7 @@
   : Eine [Klassifikation](#einführung-in-normdaten) ist ein hierarchisches Verzeichnis von Schlagworten, welche nach Wissensgebieten geordnet sind (sogenannte Klassen). Die Ordnung einer Klassifikation erfolgt stets vom allgemeinen zum speziellen. Die Klassifikationsnummern dienen der Suche nach einem speziellen Thema. Klassifikationsnummern bestehen dabei oft aus einem Buchstaben (Wissensgebiet) und einer Zahl (Teilgebiet). 
 
 **Mapping (Konkordanz)**
-  : In Bezug auf Normdaten ist ein [Mapping](#einführung-in-normdaten) eine Abbildung von Normdaten aus einer Normdatei auf Normdaten einer anderen Normdatei.
+  : In Bezug auf Normdaten ist ein [Mapping](#einführung-in-normdaten) eine Abbildung von Normdaten aus einer Normdatei auf Normdaten einer anderen Normdatei (siehe auch [Normdaten-Eigenschaften](#normdaten-eigenschaften-in-wikidata) in Wikidata).
 
 **MediaWiki**
   : [MediaWiki](#wikidata-als-datenbank) ist ein freies Softwarepaket zum Betrieb eines Wikis, das ursprünglich für die Wikipedia geschrieben wurde. Das Wikisystem wird von allen Wikis der Wikimedia-Stiftung (Wikimedia Foundation) betriebenen. 
