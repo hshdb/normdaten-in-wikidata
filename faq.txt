@@ -4,7 +4,7 @@
 Nein, Wikidata übernimmt die Fakten von Wikipedia und bereitet sie auf. Diese können durch die Aussagen leicht in anderen Sprachen abgerufen werden, was in Wikipedia nicht möglich ist.
 
 **2. Warum gibt es ein festes Vokabular für Eigenschaften?** 
-Eigenschaften sind in verschiedenen Sprachen vorhanden. Die Begriffe sind vorgegeben, damit eine problemlose Übersetzung ermöglicht wird. Bei fehlenden Begriffen können diese der Community vorgeschlagen werden. Ausführliche Informationen zu diesem Thema finden Sie im Kapitel [Neue Wikidata Eigenschaften](#neue-wikidata-eigenschaften-erstellen).
+Eigenschaften sind in verschiedenen Sprachen vorhanden. Die Begriffe sind vorgegeben, damit eine problemlose Übersetzung ermöglicht wird. Bei fehlenden Begriffen können diese der Community vorgeschlagen werden. Ausführliche Informationen zu diesem Thema finden Sie im Kapitel [Wikidata Eigenschaften](#wikidata-eigenschaften).
  
  **3. Wie erzeuge ich ein neues Item?**
 Zuerst sollten Sie überprüfen, ob das Item, dass Sie erstellen möchten, möglicherweise bereits existiert. 
