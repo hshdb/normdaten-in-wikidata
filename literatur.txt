@@ -8,7 +8,7 @@ Die folgenden Publikationen geben allgemeine Einführungen in die Themen dieses 
 * InfoWissWiki (o.J.): Indexierung. <http://wiki.infowiss.net/Indexierung> (Stand vom 29.04.2014)
 * MediaWiki (2014) <https://www.mediawiki.org/wiki/MediaWiki/de>
 * Wikipedia (2014): Wikidata. <http://de.wikipedia.org/wiki/Wikidata> (wird laufend aktualisiert)
-
+* Wikipedia (2013): Normdatei. https://de.wikipedia.org/wiki/Normdatei (wird laufend aktualisiert)
 *hier fehlen noch 1-2 Literaturhinweise auf Einführungen in Normdaten, z.B. entsprechende Kapitel in den bibliothekarischen Standardwerken und Lehrbüchern wie z.B. http://d-nb.info/1026713277 o.Ä.*
 
 Innerhalb von Wikidata bieten vor allem folgende Seiten weiterführende Informationen:
