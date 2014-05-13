@@ -29,7 +29,7 @@ Weitere Informationen zu Qualifikatoren stehen in Wikidata in der [Liste von Qua
 
 ### Ränge
 
-**Ränge** sind Qualitätsfaktoren, die helfen, die Qualität einer Aussage einzustufen. Das Ranking wird nur angewandt, wenn es zu einem Item mehrere Aussagen mit der gleichen Eigenschaft gibt. Es gibt drei mögliche Rangstufen:
+**Ränge** (hierarchies) sind Qualitätsfaktoren, die helfen, die Qualität einer Aussage einzustufen. Das Ranking wird nur angewandt, wenn es zu einem Item mehrere Aussagen mit der gleichen Eigenschaft gibt. Es gibt drei mögliche Rangstufen:
 
 1. Herabgestufter oder zweifelhafter Rang, für Aussagen, die nicht als zuverlässig betrachtet werden können oder von denen man weiß, dass sie Fehler enthalten.
 2. Der Normale Rang ist für Aussagen, die relevante Informationen enthalten. Diese Informationen gelten allgemein als korrekt. 
@@ -37,7 +37,7 @@ Weitere Informationen zu Qualifikatoren stehen in Wikidata in der [Liste von Qua
 
 Aussagen ohne Belege sowie Aussagen, die ohne weitere Hinweise aus einer anderen Datenbank kopiert wurden Belege mit der Eigenschaft "Datenherkunft" ([`P143`](https://www.wikidata.org/wiki/Property:P143)) sollten grundsätzlich als zweifelhaft eingestuft werden.
 
-![Ränge.PNG](images/R_nge.PNG)
+![Ränge und Rangabstufungen.PNG](images/R_nge.PNG)
 
 
 Weitere Informationen zu Rängen stehen in Wikidata unter [Ranking](https://www.wikidata.org/wiki/Help:Ranking). 

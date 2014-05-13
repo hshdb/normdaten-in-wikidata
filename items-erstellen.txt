@@ -4,14 +4,15 @@ Im nun folgenden Kapitel soll ihnen gezeigt werden, wie man ein Item neu anlegt,
 ### Neue Items anlegen
 Bevor man ein neues Item erstellt, sollte man überprüfen ob [dieses Item bereits existiert](https://www.wikidata.org/wiki/Special:ItemByTitle?uselang=de). Die Suche wird im Kapitel [Inhalte finden](#inhalte-finden-in-wikidata) erklärt.
 
-![Die Erstellung eines neuen Items](images/neues_datemitem.jpg)
+![Die Erstellung eines neuen Items](images/datenobjekt_erstellen.jpg)
+
 
 Wenn das Item noch nicht vorhanden ist, erhält man die Möglichkeit ein neues Item zu erstellen. Man wird mit einem Link auf die Erstellungsseite weitergeleitet (s.o. "Die Erstellung eines neuen Items"). Dort muss die Bezeichnung sowie die Beschreibung des zu erstellenden Items eingetragen werden. Ist dies geschehen, kommt man auf die Itemseite.
 
 Auf der Itemseite hat man die Möglichkeit, Änderungen vorzunehmen oder weitere Sprachen beziehungsweise Übersetzungen für die Itembezeichnung hinzuzufügen.
 
 Items bestehen in der Regel aus einer Vielzahl von Aussagen. Diese enthalten Informationen über die reale Welt und sind der Kernteil jedes Items. Sie gliedern sich in Eigenschaften (property) mit vorgegebenem Vokabular und ihnen zugewiesenen Werten beziehungsweise Inhalten. 
-In  [Kapitel 4](#bestandteile-von-wikidata) können Sie mehr über die Bestandteile von Items erfahren. Eine Übersicht über alle Eigenschaften von Wikidata kann man in der [Liste der Eigenschaften](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_properties/Summary_table/de&oldid=116061771) finden. Im Anhang dieser Übersicht können Sie überprüfen, welche Werte Sie dort eintragen können.
+Im  [Kapitel Bestandteile von Wikidata](#bestandteile-von-wikidata) können Sie mehr über die Bestandteile von Items erfahren. Eine Übersicht über alle Eigenschaften von Wikidata kann man in der [Liste der Eigenschaften](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_properties/Summary_table/de&oldid=116061771) finden. Im Anhang dieser Übersicht können Sie überprüfen, welche Werte Sie dort eintragen können.
 
 **Relevanzkriterien**
 

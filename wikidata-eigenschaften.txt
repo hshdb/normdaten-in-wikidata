@@ -38,31 +38,31 @@ In Wikidata existieren verschiedene **Datentypen**, welche in [einer Liste](http
 
 Im Moment können in Wikidata sieben Datentypen (Item, Commons media file, String, Time, Geographic coordinates und URL) für Eigenschaften verarbeitet werden. 
 
-_Datentyp: Item_
+**_Datentyp: Item_**
 
 In diesen Datentyp können Verknüpfungen zu anderen Items in Wikidata eingegeben werden. Die Eingabe erfolgt über ein einfaches Texteingabefeld. 
 
-_Datentyp: Mediendatei/Media file/Commons_
+**_Datentyp: Mediendatei/Media file/Commons_**
 
 Dieser Datentyp übernimmt die Verlinkung zu Mediendokumenten. Vor allem Bilder, Videos und Klänge, welche auf Wikimedia Commons gespeichert sind. Auf diese Weise können die Mediendokumente einem Wikipediaartikel zugeordnet werden. 
 
-_Datentyp: Zeichenkette/String_
+**_Datentyp: Zeichenkette/String_**
 
 Dieser Datentyp akzeptiert als Eingaben alle Zeichenketten. Diese sollten nach Möglichkeit jedoch nicht sprachenabhängig sein, wie zum Beispiel nicht übersetzbare Konzepte wie Eigennamen. 
 
-_Datentyp: Zeit/Time_
+**_Datentyp: Zeit/Time_**
 
-Hier können nur Werte eingegeben werden, welche eine zeitliche Information ausdrücken. Zum Beispiel Jahreszahlen, Jahres-Datums-Zahlen, Zeitzonen, Zeitpunkte und noch einige mehr. Für mehr Informationen können Sie [hier](https://www.wikidata.org/wiki/Special:ListDatatypes) weiterlesen. 
+Hier können nur Werte eingegeben werden, welche eine zeitliche Information ausdrücken. Zum Beispiel Jahreszahlen, Jahres-Datums-Zahlen, Zeitzonen, Zeitpunkte und noch einige mehr.  
 
-_Datentyp: Geographische Koordinaten/Geographic coordinates_
+**_Datentyp: Geographische Koordinaten/Geographic coordinates_**
 
 In diesem Datentyp finden alle Werte mit geografischen Informationen ihren Platz. Dazu zählen vor allem Daten von Breiten- und Längengraden wie bei Ortsbestimmungen und die Position von Sternen beziehungsweise Sternenbildern. 
 
-_Datentyp: URL_
+**_Datentyp: URL_**
 
 In diesem Datentyp werden externe URLs abgelegt. Die URLs müssen hierbei Protokollen gehorchen, die auch für alle Interwikilinks von Wikidata gelten. 
 
-_Datentyp: Menge/Quantity_
+**_Datentyp: Menge/Quantity_**
 
 In diesem Datentyp können Mengenangaben eingegeben werden. Das sind in der Regel vor allem Zahlenwerte wie zum Beispiel die errungenen Wählerstimmen bei einer Wahl. 
 

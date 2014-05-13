@@ -1,11 +1,11 @@
 # Einführung in Normdaten
 
-Eine **Normdatei** (engl. "authority file") ist ein Verzeichnis oder eine Datenbank von normierten Begriffen zur Verwendung als **Deskriptor** in der Dokumentation. Normierte Begriffe können Personennamen, Körperschaftsnamen, Geografika, Musikalia, Verwaltungseinheiten und andere Konzepte der realen Welt sein. Für die Bildung von Normbegriffen gibt es verschiedene Regelwerke, die die Form der normierenden Begriffe festlegt. Die Normbegriffe gehören nach Vergabe zu den **Metadaten** des jeweiligen Datensatzes.
+Eine **Normdatei** (engl. "authority file") ist ein Verzeichnis von normierten Begriffen. Normierte Begriffe können Personennamen, Körperschaftsnamen, Geografika, Musikalia, Verwaltungseinheiten und andere Konzepte der realen Welt sein. Für die Aufbau von Normdateien gibt es verschiedene Regelwerke, die die Form der normierenden Begriffe festlegt. Normdaten sind stets ein Bestandteil der **Metadaten** in einem Datensatz. 
 
-Mit **Normdaten** kann man eindeutig auf verschiedene Objekte (beispielsweise Orte, Personen, Themen, Organisationen) verweisen. Normdaten werden unter anderem in Bibliotheken zur Erschließung und zur **Indexierung** von Dokumenten eingesetzt. Beispiele für Normdateien sind die **GND** (Gemeinsame Normdatei), die ICD-10 (eine **Klassifikation** für Krankheiten) oder der Art & Architecture Thesaurus (ein **Thesaurus**). Einzelne Normdatensätze werden in einer Normdatei durch eindeutige Benennungen oder durch ID-Nummern identifiziert. Mithilfe von **Mapping** können verschiedene Informationssysteme Normdateien abgleichen und eine **Konkordanz** zwischen Normdateien erstellen. Eine Konkordanz ist eine Liste, in der alle Stellen angegeben sind, in der das gesuchte Wort vorkommt. 
+Mit **Normdaten** kann man eindeutig auf verschiedene Objekte (beispielsweise Orte, Personen, Themen, Organisationen) verweisen. Normdaten werden unter anderem in Bibliotheken zur Erschließung und zur **Indexierung** von Dokumenten eingesetzt. Beispiele für Normdateien sind die **GND** (Gemeinsame Normdatei), die ICD-10 (eine **Klassifikation** für Krankheiten) oder der Art & Architecture Thesaurus (ein **Thesaurus**). Einzelne Normdatensätze werden in einer Normdatei durch eindeutige Benennungen, **Notationen** oder durch ID-Nummern identifiziert. Mithilfe von **Mappings** können verschiedene Informationssysteme Normdateien abgleichen und eine **Konkordanz** zwischen Normdateien erstellen. Eine Konkordanz ist eine Liste, in der alle Stellen angegeben sind, in der das gesuchte Wort vorkommt. 
 
 <div class="example">
-Ausschnitt des Normdatensatz zu "Hannover" in der GND, wie er im [Katalog der Deutschen Nationalbibliothek](http://d-nb.info/gnd/4023349-2)  abgerufen werden kann:
+Ausschnitt des Normdatensatz zu "[Hannover](http://d-nb.info/gnd/4023349-2)" in der GND, wie er im Katalog der Deutschen Nationalbibliothek abgerufen werden kann:
 
 ~~~
 ID: http://d-nb.info/gnd/4023349-2
@@ -28,6 +28,6 @@ Thema in:
 ~~~
 </div>
 
-Sie sehen im Merkkasten, dass Hannover der offizielle Name der Stadt ist. Daneben gibt es noch andere Bezeichnungen, eine kurze Beschreibung, was der Datensatz beinhaltet und welche Publikationen die Stadt Hannover erarbeitet ("Urheber von:"), woran sie mitgearbeitet ("Beteiligt an:") und in welchem sie selbst Thema der Darstellung ist ("Thema in:"). 
+Im Merkkasten ist Hannover der offizielle Name der Stadt ("Geografikum (Ort):") ist. Daneben gibt es noch andere Bezeichnungen, eine kurze Beschreibung, was der Datensatz beinhaltet und welche Publikationen die Stadt Hannover erarbeitet ("Urheber von:"), woran sie mitgearbeitet ("Beteiligt an:") und in welchem sie selbst Thema der Darstellung ist ("Thema in:"). 
 
 

@@ -8,7 +8,7 @@ Eigenschaften sind in verschiedenen Sprachen vorhanden. Die Begriffe sind vorgeg
  
  **3. Wie erzeuge ich ein neues Item?**
 Zuerst sollten Sie überprüfen, ob das Item, dass Sie erstellen möchten, möglicherweise bereits existiert. 
-Falls das Item nicht vorhanden ist, können Sie das [neue Item erstellen](http://www.wikidata.org/wiki/Special:NewItem?uselang=de). Auf dieser Seite müssen Sie zuerst die Bezeichnung sowie die Beschreibung des zu erstellenden Items eintragen. Ist dies geschehen, kommen sie auf die Itemseite. [Kapitel 6.5.1 Neue Items anlegen](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#neue-items-anlegen) zeigt Ihnen ausführlich, wie man ein Item anlegen kann. 
+Falls das Item nicht vorhanden ist, können Sie das [neue Item erstellen](http://www.wikidata.org/wiki/Special:NewItem?uselang=de). Auf dieser Seite müssen Sie zuerst die Bezeichnung sowie die Beschreibung des zu erstellenden Items eintragen. Ist dies geschehen, kommen sie auf die Itemseite. [Kapitel 6.4.1 Neue Items anlegen](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#neue-items-anlegen) zeigt Ihnen ausführlich, wie man ein Item anlegen kann. 
 
 **4. Ich suche eine Übersichtsseite zu wichtigen Begriffen von Wikidata. Gibt es so etwas?**
 Wikidata besitzt ein ausführliches [Glossar](#glossar), in dem wichtige Begriffe von Wikidata und dessen Funktionsweise beschrieben sind. 
@@ -19,6 +19,6 @@ Lesen Sie [Kapitel 4.3.3 Belege](http://hshwd.jakobvoss.de/normdaten-in-wikidata
 
 **6. Wie finde ich etwas in Wikidata?**
 Die beiden wichtigsten Möglichkeiten sind die Suchfunktion (die umfassende Suche über Sprachgrenzen hinweg) und die Suche von [Datenobjekten nach Titeln](http://www.wikidata.org/wiki/Special:ItemByTitle?uselang=de). Letzteres funktioniert indem Sie bei "Website" eine Sprache eines Wikimedia-Projektes ("de" -> "Deutsch (dewiki)") und bei "Seite" die Bezeichnung eines Items ("Japan") eingeben. Sie werden anschließend auf die Item-Seite von Japan weitergeleitet. Wichtig zu beachten ist, dass der Eintrag, den Sie in das Suchfeld eingeben, genau mit der Bezeichnung des Items übereinstimmen muss. 
-Eine ausführliche Beschreibung  der Suchfunktionen finden Sie im [Kapitel 6.4 Inhalte finden in Wikidata](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#inhalte-finden-in-wikidata). 
+Eine ausführliche Beschreibung  der Suchfunktionen finden Sie im [Kapitel 6.3 Inhalte finden in Wikidata](http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#inhalte-finden-in-wikidata). 
  
 
