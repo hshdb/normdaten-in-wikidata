@@ -26,7 +26,6 @@ Da jederzeit neue Eigenschaften in Wikidata hinzukommen können (siehe [Neue Eig
 * ISO-Norm ([`P503`](https://www.wikidata.org/wiki/Property:P503))
 * ISIL-ID ([`P791`](https://www.wikidata.org/wiki/Property:P791))
 </div>
-    
      
 ## Unterschiede zu anderen Normdateien
 
