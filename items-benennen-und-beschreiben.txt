@@ -1,5 +1,5 @@
 ## Spracheinstellung in Wikidata
-Dieses Kapitel möchte zwei nicht uninteressante Themen anschneiden: wie kann der Benutzer die Sprache der Wikidata-Inhalte anpassen und wie ändert ein Nutzer die Oberflächensprache in seine bevorzugte Sprache? 
+Dieses Kapitel möchte zwei interessante Themen anschneiden. Zum Einen, wie kann der Benutzer die Sprache der Wikidata-Inhalte anpassen und zum Anderen, wie ändert ein Nutzer die Oberflächensprache in seine bevorzugte Sprache.
 
 **Änderung der Inhaltssprache von Wikidata**
 Sie fragen sich vielleicht, warum gerade Englisch, Plattdeutsch und Türkisch als Sprachen vorgeschlagen werden. Es werden immer drei Sprachen aufgelistet und diese drei sind diejenigen, die in der Region des Nutzers (in diesem Fall also Deutschland) gesprochen werden.
