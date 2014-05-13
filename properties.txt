@@ -1,6 +1,6 @@
 # Liste aller Normdaten-Eigenschaften {.unnumbered}
 
-Die folgende Liste enthält alle in Wikidata vorhandenen [Normdaten-Eigenschaften](#normdaten-eigenschaften) zum Zeitpunkt der Erstellung dieses Handbuchs. Der Begriff [Normdaten](#einführung-in-normdaten) ist dabei etwas weiter gefasst: aufgenommen sind alle Wikidata-Eigenschaften zum Verweisen mittels ID oder Notation auf externe Datenquellen. Als Grundlage wurden die Wikidata-Tools [Reasonator](http://meta.wikimedia.org/wiki/Reasonator/stringprops?action=raw) und [AuthorityControl-Gadget](http://www.wikidata.org/wiki/MediaWiki:Gadget-AuthorityControl.js) herangezogen.
+Die folgende Liste enthält alle in Wikidata vorhandenen [Normdaten-Eigenschaften](#normdaten-eigenschaften-in-wikidata) zum Zeitpunkt der Erstellung dieses Handbuchs. Der Begriff Normdaten (siehe [Einführung in Normdaten](#einführung-in-normdaten)) ist dabei etwas weiter gefasst: aufgenommen sind alle Wikidata-Eigenschaften zum Verweisen mittels ID oder Notation auf externe Datenquellen. Als Grundlage wurden die Wikidata-Tools [Reasonator](http://meta.wikimedia.org/wiki/Reasonator/stringprops?action=raw) und [AuthorityControl-Gadget](http://www.wikidata.org/wiki/MediaWiki:Gadget-AuthorityControl.js) herangezogen.
 
 id | Name | Beschreibung
 ---|------|-------------
