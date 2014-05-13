@@ -13,7 +13,5 @@ Beispiele und wichtige Hinweise sind durch Merkkästen wie diesen hier hervorgeh
 Des Weiteren existieren externe Verlinkungen, zum Beispiel [Wikidata-Hauptseite](https://www.wikidata.org/w/index.php?title=Wikidata:Hauptseite&oldid=119860805). Zu dieser Form zählen alle Literaturhinweise und Quellen dieses Handbuches. Auch externe Verlinkungen zu Wikidata-Items und Wikidata-Eigenschaften erscheinen mit Schreibmaschinenschrift, zum Beispiel Japan [`Q17`](https://www.wikidata.org/wiki/Q17)). 
 
 Da es sich um ein dynamisches Projekt handelt, ist es möglich, dass die im Buch abgebildeten und beschriebenen Screenshots nicht mehr dem aktuellen Webseitendesign entsprechen können. 
-Der letzte Stand der Screenshots und der Texte ist der 27. Mai 2014. Alle Inhalte dieses Handbuchs können unter den Bedingungen der CC-BY-SA-Lizenz verwendet werden. 
-
-Wie unter ... beschrieben stehen dazu alle Texte, Bilder und sonstige Ausgangsdateien in einem Repository unter <> zur Verfügung.
+Der letzte Stand der Screenshots und der Texte ist der 27. Mai 2014. Alle Inhalte dieses Handbuchs können unter den Bedingungen der CC-BY-SA-Lizenz verwendet werden. Alle Texte, Bilder und sonstige Ausgangsdateien stehen in einem Repository unter <> zur Verfügung.
 
