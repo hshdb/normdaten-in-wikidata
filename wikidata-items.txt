@@ -1,6 +1,6 @@
 # Bestandteile von Wikidata
 
-Die Datensätze von Wikidata bestehen in der Regel immer aus einer einheitlichen Struktur. Das nun folgende Kapitel möchte die elementaren Bau- und Bestandteile von Wikidata-Datensätzen vorstellen. Dazu gehören die Wikidata-Items, die [Eigenschaften](#wikidata-eigenschaften) und die [Aussagen](#wikidata-aussagen). Ferner finden sich in den folgenden Kapiteln Erläuterungen zu [Datentypen](#datentypen-und-andere-einschränkungen), [Rängen](#ränge), Belegen und Qualifikatoren. 
+Die Datensätze von Wikidata bestehen in der Regel immer aus einer einheitlichen Struktur. Das nun folgende Kapitel möchte die elementaren Bau- und Bestandteile von Wikidata-Datensätzen vorstellen. Dazu gehören die Wikidata-Items, die [Eigenschaften](#wikidata-eigenschaften) und die [Aussagen](#wikidata-aussagen). Ferner finden sich in den folgenden Kapiteln Erläuterungen zu [Datentypen](#datentypen-und-andere-einschränkungen), [Rängen](#ränge), [Belegen](#belege) und [Qualifikatoren](#qualifikatoren). 
 
 ## Wikidata-Items
 
