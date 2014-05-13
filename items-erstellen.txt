@@ -11,7 +11,7 @@ Wenn das Item noch nicht vorhanden ist, erhält man die Möglichkeit ein neues I
 Auf der Itemseite hat man die Möglichkeit, Änderungen vorzunehmen oder weitere Sprachen beziehungsweise Übersetzungen für die Itembezeichnung hinzuzufügen.
 
 Items bestehen in der Regel aus einer Vielzahl von Aussagen. Diese enthalten Informationen über die reale Welt und sind der Kernteil jedes Items. Sie gliedern sich in Eigenschaften (property) mit vorgegebenem Vokabular und ihnen zugewiesenen Werten beziehungsweise Inhalten. 
-In  [Kapitel 4](#bestandteile-von-wikidata) können Sie mehr über die Bestandteile von Items erfahren. Eine Übersicht über alle Eigenschaften von Wikidata kann man in der [Liste der Eigenschaften](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_properties/Summary_table/de&oldid=116061771) finden. Im Anhang dieser Übersicht können Sie überprüfen, welche Werte Sie dort eintragen können.
+Im  [Kapitel Bestandteile von Wikidata](#bestandteile-von-wikidata) können Sie mehr über die Bestandteile von Items erfahren. Eine Übersicht über alle Eigenschaften von Wikidata kann man in der [Liste der Eigenschaften](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_properties/Summary_table/de&oldid=116061771) finden. Im Anhang dieser Übersicht können Sie überprüfen, welche Werte Sie dort eintragen können.
 
 **Relevanzkriterien**
 
