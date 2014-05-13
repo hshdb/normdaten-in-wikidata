@@ -23,7 +23,7 @@ Für einen vollständigen Zugriff werden unter <http://dumps.wikimedia.org/wikid
 
 ### Komplexere Abfragen und Analysen
 
-Bislang bietet Wikidata noch keine einfache Möglichkeit für komplexere Datenbank-Abfragen, so dass für umfangreichere Analysen im Zweifelsfall die gesamte Datenbank heruntergeladen werden muss. Alternativ dazu gibt es einige Programme mit denen Abfragen an eine möglichst aktuelle Kopie der Wikidata-Datenbank gestellt werden können. Einfache Abfragen sollen in Zukunft per [Suche nach Aussagen](#suchen-nach-aussagen) möglich sein.
+Bislang bietet Wikidata noch keine einfache Möglichkeit für komplexere Datenbank-Abfragen, so dass für umfangreichere Analysen im Zweifelsfall die gesamte Datenbank heruntergeladen werden muss. Alternativ dazu gibt es einige Programme, mit denen Abfragen an eine möglichst aktuelle Kopie der Wikidata-Datenbank gestellt werden können. Einfache Abfragen sollen in Zukunft per [Suche nach Aussagen](#suche-nach-aussagen) möglich sein.
 
 Für die Einbindung in MediaWiki beinhaltet die Wikibase-Software eine [Komponente zur Programmierung von Wikidata-Abfragen in der Programmiersprache Lua](http://www.mediawiki.org/wiki/Extension:Wikibase_Client/Lua). Diese Variante soll zunehmend in den Wikis der Wikimedia-Foundation verwendet werden, um dort Infoboxen, Listen und andere strukturierte Inhalte anzuzeigen. Eine weitere Möglichkeit ist die Webanwendung WikiData Query (WDQ unter <http://wdq.wmflabs.org/>). Dort können in einer speziellen Abfragesprache und über ein Webinterface Abfragen zusammengestellt werden, beispielsweise um Listen von Wikidata-Items mit gemeinsamen Eigenschaften zu erstellen.
 
