@@ -33,7 +33,7 @@ Da jederzeit neue Eigenschaften in Wikidata hinzukommen können (siehe [Neue Eig
 Im Folgenden werden die Unterschiede zwischen Wikidata und anderen Normdateien wie der Gemeinsamen Normdatei (GND) kenntlich gemacht. 
  
 Die Einträge bei Wikidata werden maßgeblich durch freischaffende Wikidataautoren und durch Bots erstellt. Jeder kann sich bei Wikidata anmelden und einen Eintrag hinterlassen. Die Wikidata-Datensätze werden in erster Linie für Wikipedia oder andere Wikimedia-Projekte erstellt.
-Die Normdaten in Wikidata unterliegen einem Regelwerk, welches von der Wikidata-Community erarbeitet wurde und dynamisch neuen beziehungsweise veränderten Anforderungen angepasst wird. Die Wikimedia-Foundation hat den Vorteil verschiedener Normdateien erkannt und bietet den Bearbeitern der Datensätze die Möglichkeit an Normdaten (GND, LCCN, NDL, VIAF) in die Artikel einzubinden. 
+Die Normdaten in Wikidata unterliegen einem Regelwerk, welches von der Wikidata-Community erarbeitet wurde und dynamisch. den neuen beziehungsweise veränderten Anforderungen angepasst wird. Die Wikimedia-Foundation hat den Vorteil verschiedener Normdateien erkannt und bietet den Bearbeitern der Datensätze die Möglichkeit an Normdaten (GND, LCCN, NDL, VIAF) in die Artikel einzubinden. 
  
 Im Gegensatz dazu wird die Gemeinsame Normdatei (GND) von mehreren Institutionen verwaltet. Unter anderem sind dies die Deutsche Nationalbibliothek (DNB), alle deutschsprachigen Bibliotheksverbünde, die Zeitschriftendatenbank (ZDB) und zahlreiche weitere Einrichtungen. 
 Der GND und anderen Normdateien liegt meist ein genaues Regelwerk zugrunde, beispielsweise die Regeln für den Schlagwortkatalog (RSWK) oder Resource Description and Access (RDA) .  
