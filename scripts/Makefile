@@ -5,7 +5,7 @@ default:
 	make properties.csv
 
 ../properties.txt:
-	catmandu convert CSV to Template --template `pwd`/table.tt --template_before `pwd`/properties-before.tt \
+	catmandu convert CSV to Template --template `pwd`/table.tt --template_before `pwd`/../properties-einleitung.tt \
 		< properties.csv > $@
 
 # collect a sorted list of authority id properties
