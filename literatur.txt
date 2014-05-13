@@ -1,16 +1,20 @@
 # Literaturverzeichnis {.unnumbered}
 
-Die folgenden Publikationen geben allgemeine Einführungen in die Themen dieses Handbuchs:
+Die folgenden Publikationen geben allgemeine Einführungen zu Normdaten:
 
 * Chaosradio Express (2013): CRE205 Wikidata. <http://cre.fm/cre205-wikidata>
 * Funktionale Anforderungen an Normdaten : ein konzeptionelles Modell; Abschlussbericht Dezember 2008 / [International Federation of Library Associations and Institutions]. Hrsg. von Glenn E. Patton.
 * Grundlagen der praktischen Information und Dokumentation. - Berlin : De Gruyter Saur. - Teil: Handbuch zur Einführung in die Informationswissenschaft und -praxis
 * InfoWissWiki (o.J.): Indexierung. <http://wiki.infowiss.net/Indexierung> (Stand vom 29.04.2014)
+* Wikipedia (2013): Normdatei. https://de.wikipedia.org/wiki/Normdatei (wird laufend aktualisiert)
+
+Folgende Pub
+* InfoWissWiki (o.J.): Indexierung. <http://wiki.infowiss.net/Indexierung> (Stand vom 29.04.2014)
 * Krötzsch, Markus; Vrandečić, Denny (2014): Wikidata: A Free Collaborative Knowledge Base. 
   In: Communications of the ACM (noch nicht erschienen, Preprint unter <http://research.google.com/pubs/archive/42240.pdf>)
 * MediaWiki (2014) <https://www.mediawiki.org/wiki/MediaWiki/de>
 * Wikipedia (2014): Wikidata. <http://de.wikipedia.org/wiki/Wikidata> (wird laufend aktualisiert)
-* Wikipedia (2013): Normdatei. https://de.wikipedia.org/wiki/Normdatei (wird laufend aktualisiert)
+
 
 
 Innerhalb von Wikidata bieten vor allem folgende Seiten weiterführende Informationen:
