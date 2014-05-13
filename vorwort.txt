@@ -5,8 +5,8 @@ Dieses Handbuch entstand innerhalb von drei Monaten im Rahmen eines Projektsemin
 Das Handbuch gliedert sich in einen theoretischen ersten Teil, welcher die grundlegenden Eigenschaften von Wikidata und Normdaten in Wikidata erläutert. Im zweiten Teil erhält der Leser einen Einblick in das praktische Arbeiten mit und in Wikidata. Abgerundet wird der Text durch zahlreiche Beispiele, Merkkästen und ein umfangreiches [Glossar](#glossar). 
 
 **Was benötigt man für die Benutzung?**
-- Internetverbindung
-- Benutzeraccount bei Wikidata
+
+Für die erfolgreiche Benutzung des Handbuches benötigt man ein Internetfähiges Endgerät und einen Account bei Wikidata.
 
 <div class="example">
 
