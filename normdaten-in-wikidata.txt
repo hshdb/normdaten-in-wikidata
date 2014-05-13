@@ -27,7 +27,7 @@ Da jederzeit neue Eigenschaften in Wikidata hinzukommen können (siehe [Neue Eig
 * ISIL-ID ([`P791`](https://www.wikidata.org/wiki/Property:P791))
 </div>
     
-    
+     
 ## Unterschiede zu anderen Normdateien
 
 Im Folgenden werden die Unterschiede zwischen Wikidata und anderen Normdateien wie der Gemeinsamen Normdatei (GND) kenntlich gemacht. 
