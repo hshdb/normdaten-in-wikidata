@@ -52,7 +52,7 @@ Dieser Datentyp akzeptiert als Eingaben alle Zeichenketten. Diese sollten nach M
 
 _Datentyp: Zeit/Time_
 
-Hier können nur Werte eingegeben werden, welche eine zeitliche Information ausdrücken. Zum Beispiel Jahreszahlen, Jahres-Datums-Zahlen, Zeitzonen, Zeitpunkte und noch einige mehr. Für mehr Informationen können Sie [hier](https://www.wikidata.org/wiki/Special:ListDatatypes) weiterlesen. 
+Hier können nur Werte eingegeben werden, welche eine zeitliche Information ausdrücken. Zum Beispiel Jahreszahlen, Jahres-Datums-Zahlen, Zeitzonen, Zeitpunkte und noch einige mehr.  
 
 _Datentyp: Geographische Koordinaten/Geographic coordinates_
 
