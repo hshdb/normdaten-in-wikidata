@@ -7,12 +7,15 @@ Die folgenden Publikationen geben allgemeine Einführungen zu Normdaten:
 * InfoWissWiki (o.J.): Indexierung. <http://wiki.infowiss.net/Indexierung> (Stand vom 29.04.2014)
 * Wikipedia (2013): Normdatei. <https://de.wikipedia.org/wiki/Normdatei> (wird laufend aktualisiert)
 
+
 Folgende Publikationen beschäftigen sich genauer mit der Thematik Wikidata: 
+
 * Chaosradio Express (2013): CRE205 Wikidata. <http://cre.fm/cre205-wikidata>
 * Krötzsch, Markus; Vrandečić, Denny (2014): Wikidata: A Free Collaborative Knowledge Base. 
   In: Communications of the ACM (noch nicht erschienen, Preprint unter <http://research.google.com/pubs/archive/42240.pdf>)
 * MediaWiki (2014) <https://www.mediawiki.org/wiki/MediaWiki/de>
 * Wikipedia (2014): Wikidata. <http://de.wikipedia.org/wiki/Wikidata> (wird laufend aktualisiert)
+
 
 Innerhalb von Wikidata bieten vor allem folgende Seiten weiterführende Informationen:
 
