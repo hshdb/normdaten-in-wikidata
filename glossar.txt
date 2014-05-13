@@ -32,7 +32,10 @@
   
 **GND (Gemeinsame Normdatei)**
   : Die [Gemeinsame Normdatei](#einführung-in-normdaten) ist ein Projekt der Deutschen Nationalbibliothek und einigen anderen deutschen Bibliotheken. Sie stellt den Zusammenschluss der ehemaligen getrennten Gemeinsamen Körperschaftsdatei (GKD), der Personennormendatei (PND), der Schlagwortnormdatei (SWD) und der Einheitssachtitel-Datei des Deutschen Musikarchivs (DMA-EST-Datei) dar. 
-  
+
+**ID**
+   :siehe *Notation*
+ 
 **Item (Datenobjekt)**
   : [Item](#wikidata-items) ist ein Eintrag in Wikidata, der sich auf einen Gegenstand (Person, Ort, Konzept) bezieht. Jedes Wikidata-Item hat eine eindeutige ID, die mit `Q` beginnt. Items sind mit anderen Items mit Interwikilinks verknüpft.
   
