@@ -7,13 +7,9 @@ Das Handbuch gliedert sich in einen theoretischen Teil, der die grundlegenden Ei
 **Was benötigt man für die Benutzung?**
 
 Für die erfolgreiche Benutzung des Handbuches benötigt man ein internetfähiges Endgerät und einen Account bei Wikidata.
-
 <div class="example">
-
 Beispiele und wichtige Hinweise sind durch Merkkästen wie diesen hier hervorgehoben. Alle  **fett markierten** Begriffe im Fließtext werden im [Glossar](#glossar) definiert. Interne Verweise auf Kapitel dieses Handbuchs sind mit einem Pfeil gekennzeichnet.
-
 </div>
-
 Des Weiteren existieren externe Verlinkungen, zum Beispiel [Wikidata-Hauptseite](https://www.wikidata.org/w/index.php?title=Wikidata:Hauptseite&oldid=119860805). Zu dieser Form zählen alle Literaturhinweise und Quellen dieses Handbuches. Auch externe Verlinkungen zu Wikidata-Items und Wikidata-Eigenschaften erscheinen mit Schreibmaschinenschrift, zum Beispiel Japan [`Q17`](https://www.wikidata.org/wiki/Q17)). 
 
 Da es sich um ein dynamisches Projekt handelt, ist es möglich, dass die im Buch abgebildeten und beschriebenen Screenshots nicht mehr dem aktuellen Webseitendesign entsprechen können. 
