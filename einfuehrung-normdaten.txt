@@ -28,6 +28,6 @@ Thema in:
 ~~~
 </div>
 
-Sie sehen im Merkkasten, dass Hannover der offizielle Name der Stadt ist. Daneben gibt es noch andere Bezeichnungen, eine kurze Beschreibung, was der Datensatz beinhaltet und welche Publikationen die Stadt Hannover erarbeitet ("Urheber von:"), woran sie mitgearbeitet ("Beteiligt an:") und in welchem sie selbst Thema der Darstellung ist ("Thema in:"). 
+Sie sehen im Merkkasten, dass Hannover der offizielle Name der Stadt ("Geografikum (Ort):") ist. Daneben gibt es noch andere Bezeichnungen, eine kurze Beschreibung, was der Datensatz beinhaltet und welche Publikationen die Stadt Hannover erarbeitet ("Urheber von:"), woran sie mitgearbeitet ("Beteiligt an:") und in welchem sie selbst Thema der Darstellung ist ("Thema in:"). 
 
 
