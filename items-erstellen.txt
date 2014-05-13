@@ -49,7 +49,7 @@ Wie auf den Screenshots zu sehen ist, können Aussagen zusätzlich mit [Belegen]
 
 ### Neue Eigenschaften vorschlagen
 
-Nur Administratoren und [Eigenschaftenersteller](https://www.wikidata.org/wiki/Wikidata:Property_creators/de) können neue Wikidata-Eigenschaften erstellen. Normale User können eine neue Eigenschaft [vorschlagen](https://www.wikidata.org/wiki/Wikidata:Property_proposal/de) und dieser Vorschlag wird dann geprüft. Bevor Sie aber eine neue Eigenschaft in die Diskussion einbringen, beachten Sie bitte folgendes: 
+Nur Administratoren und [Eigenschaftenersteller](https://www.wikidata.org/wiki/Wikidata:Property_creators/de) können neue Wikidata-Eigenschaften erstellen. Normale User können eine [neue Eigenschaft vorschlagen](https://www.wikidata.org/wiki/Wikidata:Property_proposal/de) und dieser Vorschlag wird dann geprüft. Bevor Sie aber eine neue Eigenschaft in die Diskussion einbringen, beachten Sie bitte folgendes: 
 
 1. Überprüfen Sie in der [Liste der Eigenschaften](https://www.wikidata.org/wiki/Wikidata:List_of_properties/de), ob die Eigenschaft bereits existiert.
 2. Überprüfen Sie, ob die Eigenschaft bereits vorgeschlagen oder abgelehnt wurde.

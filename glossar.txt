@@ -7,13 +7,13 @@
   : Ein [Beleg](#belege) in Wikidata ist eine beliebige Literatur- oder Quellenangabe, die eine Aussage bestätigt. Belege können ihrerseits auf andere Items verweisen, beispielsweise auf ein Buch, das in Wikidata einen eigenen Eintrag hat.
 
 **Bot** 
-  : Ein [Bot](#einfuehrung-in-wikidata) ist eine selbstständig arbeitende Software, die Bearbeitungen ohne menschliche Entscheidungen vornehmen kann. Bots können Interwikilinks, Bezeichnungen, Beschreibungen, Aussagen, Quellen hinzufügen und bearbeiten. Außerdem können Bots Objekte automatisiert erstellen.  Um mehr Information zu Bots zu finden siehe  <http://www.wikidata.org/wiki/Wikidata:Bots/de>.
+  : Ein Bot ist eine selbstständig arbeitende Software, die Bearbeitungen ohne menschliche Entscheidungen vornehmen kann. Bots können Interwikilinks, Bezeichnungen, Beschreibungen, Aussagen, Quellen hinzufügen und bearbeiten. Außerdem können Bots Objekte automatisiert erstellen.  Um mehr Information zu Bots zu finden siehe [Entstehung von Wikidata](#entstehung-von-wikidata) oder auch unter <http://www.wikidata.org/wiki/Wikidata:Bots/de>.
 
 **Daten**
   :  [Daten](#inhalte-von-wikidata) in Wikidata sind die Sammlung aller strukturierten Daten und somit der gesamte Bestand der Datenbank. Als Daten gelten alle Datensätze, welche Wikidata-Autoren und Bots in Wikidata erstellen. Der Hauptnamensraum für die Items (Datenobjekte), der Eigenschaftsnamensraum für die Eigenschaften (properties) und der Abfragenamensraum für die Abfragen (queries) bilden die drei Daten-Namensräumen (entitiy namespaces). Andere Wikidataseiten bestehen aus unstrukturiertem Inhalt, beispielsweise Fließtext, und gelten als Metaseiten. Die speziellen Daten der Eigenschaften (property data) sind die Werte (values) in den Aussagen (statements), die ganz bestimmte Datentypen erfordern.
 
 **Datenbank**
-  : Eine [Datenbank](#einleitung) dient der Verwaltung großer Datenmengen, damit diese schnell, widerspruchsfrei und dauerhaft gespeichert und für verschiedene Benutzergruppen ausgegeben werden können. 
+  : Eine [Datenbank](#wikidata-als-datenbank) dient der Verwaltung großer Datenmengen, damit diese schnell, widerspruchsfrei und dauerhaft gespeichert und für verschiedene Benutzergruppen ausgegeben werden können. 
   
 **Datenbestand**
   : Ein [Datenbestand](#wikidata-als-datenbank) stellt die Gesamtheit aller Daten in einer Datenbank dar. In Wikidata ist der Datenbestand die Menge aller Items und Aussagen. 
@@ -32,9 +32,12 @@
   
 **GND (Gemeinsame Normdatei)**
   : Die [Gemeinsame Normdatei](#einführung-in-normdaten) ist ein Projekt der Deutschen Nationalbibliothek und einigen anderen deutschen Bibliotheken. Sie stellt den Zusammenschluss der ehemaligen getrennten Gemeinsamen Körperschaftsdatei (GKD), der Personennormendatei (PND), der Schlagwortnormdatei (SWD) und der Einheitssachtitel-Datei des Deutschen Musikarchivs (DMA-EST-Datei) dar. 
-  
+
+**ID**
+   :siehe *Notation*
+ 
 **Item (Datenobjekt)**
-  : [Item](#allgemein-zu-wikidata-items) ist ein Eintrag in Wikidata, der sich auf einen Gegenstand (Person, Ort, Konzept) bezieht. Jedes Wikidata-Item hat eine eindeutige ID, die mit `Q` beginnt. Items sind mit anderen Items mit Interwikilinks verknüpft.
+  : [Item](#wikidata-items) ist ein Eintrag in Wikidata, der sich auf einen Gegenstand (Person, Ort, Konzept) bezieht. Jedes Wikidata-Item hat eine eindeutige ID, die mit `Q` beginnt. Items sind mit anderen Items mit Interwikilinks verknüpft.
   
 **Indexierung**
   : Das [Indexieren](#einführung-in-normdaten) beschreibt eine Methode der Inhaltserschließung von Dokumenten und medialen Inhalten jeglicher Art. Produkte von Indexierungen sind Schlagwörter und Stichwörter. Indexierte Dokumente sollen nach einer späteren Recherche mit - nach bestimmten Regeln von Dokumentationssprachen (mithilfe einer Klassifikation oder eines Thesaurus) - genau den vergebenen Schlag- und Stichwörtern wiedergefunden werden. 
@@ -43,7 +46,7 @@
   : Eine [Klassifikation](#einführung-in-normdaten) ist ein hierarchisches Verzeichnis von Schlagworten, welche nach Wissensgebieten geordnet sind (sogenannte Klassen). Die Ordnung einer Klassifikation erfolgt stets vom allgemeinen zum speziellen. Die Klassifikationsnummern dienen der Suche nach einem speziellen Thema. Klassifikationsnummern bestehen dabei oft aus einem Buchstaben (Wissensgebiet) und einer Zahl (Teilgebiet). 
 
 **Mapping (Konkordanz)**
-  : In Bezug auf Normdaten ist ein [Mapping](#einführung-in-normdaten) eine Abbildung von Normdaten aus einer Normdatei auf Normdaten einer anderen Normdatei.
+  : In Bezug auf Normdaten ist ein [Mapping](#einführung-in-normdaten) eine Abbildung von Normdaten aus einer Normdatei auf Normdaten einer anderen Normdatei (siehe auch [Normdaten-Eigenschaften](#normdaten-eigenschaften-in-wikidata) in Wikidata).
 
 **MediaWiki**
   : [MediaWiki](#wikidata-als-datenbank) ist ein freies Softwarepaket zum Betrieb eines Wikis, das ursprünglich für die Wikipedia geschrieben wurde. Das Wikisystem wird von allen Wikis der Wikimedia-Stiftung (Wikimedia Foundation) betriebenen. 
@@ -58,10 +61,10 @@
   : [Normdaten](#einführung-in-normdaten) sind Daten, welche nach festgelegten Regeln erschlossen und beschrieben werden. Normdaten sind stets unter einem einzigartigen Namen zu finden, welcher sich aus alphanumerischen Zeichen zusammensetzt. Manche Normdaten in Wikidata enthalten  Synonyme, Verwandte, Ober-und Unterbegriffe und manchmal auch Beschreibungstexte und Synonyme in anderen Sprachen. Fast alle Daten können normiert werden, wie zum Beispiel Personen, Orte, geografische Einheiten, Körperschaften, Verwaltungseinheiten. Die Beschreibung zur Bildung von Normdaten befindet sich in umfangreichen Regelwerken und Richtlinien. 
   
 **Normdaten-Eigenschaft**
-  : In Wikidata ist eine Normdaten-Eigenschaft eine *Eigenschaft*, die dazu dient mittels ID oder Notation auf einen Normdatensatz in einer anderen Normdatei zu verweisen.
+  : In Wikidata ist eine Normdaten-Eigenschaft eine *Eigenschaft*, die dazu dient mittels ID oder Notation auf einen Normdatensatz in einer anderen Normdatei zu verweisen (siehe [Normdaten-Eigenschaften in Wikidata](#normdaten-eigenschaften-in-wikidata)).
   
 **Notation**
-  : Eine nach bestimmten Regeln, meistens mit Zahlen oder einer Mischung aus Zahlen und Buchstaben, gebildete Zeichenfolge. Sie dient der eindeutigen Zuweisung in einer Klassifikation.
+  : Eine nach bestimmten Regeln, meistens mit Zahlen oder einer Mischung aus Zahlen und Buchstaben, gebildete Zeichenfolge. Sie dient der eindeutigen Identifizierung beispielsweise in einer Klassifikation (siehe [Normdaten-Eigenschaften in Wikidata](#normdaten-eigenschaften-in-wikidata)).
 
 **Ontologie**
   : Eine [Ontologie](#einführung-in-normdaten) beinhaltet Eigenschaften (properties) in Aussagen (statements). Ontologie wird genutzt, um die beschriebenen Gegenstände der realen Welt in Beziehung zu setzen mit den anderen in Datenobjekten vorhandenen Daten und mit Quellenangaben.
