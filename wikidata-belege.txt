@@ -1,6 +1,6 @@
 ### Belege
 
-Aussagen in Wikidata können und sollten möglichst zusätzlich mit **Belegen** versehen werden. 
+Aussagen in Wikidata können und sollten möglichst zusätzlich mit **Belegen** (sources) versehen werden. 
 
 <div class="example ">
 
