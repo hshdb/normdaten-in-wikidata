@@ -37,7 +37,7 @@ Weitere Informationen zu Qualifikatoren stehen in Wikidata in der [Liste von Qua
 
 Aussagen ohne Belege sowie Aussagen, die ohne weitere Hinweise aus einer anderen Datenbank kopiert wurden Belege mit der Eigenschaft "Datenherkunft" ([`P143`](https://www.wikidata.org/wiki/Property:P143)) sollten grundsätzlich als zweifelhaft eingestuft werden.
 
-![Ränge.PNG](images/R_nge.PNG)
+![Ränge und Rangabstufungen.PNG](images/R_nge.PNG)
 
 
 Weitere Informationen zu Rängen stehen in Wikidata unter [Ranking](https://www.wikidata.org/wiki/Help:Ranking). 
