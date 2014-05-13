@@ -1,0 +1,2 @@
+[`[% id %]`](https://www.wikidata.org/wiki/Property:[% id %])
+  : [%- de ? de : "*" _ en _ "*" %]

@@ -11,8 +11,10 @@ COMMIT_DATE=$(shell git log -1 --format=%cd)
 TXTFILES=$(wildcard *.txt)
 TARGET=normdaten-in-wikidata
 
+
 # basiert auf allen .txt Dateien
 normdaten-in-wikidata.md: $(TXTFILES)
+	@cp properties-table.txt properties.txt
 	@echo '% $(TITLE)' > $@
 	@echo '% $(AUTHOR)' >> $@
 	@echo '% $(DATE)' >> $@
@@ -22,6 +24,22 @@ normdaten-in-wikidata.md: $(TXTFILES)
 		echo >> $@ ;\
 	done
 
+pdf: $(TARGET).pdf
+
+$(TARGET).pdf: $(TXTFILES)
+	@cp properties-list.txt properties.txt
+	@echo '% $(TITLE)' > $(TARGET).md
+	@echo '% $(AUTHOR)' >> $(TARGET).md
+	@echo '% $(DATE)' >> $(TARGET).md
+	@echo >> $(TARGET).md
+	@awk '/^[^ >]+\.txt/ {print}' Contents.txt | while read f; do \
+		cat $$f >> $(TARGET).md ;\
+		echo >> $(TARGET).md ;\
+	done
+	pandoc $(PANDOC_OPTIONS) -o $@ $(LATEX_OPTIONS) $(TARGET).md
+	cp properties-table.txt properties.txt
+	
+
 # Übersicht
 synopsis: synopsis.md
 synopsis.md: $(TXTFILES)
@@ -29,7 +47,6 @@ synopsis.md: $(TXTFILES)
 
 # ausgewählte Ausgabeformate
 html: $(TARGET).html index.html
-pdf: $(TARGET).pdf
 tex: $(TARGET).tex
 docx: $(TARGET).docx
 

@@ -4,9 +4,16 @@ default:
 	make property-ids.csv
 	make properties.csv
 
-../properties.txt:
+.PHONY: properties
+properties: ../properties-table.txt ../properties-list.txt
+
+../properties-table.txt:
 	catmandu convert CSV to Template --template `pwd`/table.tt --template_before `pwd`/../properties-einleitung.tt \
 		< properties.csv > $@
+
+../properties-list.txt:
+	catmandu convert CSV to Template --template `pwd`/list.tt --template_before `pwd`/../properties-einleitung.tt \
+		< properties.csv | perl -lne '/^(id|--)/ or print'  > $@
 
 # collect a sorted list of authority id properties
 property-ids.csv: reasonator.csv gadget.csv

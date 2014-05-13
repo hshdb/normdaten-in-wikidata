@@ -1,0 +1,550 @@
+# Liste aller Normdaten-Eigenschaften {.unnumbered}
+
+Die folgende Liste enthält alle in Wikidata vorhandenen [Normdaten-Eigenschaften](#normdaten-eigenschaften-in-wikidata) zum Zeitpunkt der Erstellung dieses Handbuchs. Der Begriff Normdaten (siehe [Einführung in Normdaten](#einführung-in-normdaten)) ist dabei etwas weiter gefasst. Aufgenommen sind alle Wikidata-Eigenschaften zum Verweisen mittels ID oder Notation auf externe Datenquellen. Als Grundlage wurden die Wikidata-Tools [Reasonator](http://meta.wikimedia.org/wiki/Reasonator/stringprops) und [AuthorityControl-Gadget](http://www.wikidata.org/wiki/MediaWiki:Gadget-AuthorityControl.js) herangezogen.
+
+[`P212`](https://www.wikidata.org/wiki/Property:P212)
+  : ISBN-13
+[`P213`](https://www.wikidata.org/wiki/Property:P213)
+  : ISNI
+[`P214`](https://www.wikidata.org/wiki/Property:P214)
+  : VIAF
+[`P215`](https://www.wikidata.org/wiki/Property:P215)
+  : Spektralklasse
+[`P218`](https://www.wikidata.org/wiki/Property:P218)
+  : ISO 639-1
+[`P219`](https://www.wikidata.org/wiki/Property:P219)
+  : ISO 639-2
+[`P220`](https://www.wikidata.org/wiki/Property:P220)
+  : ISO 639-3
+[`P225`](https://www.wikidata.org/wiki/Property:P225)
+  : wissenschaftlicher Name
+[`P227`](https://www.wikidata.org/wiki/Property:P227)
+  : GND-Nummer
+[`P231`](https://www.wikidata.org/wiki/Property:P231)
+  : CAS-Nummer
+[`P232`](https://www.wikidata.org/wiki/Property:P232)
+  : EINECS-Nummer
+[`P233`](https://www.wikidata.org/wiki/Property:P233)
+  : SMILES
+[`P234`](https://www.wikidata.org/wiki/Property:P234)
+  : InChI
+[`P235`](https://www.wikidata.org/wiki/Property:P235)
+  : InChIKey
+[`P236`](https://www.wikidata.org/wiki/Property:P236)
+  : ISSN
+[`P238`](https://www.wikidata.org/wiki/Property:P238)
+  : IATA-Flughafencode
+[`P239`](https://www.wikidata.org/wiki/Property:P239)
+  : ICAO-Flughafencode
+[`P243`](https://www.wikidata.org/wiki/Property:P243)
+  : OCLC
+[`P244`](https://www.wikidata.org/wiki/Property:P244)
+  : LCNAF
+[`P245`](https://www.wikidata.org/wiki/Property:P245)
+  : ULAN
+[`P246`](https://www.wikidata.org/wiki/Property:P246)
+  : Elementsymbol
+[`P247`](https://www.wikidata.org/wiki/Property:P247)
+  : COSPAR-Bezeichnung
+[`P267`](https://www.wikidata.org/wiki/Property:P267)
+  : ATC-Code
+[`P268`](https://www.wikidata.org/wiki/Property:P268)
+  : BnF
+[`P269`](https://www.wikidata.org/wiki/Property:P269)
+  : SUDOC Normdaten
+[`P270`](https://www.wikidata.org/wiki/Property:P270)
+  : CALIS
+[`P271`](https://www.wikidata.org/wiki/Property:P271)
+  : CiNii Normdaten
+[`P278`](https://www.wikidata.org/wiki/Property:P278)
+  : GOST 7.75-97
+[`P300`](https://www.wikidata.org/wiki/Property:P300)
+  : ISO 3166-2 Code
+[`P303`](https://www.wikidata.org/wiki/Property:P303)
+  : EE-Nummer
+[`P345`](https://www.wikidata.org/wiki/Property:P345)
+  : IMDb-Identifikationsnummer
+[`P347`](https://www.wikidata.org/wiki/Property:P347)
+  : Joconde
+[`P349`](https://www.wikidata.org/wiki/Property:P349)
+  : Web NDL Authorities
+[`P350`](https://www.wikidata.org/wiki/Property:P350)
+  : RKD-Werk-ID
+[`P351`](https://www.wikidata.org/wiki/Property:P351)
+  : Entrez-Gene-Nummer
+[`P352`](https://www.wikidata.org/wiki/Property:P352)
+  : UniProt-ID
+[`P353`](https://www.wikidata.org/wiki/Property:P353)
+  : Gen-Symbol
+[`P354`](https://www.wikidata.org/wiki/Property:P354)
+  : HGNC-ID
+[`P356`](https://www.wikidata.org/wiki/Property:P356)
+  : DOI
+[`P359`](https://www.wikidata.org/wiki/Property:P359)
+  : Rijksmonument-Nummer
+[`P373`](https://www.wikidata.org/wiki/Property:P373)
+  : Commons-Kategorie
+[`P374`](https://www.wikidata.org/wiki/Property:P374)
+  : INSEE-Gemeindecode
+[`P377`](https://www.wikidata.org/wiki/Property:P377)
+  : SCN
+[`P380`](https://www.wikidata.org/wiki/Property:P380)
+  : Mérimée-Kennzeichnung
+[`P381`](https://www.wikidata.org/wiki/Property:P381)
+  : KGS-DS-Nummer
+[`P382`](https://www.wikidata.org/wiki/Property:P382)
+  : CBS-Code
+[`P395`](https://www.wikidata.org/wiki/Property:P395)
+  : Kfz-Kennzeichen
+[`P396`](https://www.wikidata.org/wiki/Property:P396)
+  : SBN
+[`P402`](https://www.wikidata.org/wiki/Property:P402)
+  : OpenStreetMap-Relation-ID
+[`P409`](https://www.wikidata.org/wiki/Property:P409)
+  : NLA
+[`P424`](https://www.wikidata.org/wiki/Property:P424)
+  : Wikimedia-Sprachcode
+[`P428`](https://www.wikidata.org/wiki/Property:P428)
+  : botanisches Autorenkürzel gemäß IPNI
+[`P434`](https://www.wikidata.org/wiki/Property:P434)
+  : MusicBrainz-Künstler-ID
+[`P435`](https://www.wikidata.org/wiki/Property:P435)
+  : MusicBrainz-Werk-ID
+[`P436`](https://www.wikidata.org/wiki/Property:P436)
+  : MusicBrainz-Veröffentlichungsgruppen-ID
+[`P439`](https://www.wikidata.org/wiki/Property:P439)
+  : Amtlicher Gemeindeschlüssel
+[`P442`](https://www.wikidata.org/wiki/Property:P442)
+  : chinesischer Code für Verwaltungseinheiten
+[`P464`](https://www.wikidata.org/wiki/Property:P464)
+  : NOR
+[`P477`](https://www.wikidata.org/wiki/Property:P477)
+  : Historic-Places-ID
+[`P481`](https://www.wikidata.org/wiki/Property:P481)
+  : Palissy-ID
+[`P486`](https://www.wikidata.org/wiki/Property:P486)
+  : MeSH-ID
+[`P490`](https://www.wikidata.org/wiki/Property:P490)
+  : provisorischer Name
+[`P492`](https://www.wikidata.org/wiki/Property:P492)
+  : OMIM-ID
+[`P493`](https://www.wikidata.org/wiki/Property:P493)
+  : ICD-9
+[`P494`](https://www.wikidata.org/wiki/Property:P494)
+  : ICD-10
+[`P496`](https://www.wikidata.org/wiki/Property:P496)
+  : ORCID
+[`P498`](https://www.wikidata.org/wiki/Property:P498)
+  : Währungscode (ISO 4217)
+[`P502`](https://www.wikidata.org/wiki/Property:P502)
+  : HURDAT-Kennung
+[`P506`](https://www.wikidata.org/wiki/Property:P506)
+  : ISO 15924
+[`P508`](https://www.wikidata.org/wiki/Property:P508)
+  : BNCF
+[`P528`](https://www.wikidata.org/wiki/Property:P528)
+  : Katalognummer
+[`P535`](https://www.wikidata.org/wiki/Property:P535)
+  : Find a Grave
+[`P536`](https://www.wikidata.org/wiki/Property:P536)
+  : ATP-Kennung
+[`P539`](https://www.wikidata.org/wiki/Property:P539)
+  : Museofile
+[`P549`](https://www.wikidata.org/wiki/Property:P549)
+  : MGP-ID
+[`P553`](https://www.wikidata.org/wiki/Property:P553)
+  : Nutzerkonto in sozialem Netzwerk
+[`P557`](https://www.wikidata.org/wiki/Property:P557)
+  : DiseasesDB-ID
+[`P563`](https://www.wikidata.org/wiki/Property:P563)
+  : ICD-O
+[`P586`](https://www.wikidata.org/wiki/Property:P586)
+  : IPNI-Autor-ID
+[`P587`](https://www.wikidata.org/wiki/Property:P587)
+  : MMSI
+[`P590`](https://www.wikidata.org/wiki/Property:P590)
+  : GNIS
+[`P592`](https://www.wikidata.org/wiki/Property:P592)
+  : ChEMBL
+[`P593`](https://www.wikidata.org/wiki/Property:P593)
+  : HomoloGene-ID
+[`P594`](https://www.wikidata.org/wiki/Property:P594)
+  : Ensembl-ID
+[`P597`](https://www.wikidata.org/wiki/Property:P597)
+  : WTA-Kennung
+[`P599`](https://www.wikidata.org/wiki/Property:P599)
+  : ITF-ID
+[`P600`](https://www.wikidata.org/wiki/Property:P600)
+  : Wine AppDB-Identifikationsnummer
+[`P604`](https://www.wikidata.org/wiki/Property:P604)
+  : MedlinePlus-ID
+[`P613`](https://www.wikidata.org/wiki/Property:P613)
+  : OS-Planquadrat
+[`P627`](https://www.wikidata.org/wiki/Property:P627)
+  : IUCN-ID
+[`P628`](https://www.wikidata.org/wiki/Property:P628)
+  : E-Nummer
+[`P630`](https://www.wikidata.org/wiki/Property:P630)
+  : Straßen-ID der Stadt Paris
+[`P633`](https://www.wikidata.org/wiki/Property:P633)
+  : Répertoire du patrimoine culturel du Québec
+[`P635`](https://www.wikidata.org/wiki/Property:P635)
+  : ISTAT-ID
+[`P637`](https://www.wikidata.org/wiki/Property:P637)
+  : Protein-ID
+[`P638`](https://www.wikidata.org/wiki/Property:P638)
+  : PDB-ID
+[`P639`](https://www.wikidata.org/wiki/Property:P639)
+  : RNA-ID
+[`P640`](https://www.wikidata.org/wiki/Property:P640)
+  : Léonore-ID
+[`P643`](https://www.wikidata.org/wiki/Property:P643)
+  : Genloc Chr
+[`P646`](https://www.wikidata.org/wiki/Property:P646)
+  : Freebase-ID
+[`P648`](https://www.wikidata.org/wiki/Property:P648)
+  : Open-Library-ID
+[`P649`](https://www.wikidata.org/wiki/Property:P649)
+  : NRHP
+[`P650`](https://www.wikidata.org/wiki/Property:P650)
+  : RKD-Künstler-ID
+[`P651`](https://www.wikidata.org/wiki/Property:P651)
+  : BPN
+[`P652`](https://www.wikidata.org/wiki/Property:P652)
+  : UNII
+[`P653`](https://www.wikidata.org/wiki/Property:P653)
+  : PubMed-Health
+[`P657`](https://www.wikidata.org/wiki/Property:P657)
+  : RTECS-Nummer
+[`P661`](https://www.wikidata.org/wiki/Property:P661)
+  : ChemSpider-ID
+[`P662`](https://www.wikidata.org/wiki/Property:P662)
+  : PubChem-ID (CID)
+[`P665`](https://www.wikidata.org/wiki/Property:P665)
+  : KEGG ID
+[`P668`](https://www.wikidata.org/wiki/Property:P668)
+  : GeneReviews-ID
+[`P671`](https://www.wikidata.org/wiki/Property:P671)
+  : Mouse Genome Informatics ID
+[`P672`](https://www.wikidata.org/wiki/Property:P672)
+  : MeSH Code
+[`P673`](https://www.wikidata.org/wiki/Property:P673)
+  : eMedicine
+[`P675`](https://www.wikidata.org/wiki/Property:P675)
+  : Google Books
+[`P677`](https://www.wikidata.org/wiki/Property:P677)
+  : ÚSOP-Code
+[`P683`](https://www.wikidata.org/wiki/Property:P683)
+  : ChEBI-ID
+[`P685`](https://www.wikidata.org/wiki/Property:P685)
+  : NCBI-ID
+[`P686`](https://www.wikidata.org/wiki/Property:P686)
+  : Gene-Ontology-Identifikator
+[`P687`](https://www.wikidata.org/wiki/Property:P687)
+  : BHL-Seiten-ID
+[`P691`](https://www.wikidata.org/wiki/Property:P691)
+  : NKCR
+[`P698`](https://www.wikidata.org/wiki/Property:P698)
+  : PubMed-ID (PMID)
+[`P699`](https://www.wikidata.org/wiki/Property:P699)
+  : Disease-Ontology-ID
+[`P701`](https://www.wikidata.org/wiki/Property:P701)
+  : Dodis-Nummer
+[`P704`](https://www.wikidata.org/wiki/Property:P704)
+  : Ensembl-Transkript-Identifikator
+[`P705`](https://www.wikidata.org/wiki/Property:P705)
+  : Ensembl-Protein-Identifikator
+[`P709`](https://www.wikidata.org/wiki/Property:P709)
+  : Historic-Scotland-ID
+[`P715`](https://www.wikidata.org/wiki/Property:P715)
+  : Drugbank-ID
+[`P716`](https://www.wikidata.org/wiki/Property:P716)
+  : JPL Small-Body Database ID
+[`P717`](https://www.wikidata.org/wiki/Property:P717)
+  : *Minor Planet Center observatory code*
+[`P718`](https://www.wikidata.org/wiki/Property:P718)
+  : Canmore-ID
+[`P721`](https://www.wikidata.org/wiki/Property:P721)
+  : OKATO-ID
+[`P722`](https://www.wikidata.org/wiki/Property:P722)
+  : UIC internationale Bahnhofsnummer
+[`P723`](https://www.wikidata.org/wiki/Property:P723)
+  : DBNL-ID
+[`P724`](https://www.wikidata.org/wiki/Property:P724)
+  : Internet-Archive-ID
+[`P727`](https://www.wikidata.org/wiki/Property:P727)
+  : Europeana-ID
+[`P731`](https://www.wikidata.org/wiki/Property:P731)
+  : Litholex Primärschlüssel
+[`P732`](https://www.wikidata.org/wiki/Property:P732)
+  : BGS-Lexikon-ID
+[`P733`](https://www.wikidata.org/wiki/Property:P733)
+  : DINOloket
+[`P745`](https://www.wikidata.org/wiki/Property:P745)
+  : PBB-ID
+[`P758`](https://www.wikidata.org/wiki/Property:P758)
+  : Kulturminne identifier
+[`P759`](https://www.wikidata.org/wiki/Property:P759)
+  : *Alberta Register of Historic Places identifier*
+[`P764`](https://www.wikidata.org/wiki/Property:P764)
+  : OKTMO-ID
+[`P771`](https://www.wikidata.org/wiki/Property:P771)
+  : Gemeindenummer in der Schweiz
+[`P774`](https://www.wikidata.org/wiki/Property:P774)
+  : FIPS 55-3 (Orte in USA)
+[`P782`](https://www.wikidata.org/wiki/Property:P782)
+  : LAU
+[`P791`](https://www.wikidata.org/wiki/Property:P791)
+  : ISIL-ID
+[`P804`](https://www.wikidata.org/wiki/Property:P804)
+  : GNIS-Antarctica-ID
+[`P806`](https://www.wikidata.org/wiki/Property:P806)
+  : italienische Kataster-ID
+[`P808`](https://www.wikidata.org/wiki/Property:P808)
+  : *code Bien de Interés Cultural*
+[`P809`](https://www.wikidata.org/wiki/Property:P809)
+  : WDPA-ID
+[`P815`](https://www.wikidata.org/wiki/Property:P815)
+  : ITIS-TSN
+[`P818`](https://www.wikidata.org/wiki/Property:P818)
+  : arXiv ID
+[`P819`](https://www.wikidata.org/wiki/Property:P819)
+  : *ADS bibcode*
+[`P821`](https://www.wikidata.org/wiki/Property:P821)
+  : *CGNDB Unique Identifier*
+[`P824`](https://www.wikidata.org/wiki/Property:P824)
+  : Meteoritical-Bulletin-Identifikator
+[`P827`](https://www.wikidata.org/wiki/Property:P827)
+  : *BBC program identifier*
+[`P829`](https://www.wikidata.org/wiki/Property:P829)
+  : OEIS-ID
+[`P830`](https://www.wikidata.org/wiki/Property:P830)
+  : EOL-ID
+[`P838`](https://www.wikidata.org/wiki/Property:P838)
+  : BioLib-ID
+[`P839`](https://www.wikidata.org/wiki/Property:P839)
+  : IMSLP-ID
+[`P842`](https://www.wikidata.org/wiki/Property:P842)
+  : Fossilworks-ID
+[`P843`](https://www.wikidata.org/wiki/Property:P843)
+  : SIRUTA Code
+[`P845`](https://www.wikidata.org/wiki/Property:P845)
+  : Sawkatchewan'sches Kulturgüterverzeichnis
+[`P846`](https://www.wikidata.org/wiki/Property:P846)
+  : GBIF-ID
+[`P850`](https://www.wikidata.org/wiki/Property:P850)
+  : WoRMS-ID
+[`P854`](https://www.wikidata.org/wiki/Property:P854)
+  : URL
+[`P858`](https://www.wikidata.org/wiki/Property:P858)
+  : ESPN SCRUM ID
+[`P860`](https://www.wikidata.org/wiki/Property:P860)
+  : *e-archiv.li ID*
+[`P861`](https://www.wikidata.org/wiki/Property:P861)
+  : premiershiprugby.com ID
+[`P863`](https://www.wikidata.org/wiki/Property:P863)
+  : *InPhO identifier *
+[`P864`](https://www.wikidata.org/wiki/Property:P864)
+  : *ACM Digital Library author identifier*
+[`P865`](https://www.wikidata.org/wiki/Property:P865)
+  : BMLO
+[`P866`](https://www.wikidata.org/wiki/Property:P866)
+  : Perlentaucher
+[`P867`](https://www.wikidata.org/wiki/Property:P867)
+  : ROME-Berufscode
+[`P882`](https://www.wikidata.org/wiki/Property:P882)
+  : FIPS 6-4 (counties in USA)
+[`P884`](https://www.wikidata.org/wiki/Property:P884)
+  : Russische Gewässerkennzahl
+[`P886`](https://www.wikidata.org/wiki/Property:P886)
+  : *LIR*
+[`P888`](https://www.wikidata.org/wiki/Property:P888)
+  : JSTOR
+[`P889`](https://www.wikidata.org/wiki/Property:P889)
+  : *Mathematical Reviews identifier*
+[`P892`](https://www.wikidata.org/wiki/Property:P892)
+  : RFC
+[`P893`](https://www.wikidata.org/wiki/Property:P893)
+  : *Social Science Research Network ID*
+[`P902`](https://www.wikidata.org/wiki/Property:P902)
+  : Artikelnummer im HLS
+[`P906`](https://www.wikidata.org/wiki/Property:P906)
+  : SELIBR
+[`P907`](https://www.wikidata.org/wiki/Property:P907)
+  : AMG Spiele ID
+[`P909`](https://www.wikidata.org/wiki/Property:P909)
+  : *Nova Scotia Register of Historic Places identifier*
+[`P911`](https://www.wikidata.org/wiki/Property:P911)
+  : Südafrikanischer Gemeinde-Code
+[`P920`](https://www.wikidata.org/wiki/Property:P920)
+  : *Spanish subject headings for public libraries*
+[`P933`](https://www.wikidata.org/wiki/Property:P933)
+  : *heritagefoundation.ca ID*
+[`P935`](https://www.wikidata.org/wiki/Property:P935)
+  : Commons-Galerie
+[`P938`](https://www.wikidata.org/wiki/Property:P938)
+  : FishBase-ID
+[`P939`](https://www.wikidata.org/wiki/Property:P939)
+  : KSH Code
+[`P946`](https://www.wikidata.org/wiki/Property:P946)
+  : ISIN
+[`P947`](https://www.wikidata.org/wiki/Property:P947)
+  : RSL
+[`P949`](https://www.wikidata.org/wiki/Property:P949)
+  : NLI (Israel)
+[`P950`](https://www.wikidata.org/wiki/Property:P950)
+  : BNE
+[`P951`](https://www.wikidata.org/wiki/Property:P951)
+  : NSZL
+[`P957`](https://www.wikidata.org/wiki/Property:P957)
+  : ISBN-10
+[`P959`](https://www.wikidata.org/wiki/Property:P959)
+  : MSW-ID
+[`P960`](https://www.wikidata.org/wiki/Property:P960)
+  : Tropicos-ID
+[`P961`](https://www.wikidata.org/wiki/Property:P961)
+  : IPNI-TaxonName-ID
+[`P962`](https://www.wikidata.org/wiki/Property:P962)
+  : MycoBank-ID
+[`P964`](https://www.wikidata.org/wiki/Property:P964)
+  : Gemeindekennziffer in Österreich
+[`P966`](https://www.wikidata.org/wiki/Property:P966)
+  : MusicBrainz-Label-ID
+[`P982`](https://www.wikidata.org/wiki/Property:P982)
+  : MusicBrainz-Gebiets-ID
+[`P998`](https://www.wikidata.org/wiki/Property:P998)
+  : dmoz
+[`P1003`](https://www.wikidata.org/wiki/Property:P1003)
+  : NLR (Rumänien)
+[`P1004`](https://www.wikidata.org/wiki/Property:P1004)
+  : MusicBrainz-Location-ID
+[`P1005`](https://www.wikidata.org/wiki/Property:P1005)
+  : PTBNP
+[`P1006`](https://www.wikidata.org/wiki/Property:P1006)
+  : NTA-Nummer
+[`P1014`](https://www.wikidata.org/wiki/Property:P1014)
+  : Art & Architecture Thesaurus ID
+[`P1015`](https://www.wikidata.org/wiki/Property:P1015)
+  : BIBSYS
+[`P1017`](https://www.wikidata.org/wiki/Property:P1017)
+  : BAV (Vatikan)
+[`P1024`](https://www.wikidata.org/wiki/Property:P1024)
+  : *SBFI occupation code*
+[`P1025`](https://www.wikidata.org/wiki/Property:P1025)
+  : SUDOC Editionen
+[`P1036`](https://www.wikidata.org/wiki/Property:P1036)
+  : DDC
+[`P1042`](https://www.wikidata.org/wiki/Property:P1042)
+  : ZDB-ID
+[`P1043`](https://www.wikidata.org/wiki/Property:P1043)
+  : IDEO Job ID
+[`P1044`](https://www.wikidata.org/wiki/Property:P1044)
+  : SWB Online-Katalog
+[`P1045`](https://www.wikidata.org/wiki/Property:P1045)
+  : Sycomore-ID
+[`P1047`](https://www.wikidata.org/wiki/Property:P1047)
+  : Katholische-Hierarchie-ID
+[`P1048`](https://www.wikidata.org/wiki/Property:P1048)
+  : NCL (Taiwan)
+[`P1051`](https://www.wikidata.org/wiki/Property:P1051)
+  : PSH-ID
+[`P1053`](https://www.wikidata.org/wiki/Property:P1053)
+  : ResearcherID
+[`P1054`](https://www.wikidata.org/wiki/Property:P1054)
+  : NDL Editionen
+[`P1055`](https://www.wikidata.org/wiki/Property:P1055)
+  : NLM-ID
+[`P1058`](https://www.wikidata.org/wiki/Property:P1058)
+  : ERA-Journal-ID
+[`P1059`](https://www.wikidata.org/wiki/Property:P1059)
+  : CVR
+[`P1067`](https://www.wikidata.org/wiki/Property:P1067)
+  : thailändische Verwaltungsstrukturkennziffer
+[`P1070`](https://www.wikidata.org/wiki/Property:P1070)
+  : PlantList-ID
+[`P1076`](https://www.wikidata.org/wiki/Property:P1076)
+  : ICTV-ID
+[`P1077`](https://www.wikidata.org/wiki/Property:P1077)
+  : KOATUU-Schlüssel
+[`P1084`](https://www.wikidata.org/wiki/Property:P1084)
+  : EUL Katalog
+[`P1085`](https://www.wikidata.org/wiki/Property:P1085)
+  : LibraryThing-Werk-ID
+[`P1115`](https://www.wikidata.org/wiki/Property:P1115)
+  : ATVK-ID
+[`P1133`](https://www.wikidata.org/wiki/Property:P1133)
+  : DGO4-Nummer
+[`P1138`](https://www.wikidata.org/wiki/Property:P1138)
+  : Kunstindex Danmark
+[`P1144`](https://www.wikidata.org/wiki/Property:P1144)
+  : LoC Editionen
+[`P1146`](https://www.wikidata.org/wiki/Property:P1146)
+  : IAAF-ID
+[`P1150`](https://www.wikidata.org/wiki/Property:P1150)
+  : RVK-Notation
+[`P1153`](https://www.wikidata.org/wiki/Property:P1153)
+  : Scopus-Autor-ID
+[`P1156`](https://www.wikidata.org/wiki/Property:P1156)
+  : Scopus-Quelle-ID
+[`P1159`](https://www.wikidata.org/wiki/Property:P1159)
+  : CODEN
+[`P1160`](https://www.wikidata.org/wiki/Property:P1160)
+  : ISO 4 Abkürzung
+[`P1182`](https://www.wikidata.org/wiki/Property:P1182)
+  : LIBRIS Editionen
+[`P1184`](https://www.wikidata.org/wiki/Property:P1184)
+  : Handle
+[`P1185`](https://www.wikidata.org/wiki/Property:P1185)
+  : Rodovid-ID
+[`P1190`](https://www.wikidata.org/wiki/Property:P1190)
+  : Universelle Dezimalklassifikation
+[`P1207`](https://www.wikidata.org/wiki/Property:P1207)
+  : NUKAT Normdaten
+[`P1212`](https://www.wikidata.org/wiki/Property:P1212)
+  : Atlas ID
+[`P1216`](https://www.wikidata.org/wiki/Property:P1216)
+  : Listennummer der Organisation für Denkmalschutz in England
+[`P1220`](https://www.wikidata.org/wiki/Property:P1220)
+  : Internet Broadway Database Personen ID
+[`P1222`](https://www.wikidata.org/wiki/Property:P1222)
+  : NARA-Personen-ID
+[`P1223`](https://www.wikidata.org/wiki/Property:P1223)
+  : NARA-Organisationen-ID
+[`P1224`](https://www.wikidata.org/wiki/Property:P1224)
+  : NARA-Geographikum-ID
+[`P1225`](https://www.wikidata.org/wiki/Property:P1225)
+  : NARA Fachgebiets-ID
+[`P1226`](https://www.wikidata.org/wiki/Property:P1226)
+  : NARA Spezifischer Dokumententyp ID
+[`P1229`](https://www.wikidata.org/wiki/Property:P1229)
+  : Openpolis-ID
+[`P1231`](https://www.wikidata.org/wiki/Property:P1231)
+  : NARA Katalogdatensatz ID
+[`P1232`](https://www.wikidata.org/wiki/Property:P1232)
+  : Linguist Listencode
+[`P1237`](https://www.wikidata.org/wiki/Property:P1237)
+  : Box Office Mojo Film ID
+[`P1238`](https://www.wikidata.org/wiki/Property:P1238)
+  : Schwedische Fußballassoziation ID
+[`P1245`](https://www.wikidata.org/wiki/Property:P1245)
+  : Bedeutungsdefinition in OmegaWiki
+[`P1250`](https://www.wikidata.org/wiki/Property:P1250)
+  : Dänischer Bibliometrischer Forschungsindikator (BFI) SNO/CNO
+[`P1256`](https://www.wikidata.org/wiki/Property:P1256)
+  : Iconclass ID
+[`P1258`](https://www.wikidata.org/wiki/Property:P1258)
+  : Rotten Tomatoes ID
+[`P1273`](https://www.wikidata.org/wiki/Property:P1273)
+  : CANTIC
+[`P1284`](https://www.wikidata.org/wiki/Property:P1284)
+  : Munzinger Personen
+[`P1285`](https://www.wikidata.org/wiki/Property:P1285)
+  : Munzinger Sport
+[`P1286`](https://www.wikidata.org/wiki/Property:P1286)
+  : Munzinger Pop
+[`P1287`](https://www.wikidata.org/wiki/Property:P1287)
+  : Komponisten der Gegenwart
+[`P1288`](https://www.wikidata.org/wiki/Property:P1288)
+  : Kritisches Lexikon der Gegenwartsliteratur
+[`P1289`](https://www.wikidata.org/wiki/Property:P1289)
+  : Kritisches Lexikon der fremdsprachigen Gegenwartsliteratur
