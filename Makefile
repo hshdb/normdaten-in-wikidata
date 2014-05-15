@@ -45,7 +45,7 @@ $(MAIN).pdf: $(MAIN).tex
 # PDF-Version
 .PHONY: a4
 a4: 
-	pdfnup $(MAIN).pdf --nup '2x1' --a4paper --openright true 
+	pdfnup $(MAIN).pdf --nup '2x1' --a4paper --openright true --suffix a4 
 
 # Übersicht
 synopsis: synopsis.md
