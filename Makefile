@@ -2,85 +2,85 @@
 
 TITLE=Normdaten in Wikidata
 AUTHOR=
-DATE=SS 2014
+DATE=
 
 SOURCE_URL=https://www.penflip.com/nichtich/normdaten-in-wikidata
 BUILD_DATE=$(shell date)
 COMMIT_DATE=$(shell git log -1 --format=%cd)
 
-TXTFILES=$(wildcard *.txt)
-TARGET=normdaten-in-wikidata
+TXT=$(wildcard *.txt)
+MAIN=normdaten-in-wikidata
 
-
-# basiert auf allen .txt Dateien
-normdaten-in-wikidata.md: $(TXTFILES)
-	@cp properties-table.txt properties.txt
+metadata:
 	@echo '% $(TITLE)' > $@
 	@echo '% $(AUTHOR)' >> $@
 	@echo '% $(DATE)' >> $@
 	@echo >> $@
+
+$(MAIN).md: metadata $(TXT)
+	@cp metadata $@
+	@cp properties-table.txt properties.txt
 	@awk '/^[^ >]+\.txt/ {print}' Contents.txt | while read f; do \
-		cat $$f >> $@ ;\
-		echo >> $@ ;\
+		cat $$f >> $@ ; echo >> $@ ;\
 	done
 
-pdf: $(TARGET).pdf
-
-$(TARGET).pdf: $(TXTFILES)
+tex: $(MAIN).tex
+$(MAIN).tex: metadata $(TXT)
+	@cp metadata $(MAIN).md
 	@cp properties-list.txt properties.txt
-	@echo '% $(TITLE)' > $(TARGET).md
-	@echo '% $(AUTHOR)' >> $(TARGET).md
-	@echo '% $(DATE)' >> $(TARGET).md
-	@echo >> $(TARGET).md
 	@awk '/^[^ >]+\.txt/ {print}' Contents.txt | while read f; do \
-		cat $$f >> $(TARGET).md ;\
-		echo >> $(TARGET).md ;\
+		sed 's/<div class="example">/XXXXXX/;s/<\/div>/YYYYYY/' $$f >> $(MAIN).md ;\
+	   	echo >> $(MAIN).md ;\
 	done
-	pandoc $(PANDOC_OPTIONS) -o $@ $(LATEX_OPTIONS) $(TARGET).md
+	pandoc $(PANDOC_OPTIONS) -o $@ $(LATEX_OPTIONS) $(MAIN).md
 	cp properties-table.txt properties.txt
+	perl -pi -e 's/\\href{([^}]+)}{([^\\}]+)}/\\hreffn{\1}{\2}/gm' $@
+	perl -pi -e 's/XXXXXX/\\begin{framed}/;s/YYYYYY/\\end{framed}/;' $@
+
+
+pdf: $(MAIN).pdf
+$(MAIN).pdf: $(MAIN).tex
+	xelatex $< && xelatex $< && xelatex $<
 	
+# PDF-Version
+.PHONY: a4
+a4: 
+	pdfnup --nup 2x1 $(MAIN).pdf
 
 # Übersicht
 synopsis: synopsis.md
-synopsis.md: $(TXTFILES)
+synopsis.md: $(TXT)
 	@perl scripts/synopsis > $@
 
 # ausgewählte Ausgabeformate
-html: $(TARGET).html index.html
-tex: $(TARGET).tex
-docx: $(TARGET).docx
+html: $(MAIN).html index.html
+tex: $(MAIN).tex
+docx: $(MAIN).docx
 
-TARGET_FILES=$(TARGET).md $(TARGET).html $(TARGET).pdf synopsis.md
+MAIN_FILES=$(MAIN).md $(MAIN).html $(MAIN).pdf synopsis.md
 
 # alle Ausgabeformate
 .PHONY: clean info deps
 
-all: $(TARGET_FILES)
+all: $(MAIN_FILES)
 
 build: all
 	@mkdir -p build
-	@cp $(TARGET_FILES) build
+	@cp $(MAIN_FILES) build
 	@rsync -rupt --del images build/
 
 clean:
-	rm -rf $(TARGET_FILES) build/ *.aux *.log *.lof *.out *.toc
+	rm -rf $(MAIN_FILES) build/ *.aux *.log *.lof *.out *.toc
 
 # konkrete Regeln für die jeweiligen Ausgabeformate
 .SUFFIXES: .md .pdf .html .tex .docx
 
 PANDOC_OPTIONS=-s -S --toc -N -V build-date="$(BUILD_DATE)" -V commit-date="$(COMMIT_DATE)" -V source-url="$(SOURCE_URL)"
 LATEX_OPTIONS=--template layout/template.tex \
-			-V fontsize=10pt -V papersize=a5paper \
 			--chapters\
 			--latex-engine xelatex
 HTML_OPTIONS=--template layout/template.html --css layout/buttondown.css --css layout/layout.css --include-before layout/header.html
 ODT_OPTIONS=
-
-.md.pdf:
-	pandoc $(PANDOC_OPTIONS) -o $@ $(LATEX_OPTIONS) $<
-
-.md.tex:
-	pandoc $(PANDOC_OPTIONS) -o $@ $(LATEX_OPTIONS) $<
 
 .md.html:
 	pandoc $(PANDOC_OPTIONS) -o $@ $(HTML_OPTIONS) $<
@@ -88,14 +88,10 @@ ODT_OPTIONS=
 .md.docx:
 	pandoc $(PANDOC_OPTIONS) -t docx -o $@ $(ODT_OPTIONS) $<
 
-# PDF-Version
-a4: $(TARGET).pdf
-	pdfnup $(TARGET).pdf --nup '2x1'
-
 # Snapshot zum Korrekturlesen mit Annotator
 SNAPSHOT_OPTIONS = -V snapshot=1
 
-snapshot.html: $(TARGET).md 
+snapshot.html: $(MAIN).md 
 	pandoc $(PANDOC_OPTIONS) -o $@ $(HTML_OPTIONS) $(SNAPSHOT_OPTIONS) $<
 
 TODAY=`date +%F`
@@ -105,8 +101,8 @@ snapshot: snapshot.html
 
 index.md: About.txt synopsis.md
 	cat About.txt > index.md
-	echo "* [HTML-Version]($(TARGET).html)" >> index.md
-	echo "* [PDF-Version]($(TARGET).pdf)" >> index.md
+	echo "* [HTML-Version]($(MAIN).html)" >> index.md
+	echo "* [PDF-Version]($(MAIN).pdf)" >> index.md
 	echo >> index.md
 	cat synopsis.md >> index.md
 	echo >> index.md
@@ -117,11 +113,11 @@ info:
 # upload build files if ftp.cfg exists
 upload: upload-html upload-pdf upload-docx
 upload-html: html ftp.cfg
-	ncftpput -R -f ftp.cfg / $(TARGET).html index.html
+	ncftpput -R -f ftp.cfg / $(MAIN).html index.html
 upload-pdf: ftp.cfg
-	make pdf; ncftpput -R -f ftp.cfg / $(TARGET).pdf
+	make pdf; ncftpput -R -f ftp.cfg / $(MAIN).pdf
 upload-docx: ftp.cg
-	make docx; ncftpput -R -f ftp.cfg / $(TARGET).docx
+	make docx; ncftpput -R -f ftp.cfg / $(MAIN).docx
 
 pull-and-upload: pull upload
 

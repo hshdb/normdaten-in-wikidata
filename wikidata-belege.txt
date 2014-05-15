@@ -2,7 +2,7 @@
 
 Aussagen in Wikidata können und sollten möglichst zusätzlich mit **Belegen** (sources) versehen werden. 
 
-<div class="example ">
+<div class="example">
 
 Es gibt einige [Ausnahmen](http://www.wikidata.org/wiki/Help:Sources/Items_not_needing_sources), wie unter anderem
 

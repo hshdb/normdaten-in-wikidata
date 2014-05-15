@@ -1,9 +1,10 @@
-\documentclass[$if(fontsize)$$fontsize$,$endif$
-    ngerman,
-    $if(papersize)$$papersize$,pagesize,$endif$
+\documentclass[
+    10pt,
+    a5paper,
     DIV=12, % Seitenspiegel
     BCOR=2mm,
-    open=any % start chapter at any page
+    open=any, % start chapter at any page
+    ngerman
 ]{scrbook}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
@@ -68,6 +69,9 @@ $endif$
 $if(tables)$
 \usepackage{longtable}
 $endif$
+
+\usepackage{framed}
+
 $if(graphics)$
 \usepackage{graphicx}
 % We will generate all images so they have a width \maxwidth. This means
@@ -96,6 +100,22 @@ $endif$
             linkcolor=$if(linkcolor)$$linkcolor$$else$magenta$endif$,
             pdfborder={0 0 0}}
 \urlstyle{same}  % don't use monospace font for urls
+
+% Link als Fußnote
+\newcommand{\hreffn}[2]{#2\footnote{\url{#1}}}
+
+% Interner Link mit Pfeil
+% TODO: kleiner, wie beschrieben unter 
+% http://tex.stackexchange.com/questions/144558/is-there-a-short-diagonal-pointing-arrow-symbol
+\let\orighyperref\hyperref
+\renewcommand{\hyperref}[2][\mylabel]{%
+    \def\mylabel{#2}%
+    \orighyperref[#1]{$$\nearrow$$#2}%
+}
+
+% Merkbox
+
+
 $if(links-as-notes)$
 % Make links footnotes instead of hotlinks:
 \renewcommand{\href}[2]{#2\footnote{\url{#1}}}
@@ -151,6 +171,10 @@ $endfor$
 \begin{document}
 \maketitle
 
+$if(commit-date)$Letzte Änderung: $commit-date$.$endif$
+
+$if(build-date)$Erstellungszeit: $build-date$.$endif$
+
 $for(include-before)$
 $include-before$
 
@@ -185,10 +209,6 @@ $if(biblatex)$
 \printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$
 
 $endif$
-
-$if(commit-date)$Letzte Änderung: $commit-date$.$endif$
-
-$if(build-date)$Erstellungszeit: $build-date$.$endif$
 
 $for(include-after)$
 $include-after$

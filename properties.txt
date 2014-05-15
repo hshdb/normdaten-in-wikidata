@@ -52,7 +52,7 @@ id | Name | Beschreibung
 [`P382`](https://www.wikidata.org/wiki/Property:P382) | CBS-Code | vierstelliger niederländischer Ortscode des Centraal Bureau voor de Statistiek
 [`P395`](https://www.wikidata.org/wiki/Property:P395) | Kfz-Kennzeichen | international: Kfz-Nationalitätszeichen oder Kennzeichnung für Fahrzeuge in internationalem Verkehr. Innerstaatlich: Unterscheidungszeichen für den Verwaltungsbezirk
 [`P396`](https://www.wikidata.org/wiki/Property:P396) | SBN | Normdatennummer der Italienischen Nationalbibliothek
-[`P402`](https://www.wikidata.org/wiki/Property:P402) | OpenStreetMap-Relation-ID | ID des geographischen Objekts in OpenStreetMap
+[`P402`](https://www.wikidata.org/wiki/Property:P402) | OpenStreetMap-Relations-ID | ID des geographischen Objekts in OpenStreetMap
 [`P409`](https://www.wikidata.org/wiki/Property:P409) | NLA | Normdatennummer der Australischen Nationalbibliothek
 [`P424`](https://www.wikidata.org/wiki/Property:P424) | Wikimedia-Sprachcode | Kürzel der Sprache, wie es in den Wikimedia-Projekten verwendet wird
 [`P428`](https://www.wikidata.org/wiki/Property:P428) | botanisches Autorenkürzel gemäß IPNI | offizielle Abkürzung des Subjekts Namen, wenn in der Taxonomie verwendet
@@ -277,3 +277,4 @@ id | Name | Beschreibung
 [`P1287`](https://www.wikidata.org/wiki/Property:P1287) | Komponisten der Gegenwart | 
 [`P1288`](https://www.wikidata.org/wiki/Property:P1288) | Kritisches Lexikon der Gegenwartsliteratur | 
 [`P1289`](https://www.wikidata.org/wiki/Property:P1289) | Kritisches Lexikon der fremdsprachigen Gegenwartsliteratur | 
+[`P1296`](https://www.wikidata.org/wiki/Property:P1296) | *Gran Enciclopèdia Catalana ID* | 

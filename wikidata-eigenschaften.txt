@@ -2,9 +2,9 @@
 
 **Eigenschaften** (englisch "properties") werden in Wikidata benutzt, um Aussagen auszudrücken.
 
-Jede Eigenschaft wird durch eine ID referenziert, die mit `P`  anfängt. Beispielsweise steht in Wikidata [`P19`](https://www.wikidata.org/wiki/Property:P19?uselang=de) für den Geburtsort einer Person. Jede Eigenschaft kann ebenso wie Wikidata-Items mit Übersetzungen und Aussagen (siehe Kapitel [Wikidata-Aussagen](#wikidata-aussagen)) beschrieben werden. So lautet beispielsweise die englische Bezeichnung für die Eigenschaft [`P19`](https://www.wikidata.org/wiki/Property:P19?uselang=de) "place of birth" und die Deutsche Beschreibung "Ort, in dem ein Mensch geboren wurde". 
+Jede Eigenschaft wird durch eine ID referenziert, die mit `P`  anfängt. Beispielsweise steht in Wikidata [`P19`](https://www.wikidata.org/wiki/Property:P19) für den Geburtsort einer Person. Jede Eigenschaft kann ebenso wie Wikidata-Items mit Übersetzungen und Aussagen (siehe Kapitel [Wikidata-Aussagen](#wikidata-aussagen)) beschrieben werden. So lautet beispielsweise die englische Bezeichnung für die Eigenschaft [`P19`](https://www.wikidata.org/wiki/Property:P19) "place of birth" und die Deutsche Beschreibung "Ort, in dem ein Mensch geboren wurde". 
 
-<div class="example ">
+<div class="example">
 
 Zur Ansicht und Bearbeitung der Benennungen und weiterer Angaben zu Aussagen hat jede Eigenschaft in Wikidata eine eigene Seite. Die URL (Uniform Resource Locator) dieser Seite lässt sich durch Voranstellen von `https://www.wikidata.org/wiki/Property:` konstruieren.
 
@@ -22,7 +22,7 @@ Einige Eigenschaften sind dazu gedacht von Wikidata-Items auf andere Normdateien
 
 Eigenschaften können wie Wikidata-Items von allen Mitarbeitern bearbeitet werden, beispielsweise mit Übersetzungen und Beschreibungen der jeweiligen Eigenschaft. 
 
-<div class="example ">
+<div class="example">
 
 Das Anlegen neuer Eigenschaften ist jedoch nur ausgewählten Mitgliedern der Wikidata-Community möglich.
 
@@ -32,7 +32,7 @@ Auf der Seite [Eigenschaften vorschlagen](https://www.wikidata.org/wiki/Wikidata
 
 ### Datentypen und andere Einschränkungen
 
-In Wikidata existieren verschiedene **Datentypen**, welche in [einer Liste](https://www.wikidata.org/wiki/Special:ListDatatypes?uselang=de) zu finden sind. Datentypen haben die Aufgabe zu bestimmen, welche Art von Werten den Eigenschaften zugeordnet werden können. Für jede Eigenschaft ist vordefiniert, welche Datentypen sie als Wert "akzeptiert" ansehen. Beispielsweise sind keine Buchstaben oder sonstige Zeichen für Zahlenfelder bei der GND-Nummer einzugeben.
+In Wikidata existieren verschiedene **Datentypen**, welche in [einer Liste](https://www.wikidata.org/wiki/Special:ListDatatypes) zu finden sind. Datentypen haben die Aufgabe zu bestimmen, welche Art von Werten den Eigenschaften zugeordnet werden können. Für jede Eigenschaft ist vordefiniert, welche Datentypen sie als Wert "akzeptiert" ansehen. Beispielsweise sind keine Buchstaben oder sonstige Zeichen für Zahlenfelder bei der GND-Nummer einzugeben.
 
 **Die wichtigsten Datentypen und eine Beispiel-Eigenschaft:**
 
