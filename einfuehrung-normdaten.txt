@@ -27,6 +27,4 @@ Typ
 
 </div>
 
-Im Merkkasten ist Hannover der offizielle Name der Stadt ("Geografikum (Ort):"). Daneben gibt es noch andere Bezeichnungen, eine kurze Beschreibung, was der Datensatz beinhaltet und welche Publikationen die Stadt Hannover erarbeitet ("Urheber von:"), woran sie mitgearbeitet ("Beteiligt an:") und in welchem sie selbst Thema der Darstellung ist ("Thema in:"). 
-
 
