@@ -19,4 +19,4 @@ glossar.txt
 faq.txt
 literatur.txt
 properties.txt
-handbuch-weiternutzung.txt
+ueber-dieses-handbuch.txt

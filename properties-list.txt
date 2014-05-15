@@ -99,7 +99,7 @@ Die folgende Liste enthält alle in Wikidata vorhandenen [Normdaten-Eigenschafte
 [`P396`](https://www.wikidata.org/wiki/Property:P396)
   : SBN
 [`P402`](https://www.wikidata.org/wiki/Property:P402)
-  : OpenStreetMap-Relation-ID
+  : OpenStreetMap-Relations-ID
 [`P409`](https://www.wikidata.org/wiki/Property:P409)
   : NLA
 [`P424`](https://www.wikidata.org/wiki/Property:P424)
@@ -548,3 +548,5 @@ Die folgende Liste enthält alle in Wikidata vorhandenen [Normdaten-Eigenschafte
   : Kritisches Lexikon der Gegenwartsliteratur
 [`P1289`](https://www.wikidata.org/wiki/Property:P1289)
   : Kritisches Lexikon der fremdsprachigen Gegenwartsliteratur
+[`P1296`](https://www.wikidata.org/wiki/Property:P1296)
+  : *Gran Enciclopèdia Catalana ID*

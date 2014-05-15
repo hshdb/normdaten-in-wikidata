@@ -47,7 +47,7 @@ P381,KGS-DS-Nummer,"PCP reference number","Identifizierungsnummer des Kulturgüt
 P382,CBS-Code,"CBS municipality code","vierstelliger niederländischer Ortscode des Centraal Bureau voor de Statistiek"
 P395,Kfz-Kennzeichen,"licence plate code","international: Kfz-Nationalitätszeichen oder Kennzeichnung für Fahrzeuge in internationalem Verkehr. Innerstaatlich: Unterscheidungszeichen für den Verwaltungsbezirk"
 P396,SBN,"SBN identifier","Normdatennummer der Italienischen Nationalbibliothek"
-P402,OpenStreetMap-Relation-ID,"OpenStreetMap Relation ID","ID des geographischen Objekts in OpenStreetMap"
+P402,OpenStreetMap-Relations-ID,"OpenStreetMap Relation ID","ID des geographischen Objekts in OpenStreetMap"
 P409,NLA,"NLA identifier","Normdatennummer der Australischen Nationalbibliothek"
 P424,Wikimedia-Sprachcode,"Wikimedia language code","Kürzel der Sprache, wie es in den Wikimedia-Projekten verwendet wird"
 P428,"botanisches Autorenkürzel gemäß IPNI","botanist author abbreviation","offizielle Abkürzung des Subjekts Namen, wenn in der Taxonomie verwendet"
@@ -272,3 +272,4 @@ P1286,"Munzinger Pop","Munzinger Pop","Pop-Archiv International im Verlag Munzin
 P1287,"Komponisten der Gegenwart","KDG Komponisten der Gegenwart",
 P1288,"Kritisches Lexikon der Gegenwartsliteratur","KLG Kritisches Lexikon der Gegenwartsliteratur",
 P1289,"Kritisches Lexikon der fremdsprachigen Gegenwartsliteratur","KLfG Kritisches Lexikon der fremdsprachigen Gegenwartsliteratur",
+P1296,,"Gran Enciclopèdia Catalana ID",
