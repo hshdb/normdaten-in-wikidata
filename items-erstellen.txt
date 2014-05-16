@@ -12,7 +12,7 @@ Wenn das Item noch nicht vorhanden ist, erhält man die Möglichkeit ein neues I
 Auf der Itemseite hat man die Möglichkeit, Änderungen vorzunehmen oder weitere Sprachen beziehungsweise Übersetzungen für die Itembezeichnung hinzuzufügen.
 
 Items bestehen in der Regel aus einer Vielzahl von Aussagen. Diese enthalten Informationen über die reale Welt und sind der Kernteil jedes Items. Sie gliedern sich in Eigenschaften (property) mit vorgegebenem Vokabular und ihnen zugewiesenen Werten beziehungsweise Inhalten. 
-Im  [Kapitel Bestandteile von Wikidata](#bestandteile-von-wikidata) können Sie mehr über die Bestandteile von Items erfahren. Eine Übersicht über alle Eigenschaften von Wikidata kann man in der [Liste der Eigenschaften](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_properties/Summary_table/de&oldid=116061771) finden. Im Anhang dieser Übersicht können Sie überprüfen, welche Werte Sie dort eintragen können.
+Im  [Kapitel Bestandteile von Wikidata](#bestandteile-von-wikidata) können Sie mehr über die Bestandteile von Items erfahren. Eine Übersicht über alle Eigenschaften von Wikidata kann man in der [Liste der Eigenschaften](https://www.wikidata.org/wiki/Wikidata:List_of_properties/Summary_table/de) finden. Im Anhang dieser Übersicht können Sie überprüfen, welche Werte Sie dort eintragen können.
 
 **Relevanzkriterien**
 
@@ -20,7 +20,7 @@ Zum Erstellen eines Items gibt es drei verschiedene Relevanzkriterien. Es muss e
 
 ### Übersetzungen in Wikidata
 
-Wikidata arbeitet an einem Modell bei dem alle Sprachen beziehungsweise Sprachlinks an einem zentralen Punkt zusammengeführt und verknüpft werden. Auf diese Weise werden alle Wiki-Einträge (in allen Sprachen) an einer zentralen Stelle angezeigt. Es können [Anträge](https://www.wikidata.org/w/index.php?title=Wikidata:Translators%27_noticeboard&oldid=115958854) zur Übersetzung gestellt oder Verbesserungsvorschläge und Rechtschreibkorrekturen angemerkt werden. 
+Wikidata arbeitet an einem Modell bei dem alle Sprachen beziehungsweise Sprachlinks an einem zentralen Punkt zusammengeführt und verknüpft werden. Auf diese Weise werden alle Wiki-Einträge (in allen Sprachen) an einer zentralen Stelle angezeigt. Es können [Anträge](https://www.wikidata.org/wiki/Wikidata:Translators%27_noticeboard) zur Übersetzung gestellt oder Verbesserungsvorschläge und Rechtschreibkorrekturen angemerkt werden. 
 
 ![Übersetzungen des Items](images/beispieluebersetzen.jpg)
 

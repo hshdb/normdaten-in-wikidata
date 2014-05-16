@@ -17,7 +17,7 @@ beispielsweise eine Beschränkung der Jahreszahl bei einer Volkszählung. Die dr
 
 <div class="example">
 
-**Beispiel für Ludwig XIV. ( [`Q7742`](https://www.wikidata.org/wiki/Q7742?uselang=de))(Objekt)**
+**Beispiel für Ludwig XIV. ([`Q7742`](https://www.wikidata.org/wiki/Q7742))**
 
 öffentliches Amt (Eigenschaft): König von Frankreich (Wert der Eigenschaft)
 Startzeitpunkt ([`P580`](https://www.wikidata.org/wiki/Property:P580)): (Qualifikator): 14. Mai 1643 (Wert des Qualifikators)
