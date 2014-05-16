@@ -26,13 +26,11 @@ Ist man auf der Suche nach einer [Eigenschaft](#wikidata-eigenschaften) gibt es 
 
 ![Suche_nach_Eigenschaften.PNG](images/Suche_nach_Eigenschaften.PNG)
 
-
 Wenn der Name der Eigenschaft nicht bekannt ist, gibt es die Möglichkeit mit Hilfe einer [Eigenschaftentabelle](https://www.wikidata.org/wiki/Wikidata:List_of_properties/Summary_table) diese Eigenschaft zu ermitteln. 
 
 ### Suche nach Aussagen 
 
-Wikidata ist zwar eine Datenbank, komplexere Datenbankabfragen sind zum jetzigen Entwicklungsstand aber  nicht möglich. Für die Suche nach [Aussagen](#wikidata-aussagen), beziehungsweise nach Items mit bestimmten Aussagen muss deshalb noch auf externe Hilfsmittel zurückgegriffen werden, wie sie unter [Komplexere Abfragen und Analysen](#komplexere-abfragen-und-analysen) beschrieben sind. Eine einfache Suche ist in Entwicklung und soll zu einem späterem Zeitpunkt unter <https://www.wikidata.org/wiki/Special:SimpleQuery> abgebildet werden. Die einfache Suche soll Anfragen wie beispielsweise die Suche nach allen Items *X* mit der Aussage "*X* ist ein(e) ([`P31`](https://www.wikidata.org/wiki/Property:P31)) Kontinent ([`Q5107`](https://www.wikidata.org/wiki/Q5107))", also eine automatische Liste aller Kontinente, ermöglichen. Für Normdaten-Eigenschaften soll sich die einfache Suche nutzen lassen, um ausgehend von einem Normdatensatz das zugehörige Wikidata-Item zu finden.
+Wikidata ist zwar eine Datenbank, komplexere Datenbankabfragen sind zum jetzigen Entwicklungsstand aber noch nicht möglich. Für die Suche nach [Aussagen](#wikidata-aussagen), beziehungsweise nach Items mit bestimmten Aussagen muss deshalb auf externe Hilfsmittel zurückgegriffen werden, wie sie unter [Komplexere Abfragen und Analysen](#komplexere-abfragen-und-analysen) beschrieben sind. Eine einfache Suche ist in Entwicklung und soll zu einem späterem Zeitpunkt unter <https://www.wikidata.org/wiki/Special:SimpleQuery> bereitstehen. Die einfache Suche soll Anfragen wie beispielsweise nach allen Items *X* mit der Aussage "*X* ist ein(e) ([`P31`](https://www.wikidata.org/wiki/Property:P31)) Kontinent ([`Q5107`](https://www.wikidata.org/wiki/Q5107))", also eine automatische Liste aller Kontinente, ermöglichen. Für Normdaten-Eigenschaften wird die einfache Suche ermöglichen, ausgehend von einem Normdatensatz das zugehörige Wikidata-Item zu finden.
 
 ![Einfache Suche nach Aussagen (geplant)](images/simple-query.png)
-
 
