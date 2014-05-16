@@ -70,9 +70,38 @@ $if(tables)$
 \usepackage{longtable}
 $endif$
 
-\usepackage{framed}
+% TODO:
+% \chead{}
 
-$if(graphics)$
+% Kein Abstand vor Kapitelüberschriften
+\renewcommand{\chapterheadstartvskip}{\vspace*{-\baselineskip}}
+\renewcommand{\chapterheadendvskip}{\vspace*{0.5\baselineskip}}
+
+% Abstände von section und subsection auf basis von scrbook ändern
+\makeatletter
+\renewcommand{\subsection}{\@startsection{subsection}{2}{\z@}%
+  {0.5\baselineskip}%
+  {0.1\baselineskip}%
+  {\ifnum \scr@compatibility>\@nameuse{scr@v@2.96}\relax
+    \setlength{\parfillskip}{\z@ plus 1fil}\fi
+    \raggedsection\normalfont\sectfont\nobreak\size@subsection
+  }%
+}
+\renewcommand{\section}{\@startsection{section}{1}{\z@}%
+  {1\baselineskip}%
+  {0.5\baselineskip}%
+  {\ifnum \scr@compatibility >\@nameuse {scr@v@2.96}\relax 
+   \setlength {\parfillskip}{\z@ plus 1fil}\fi
+   \raggedsection\normalfont\sectfont\nobreak\size@section 
+  }%
+}
+\makeatother
+
+% Interner Link mit Pfeil mittels \shortrightarrow
+\usepackage{stmaryrd}
+\newcommand{\internallinkarrow}{\rotatebox[origin=c]{45}{$$\shortrightarrow$$}}
+
+% Bilder
 \usepackage{graphicx}
 % We will generate all images so they have a width \maxwidth. This means
 % that they will get their normal width if they fit onto the page, but
@@ -83,14 +112,16 @@ $if(graphics)$
 \makeatother
 \let\Oldincludegraphics\includegraphics
 \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
-$endif$
-\ifxetex
-  \usepackage[setpagesize=false, % page size defined by xetex
-              unicode=false, % unicode breaks when used with xetex
-              xetex]{hyperref}
-\else
-  \usepackage[unicode=true]{hyperref}
-\fi
+
+% Merkbox
+\usepackage{framed}
+
+% Links
+\usepackage[setpagesize=false, % page size defined by xetex
+          unicode=false, % unicode breaks when used with xetex
+          xetex]{hyperref}
+
+% PDF-Einstellungen
 \hypersetup{breaklinks=true,
             bookmarks=true,
             pdfauthor={$author-meta$},
@@ -101,25 +132,16 @@ $endif$
             pdfborder={0 0 0}}
 \urlstyle{same}  % don't use monospace font for urls
 
-% Link als Fußnote
+% Externe Links als Fußnote
 \newcommand{\hreffn}[2]{#2\footnote{\url{#1}}}
 
-% Interner Link mit Pfeil
-% TODO: kleiner, wie beschrieben unter 
-% http://tex.stackexchange.com/questions/144558/is-there-a-short-diagonal-pointing-arrow-symbol
+% Interne Links mit Pfeil davor
 \let\orighyperref\hyperref
 \renewcommand{\hyperref}[2][\mylabel]{%
     \def\mylabel{#2}%
-    \orighyperref[#1]{$$\nearrow$$#2}%
+    \orighyperref[#1]{\internallinkarrow\,#2}%
 }
 
-% Merkbox
-
-
-$if(links-as-notes)$
-% Make links footnotes instead of hotlinks:
-\renewcommand{\href}[2]{#2\footnote{\url{#1}}}
-$endif$
 $if(strikeout)$
 \usepackage[normalem]{ulem}
 % avoid problems with \sout in headers with hyperref:
@@ -155,10 +177,6 @@ $endif$
   \g@addto@macro\captionsngerman{\renewcommand\figurename{Bild}} % "Bild" statt "Abbildung"
   \makeatother
 \fi
-
-% Abstände von Kapitelüberschriften
-\renewcommand*{\chapterheadstartvskip}{}
-%\renewcommand*{\chapterheadendvskip}{}
 
 $for(header-includes)$
 $header-includes$
