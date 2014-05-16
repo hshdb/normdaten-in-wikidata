@@ -20,3 +20,4 @@ faq.txt
 literatur.txt
 properties.txt
 ueber-dieses-handbuch.txt
+klappentext.txt

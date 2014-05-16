@@ -1,0 +1,7 @@
+Dieses Handbuch entstand innerhalb von drei Monaten im Rahmen eines
+Projektseminars an der Hochschule Hannover. Es bietet eine detaillierte und
+bebilderte Anleitung zur Unterstützung des Wikidata-Projektes der
+Wikimedia-Foundation (Wikipedia).
+
+Ein theoretischer und praktischer Teil erläutert Wikidata.  Beispiele, ein FAQ
+und Glossar geben Hilfestellung bei Begriffen und Fragen.

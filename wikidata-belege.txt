@@ -12,7 +12,7 @@ Es gibt einige [Ausnahmen](http://www.wikidata.org/wiki/Help:Sources/Items_not_n
 
 </div>
 
-Belege bestehen aus mindestens einer Eigenschaft und einem Wert. Die erste Aussage des Items Deutschland [<code>(Q183)</code>](https://www.wikidata.org/wiki/Q183) lautet "Mitglied von Welthandelsorganisation". Zu dieser Aussage gibt es drei Belege. Jeder Beleg setzt sich zusammen aus "Datenherkunft", "URL" und "Zitat". 
+Belege bestehen aus mindestens einer Eigenschaft und einem Wert. Die erste Aussage des Items Deutschland ([`Q183`](https://www.wikidata.org/wiki/Q183)) lautet "Mitglied von Welthandelsorganisation". Zu dieser Aussage gibt es drei Belege. Jeder Beleg setzt sich zusammen aus "Datenherkunft", "URL" und "Zitat". 
 
 ![Aussage mit drei Einzelnachweisen](images/einzelnachweise.jpg)
 
