@@ -1,44 +1,44 @@
 # Literaturverzeichnis {.unnumbered}
 
-Die folgenden Publikationen geben allgemeine Einführungen zu Normdaten:
+**Allgemeine Einführungen zu Normdaten**
 
 * Funktionale Anforderungen an Normdaten : ein konzeptionelles Modell; Abschlussbericht Dezember 2008 / [International Federation of Library Associations and Institutions]. Hrsg. von Glenn E. Patton.
 * Grundlagen der praktischen Information und Dokumentation. - Berlin : De Gruyter Saur. - Teil: Handbuch zur Einführung in die Informationswissenschaft und -praxis
 * InfoWissWiki (o.J.): Indexierung. <http://wiki.infowiss.net/Indexierung> (Stand vom 29.04.2014)
 * Wikipedia (2013): Normdatei. <https://de.wikipedia.org/wiki/Normdatei> (wird laufend aktualisiert)
 
-Folgende Publikationen beschäftigen sich genauer mit der Thematik Wikidata: 
+**Publikationen zu Wikidata**
 
 * Chaosradio Express (2013): CRE205 Wikidata. <http://cre.fm/cre205-wikidata>
 * Krötzsch, Markus; Vrandečić, Denny (2014): Wikidata: A Free Collaborative Knowledge Base. 
   In: Communications of the ACM (noch nicht erschienen, Preprint unter <http://research.google.com/pubs/archive/42240.pdf>)
 * MediaWiki (2014) <https://www.mediawiki.org/wiki/MediaWiki/de>
 * Wikipedia (2014): Wikidata. <http://de.wikipedia.org/wiki/Wikidata> (wird laufend aktualisiert)
-
-Innerhalb von Wikidata bieten vor allem folgende Seiten weiterführende Informationen:
-
-* Wikidata-Startseite
-<http://wikidata.org>
-* Einführung in Wikidata
-  <https://www.wikidata.org/wiki/Wikidata:Introduction/de>
-* Liste der Wikidata-Eigenschaften
-<https://www.wikidata.org/wiki/Wikidata:List_of_properties/de>
 * Wikidata Schritt für Schritt bearbeiten
-<http://upload.wikimedia.org/wikipedia/commons/9/94/How_to_Edit_Wikidata.pdf>
-* Wikidata-Hilfeseite
-  <https://www.wikidata.org/wiki/Help:Contents/de>
-* Hilfe: Ranking
-<https://www.wikidata.org/wiki/Help:Ranking>
-* Hilfe: Belege
-<http://www.wikidata.org/wiki/Help:Sources/de>
-* Wikidata: Liste der Projektregeln und Richtlinien
-<https://www.wikidata.org/wiki/Wikidata:List_of_policies_and_guidelines/de>
-* Universal Language Selector
-<https://www.mediawiki.org/wiki/Universal_Language_Selector>
-* Das Datenmodell der Wikibase
-<https://www.mediawiki.org/wiki/Wikibase/DataModel>
-* Weitere Projekte von Wikimedia
-<https://de.wikipedia.org/wiki/Wikipedia:Schwesterprojekte>
+  <http://upload.wikimedia.org/wikipedia/commons/9/94/How_to_Edit_Wikidata.pdf>
+
+**Ausgewählte Seiten in Wikidata**
+
+Wikidata-Startseite
+  : <http://wikidata.org>
+Einführung in Wikidata
+  : <https://www.wikidata.org/wiki/Wikidata:Introduction/de>
+Liste der Wikidata-Eigenschaften
+  : <https://www.wikidata.org/wiki/Wikidata:List_of_properties/de>
+Wikidata-Hilfeseite
+  : <https://www.wikidata.org/wiki/Help:Contents/de>
+Hilfe zu Rängen
+  : <https://www.wikidata.org/wiki/Help:Ranking/de>
+Hilfe zu Belegen
+  : <http://www.wikidata.org/wiki/Help:Sources/de>
+Liste der Projektregeln und Richtlinien
+  : <https://www.wikidata.org/wiki/Wikidata:List_of_policies_and_guidelines/de>
+Universal Language Selector
+  : <https://www.mediawiki.org/wiki/Universal_Language_Selector>
+Das Datenmodell von Wikibase
+  : <https://www.mediawiki.org/wiki/Wikibase/DataModel>
+Weitere Wikimedia-Projekte
+  : <https://de.wikipedia.org/wiki/Wikipedia:Schwesterprojekte>
 
 
 
