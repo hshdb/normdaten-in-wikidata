@@ -135,6 +135,12 @@ $endif$
 % Externe Links als Fußnote
 \newcommand{\hreffn}[2]{#2\footnote{\url{#1}}}
 
+% Fußnoten fortlaufend
+\usepackage{remreset}
+\makeatletter
+\@removefromreset{footnote}{chapter}
+\makeatother
+
 % Interne Links mit Pfeil davor
 \let\orighyperref\hyperref
 \renewcommand{\hyperref}[2][\mylabel]{%
