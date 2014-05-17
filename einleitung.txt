@@ -8,5 +8,5 @@ Die Begriffsdefinition zu [Normdaten](#einführung-in-normdaten) leitet den Theo
 
 Die [Wikidata-Items](#wikidata-items) sind in Wikidata eine zentrales Themengebiet. Das Erstellen von neuen [Wikidata-Eigenschaften](#wikidata-eigenschaften) und die ID-Referenzierung sind ein herausragendes Thema. Der Abschnitt [Übersetzungen in Wikidata](#übersetzungen-in-wikidata "Übersetzungen in Wikidata") stellt die Funktionalität dar. Erklärt werden hier die "Universale Sprachauswahl", die "Babel-Bausteinen" und die "Liste der Bezeichnungen".
 
-Das Handbuch verfügt über ein [FAQ](#faq), welches die wichtigsten Fragen beantwortet. Ein [Glossar](#glossar "Glossar"), das [Literaturverzeichnis](#literaturverzeichnis "Literaturverzeichnis") mit weiterführenden Büchern und Links und die [Liste aller Normdaten-Eigenschaften](#liste-aller-normdaten-eigenschaften "Liste aller Normdaten-Eigenschaften") runden das Handbuch ab.
+Das Handbuch verfügt über ein [FAQ](#frequently-asked-questions), welches die wichtigsten Fragen beantwortet. Ein [Glossar](#glossar "Glossar"), das [Literaturverzeichnis](#literaturverzeichnis "Literaturverzeichnis") mit weiterführenden Büchern und Links und die [Liste aller Normdaten-Eigenschaften](#liste-aller-normdaten-eigenschaften "Liste aller Normdaten-Eigenschaften") runden das Handbuch ab.
 
