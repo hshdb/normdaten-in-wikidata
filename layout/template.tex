@@ -3,14 +3,14 @@
     10pt,
     DIV=12, % Seitenspiegel
     BCOR=2mm,
-    open=any, % start chapter at any page
+    open=any, % Kapitel sowohl links als auch rechts beginnen
     ngerman
 ]{scrbook}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
+\usepackage{fixltx2e} % wegen \textsubscript
 % use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
@@ -70,8 +70,16 @@ $if(tables)$
 \usepackage{longtable}
 $endif$
 
-% TODO:
-% \chead{}
+% Kopf- und Fußzeile
+\usepackage{scrpage2}
+\pagestyle{scrheadings}
+\clearscrheadfoot
+\setkomafont{pageheadfoot}{\normalfont}
+\renewcommand*{\chaptermarkformat}{}
+\lefoot[\pagemark]{\pagemark\,\textsf{\enspace\,\textbar\enspace\,\headmark}}
+\rofoot[\pagemark]{\textsf{\headmark\enspace\,\textbar\enspace\,}\pagemark}
+
+% TODO: chaptermark auch bei unnumbered-Kapitel (Vorwort & Anhänge) setzen
 
 % Kein Abstand vor Kapitelüberschriften
 \renewcommand{\chapterheadstartvskip}{\vspace*{-\baselineskip}}
@@ -97,6 +105,12 @@ $endif$
 }
 \makeatother
 
+% Listen
+\usepackage{enumitem}
+\renewcommand{\labelitemi}{--} 
+\setlist[itemize,1]{leftmargin=2em}
+\setlist[enumerate,1]{leftmargin=2em}
+
 % Interner Link mit Pfeil mittels \shortrightarrow
 \usepackage{stmaryrd}
 \newcommand{\internallinkarrow}{\rotatebox[origin=c]{45}{$$\shortrightarrow$$}}
@@ -113,8 +127,13 @@ $endif$
 \let\Oldincludegraphics\includegraphics
 \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
 
-% Merkbox
+% Merkbox (TODO: schöner)
+% Siehe https://tex.stackexchange.com/questions/63752/colored-frame-for-the-framed-environment
 \usepackage{framed}
+%\usepackage{tcolorbox}
+%\newenvironment{framed}[1][orange]
+%{\begin{tcolorbox}[colframe=#1,colback=yellow]}
+%{\end{tcolorbox}}
 
 % Links
 \usepackage[setpagesize=false, % page size defined by xetex
