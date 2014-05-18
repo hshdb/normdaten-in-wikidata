@@ -9,7 +9,7 @@ Mit **Normdaten** kann man eindeutig auf verschiedene Objekte (beispielsweise Or
 Ausschnitt des Normdatensatz zu "[Hannover](http://d-nb.info/gnd/4023349-2)" in der GND, wie er im Katalog der Deutschen Nationalbibliothek abgerufen werden kann:
 
 ID
-  : http://d-nb.info/gnd/4023349-2
+  : <http://d-nb.info/gnd/4023349-2>
 Geografikum (Ort)
   : Hannover
 Andere Bezeichnung
@@ -21,7 +21,7 @@ Definition
 Land
   :  Niedersachsen (XA-DE-NI); Deutschland, Deutsches Reich (XA-DXDE)
 DDC-Notation
-  : T2--435954
+  : `T2--435954`
 Typ
   : Gebietskörperschaft, Verwaltungseinheit (gik)
 

@@ -19,29 +19,24 @@
 
 **Ausgewählte Seiten in Wikidata**
 
-Wikidata-Startseite
-  : <http://wikidata.org>
-Einführung in Wikidata
-  : <https://www.wikidata.org/wiki/Wikidata:Introduction/de>
-Liste der Wikidata-Eigenschaften
-  : <https://www.wikidata.org/wiki/Wikidata:List_of_properties/de>
-Wikidata-Hilfeseite
-  : <https://www.wikidata.org/wiki/Help:Contents/de>
-Hilfe zu Rängen
-  : <https://www.wikidata.org/wiki/Help:Ranking/de>
-Hilfe zu Belegen
-  : <http://www.wikidata.org/wiki/Help:Sources/de>
-Liste der Projektregeln und Richtlinien
-  : <https://www.wikidata.org/wiki/Wikidata:List_of_policies_and_guidelines/de>
-Universal Language Selector
-  : <https://www.mediawiki.org/wiki/Universal_Language_Selector>
-Das Datenmodell von Wikibase
-  : <https://www.mediawiki.org/wiki/Wikibase/DataModel>
-Weitere Wikimedia-Projekte
-  : <https://de.wikipedia.org/wiki/Wikipedia:Schwesterprojekte>
-
-
-
-
-
+* Wikidata-Startseite\
+  <http://wikidata.org>
+* Einführung in Wikidata\
+  <https://www.wikidata.org/wiki/Wikidata:Introduction/de>
+* Liste der Wikidata-Eigenschaften\
+  <https://www.wikidata.org/wiki/Wikidata:List_of_properties/de>
+* Wikidata-Hilfeseite\
+  <https://www.wikidata.org/wiki/Help:Contents/de>
+* Hilfe zu Rängen\
+  <https://www.wikidata.org/wiki/Help:Ranking/de>
+* Hilfe zu Belegen\
+  <http://www.wikidata.org/wiki/Help:Sources/de>
+* Liste der Projektregeln und Richtlinien\
+  <https://www.wikidata.org/wiki/Wikidata:List_of_policies_and_guidelines/de>
+* Universal Language Selector\
+  <https://www.mediawiki.org/wiki/Universal_Language_Selector>
+* Das Datenmodell von Wikibase\
+  <https://www.mediawiki.org/wiki/Wikibase/DataModel>
+* Weitere Wikimedia-Projekte\
+  <https://de.wikipedia.org/wiki/Wikipedia:Schwesterprojekte>
 

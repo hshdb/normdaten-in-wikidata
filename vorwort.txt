@@ -4,7 +4,10 @@ Dieses Handbuch entstand innerhalb von drei Monaten im Rahmen eines Projektsemin
 
 Das Handbuch gliedert sich in einen theoretischen Teil, der die grundlegenden Eigenschaften von Wikidata und den Normdaten in Wikidata erläutert. Im zweiten Teil erhält der Leser einen Einblick in das praktische Arbeiten mit Wikidata. Abgerundet wird der Text durch zahlreiche Beispiele, Merkkästen und ein umfangreiches [Glossar](#glossar). Für die erfolgreiche Benutzung des Handbuches benötigt man ein internetfähiges Endgerät und einen Account bei Wikidata.
 
-Alle Inhalte des Handbuchs stehen unter den Bedingungen der CC-BY-SA-Lizenz zur freien Verfügung. Weitere Informationen zur Entstehung und Weiternutzung stehen im Anhang [Über diese Handbuch](#über-dieses-handbuch).
+Alle Inhalte des Handbuchs stehen unter den Bedingungen der [CC-BY-SA
+Lizenz](https://creativecommons.org/licenses/by-sa/4.0/deed.de) zur freien
+Verfügung. Weitere Informationen zur Entstehung und Weiternutzung stehen im
+Anhang [Über diese Handbuch](#über-dieses-handbuch).
 
 <div class="example">
 Beispiele und wichtige Hinweise sind durch Merkkästen wie diesen hier hervorgehoben. Alle  **fett markierten** Begriffe im Fließtext werden im [Glossar](#glossar) definiert. Interne Verweise auf Kapitel dieses Handbuchs sind mit einem Pfeil gekennzeichnet.

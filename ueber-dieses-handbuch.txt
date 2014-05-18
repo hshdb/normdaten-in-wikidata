@@ -11,7 +11,8 @@ PDF-Ausgaben](http://hshdb.github.io/normdaten-in-wikidata/). Die
 Repository-Datei `README.md` enthält weitere Hinweise zur technischen
 Umsetzung. 
 
-Die Weiternutzung ist unter den Bedingungen der CC-BY-SA Lizenz möglich. Wenn
+Die Weiternutzung ist unter den Bedingungen der [CC-BY-SA
+Lizenz](https://creativecommons.org/licenses/by-sa/4.0/deed.de) erlaubt. Wenn
 möglich sollte dafür das git-Repository weitergeführt werden (in der
 git-Terminologie als "Fork" bezeichnet), so dass Korrekturen und Erweiterungen
 leichter zurückfliessen können.
