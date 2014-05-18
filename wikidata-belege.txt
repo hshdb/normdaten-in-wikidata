@@ -1,14 +1,14 @@
 ### Belege
 
-Aussagen in Wikidata können und sollten möglichst zusätzlich mit **Belegen** (sources) versehen werden. 
+Abgesehen von einige [Ausnahmen](http://www.wikidata.org/wiki/Help:Sources/Items_not_needing_sources) sollten möglichst alle Aussagen in Wikidata mit zusätzlichen **Belegen** (sources) versehen werden. 
 
 <div class="example">
 
-Es gibt einige [Ausnahmen](http://www.wikidata.org/wiki/Help:Sources/Items_not_needing_sources), wie unter anderem
+In folgenden Fällen kann bei Aussagen auf Belege verzichtet werden:
 
-* Wenn der Wert allgemein bekannt ist und nicht bestritten wurde.
-* Wenn das Element sich auf einer externen Quelle bezieht. Es ermöglicht, die Informationen den anderen verbundenen Aussagen leicht zu überprüfen. Es ist somit nicht nötig, die referenzierten Quellen als Beleg in Wikipedia zu haben. 
-* Wenn das Item selbst als Beleg für Aussagen über seinen Gegenstand dient -- beispielsweise sind die Autoren und Autorinnen eines Buches in der Regel dem Buch selbst zu entnehmen.
+* Wenn die Aussage allgemein bekannt und unumstritten ist.
+* Wenn das Item, über das Aussagen gemacht werden, selbst als Beleg für diese Aussagen dienen kann -- beispielsweise sind die Autoren und Autorinnen eines Buches in der Regel dem Buch selbst zu entnehmen.
+* Wenn die Aussage sich auf eine externe Quelle bezieht, die selbst als Beleg dienen kann. Diese Ausnahme trifft auf die meisten Aussagen mit [Normdaten-Eigenschaften in Wikidata](#normdaten-eigenschaften-in-wikidata) zu. 
 
 </div>
 
