@@ -7,7 +7,7 @@ Ein Glossar sowie ein FAQ am Ende des Handbuchs geben Hilfestellung bei Begriffe
 
 Klappentext (neue Version) von Julian:
 
-Wikidata ist eine Datenbank, die von Menschen und Maschinen gelesen und bearbeitet werden kann. Durch Wikidata werden der Zugriff und die Verwaltung von strukturierten Daten wie Interwiki-Links, Infoboxen und statistichen Informationen zentralisiert. Wikidata unterstützt Wikipedia, beides sind Projekte der Wikimedia-Foundation. Das Handbuch bietet mit detaillierten und bebilderten Texten eine Anleitung zur Unterstützung des Wikidata-Projektes. Ein theoretischer und praktischer Teil erläutert die wichtigsten Begriff und wird Ihnen so Schritt für Schritt Wikidata näher bringen. 
+Wikidata ist eine Datenbank, die von Menschen und Maschinen gelesen und bearbeitet werden kann. Durch Wikidata werden der Zugriff und die Verwaltung von strukturierten Daten wie Interwiki-Links, Infoboxen und statistichen Informationen zentralisiert. Wikidata unterstützt Wikipedia, beides sind Projekte der Wikimedia-Foundation. Das Handbuch bietet mit detaillierten und bebilderten Texten eine Anleitung zur Unterstützung des Wikidata-Projektes. Ein theoretischer und praktischer Teil erläutert die wichtigsten Begriffe und wird Ihnen so Schritt für Schritt Wikidata näher bringen. 
 
 Dieses Handbuch entstand innerhalb von drei Monaten im Rahmen eines Projektseminsars an
 der Hochschule Hannover.
