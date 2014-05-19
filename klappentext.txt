@@ -1,13 +1,13 @@
 Klappentext von Janna:
+
 Wikidata ist eine frei bearbeitbare Datenbank und Projekt der Wikimedia-Foundation. Ziel ist es, Daten zu zentralisieren und diese auch anderswo nutzbar zu machen.
 Dieses Handbuch bietet einen theoretischen und praktischen Teil zur Benutzung von Normdaten in Wikidata. Zahlreiche Bilder dienen zur Veranschaulichung und helfen dem Leser, die gegebenen Anleitungen selber umzusetzen.
 Ein Glossar sowie ein FAQ am Ende des Handbuchs geben Hilfestellung bei Begriffen und Fragen.
 
-Klappentext von Julian:
-Dieses Handbuch entstand innerhalb von drei Monaten im Rahmen eines
-Projektseminars an der Hochschule Hannover. Es bietet eine detaillierte und
-bebilderte Anleitung zur Unterstützung des Wikidata-Projektes der
-Wikimedia-Foundation (Wikipedia).
 
-Ein theoretischer und praktischer Teil erläutert Wikidata.  Beispiele, ein FAQ
-und Glossar geben Hilfestellung bei Begriffen und Fragen.
+Klappentext (neue Version) von Julian:
+
+Wikidata ist eine Datenbank, die von Menschen und Maschinen gelesen und bearbeitet werden kann. Durch Wikidata werden der Zugriff und die Verwaltung von strukturierten Daten wie Interwiki-Links, Infoboxen und statistichen Informationen zentralisiert. Wikidata unterstützt Wikipedia, beides sind Projekte der Wikimedia-Foundation. Das Handbuch bietet mit detaillierten und bebilderten Texten eine Anleitung zur Unterstützung des Wikidata-Projektes. Ein theoretischer und praktischer Teil erläutert die wichtigsten Begriff und wird Ihnen so Schritt für Schritt Wikidata näher bringen. 
+
+Dieses Handbuch entstand innerhalb von drei Monaten im Rahmen eines Projektseminsars an
+der Hochschule Hannover.
