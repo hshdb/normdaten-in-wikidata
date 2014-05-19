@@ -10,7 +10,7 @@ Wikidata enthält zahlreiche [Eigenschaften](#wikidata-eigenschaften) zum Verlin
 
 ![Mappings mittels Normdaten-Eigenschaften](images/mappings.png)
 
-Alle Normdaten-Eigenschaften haben den [Datentyp](#datentypen-und-andere-einschränkungen) Zeichenkette/String, da der Wert aus einer Aussage mit Normdaten-Eigenschaft und einer Notation, ID-Nummer oder Ähnlichem besteht.
+Alle Normdaten-Eigenschaften haben den [Datentyp](#datentypen-und-andere-einschränkungen) Zeichenkette/String, da der Wert aus einer Aussage mit Normdaten-Eigenschaft und einer Notation, ID-Nummer oder Vergleichbarem besteht.
 
 Eine garantiert aktuelle Übersicht aller Eigenschaften, die speziell dazu dienen, auf Normdateien zu verweisen, existiert nicht. Die [tabellarische Übersicht aller Eigenschaften](https://www.wikidata.org/wiki/Wikidata:List_of_properties/Summary_table/de) enthält eine manuell gepflegte Liste, aus der die meisten Normdaten-Eigenschaften hervorgehen. 
 
