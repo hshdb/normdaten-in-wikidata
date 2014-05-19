@@ -11,3 +11,17 @@ Wikidata ist eine Datenbank, die von Menschen und Maschinen gelesen und bearbeit
 
 Dieses Handbuch entstand innerhalb von drei Monaten im Rahmen eines Projektseminsars an
 der Hochschule Hannover.
+
+Klappentext von Franziska:
+
+Die Datenbank Wikidata wurde von der Wikimedia-Foundation ins Leben gerufen.
+Sie dient dazu, andere Projekte der Foundation, wie zum Beispiel Wikipedia, mit Daten zu 
+unterstützen. 
+In diesem Handbuch gibt es einen theoretischen und einen praktischen Teil, die sich damit
+beschäftigen, wie man Normdaten in Wikidata benutzen und erstellen kann.
+Die Anleitungen dazu sind durch zahlreiche Bilder detailliert dargestellt. Ebenso werden etwaige 
+Fragen zur Benutzung von Wikidata erklärt.
+Dieses Handbuch enstand innerhalb von drei Monaten im Rahmen einen Projektseminars an der 
+Hochschule Hannover.
+
+_Ich hab mal eine Freundin von mir gefragt, welcher Text am einfachsten zu verstehen sie. Sie meinte, dass Jannas Version am Verständlichsten ist._
