@@ -7,3 +7,9 @@
   [A5](http://hshwd.jakobvoss.de/normdaten-in-wikidata.pdf)/
   [A4](http://hshwd.jakobvoss.de/normdaten-in-wikidata-a4.pdf)
 * [Projektmanagement](https://trello.com/hshwd2014) bei Trello
+
+----
+
+Wikidata ist eine freie, gemeinsame Datenbank und Projekt der Wikimedia-Foundation. Ziel ist es, strukturierte Daten zu zentralisieren und nutzbar zu machen. Dieses Handbuch bietet mit detaillierten und bebilderten Texten eine Anleitung zur Unterstützung des Wikidata-Projektes. Ein theoretischer und ein praktischer Teil erläutern die wichtigsten Begriffe und erklären Wikidata Schritt für Schritt. Dabei wird ein Schwerpunkt auf das Thema Normdaten in Wikidata gelegt. Ein Glossar sowie eine FAQ am Ende des Handbuchs geben Hilfestellung bei Begriffen und Fragen.
+
+Dieses Handbuch entstand im Rahmen eines Projektseminars im Sommersemester 2014 an der Hochschule Hannover. Alle Inhalte des Handbuchs stehen unter den Bedingungen der CC-BY-SA Lizenz zur freien Verfügung.
