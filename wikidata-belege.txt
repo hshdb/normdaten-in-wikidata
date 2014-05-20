@@ -7,8 +7,8 @@ Aussagen in Wikidata können und sollten möglichst zusätzlich mit **Belegen** 
 Es gibt einige [Ausnahmen](http://www.wikidata.org/wiki/Help:Sources/Items_not_needing_sources), wie unter anderem
 
 * Wenn der Wert allgemein bekannt ist und nicht bestritten wurde.
-* Wenn das Element sich auf einer externen Quelle bezieht. Es ermöglicht, die Informationen den anderen verbundenen Aussagen leicht zu überprüfen. Es ist somit nicht nötig, die referenzierten Quellen als Beleg in Wikipedia zu haben. 
-* Wenn das Item selbst als Beleg für Aussagen über seinen Gegenstand dient -- beispielsweise sind die Autoren und Autorinnen eines Buches in der Regel dem Buch selbst zu entnehmen.
+* Wenn das Element sich auf eine externe Quelle bezieht. Es ermöglicht, die Informationen den anderen verbundenen Aussagen leicht zu überprüfen. Es ist somit nicht nötig, die referenzierten Quellen als Beleg in Wikipedia zu haben. 
+* Wenn das Item selbst als Beleg für Aussagen über seinen Gegenstand dient. Beispielsweise sind die Autoren und Autorinnen eines Buches in der Regel dem Buch selbst zu entnehmen.
 
 </div>
 
@@ -22,7 +22,7 @@ Es ist nicht das primäre Ziel der Wikidata, detaillierte Eigenschaften von Bele
 Sie können auch widersprüchliche Aussagen beinhalten, zum Beispiel ein Buch kann mehrere Kapitel enthalten, in denen verschiedene Autoren widersprüchliche Informationen angeben.
 
 Neben expliziten Belegen, die Aussagen in Wikidata durch einen Verweis auf ein Dokument nachweisen, kann jeder Bearbeitungsvorgang in Wikidata als impliziter Beleg aufgefasst werden. 
-Zu ihrer Beurteilung können explizierte Belege ebenso wichtig sein, wie Informationen darüber, von wem und zu welchem Zeitpunkt eine Aussage in Wikidata angelegt wurde. Belege "zweiter Ordnung", das heißt Belege die auf andere Quellen verweisen, in wissenschaftlichen Texten kenntlich durch die Phrase "zitiert nach", sind in Wikidata nicht vorgesehen.
+Zu ihrer Beurteilung können explizite Belege ebenso wichtig sein, wie Informationen darüber, von wem und zu welchem Zeitpunkt eine Aussage in Wikidata angelegt wurde. Belege "zweiter Ordnung", das heißt Belege, die auf andere Quellen verweisen, in wissenschaftlichen Texten kenntlich durch die Phrase "zitiert nach", sind in Wikidata nicht vorgesehen.
 
 Die genauen Richtlinien für Belege sind in Wikidata unter [Hilfe:Belege](http://www.wikidata.org/wiki/Help:Sources/de) aufgeführt.
 
