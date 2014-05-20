@@ -7,16 +7,16 @@ Nein, Wikidata übernimmt die Fakten von Wikipedia und bereitet sie auf. Diese k
 Eigenschaften sind in verschiedenen Sprachen vorhanden. Die Begriffe sind vorgegeben, damit eine problemlose Übersetzung ermöglicht wird. Bei fehlenden Begriffen können diese der Community vorgeschlagen werden. Ausführliche Informationen zu diesem Thema finden Sie im Kapitel [Wikidata Eigenschaften](#wikidata-eigenschaften).
  
  **3. Wie erzeuge ich ein neues Item?**
-Zuerst sollten Sie überprüfen, ob das Item, dass Sie erstellen möchten, möglicherweise bereits existiert. 
+Zuerst sollten Sie überprüfen, ob das Item, das Sie erstellen möchten, möglicherweise bereits existiert. 
 Falls das Item nicht vorhanden ist, können Sie das [neue Item erstellen](http://www.wikidata.org/wiki/Special:NewItem?uselang=de). Auf dieser Seite müssen Sie zuerst die Bezeichnung sowie die Beschreibung des zu erstellenden Items eintragen. Ist dies geschehen, kommen sie auf die Itemseite. Kapitel [Neue Items anlegen](#neue-items-anlegen) zeigt Ihnen ausführlich, wie man ein Item anlegen kann. 
 
 **4. Ich suche eine Übersichtsseite zu wichtigen Begriffen von Wikidata. Gibt es so etwas?**
 Wikidata besitzt ein ausführliches [Glossar](#glossar), in dem wichtige Begriffe von Wikidata und dessen Funktionsweise beschrieben sind. 
  
  **5. Was sind Belege?**
-Belege bestehen aus mindestens einer Eigenschaft und einem Wert. Die Eigenschaften, die eine Aussage belegen sollen,  werden aus dem Pool von verfügbaren (und festgelegten) Eigenschaften ausgelegt. Der Wert ist ein Nachweis einer Information, die in einer Aussage verwendet wird, zum Beispiel ein Zitat, eine Website oder ein anderes Dokument, dass die Qualitätssicherung gewährleistet. Anbieten würde sich hier Kapitel [Belege](#belege) sowie in Wikidata unter [Hilfe:Belege](http://www.wikidata.org/wiki/Help:Sources/de)
+Belege bestehen aus mindestens einer Eigenschaft und einem Wert. Die Eigenschaften, die eine Aussage belegen sollen,  werden aus dem Pool von verfügbaren (und festgelegten) Eigenschaften ausgewählt. Der Wert ist ein Nachweis einer Information, die in einer Aussage verwendet wird, zum Beispiel ein Zitat, eine Website oder ein anderes Dokument, das die Qualitätssicherung gewährleistet. Anbieten würde sich hier Kapitel [Belege](#belege) sowie in Wikidata unter [Hilfe:Belege](http://www.wikidata.org/wiki/Help:Sources/de)
 
 **6. Wie finde ich etwas in Wikidata?**
-Die beiden wichtigsten Möglichkeiten sind die Suchfunktion (die umfassende Suche über Sprachgrenzen hinweg) und die Suche von [Datenobjekten nach Titeln](http://www.wikidata.org/wiki/Special:ItemByTitle?uselang=de). Letzteres funktioniert indem Sie bei "Website" eine Sprache eines Wikimedia-Projektes ("de" -> "Deutsch (dewiki)") und bei "Seite" die Bezeichnung eines Items ("Japan") eingeben. Sie werden anschließend auf die Item-Seite von Japan weitergeleitet. Wichtig zu beachten ist, dass der Eintrag, den Sie in das Suchfeld eingeben, genau mit der Bezeichnung des Items übereinstimmen muss. Eine ausführliche Beschreibung  der Suchfunktionen finden Sie im Kaptiel [Inhalte finden in Wikidata](#inhalte-finden-in-wikidata). 
+Die beiden wichtigsten Möglichkeiten sind die Suchfunktion (die umfassende Suche über Sprachgrenzen hinweg) und die Suche von [Datenobjekten nach Titeln](http://www.wikidata.org/wiki/Special:ItemByTitle?uselang=de). Letztere funktioniert, indem Sie bei "Website" eine Sprache eines Wikimedia-Projektes ("de" -> "Deutsch (dewiki)") und bei "Seite" die Bezeichnung eines Items ("Japan") eingeben. Sie werden anschließend auf die Item-Seite von Japan weitergeleitet. Zu beachten ist, dass der Eintrag, den Sie in das Suchfeld eingeben, genau mit der Bezeichnung des Items übereinstimmen muss. Eine ausführliche Beschreibung  der Suchfunktionen finden Sie im Kapitel [Inhalte finden in Wikidata](#inhalte-finden-in-wikidata). 
  
 

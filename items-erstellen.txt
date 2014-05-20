@@ -1,13 +1,13 @@
 ## Wikidata-Bearbeitungen
-Im nun folgenden Kapitel soll ihnen gezeigt werden, wie man ein Item neu anlegt, wie man Übersetzungen zu Bezeichnungen und Beschreibungen erstellt und wie Aussagen neu definiert bzw. bearbeitet werden können. 
+Im nun folgenden Kapitel soll Ihnen gezeigt werden, wie man ein Item neu anlegt, wie man Übersetzungen zu Bezeichnungen und Beschreibungen erstellt und wie Aussagen neu definiert bzw. bearbeitet werden können. 
 
 ### Neue Items anlegen
-Bevor man ein neues Item erstellt, sollte man überprüfen ob [dieses Item bereits existiert](https://www.wikidata.org/wiki/Special:ItemByTitle?uselang=de). Die Suche wird im Kapitel [Inhalte finden](#inhalte-finden-in-wikidata) erklärt.
+Bevor man ein neues Item erstellt, sollte man überprüfen, ob [dieses Item bereits existiert](https://www.wikidata.org/wiki/Special:ItemByTitle?uselang=de). Die Suche wird im Kapitel [„Inhalte finden"](#inhalte-finden-in-wikidata) erklärt.
 
 ![Die Erstellung eines neuen Items](images/datenobjekt_erstellen.jpg)
 
 
-Wenn das Item noch nicht vorhanden ist, erhält man die Möglichkeit ein neues Item zu erstellen. Man wird mit einem Link auf die Erstellungsseite weitergeleitet (s.o. "Die Erstellung eines neuen Items"). Dort muss die Bezeichnung sowie die Beschreibung des zu erstellenden Items eingetragen werden. Ist dies geschehen, kommt man auf die Itemseite.
+Wenn das Item noch nicht vorhanden ist, erhält man die Möglichkeit, ein neues Item zu erstellen. Man wird mit einem Link auf die Erstellungsseite weitergeleitet (s.o. "Die Erstellung eines neuen Items"). Dort muss die Bezeichnung sowie die Beschreibung des zu erstellenden Items eingetragen werden. Ist dies geschehen, kommt man auf die Itemseite.
 
 Auf der Itemseite hat man die Möglichkeit, Änderungen vorzunehmen oder weitere Sprachen beziehungsweise Übersetzungen für die Itembezeichnung hinzuzufügen.
 
@@ -20,16 +20,16 @@ Zum Erstellen eines Items gibt es drei verschiedene Relevanzkriterien. Es muss e
 
 ### Übersetzungen in Wikidata
 
-Wikidata arbeitet an einem Modell bei dem alle Sprachen beziehungsweise Sprachlinks an einem zentralen Punkt zusammengeführt und verknüpft werden. Auf diese Weise werden alle Wiki-Einträge (in allen Sprachen) an einer zentralen Stelle angezeigt. Es können [Anträge](https://www.wikidata.org/wiki/Wikidata:Translators%27_noticeboard) zur Übersetzung gestellt oder Verbesserungsvorschläge und Rechtschreibkorrekturen angemerkt werden. 
+Wikidata arbeitet an einem Modell, bei dem alle Sprachen beziehungsweise Sprachlinks an einem zentralen Punkt zusammengeführt und verknüpft werden. Auf diese Weise werden alle Wiki-Einträge (in allen Sprachen) an einer zentralen Stelle angezeigt. Es können [Anträge](https://www.wikidata.org/wiki/Wikidata:Translators%27_noticeboard) zur Übersetzung gestellt oder Verbesserungsvorschläge und Rechtschreibkorrekturen angemerkt werden. 
 
 ![Übersetzungen des Items](images/beispieluebersetzen.jpg)
 
 Anderssprachige Bezeichnungen und Beschreibungen von Items können auf der Seite der jeweiligen Items unter "In anderen Sprachen" eingetragen werden. Wie im Screenshot zu sehen ist, werden automatisch die Sprachen Englisch, Plattdeutsch und Türkisch vorgeschlagen. Da es bereits eine englische Übersetzung gibt, kann diese nicht neu angelegt, sondern nur bearbeitet werden. Plattdeutsch und Türkisch haben noch keine Übersetzungen, also kann der Nutzer einfach in das leere Feld die entsprechende Bezeichnung beziehungsweise Beschreibung eintragen. Hierbei ist Vorsicht angeraten, denn beim Übersetzen gibt es [Richtlinien](https://www.wikidata.org/wiki/Help:Sitelinks/de-formal) zu beachten.
-Es ist möglich in jeder Sprache Übersetzungen eines Items einzutragen, selbst wenn das Item in dieser Sprache keinen Wiki-Artikel besitzt. Die Bedingung ist jedoch, dass die Kombination aus Bezeichnung und Beschreibung eindeutig ist (und zwar nur in dieser Sprache eindeutig). Beispielsweise kann der dt. Eintrag "Markus Müller", "Fußballspieler aus München" eindeutig sein und trotzdem kann die gleiche Übersetzung (natürlich im gleichen Item!) auf englisch "Markus Müller", "football player from Munich" auch eindeutig sein. 
+Es ist möglich in jeder Sprache Übersetzungen eines Items einzutragen, selbst wenn das Item in dieser Sprache keinen Wiki-Artikel besitzt. Die Bedingung ist jedoch, dass die Kombination aus Bezeichnung und Beschreibung eindeutig ist (und zwar nur in dieser Sprache eindeutig). Beispielsweise kann der dt. Eintrag "Markus Müller", "Fußballspieler aus München" eindeutig sein und trotzdem kann die gleiche Übersetzung (natürlich im gleichen Item!) auf Englisch "Markus Müller", "football player from Munich" auch eindeutig sein. 
 
 **Liste der Bezeichnungen**
 
-Für die Anzeige der Liste der Bezeichnungen muss diese zunächst in  in den [Einstellungen](https://www.wikidata.org/wiki/Special:Preferences) (Achtung: Anmeldung erforderlich!) im Reiter "Helferlein" im Punkt "LabelLister" aktiviert werden. Dafür ist eine Anmeldung erforderlich. Wenn dieses Kästchen angehakt ist, erscheint nun auf der Seite des Items ein weiteres Feld zwischen "Lesen" und "Versionsgeschichte", nämlich die "Liste der Bezeichnungen".
+Für die Anzeige der Liste der Bezeichnungen muss diese zunächst in den [Einstellungen](https://www.wikidata.org/wiki/Special:Preferences) (Achtung: Anmeldung erforderlich!) im Reiter "Helferlein" im Punkt "LabelLister" aktiviert werden. Dafür ist eine Anmeldung erforderlich. Wenn dieses Kästchen angehakt ist, erscheint nun auf der Seite des Items ein weiteres Feld zwischen "Lesen" und "Versionsgeschichte", nämlich die "Liste der Bezeichnungen".
 
 ![Liste der Bezeichnungen des Items "Japan"](images/Liste_der_Bezeichnungen.PNG)
 
@@ -39,7 +39,7 @@ Klickt man nun darauf, erscheint ein PopUp-Fenster, welches alle Übersetzungen 
 
 ![Standard-Ansicht von Aussagen](images/aussagen.jpg)
 
-Aussagen lassen sich bei Wikidata auf der Seite des Items bearbeiten und anlegen. Mit einem Klick auf "bearbeiten" (siehe oben), kann man den Wert einer schon bestehenden Eigenschaft bearbeiten. Bei Klicken auf "hinzufügen" ist es möglich, einen neuen Wert zu erstellen. Allerdings können die Begriffe nicht frei gewählt werden, man muss aus einem Pool bereits bestehender und von Wikidata normierten Begriffen auswählen. Im Folgenden ist das Bearbeiten eines Werts erklärt.
+Aussagen lassen sich bei Wikidata auf der Seite des Items bearbeiten und anlegen. Mit einem Klick auf "bearbeiten" (siehe oben), kann man den Wert einer schon bestehenden Eigenschaft bearbeiten. Bei Klicken auf "hinzufügen" ist es möglich, einen neuen Wert zu erstellen. Allerdings können die Begriffe nicht frei gewählt werden, man muss aus einem Pool bereits bestehender und von Wikidata normierter Begriffe auswählen. Im Folgenden ist das Bearbeiten eines Werts erklärt.
 
 ![Aussage bearbeiten](images/aussage-bearbeiten.png)
 
@@ -51,13 +51,13 @@ Wie auf den Screenshots zu sehen ist, können Aussagen zusätzlich mit [Belegen]
 
 ### Neue Eigenschaften vorschlagen
 
-Nur Administratoren und [Eigenschaftenersteller](https://www.wikidata.org/wiki/Wikidata:Property_creators/de) können neue Wikidata-Eigenschaften erstellen. Normale User können eine [neue Eigenschaft vorschlagen](https://www.wikidata.org/wiki/Wikidata:Property_proposal/de) und dieser Vorschlag wird dann geprüft. Bevor Sie aber eine neue Eigenschaft in die Diskussion einbringen, beachten Sie bitte folgendes: 
+Nur Administratoren und [Eigenschaftenersteller](https://www.wikidata.org/wiki/Wikidata:Property_creators/de) können neue Wikidata-Eigenschaften erstellen. Normale User können eine [neue Eigenschaft vorschlagen](https://www.wikidata.org/wiki/Wikidata:Property_proposal/de) und dieser Vorschlag wird dann geprüft. Bevor Sie aber eine neue Eigenschaft in die Diskussion einbringen, beachten Sie bitte Folgendes: 
 
 1. Überprüfen Sie in der [Liste der Eigenschaften](https://www.wikidata.org/wiki/Wikidata:List_of_properties/de), ob die Eigenschaft bereits existiert.
 2. Überprüfen Sie, ob die Eigenschaft bereits vorgeschlagen oder abgelehnt wurde.
-3. Prüfen Sie, ob Sie der Eigenschaft eine ähnliche Bezeichnung und Beschreibung geben können, wie einem bereits existierenden Infobox-Parameter in der Wikipedia. Sollte dies zutreffen, überlegen Sie, ob deren Daten automatisch nach Wikidata übertragen werden können.
+3. Prüfen Sie, ob Sie der Eigenschaft eine ähnliche Bezeichnung und Beschreibung geben können wie einem bereits existierenden Infobox-Parameter in der Wikipedia. Sollte dies zutreffen, überlegen Sie, ob diese Daten automatisch nach Wikidata übertragen werden können.
 4. Wählen Sie den richtigen Datentyp für die Eigenschaft.
 5. Erstellen Sie auf Basis des [Formulars](https://www.wikidata.org/wiki/Wikidata:Property_proposal/all) die Eigenschaftsdokumentation und fügen Sie sie in den passenden Abschnitt ein.
 
-Die neue Eigenschaft wird dann mindestens eine Woche lang diskutiert und wenn es nach dieser Woche keine oder kaum Gegenstimmen gibt, wird die Eigenschaft von einem Administrator oder Eigenschaftenersteller erzeugt.
+Die neue Eigenschaft wird dann mindestens eine Woche lang diskutiert, und wenn es nach dieser Woche keine oder kaum Gegenstimmen gibt, wird die Eigenschaft von einem Administrator oder Eigenschaftenersteller erzeugt.
 

@@ -2,7 +2,7 @@
 
 **Eigenschaften** (englisch "properties") werden in Wikidata benutzt, um Aussagen auszudrücken.
 
-Jede Eigenschaft wird durch eine ID referenziert, die mit `P`  anfängt. Beispielsweise steht in Wikidata [`P19`](https://www.wikidata.org/wiki/Property:P19) für den Geburtsort einer Person. Jede Eigenschaft kann ebenso wie Wikidata-Items mit Übersetzungen und Aussagen (siehe Kapitel [Wikidata-Aussagen](#wikidata-aussagen)) beschrieben werden. So lautet beispielsweise die englische Bezeichnung für die Eigenschaft [`P19`](https://www.wikidata.org/wiki/Property:P19) "place of birth" und die Deutsche Beschreibung "Ort, in dem ein Mensch geboren wurde". 
+Jede Eigenschaft wird durch eine ID referenziert, die mit `P`  anfängt. Beispielsweise steht in Wikidata [`P19`](https://www.wikidata.org/wiki/Property:P19) für den Geburtsort einer Person. Jede Eigenschaft kann ebenso wie Wikidata-Items mit Übersetzungen und Aussagen (siehe Kapitel [Wikidata-Aussagen](#wikidata-aussagen)) beschrieben werden. So lautet beispielsweise die englische Bezeichnung für die Eigenschaft [`P19`](https://www.wikidata.org/wiki/Property:P19) "place of birth" und die deutsche Beschreibung "Ort, in dem ein Mensch geboren wurde". 
 
 <div class="example">
 
@@ -18,7 +18,7 @@ Die Ansicht der Eigenschaft [`P19`](https://www.wikidata.org/wiki/Property:P19) 
 
 Jede Aussage auf einer Item-Seite stellt eine Verbindung zu einer Eigenschaft her und weist ihr einen Wert zu. Dieser Wert besitzt wiederum eine Verlinkung zu der Item-Seite dieses Wertes.
 
-Einige Eigenschaften sind dazu gedacht von Wikidata-Items auf andere Normdateien zu verweisen. Genauer beschrieben wird dies im Kapitel [Normdaten-Eigenschaften in Wikidata](#normdaten-eigenschaften-in-wikidata).
+Einige Eigenschaften sind dazu gedacht, von Wikidata-Items auf andere Normdateien zu verweisen. Genauer beschrieben wird dies im Kapitel [Normdaten-Eigenschaften in Wikidata](#normdaten-eigenschaften-in-wikidata).
 
 Eigenschaften können wie Wikidata-Items von allen Mitarbeitern bearbeitet werden, beispielsweise mit Übersetzungen und Beschreibungen der jeweiligen Eigenschaft. 
 
@@ -28,7 +28,7 @@ Das Anlegen neuer Eigenschaften ist jedoch nur ausgewählten Mitgliedern der Wik
 
 </div>
 
-Auf der Seite [Eigenschaften vorschlagen](https://www.wikidata.org/wiki/Wikidata:Property_proposal/de) können Vorschläge für neue Wikidata-Eigenschaften eingebracht und von der Wikidata-Community diskutiert werden. 
+Auf der Seite "[Eigenschaften vorschlagen](https://www.wikidata.org/wiki/Wikidata:Property_proposal/de)" können Vorschläge für neue Wikidata-Eigenschaften eingebracht und von der Wikidata-Community diskutiert werden. 
 
 ### Datentypen und andere Einschränkungen
 
@@ -44,7 +44,7 @@ In diesen Datentyp können Verknüpfungen zu anderen Items in Wikidata eingegebe
 
 **_Datentyp: Mediendatei/Media file/Commons_**
 
-Dieser Datentyp übernimmt die Verlinkung zu Mediendokumenten. Vor allem Bilder, Videos und Klänge, welche auf Wikimedia Commons gespeichert sind. Auf diese Weise können die Mediendokumente einem Wikipediaartikel zugeordnet werden. 
+Dieser Datentyp übernimmt die Verlinkung zu Mediendokumenten vor allem zu Bildern, Videos und Klängen, welche auf Wikimedia Commons gespeichert sind. Auf diese Weise können die Mediendokumente einem Wikipedia Artikel zugeordnet werden. 
 
 **_Datentyp: Zeichenkette/String_**
 
@@ -52,7 +52,7 @@ Dieser Datentyp akzeptiert als Eingaben alle Zeichenketten. Diese sollten nach M
 
 **_Datentyp: Zeit/Time_**
 
-Hier können nur Werte eingegeben werden, welche eine zeitliche Information ausdrücken. Zum Beispiel Jahreszahlen, Jahres-Datums-Zahlen, Zeitzonen, Zeitpunkte und noch einige mehr.  
+Hier können nur Werte eingegeben werden, welche eine zeitliche Information ausdrücken. Zum Beispiel Jahreszahlen, Jahresdatumszahlen, Zeitzonen, Zeitpunkte und noch einige mehr.  
 
 **_Datentyp: Geographische Koordinaten/Geographic coordinates_**
 
@@ -66,5 +66,5 @@ In diesem Datentyp werden externe URLs abgelegt. Die URLs müssen hierbei Protok
 
 In diesem Datentyp können Mengenangaben eingegeben werden. Das sind in der Regel vor allem Zahlenwerte wie zum Beispiel die errungenen Wählerstimmen bei einer Wahl. 
 
-Für ausführlichere technische Informationen schauen Sie auf die Seite des [Datenmodells in Wikidata ](https://www.mediawiki.org/wiki/Wikibase/DataModel).
+Für ausführlichere technische Informationen schauen Sie auf die Seite des [Datenmodells in Wikidata](https://www.mediawiki.org/wiki/Wikibase/DataModel).
 

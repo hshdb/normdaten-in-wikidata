@@ -22,7 +22,7 @@ Es ist nicht das primäre Ziel der Wikidata, detaillierte Eigenschaften von Bele
 Sie können auch widersprüchliche Aussagen beinhalten, zum Beispiel ein Buch kann mehrere Kapitel enthalten, in denen verschiedene Autoren widersprüchliche Informationen angeben.
 
 Neben expliziten Belegen, die Aussagen in Wikidata durch einen Verweis auf ein Dokument nachweisen, kann jeder Bearbeitungsvorgang in Wikidata als impliziter Beleg aufgefasst werden. 
-Zu ihrer Beurteilung können explizierte Belege ebenso wichtig sein, wie Informationen darüber, von wem und zu welchem Zeitpunkt eine Aussage in Wikidata angelegt wurde. Belege "zweiter Ordnung", das heißt Belege die auf andere Quellen verweisen, in wissenschaftlichen Texten kenntlich durch die Phrase "zitiert nach", sind in Wikidata nicht vorgesehen.
+Zu ihrer Beurteilung können explizite Belege ebenso wichtig sein, wie Informationen darüber, von wem und zu welchem Zeitpunkt eine Aussage in Wikidata angelegt wurde. Belege "zweiter Ordnung", das heißt Belege, die auf andere Quellen verweisen, in wissenschaftlichen Texten kenntlich durch die Phrase "zitiert nach", sind in Wikidata nicht vorgesehen.
 
 Die genauen Richtlinien für Belege sind in Wikidata unter [Hilfe:Belege](http://www.wikidata.org/wiki/Help:Sources/de) aufgeführt.
 

@@ -1,6 +1,6 @@
 ## Wikidata in anderen Anwendungen weiternutzen
 
-Prinzipiell kann Wikidata direkt als Datenbank zum Nachschlagen von Informationen genutzt werden. Das volle Potential entfalten die Inhalte allerdings erst durch Einbindung in andere Anwendungen. Dank Freigabe unter der [CC0 Lizenz](http://creativecommons.org/publicdomain/zero/1.0/deed.de) ist dies uneingeschränkt möglich. Im Folgenden werden die praktischen Möglichkeiten der Weiternutzung mit besonderem Schwerpunkt auf Normdaten vorgestellt.
+Prinzipiell kann Wikidata direkt als Datenbank zum Nachschlagen von Informationen genutzt werden. Das volle Potential entfalten die Inhalte allerdings erst durch Einbindung in andere Anwendungen. Dank Freigabe unter der [CC0-Lizenz](http://creativecommons.org/publicdomain/zero/1.0/deed.de) ist dies uneingeschränkt möglich. Im Folgenden werden die praktischen Möglichkeiten der Weiternutzung mit besonderem Schwerpunkt auf Normdaten vorgestellt.
 
 ### Alternative Benutzeroberflächen
 
@@ -11,7 +11,7 @@ Die Standard-Benutzeroberfläche von Wikidata ist vor allem auf das [Bearbeiten]
 
 ### Zugriff per MediaWiki-API
 
-Wie andere MediaWiki-Installation bietet auch Wikidata die Möglichkeit, Inhalte über eine Schnittstelle abzufragen. Die MediaWiki-API unter <http://wikidata.org/w/api.php> ermöglicht praktisch alle Aktionen, die auch über die Benutzeroberfläche von Wikidata möglich sind (Suche, Bearbeitung...). Diese Möglichkeit wird unter anderem von Bots verwendet, die Inhalte in Wikidata automatisch eintragen oder ergänzen. Zum Zugriff auf die API bietet es sich an, auf vorhandene Programmbibliotheken wie [Pywikibot](http://www.mediawiki.org/wiki/Manual:Pywikibot) oder [Catmandu-Wikidata](https://metacpan.org/release/Catmandu-Wikidata) zurückzugreifen.
+Wie andere MediaWiki-Installationen bietet auch Wikidata die Möglichkeit, Inhalte über eine Schnittstelle abzufragen. Die MediaWiki-API unter <http://wikidata.org/w/api.php> ermöglicht praktisch alle Aktionen, die auch über die Benutzeroberfläche von Wikidata möglich sind (Suche, Bearbeitung...). Diese Möglichkeit wird unter anderem von Bots verwendet, die Inhalte in Wikidata automatisch eintragen oder ergänzen. Zum Zugriff auf die API bietet es sich an, auf vorhandene Programmbibliotheken wie [Pywikibot](http://www.mediawiki.org/wiki/Manual:Pywikibot) oder [Catmandu-Wikidata](https://metacpan.org/release/Catmandu-Wikidata) zurückzugreifen.
 
 <div class="example">
 Die URL <http://www.wikidata.org/w/api.php?action=wbgetentities&ids=Q17&props=labels&format=json> liefert die Namen von Japan (Item [`Q17`](https://www.wikidata.org/wiki/Q17)) in allen in Wikidata vorhandenen Sprachen im JSON-Format.
@@ -35,7 +35,7 @@ Die Anfrage `string[227:"224028495-5"]` fragt in WikiData Query alle Items ab, d
 
 ### Bereitstellung von Normdaten-Mappings
 
-Die Webanwendung [Wikidata BEACON](http://tools.wmflabs.org/wikidata-todo/beacon.php) ermöglicht die Abfrage von vollständigen Normdaten-Mappings aus Wikidata. Die Mappings werden im [BEACON-Format](http://gbv.github.io/beaconspec/beacon.html) bereitgestellt und bestehen im Wesentlichen aus einer Tabelle die Item-IDs aus Wikidata den entsprechenden IDs einer anderen Normdatei gegenüberstellt.
+Die Webanwendung [Wikidata BEACON](http://tools.wmflabs.org/wikidata-todo/beacon.php) ermöglicht die Abfrage von vollständigen Normdaten-Mappings aus Wikidata. Die Mappings werden im [BEACON-Format](http://gbv.github.io/beaconspec/beacon.html) bereitgestellt und bestehen im Wesentlichen aus einer Tabelle, die Item-IDs aus Wikidata den entsprechenden IDs einer anderen Normdatei gegenüberstellt.
 
 <div class="example">
 Ein gekürzter Auszug aus dem Normdaten-Mapping von Wikidata zu GND. Konkret wird hier der URL <http://www.wikidata.org/wiki/Q17> auf die URL <http://d-nb.info/gnd/4028495-5> gemappt, da beide Normdatensätze sich auf Japan beziehen:

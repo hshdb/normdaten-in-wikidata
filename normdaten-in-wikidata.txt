@@ -4,7 +4,7 @@ Der Datenbestand von Wikidata bildet eine eigene [Normdatei](#einführung-in-nor
 
 ## Normdaten-Eigenschaften in Wikidata
 
-Eigenschaften, die unter einer **Notation** oder ID zusammengefügt werden, bezeichnet man als Normdaten-Eigenschaften. Normdaten können ein- oder mehrsprachig sein. Wikidata ist meistens mehrsprachig. Ziel des Wikidata-Projekt ist es Verknüpfungen zwischen Normdaten aus Wikidata und Dokumenten aus Wikipedia herzustellen.
+Eigenschaften, die unter einer **Notation** oder ID zusammengefügt werden, bezeichnet man als Normdaten-Eigenschaften. Normdaten können ein- oder mehrsprachig sein. Wikidata ist meistens mehrsprachig. Ziel des Wikidata-Projekts ist es, Verknüpfungen zwischen Normdaten aus Wikidata und Dokumenten aus Wikipedia herzustellen.
 
 Wikidata enthält zahlreiche [Eigenschaften](#wikidata-eigenschaften) zum Verlinken von Wikidata-Items mit Normdatensätzen aus anderen Normdateien. Beispielsweise kann mit der Eigenschaft "GND-Nummer" ([`P227`](https://www.wikidata.org/wiki/Property:P227)) vom Wikidata-Item [`Q17`](https://www.wikidata.org/wiki/Q17) auf den Normdatensatz [`4028495-5`](http://d-nb.info/gnd/4028495-5) zu Japan in der Gemeinsamen Normdatei verwiesen werden oder mit der Eigenschaft "DDC" ([`P1036`](https://www.wikidata.org/wiki/Property:P1036)) auf die Notation [`T2--52`](http://dewey.info/class/2--52/about) der Dewey-Dezimalklassifikation. Diese vielseitigen **Normdaten-Eigenschaften** bilden sogenannte Mappings, wie in der Abbildung zu sehen ist, zwischen Wikidata und anderen Normdateien.  
 
@@ -33,10 +33,10 @@ Da jederzeit neue Eigenschaften in Wikidata hinzukommen können (siehe [Neue Eig
 
 Im Folgenden werden die Unterschiede zwischen Wikidata und anderen Normdateien wie der Gemeinsamen Normdatei (GND) kenntlich gemacht. 
  
-Die Einträge bei Wikidata werden maßgeblich durch freischaffende Wikidataautoren und durch Bots erstellt. Jeder kann sich bei Wikidata anmelden und einen Eintrag hinterlassen. Die Wikidata-Datensätze werden in erster Linie für Wikipedia oder andere Wikimedia-Projekte erstellt.
-Die Normdaten in Wikidata unterliegen einem Regelwerk, welches von der Wikidata-Community erarbeitet wurde und dynamisch. den neuen beziehungsweise veränderten Anforderungen angepasst wird. Die Wikimedia-Foundation hat den Vorteil verschiedener Normdateien erkannt und bietet den Bearbeitern der Datensätze die Möglichkeit an Normdaten (GND, LCCN, NDL, VIAF) in die Artikel einzubinden. 
+Die Einträge bei Wikidata werden maßgeblich durch freischaffende Wikidata Autoren und durch Bots erstellt. Jeder kann sich bei Wikidata anmelden und einen Eintrag hinterlassen. Die Wikidata-Datensätze werden in erster Linie für Wikipedia oder andere Wikimedia-Projekte erstellt.
+Die Normdaten in Wikidata unterliegen einem Regelwerk, welches von der Wikidata-Community erarbeitet wurde und dynamisch den neuen beziehungsweise veränderten Anforderungen angepasst wird. Die Wikimedia Foundation hat den Vorteil verschiedener Normdateien erkannt und bietet den Bearbeitern der Datensätze die Möglichkeit an Normdaten (GND, LCCN, NDL, VIAF) in die Artikel einzubinden. 
  
 Im Gegensatz dazu wird die Gemeinsame Normdatei (GND) von mehreren Institutionen verwaltet. Unter anderem sind dies die Deutsche Nationalbibliothek (DNB), alle deutschsprachigen Bibliotheksverbünde, die Zeitschriftendatenbank (ZDB) und zahlreiche weitere Einrichtungen. 
-Der GND und anderen Normdateien liegt meist ein genaues Regelwerk zugrunde, beispielsweise die Regeln für den Schlagwortkatalog (RSWK) oder Resource Description and Access (RDA) .  
+Der GND und anderen Normdateien liegt meist ein genaues Regelwerk zugrunde, beispielsweise die Regeln für den Schlagwortkatalog (RSWK) oder Resource Description and Access (RDA).  
  
- Weiterführende Literatur und Hilfen finden Sie in der [Wikidata Liste der Projektregeln und Richtlinien](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_policies_and_guidelines/de&oldid=102532266) oder im [Hilfe-Portal Wikidata](https://www.wikidata.org/w/index.php?title=Help:Contents/de&oldid=66338607 ).
+ Weiterführende Literatur und Hilfen finden Sie in der [Wikidata-Liste der Projektregeln und Richtlinien](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_policies_and_guidelines/de&oldid=102532266) oder im [Hilfe-Portal Wikidata](https://www.wikidata.org/w/index.php?title=Help:Contents/de&oldid=66338607 ).
