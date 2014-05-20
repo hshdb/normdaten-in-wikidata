@@ -12,7 +12,7 @@
 * Chaosradio Express (2013): CRE205 Wikidata. <http://cre.fm/cre205-wikidata>
 * Krötzsch, Markus; Vrandečić, Denny (2014): Wikidata: A Free Collaborative Knowledge Base. 
   In: Communications of the ACM (noch nicht erschienen, Preprint unter <http://research.google.com/pubs/archive/42240.pdf>)
-* Manguard, Sven (2012): How to Edit Wikidata
+* Manguard, Sven (2012): How to Edit Wikidata.
   <http://upload.wikimedia.org/wikipedia/commons/9/94/How_to_Edit_Wikidata.pdf>
 * Wikipedia (2014): Wikidata. <http://de.wikipedia.org/wiki/Wikidata>
 
