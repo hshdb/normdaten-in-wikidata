@@ -13,7 +13,7 @@
   :  Daten in Wikidata sind die Sammlung aller strukturierten Daten und somit der gesamte Bestand der Datenbank. Daten sind alle Datensätze die von Wikidata-Autoren und Bots in Wikidata erstellt werden. Es existieren drei Daten-Namensräume (entitiy namespaces). Der Hauptnamensraum für die Items (Datenobjekte), der Eigenschaftsnamensraum für die Eigenschaften (properties) und der Abfragenamensraum für die Abfragen (queries).Siehe [Inhalte von Wikidata](#inhalte-von-wikidata).
 
 **Datenbank**
-  : Eine [Datenbank](#wikidata-als-datenbank) dient der Verwaltung großer Datenmengen, damit diese schnell, widerspruchsfrei und dauerhaft gespeichert und für verschiedene Benutzergruppen ausgegeben werden können. 
+  : Eine Datenbank dient der Verwaltung großer Datenmengen, damit diese schnell, widerspruchsfrei und dauerhaft gespeichert und für verschiedene Benutzergruppen ausgegeben werden können. 
   
 **Datenbestand**
   : Ein [Datenbestand](#wikidata-als-datenbank) stellt die Gesamtheit aller Daten in einer Datenbank dar. In Wikidata ist der Datenbestand die Menge aller Items und Aussagen. 
