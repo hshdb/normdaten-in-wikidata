@@ -6,9 +6,7 @@ unter <https://www.penflip.com/nichtich/normdaten-in-wikidata.git> zur
 Verfügung. Ein git-Repository ist ein Verzeichnis von Dateien das alle
 Änderungen beinhaltet, die an den Dateien vorgenommen wurde. Das Repository
 enthält alle Ausgangsdateien (Texte, Bilder und Layoutanweisungen) sowie einige
-Skripte zur Erstellung der [HTML- und
-PDF-Ausgaben](http://hshdb.github.io/normdaten-in-wikidata/). Die
-Repository-Datei `README.md` enthält weitere Hinweise zur technischen
+Skripte zur Erstellung der [HTML- und PDF-Ausgaben](http://hshdb.github.io/normdaten-in-wikidata/). Die Repository-Datei `README.md` enthält weitere Hinweise zur technischen
 Umsetzung. 
 
 Die Weiternutzung ist unter den Bedingungen der [CC-BY-SA
