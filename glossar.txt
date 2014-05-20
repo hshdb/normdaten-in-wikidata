@@ -25,7 +25,7 @@
   : Unter [Datentypen](#datentypen-und-andere-einschränkungen) versteht man die Zusammenfassung von Objektmengen. Datentypen haben die Aufgabe zu bestimmen, welche Art von Werten den Eigenschaften zugeordnet werden kann. Datentypen, die in Wikidata verfügbar sind: Datenobjekt, Mediendatei auf Commons, Zeichenkette, Zeit, Koordinate, URL und Menge.
   
 **Deskriptor** 
-  : Ein [Deskriptor](#einführung-in-normdaten), auch Schlagwort genannt, beschreibt den Inhalt eines Dokumentes. Im Allgemeinen werden Deskriptoren aus einem kontrollierten und geordneten Vokabular entnommen (Normdateien, Thesauri oder Klassifikationen). 
+  : Ein Deskriptor, auch Schlagwort genannt, beschreibt den Inhalt eines Dokumentes. Im Allgemeinen werden Deskriptoren aus einem kontrollierten und geordneten Vokabular entnommen (Normdateien, Thesauri oder Klassifikationen). Siehe [Einführung in Normdaten](#einführung-in-normdaten). 
   
 **Eigenschaft**
   : [Eigenschaften](#wikidata-eigenschaften) sind Bestandteile von Aussagen. Ihnen können Werte (Items) zugeordnet werden. Jede Eigenschaft ist einzigartig und beschreibt die Merkmale der ihnen zugewiesenen Items.  
