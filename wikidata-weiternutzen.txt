@@ -5,7 +5,7 @@ Prinzipiell kann Wikidata direkt als Datenbank zum Nachschlagen von Informatione
 ### Alternative Benutzeroberflächen
 
 Die Standard-Benutzeroberfläche von Wikidata ist vor allem auf das [Bearbeiten](#aussagen-bearbeiten) von Inhalten ausgelegt. Zum reinen Stöbern in den Datenbeständen ist diese Ansicht eher unübersichtlich. Eine Alternative bieten Benutzeroberflächen und Anwendungen, die Wikidata-Inhalte in ansprechender Form präsentieren. Ein Beispiel hierfür ist die Reasonator-Webanwendung unter
-<http://tools.wmflabs.org/reasonator/>.
+<http://tools.wmflabs.org/reasonator/> (Abb. 21).
 
 ![Alternative Item-Anzeige mit Reasonator](images/reasonator-example.png)
 
