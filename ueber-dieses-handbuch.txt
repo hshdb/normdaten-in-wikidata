@@ -6,15 +6,13 @@ unter <https://www.penflip.com/nichtich/normdaten-in-wikidata.git> zur
 Verfügung. Ein git-Repository ist ein Verzeichnis von Dateien das alle
 Änderungen beinhaltet, die an den Dateien vorgenommen wurde. Das Repository
 enthält alle Ausgangsdateien (Texte, Bilder und Layoutanweisungen) sowie einige
-Skripte zur Erstellung der [HTML- und PDF-Ausgaben](http://hshdb.github.io/normdaten-in-wikidata/). Die Repository-Datei `README.md` enthält weitere Hinweise zur technischen
+Skripte zur Erstellung der 
+[HTML- und PDF-Ausgaben](http://hshdb.github.io/normdaten-in-wikidata/). Die Repository-Datei `README.md` enthält weitere Hinweise zur technischen
 Umsetzung. 
 
-Die Weiternutzung ist unter den Bedingungen der [CC-BY-SA
-Lizenz](https://creativecommons.org/licenses/by-sa/4.0/deed.de) erlaubt. Wenn
-möglich sollte dafür das git-Repository weitergeführt werden (in der
-git-Terminologie als "Fork" bezeichnet), so dass Korrekturen und Erweiterungen
-leichter zurückfliessen können. Für Kommentare und Korrekturen können die enstsprechenden Funktionen [bei Penflip](https://www.penflip.com/nichtich/normdaten-in-wikidata/discussions)
-und [bei GitHub](https://github.com/hshdb/normdaten-in-wikidata/issues)
+Die Weiternutzung ist unter den Bedingungen der [CC-BY-SA Lizenz](https://creativecommons.org/licenses/by-sa/4.0/deed.de) erlaubt. Wenn möglich sollte 
+dafür das git-Repository weitergeführt werden (in der git-Terminologie als "Fork" bezeichnet), 
+so dass Korrekturen und Erweiterungen leichter zurückfliessen können. Für Kommentare und Korrekturen können die enstsprechenden Funktionen [bei Penflip] (https://www.penflip.com/nichtich/normdaten-in wikidata/discussions) und [bei GitHub](https://github.com/hshdb/normdaten-in-wikidata/issues)
 verwendet werden.
 
 Zur Erstellung des Handbuchs wurden im Wesentlichen folgende Werkzeuge verwendet:
