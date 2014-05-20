@@ -48,7 +48,7 @@ P382,CBS-Code,"CBS municipality code","vierstelliger niederländischer Ortscode 
 P395,Kfz-Kennzeichen,"licence plate code","international: Kfz-Nationalitätszeichen oder Kennzeichnung für Fahrzeuge in internationalem Verkehr. Innerstaatlich: Unterscheidungszeichen für den Verwaltungsbezirk"
 P396,SBN,"SBN identifier","Normdatennummer der Italienischen Nationalbibliothek"
 P402,OpenStreetMap-Relations-ID,"OpenStreetMap Relation ID","ID des geographischen Objekts in OpenStreetMap"
-P409,NLA,"NLA identifier","Normdatennummer der Australischen Nationalbibliothek"
+P409,"NLA Authorities","NLA identifier","Normdatennummer der Australischen Nationalbibliothek (siehe auch P1315)"
 P424,Wikimedia-Sprachcode,"Wikimedia language code","Kürzel der Sprache, wie es in den Wikimedia-Projekten verwendet wird"
 P428,"botanisches Autorenkürzel gemäß IPNI","botanist author abbreviation","offizielle Abkürzung des Subjekts Namen, wenn in der Taxonomie verwendet"
 P434,MusicBrainz-Künstler-ID,"MusicBrainz artist ID","ID des Künstlers (Musiker, Schriftsteller) in MusicBrainz"
@@ -140,7 +140,7 @@ P732,BGS-Lexikon-ID,"BGS Lexicon ID","Identifikator im lithostratigraphischen Le
 P733,DINOloket,"DINOloket ","Datenbank der niederländischen geologischen Einheiten (Data Informatie Nederlandse Ondergrond)"
 P745,PBB-ID,"Low German Bibliography and Biography ID","Plattdeutsche Biblio- und Biographie"
 P758,"Kulturminne identifier","Kulturminne identifier","Kennung in der Kulturminne-Datenbank der Riksantikvaren"
-P759,,"Alberta Register of Historic Places identifier",
+P759,"Identifizierungsnummer im Alberta Register of Historic Places","Alberta Register of Historic Places identifier",
 P764,OKTMO-ID,"OKTMO identifier","Code im Klassifizierungsschlüssel munizipaler Gebilde in Russland"
 P771,"Gemeindenummer in der Schweiz","Swiss municipality code","Nummer des Bundesamtes für Statistik (BFS) in der Schweiz"
 P774,"FIPS 55-3 (Orte in USA)","FIPS 55-3 (locations in the US)",
@@ -250,7 +250,7 @@ P1190,"Universelle Dezimalklassifikation","Universal Decimal Classification","Kl
 P1207,"NUKAT Normdaten","NUKAT authorities","Normdateneintrag im polnischen Verbundkatalog NUKAT"
 P1212,"Atlas ID","Atlas ID","ID in der Atlas Datenbank des Louvre Museums"
 P1216,"Listennummer der Organisation für Denkmalschutz in England","English Heritage list number","Nummer in der Liste der Gebäude"
-P1220,"Internet Broadway Database Personen ID","Internet Broadway Database person ID","Internet Broadway Database Kennzeichner"
+P1220,"IBDB Personen ID","Internet Broadway Database person ID","Internet Broadway Database Kennzeichner für Personen"
 P1222,NARA-Personen-ID,"NARA person ID",
 P1223,NARA-Organisationen-ID,"NARA organization ID",
 P1224,NARA-Geographikum-ID,"NARA geographic ID",
@@ -269,7 +269,7 @@ P1273,CANTIC,CANTIC,
 P1284,"Munzinger Personen","Munzinger IBA","Internationales Biographisches Archiv im Verlag Munzinger-Archiv"
 P1285,"Munzinger Sport","Munzinger Sport","Internationales Sportarchiv im Verlag Munzinger-Archiv"
 P1286,"Munzinger Pop","Munzinger Pop","Pop-Archiv International im Verlag Munzinger-Archiv"
-P1287,"Komponisten der Gegenwart","KDG Komponisten der Gegenwart",
+P1287,"Komponisten der Gegenwart","KDG Komponisten der Gegenwart","Komponisten-Verzeichnis im Verlag Munzinger-Archiv"
 P1288,"Kritisches Lexikon der Gegenwartsliteratur","KLG Kritisches Lexikon der Gegenwartsliteratur",
 P1289,"Kritisches Lexikon der fremdsprachigen Gegenwartsliteratur","KLfG Kritisches Lexikon der fremdsprachigen Gegenwartsliteratur",
 P1296,,"Gran Enciclopèdia Catalana ID",

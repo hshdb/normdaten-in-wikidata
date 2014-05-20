@@ -101,7 +101,7 @@ Die folgende Liste enthält alle in Wikidata vorhandenen [Normdaten-Eigenschafte
 [`P402`](https://www.wikidata.org/wiki/Property:P402)
   : OpenStreetMap-Relations-ID
 [`P409`](https://www.wikidata.org/wiki/Property:P409)
-  : NLA
+  : NLA Authorities
 [`P424`](https://www.wikidata.org/wiki/Property:P424)
   : Wikimedia-Sprachcode
 [`P428`](https://www.wikidata.org/wiki/Property:P428)
@@ -285,7 +285,7 @@ Die folgende Liste enthält alle in Wikidata vorhandenen [Normdaten-Eigenschafte
 [`P758`](https://www.wikidata.org/wiki/Property:P758)
   : Kulturminne identifier
 [`P759`](https://www.wikidata.org/wiki/Property:P759)
-  : *Alberta Register of Historic Places identifier*
+  : Identifizierungsnummer im Alberta Register of Historic Places
 [`P764`](https://www.wikidata.org/wiki/Property:P764)
   : OKTMO-ID
 [`P771`](https://www.wikidata.org/wiki/Property:P771)
@@ -505,7 +505,7 @@ Die folgende Liste enthält alle in Wikidata vorhandenen [Normdaten-Eigenschafte
 [`P1216`](https://www.wikidata.org/wiki/Property:P1216)
   : Listennummer der Organisation für Denkmalschutz in England
 [`P1220`](https://www.wikidata.org/wiki/Property:P1220)
-  : Internet Broadway Database Personen ID
+  : IBDB Personen ID
 [`P1222`](https://www.wikidata.org/wiki/Property:P1222)
   : NARA-Personen-ID
 [`P1223`](https://www.wikidata.org/wiki/Property:P1223)
