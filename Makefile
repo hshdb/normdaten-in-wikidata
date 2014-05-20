@@ -35,7 +35,7 @@ $(MAIN).tex: metadata $(TXT)
 	pandoc $(PANDOC_OPTIONS) -o $@ $(LATEX_OPTIONS) $(MAIN).md
 	cp properties-table.txt properties.txt
 	perl -pi -e 'BEGIN{undef $$/;} s/\\href{([^}]+)}{([^\\}]+)}/\\hreffn{\1}{\2}/sgm' $@
-	perl -pi -e 's/XXXXXX/\\begin{framed}/;s/YYYYYY/\\end{framed}/;' $@
+	perl -pi -e 's/XXXXXX/\\begin{merkbox}/;s/YYYYYY/\\end{merkbox}/;' $@
 
 
 pdf: $(MAIN).pdf
