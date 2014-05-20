@@ -5,7 +5,7 @@
 * Funktionale Anforderungen an Normdaten : ein konzeptionelles Modell; Abschlussbericht Dezember 2008 / [International Federation of Library Associations and Institutions]. Hrsg. von Glenn E. Patton.
 * Grundlagen der praktischen Information und Dokumentation. - Berlin : De Gruyter Saur. - Teil: Handbuch zur Einführung in die Informationswissenschaft und -praxis
 * InfoWissWiki (o.J.): Indexierung. <http://wiki.infowiss.net/Indexierung> (Stand vom 29.04.2014)
-* Wikipedia (2013): Normdatei. <https://de.wikipedia.org/wiki/Normdatei> (wird laufend aktualisiert)
+* Wikipedia (2013): Normdatei. <https://de.wikipedia.org/wiki/Normdatei> 
 
 **Publikationen zu Wikidata**
 
@@ -14,10 +14,10 @@
   In: Communications of the ACM (noch nicht erschienen, Preprint unter <http://research.google.com/pubs/archive/42240.pdf>)
 * Manguard, Sven (2012): How to Edit Wikidata
   <http://upload.wikimedia.org/wikipedia/commons/9/94/How_to_Edit_Wikidata.pdf>
-* Wikipedia (2014): Wikidata. <http://de.wikipedia.org/wiki/Wikidata> (wird laufend aktualisiert)
+* Wikipedia (2014): Wikidata. <http://de.wikipedia.org/wiki/Wikidata>
 
 
-**Ausgewählte Seiten in Wikidata**
+**Ausgewählte Wikidata-Seiten**
 
 * Wikidata-Startseite\
   <http://wikidata.org>
