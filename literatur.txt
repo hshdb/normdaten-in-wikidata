@@ -13,7 +13,7 @@
 * Krötzsch, Markus; Vrandečić, Denny (2014): Wikidata: A Free Collaborative Knowledge Base. 
   In: Communications of the ACM (noch nicht erschienen, Preprint unter <http://research.google.com/pubs/archive/42240.pdf>)
 * Wikipedia (2014): Wikidata. <http://de.wikipedia.org/wiki/Wikidata> (wird laufend aktualisiert)
-* Sven Manguard (o.J.): How to Edit Wikidata
+* Sven Manguard (2012): How to Edit Wikidata
   <http://upload.wikimedia.org/wikipedia/commons/9/94/How_to_Edit_Wikidata.pdf>
 
 **Ausgewählte Seiten in Wikidata**
