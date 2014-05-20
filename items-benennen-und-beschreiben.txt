@@ -21,7 +21,7 @@ Babel-Bausteine (Abb. 8) werden in die Benutzerseite geschrieben und dienen der 
 Die Zahlen stehen für die Sprachkenntnisse, wobei 0 keine Kenntnisse und 3 sehr gute Sprachkenntnisse bedeutet. Nach dem Speichern werden die Sprachkenntnisse auf der Benutzerseite wie abgebildet in einem Kasten dargestellt.
 
 ### Änderung der Oberflächensprache von Wikidata
-Die Default-Spracheinstellung der Wikidata-Oberflächensprache ist Englisch. Wenn Sie nun die Benutzersprache von Englisch auf Deutsch umstellen möchten, dann ist die Sprachumstellung sehr einfach zu bewältigen. Auf der linken Seite der Wikidata-Startseite befindet sich eine Sprachauswahl und dort können sie jede Sprache (in unserem Fall Deutsch), die in Wikidata vorhanden ist, auswählen (Abb. 9). 
+Die Default-Spracheinstellung der Wikidata-Oberflächensprache ist Englisch. Wenn Sie nun die Benutzersprache von Englisch auf Deutsch umstellen möchten, dann ist die Sprachumstellung sehr einfach zu bewältigen. Auf der linken Seite der Wikidata-Startseite befindet sich eine Sprachauswahl und dort können Sie jede Sprache (in unserem Fall Deutsch), die in Wikidata vorhanden ist, auswählen (Abb. 9). 
 
 ![Sprachumstellung von englisch zu deutsch](images/sprachumstellung_wikidata.png)
 
