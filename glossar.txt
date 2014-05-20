@@ -10,7 +10,7 @@
   : Ein Bot ist eine selbstständig arbeitende Software, die Bearbeitungen ohne menschliche Entscheidungen vornehmen kann. Bots können Interwikilinks, Bezeichnungen, Beschreibungen, Aussagen, Quellen hinzufügen und bearbeiten. Außerdem können Bots Objekte automatisiert erstellen.  Um mehr Information zu Bots zu finden siehe [Entstehung von Wikidata](#entstehung-von-wikidata) oder auch unter <http://www.wikidata.org/wiki/Wikidata:Bots/de>.
 
 **Daten**
-  :  Daten in Wikidata sind die Sammlung aller strukturierten Daten und somit der gesamte Bestand der Datenbank.(siehe [Inhalte von Wikidata](#inhalte-von-wikidata)) Daten sind alle Datensätze die von Wikidata-Autoren und Bots in Wikidata erstellt werden. Es existieren drei Daten-Namensräume (entitiy namespaces). Der Hauptnamensraum für die Items (Datenobjekte), der Eigenschaftsnamensraum für die Eigenschaften (properties) und der Abfragenamensraum für die Abfragen (queries). 
+  :  Daten in Wikidata sind die Sammlung aller strukturierten Daten und somit der gesamte Bestand der Datenbank. (siehe [Inhalte von Wikidata](#inhalte-von-wikidata)) Daten sind alle Datensätze die von Wikidata-Autoren und Bots in Wikidata erstellt werden. Es existieren drei Daten-Namensräume (entitiy namespaces). Der Hauptnamensraum für die Items (Datenobjekte), der Eigenschaftsnamensraum für die Eigenschaften (properties) und der Abfragenamensraum für die Abfragen (queries). 
 
 **Datenbank**
   : Eine Datenbank dient der Verwaltung großer Datenmengen, damit diese schnell, widerspruchsfrei und dauerhaft gespeichert und für verschiedene Benutzergruppen ausgegeben werden können. 
