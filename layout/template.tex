@@ -38,6 +38,9 @@ $if(mathfont)$
     \setmathfont{$mathfont$}
 $endif$
 \fi
+
+
+
 % use microtype if available
 \IfFileExists{microtype.sty}{\usepackage{microtype}}{}
 $if(geometry)$
@@ -195,13 +198,7 @@ $endif$
 % Abbildungen durchgängig nummerieren
 \usepackage{chngcntr}
 \counterwithout{figure}{chapter}
-\ifxetex
-  \renewcommand\figurename{Bild}
-\else
-  \makeatletter % wegen XeTeX/Polyglossia
-  \g@addto@macro\captionsngerman{\renewcommand\figurename{Bild}} % "Bild" statt "Abbildung"
-  \makeatother
-\fi
+\renewcommand\figurename{Abb.}
 
 $for(header-includes)$
 $header-includes$
