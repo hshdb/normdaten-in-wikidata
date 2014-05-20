@@ -1,5 +1,3 @@
-Klappentext von Janna:
-
 Wikidata ist eine freie, gemeinsame Datenbank und Projekt der Wikimedia-Foundation. Ziel ist es, Daten zu zentralisieren und nutzbar zu machen.
 Das Handbuch bietet mit detaillierten und bebilderten Texten eine Anleitung zur Unterstützung des Wikidata-Projektes. Ein theoretischer und ein praktischer Teil erläutern die wichtigsten Begriffe und erklären Wikidata Schritt für Schritt.
 Ein Glossar sowie ein FAQ am Ende des Handbuchs geben Hilfestellung bei Begriffen und Fragen.
