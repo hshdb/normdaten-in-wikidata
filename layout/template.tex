@@ -130,21 +130,18 @@ $endif$
 \let\Oldincludegraphics\includegraphics
 \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
 
-% Merkbox (TODO: schöner)
+% Merkbox 
+% TODO: Hintergrund heller ?
+% TODO: Icon/Ecken
 % Siehe https://tex.stackexchange.com/questions/63752/colored-frame-for-the-framed-environment
 \usepackage{framed}
 \usepackage{xcolor}
 \definecolor{merkboxrahmen}{RGB}{253,243,237}
-\definecolor{merkboxhintergrund}{RGB}{244,176,131}
+\definecolor{merkboxhintergrund}{RGB}{244,207,180}
 \newenvironment{merkbox}%
 {\def\FrameCommand{\fboxsep=\FrameSep\fcolorbox{merkboxrahmen}{merkboxhintergrund}}%
  \MakeFramed{\advance\hsize-\width \FrameRestore}}
 {\endMakeFramed}
-
-%\usepackage{tcolorbox}
-%\newenvironment{framed}[1][orange]
-%{\begin{tcolorbox}[colframe=#1,colback=yellow]}
-%{\end{tcolorbox}}
 
 % Links
 \usepackage[setpagesize=false, % page size defined by xetex
