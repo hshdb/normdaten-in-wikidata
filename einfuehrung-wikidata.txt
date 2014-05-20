@@ -13,7 +13,7 @@ Die Entwicklung von Wikidata wurde in drei Phasen aufgeteilt:
 
 * Phase 2 beinhaltete die Aufgabe, dass zu den Items [Aussagen](#wikidata-aussagen) hinzugefügt werden konnten. Dies geschah unter anderem ebenfalls mit Bots und dem Datenfundament aus Wikipedia-Infoboxen-und -Kategorien.
 
-* Phase 3 hat noch nicht begonnen. In ihr sollen automatische Übersetzungen und Aktualisierungen von Listen, basierend auf mehrsprachigen Daten von Wikidata ermöglichet werden. Außerdem sollen alle Daten von Wiki-Links, Infoboxen und Listen aufgenommen und vereinigt werden. 
+* Phase 3 hat noch nicht begonnen. Hier sollen automatische Übersetzungen und Aktualisierungen von Listen, basierend auf mehrsprachigen Daten von Wikidata ermöglicht werden. Außerdem sollen alle Daten von Wiki-Links, Infoboxen und Listen aufgenommen und vereinigt werden. 
 
 Wikidata hat einige Vorläufer in verwandten Projekten wie [Semantic MediaWiki](http://semantic-mediawiki.org/) und [DBPedia](http://dbpedia.org/). Im Gegensatz zu diesen basiert Wikidata jedoch nicht auf Techniken des Semantic Web.
 
