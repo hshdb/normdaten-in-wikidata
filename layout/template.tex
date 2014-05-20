@@ -214,17 +214,42 @@ $endfor$
 \date{$date$}
 
 \begin{document}
+
+% Schmutztitel
 \maketitle
+
+% TODO: Hauptsachtitel
+\thispagestyle{empty}
+\begin{center}
+
+    \textbf{Normdaten in Wikidata}
+
+Handbuch
+
+...Liste der Autoren...
+
+Hannover, 2014
+\end{center}
+
+% Rückseite des Hauptsachtitel
+\pagebreak
+\thispagestyle{empty}
+
+\vfill
+... (CC, ISBN etc.)
 
 $if(commit-date)$Letzte Änderung: $commit-date$.$endif$
 
 $if(build-date)$Erstellungszeit: $build-date$.$endif$
 
-$for(include-before)$
-$include-before$
+% Motto/Widmung
+\pagebreak
+\thispagestyle{empty}
 
-$endfor$
-$if(toc)$
+\vspace{3cm}
+\textit{hier ein Motto}
+
+
 {
 \hypersetup{linkcolor=black}
 \setcounter{tocdepth}{$toc-depth$}
@@ -234,7 +259,7 @@ $if(toc)$
 \listoffigures
 %\listoftables
 }
-$endif$
+
 $body$
 
 $if(natbib)$
