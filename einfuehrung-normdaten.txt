@@ -18,8 +18,6 @@ Andere Bezeichnung
     Hannover / Oberbürgermeister (Spitzenorgan),
 Definition
   : Hauptstadt des Landes Niedersachsen, Verwaltungssitz der  Region Hannover, 1150 als Marktsiedlung Hanovere urkundl. erwähnt, 1202  Stadtrecht
-Land
-  :  Niedersachsen (XA-DE-NI); Deutschland, Deutsches Reich (XA-DXDE)
 DDC-Notation
   : `T2--435954`
 Typ
