@@ -55,7 +55,7 @@
   : MediaWiki ist ein freies Softwarepaket zum Betrieb eines Wikis, das ursprünglich für die Wikipedia geschrieben wurde. Das Wikisystem wird von allen Wikis der Wikimedia-Stiftung (Wikimedia Foundation) betriebenen. 
   
 **Metadaten**
-  : [Metadaten](#einführung-in-normdaten) sind Daten, welche Eigenschaften und Merkmale anderer Daten beschreiben. Metadaten können am Beispiel eines Buches der Titel, die ISBN, das Erscheinungsjahr, der Verlag und ähnliches sein. Metadaten finden sich in der gesamten digitalen Welt wieder und haben gerade im wissenschaftlichen Bereich eine sehr wichtige Bedeutung.                       
+  : Metadaten sind Daten, welche Eigenschaften und Merkmale anderer Daten beschreiben. Metadaten können am Beispiel eines Buches der Titel, die ISBN, das Erscheinungsjahr, der Verlag und ähnliches sein. Metadaten finden sich in der gesamten digitalen Welt wieder und haben gerade im wissenschaftlichen Bereich eine sehr wichtige Bedeutung.                       
 
 **Normdatei**
   : Eine [Normdatei](#einführung-in-normdaten) ist ein Gesamtverzeichnis aller Normdaten. Viele Länder beziehungsweise Sprachengebiete haben für ihre Bibliothekssysteme oder auch Datenbestände eigene Normdateien entwickelt, zum Beispiel die GND, LCCN, NDL, VIAF. In Wikidata selbst gibt es zwei Normdateienfunktionen. Wikidata kann externe Normdaten einbinden und soll in Zukunft selbst eine Normdatei für Projekte der Wikimedia Foundation werden. 
