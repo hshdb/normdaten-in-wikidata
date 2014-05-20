@@ -1,10 +1,10 @@
 ## Inhalte finden in Wikidata
 
-Dieses Kapitel beschreibt verschiedene Suchmöglichkeiten um in Wikidata [Items](#suche-nach-items), [Eigenschaften](#suche-nach-eigenschaften) und [Aussagen](#suche-nach-aussagen) zu finden. Weitere Suchmöglichkeiten sind unter [Wikidata in anderen Anwendungen weiternutzen](#wikidata-in-anderen-anwendungen-weiternutzen) beschrieben.
+Dieses Kapitel beschreibt verschiedene Suchmöglichkeiten, um in Wikidata [Items](#suche-nach-items), [Eigenschaften](#suche-nach-eigenschaften) und [Aussagen](#suche-nach-aussagen) zu finden. Weitere Suchmöglichkeiten sind unter [„Wikidata in anderen Anwendungen weiternutzen"](#wikidata-in-anderen-anwendungen-weiternutzen) beschrieben.
 
 ### Suche nach Items
 
-Um vorhandene [Items](#wikidata-items) zu finden gibt es hauptsächlich zwei Herangehensweisen. Einerseits die Eingabe eines Suchbegriffes in das Suchfeld, hierbei können unterschiedliche Ergebnisse angezeigt werden (Suchergebnisliste). Zu beachten ist, dass die Suche mit der Enter-Taste oder dem Klick auf das Lupensymbol ausgeführt wird. Andererseits kann nach der Eingabe eines Suchbegriffes über die Vorschau eine manuelle Auswahl zum konkreten Item führen (s.u.).  
+Um vorhandene [Items](#wikidata-items) zu finden, gibt es hauptsächlich zwei Herangehensweisen. Einerseits die Eingabe eines Suchbegriffes in das Suchfeld, hierbei können unterschiedliche Ergebnisse angezeigt werden (Suchergebnisliste). Zu beachten ist, dass die Suche mit der Enter-Taste oder dem Klick auf das Lupensymbol ausgeführt wird. Andererseits kann nach der Eingabe eines Suchbegriffes über die Vorschau eine manuelle Auswahl zum konkreten Item führen (s.u.).  
 
 ![Suchergebnisliste](images/Suchergebnisliste.png)
 
@@ -12,7 +12,7 @@ Die andere Möglichkeit ist die Eingabe einer konkreten Bezeichnung des Items un
 
 ![Suchergebnisvoranzeige](images/Suchergebnisvoranzeige.png)
 
-Weitere Suchoptionen kann man am einfachsten einblenden, wenn man die Enter-Taste in einem leeren Suchfeld betätigt. Man wird auf eine Art erweiterte Suche weitergeleitet. Wichtig für den Benutzer sind hier die Suchmöglich speziell nach Items ("Inhaltsseiten") und nach Hilfeseiten ("Hilfe- und Projektseiten"). 
+Weitere Suchoptionen kann man am einfachsten einblenden, wenn man die Enter-Taste in einem leeren Suchfeld betätigt. Man wird auf eine Art erweiterte Suche weitergeleitet. Wichtig für den Benutzer sind hier die Suchmöglichkeiten speziell nach Items ("Inhaltsseiten") und nach Hilfeseiten ("Hilfe- und Projektseiten"). 
 
 ![Erweiterte Suche](images/erweiterte_suche.png)
 
@@ -22,7 +22,7 @@ Auf den Inhaltsseiten kann man nach sämtlichen Items von Wikidata suchen. Mit d
 
 ### Suche nach Eigenschaften
 
-Ist man auf der Suche nach einer [Eigenschaft](#wikidata-eigenschaften) gibt es zwei Möglichkeiten, um eine Suche erfolgreich zu gestalten. Die Seite [Liste der Eigenschaften](https://www.wikidata.org/wiki/Wikidata:List_of_properties/de) verlinkt zu einer (unvollständigen) Übersicht und zu einer Suchmaske, in welcher man gezielt nach Eigenschaften suchen kann. Diese Möglichkeit ist dann sinnvoll, wenn man eine Eigenschaftsbezeichnung bereits kennt. 
+Ist man auf der Suche nach einer [Eigenschaft](#wikidata-eigenschaften) gibt es zwei Möglichkeiten, um eine Suche erfolgreich zu gestalten. Die Seite [„Liste der Eigenschaften"](https://www.wikidata.org/wiki/Wikidata:List_of_properties/de) verlinkt zu einer (unvollständigen) Übersicht und zu einer Suchmaske, in welcher man gezielt nach Eigenschaften suchen kann. Diese Möglichkeit ist dann sinnvoll, wenn man eine Eigenschaftsbezeichnung bereits kennt. 
 
 ![Suche_nach_Eigenschaften.PNG](images/Suche_nach_Eigenschaften.PNG)
 
@@ -30,7 +30,7 @@ Wenn der Name der Eigenschaft nicht bekannt ist, gibt es die Möglichkeit mit Hi
 
 ### Suche nach Aussagen 
 
-Wikidata ist zwar eine Datenbank, komplexere Datenbankabfragen sind zum jetzigen Entwicklungsstand aber noch nicht möglich. Für die Suche nach [Aussagen](#wikidata-aussagen), beziehungsweise nach Items mit bestimmten Aussagen muss deshalb auf externe Hilfsmittel zurückgegriffen werden, wie sie unter [Komplexere Abfragen und Analysen](#komplexere-abfragen-und-analysen) beschrieben sind. Eine einfache Suche ist in Entwicklung und soll zu einem späterem Zeitpunkt unter <https://www.wikidata.org/wiki/Special:SimpleQuery> bereitstehen. Die einfache Suche soll Anfragen wie beispielsweise nach allen Items *X* mit der Aussage "*X* ist ein(e) ([`P31`](https://www.wikidata.org/wiki/Property:P31)) Kontinent ([`Q5107`](https://www.wikidata.org/wiki/Q5107))", also eine automatische Liste aller Kontinente, ermöglichen. Für Normdaten-Eigenschaften wird die einfache Suche ermöglichen, ausgehend von einem Normdatensatz das zugehörige Wikidata-Item zu finden.
+Wikidata ist zwar eine Datenbank, komplexere Datenbankabfragen sind beim jetzigen Entwicklungsstand aber noch nicht möglich. Für die Suche nach [Aussagen](#wikidata-aussagen), beziehungsweise nach Items mit bestimmten Aussagen muss deshalb auf externe Hilfsmittel zurückgegriffen werden, wie sie unter [„Komplexere Abfragen und Analysen"](#komplexere-abfragen-und-analysen) beschrieben sind. Eine einfache Suche ist in Entwicklung und soll zu einem späteren Zeitpunkt unter <https://www.wikidata.org/wiki/Special:SimpleQuery> bereitstehen. Die einfache Suche soll Anfragen wie beispielsweise nach allen Items *X* mit der Aussage "*X* ist ein(e) ([`P31`](https://www.wikidata.org/wiki/Property:P31)) Kontinent ([`Q5107`](https://www.wikidata.org/wiki/Q5107))", also einer automatischen Liste aller Kontinente, ermöglichen. Für Normdaten-Eigenschaften wird die einfache Suche ermöglichen, ausgehend von einem Normdatensatz das zugehörige Wikidata-Item zu finden.
 
 ![Einfache Suche nach Aussagen (geplant)](images/simple-query.png)
 
