@@ -20,7 +20,9 @@ beispielsweise eine Beschränkung der Jahreszahl bei einer Volkszählung. Die dr
 **Beispiel für Ludwig XIV. ([`Q7742`](https://www.wikidata.org/wiki/Q7742))**
 
 öffentliches Amt (Eigenschaft): König von Frankreich (Wert der Eigenschaft)
-Startzeitpunkt ([`P580`](https://www.wikidata.org/wiki/Property:P580)): (Qualifikator): 14. Mai 1643 (Wert des Qualifikators)
+
+Startzeitpunkt ([`P580`](https://www.wikidata.org/wiki/Property:P580)) (Qualifikator): 14. Mai 1643 (Wert des Qualifikators)
+
 Endzeitpunkt ([`P582`](https://www.wikidata.org/wiki/Property:P582)) (Qualifikator): 1. September 1715 (Wert des Qualifikators)
 
 </div>
