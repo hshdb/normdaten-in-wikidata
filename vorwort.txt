@@ -17,5 +17,5 @@ Es existieren externe Verlinkungen, zur Beispiel [Wikidata-Hauptseite](https://w
 
 </div>
 
-Da es sich um ein dynamisches Projekt handelt, ist es möglich, dass die im Buch abgebildeten und beschriebenen Screenshots nicht mehr dem aktuellen Webseitendesign entsprechen können. Der letzte Stand der Screenshots und der Texte ist der 27. Mai 2014.
+Da es sich um ein dynamisches Projekt handelt, ist es möglich, dass die im Buch abgebildeten und beschriebenen Screenshots nicht mehr dem aktuellen Webseitendesign entsprechen können. Der letzte Stand der Screenshots und der Texte ist der Mai 2014.
 
