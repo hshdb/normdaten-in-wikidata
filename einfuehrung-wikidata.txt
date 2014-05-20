@@ -1,6 +1,6 @@
 # Einführung in Wikidata
 
-Wikidata ist eine frei zugängliche und eine frei veränderbare Datenbank. Wie unter [Entstehung von Wikdata](#entstehung-von-wikidata) beschrieben, dient Wikidata in erster Linie als zentrale Datenbank für alle Projekte der Wikimedia Foundation. Unabhängig davon kann Wikidata aber [auch als Normdatei](#normdaten-in-wikidata) verwendet werden. Die Inhalte sind durch Angabe der [CC-Zero-Lizenz](http://creativecommons.org/publicdomain/zero/1.0/deed.de) gemeinfrei, also ohne Einschränkungen zur [Nutzung in anderen Anwendungen](#wikidata-in-anderen-anwendungen-weiternutzen) freigegeben. Im Folgenden wird zunächst erklärt, [was für eine Art von Datenbank](#wikidata-als-datenbank) Wikidata ist und [welche Inhalte](#inhalte-von-wikidata) darin zu finden sind. Wenn Sie mehr an der [praktischen Anwendung](#praktische-anwendung "praktischen Anwendung") oder an den [Bestandteilen von Wikidata](#bestandteile-von-wikidata) interessiert sind, können Sie auch gleich zu den entsprechenden Kapiteln springen.
+Wikidata ist eine frei zugängliche und eine frei veränderbare Datenbank. Wie unter [Entstehung von Wikdata](#entstehung-von-wikidata) beschrieben, dient Wikidata in erster Linie als zentrale Datenbank für alle Projekte der Wikimedia Foundation. Unabhängig davon kann Wikidata [auch als Normdatei](#normdaten-in-wikidata) verwendet werden. Die Inhalte sind durch Angabe der [CC-Zero-Lizenz](http://creativecommons.org/publicdomain/zero/1.0/deed.de) gemeinfrei, also ohne Einschränkungen zur [Nutzung in anderen Anwendungen](#wikidata-in-anderen-anwendungen-weiternutzen) freigegeben. Im Folgenden wird zunächst erklärt, [was für eine Art von Datenbank](#wikidata-als-datenbank) Wikidata ist und [welche Inhalte](#inhalte-von-wikidata) darin zu finden sind. Wenn Sie mehr an der [praktischen Anwendung](#praktische-anwendung "praktischen Anwendung") oder an den [Bestandteilen von Wikidata](#bestandteile-von-wikidata) interessiert sind, können Sie auch gleich zu den entsprechenden Kapiteln springen.
 
 ## Entstehung von Wikidata
 
@@ -13,9 +13,9 @@ Die Entwicklung von Wikidata wurde in drei Phasen aufgeteilt:
 
 * Phase 2 beinhaltete die Aufgabe, dass zu den Items [Aussagen](#wikidata-aussagen) hinzugefügt werden konnten. Dies geschah unter anderem ebenfalls mit Bots und dem Datenfundament aus Wikipedia-Infoboxen-und -Kategorien.
 
-* Phase 3 hat noch nicht begonnen. In ihr sollen automatische Übersetzungen und Aktualisierungen von Listen, basierend auf mehrsprachigen Daten von Wikidata ermöglichet werden. Außerdem sollen alle Daten von Wiki-Links, Infoboxen und Listen aufgenommen und vereinigt werden. 
+* Phase 3 hat noch nicht begonnen. Hier sollen automatische Übersetzungen und Aktualisierungen von Listen, basierend auf mehrsprachigen Daten von Wikidata ermöglicht werden. Außerdem sollen alle Daten von Wiki-Links, Infoboxen und Listen aufgenommen und vereinigt werden. 
 
-Wikidata hat einige Vorläufer in verwandten Projekten wie [Semantic MediaWiki](http://semantic-mediawiki.org/) und [DBPedia](http://dbpedia.org/). Im Gegensatz zu diesen basiert Wikidata jedoch nicht auf Techniken des Semantic Web.
+Wikidata hat einige Vorläufer in verwandten Projekten, wie [Semantic MediaWiki](http://semantic-mediawiki.org/) und [DBPedia](http://dbpedia.org/). Im Gegensatz zu diesen basiert Wikidata jedoch nicht auf Techniken des Semantic Web.
 
 ## Ziele von Wikidata
 
