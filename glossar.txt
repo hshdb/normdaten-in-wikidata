@@ -10,7 +10,7 @@
   : Ein Bot ist eine selbstständig arbeitende Software, die Bearbeitungen ohne menschliche Entscheidungen vornehmen kann. Bots können Interwikilinks, Bezeichnungen, Beschreibungen, Aussagen, Quellen hinzufügen und bearbeiten. Außerdem können Bots Objekte automatisiert erstellen.  Um mehr Information zu Bots zu finden siehe [Entstehung von Wikidata](#entstehung-von-wikidata) oder auch unter <http://www.wikidata.org/wiki/Wikidata:Bots/de>.
 
 **Daten**
-  :  [Daten](#inhalte-von-wikidata) in Wikidata sind die Sammlung aller strukturierten Daten und somit der gesamte Bestand der Datenbank. Als Daten gelten alle Datensätze, welche Wikidata-Autoren und Bots in Wikidata erstellen. Der Hauptnamensraum für die Items (Datenobjekte), der Eigenschaftsnamensraum für die Eigenschaften (properties) und der Abfragenamensraum für die Abfragen (queries) bilden die drei Daten-Namensräume (entitiy namespaces). Andere Wikidataseiten bestehen aus unstrukturiertem Inhalt, beispielsweise Fließtext, und gelten als Metaseiten. Die speziellen Daten der Eigenschaften (property data) sind die Werte (values) in den Aussagen (statements), die ganz bestimmte Datentypen erfordern.
+  :  [Daten](#inhalte-von-wikidata) in Wikidata sind die Sammlung aller strukturierten Daten und somit der gesamte Bestand der Datenbank. Daten sind alle Datensätze die von Wikidata-Autoren und Bots in Wikidata erstellt werden. Es existieren drei Daten-Namensräume (entitiy namespaces). Der Hauptnamensraum für die Items (Datenobjekte), der Eigenschaftsnamensraum für die Eigenschaften (properties) und der Abfragenamensraum für die Abfragen (queries).
 
 **Datenbank**
   : Eine [Datenbank](#wikidata-als-datenbank) dient der Verwaltung großer Datenmengen, damit diese schnell, widerspruchsfrei und dauerhaft gespeichert und für verschiedene Benutzergruppen ausgegeben werden können. 
@@ -22,7 +22,7 @@
   : siehe *Item*
 
 **Datentyp** 
-  : Unter [Datentypen](#datentypen-und-andere-einschränkungen) versteht man die Zusammenfassung von Objektmengen. Datentypen haben die Aufgabe zu bestimmen, welche Art von Werten den Eigenschaften zugeordnet werden kann. Datentypen, die in der Wikidata-Installation verfügbar sind: Datenobjekt, Mediendatei auf Commons, Zeichenkette, Zeit, Koordinate, URL und Menge.
+  : Unter [Datentypen](#datentypen-und-andere-einschränkungen) versteht man die Zusammenfassung von Objektmengen. Datentypen haben die Aufgabe zu bestimmen, welche Art von Werten den Eigenschaften zugeordnet werden kann. Datentypen, die in Wikidata verfügbar sind: Datenobjekt, Mediendatei auf Commons, Zeichenkette, Zeit, Koordinate, URL und Menge.
   
 **Deskriptor** 
   : Ein [Deskriptor](#einführung-in-normdaten), auch Schlagwort genannt, beschreibt den Inhalt eines Dokumentes. Im Allgemeinen werden Deskriptoren aus einem kontrollierten und geordneten Vokabular entnommen (Normdateien, Thesauri oder Klassifikationen). 
@@ -31,7 +31,7 @@
   : [Eigenschaften](#wikidata-eigenschaften) sind Bestandteile von Aussagen. Ihnen können Werte (Items) zugeordnet werden. Jede Eigenschaft ist einzigartig und beschreibt die Merkmale der ihnen zugewiesenen Items.  
   
 **GND (Gemeinsame Normdatei)**
-  : Die [Gemeinsame Normdatei](#einführung-in-normdaten) ist ein Projekt der Deutschen Nationalbibliothek und einigen anderen deutschen Bibliotheken. Sie stellt den Zusammenschluss der ehemaligen getrennten Gemeinsamen Körperschaftsdatei (GKD), der Personennormendatei (PND), der Schlagwortnormdatei (SWD) und der Einheitssachtitel-Datei des Deutschen Musikarchivs (DMA-EST-Datei) dar. 
+  : Die [Gemeinsame Normdatei](#einführung-in-normdaten) ist ein Projekt der Deutschen Nationalbibliothek und einigen anderen deutschen Bibliotheken.
 
 **ID**
   : siehe *Notation*
@@ -49,7 +49,7 @@
   : siehe *Mapping*
 
 **Mapping**
-  : In Bezug auf Normdaten ist ein [Mapping](#einführung-in-normdaten) (Konkordanz) eine Abbildung von Normdaten aus einer Normdatei auf Normdaten einer anderen Normdatei (siehe auch [Normdaten-Eigenschaften](#normdaten-eigenschaften-in-wikidata) in Wikidata).
+  : In Bezug auf Normdaten ist ein [Mapping](#einführung-in-normdaten) (Konkordanz) eine Abbildung von Normdaten aus einer Normdatei, auf Normdaten einer anderen Normdatei (siehe auch [Normdaten-Eigenschaften](#normdaten-eigenschaften-in-wikidata) in Wikidata).
 
 **MediaWiki**
   : [MediaWiki](#wikidata-als-datenbank) ist ein freies Softwarepaket zum Betrieb eines Wikis, das ursprünglich für die Wikipedia geschrieben wurde. Das Wikisystem wird von allen Wikis der Wikimedia-Stiftung (Wikimedia Foundation) betriebenen. 
