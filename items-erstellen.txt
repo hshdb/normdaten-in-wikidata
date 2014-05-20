@@ -7,7 +7,7 @@ Bevor man ein neues Item erstellt, sollte man überprüfen, ob [dieses Item bere
 ![Die Erstellung eines neuen Items](images/datenobjekt_erstellen.jpg)
 
 
-Wenn das Item noch nicht vorhanden ist, erhält man die Möglichkeit, ein neues Item zu erstellen. Man wird mit einem Link auf die Erstellungsseite weitergeleitet (s.o. "Die Erstellung eines neuen Items"). Dort muss die Bezeichnung sowie die Beschreibung des zu erstellenden Items eingetragen werden. Ist dies geschehen, kommt man auf die Itemseite.
+Wenn das Item noch nicht vorhanden ist, erhält man die Möglichkeit, ein neues Item zu erstellen. Man wird mit einem Link auf die Erstellungsseite weitergeleitet (Abb. 15). Dort muss die Bezeichnung sowie die Beschreibung des zu erstellenden Items eingetragen werden. Ist dies geschehen, kommt man auf die Itemseite.
 
 Auf der Itemseite hat man die Möglichkeit, Änderungen vorzunehmen oder weitere Sprachen beziehungsweise Übersetzungen für die Itembezeichnung hinzuzufügen.
 
