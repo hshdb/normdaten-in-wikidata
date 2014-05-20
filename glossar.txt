@@ -52,7 +52,7 @@
   : In Bezug auf Normdaten ist ein [Mapping](#einführung-in-normdaten) (Konkordanz) eine Abbildung von Normdaten aus einer Normdatei, auf Normdaten einer anderen Normdatei (siehe auch [Normdaten-Eigenschaften](#normdaten-eigenschaften-in-wikidata) in Wikidata).
 
 **MediaWiki**
-  : [MediaWiki](#wikidata-als-datenbank) ist ein freies Softwarepaket zum Betrieb eines Wikis, das ursprünglich für die Wikipedia geschrieben wurde. Das Wikisystem wird von allen Wikis der Wikimedia-Stiftung (Wikimedia Foundation) betriebenen. 
+  : MediaWiki ist ein freies Softwarepaket zum Betrieb eines Wikis, das ursprünglich für die Wikipedia geschrieben wurde. Das Wikisystem wird von allen Wikis der Wikimedia-Stiftung (Wikimedia Foundation) betriebenen. 
   
 **Metadaten**
   : [Metadaten](#einführung-in-normdaten) sind Daten, welche Eigenschaften und Merkmale anderer Daten beschreiben. Metadaten können am Beispiel eines Buches der Titel, die ISBN, das Erscheinungsjahr, der Verlag und ähnliches sein. Metadaten finden sich in der gesamten digitalen Welt wieder und haben gerade im wissenschaftlichen Bereich eine sehr wichtige Bedeutung.                       
