@@ -1,11 +1,11 @@
 ## Spracheinstellung in Wikidata
-Dieses Kapitel möchte zwei interessante Themen anschneiden. Zum Einen, wie kann der Benutzer die Sprache der Wikidata-Inhalte anpassen und zum Anderen, wie ändert ein Nutzer die Oberflächensprache in seine bevorzugte Sprache.
+Dieses Kapitel möchte zwei interessante Themen anschneiden. Zum einen, wie kann der Benutzer die Sprache der Wikidata-Inhalte anpassen, und zum anderen, wie ändert ein Nutzer die Oberflächensprache in seine bevorzugte Sprache.
 
 ###Änderung der Inhaltssprache von Wikidata
 
 Sie fragen sich vielleicht, warum gerade Englisch, Plattdeutsch und Türkisch als Sprachen vorgeschlagen werden. Es werden immer drei Sprachen aufgelistet und diese drei sind diejenigen, die in der Region des Nutzers (in diesem Fall also Deutschland) gesprochen werden.
 
-Es gibt zwei verschiedene Möglichkeiten die Sprachen zu ändern, wie unter [Help:Mehrsprachigkeit](https://www.wikidata.org/wiki/Help:Multilingual/de) zu sehen ist.
+Es gibt zwei verschiedene Möglichkeiten, die Sprachen zu ändern, wie unter [Help:Mehrsprachigkeit](https://www.wikidata.org/wiki/Help:Multilingual/de) zu sehen ist.
 
 **Universale Sprachauswahl**
 
@@ -13,7 +13,7 @@ Diese Methode ist die komplizierteste von zwei möglichen Varianten und diese zu
 
 **Babel-Bausteine**
 
-Es gibt für _angemeldte Nutzer_ die Möglichkeit, auf ihrer persönlichen Profilseite (Benutzerseite), ihre bevorzugten Spracheinstellungen einzustellen. 
+Es gibt für _angemeldete Nutzer_ die Möglichkeit, auf ihrer persönlichen Profilseite (Benutzerseite), ihre bevorzugten Spracheinstellungen vorzunehmen. 
 
 ![Babel-Baustein](images/babel.png) 
 
@@ -25,7 +25,7 @@ Die Default-Spracheinstellung der Wikidata-Oberflächensprache ist Englisch. Wen
 
 ![Sprachumstellung von englisch zu deutsch](images/sprachumstellung_wikidata.png)
 
-Zuletzt sei noch erwähnt, dass die Benutzeroberflächensprache lediglich die funktionalen Bestandteile von Wikidata übersetzt, d.h. die Inhalte von Wikidata (die Items, die Hilfeseiten, die Aussagen etc.) werden bei Default-Einstellungen immer noch in Englisch dargestellt. 
+Zuletzt sei noch erwähnt, dass die Benutzeroberflächensprache lediglich die funktionalen Bestandteile von Wikidata übersetzt, d.h., die Inhalte von Wikidata (die Items, die Hilfeseiten, die Aussagen etc.) werden bei Default-Einstellungen immer noch in Englisch dargestellt. 
 
 
 
