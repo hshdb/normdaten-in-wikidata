@@ -36,8 +36,9 @@
   <https://www.mediawiki.org/wiki/Universal_Language_Selector>
 * Das Datenmodell von Wikibase\
   <https://www.mediawiki.org/wiki/Wikibase/DataModel>
-* Weitere Wikimedia-Projekte\
-  <https://de.wikipedia.org/wiki/Wikipedia:Schwesterprojekte>
 * MediaWiki (2014)\
   <https://www.mediawiki.org/wiki/MediaWiki/de>
+* Weitere Wikimedia-Projekte\
+  <https://de.wikipedia.org/wiki/Wikipedia:Schwesterprojekte>
+
 
