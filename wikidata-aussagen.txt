@@ -35,9 +35,9 @@ Weitere Informationen zu Qualifikatoren stehen in Wikidata in der [Liste von Qua
 2. Der Normale Rang ist für Aussagen, die relevante Informationen enthalten. Diese Informationen gelten allgemein als korrekt. 
 3. Vorrangig ist ein Rang bei Aussagen mit den wichtigsten und aktuellsten Informationen.
 
-Aussagen ohne Belege sowie Aussagen, die ohne weitere Hinweise aus einer anderen Datenbank kopiert wurden, Belege mit der Eigenschaft "Datenherkunft" ([`P143`](https://www.wikidata.org/wiki/Property:P143)) sollten grundsätzlich als zweifelhaft eingestuft werden.
+Der Rang einer Aussage wird durch ein Icon angezeigt (Abb. 4). Aussagen ohne Belege sowie Aussagen, die ohne weitere Hinweise aus einer anderen Datenbank kopiert wurden, Belege mit der Eigenschaft "Datenherkunft" ([`P143`](https://www.wikidata.org/wiki/Property:P143)) sollten grundsätzlich als zweifelhaft eingestuft werden.
 
-![Ränge und Rangabstufungen.PNG](images/R_nge.PNG)
+![Ränge](images/R_nge.PNG)
 
 
 Weitere Informationen zu Rängen stehen in Wikidata unter [Ranking](https://www.wikidata.org/wiki/Help:Ranking). 
