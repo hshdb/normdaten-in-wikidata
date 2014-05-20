@@ -6,16 +6,16 @@ Mit **Normdaten** kann man eindeutig auf verschiedene Objekte (beispielsweise Or
 
 <div class="example">
 
-Ausschnitt des Normdatensatz zu Hannover ([`4023349-2](http://d-nb.info/gnd/4023349-2)) in der GND, wie er im Katalog der Deutschen Nationalbibliothek abgerufen werden kann:
+Ausschnitt des GND-Normdatensatz Hannover (`4023349-2`).
 
 ID
   : http://d-nb.info/gnd/4023349-2
 Geografikum (Ort)
   : Hannover
 Andere Bezeichnung
-  : * Oberstadtdirektor <Hannover> (Spitzenorgan)
-    * Hannover / Referat für Stadtentwicklung (Spitzenorgan)
-    * Hannover / Oberbürgermeister (Spitzenorgan)
+  : Oberstadtdirektor <Hannover> (Spitzenorgan),
+    Hannover / Referat für Stadtentwicklung (Spitzenorgan),
+    Hannover / Oberbürgermeister (Spitzenorgan),
 Definition
   : Hauptstadt des Landes Niedersachsen, Verwaltungssitz der  Region Hannover, 1150 als Marktsiedlung Hanovere urkundl. erwähnt, 1202  Stadtrecht
 Land
