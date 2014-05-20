@@ -28,7 +28,7 @@ Das Anlegen neuer Eigenschaften ist jedoch nur ausgewählten Mitgliedern der Wik
 
 </div>
 
-Auf der Seite "[Eigenschaften vorschlagen](https://www.wikidata.org/wiki/Wikidata:Property_proposal/de)" können Vorschläge für neue Wikidata-Eigenschaften eingebracht und von der Wikidata-Community diskutiert werden. 
+Auf der Seite [„Eigenschaften vorschlagen"](https://www.wikidata.org/wiki/Wikidata:Property_proposal/de) können Vorschläge für neue Wikidata-Eigenschaften eingebracht und von der Wikidata-Community diskutiert werden. 
 
 ### Datentypen und andere Einschränkungen
 
