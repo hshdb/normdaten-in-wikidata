@@ -31,7 +31,7 @@
   : [Wikidata-Eigenschaften](#wikidata-eigenschaften) sind Bestandteile von Aussagen. Ihnen können Werte (Items) zugeordnet werden. Jede Eigenschaft ist einzigartig und beschreibt die Merkmale der ihnen zugewiesenen Items.  
   
 **GND (Gemeinsame Normdatei)**
-  : Die [Gemeinsame Normdatei](#einführung-in-normdaten) ist ein Projekt der Deutschen Nationalbibliothek und einigen anderen deutschen Bibliotheken.
+  : Die Gemeinsame Normdatei ist ein Projekt der Deutschen Nationalbibliothek und einigen anderen deutschen Bibliotheken.
 
 **ID**
   : siehe *Notation*
