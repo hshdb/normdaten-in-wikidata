@@ -8,7 +8,7 @@ In folgenden Fällen kann bei Aussagen auf Belege verzichtet werden:
 
 * Wenn die Aussage allgemein bekannt und unumstritten ist.
 * Wenn das Item, über das Aussagen gemacht werden, selbst als Beleg für diese Aussagen dienen kann -- beispielsweise sind die Autoren und Autorinnen eines Buches in der Regel dem Buch selbst zu entnehmen.
-* Wenn die Aussage sich auf eine externe Quelle bezieht, die selbst als Beleg dienen kann. Diese Ausnahme trifft auf die meisten Aussagen mit [Normdaten-Eigenschaften in Wikidata](#normdaten-eigenschaften-in-wikidata) zu. 
+* Wenn die Aussage sich auf eine externe Quelle bezieht, die selbst als Beleg dienen kann. Diese Ausnahme trifft auf die meisten Aussagen mit [Normdaten-Eigenschaften in Wikidata](#normdaten-in-wikidata) zu. 
 
 </div>
 
