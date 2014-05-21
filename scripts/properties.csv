@@ -128,7 +128,7 @@ P705,Ensembl-Protein-Identifikator,"Ensembl Protein ID",
 P709,Historic-Scotland-ID,"Historic Scotland ID",
 P715,Drugbank-ID,"Drugbank ID","Kennung in der Drugbank-Datenbank"
 P716,"JPL Small-Body Database ID","JPL Small-Body Database identifier","Kennung in der Datenbank JPL Small-Body Database"
-P717,,"Minor Planet Center observatory code",
+P717,"""Minor Planet Center"" -Überwachsungscode","Minor Planet Center observatory code","Überwachungsdaten für Asteroriden und Kometen"
 P718,Canmore-ID,"Canmore ID",
 P721,OKATO-ID,"OKATO identifier","Code im Klassifizierungsschlüssel administrativer Objekte in Russland"
 P722,"UIC internationale Bahnhofsnummer","UIC station code","UIC internationale Bahnhofsnummer"
@@ -148,12 +148,12 @@ P782,LAU,LAU,"staatliche administrative Hierarchieebene, EU (ehemals NUTS-4 und 
 P791,ISIL-ID,"ISIL ID","Internationale Kennung für Bibliotheken und verwandte Organisationen"
 P804,GNIS-Antarctica-ID,"GNIS Antarctica ID","Identifikationsnummer in der Antarktika-Datenbank des GNIS"
 P806,"italienische Kataster-ID","Italian cadastre code",
-P808,,"code Bien de Interés Cultural",
+P808,"Code des Kulturgutes","code Bien de Interés Cultural","Spanisches Erbregister"
 P809,WDPA-ID,"WDPA id","Nummer in der Weltdatenbank über geschützte Gebiete (World Database on Protected Areas)"
 P815,ITIS-TSN,"ITIS TSN","die vom Integrated Taxonomic Information System (ITIS) vergebene Taxonomic Serial Number (TSN)"
 P818,"arXiv ID","arXiv eprint identifier","Identificationsqode im ArXive-Archiv"
-P819,,"ADS bibcode",
-P821,,"CGNDB Unique Identifier",
+P819,"ADS bibcode","ADS bibcode","Bibcode des astrophysischen Datensystems"
+P821,"CGNDB Einzigartige Identifikatoren","CGNDB Unique Identifier","Identifikator der geographischen Merkmale des geographischen Namensboards von Kanada"
 P824,Meteoritical-Bulletin-Identifikator,"Meteoritical Bulletin Database ID",
 P827,,"BBC program identifier",
 P829,OEIS-ID,"OEIS ID","Enzyklopädie der Integer-Sequenzen"
@@ -170,7 +170,7 @@ P858,"ESPN SCRUM ID","ESPN SCRUM ID","Identifikation internationaler Rugby-Spiel
 P860,,"e-archiv.li ID",
 P861,"premiershiprugby.com ID","premiershiprugby.com ID",
 P863,,"InPhO identifier ",
-P864,,"ACM Digital Library author identifier",
+P864,"ACM Digitale Autorenerkennung","ACM Digital Library author identifier","Verein ""Digtiale Bibliothek (ACM DL) für Autoren-Indentifikaton"""
 P865,BMLO,BMLO,
 P866,Perlentaucher,"Perlentaucher ID","Deeplinks auf das gleichnamige Onlinemagazin für Literatur und Kultur"
 P867,ROME-Berufscode,"ROME Occupation Code (v3)","ROME-Code für einen Beruf, mit einem Buchstaben und vier Nummern"
@@ -178,16 +178,16 @@ P882,"FIPS 6-4 (counties in USA)","FIPS 6-4 (US counties)",
 P884,"Russische Gewässerkennzahl","State Water Register Code (Russia)",
 P886,,LIR,
 P888,JSTOR,"JSTOR article ID",
-P889,,"Mathematical Reviews identifier",
+P889,"Mathematischer Rezessions-Identifikator","Mathematical Reviews identifier","""Mathematische Rezession"" ist eine Zeitschrift und eine Onlinedatenbank veröffentlicht von der ""Amerikanischen Mathematik Gesellschaft (AMS) die kurze Inhaltsangaben (und gelegentliche Auswertungen) von vielen Artikeln in Mathe, Statistik und theoretische Computerwissenschaft enthält."
 P892,RFC,"Request for Comments identifier",
-P893,,"Social Science Research Network ID",
+P893,"Sozial-Wissenschaftliches Forschungs-Netzwerk ID","Social Science Research Network ID","Artikel/Papier Identifikator der SSRN"
 P902,"Artikelnummer im HLS",HDS,"Identifikationsnummer im Historischen Lexikon der Schweiz"
 P906,SELIBR,SELIBR,"Normdatei des schwedischen Verbundkatalogs LIBRIS"
 P907,"AMG Spiele ID","AMG Game ID",
-P909,,"Nova Scotia Register of Historic Places identifier",
+P909,"Nova Scotia Indentifikationsregister von ""Historischen Plätzen""","Nova Scotia Register of Historic Places identifier","Die einzigartigen Identifikatoren des Nova Scotia Register von ""Historischen Plätzen"""
 P911,"Südafrikanischer Gemeinde-Code","South African municipality code",
-P920,,"Spanish subject headings for public libraries",
-P933,,"heritagefoundation.ca ID",
+P920,"Spanische Schlagwörter für öffentliche Bibliotheken","Spanish subject headings for public libraries","Schlagwörter für öffentliche Bibliotheken werden unterstützt durch das spanische Ministerium für Bildung, Kultur und Sport. Ausdrücke sind verbunden (mit unterschiedlichen Nummern) mit LCSH, GND, RAMEAU, LEMAC (Schlagwörter sind auf katalanisch)."
+P933,"hertiagefoundation.ca ID","heritagefoundation.ca ID","Identifikator der Stiftung Neufundland und Labrador"
 P935,Commons-Galerie,"Commons gallery","Name der Galerieseite(n) auf Wikimedia Commons mit Dateien zu dem Objekt (item)"
 P938,FishBase-ID,"FishBase species identifier","Identifikator bei FishBase"
 P939,"KSH Code","KSH code",
@@ -212,7 +212,7 @@ P1006,NTA-Nummer,"NTA identifier (Netherlands)","Normdatei der Königlichen Bibl
 P1014,"Art & Architecture Thesaurus ID","Art & Architecture Thesaurus ID","ID im Art & Architecture Thesaurus des Getty Research Institute"
 P1015,BIBSYS,"BIBSYS identifier","Normdatei des norwegischen Bibliotheksdienstes"
 P1017,"BAV (Vatikan)","BAV (Vatican Library) identifier","Normdatei der Vatikanischen Apostolischen Bibliothek (lat. ""Bibliotheca Apostolica Vaticana"")"
-P1024,,"SBFI occupation code",
+P1024,"SBFI Codebesetzung","SBFI occupation code",
 P1025,"SUDOC Editionen","SUDOC editions","Eintrag im französischen Verbundkatalog für Bücher und andere Medien (s. auch P269)"
 P1036,DDC,"Dewey Decimal Classification","Klassifikation für die inhaltliche Erschließung (Verwendung mit dem Qualifikator P747: Ausgabe)"
 P1042,ZDB-ID,"ZDB identifier","Datensatz der Zeitschriftendatenbank"
@@ -272,4 +272,5 @@ P1286,"Munzinger Pop","Munzinger Pop","Pop-Archiv International im Verlag Munzin
 P1287,"Komponisten der Gegenwart","KDG Komponisten der Gegenwart","Komponisten-Verzeichnis im Verlag Munzinger-Archiv"
 P1288,"Kritisches Lexikon der Gegenwartsliteratur","KLG Kritisches Lexikon der Gegenwartsliteratur",
 P1289,"Kritisches Lexikon der fremdsprachigen Gegenwartsliteratur","KLfG Kritisches Lexikon der fremdsprachigen Gegenwartsliteratur",
-P1296,,"Gran Enciclopèdia Catalana ID",
+P1296,"Große katalanische Enzyklopädie","Gran Enciclopèdia Catalana ID",
+P1311,"lostbridges.org ID","lostbridges.org ID",
