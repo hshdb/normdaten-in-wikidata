@@ -1,5 +1,7 @@
 # Literaturverzeichnis {.unnumbered}
 
+\markboth{Literaturverzeichnis}{}
+
 **Allgemeine Einführungen zu Normdaten**
 
 * Funktionale Anforderungen an Normdaten : ein konzeptionelles Modell; Abschlussbericht Dezember 2008 / [International Federation of Library Associations and Institutions]. Hrsg. von Glenn E. Patton.

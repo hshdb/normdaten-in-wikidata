@@ -1,5 +1,7 @@
 # Glossar {.unnumbered}
 
+\markboth{Glossar}{}
+
 **Aussage**
   : Eine [Aussage](#wikidata-aussagen) ist eine Untereinheit eines Items in Wikidata. Aussagen bestehen in der Regel aus einer normierten Eigenschaft, ihnen zugewiesenen Items und optionalen Belege. Nicht jede Eigenschaft muss als Wert ein Item beinhalten, manche enthalten einfache externe Verlinkungen (Normdaten, Webseiten...) oder einfache Daten (geografische Daten, Ländercodes...). Wikidata gibt keine Auskunft über die Richtigkeit von Aussagen, sondern beschränkt sich auf das Sammeln und die Bereitstellung von Daten zusammen mit dem Nachweis der Quelle. 
 

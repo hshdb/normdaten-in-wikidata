@@ -1,5 +1,7 @@
 # Frequently Asked Questions {.unnumbered}
 
+\markboth{FAQ}{}
+
 **1. Stellt Wikidata Doppelarbeit dar, wenn es bereits entsprechende Wikipedia-Artikel gibt?**
 Nein, Wikidata übernimmt die Fakten von Wikipedia und bereitet sie auf. Diese können durch die Aussagen leicht in anderen Sprachen abgerufen werden, was in Wikipedia nicht möglich ist.
 
