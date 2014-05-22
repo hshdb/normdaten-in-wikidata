@@ -39,4 +39,4 @@ Die Normdaten in Wikidata unterliegen einem Regelwerk, welches von der Wikidata-
 Im Gegensatz dazu wird die Gemeinsame Normdatei (GND) von mehreren Institutionen verwaltet. Unter anderem sind dies die Deutsche Nationalbibliothek (DNB), alle deutschsprachigen Bibliotheksverbünde, die Zeitschriftendatenbank (ZDB) und zahlreiche weitere Einrichtungen. 
 Der GND und anderen Normdateien liegt meist ein genaues Regelwerk zugrunde, beispielsweise die Regeln für den Schlagwortkatalog (RSWK) oder Resource Description and Access (RDA).  
  
- Weiterführende Literatur und Hilfen finden Sie in der [Wikidata-Liste der Projektregeln und Richtlinien](https://www.wikidata.org/w/index.php?title=Wikidata:List_of_policies_and_guidelines/de&oldid=102532266) oder im [Hilfe-Portal Wikidata](https://www.wikidata.org/w/index.php?title=Help:Contents/de&oldid=66338607 ).
+Weiterführende Literatur und Hilfen finden Sie in der [Wikidata-Liste der Projektregeln und Richtlinien](https://www.wikidata.org/siki/Wikidata:List_of_policies_and_guidelines/de) oder im [Hilfe-Portal Wikidata](https://www.wikidata.org/wiki/Help:Contents/de).

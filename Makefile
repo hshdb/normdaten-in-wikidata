@@ -2,11 +2,11 @@
 
 TITLE=Normdaten in Wikidata
 AUTHOR=
-DATE=
+DATE=$(shell git log -1 --format=%ad --date=short)
+VERSION=1.0
 
 SOURCE_URL=https://www.penflip.com/nichtich/normdaten-in-wikidata
 BUILD_DATE=$(shell date)
-COMMIT_DATE=$(shell git log -1 --format=%cd)
 
 TXT=$(wildcard *.txt)
 MAIN=normdaten-in-wikidata
@@ -75,7 +75,7 @@ clean:
 # konkrete Regeln für die jeweiligen Ausgabeformate
 .SUFFIXES: .md .pdf .html .tex .docx
 
-PANDOC_OPTIONS=-s -S --toc -N -V build-date="$(BUILD_DATE)" -V commit-date="$(COMMIT_DATE)" -V source-url="$(SOURCE_URL)"
+PANDOC_OPTIONS=-s -S --toc -N -V build-date="$(BUILD_DATE)" -V source-url="$(SOURCE_URL)" -V version="$(VERSION)"
 LATEX_OPTIONS=--template layout/template.tex \
 			--chapters\
 			--latex-engine xelatex

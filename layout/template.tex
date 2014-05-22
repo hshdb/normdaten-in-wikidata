@@ -193,21 +193,13 @@ $if(verbatim-in-note)$
 $endif$
 
 % Neue Deutsche Rechtschreibung
-\ifxetex
-  \usepackage{polyglossia}
-  \setmainlanguage{ngerman}
-\else
-  \usepackage[ngerman]{babel}
-\fi
+\usepackage{polyglossia}
+\setmainlanguage{ngerman}
 
 % Abbildungen durchgängig nummerieren
 \usepackage{chngcntr}
 \counterwithout{figure}{chapter}
 \renewcommand\figurename{Abb.}
-
-$for(header-includes)$
-$header-includes$
-$endfor$
 
 \title{$title$}
 \author{$for(author)$$author$$sep$ \and $endfor$}
@@ -216,38 +208,74 @@ $endfor$
 \begin{document}
 
 % Schmutztitel
-\maketitle
+\thispagestyle{empty}
+\begin{center}
+\bfseries\sffamily\Large
+\vspace{2cm}
+$title$
+\end{center}
+
+\cleardoublepage
 
 % TODO: Hauptsachtitel
 \thispagestyle{empty}
 \begin{center}
+\sffamily
+\vspace{2cm}
+{
+  {\huge $title$}
+  \vspace{0.5cm}
+  
+  {\bfseries\LARGE -- Handbuch -- }
+  \vspace{0.5cm}
 
-    \textbf{Normdaten in Wikidata}
+  Version $version$\\$date$
+}
+\vfill
+{
+  \large
+  Hochschule Hannover Fakultät III\\
+  Abteilung Information \& Kommunikation
+}
 
-Handbuch
+Jakob Voß \textbar\ Julian Schmitt \textbar\ Jasmin Bogner \textbar\ Susanna Bausch \\
+Viktoria Berkelmann \textbar\ Franziska Ludemann \textbar\ Oliver Löffel\\
+Janna Kitroschat \textbar\ Maiia Bartoshevska \textbar\ Katharina Seljuzki
 
-...Liste der Autoren...
+TODO: Hier CC-Icons
 
-Hannover, 2014
 \end{center}
 
 % Rückseite des Hauptsachtitel
 \pagebreak
 \thispagestyle{empty}
+\vspace*{\fill}
+{
+$title$
 
-\vfill
-... (CC, ISBN etc.)
+Version $version$ (letzte Änderung: $date$)
 
-$if(commit-date)$Letzte Änderung: $commit-date$.$endif$
+CC-BY-SA
 
-$if(build-date)$Erstellungszeit: $build-date$.$endif$
+Das Coverbild: ...TODO
 
-% Motto/Widmung
+Diese Druckversion wurde mit Hilfe von \XeTeX, Pandoc und anderer
+Open-Source-Werkzeuge erstellt. Alle Ausgangsdateien sowie das PDF 
+und eine HTML-Version dieses Handbuchs sind unter
+\url{https://github.com/hshdb/normdaten-in-wikidata} verfügbar.
+
+Herstellung \& Vertrieb durch lulu.com
+
+ISBN 978-1-291-85658-3
+}
+
+% Epigraph
 \pagebreak
 \thispagestyle{empty}
-
-\vspace{3cm}
-\textit{hier ein Motto}
+\begin{center}
+\vspace*{3cm}
+{\ttfamily \href{https://www.wikidata.org/wiki/Q6692777}{\texttt{Q6692777}}}
+\end{center}
 
 
 {
@@ -280,8 +308,8 @@ $if(biblatex)$
 
 $endif$
 
-$for(include-after)$
-$include-after$
+% Leere Seite am Ende
+\pagebreak
+\thispagestyle{empty}
 
-$endfor$
 \end{document}

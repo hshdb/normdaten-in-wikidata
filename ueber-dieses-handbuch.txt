@@ -27,5 +27,5 @@ Zur Erstellung des Handbuchs wurden im Wesentlichen folgende Werkzeuge verwendet
 * GitHub (<https://github.com>) zum Hosting des Repository und des fertigen Buchs
 * Annotator (<https://annotatorjs.org>) zum Korrekturlesen
 
-Eine Übersicht über das Projekt gibt der Artikel "Collaborative creation of a
-Wikidata handbook" für die OpenSym 2014 Konferenz.
+Eine Übersicht über das Projekt gibt der Artikel ["Collaborative creation of a
+Wikidata handbook"](https://github.com/jakobib/opensym2014).
