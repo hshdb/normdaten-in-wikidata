@@ -80,6 +80,7 @@ id | Name | Beschreibung
 [`P539`](https://www.wikidata.org/wiki/Property:P539) | Museofile | Primärschlüssel der Datenbank des französischen Kulturministeriums
 [`P549`](https://www.wikidata.org/wiki/Property:P549) | MGP-ID | Identifikationsnummer in der Mathematiker-Datenbank des Mathematics Genealogy Project
 [`P553`](https://www.wikidata.org/wiki/Property:P553) | Nutzerkonto in sozialem Netzwerk | zusammen mit Property:P554 zu verwenden
+[`P554`](https://www.wikidata.org/wiki/Property:P554) | Benutzername in sozialem Netzwerk | zusammen mit Property:P553 zu verwenden
 [`P557`](https://www.wikidata.org/wiki/Property:P557) | DiseasesDB-ID | Kennung in der Diseases Database (diseasesdatabase.com)
 [`P563`](https://www.wikidata.org/wiki/Property:P563) | ICD-O | medizinische Klassifikation für die Onkologie
 [`P586`](https://www.wikidata.org/wiki/Property:P586) | IPNI-Autor-ID | Identifikator für eine Person im International Plant Names Index (IPNI)
@@ -133,7 +134,7 @@ id | Name | Beschreibung
 [`P709`](https://www.wikidata.org/wiki/Property:P709) | Historic-Scotland-ID | 
 [`P715`](https://www.wikidata.org/wiki/Property:P715) | Drugbank-ID | Kennung in der Drugbank-Datenbank
 [`P716`](https://www.wikidata.org/wiki/Property:P716) | JPL Small-Body Database ID | Kennung in der Datenbank JPL Small-Body Database
-[`P717`](https://www.wikidata.org/wiki/Property:P717) | *Minor Planet Center observatory code* | 
+[`P717`](https://www.wikidata.org/wiki/Property:P717) | "Minor Planet Center" -Überwachsungscode | Überwachungsdaten für Asteroriden und Kometen
 [`P718`](https://www.wikidata.org/wiki/Property:P718) | Canmore-ID | 
 [`P721`](https://www.wikidata.org/wiki/Property:P721) | OKATO-ID | Code im Klassifizierungsschlüssel administrativer Objekte in Russland
 [`P722`](https://www.wikidata.org/wiki/Property:P722) | UIC internationale Bahnhofsnummer | UIC internationale Bahnhofsnummer
@@ -153,12 +154,12 @@ id | Name | Beschreibung
 [`P791`](https://www.wikidata.org/wiki/Property:P791) | ISIL-ID | Internationale Kennung für Bibliotheken und verwandte Organisationen
 [`P804`](https://www.wikidata.org/wiki/Property:P804) | GNIS-Antarctica-ID | Identifikationsnummer in der Antarktika-Datenbank des GNIS
 [`P806`](https://www.wikidata.org/wiki/Property:P806) | italienische Kataster-ID | 
-[`P808`](https://www.wikidata.org/wiki/Property:P808) | *code Bien de Interés Cultural* | 
+[`P808`](https://www.wikidata.org/wiki/Property:P808) | Code des Kulturgutes | Spanisches Erbregister
 [`P809`](https://www.wikidata.org/wiki/Property:P809) | WDPA-ID | Nummer in der Weltdatenbank über geschützte Gebiete (World Database on Protected Areas)
 [`P815`](https://www.wikidata.org/wiki/Property:P815) | ITIS-TSN | die vom Integrated Taxonomic Information System (ITIS) vergebene Taxonomic Serial Number (TSN)
 [`P818`](https://www.wikidata.org/wiki/Property:P818) | arXiv ID | Identificationsqode im ArXive-Archiv
-[`P819`](https://www.wikidata.org/wiki/Property:P819) | *ADS bibcode* | 
-[`P821`](https://www.wikidata.org/wiki/Property:P821) | *CGNDB Unique Identifier* | 
+[`P819`](https://www.wikidata.org/wiki/Property:P819) | ADS bibcode | Bibcode des astrophysischen Datensystems
+[`P821`](https://www.wikidata.org/wiki/Property:P821) | CGNDB Einzigartige Identifikatoren | Identifikator der geographischen Merkmale des geographischen Namensboards von Kanada
 [`P824`](https://www.wikidata.org/wiki/Property:P824) | Meteoritical-Bulletin-Identifikator | 
 [`P827`](https://www.wikidata.org/wiki/Property:P827) | *BBC program identifier* | 
 [`P829`](https://www.wikidata.org/wiki/Property:P829) | OEIS-ID | Enzyklopädie der Integer-Sequenzen
@@ -175,7 +176,7 @@ id | Name | Beschreibung
 [`P860`](https://www.wikidata.org/wiki/Property:P860) | *e-archiv.li ID* | 
 [`P861`](https://www.wikidata.org/wiki/Property:P861) | premiershiprugby.com ID | 
 [`P863`](https://www.wikidata.org/wiki/Property:P863) | *InPhO identifier * | 
-[`P864`](https://www.wikidata.org/wiki/Property:P864) | *ACM Digital Library author identifier* | 
+[`P864`](https://www.wikidata.org/wiki/Property:P864) | ACM Digitale Autorenerkennung | Verein "Digtiale Bibliothek (ACM DL) für Autoren-Indentifikaton"
 [`P865`](https://www.wikidata.org/wiki/Property:P865) | BMLO | 
 [`P866`](https://www.wikidata.org/wiki/Property:P866) | Perlentaucher | Deeplinks auf das gleichnamige Onlinemagazin für Literatur und Kultur
 [`P867`](https://www.wikidata.org/wiki/Property:P867) | ROME-Berufscode | ROME-Code für einen Beruf, mit einem Buchstaben und vier Nummern
@@ -183,16 +184,16 @@ id | Name | Beschreibung
 [`P884`](https://www.wikidata.org/wiki/Property:P884) | Russische Gewässerkennzahl | 
 [`P886`](https://www.wikidata.org/wiki/Property:P886) | *LIR* | 
 [`P888`](https://www.wikidata.org/wiki/Property:P888) | JSTOR | 
-[`P889`](https://www.wikidata.org/wiki/Property:P889) | *Mathematical Reviews identifier* | 
+[`P889`](https://www.wikidata.org/wiki/Property:P889) | Mathematischer Rezessions-Identifikator | "Mathematische Rezession" ist eine Zeitschrift und eine Onlinedatenbank veröffentlicht von der "Amerikanischen Mathematik Gesellschaft (AMS) die kurze Inhaltsangaben (und gelegentliche Auswertungen) von vielen Artikeln in Mathe, Statistik und theoretische Computerwissenschaft enthält.
 [`P892`](https://www.wikidata.org/wiki/Property:P892) | RFC | 
-[`P893`](https://www.wikidata.org/wiki/Property:P893) | *Social Science Research Network ID* | 
+[`P893`](https://www.wikidata.org/wiki/Property:P893) | Sozial-Wissenschaftliches Forschungs-Netzwerk ID | Artikel/Papier Identifikator der SSRN
 [`P902`](https://www.wikidata.org/wiki/Property:P902) | Artikelnummer im HLS | Identifikationsnummer im Historischen Lexikon der Schweiz
 [`P906`](https://www.wikidata.org/wiki/Property:P906) | SELIBR | Normdatei des schwedischen Verbundkatalogs LIBRIS
 [`P907`](https://www.wikidata.org/wiki/Property:P907) | AMG Spiele ID | 
-[`P909`](https://www.wikidata.org/wiki/Property:P909) | *Nova Scotia Register of Historic Places identifier* | 
+[`P909`](https://www.wikidata.org/wiki/Property:P909) | Nova Scotia Indentifikationsregister von "Historischen Plätzen" | Die einzigartigen Identifikatoren des Nova Scotia Register von "Historischen Plätzen"
 [`P911`](https://www.wikidata.org/wiki/Property:P911) | Südafrikanischer Gemeinde-Code | 
-[`P920`](https://www.wikidata.org/wiki/Property:P920) | *Spanish subject headings for public libraries* | 
-[`P933`](https://www.wikidata.org/wiki/Property:P933) | *heritagefoundation.ca ID* | 
+[`P920`](https://www.wikidata.org/wiki/Property:P920) | Spanische Schlagwörter für öffentliche Bibliotheken | Schlagwörter für öffentliche Bibliotheken werden unterstützt durch das spanische Ministerium für Bildung, Kultur und Sport. Ausdrücke sind verbunden (mit unterschiedlichen Nummern) mit LCSH, GND, RAMEAU, LEMAC (Schlagwörter sind auf katalanisch).
+[`P933`](https://www.wikidata.org/wiki/Property:P933) | hertiagefoundation.ca ID | Identifikator der Stiftung Neufundland und Labrador
 [`P935`](https://www.wikidata.org/wiki/Property:P935) | Commons-Galerie | Name der Galerieseite(n) auf Wikimedia Commons mit Dateien zu dem Objekt (item)
 [`P938`](https://www.wikidata.org/wiki/Property:P938) | FishBase-ID | Identifikator bei FishBase
 [`P939`](https://www.wikidata.org/wiki/Property:P939) | KSH Code | 
@@ -217,7 +218,7 @@ id | Name | Beschreibung
 [`P1014`](https://www.wikidata.org/wiki/Property:P1014) | Art & Architecture Thesaurus ID | ID im Art & Architecture Thesaurus des Getty Research Institute
 [`P1015`](https://www.wikidata.org/wiki/Property:P1015) | BIBSYS | Normdatei des norwegischen Bibliotheksdienstes
 [`P1017`](https://www.wikidata.org/wiki/Property:P1017) | BAV (Vatikan) | Normdatei der Vatikanischen Apostolischen Bibliothek (lat. "Bibliotheca Apostolica Vaticana")
-[`P1024`](https://www.wikidata.org/wiki/Property:P1024) | *SBFI occupation code* | 
+[`P1024`](https://www.wikidata.org/wiki/Property:P1024) | SBFI Codebesetzung | 
 [`P1025`](https://www.wikidata.org/wiki/Property:P1025) | SUDOC Editionen | Eintrag im französischen Verbundkatalog für Bücher und andere Medien (s. auch P269)
 [`P1036`](https://www.wikidata.org/wiki/Property:P1036) | DDC | Klassifikation für die inhaltliche Erschließung (Verwendung mit dem Qualifikator P747: Ausgabe)
 [`P1042`](https://www.wikidata.org/wiki/Property:P1042) | ZDB-ID | Datensatz der Zeitschriftendatenbank
@@ -277,4 +278,5 @@ id | Name | Beschreibung
 [`P1287`](https://www.wikidata.org/wiki/Property:P1287) | Komponisten der Gegenwart | Komponisten-Verzeichnis im Verlag Munzinger-Archiv
 [`P1288`](https://www.wikidata.org/wiki/Property:P1288) | Kritisches Lexikon der Gegenwartsliteratur | 
 [`P1289`](https://www.wikidata.org/wiki/Property:P1289) | Kritisches Lexikon der fremdsprachigen Gegenwartsliteratur | 
-[`P1296`](https://www.wikidata.org/wiki/Property:P1296) | *Gran Enciclopèdia Catalana ID* | 
+[`P1296`](https://www.wikidata.org/wiki/Property:P1296) | Große katalanische Enzyklopädie | 
+[`P1311`](https://www.wikidata.org/wiki/Property:P1311) | lostbridges.org ID | 

@@ -149,4 +149,5 @@ website: build
 deps:
 	sudo apt-get install pandoc pandoc-citeproc\
 	   	texlive-latex-recommended\
-		texlive-fonts-extra texlive-fonts-recommended
+		texlive-fonts-extra texlive-fonts-recommended\
+		texlive-math-extra

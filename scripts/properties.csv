@@ -75,6 +75,7 @@ P536,ATP-Kennung,"ATP ID","Identifikator für Tennisspieler in der Datenbank der
 P539,Museofile,Museofile,"Primärschlüssel der Datenbank des französischen Kulturministeriums"
 P549,MGP-ID,"Mathematics Genealogy Project identifier","Identifikationsnummer in der Mathematiker-Datenbank des Mathematics Genealogy Project"
 P553,"Nutzerkonto in sozialem Netzwerk","website account on","zusammen mit Property:P554 zu verwenden"
+P554,"Benutzername in sozialem Netzwerk","website username","zusammen mit Property:P553 zu verwenden"
 P557,DiseasesDB-ID,DiseasesDB,"Kennung in der Diseases Database (diseasesdatabase.com)"
 P563,ICD-O,ICD-O,"medizinische Klassifikation für die Onkologie"
 P586,IPNI-Autor-ID,"IPNI author ID","Identifikator für eine Person im International Plant Names Index (IPNI)"

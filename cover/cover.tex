@@ -1,9 +1,69 @@
-\documentclass[10pt]{memoir}
+\documentclass[10pt]{scrartcl}
+    \usepackage{xltxtra,xunicode}
 
-\usepackage[paperwidth=30.654cm,paperheight=21.623cm]{geometry}
+\usepackage[
+    paperwidth=30.654cm, paperheight=21.623cm,
+    left=0cm, bottom=0cm, top=0cm
+]{geometry}
+
+%\usepackage{pstricks}
+\usepackage{tikz}
+\usepackage{tikzpagenodes}
+\usetikzlibrary{calc}
+\usepackage{eso-pic}
+
+\AddToShipoutPicture{%
+\begin{tikzpicture}[remember picture, overlay]
+  % Buchrücken
+  \draw[color=red,fill=red]
+       ($(current page.north) +(5.27mm,0)$) rectangle
+       ($(current page.south) +(-5.27mm,0)$);
+
+  
+  \node[] {
+
+  };
+\end{tikzpicture}%
+}
 
 \begin{document}
+\pagestyle{empty}
+\noindent
 
+% TODO: Nach rechts
+\fbox{%
+\begin{minipage}[t][21cm]{146.5mm}
 ...
+\end{minipage}
+}%
+\fbox{%
+\begin{minipage}[t][21cm]{146.5mm}
+\begin{center}
+\sffamily
+\vspace{2cm}
+{
+  {\huge Normdaten in Wikidata}
+  \vspace{0.5cm}
+  
+  {\bfseries\LARGE -- Handbuch -- }
+  \vspace{0.5cm}
+
+}
+\vfill
+{
+  \large
+  Hochschule Hannover Fakultät III\\
+  Abteilung Information \& Kommunikation
+}
+
+Jakob Voß \textbar\ Susanna Bausch \textbar\ Julian Schmitt \textbar\ Jasmin Bogner \\
+Viktoria Berkelmann \textbar\ Franziska Ludemann \textbar\ Oliver Löffel \\
+Janna Kitroschat \textbar\ Maiia Bartoshevska \textbar\ Katharina Seljuzki
+
+%\includegraphics{../images/cc-by-sa.png}
+
+\end{center}
+\end{minipage}
+}
 
 \end{document}

@@ -154,6 +154,8 @@ Die folgende Liste enthält alle in Wikidata vorhandenen [Normdaten-Eigenschafte
   : MGP-ID
 [`P553`](https://www.wikidata.org/wiki/Property:P553)
   : Nutzerkonto in sozialem Netzwerk
+[`P554`](https://www.wikidata.org/wiki/Property:P554)
+  : Benutzername in sozialem Netzwerk
 [`P557`](https://www.wikidata.org/wiki/Property:P557)
   : DiseasesDB-ID
 [`P563`](https://www.wikidata.org/wiki/Property:P563)
@@ -261,7 +263,7 @@ Die folgende Liste enthält alle in Wikidata vorhandenen [Normdaten-Eigenschafte
 [`P716`](https://www.wikidata.org/wiki/Property:P716)
   : JPL Small-Body Database ID
 [`P717`](https://www.wikidata.org/wiki/Property:P717)
-  : *Minor Planet Center observatory code*
+  : "Minor Planet Center" -Überwachsungscode
 [`P718`](https://www.wikidata.org/wiki/Property:P718)
   : Canmore-ID
 [`P721`](https://www.wikidata.org/wiki/Property:P721)
@@ -301,7 +303,7 @@ Die folgende Liste enthält alle in Wikidata vorhandenen [Normdaten-Eigenschafte
 [`P806`](https://www.wikidata.org/wiki/Property:P806)
   : italienische Kataster-ID
 [`P808`](https://www.wikidata.org/wiki/Property:P808)
-  : *code Bien de Interés Cultural*
+  : Code des Kulturgutes
 [`P809`](https://www.wikidata.org/wiki/Property:P809)
   : WDPA-ID
 [`P815`](https://www.wikidata.org/wiki/Property:P815)
@@ -309,9 +311,9 @@ Die folgende Liste enthält alle in Wikidata vorhandenen [Normdaten-Eigenschafte
 [`P818`](https://www.wikidata.org/wiki/Property:P818)
   : arXiv ID
 [`P819`](https://www.wikidata.org/wiki/Property:P819)
-  : *ADS bibcode*
+  : ADS bibcode
 [`P821`](https://www.wikidata.org/wiki/Property:P821)
-  : *CGNDB Unique Identifier*
+  : CGNDB Einzigartige Identifikatoren
 [`P824`](https://www.wikidata.org/wiki/Property:P824)
   : Meteoritical-Bulletin-Identifikator
 [`P827`](https://www.wikidata.org/wiki/Property:P827)
@@ -345,7 +347,7 @@ Die folgende Liste enthält alle in Wikidata vorhandenen [Normdaten-Eigenschafte
 [`P863`](https://www.wikidata.org/wiki/Property:P863)
   : *InPhO identifier *
 [`P864`](https://www.wikidata.org/wiki/Property:P864)
-  : *ACM Digital Library author identifier*
+  : ACM Digitale Autorenerkennung
 [`P865`](https://www.wikidata.org/wiki/Property:P865)
   : BMLO
 [`P866`](https://www.wikidata.org/wiki/Property:P866)
@@ -361,11 +363,11 @@ Die folgende Liste enthält alle in Wikidata vorhandenen [Normdaten-Eigenschafte
 [`P888`](https://www.wikidata.org/wiki/Property:P888)
   : JSTOR
 [`P889`](https://www.wikidata.org/wiki/Property:P889)
-  : *Mathematical Reviews identifier*
+  : Mathematischer Rezessions-Identifikator
 [`P892`](https://www.wikidata.org/wiki/Property:P892)
   : RFC
 [`P893`](https://www.wikidata.org/wiki/Property:P893)
-  : *Social Science Research Network ID*
+  : Sozial-Wissenschaftliches Forschungs-Netzwerk ID
 [`P902`](https://www.wikidata.org/wiki/Property:P902)
   : Artikelnummer im HLS
 [`P906`](https://www.wikidata.org/wiki/Property:P906)
@@ -373,13 +375,13 @@ Die folgende Liste enthält alle in Wikidata vorhandenen [Normdaten-Eigenschafte
 [`P907`](https://www.wikidata.org/wiki/Property:P907)
   : AMG Spiele ID
 [`P909`](https://www.wikidata.org/wiki/Property:P909)
-  : *Nova Scotia Register of Historic Places identifier*
+  : Nova Scotia Indentifikationsregister von "Historischen Plätzen"
 [`P911`](https://www.wikidata.org/wiki/Property:P911)
   : Südafrikanischer Gemeinde-Code
 [`P920`](https://www.wikidata.org/wiki/Property:P920)
-  : *Spanish subject headings for public libraries*
+  : Spanische Schlagwörter für öffentliche Bibliotheken
 [`P933`](https://www.wikidata.org/wiki/Property:P933)
-  : *heritagefoundation.ca ID*
+  : hertiagefoundation.ca ID
 [`P935`](https://www.wikidata.org/wiki/Property:P935)
   : Commons-Galerie
 [`P938`](https://www.wikidata.org/wiki/Property:P938)
@@ -429,7 +431,7 @@ Die folgende Liste enthält alle in Wikidata vorhandenen [Normdaten-Eigenschafte
 [`P1017`](https://www.wikidata.org/wiki/Property:P1017)
   : BAV (Vatikan)
 [`P1024`](https://www.wikidata.org/wiki/Property:P1024)
-  : *SBFI occupation code*
+  : SBFI Codebesetzung
 [`P1025`](https://www.wikidata.org/wiki/Property:P1025)
   : SUDOC Editionen
 [`P1036`](https://www.wikidata.org/wiki/Property:P1036)
@@ -549,4 +551,6 @@ Die folgende Liste enthält alle in Wikidata vorhandenen [Normdaten-Eigenschafte
 [`P1289`](https://www.wikidata.org/wiki/Property:P1289)
   : Kritisches Lexikon der fremdsprachigen Gegenwartsliteratur
 [`P1296`](https://www.wikidata.org/wiki/Property:P1296)
-  : *Gran Enciclopèdia Catalana ID*
+  : Große katalanische Enzyklopädie
+[`P1311`](https://www.wikidata.org/wiki/Property:P1311)
+  : lostbridges.org ID
