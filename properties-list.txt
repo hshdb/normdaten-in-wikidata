@@ -552,5 +552,7 @@ Die folgende Liste enthält alle in Wikidata vorhandenen [Normdaten-Eigenschafte
   : Kritisches Lexikon der fremdsprachigen Gegenwartsliteratur
 [`P1296`](https://www.wikidata.org/wiki/Property:P1296)
   : Große katalanische Enzyklopädie
+[`P1309`](https://www.wikidata.org/wiki/Property:P1309)
+  : EGAXA
 [`P1311`](https://www.wikidata.org/wiki/Property:P1311)
   : lostbridges.org ID

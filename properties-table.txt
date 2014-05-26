@@ -279,4 +279,5 @@ id | Name | Beschreibung
 [`P1288`](https://www.wikidata.org/wiki/Property:P1288) | Kritisches Lexikon der Gegenwartsliteratur | 
 [`P1289`](https://www.wikidata.org/wiki/Property:P1289) | Kritisches Lexikon der fremdsprachigen Gegenwartsliteratur | 
 [`P1296`](https://www.wikidata.org/wiki/Property:P1296) | Große katalanische Enzyklopädie | 
+[`P1309`](https://www.wikidata.org/wiki/Property:P1309) | EGAXA | Normdateneintrag in der Bibliotheca Alexandrina
 [`P1311`](https://www.wikidata.org/wiki/Property:P1311) | lostbridges.org ID | 
