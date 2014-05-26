@@ -1,0 +1,61 @@
+\documentclass[
+    a5paper,pagesize,
+    10pt,
+    ngerman
+]{scrartcl}
+\usepackage[T1]{fontenc}
+
+\usepackage[
+    paperwidth=148mm,paperheight=210mm,
+    left=0cm, bottom=0cm, top=0cm
+]{geometry}
+
+\usepackage{adjustbox}
+\usepackage{tikz}
+\usepackage{tikzpagenodes}
+\usetikzlibrary{calc}
+\usetikzlibrary{fit}
+\usepackage{xcolor}
+
+\definecolor{wmred}{rgb}{0.6,0,0}
+\definecolor{wmgreen}{rgb}{0.2,0.6,0.4}
+\definecolor{wmblue}{rgb}{0,0.4,0.6}
+
+\usepackage{eso-pic}
+\AddToShipoutPicture{%
+    \resizebox{\paperwidth}{\paperheight}{
+    \begin{tikzpicture}
+      \path[fill=wmred] (0,0) rectangle (10mm,210mm);
+      \path[fill=wmred] (20mm,0) rectangle (50mm,210mm);
+      \path[fill=wmred] (60mm,0) rectangle (90mm,210mm);
+      \path[fill=wmgreen] (100mm,0) rectangle (110mm,210mm);
+      \path[fill=wmgreen] (120mm,0) rectangle (130mm,210mm);
+      \path[fill=wmblue] (140mm,0) rectangle (170mm,210mm);
+      \path[fill=wmblue] (180mm,0) rectangle (190mm,210mm);
+      \path[fill=wmblue] (200mm,0) rectangle (230mm,210mm);
+      \path[fill=wmgreen] (240mm,0) rectangle (250mm,210mm);
+      \path[fill=wmgreen] (260mm,0) rectangle (270mm,210mm);
+    \end{tikzpicture}
+  }
+}
+
+\begin{document}
+\pagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay]
+  \node[fill=white,fill opacity=0.9,text opacity=1,inner sep=7mm,
+        text width=102mm,anchor=south,yshift=2cm,xshift=-6mm] at (current page.center) {
+Wikidata ist eine freie, gemeinsame Datenbank und Projekt der Wikimedia-Foundation. Ziel ist es, strukturierte Daten zu zentralisieren und nutzbar zu machen. Dieses Handbuch bietet mit detaillierten und bebilderten Texten eine Anleitung zur Unterstützung des Wikidata-Projektes. Ein theoretischer und ein praktischer Teil erläutern die wichtigsten Begriffe und erklären Wikidata Schritt für Schritt. Dabei wird ein Schwerpunkt auf das Thema Normdaten in Wikidata gelegt. Ein Glossar sowie eine FAQ geben Hilfestellung bei Begriffen und Fragen. 
+\\
+\vspace*{\baselineskip}
+Dieses Handbuch entstand im Rahmen eines Projektseminars im Sommersemester 2014 an der Hochschule Hannover. Alle Inhalte des Handbuchs stehen unter den Bedingungen der CC-BY-SA Lizenz zur freien Verfügung.
+};
+
+\node[fill=white,anchor=south east,yshift=8mm,xshift=-10mm]
+at (current page.south east)
+{
+    \includegraphics[scale=1.0]{isbn_barcode.pdf}
+};
+\end{tikzpicture}
+
+
+\end{document}
