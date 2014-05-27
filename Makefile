@@ -50,7 +50,12 @@ a4: $(MAIN).pdf
 A4BPAGES=$(shell perl -e 'print join ",", map { (($$_-1) % 4 ? $$_-1 : $$_+3)} 1..68')
 
 a4b: $(MAIN).pdf
-	pdfnup $(MAIN).pdf --a4paper --pages $(A4BPAGES) --nup '2x1' --suffix a4b 
+	pdfjam $(MAIN).pdf $(A4BPAGES) --outfile $(MAIN)-ordered.pdf
+	pdfnup $(MAIN)-ordered.pdf --a4paper --nup '2x1' --suffix a4 
+
+epub: $(MAIN).epub layout/template.epub
+$(MAIN).epub: $(MAIN).md
+	pandoc $(PANDOC_OPTIONS) -o $@ $(EPUB_OPTIONS) $<
 
 # Übersicht
 synopsis: synopsis.md
@@ -85,6 +90,7 @@ LATEX_OPTIONS=--template layout/template.tex \
 			--chapters\
 			--latex-engine xelatex
 HTML_OPTIONS=--template layout/template.html --css layout/buttondown.css --css layout/layout.css --include-before layout/header.html
+EPUB_OPTIONS=--template layout/template.epub
 ODT_OPTIONS=
 
 .md.html:

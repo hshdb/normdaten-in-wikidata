@@ -1,11 +1,14 @@
-cover: frontcover backcover
+cover: clean cover.pdf
+
+cover.pdf: frontcover backcover
+
 frontcover: frontcover.pdf
 backcover: backcover.pdf
 
 .SUFFIXES: .tex .pdf
 
 .tex.pdf:
-	xelatex $<
+	rm -f $@; xelatex $<
 
 clean:
-	rm *.aux *.log 
+	rm -f *.aux *.log 

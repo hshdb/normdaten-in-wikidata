@@ -6,7 +6,9 @@
 * Aktuelle PDF-Version:
   [A5](http://hshwd.jakobvoss.de/normdaten-in-wikidata.pdf)/
   [A4](http://hshwd.jakobvoss.de/normdaten-in-wikidata-a4.pdf)
+  [A4 beidseitig](http://hshwd.jakobvoss.de/normdaten-in-wikidata-ordered-a4.pdf)
 * [Projektmanagement](https://trello.com/hshwd2014) bei Trello
+* [Projektbericht OpenSym](wikidataopensym2014.pdf)
 
 ----
 

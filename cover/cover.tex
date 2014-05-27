@@ -1,69 +1,59 @@
-\documentclass[10pt]{scrartcl}
-    \usepackage{xltxtra,xunicode}
-
+\documentclass{memoir}
+% Anforderung von lulu.com:
+% Buchrücken Breite: 11.027 Postscript Points breit (0.389cm) (46 px)
+% Buchrücken beginnt 429 Postscriptpunkte (15.132cm) (1788 px) von der linken Seite.
+% Gesamte Cover Breite: 869.027 X 613 Postscript Points (30.654cm X 21.623cm) (3621px X 2554px)
 \usepackage[
-    paperwidth=30.654cm, paperheight=21.623cm,
-    left=0cm, bottom=0cm, top=0cm
+    paperwidth=31.294cm,  % 30.654 ( TODO - 2*0.32 )
+    paperheight=21.623cm, %
+    left=2.2mm,right=0mm, 
+    top=2.2mm,bottom=2.2mm
 ]{geometry}
 
-%\usepackage{pstricks}
 \usepackage{tikz}
 \usepackage{tikzpagenodes}
 \usetikzlibrary{calc}
 \usepackage{eso-pic}
 
+\definecolor{wmred}{rgb}{0.6,0,0}
+\definecolor{wmgreen}{rgb}{0.2,0.6,0.4}
+\definecolor{wmblue}{rgb}{0,0.4,0.6}
+
 \AddToShipoutPicture{%
 \begin{tikzpicture}[remember picture, overlay]
-  % Buchrücken
-  \draw[color=red,fill=red]
-       ($(current page.north) +(5.27mm,0)$) rectangle
-       ($(current page.south) +(-5.27mm,0)$);
 
-  
-  \node[] {
+% Schnittmarken
+%\draw[color=blue] 
+%    ($(current page.north west) +(3.2mm,-3.25mm)$) rectangle 
+%    ($(current page.south east) +(-3.2mm,3.25mm)$);
 
-  };
-\end{tikzpicture}%
+% Mitte der Vorderseite
+%\draw[color=gray] 
+%    ($(current page.north east) +(-3.2mm,-3.25mm) -(7.565cm,0)$) to
+%    ($(current page.south east) +(-3.2mm,-3.25mm) -(7.565cm,0)$);
+
+% Buchrücken (grün/weiß)
+\path[fill=wmgreen,draw=wmgreen]
+    ($(current page.north) +(-2.2mm,-2.1mm)$) rectangle
+    ($(current page.south) +(0mm,+2.1mm)$);
+
+%\draw[color=gray,dotted] (current page.north) to (current page.south);
+
+%\draw[color=red,dotted] 
+%    ($(current page.north west) +(3.2mm,-3.25mm)$) rectangle
+%    ++(15.13cm,-20.973cm);
+%
+%\draw[color=red,dotted]
+%    (current page.east) to (current page.west);
+
+\end{tikzpicture}
 }
 
 \begin{document}
 \pagestyle{empty}
 \noindent
-
-% TODO: Nach rechts
-\fbox{%
-\begin{minipage}[t][21cm]{146.5mm}
-...
-\end{minipage}
-}%
-\fbox{%
-\begin{minipage}[t][21cm]{146.5mm}
-\begin{center}
-\sffamily
-\vspace{2cm}
-{
-  {\huge Normdaten in Wikidata}
-  \vspace{0.5cm}
-  
-  {\bfseries\LARGE -- Handbuch -- }
-  \vspace{0.5cm}
-
-}
-\vfill
-{
-  \large
-  Hochschule Hannover Fakultät III\\
-  Abteilung Information \& Kommunikation
-}
-
-Jakob Voß \textbar\ Susanna Bausch \textbar\ Julian Schmitt \textbar\ Jasmin Bogner \\
-Viktoria Berkelmann \textbar\ Franziska Ludemann \textbar\ Oliver Löffel \\
-Janna Kitroschat \textbar\ Maiia Bartoshevska \textbar\ Katharina Seljuzki
-
-%\includegraphics{../images/cc-by-sa.png}
-
-\end{center}
-\end{minipage}
-}
-
+% Vergrößerung auf 101% = 2mm höher
+\includegraphics[height=21.18cm,width=15.27cm]{backcover.pdf}
+\hspace{1mm}
+\includegraphics[height=20.973cm,width=15.13cm]{frontcover.pdf}
 \end{document}
