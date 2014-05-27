@@ -44,8 +44,13 @@ $(MAIN).pdf: $(MAIN).tex
 	
 # PDF-Version
 .PHONY: a4
-a4: 
+a4: $(MAIN).pdf
 	pdfnup $(MAIN).pdf --nup '2x1' --a4paper --openright true --suffix a4 
+
+A4BPAGES=$(shell perl -e 'print join ",", map { (($$_-1) % 4 ? $$_-1 : $$_+3)} 1..68')
+
+a4b: $(MAIN).pdf
+	pdfnup $(MAIN).pdf --a4paper --pages $(A4BPAGES) --nup '2x1' --suffix a4b 
 
 # Übersicht
 synopsis: synopsis.md
