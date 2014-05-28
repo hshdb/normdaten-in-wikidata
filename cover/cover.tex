@@ -4,9 +4,10 @@
 % Buchrücken beginnt 429 Postscriptpunkte (15.132cm) (1788 px) von der linken Seite.
 % Gesamte Cover Breite: 869.027 X 613 Postscript Points (30.654cm X 21.623cm) (3621px X 2554px)
 \usepackage[
-    paperwidth=31.294cm,  % 30.654 ( TODO - 2*0.32 )
+    % paperwidth=31.294cm,  % 30.654 ( TODO - 2*0.32 )
+    paperwidth=30.654cm,  % 30.654 ( TODO - 2*0.32 )
     paperheight=21.623cm, %
-    left=2.2mm,right=0mm, 
+    left=1.8mm,right=0mm, 
     top=2.2mm,bottom=2.2mm
 ]{geometry}
 
@@ -26,6 +27,9 @@
 %\draw[color=blue] 
 %    ($(current page.north west) +(3.2mm,-3.25mm)$) rectangle 
 %    ($(current page.south east) +(-3.2mm,3.25mm)$);
+%\draw[color=blue] 
+%    ($(current page.north west) +(3.2mm,0mm)$) to 
+%    ($(current page.south west) +(3.2mm,0mm)$); 
 
 % Mitte der Vorderseite
 %\draw[color=gray] 
@@ -34,17 +38,12 @@
 
 % Buchrücken (grün/weiß)
 \path[fill=wmgreen,draw=wmgreen]
-    ($(current page.north) +(-2.2mm,-2.1mm)$) rectangle
-    ($(current page.south) +(0mm,+2.1mm)$);
+    ($(current page.north) +(-2.2mm,-2mm)$) rectangle
+    ($(current page.south) +(0mm,2mm)$);
 
-%\draw[color=gray,dotted] (current page.north) to (current page.south);
-
-%\draw[color=red,dotted] 
-%    ($(current page.north west) +(3.2mm,-3.25mm)$) rectangle
-%    ++(15.13cm,-20.973cm);
-%
-%\draw[color=red,dotted]
-%    (current page.east) to (current page.west);
+%\path[draw=wmblue]
+%    ($(current page.north) -(0.1945cm,0)$) rectangle
+%    ($(current page.south) +(0.1945cm,0)$);
 
 \end{tikzpicture}
 }
@@ -52,8 +51,9 @@
 \begin{document}
 \pagestyle{empty}
 \noindent
-% Vergrößerung auf 101% = 2mm höher
-\includegraphics[height=21.18cm,width=15.27cm]{backcover.pdf}
-\hspace{1mm}
-\includegraphics[height=20.973cm,width=15.13cm]{frontcover.pdf}
+% A5 vergrößert auf 101% (etwa 2mm höher)
+\includegraphics[height=21.18cm,width=15cm]{backcover.pdf}
+\hspace{0.3mm}
+% A5 148 x 210
+\includegraphics[height=20.973cm,width=14.8cm]{frontcover.pdf}
 \end{document}
