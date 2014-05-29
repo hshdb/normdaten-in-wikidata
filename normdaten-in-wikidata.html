@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
+  <meta name="dcterms.date" content="2014-05-27">
   <title>Normdaten in Wikidata</title>
   <style type="text/css">code{white-space: pre;}</style>
   <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
   <!-- jQuery und Annotator -->
@@ -22,7 +23,7 @@
 
 <header>
   <div id="title">Normdaten in Wikidata</div>
-      <div id="date">SS 2014</div>
+      <div id="date">2014-05-27</div>
   </header>
 <nav id="TOC">
 <ul>
@@ -55,212 +56,215 @@
 <li><a href="#übersicht-der-wikidata-startseite"><span class="toc-section-number">6.1</span> Übersicht der Wikidata-Startseite</a></li>
 <li><a href="#spracheinstellung-in-wikidata"><span class="toc-section-number">6.2</span> Spracheinstellung in Wikidata</a><ul>
 <li><a href="#änderung-der-inhaltssprache-von-wikidata"><span class="toc-section-number">6.2.1</span> Änderung der Inhaltssprache von Wikidata</a></li>
+<li><a href="#änderung-der-oberflächensprache-von-wikidata"><span class="toc-section-number">6.2.2</span> Änderung der Oberflächensprache von Wikidata</a></li>
 </ul></li>
-<li><a href="#änderung-der-oberflächensprache-von-wikidata"><span class="toc-section-number">6.3</span> Änderung der Oberflächensprache von Wikidata</a></li>
-<li><a href="#inhalte-finden-in-wikidata"><span class="toc-section-number">6.4</span> Inhalte finden in Wikidata</a><ul>
-<li><a href="#suche-nach-items"><span class="toc-section-number">6.4.1</span> Suche nach Items</a></li>
-<li><a href="#suche-nach-eigenschaften"><span class="toc-section-number">6.4.2</span> Suche nach Eigenschaften</a></li>
-<li><a href="#suche-nach-aussagen"><span class="toc-section-number">6.4.3</span> Suche nach Aussagen</a></li>
+<li><a href="#inhalte-finden-in-wikidata"><span class="toc-section-number">6.3</span> Inhalte finden in Wikidata</a><ul>
+<li><a href="#suche-nach-items"><span class="toc-section-number">6.3.1</span> Suche nach Items</a></li>
+<li><a href="#suche-nach-eigenschaften"><span class="toc-section-number">6.3.2</span> Suche nach Eigenschaften</a></li>
+<li><a href="#suche-nach-aussagen"><span class="toc-section-number">6.3.3</span> Suche nach Aussagen</a></li>
 </ul></li>
-<li><a href="#wikidata-bearbeitungen"><span class="toc-section-number">6.5</span> Wikidata-Bearbeitungen</a><ul>
-<li><a href="#neue-items-anlegen"><span class="toc-section-number">6.5.1</span> Neue Items anlegen</a></li>
-<li><a href="#übersetzungen-in-wikidata"><span class="toc-section-number">6.5.2</span> Übersetzungen in Wikidata</a></li>
-<li><a href="#aussagen-bearbeiten"><span class="toc-section-number">6.5.3</span> Aussagen bearbeiten</a></li>
-<li><a href="#neue-eigenschaften-vorschlagen"><span class="toc-section-number">6.5.4</span> Neue Eigenschaften vorschlagen</a></li>
+<li><a href="#wikidata-bearbeitungen"><span class="toc-section-number">6.4</span> Wikidata-Bearbeitungen</a><ul>
+<li><a href="#neue-items-anlegen"><span class="toc-section-number">6.4.1</span> Neue Items anlegen</a></li>
+<li><a href="#übersetzungen-in-wikidata"><span class="toc-section-number">6.4.2</span> Übersetzungen in Wikidata</a></li>
+<li><a href="#aussagen-bearbeiten"><span class="toc-section-number">6.4.3</span> Aussagen bearbeiten</a></li>
+<li><a href="#neue-eigenschaften-vorschlagen"><span class="toc-section-number">6.4.4</span> Neue Eigenschaften vorschlagen</a></li>
 </ul></li>
-<li><a href="#wikidata-in-anderen-anwendungen-weiternutzen"><span class="toc-section-number">6.6</span> Wikidata in anderen Anwendungen weiternutzen</a><ul>
-<li><a href="#alternative-benutzeroberflächen"><span class="toc-section-number">6.6.1</span> Alternative Benutzeroberflächen</a></li>
-<li><a href="#zugriff-per-mediawiki-api"><span class="toc-section-number">6.6.2</span> Zugriff per MediaWiki-API</a></li>
-<li><a href="#download-der-gesamten-datenbank"><span class="toc-section-number">6.6.3</span> Download der gesamten Datenbank</a></li>
-<li><a href="#komplexere-abfragen-und-analysen"><span class="toc-section-number">6.6.4</span> Komplexere Abfragen und Analysen</a></li>
-<li><a href="#bereitstellung-von-normdaten-mappings"><span class="toc-section-number">6.6.5</span> Bereitstellung von Normdaten-Mappings</a></li>
+<li><a href="#wikidata-in-anderen-anwendungen-weiternutzen"><span class="toc-section-number">6.5</span> Wikidata in anderen Anwendungen weiternutzen</a><ul>
+<li><a href="#alternative-benutzeroberflächen"><span class="toc-section-number">6.5.1</span> Alternative Benutzeroberflächen</a></li>
+<li><a href="#zugriff-per-mediawiki-api"><span class="toc-section-number">6.5.2</span> Zugriff per MediaWiki-API</a></li>
+<li><a href="#download-der-gesamten-datenbank"><span class="toc-section-number">6.5.3</span> Download der gesamten Datenbank</a></li>
+<li><a href="#komplexere-abfragen-und-analysen"><span class="toc-section-number">6.5.4</span> Komplexere Abfragen und Analysen</a></li>
+<li><a href="#bereitstellung-von-normdaten-mappings"><span class="toc-section-number">6.5.5</span> Bereitstellung von Normdaten-Mappings</a></li>
 </ul></li>
 </ul></li>
-<li><a href="#frequently-asked-questions">Frequently Asked Questions</a></li>
 <li><a href="#glossar">Glossar</a></li>
-<li><a href="#literaturverzeichnis">Literaturverzeichnis</a><ul>
-<li><a href="#hilfreiche-seiten-in-wikidata">Hilfreiche Seiten in Wikidata</a></li>
-</ul></li>
+<li><a href="#frequently-asked-questions">Frequently Asked Questions</a></li>
+<li><a href="#literaturverzeichnis">Literaturverzeichnis</a></li>
 <li><a href="#liste-aller-normdaten-eigenschaften">Liste aller Normdaten-Eigenschaften</a></li>
+<li><a href="#über-dieses-handbuch">Über dieses Handbuch</a></li>
 </ul>
 </nav>
 <div id="content">
 <h1 id="vorwort" class="unnumbered"><a href="#vorwort">Vorwort</a></h1>
-<p>Dieses Handbuch entstand innerhalb von drei Monaten im Rahmen eines Projektseminars an der Hochschule Hannover (HsH). Neun Studierende des Bachelor-Studiengangs Informationsmanagement hatten im 6. Semester unter Projektleitung von Jakob Voß die Aufgabe, ohne wesentliche Vorkenntnisse ein Handbuch zum Thema “Normdaten in Wikidata” zu erstellen. Die Hauptautorinnen und -Autoren dieses Handbuchs sind Franziska Ludemann, Viktoria Berkelmann, Janna Kitroschat, Jasmin Bogner, Julian Schmitt, Katharina Seljuzki, Maiia Bartoshevska, Oliver Löffel und Susanna Bausch.</p>
-<p>Zur Verwaltung der Inhalte dieses Handbuchs wird ein Repository des Versionskontrollsystem <em>git</em> verwendet, das alle Bearbeitungsschritte und Änderungen beinhaltet.</p>
-<p>Das Handbuch gliedert sich in einen theoretischen ersten Teil, welcher die grundlegenden Eigenschaften von Wikidata und Normdaten in Wikidata erläutert. Im zweiten Teil erhält der Leser einen Einblick in das praktische Arbeiten mit und in Wikidata. Abgerundet wird der Text durch zahlreiche Beispiele, Merkkästen und ein umfangreiches <a href="#glossar">Glossar</a>.</p>
-<p><strong>Was benötigt man für die Benutzung?</strong> - Internetverbindung - Benutzeraccount bei Wikidata</p>
-<div class="example">
-
-<p>Beispiele und wichtige Hinweise sind durch Merkkästen wie diesen hier hervorgehoben. Alle <strong>fett markierten</strong> Begriffe im Fließtext werden im <a href="#glossar">Glossar</a> definiert. Interne Verweise auf Kapitel dieses Handbuchs sind mit einem Pfeil gekennzeichnet.</p>
-</div>
-
-<p>Des Weiteren existieren externe Verlinkungen, zum Beispiel <a href="https://www.wikidata.org/w/index.php?title=Wikidata:Hauptseite&amp;oldid=119860805">Wikidata-Hauptseite</a>. Zu dieser Form zählen alle Literaturhinweise und Quellen dieses Handbuches. Auch externe Verlinkungen zu Wikidata-Items und Wikidata-Eigenschaften erscheinen mit Schreibmaschinenschrift, zum Beispiel Japan <a href="https://www.wikidata.org/wiki/Q17"><code>Q17</code></a>).</p>
-<p>Da es sich um ein dynamisches Projekt handelt, ist es möglich, dass die im Buch abgebildeten Screenshots nicht dem aktuellen Webseitendesign entsprechen. Der letzte Stand der Screenshots ist Mai 2014.</p>
+<p>Wikidata ist eine Datenbank zur Sammlung und Strukturierung von Daten. Es ist ein Projekt der Wikimedia-Foundation. Wikidata kann von jedem benutzt und unterstützt werden. Das Projekt hat zum Ziel die Datenpflege in Wikipedia zu zentralisieren und zu vereinfachen.</p>
+<p>Das Handbuch gliedert sich in einen theoretischen Teil, der die grundlegenden Eigenschaften von Wikidata und den Normdaten in Wikidata erläutert. Im zweiten Teil erhält der Leser einen Einblick in das praktische Arbeiten mit Wikidata. Für die erfolgreiche Benutzung des Handbuches benötigt man ein internetfähiges Endgerät und einen Account bei Wikidata. Alle Inhalte des Handbuchs stehen unter den Bedingungen der <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC-BY-SA Lizenz</a> zur freien Verfügung. Weitere Informationen zur Entstehung und Weiternutzung stehen im Anhang <a href="#über-dieses-handbuch">Über dieses Handbuch</a>. Da es sich um ein dynamisches Projekt handelt, ist es möglich, dass die im Buch abgebildeten und beschriebenen Screenshots nicht mehr dem aktuellen Webseitendesign entsprechen können. Der letzte Stand der Screenshots und der Texte ist der Mai 2014.</p>
+<p>Dieses Handbuch entstand innerhalb von drei Monaten im Rahmen eines Projektseminars an der Hochschule Hannover (HsH). Neun Studierende des Bachelor-Studiengangs Informationsmanagement hatten im Sommersemester 2014 unter Projektleitung von Jakob Voß die Aufgabe, ohne wesentliche Vorkenntnisse ein Handbuch zum Thema “Normdaten in Wikidata” zu erstellen. Die Haupt-Autorinnen und -Autoren dieses Handbuchs sind Franziska Ludemann, Viktoria Berkelmann, Janna Kitroschat, Jasmin Bogner, Julian Schmitt, Katharina Seljuzki, Maiia Bartoshevska, Oliver Löffel und Susanna Bausch.</p>
 <h1 id="einleitung"><a href="#einleitung"><span class="header-section-number">1</span> Einleitung</a></h1>
-<p>Das Handbuch bietet eine detaillierte Anleitung zur Verwendung und Unterstützung des Wikidata-Projektes. Es werden wichtige Fachbegriffe erläutert und eine reichhaltige Bebilderung wird Ihnen die Abläufe und Möglichkeiten von Wikidata einfach und verständlich erklären.</p>
-<p>Benutzer können in Wikidata Einträge (<a href="#wikidata-items">Items</a>) anlegen, die Einträge durch <a href="#wikidata-aussagen">Aussagen</a> beschreiben und mit anderen Items verknüpften. Mit <a href="#belege">Belegen</a> und <a href="#qualifikatoren">Qualifikatoren</a> können Aussagen belegt und in einen Kontext eingesetzt werden. Um die Qualität einer Aussage einstufen zu können helfen <a href="#ränge">Ränge</a>, die als Qualitätsfaktoren zum Einsatz kommen. Benutzer können Verknüpfungen erstellen. Beispielsweise können Sie Objekte zu Personen mit einem Geburtsort, mit ihrer Beschäftigung oder mit ihrem Eintrag in einer Normdatei verknüpfen oder einen Politiker einer Partei zuordnen. Benutzer können einem Berggipfel, Plätzen oder einem Gebäude Geokoordinaten geben, eine Kommune der nächsthöheren Verwaltungseinheit zuordnen, einem Land das Staatsoberhaupt und die Nationalhymne verlinken usw. All diese Informationen können in jeder Sprache genutzt werden, um sie in Infoboxen in der eigenen Sprache anzuzeigen, auch wenn alle Informationen aus einer anderen Sprache stammen.</p>
-<p>Die Begriffsdefinitionen zu <a href="#einführung-in-normdaten">Normdaten</a> leiten den Hauptteil des Buches, den Theorieteil ein. Hier wird neben der Definition auch die Anwendungsweise erklärt. Dabei wird auf die Entstehung von Wikidata als <a href="#wikidata-als-datenbank">Datenbank</a> und auf die Inhalte, inklusive <a href="#ziele-von-wikidata">Ziele</a> eingegangen. Dem schließen sich die Begriffserklärung [Wikidata] (#entstehung-von-wikidata) und die Geschichte dieses Projektes an. Über Wikidata und die <a href="#inhalte-von-wikidata">Inhalte</a> bzw. Ziele von Wikidata lernt der Benutzer die Oberfläche von Wikidata näher kennen und findet hier auch eine <a href="#bestandteile-von-wikidata" title="Oberflächenbeschreibung">Oberflächenbeschreibung</a> vor.</p>
-<p><a href="#wikidata-items">Wikidata-Items</a> stellt in Wikidata eine zentrale Einheit dar. Des Weiteren ist das Erstellen von neuen <a href="#wikidata-eigenschaften">Wikidata-Eigenschaften</a> ein wichtiger Punkt. Dabei werden auch die sogenannte ID-Referenzierung und entsprechende Beispiele aufgezeigt. <a href="#übersetzungen-in-wikidata" title="Übersetzungen in Wikidata">Übersetzungen in Wikidata</a> erklärt Möglichkeiten und Hilfen für diese Tätigkeit. Erklärt werden “Universale Sprachauswahl”, “Babel-Bausteinen” und “Liste der Bezeichnungen”. Dabei wird auch auf die Weiternutzung von vorhandenen Daten eingegangen.</p>
-<p>Das Handbuch verfügt auch über <a href="#faq">FAQ</a> welches die dringendsten Fragen beantwortet. Ein <a href="l#glossar" title="Glossar">Glossar</a> mit Begriffserklärungen rundet das Ganze ab. Ein <a href="#literaturverzeichnis" title="Literaturverzeichnis">Literaturverzeichnis</a> mit weiterführenden Links und empfehlenswerten Büchern/Links enthält ausführliche Informationen für den Leser. Die <a href="l#liste-aller-normdaten-eigenschaften" title="Liste aller Normdaten-Eigenschaften">Liste aller Normdaten-Eigenschaften</a> beenden das Handbuch.</p>
+<p>Das Handbuch bietet eine detaillierte Anleitung zur die Verwendung und Unterstützung des Wikidata-Projektes. Es werden wichtige Fachbegriffe erläutert und eine reichhaltige Bebilderung wird Ihnen die Abläufe und Möglichkeiten von Wikidata einfach und verständlich erklären.</p>
+<p>Benutzer können in Wikidata Einträge (<a href="#wikidata-items">Items</a>) anlegen, die Einträge durch <a href="#wikidata-aussagen">Aussagen</a> beschreiben und mit anderen Items verknüpfen. Mit <a href="#belege">Belegen</a> und <a href="#qualifikatoren">Qualifikatoren</a> können Aussagen gestützt und in einen Kontext gesetzt werden. Um die Qualität einer Aussage einstufen zu können helfen <a href="#ränge">Ränge</a>, die als Qualitätsfaktoren zum Einsatz kommen. Benutzer können Verknüpfungen erstellen, wie beispielsweise Objekte zu Personen mit einem Geburtsort, ihrer Beschäftigung, ihrer Partei oder ihrem Eintrag in einer Normdatei. Diese Informationen können in jeder Sprache genutzt werden, um sie in Infoboxen in der eigenen Sprache anzuzeigen, auch wenn alle Informationen aus einer anderen Sprache stammen.</p>
+<p>Die Begriffsdefinition zu <a href="#einführung-in-normdaten">Normdaten</a> leitet den Theorieteil, ein. Hier werden Definition und Anwendungsweise erklärt. Dabei wird auf die Entstehung von Wikidata als <a href="#wikidata-als-datenbank">Datenbank</a> und auf die Inhalte-, sowie die <a href="#ziele-von-wikidata">Ziele</a> eingegangen. Dem schließen sich die Begriffserklärung und die <a href="#entstehung-von-wikidata">Geschichte Wikidatas</a> an. Der Benutzer lernt die Oberfläche von Wikidata und deren <a href="#inhalte-von-wikidata">Inhalte</a> näher kennen und findet eine <a href="#bestandteile-von-wikidata" title="Oberflächenbeschreibung">Oberflächenbeschreibung</a> vor.</p>
+<p>Die <a href="#wikidata-items">Wikidata-Items</a> sind in Wikidata eine zentrales Themengebiet. Das Erstellen von neuen <a href="#wikidata-eigenschaften">Wikidata-Eigenschaften</a> und die ID-Referenzierung sind ein herausragendes Thema. Der Abschnitt <a href="#übersetzungen-in-wikidata" title="Übersetzungen in Wikidata">Übersetzungen in Wikidata</a> stellt die Funktionalität dar. Erklärt werden hier die “Universale Sprachauswahl”, die “Babel-Bausteine” und die “Liste der Bezeichnungen”.</p>
+<p>Das Handbuch verfügt über ein <a href="#frequently-asked-questions">FAQ</a>, in dem die wichtigsten Fragen beantwortet. Ein <a href="#glossar">Glossar</a>, das <a href="#literaturverzeichnis">Literaturverzeichnis</a> mit weiterführenden Büchern und Links und die <a href="#liste-aller-normdaten-eigenschaften">Liste aller Normdaten-Eigenschaften</a> runden das Handbuch ab.</p>
 <h1 id="einführung-in-normdaten"><a href="#einführung-in-normdaten"><span class="header-section-number">2</span> Einführung in Normdaten</a></h1>
-<p>Eine <strong>Normdatei</strong> ist ein Verzeichnis von normierten Begriffen zur Verwendung als <strong>Deskriptor</strong> in der Dokumentation. Im Englischen werden Normdateien als „authority files“ bezeichnet. Normierte Begriffe können Personennamen, Körperschaftsnamen und beliebige andere Mengen von Bezeichnungen von Dingen, Vorgängen oder abstrakten Vorstellungen sein. Der Bildung von Normbegriffen liegt eine <strong>Ontologie</strong> (Hierarchie &amp; Relation) zugrunde, die die jeweils zu normierenden Begriffe und die Art der Normierung festlegt. Die Normbegriffe gehören nach Vergabe zu den <strong>Metadaten</strong> des jeweiligen Datensatzes.</p>
-<p>Mit <strong>Normdaten</strong> kann man eindeutig auf verschiedene Objekte (beispielsweise Orte, Person, Themen, Organisationen) verweisen. Normdaten werden unter anderem in Bibliotheken zur Erschließung und zur <strong>Indexierung</strong> von Dokumenten eingesetzt. Beispiele für Normdateien sind die <strong>GND</strong> (Gemeinsame Normdatei), die ICD-10 (eine <strong>Klassifikation</strong> für Krankheiten) oder der Art &amp; Architecture Thesaurus (ein <strong>Thesaurus</strong>). Einzelne Normdatensätze werden in einer Normdatei durch eindeutige Benennungen (“bevorzugte Benennungen”) oder durch ID-Nummern identifiziert. Mithilfe von <strong>Mapping</strong> können verschiedenen Informationssystemen interoperal Normdateien abgleichen und eine <strong>Konkordanz</strong> zwischen Normdateien erstellen. Eine Konkordanz ist eine Liste, in der alle Stellen angegeben sind, in der das gesuchte Wort vorkommt.</p>
+<p>Eine <strong>Normdatei</strong> (engl. “authority file”) ist ein Verzeichnis von normierten Begriffen. Normierte Begriffe können Personennamen, Körperschaftsnamen, Geografika, Musikalia, Verwaltungseinheiten und andere Konzepte der realen Welt sein. Für den Aufbau von Normdateien gibt es verschiedene Regelwerke, die die Form der normierenden Begriffe festlegt. Normdaten sind stets ein Bestandteil der <strong>Metadaten</strong> in einem Datensatz.</p>
+<p>Mit <strong>Normdaten</strong> kann man eindeutig auf verschiedene Objekte (beispielsweise Orte, Personen, Themen, Organisationen) verweisen. Normdaten werden unter anderem in Bibliotheken zur Erschließung und zur <strong>Indexierung</strong> von Dokumenten eingesetzt. Beispiele für Normdateien sind die <strong>GND</strong> (Gemeinsame Normdatei), die ICD-10 (eine <strong>Klassifikation</strong> für Krankheiten) oder der Art &amp; Architecture Thesaurus (ein <strong>Thesaurus</strong>). Einzelne Normdatensätze werden in einer Normdatei durch eindeutige Benennungen, <strong>Notationen</strong> oder durch ID-Nummern identifiziert. Mithilfe von <strong>Mappings</strong> können verschiedene Informationssysteme Normdateien abgleichen und eine <strong>Konkordanz</strong> zwischen Normdateien erstellen. Eine Konkordanz ist eine Liste, in der alle Stellen angegeben sind, in denen das gesuchte Wort vorkommt.</p>
 <div class="example">
-<p>Ausschnitt des Normdatensatz zu “Hannover” in der GND, wie er im <a href="http://d-nb.info/gnd/4023349-2">Katalog der Deutschen Nationalbibliothek</a> abgerufen werden kann:</p>
-<pre><code>ID: http://d-nb.info/gnd/4023349-2
-Geografikum (Ort): Hannover
-Andere Bezeichnung: 
-  Oberstadtdirektor &lt;Hannover&gt; (Spitzenorgan)
-  Hannover / Referat für Stadtentwicklung (Spitzenorgan)
-  Hannover / Oberbürgermeister (Spitzenorgan)
-Definition: 
-  Hauptstadt des Landes Niedersachsen, Verwaltungssitz der  Region Hannover, 1150 als Marktsiedlung Hanovere urkundl. erwähnt, 1202  Stadtrecht
-Land:  Niedersachsen (XA-DE-NI); Deutschland, Deutsches Reich (XA-DXDE)
-DDC-Notation: T2--435954
-Typ: Gebietskörperschaft, Verwaltungseinheit (gik)
-Urheber von: 
-  ...
-Beteiligt an:
-  ...    
-Thema in:
-  ...    </code></pre>
+
+<p>Ausschnitt des GND-Normdatensatz Hannover (<code>4023349-2</code>).</p>
+<dl>
+<dt>ID</dt>
+<dd>http://d-nb.info/gnd/4023349-2
+</dd>
+<dt>Geografikum (Ort)</dt>
+<dd>Hannover
+</dd>
+<dt>Andere Bezeichnung</dt>
+<dd>Oberstadtdirektor <Hannover> (Spitzenorgan), Hannover / Referat für Stadtentwicklung (Spitzenorgan), Hannover / Oberbürgermeister (Spitzenorgan),
+</dd>
+<dt>Definition</dt>
+<dd>Hauptstadt des Landes Niedersachsen, Verwaltungssitz der Region Hannover, 1150 als Marktsiedlung Hanovere urkundl. erwähnt, 1202 Stadtrecht
+</dd>
+<dt>DDC-Notation</dt>
+<dd><code>T2--435954</code>
+</dd>
+<dt>Typ</dt>
+<dd>Gebietskörperschaft, Verwaltungseinheit (gik)
+</dd>
+</dl>
 </div>
 
-<p>Sie sehen hier im Merkkasten ausschnittsweise, dass Hannover der offizielle Name der Stadt ist (bevorzugte Benennung). Daneben gibt es noch andere Bezeichnungen, eine kurze Beschreibung, was der Datensatz beinhaltet und woran dieser Datensatz beteiligt ist (aktiv oder passiv in Publikationen).</p>
+
+
 <h1 id="einführung-in-wikidata"><a href="#einführung-in-wikidata"><span class="header-section-number">3</span> Einführung in Wikidata</a></h1>
-<p>Wikidata ist eine frei zugängliche und eine frei veränderbare Datenbank. Wie unter <a href="#entstehung-von-wikidata">Entstehung von Wikdata</a> beschrieben, dient Wikidata in erster Linie als zentrale Datenbank für alle Projekte der Wikimedia Foundation. Unabhängig davon kann Wikidata aber <a href="#normdaten-in-wikidata">auch als Normdatei</a> verwendet werden. Die Inhalte sind durch Angabe der <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.de">CC-Lizenz</a> gemeinfrei, das heißt ohne Einschränkungen zur <a href="#weiternutzung-in-anderen-anwendungen">Nutzung in anderen Anwendungen</a>. Im Folgenden wird zunächst erklärt, <a href="#wikidata-als-datenbank">was für eine Art von Datenbank</a> Wikidata ist und <a href="#inhalte-von-wikidata">was für Inhalte</a> darin zu finden sind. Wenn Sie mehr an der <a href="#praktische-anwendung" title="praktischen Anwendung">praktischen Anwendung</a> oder an den <a href="#bestandteile-von-wikidata">Bestandteilen von Wikidata</a> interessiert sind, können Sie auch gleich zu den entsprechenden Kapiteln springen.</p>
+<p>Wikidata ist eine frei zugängliche und eine frei veränderbare Datenbank. Wie unter <a href="#entstehung-von-wikidata">Entstehung von Wikdata</a> beschrieben, dient Wikidata in erster Linie als zentrale Datenbank für alle Projekte der Wikimedia Foundation. Unabhängig davon kann Wikidata <a href="#normdaten-in-wikidata">auch als Normdatei</a> verwendet werden. Die Inhalte sind durch Angabe der <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.de">CC-Zero-Lizenz</a> gemeinfrei, also ohne Einschränkungen zur <a href="#wikidata-in-anderen-anwendungen-weiternutzen">Nutzung in anderen Anwendungen</a> freigegeben. Im Folgenden wird zunächst erklärt, <a href="#wikidata-als-datenbank">was für eine Art von Datenbank</a> Wikidata ist und <a href="#inhalte-von-wikidata">welche Inhalte</a> darin zu finden sind. Wenn Sie mehr an der <a href="#praktische-anwendung" title="praktischen Anwendung">praktischen Anwendung</a> oder an den <a href="#bestandteile-von-wikidata">Bestandteilen von Wikidata</a> interessiert sind, können Sie auch gleich zu den entsprechenden Kapiteln springen.</p>
 <h2 id="entstehung-von-wikidata"><a href="#entstehung-von-wikidata"><span class="header-section-number">3.1</span> Entstehung von Wikidata</a></h2>
-<p>Das Wikidata-Projekt wurde im April 2012 durch die Wikimedia Foundation ins Leben gerufen und von Wikimedia Deutschland umgesetzt. Das primäre Ziel von Wikidata war es, Wikipedia und andere Wikimedia-Projekte durch eine zentrale Datenbank zu unterstützen, die Möglichkeiten von Wikidata gehen jedoch weit darüber hinaus. Nach Wikipedia, Wiktionary, Wikibooks, Wikiquote, Wikisource, Wikinews und Wikiversity war Wikidata das erste neue Projekt der Wikimedia-Foundation seit 2006 (inzwischen ist außerdem Wikiversity hinzugekommen). Die Entwicklung von Wikidata wurde durch mehrere Großspenden finanziert. Ab Ende Oktober 2012 konnten in Wikidata Bearbeitungen vorgenommen werden.</p>
+<p>Das Wikidata-Projekt wurde im April 2012 durch die Wikimedia Foundation ins Leben gerufen und von Wikimedia Deutschland umgesetzt. Das primäre Ziel von Wikidata war es, Wikipedia und andere Wikimedia-Projekte durch eine zentrale Datenbank zu unterstützen, die Möglichkeiten von Wikidata gehen jedoch weit darüber hinaus. Nach Wikipedia, Wiktionary, Wikibooks, Wikiquote, Wikisource, Wikinews und Wikiversity war Wikidata das erste neue Projekt der Wikimedia Foundation seit 2006 (Inzwischen ist außerdem Wikiversity hinzugekommen.). Die Entwicklung von Wikidata wurde durch mehrere Großspenden finanziert. Ab Ende Oktober 2012 konnten in Wikidata Bearbeitungen vorgenommen werden.</p>
 <p>Die Entwicklung von Wikidata wurde in drei Phasen aufgeteilt:</p>
 <ul>
 <li><p>In Phase 1 wurden Sprachlinks von Wikipedia-Beiträgen in Wikidata zu <a href="#wikidata-items">Items</a> mit Beschreibungen und Bezeichnungen versehen. Um dies zu vereinfachen, wurden automatische <strong>Bots</strong> verwendet. Seit dem 24. April 2013 können in allen Wikipedia-Sprachversionen Wikidata-Metadaten eingebunden und dargestellt werden.</p></li>
 <li><p>Phase 2 beinhaltete die Aufgabe, dass zu den Items <a href="#wikidata-aussagen">Aussagen</a> hinzugefügt werden konnten. Dies geschah unter anderem ebenfalls mit Bots und dem Datenfundament aus Wikipedia-Infoboxen-und -Kategorien.</p></li>
-<li><p>Phase 3 ist noch nicht abgeschlossen. Es soll automatische Übersetzungen und Aktualisierungen von Listen ermöglichen, basierend auf mehrsprachigen Daten von Wikidata. Außerdem sollen alle Daten von Wiki-Links, Infoboxen und Listen aufgenommen und vereinigt werden.</p></li>
+<li><p>Phase 3 hat noch nicht begonnen. Hier sollen automatische Übersetzungen und Aktualisierungen von Listen, basierend auf mehrsprachigen Daten von Wikidata ermöglicht werden. Außerdem sollen alle Daten von Wiki-Links, Infoboxen und Listen aufgenommen und vereinigt werden.</p></li>
 </ul>
-<p>Wikidata hat einige Vorläufer in verwandten Projekten wie <a href="http://semantic-mediawiki.org/">Semantic MediaWiki</a> und <a href="http://dbpedia.org/">DBPedia</a>. Im Gegensatz zu diesen basiert Wikidata jedoch nicht auf Techniken des Semantic Web.</p>
+<p>Wikidata hat einige Vorläufer in verwandten Projekten, wie <a href="http://semantic-mediawiki.org/">Semantic MediaWiki</a> und <a href="http://dbpedia.org/">DBPedia</a>. Im Gegensatz zu diesen basiert Wikidata jedoch nicht auf Techniken des Semantic Web.</p>
 <h2 id="ziele-von-wikidata"><a href="#ziele-von-wikidata"><span class="header-section-number">3.2</span> Ziele von Wikidata</a></h2>
-<p>Hauptziel von Wikidata ist es eine strukturierte und zentralisierte “Wissensdatenbank” zu schaffen, welche die reale Welt in Daten und Fakten beschreibt und abbildet. Statt in Wikipedia die verschiedensprachigen Artikel manuell zu erstellen, sollen in Wikidata Fakten hinterlegt werden, die in jeder Version gleich angezeigt werden. Mit Hilfe diese einheitliche Erfassung sollen vor allem statistische Angaben und formal beschreibbare Metadaten über mehrere Seiten und Sprachversionen hinweg in Wikipedia aktualisiert werden können. Wie Beispielsweise die Höhe des Mount Everest oder die offizielle Einwohnerzahl von New York automatisch in allen Sprachversionen aktualisiert werden bei einer Änderung. Die dabei entstehenden Infoboxen werden in einer zentralen Datenbank effizient, widerspruchsfrei und dauerhaft gespeichert. Sie dienen als Quellen für alle anderen <a href="http://de.wikipedia.org/w/index.php?title=Wikipedia:Schwesterprojekte&amp;oldid=127371039">Wikipedia Schwesterprojekte</a>.</p>
+<p>Hauptziel von Wikidata ist es eine strukturierte und zentralisierte “Wissensdatenbank” zu schaffen, welche die reale Welt in Daten und Fakten beschreibt und abbildet. Statt in Wikipedia die verschiedensprachigen Artikel manuell zu erstellen, sollen in Wikidata Fakten hinterlegt werden, die in jeder Version gleich angezeigt werden. Mit Hilfe dieser einheitlichen Erfassung sollen vor allem statistische Angaben und formal beschreibbare Metadaten über mehrere Seiten und Sprachversionen hinweg in Wikipedia aktualisiert werden können, wie beispielsweise die Höhe des Mount Everest oder die offizielle Einwohnerzahl von New York automatisch in allen Sprachversionen aktualisiert werden bei einer Änderung. Die dabei entstehenden Infoboxen werden in einer zentralen Datenbank effizient, widerspruchsfrei und dauerhaft gespeichert. Sie dienen als Quellen für alle anderen <a href="http://de.wikipedia.org/wiki/Wikipedia:Schwesterprojekte">Projekte der Wikimedia Foundation</a>.</p>
 <h2 id="wikidata-als-datenbank"><a href="#wikidata-als-datenbank"><span class="header-section-number">3.3</span> Wikidata als Datenbank</a></h2>
-<p>Wikidata ist vor allem eine freie Datenbank, und somit ist es ein System zur elektronischen Datenverwaltung, die von Menschen wie auch von Maschinen gelesen und bearbeitet werden kann. Wikidata kann über Links mit anderen Projekten der Wikimedia Foundation und andern Datensätzen verknüpft werden, wodurch die Möglichkeit die Quellen zu überprüfen besteht.</p>
-<p>Die Wikidata Datenbank besteht aus einem Computerprogramm zur Verwaltung von Daten (Datenbankmanagementsystem) und darin gespeicherten Daten (<strong>Datenbestand</strong> oder Datenbasis). Im Falle von Wikidata besteht das Datenbankmanagementsystem aus der Wikidata-Software, die sich aus einer Wiki-Komponente namens <strong>MediaWiki</strong> und einer Datenbank-Komponente namens <strong>Wikibase</strong> zusammensetzt. MediaWiki wird auch für Wikipedia und die anderen Projekte der Wikimedia-Foundation eingesetzt, während Wikibase speziell für Wikidata entwickelt wurde.</p>
+<p>Wikidata ist vor allem eine freie Datenbank, und somit ist es ein System zur elektronischen Datenverwaltung. Wikidata kann von Menschen wie auch von Maschinen gelesen und bearbeitet werden. Wikidata kann über Links mit anderen Projekten der Wikimedia Foundation und anderen Datensätzen verknüpft werden, wodurch die Möglichkeit, die Quellen zu überprüfen, besteht.</p>
+<p>Die Wikidata-Datenbank besteht aus einem Computerprogramm zur Verwaltung von Daten (Datenbankmanagementsystem) und darin gespeicherten Daten (<strong>Datenbestand</strong> oder Datenbasis). Im Falle von Wikidata besteht das Datenbankmanagementsystem aus der Wikidata-Software, die sich aus einer Wiki-Komponente namens <strong>MediaWiki</strong> und einer Datenbank-Komponente namens <strong>Wikibase</strong> zusammensetzt. MediaWiki wird auch für Wikipedia und die anderen Projekte der Wikimedia Foundation eingesetzt, während Wikibase speziell für Wikidata entwickelt wurde.</p>
 <p>Wie jedes Datenbankmanagementsystem legt Wikibase fest, welche Struktur die gespeicherten Daten grundsätzlich haben können. Für den Datenbestand von Wikidata gilt, dass dieser aus <a href="#wikidata-items">Items</a>, <a href="#wikidata-eigenschaften">Eigenschaften</a> und <a href="#wikidata-aussagen">Aussagen</a> besteht.</p>
 <h2 id="inhalte-von-wikidata"><a href="#inhalte-von-wikidata"><span class="header-section-number">3.4</span> Inhalte von Wikidata</a></h2>
-<p>Grundsätzlich enthält Wikidata <strong>Daten</strong>. Daten bestehen aus Zeichen, die von Computern verarbeitet werden können. Eine allgemein anerkannte Definition von Daten gibt es jedoch nicht. Dies liegt unter anderem daran, dass drei verschiedene Sichtweisen auf Daten möglich sind, die im Folgenden erklärt sind.</p>
+<p>Grundsätzlich enthält Wikidata <strong>Daten</strong>. Daten bestehen aus Zeichen, die von Computern verarbeitet werden können. Eine allgemein anerkannte Definition von Daten gibt es jedoch nicht. Dies liegt unter anderem daran, dass drei verschiedene Sichtweisen auf Daten möglich sind, die im Folgenden erklärt werden.</p>
 <ul>
 <li><p>Die Sicht auf “Daten als Fakten” entspringt einer naiv-naturwissenschaftlichen Weltsicht, nach der Daten Informationen über die Welt repräsentieren oder enthalten. Im Wesentlichen ist Wikidata durch diese Sicht motiviert. Wikidata soll Fakten sammeln und eine Sammlung des Wissens unserer heutigen Zivilisation ermöglichen.</p></li>
-<li><p>Im Gegensatz dazu geht die Sicht auf “Daten als Beobachtungen” davon aus, dass alle Angaben über die Welt subjektiv sind. Um Daten zu interpretieren, ist deshalb immer ein Kontext notwendig. Kontexte können unter anderem dabei helfen, verschiedene Bedeutungen von Daten zu erkennen und einzuschätzen wie vertrauenswürdig und nützlich Daten sind. Wikidata sieht mehrere Verfahren zur Angabe von Kontextinformationen vor (siehe die Kapitel zu <a href="#belege">Belegen</a> und <a href="#qualifikatoren">Qualifikatoren</a>). Da diese Informationen wiederum selbst nur als Daten vorliegen, lässt sich das Problem der Subjektivität von Daten aber nicht vollständig lösen.</p></li>
-<li><p>Die Sicht auf “Daten als digitale Dokumente oder Objekte” ist vor allem bei digitalen Medien wie Texten, Bildern, Filmen oder Musik üblich. Die Wikimedia-Foundation betreibt zur Sammlung solcher Dokumente das digitale Medienarchiv Commons. Grundsätzlich lassen sich aber alle Daten auch als digitale Dokumente auffassen. So sind alle Bearbeitungen und Inhalte von Wikidata gleichzeitig Dokumente des menschlichen Antriebs die Welt zu verstehen und zu interpretieren.</p></li>
+<li><p>Im Gegensatz dazu geht die Sicht auf “Daten als Beobachtungen” davon aus, dass alle Angaben über die Welt subjektiv sind. Um Daten zu interpretieren, ist deshalb immer ein Kontext notwendig. Kontexte können unter anderem dabei helfen, verschiedene Bedeutungen von Daten zu erkennen und einzuschätzen, wie vertrauenswürdig und nützlich Daten sind. Wikidata sieht mehrere Verfahren zur Angabe von Kontextinformationen vor (siehe die Kapitel zu <a href="#belege">Belegen</a> und <a href="#qualifikatoren">Qualifikatoren</a>). Da diese Informationen wiederum selbst nur als Daten vorliegen, lässt sich das Problem der Subjektivität von Daten aber nicht vollständig lösen.</p></li>
+<li><p>Die Sicht auf “Daten als digitale Dokumente oder Objekte” ist vor allem bei digitalen Medien wie Texten, Bildern, Filmen oder Musik üblich. Die Wikimedia Foundation betreibt zur Sammlung solcher Dokumente das digitale Medienarchiv Commons. Grundsätzlich lassen sich aber alle Daten auch als digitale Dokumente auffassen. So sind alle Bearbeitungen und Inhalte von Wikidata gleichzeitig Dokumente des menschlichen Antriebs, die Welt zu verstehen und zu interpretieren.</p></li>
 </ul>
 <p>Zusammengefasst ist Wikidata eine Datenbank, die sowohl Fakten als auch dokumentierte Beobachtungen enthält. Die Inhalte von Wikidata sind dabei so kodiert, dass sie automatisch verarbeitet und weiterverwendet werden können.</p>
 <h1 id="bestandteile-von-wikidata"><a href="#bestandteile-von-wikidata"><span class="header-section-number">4</span> Bestandteile von Wikidata</a></h1>
-<p>Die Datensätze von Wikidata bestehen in der Regel immer aus einer einheitlichen Struktur. Das nun folgende Kapitel möchte die elementaren Bau- und Bestandteile von Wikidata-Datensätzen vorstellen. Dazu gehören die Wikidata-Items, die <a href="#wikidata-eigenschaften">Eigenschaften</a> und die <a href="#wikidata-aussagen">Aussagen</a>. Ferner finden sich in den folgenden Kapiteln Erläuterungen zu Datentypen, Rängen, Belegen und Qualifikatoren.</p>
+<p>Die Datensätze von Wikidata bestehen in der Regel immer aus einer einheitlichen Struktur. Das nun folgende Kapitel möchte die elementaren Bau- und Bestandteile von Wikidata-Datensätzen vorstellen. Dazu gehören die Wikidata-Items, die <a href="#wikidata-eigenschaften">Eigenschaften</a> und die <a href="#wikidata-aussagen">Aussagen</a>. Ferner finden sich in den folgenden Kapiteln Erläuterungen zu <a href="#datentypen-und-andere-einschränkungen">Datentypen</a>, <a href="#ränge">Rängen</a>, <a href="#belege">Belegen</a> und <a href="#qualifikatoren">Qualifikatoren</a>.</p>
 <h2 id="wikidata-items"><a href="#wikidata-items"><span class="header-section-number">4.1</span> Wikidata-Items</a></h2>
-<p>Ein <strong>Item</strong> (deutsch: <strong>Datenobjekt</strong>) stellt in Wikidata eine zentrale Einheit dar. Fast alles kann in Wikidata zu einem Item werden (ausgenommen sind Daten, die keinem Kontext zugeordnet sind), vor allem aber Gegenständlichkeiten, Konzepte und Vorstellungen. Ein Item besteht immer aus einer Datensatz-ID, die sich aus dem Buchstaben <code>Q</code> und einer Nummer zusammensetzt. Beispielsweise steht <code>Q17</code> für Japan. Jedes Item kann pro Sprache einen Namen und eine Kurzbeschreibung sowie mehrere Alternativnamen (Synonyme) haben. Dies trägt noch weiter zu einer eindeutigen Identifizierung bei. Weitere Bestandteile von Items sind Links zu Seiten in Wikimedia-Projekten (Wikipedia, Wikivoyage, Wikimedia Commons und so weiter) sowie <a href="#wikidata-aussagen">Aussagen</a> mit Eigenschaften, Werten und Belegen. Die Relevanzrichtlinien von Wikidata verlangen, dass nur Items erstellt werden sollen, die mit Seiten anderer Wikimedia-Projekte verlinkt sind (siehe <a href="#neue-items-anlegen" title="Items erstellen">Items erstellen</a>).</p>
-<p>Die Seite des Items setzt sich aus verschiedenen Komponenten zusammen (siehe Abbildung unten).</p>
+<p>Ein <strong>Item</strong> (deutsch: <strong>Datenobjekt</strong>) stellt in Wikidata eine zentrale Einheit dar. Fast alles kann in Wikidata zu einem Item werden (ausgenommen sind Daten, die keinem Kontext zugeordnet sind), vor allem aber Gegenständlichkeiten, Konzepte und Vorstellungen. Ein Item besteht immer aus einer Datensatz-ID, die sich aus dem Buchstaben <code>Q</code> und einer Nummer zusammensetzt. Beispielsweise steht <a href="https://wikidata.org/wiki/Q17"><code>Q17</code></a> für Japan. Jedes Item kann pro Sprache einen Namen und eine Kurzbeschreibung sowie mehrere Alternativnamen (Synonyme) haben. Dies trägt noch weiter zu einer eindeutigen Identifizierung bei. Weitere Bestandteile von Items sind Links zu Seiten in Wikimedia-Projekten (Wikipedia, Wikivoyage, Wikimedia Commons und so weiter) sowie <a href="#wikidata-aussagen">Aussagen</a> mit Eigenschaften, Werten und Belegen. Die Relevanzrichtlinien von Wikidata verlangen, dass nur Items erstellt werden sollen, die mit Seiten anderer Wikimedia-Projekte verlinkt sind (siehe <a href="#neue-items-anlegen" title="Items erstellen">Items erstellen</a>).</p>
+<p>Die Seite des Items setzt sich aus verschiedenen Komponenten zusammen (Abb. 1).</p>
 <div class="figure">
 <img src="images/Bestandteile_eines_Items.PNG" alt="Bestandteile eines Items" /><p class="caption">Bestandteile eines Items</p>
 </div>
-<p>Ganz oben steht der Name des Items mit ID (in diesem Fall “Japan (<a href="https://wikidata.org/wiki/Q17"><code>Q17</code></a>)”) und darunter folgt eine Kurzbeschreibung dieses Items sowie Synonyme. Es werden außerdem Übersetzungen des Items und der Kurzbeschreibung angezeigt.</p>
-<p>Nach den Übersetzungen kommen die <a href="#wikidata-aussagen">Aussagen</a>. Aussagen lassen sich aufteilen in <a href="#wikidata-eigenschaften">Eigenschaft</a> und Wert. Sie dienen dazu, das Item näher zu beschreiben. Eigenschaften beschreiben (immer gleichbleibende) Merkmale der Inhalte, welche in den Werten eingetragen werden können. Der Wert hingegen ist das Rohdatum, welcher das Item näher beschreiben soll. Im obigen Beispiel ist “DDC” eine Aussage und “T2–52” ein der Eigenschaft zugewiesener Wert.</p>
+<p>Ganz oben steht der Name des Items mit ID (in diesem Fall “Japan (<a href="https://wikidata.org/wiki/Q17"><code>Q17</code></a>)”) und darunter folgen eine Kurzbeschreibung dieses Items sowie Synonyme. Es werden außerdem Übersetzungen des Items und der Kurzbeschreibung angezeigt.</p>
+<p>Nach den Übersetzungen kommen die <a href="#wikidata-aussagen">Aussagen</a>. Aussagen lassen sich aufteilen in <a href="#wikidata-eigenschaften">Eigenschaft</a> und Wert. Sie dienen dazu, das Item näher zu beschreiben. Eigenschaften beschreiben (immer gleichbleibende) Merkmale der Inhalte, welche in den Werten eingetragen werden können. Der Wert hingegen ist das Rohdatum, welches das Item näher beschreiben soll. Im obigen Beispiel ist “DDC” eine Aussage und <a href="http://dewey.info/class/2--52/about"><code>T2--52</code></a> ein der Eigenschaft zugewiesener Wert.</p>
 <h2 id="wikidata-eigenschaften"><a href="#wikidata-eigenschaften"><span class="header-section-number">4.2</span> Wikidata-Eigenschaften</a></h2>
 <p><strong>Eigenschaften</strong> (englisch “properties”) werden in Wikidata benutzt, um Aussagen auszudrücken.</p>
-<p>Jede Eigenschaft wird durch eine ID referenziert, die mit <code>P</code> anfängt. Beispielsweise steht in Wikidata <code>P19</code> für den Geburtsort einer Person. Jede Eigenschaft kann ebenso wie Wikidata-Items mit Übersetzungen und Aussagen (siehe Kapitel <a href="#wikidata-aussagen">Wikidata-Aussagen</a>) beschrieben werden. So lautet beispielsweise die englische Bezeichnung für die Eigenschaft <code>P19</code> “place of birth” und die Deutsche Beschreibung “Ort, in dem ein Mensch geboren wurde”.</p>
-<div class="example ">
+<p>Jede Eigenschaft wird durch eine ID referenziert, die mit <code>P</code> anfängt. Beispielsweise steht in Wikidata <a href="https://www.wikidata.org/wiki/Property:P19"><code>P19</code></a> für den Geburtsort einer Person. Jede Eigenschaft kann ebenso wie Wikidata-Items mit Übersetzungen und Aussagen (siehe Kapitel <a href="#wikidata-aussagen">Wikidata-Aussagen</a>) beschrieben werden. So lautet beispielsweise die englische Bezeichnung für die Eigenschaft <a href="https://www.wikidata.org/wiki/Property:P19"><code>P19</code></a> “place of birth” und die deutsche Beschreibung “Ort, in dem ein Mensch geboren wurde”.</p>
+<div class="example">
 
 <p>Zur Ansicht und Bearbeitung der Benennungen und weiterer Angaben zu Aussagen hat jede Eigenschaft in Wikidata eine eigene Seite. Die URL (Uniform Resource Locator) dieser Seite lässt sich durch Voranstellen von <code>https://www.wikidata.org/wiki/Property:</code> konstruieren.</p>
 </div>
 
-<p>Die Ansicht der Eigenschaft <a href="https://www.wikidata.org/wiki/Property:P19"><code>P19</code></a> können Sie unten im Screenshot betrachten.</p>
+<p>Die Ansicht der Eigenschaft <a href="https://www.wikidata.org/wiki/Property:P19"><code>P19</code></a> können Sie im Screenshot betrachten (Abb. 2).</p>
 <div class="figure">
 <img src="images/place_of_birth.jpg" alt="Eigenschaft P19: Geburtsort" /><p class="caption">Eigenschaft P19: Geburtsort</p>
 </div>
 <h3 id="vorhandene-eigenschaften"><a href="#vorhandene-eigenschaften"><span class="header-section-number">4.2.1</span> Vorhandene Eigenschaften</a></h3>
 <p>Jede Aussage auf einer Item-Seite stellt eine Verbindung zu einer Eigenschaft her und weist ihr einen Wert zu. Dieser Wert besitzt wiederum eine Verlinkung zu der Item-Seite dieses Wertes.</p>
-<p>Einige Eigenschaften sind dazu gedacht von Wikidata-Items auf andere Normdateien zu verweisen. Genauer beschrieben wird dies im Kapitel <a href="#normdaten-eigenschaften-in-wikidata">Normdaten-Eigenschaften in Wikidata</a>.</p>
+<p>Einige Eigenschaften sind dazu gedacht, von Wikidata-Items auf andere Normdateien zu verweisen. Genauer beschrieben wird dies im Kapitel <a href="#normdaten-eigenschaften-in-wikidata">Normdaten-Eigenschaften in Wikidata</a>.</p>
 <p>Eigenschaften können wie Wikidata-Items von allen Mitarbeitern bearbeitet werden, beispielsweise mit Übersetzungen und Beschreibungen der jeweiligen Eigenschaft.</p>
-<div class="example ">
+<div class="example">
 
 <p>Das Anlegen neuer Eigenschaften ist jedoch nur ausgewählten Mitgliedern der Wikidata-Community möglich.</p>
 </div>
 
-<p>Auf der Seite <a href="https://www.wikidata.org/wiki/Wikidata:Property_proposal/de">Eigenschaften vorschlagen</a> können Vorschläge für neue Wikidata-Eigenschaften eingebracht und von der Wikidata-Community diskutiert werden.</p>
+<p>Auf der Seite <a href="https://www.wikidata.org/wiki/Wikidata:Property_proposal/de">„Eigenschaften vorschlagen“</a> können Vorschläge für neue Wikidata-Eigenschaften eingebracht und von der Wikidata-Community diskutiert werden.</p>
 <h3 id="datentypen-und-andere-einschränkungen"><a href="#datentypen-und-andere-einschränkungen"><span class="header-section-number">4.2.2</span> Datentypen und andere Einschränkungen</a></h3>
-<p>In Wikidata existieren verschiedene <strong>Datentypen</strong>, welche in <a href="https://www.wikidata.org/wiki/Special:ListDatatypes?uselang=de">einer Liste</a> zu finden sind. Datentypen haben die Aufgabe zu bestimmen, welche Art von Werten den Eigenschaften zugeordnet werden können. Für jede Eigenschaft ist vordefiniert, welche Datentypen sie als Wert “akzeptiert” ansehen. Beispielsweise sind keine Buchstaben oder sonstige Zeichen für Zahlenfelder bei der GND-Nummer einzugeben.</p>
+<p>In Wikidata existieren verschiedene <strong>Datentypen</strong>, welche in <a href="https://www.wikidata.org/wiki/Special:ListDatatypes">einer Liste</a> zu finden sind. Datentypen haben die Aufgabe zu bestimmen, welche Art von Werten den Eigenschaften zugeordnet werden können. Für jede Eigenschaft ist vordefiniert, welche Datentypen sie als Wert “akzeptiert” ansehen. Beispielsweise sind keine Buchstaben oder sonstige Zeichen für Zahlenfelder bei der GND-Nummer einzugeben.</p>
 <p><strong>Die wichtigsten Datentypen und eine Beispiel-Eigenschaft:</strong></p>
 <p>Im Moment können in Wikidata sieben Datentypen (Item, Commons media file, String, Time, Geographic coordinates und URL) für Eigenschaften verarbeitet werden.</p>
-<p><em>Datentyp: Item</em></p>
+<p><strong><em>Datentyp: Item</em></strong></p>
 <p>In diesen Datentyp können Verknüpfungen zu anderen Items in Wikidata eingegeben werden. Die Eingabe erfolgt über ein einfaches Texteingabefeld.</p>
-<p><em>Datentyp: Mediendatei/Media file/Commons</em></p>
-<p>Dieser Datentyp übernimmt die Verlinkung zu Mediendokumenten. Vor allem Bilder, Videos und Klänge, welche auf Wikimedia Commons gespeichert sind. Auf diese Weise können die Mediendokumente einem Wikipediaartikel zugeordnet werden.</p>
-<p><em>Datentyp: Zeichenkette/String</em></p>
+<p><strong><em>Datentyp: Mediendatei/Media file/Commons</em></strong></p>
+<p>Dieser Datentyp übernimmt die Verlinkung zu Mediendokumenten vor allem zu Bildern, Videos und Klängen, welche auf Wikimedia Commons gespeichert sind. Auf diese Weise können die Mediendokumente einem Wikipedia Artikel zugeordnet werden.</p>
+<p><strong><em>Datentyp: Zeichenkette/String</em></strong></p>
 <p>Dieser Datentyp akzeptiert als Eingaben alle Zeichenketten. Diese sollten nach Möglichkeit jedoch nicht sprachenabhängig sein, wie zum Beispiel nicht übersetzbare Konzepte wie Eigennamen.</p>
-<p><em>Datentyp: Zeit/Time</em></p>
-<p>Hier können nur Werte eingegeben werden, welche eine zeitliche Information ausdrücken. Zum Beispiel Jahreszahlen, Jahres-Datums-Zahlen, Zeitzonen, Zeitpunkte und noch einige mehr. Für mehr Informationen können Sie <a href="https://www.wikidata.org/wiki/Special:ListDatatypes">hier</a> weiterlesen.</p>
-<p><em>Datentyp: Geographische Koordinaten/Geographic coordinates</em></p>
+<p><strong><em>Datentyp: Zeit/Time</em></strong></p>
+<p>Hier können nur Werte eingegeben werden, welche eine zeitliche Information ausdrücken. Zum Beispiel Jahreszahlen, Jahresdatumszahlen, Zeitzonen, Zeitpunkte und noch einige mehr.</p>
+<p><strong><em>Datentyp: Geographische Koordinaten/Geographic coordinates</em></strong></p>
 <p>In diesem Datentyp finden alle Werte mit geografischen Informationen ihren Platz. Dazu zählen vor allem Daten von Breiten- und Längengraden wie bei Ortsbestimmungen und die Position von Sternen beziehungsweise Sternenbildern.</p>
-<p><em>Datentyp: URL</em></p>
+<p><strong><em>Datentyp: URL</em></strong></p>
 <p>In diesem Datentyp werden externe URLs abgelegt. Die URLs müssen hierbei Protokollen gehorchen, die auch für alle Interwikilinks von Wikidata gelten.</p>
-<p><em>Datentyp: Menge/Quantity</em></p>
+<p><strong><em>Datentyp: Menge/Quantity</em></strong></p>
 <p>In diesem Datentyp können Mengenangaben eingegeben werden. Das sind in der Regel vor allem Zahlenwerte wie zum Beispiel die errungenen Wählerstimmen bei einer Wahl.</p>
 <p>Für ausführlichere technische Informationen schauen Sie auf die Seite des <a href="https://www.mediawiki.org/wiki/Wikibase/DataModel">Datenmodells in Wikidata</a>.</p>
 <h2 id="wikidata-aussagen"><a href="#wikidata-aussagen"><span class="header-section-number">4.3</span> Wikidata-Aussagen</a></h2>
-<p>Jedes <a href="#wikidata-items">Wikidata-Item</a> kann mit Aussagen beschrieben werden. Im Wesentlichen besteht eine Aussage aus einer <a href="#wikidata-eigenschaften">Eigenschaft</a> und einem Wert. Beispielsweise enthält das Item für die Stadt Hannover (<a href="https://www.wikidata.org/wiki/Q1715"><code>Q1715</code></a>) eine Aussage, die angibt, dass sich Hannover in Deutschland befindet. Die entsprechende Eigenschaft dafür hat die Bezeichnung “Staat” (<a href="https://www.wikidata.org/wiki/Property:P17">P17</a>). Aussagen in Wikidata können mit einem anderen Wikidata-Item oder mit einem externen Link verlinkt werden, oder durch eine Eigenschaft inhaltlich oder objektiv beschrieben. Der aufgerufene Datensatz im Screenshot ist Hannover. Die Eigenschaft Staat beschreibt das interne Wikidata-Item Deutschland. Die Eigenschaft LCNAF (Library of Congress Name Authoryity File) gibt einen externen Link wieder. Die KFZ- Kennzeichnung ist ein Beispiel für eine einfache Wertbeschreibung.</p>
+<p>Jedes <a href="#wikidata-items">Wikidata-Item</a> kann mit Aussagen (statements) beschrieben werden. Im Wesentlichen besteht eine Aussage aus einer <a href="#wikidata-eigenschaften">Eigenschaft</a> und einem Wert. Beispielsweise enthält das Item für die Stadt Hannover (<a href="https://www.wikidata.org/wiki/Q1715"><code>Q1715</code></a>) eine Aussage, die angibt, dass sich Hannover in Deutschland befindet. Die entsprechende Eigenschaft dafür hat die Bezeichnung “Staat” (<a href="https://www.wikidata.org/wiki/Property:P17">P17</a>). Aussagen in Wikidata können mit einem anderen Wikidata-Item oder mit einem externen Link verlinkt oder durch eine Eigenschaft inhaltlich oder objektiv beschrieben werden. Der aufgerufene Datensatz im Screenshot ist Hannover (Abb. 3). Die Eigenschaft Staat beschreibt das interne Wikidata-Item Deutschland. Die Eigenschaft LCNAF (Library of Congress Name Authoryity File) gibt einen externen Link wieder. Die KFZ- Kennzeichnung ist ein Beispiel für eine einfache Wertbeschreibung. Weiter Informationen zu Aussagen finden Sie in Wikidata unter <a href="http://www.wikidata.org/wiki/Wikidata:Glossary/de#Behauptungen_und_Aussagen">Behauptungen und Aussagen</a>.</p>
 <div class="figure">
 <img src="images/Wikidata-Aussagen.PNG" alt="Aussagen mit Eigenschaften" /><p class="caption">Aussagen mit Eigenschaften</p>
 </div>
-<p>Genauere Informationen finden Sie unter <a href="http://www.wikidata.org/wiki/Wikidata:Glossary/de#Behauptungen_und_Aussagen">Behauptungen und Aussagen</a>.</p>
 <h3 id="qualifikatoren"><a href="#qualifikatoren"><span class="header-section-number">4.3.1</span> Qualifikatoren</a></h3>
-<p><strong>Qualifikatoren</strong> werden in Wikidata benutzt, um eine Aussage näher zu beschreiben. Viele Aussagen benötigen weitere Qualifikatoren, um richtig interpretiert werden zu können. Sie liefern also zusätzliche Informationen und bestehen genau wie Aussagen aus einer Eigenschaft und einem Wert.</p>
-<p>Qualifikatoren können auf drei unterschiedliche Arten eingesetzt werden. Die erste Art verändert die Anwendung der Eigenschaften; wie zum Beispiel das Benennen eines ausgeschlossenen Landstücks bei einer Flächen Eigenschaft. Die zweite Art der Qualifikatoren beschränkt die Gültigkeit des Wertes, beispielsweise eine Beschränkung der Jahreszahl bei einer Volkszählung. Die dritte Art der Qualifikatoren gibt weitere Details zu einer Aussage an, wie zum Beispiel der Beginn und Endzeitpunkt einer Herrschaft.</p>
-<div class="example ">
+<p><strong>Qualifikatoren</strong> (qualifiers) werden in Wikidata benutzt, um eine Aussage näher zu beschreiben. Viele Aussagen benötigen weitere Qualifikatoren, um richtig interpretiert werden zu können. Sie liefern also zusätzliche Informationen und bestehen genau wie Aussagen aus einer Eigenschaft und einem Wert.</p>
+<p>Qualifikatoren können auf drei unterschiedliche Arten eingesetzt werden. Die erste Art verändert die Anwendung der Eigenschaften; wie zum Beispiel das Benennen eines ausgeschlossenen Landstücks bei einer Flächeneigenschaft. Die zweite Art der Qualifikatoren beschränkt die Gültigkeit des Wertes, beispielsweise eine Beschränkung der Jahreszahl bei einer Volkszählung. Die dritte Art der Qualifikatoren gibt weitere Details zu einer Aussage an, wie zum Beispiel den Beginn und Endzeitpunkt einer Herrschaft.</p>
+<div class="example">
 
-<p><strong>Beispiel für Berlin (<code>Q64</code>)(Objekt)</strong></p>
-<p>Bevölkerung (Eigenschaft): 3’500’000 (Wert der Eigenschaft) point in time (<code>P585</code>): (Qualifikator): 2005 (Wert des Qualifikators) determination method (<code>P459</code>) (Qualifikator): Schätzung (Wert des Qualifikators)</p>
+<p><strong>Aussage über Ludwig XIV. (<a href="https://www.wikidata.org/wiki/Q7742"><code>Q7742</code></a>) mit Qualifikatoren</strong></p>
+<p>Öffentliches Amt (Eigenschaft <a href="https://www.wikidata.org/wiki/Property:P39"><code>P39</code></a>): König von Frankreich</p>
+<ul>
+<li><p>Startzeitpunkt (Qualifikator <a href="https://www.wikidata.org/wiki/Property:P580"><code>P580</code></a>): 14. Mai 1643</p></li>
+<li><p>Endzeitpunkt (Qualifikator <a href="https://www.wikidata.org/wiki/Property:P582"><code>P582</code></a>): 1. September 1715</p></li>
+</ul>
 </div>
 
 <p>Weitere Informationen zu Qualifikatoren stehen in Wikidata in der <a href="https://www.wikidata.org/wiki/Help:Qualifiers/de">Liste von Qualifikatoren</a>.</p>
 <h3 id="ränge"><a href="#ränge"><span class="header-section-number">4.3.2</span> Ränge</a></h3>
-<p><strong>Ränge</strong> sind Qualitätsfaktoren, die helfen, die Qualität einer Aussage einzustufen. Das Ranking wird nur angewandt, wenn es zu einem Item mehrere Aussagen mit der gleichen Eigenschaft gibt. Es gibt drei mögliche Rangstufen:</p>
+<p><strong>Ränge</strong> (hierarchies) sind Qualitätsfaktoren, die helfen, die Qualität einer Aussage einzustufen. Das Ranking wird nur angewandt, wenn es zu einem Item mehrere Aussagen mit der gleichen Eigenschaft gibt. Es gibt drei mögliche Rangstufen:</p>
 <ol style="list-style-type: decimal">
-<li>Herabgestufter oder zweifelhafter Rang, für Aussagen, die nicht als zuverlässig betrachtet werden können oder von denen man weiß, dass sie Fehler enthalten.</li>
+<li>Herabgestufter oder zweifelhafter Rang für Aussagen, die nicht als zuverlässig betrachtet werden können oder von denen man weiß, dass sie Fehler enthalten.</li>
 <li>Der Normale Rang ist für Aussagen, die relevante Informationen enthalten. Diese Informationen gelten allgemein als korrekt.</li>
-<li>Vorrangig ist ein Rang, bei Aussagen mit den wichtigsten und aktuellsten Informationen.</li>
+<li>Vorrangig ist ein Rang bei Aussagen mit den wichtigsten und aktuellsten Informationen.</li>
 </ol>
-<p>Aussagen ohne Belege sowie Aussagen, die ohne weitere Hinweise aus einer anderen Datenbank kopiert wurden (Belege mit der Eigenschaft “Datenherkunft” (<a href="https://www.wikidata.org/wiki/Property:P143"><code>P143</code></a>) sollten grundsätzlich als zweifelhaft eingestuft werden.</p>
+<p>Der Rang einer Aussage wird durch ein Icon angezeigt (Abb. 4). Aussagen ohne Belege sowie Aussagen, die ohne weitere Hinweise aus einer anderen Datenbank kopiert wurden, Belege mit der Eigenschaft “Datenherkunft” (<a href="https://www.wikidata.org/wiki/Property:P143"><code>P143</code></a>) sollten grundsätzlich als zweifelhaft eingestuft werden.</p>
+<div class="figure">
+<img src="images/R_nge.PNG" alt="Ränge" /><p class="caption">Ränge</p>
+</div>
 <p>Weitere Informationen zu Rängen stehen in Wikidata unter <a href="https://www.wikidata.org/wiki/Help:Ranking">Ranking</a>.</p>
 <h3 id="belege"><a href="#belege"><span class="header-section-number">4.3.3</span> Belege</a></h3>
-<p>Aussagen in Wikidata können und sollten möglichst zusätzlich mit <strong>Belegen</strong> versehen werden.</p>
-<div class="example ">
+<p>Abgesehen von einige <a href="http://www.wikidata.org/wiki/Help:Sources/Items_not_needing_sources">Ausnahmen</a> sollten möglichst alle Aussagen in Wikidata mit zusätzlichen <strong>Belegen</strong> (sources) versehen werden.</p>
+<div class="example">
 
-<p>Es gibt einige <a href="http://www.wikidata.org/wiki/Help:Sources/Itemsnotneedingsources/de">Ausnahmen</a>, wie unter anderem</p>
+<p>In folgenden Fällen kann bei Aussagen auf Belege verzichtet werden:</p>
 <ul>
-<li>Wenn der Wert allgemein bekannt ist und nicht bestritten wurde.</li>
-<li>Wenn das Element sich auf einer externen Quelle bezieht. Es ermöglicht, die Informationen den anderen verbundenen Aussagen leicht zu überprüfen. Es ist somit nicht nötig, die referenzierten Quellen als Beleg in Wikipedia zu haben.</li>
-<li>Wenn das Item selbst als Beleg für Aussagen über seinen Gegenstand dient – beispielsweise sind die Autoren und Autorinnen eines Buches in der Regel dem Buch selbst zu entnehmen.</li>
+<li>Wenn die Aussage allgemein bekannt und unumstritten ist.</li>
+<li>Wenn das Item, über das Aussagen gemacht werden, selbst als Beleg für diese Aussagen dienen kann – beispielsweise sind die Autoren und Autorinnen eines Buches in der Regel dem Buch selbst zu entnehmen.</li>
+<li>Wenn die Aussage sich auf eine externe Quelle bezieht, die selbst als Beleg dienen kann. Diese Ausnahme trifft auf die meisten Aussagen mit <a href="#normdaten-in-wikidata">Normdaten-Eigenschaften in Wikidata</a> zu.</li>
 </ul>
 </div>
 
-<p>Belege bestehen aus mindestens einer Eigenschaft und einem Wert. Die erste Aussage des Items <a href="https://www.wikidata.org/wiki/Q183">Deutschland <code>(Q183)</code></a> lautet “Mitglied von Welthandelsorganisation”. Zu dieser Aussage gibt es drei Belege. Jeder Beleg setzt sich zusammen aus “Datenherkunft”, “URL” und “Zitat”.</p>
+<p>Belege bestehen aus mindestens einer Eigenschaft und einem Wert. Die erste Aussage des Items Deutschland (<a href="https://www.wikidata.org/wiki/Q183"><code>Q183</code></a>) lautet “Mitglied von Welthandelsorganisation”. Zu dieser Aussage gibt es drei Belege. Jeder Beleg setzt sich zusammen aus “Datenherkunft”, “URL” und “Zitat”.</p>
 <div class="figure">
 <img src="images/einzelnachweise.jpg" alt="Aussage mit drei Einzelnachweisen" /><p class="caption">Aussage mit drei Einzelnachweisen</p>
 </div>
-<p>Der erste Beleg ist komplett aufgeklappt im Screenshot zu sehen. Genauer betrachtet ist der Beleg in drei Eigenschaften aufgegliedert. “Datenherkunft”, “URL” und “Zitat” sind jeweils die Eigenschaften und das darauf Folgende (für “Datenherkunft” zum Beispiel “Bundesministerium für Wirtschaft und Technologie”) sind Werte.</p>
-<p>Es ist nicht das primäre Ziel der Wikidata, detaillierte Eigenschaften von Belegen zu modellieren. In seiner einfachsten Form ist ein Beleg nur ein Pfad, der einem Leser den Weg zu einem Beleg zeigt. Einige Belege können auch selbst Items in Wikidata beinhalten. Ein Wikipedia-Artikel über ein Buch kann beispielsweise auch als Beleg verwendet werden. Sie können auch widersprüchliche Aussagen beinhalten, zum Beispiel ein Buch kann mehrere Kapitel enthalten, in denen verschiedene Autoren widersprüchliche Informationen angeben.</p>
-<p>Neben expliziten Belegen, die Aussagen in Wikidata durch einen Verweis auf ein Dokument nachweisen, kann jeder Bearbeitungsvorgang in Wikidata als impliziter Beleg aufgefasst werden. Zu ihrer Beurteilung können explizierte Belege ebenso wichtig sein, wie Informationen darüber, von wem und zu welchem Zeitpunkt eine Aussage in Wikidata angelegt wurde. Belege “zweiter Ordnung”, das heißt Belege die auf andere Quellen verweisen, in wissenschaftlichen Texten kenntlich durch die Phrase “zitiert nach”, sind in Wikidata nicht vorgesehen.</p>
+<p>Der erste Beleg ist komplett aufgeklappt im Screenshot (Abb. 5) zu sehen. Genauer betrachtet ist der Beleg in drei Eigenschaften aufgegliedert. “Datenherkunft”, “URL” und “Zitat” sind jeweils die Eigenschaften und das darauf Folgende (für “Datenherkunft” zum Beispiel “Bundesministerium für Wirtschaft und Technologie”) sind Werte.</p>
+<p>Es ist nicht das primäre Ziel der Wikidata, detaillierte Eigenschaften von Belegen zu modellieren. In seiner einfachsten Form ist ein Beleg nur ein Pfad, der einem Leser den Weg zu einem Beleg zeigt. Einige Belege können auch selbst Items in Wikidata beinhalten. Ein Wikipedia-Artikel über ein Buch kann beispielsweise auch als Beleg verwendet werden. Die Belege können auch widersprüchliche Aussagen beinhalten, zum Beispiel ein Buch kann mehrere Kapitel enthalten, in denen verschiedene Autoren widersprüchliche Informationen angeben.</p>
+<p>Neben expliziten Belegen, die Aussagen in Wikidata durch einen Verweis auf ein Dokument nachweisen, kann jeder Bearbeitungsvorgang in Wikidata als impliziter Beleg aufgefasst werden. Zu ihrer Beurteilung können explizite Belege ebenso wichtig sein, wie Informationen darüber, von wem und zu welchem Zeitpunkt eine Aussage in Wikidata angelegt wurde. Belege “zweiter Ordnung”, das heißt Belege, die auf andere Quellen verweisen, in wissenschaftlichen Texten kenntlich durch die Phrase “zitiert nach”, sind in Wikidata nicht vorgesehen.</p>
 <p>Die genauen Richtlinien für Belege sind in Wikidata unter <a href="http://www.wikidata.org/wiki/Help:Sources/de">Hilfe:Belege</a> aufgeführt.</p>
 <h1 id="normdaten-in-wikidata"><a href="#normdaten-in-wikidata"><span class="header-section-number">5</span> Normdaten in Wikidata</a></h1>
-<p>Der Datenbestand von Wikidata bildet eine eigene <a href="#einführung-in-normdaten">Normdatei</a> deren Normdatensätze aus den <a href="#wikidata-items">Wikidata-Items</a> bestehen. Beispielsweise kann das Wikidata-Items <a href="https://www.wikidata.org/wiki/Q17"><code>Q17</code></a> (Japan) als Deskriptor verwendet werden, um Literatur über Japan zu kennzeichnen. Im Folgenden ist beschrieben, wie Wikidata durch <a href="#normdaten-eigenschaften-in-wikidata">Normdaten-Eigenschaften</a> mit anderen Normdateien verknüpft ist und worin sich Wikidata als Normdatei von <a href="#unterschiede-zu-anderen-normdateien">anderen Normdateien unterscheidet</a>.</p>
+<p>Der Datenbestand von Wikidata bildet eine eigene <a href="#einführung-in-normdaten">Normdatei</a>, deren Normdatensätze aus den <a href="#wikidata-items">Wikidata-Items</a> bestehen. Beispielsweise kann das Wikidata-Item <a href="https://www.wikidata.org/wiki/Q17"><code>Q17</code></a> (Japan) als Deskriptor verwendet werden, um Literatur über Japan zu kennzeichnen. Im Folgenden ist beschrieben, wie Wikidata durch <a href="#normdaten-eigenschaften-in-wikidata">Normdaten-Eigenschaften</a> mit anderen Normdateien verknüpft ist und worin sich Wikidata als Normdatei von <a href="#unterschiede-zu-anderen-normdateien">anderen Normdateien unterscheidet</a>.</p>
 <h2 id="normdaten-eigenschaften-in-wikidata"><a href="#normdaten-eigenschaften-in-wikidata"><span class="header-section-number">5.1</span> Normdaten-Eigenschaften in Wikidata</a></h2>
-<p>Eigenschaften, die unter einer Notation oder ID zusammengefügt werden, bezeichnet man als Normdaten-Eigenschaften. Normdaten können ein- oder mehrsprachig sein. Wikidata dagegen ist meistens mehrsprachig. Verknüpfungen zwischen Normdaten aus Wikidata und Dokumenten in Wikipedia ist ein Ziel des Wikidata-Projektes und wird bereits zu Teilen umgesetzt.</p>
-<p>Wikidata enthält zahlreiche <a href="#wikidata-eigenschaften">Eigenschaften</a> zum Verlinken von Wikidata-Items mit Normdatensätzen aus anderen Normdateien. Beispielsweise kann mit der Eigenschaft “GND-Nummer” (<a href="https://www.wikidata.org/wiki/Property:P227"><code>P227</code></a>) vom Wikidata-Item <a href="https://www.wikidata.org/wiki/Q17"><code>Q17</code></a> auf den Normdatensatz <a href="http://d-nb.info/gnd/4028495-5"><code>4028495-5</code></a> zu Japan in der Gemeinsamen Normdatei verwiesen werden oder mit der Eigenschaft “DDC” (<a href="https://www.wikidata.org/wiki/Property:P1036"><code>P1036</code></a>) auf die Notation <code>T2--52</code> der Dewey-Dezimalklassifikation. Diese <strong>Normdaten-Eigenschaften</strong> bilden Mappings zwischen Wikidata und anderen Normdateien.</p>
+<p>Eigenschaften, die unter einer <strong>Notation</strong> oder ID zusammengefügt werden, bezeichnet man als Normdaten-Eigenschaften. Normdaten können ein- oder mehrsprachig sein. Wikidata ist meistens mehrsprachig. Ziel des Wikidata-Projekts ist es, Verknüpfungen zwischen Normdaten aus Wikidata und Dokumenten aus Wikipedia herzustellen.</p>
+<p>Wikidata enthält zahlreiche <a href="#wikidata-eigenschaften">Eigenschaften</a> zum Verlinken von Wikidata-Items mit Normdatensätzen aus anderen Normdateien. Beispielsweise kann mit der Eigenschaft “GND-Nummer” (<a href="https://www.wikidata.org/wiki/Property:P227"><code>P227</code></a>) vom Wikidata-Item <a href="https://www.wikidata.org/wiki/Q17"><code>Q17</code></a> auf den Normdatensatz <a href="http://d-nb.info/gnd/4028495-5"><code>4028495-5</code></a> zu Japan in der Gemeinsamen Normdatei verwiesen werden oder mit der Eigenschaft “DDC” (<a href="https://www.wikidata.org/wiki/Property:P1036"><code>P1036</code></a>) auf die Notation <a href="http://dewey.info/class/2--52/about"><code>T2--52</code></a> der Dewey-Dezimalklassifikation. Diese vielseitigen <strong>Normdaten-Eigenschaften</strong> bilden sogenannte Mappings, wie im Screenshot (Abb. 6) zu sehen ist, zwischen Wikidata und anderen Normdateien.</p>
 <div class="figure">
 <img src="images/mappings.png" alt="Mappings mittels Normdaten-Eigenschaften" /><p class="caption">Mappings mittels Normdaten-Eigenschaften</p>
 </div>
-<p>Alle Normdaten-Eigenschaften haben den <a href="#datentypen-und-andere-einschränkungen">Datentyp</a> Zeichenkette/String gemeinsam, da der Wert eine Aussage mit Normdaten-Eigenschaft und einer Notation, ID-Nummer oder Ähnlichem ist.</p>
-<p>Eine garantiert aktuelle Übersicht aller Eigenschaften, die speziell dazu dienen, auf Normdateien zu verweisen, existiert nicht. Die <a href="https://www.wikidata.org/w/index.php?title=Wikidata:List_of_properties/Summary_table/de&amp;oldid=120803723">tabellarische Übersicht aller Eigenschaften</a> enthält eine manuell gepflegte Liste, aus der die meisten Normdaten-Eigenschaften hervorgehen.</p>
+<p>Alle Normdaten-Eigenschaften haben den <a href="#datentypen-und-andere-einschränkungen">Datentyp</a> Zeichenkette/String, da der Wert aus einer Aussage mit Normdaten-Eigenschaft und einer Notation, ID-Nummer oder Vergleichbarem besteht.</p>
+<p>Eine garantiert aktuelle Übersicht aller Eigenschaften, die speziell dazu dienen, auf Normdateien zu verweisen, existiert nicht. Die <a href="https://www.wikidata.org/wiki/Wikidata:List_of_properties/Summary_table/de">tabellarische Übersicht aller Eigenschaften</a> enthält eine manuell gepflegte Liste, aus der die meisten Normdaten-Eigenschaften hervorgehen.</p>
 <p>Da jederzeit neue Eigenschaften in Wikidata hinzukommen können (siehe <a href="#neue-eigenschaften-vorschlagen">Neue Eigenschaften vorschlagen</a>) ist es schwierig eine vollständige Liste von Normdaten-Eigenschaften anzugeben. Im Anhang ist eine <a href="#liste-aller-normdaten-eigenschaften">Liste aller Normdaten-Eigenschaften</a> zum Erstellungszeitpunkt dieses Handbuchs enthalten. Unter <a href="https://www.wikidata.org/wiki/Wikidata:Property_proposal/Authority_control">Property proposal/Authority control</a> in Wikidata finden sich Vorschläge für neue Normdaten-Eigenschaften.</p>
-<div class="example ">
+<div class="example">
+
 <p><strong>Beispiele für Normdaten-Eigenschaften</strong></p>
 <ul>
 <li>GND-Nummer (<a href="https://www.wikidata.org/wiki/Property:P227"><code>P227</code></a>)</li>
@@ -268,145 +272,142 @@ Thema in:
 <li>VIAF (<a href="https://www.wikidata.org/wiki/Property:P214"><code>P214</code></a>)</li>
 <li>Web NDL Authorities (<a href="https://www.wikidata.org/wiki/Property:P349"><code>P349</code></a>)</li>
 <li>ISO-Norm (<a href="https://www.wikidata.org/wiki/Property:P503"><code>P503</code></a>)</li>
-<li>ISIL-ID (<a href="https://www.wikidata.org/wiki/Property:P791"><code>P791</code></a>)
-</div>
-</li>
+<li>ISIL-ID (<a href="https://www.wikidata.org/wiki/Property:P791"><code>P791</code></a>)</li>
 </ul>
+</div>
+     
 <h2 id="unterschiede-zu-anderen-normdateien"><a href="#unterschiede-zu-anderen-normdateien"><span class="header-section-number">5.2</span> Unterschiede zu anderen Normdateien</a></h2>
-<p>Im Folgenden werden die Unterschiede zwischen Wikidata und der Gemeinsamen Normdatei (GND) kenntlich gemacht.</p>
-<p>Die Einträge bei Wikidata werden maßgeblich durch freischaffende Wikidataautoren und durch Bots erstellt. Jeder kann sich bei Wikidata anmelden und einen Eintrag hinterlassen. Die Wikidata-Datensätze werden in erster Linie für Wikipedia oder andere Wikimedia-Projekte erstellt. Die Normdaten in Wikidata unterliegen einem Regelwerk, welches von der Wikidata-Community erarbeitet worden ist (und dynamisch neuen bzw. veränderten Anforderungen angepasst wird). Die Wikimedia-Foundation hat den Vorteil verschiedener Normdateien erkannt und bietet den Bearbeitern der Datensätze die Möglichkeit an, Normdaten (GND, LCCN, NDL, VIAF) in die Artikel einzubinden.</p>
-<p>Im Gegensatz dazu wird die Gemeinsame Normdatei (GND) von mehreren Institutionen verwaltet, unter anderem von der Deutschen Nationalbibliothek (DNB), allen deutschsprachigen Bibliotheksverbünden, der Zeitschriftendatenbank (ZDB) und zahlreichen weiteren Einrichtungen. Die Normdaten haben als Grundlage die Regeln der alphabetischen Katalogisierung (RAK-WB) und die Regeln für den Schlagwortkatalog (RSWK). Die GND zeichnet sich nicht nur durch ihre Vorzugsbenennungen aus, sondern vor allem durch ihre zahlreichen Synonyme (in anderen Sprachen und Schriften) und Verknüpfungen zu weiteren Datensätzen aus.</p>
-<p>Weiterführende Literatur und Hilfen finden Sie in der <a href="https://www.wikidata.org/w/index.php?title=Wikidata:List_of_policies_and_guidelines/de&amp;oldid=102532266">Wikidata Liste der Projektregeln und Richtlinien</a> oder im <a href="https://www.wikidata.org/w/index.php?title=Help:Contents/de&amp;oldid=66338607">Hilfe-Portal Wikidata</a>.</p>
+<p>Im Folgenden werden die Unterschiede zwischen Wikidata und anderen Normdateien wie der Gemeinsamen Normdatei (GND) kenntlich gemacht.</p>
+<p>Die Einträge bei Wikidata werden maßgeblich durch freischaffende Wikidata Autoren und durch Bots erstellt. Jeder kann sich bei Wikidata anmelden und einen Eintrag hinterlassen. Die Wikidata-Datensätze werden in erster Linie für Wikipedia oder andere Wikimedia-Projekte erstellt. Die Normdaten in Wikidata unterliegen einem Regelwerk, welches von der Wikidata-Community erarbeitet wurde und dynamisch den neuen beziehungsweise veränderten Anforderungen angepasst wird. Die Wikimedia Foundation hat den Vorteil verschiedener Normdateien erkannt und bietet den Bearbeitern der Datensätze die Möglichkeit an Normdaten (GND, LCCN, NDL, VIAF) in die Artikel einzubinden.</p>
+<p>Im Gegensatz dazu wird die Gemeinsame Normdatei (GND) von mehreren Institutionen verwaltet. Unter anderem sind dies die Deutsche Nationalbibliothek (DNB), alle deutschsprachigen Bibliotheksverbünde, die Zeitschriftendatenbank (ZDB) und zahlreiche weitere Einrichtungen. Der GND und anderen Normdateien liegt meist ein genaues Regelwerk zugrunde, beispielsweise die Regeln für den Schlagwortkatalog (RSWK) oder Resource Description and Access (RDA).</p>
+<p>Weiterführende Literatur und Hilfen finden Sie in der <a href="https://www.wikidata.org/siki/Wikidata:List_of_policies_and_guidelines/de">Wikidata-Liste der Projektregeln und Richtlinien</a> oder im <a href="https://www.wikidata.org/wiki/Help:Contents/de">Hilfe-Portal Wikidata</a>.</p>
 <h1 id="praktische-anwendung"><a href="#praktische-anwendung"><span class="header-section-number">6</span> Praktische Anwendung</a></h1>
-<p>Wikidata ist grundsätzlich ein freies Projekt, an dem jede Person mitarbeiten kann. Das folgende Kapitel möchte jedem Interessierten die Mitarbeit an Wikidata ermöglichen. Am Anfang erfolgt eine Erläuterung der Startseite von Wikidata und welche Funktionen für Bearbeiter von Bedeutung sind. Im zweiten Unterkapitel wird die Suchfunktion von Wikidata behandelt und vorgestellt. <a href="#inhalte-finden-in-wikidata">Kapitel 6.3</a> und <a href="#items-erstellen">6.4</a> erläutern im Detail wie Items und Aussagen in Wikidata angelegt und bearbeitet werden können. Danach folgen zwei Darstellungen, auf welche Weise man Übersetzungen anlegen bzw. die Oberflächenanzeige von Wikidata ändern kann. Zum Abschluss wird erläutert, wie man in Wikidata neue Eigenschaften vorstellungen kann und auf welche Weise man Wikidata in anderen Anwendungen benutzen kann.</p>
+<p>Wikidata ist grundsätzlich ein freies Projekt, an dem jede Person mitarbeiten kann. Das folgende Kapitel möchte jedem Interessierten die Mitarbeit an Wikidata ermöglichen. Am Anfang erfolgt eine Erläuterung der Startseite von Wikidata und welche Funktionen für Bearbeiter von Bedeutung sind. Im zweiten Unterkapitel wird die Suchfunktion von Wikidata behandelt und vorgestellt. Die Kapitel <a href="#inhalte-finden-in-wikidata">„Inhalte finden in Wikidata“</a> und <a href="#neue-items-anlegen">„Neue Items anlegen“</a> erläutern im Detail, wie Items und Aussagen in Wikidata angelegt und bearbeitet werden können. Danach folgen zwei Darstellungen, auf welche Weise man Übersetzungen anlegen bzw. die Oberflächenanzeige von Wikidata ändern kann. Zum Abschluss wird erläutert, wie man in Wikidata neue Eigenschaften vorstellungen kann und auf welche Weise man Wikidata in anderen Anwendungen benutzen kann.</p>
 <h2 id="übersicht-der-wikidata-startseite"><a href="#übersicht-der-wikidata-startseite"><span class="header-section-number">6.1</span> Übersicht der Wikidata-Startseite</a></h2>
-<p>Für die aktive Benutzung von Wikidata empfiehlt sich der Besitz eines eigenen Accountes, damit bei eventuellen Änderungen andere Nutzer zuordnen können wer etwas geändert hat, um dann entsprechend darauf reagieren zu können. Einen Benutzeraccount können sie von jeder Wikidataseite aus anlegen. Der Button dafür befindet sich am oberen rechten Rand der Website.</p>
+<p>Für die aktive Benutzung von Wikidata empfiehlt sich der Besitz eines eigenen Accountes, damit bei eventuellen Änderungen andere Nutzer zuordnen können, wer etwas geändert hat, um dann entsprechend darauf reagieren zu können. Einen Benutzeraccount können Sie von jeder Wikidataseite aus anlegen. Der Button dafür befindet sich am oberen rechten Rand der Website.</p>
 <div class="figure">
 <img src="images/Startseite.PNG" alt="Startseite von Wikidata in deutscher Spracheinstellung" /><p class="caption">Startseite von Wikidata in deutscher Spracheinstellung</p>
 </div>
-<p>In der obigen Abbildung sehen sie die deutsche Ansicht der Wikidata-Startseite im abgemeldeten Modus. Für die leichte Bedienbarkeit kann die Oberfläche von Wikidata in fast allen Sprachen angezeigt werden. Hier kann man zwischen zwei Ebenen unterscheiden, der Sprachauswahl für das Kontextmenü und der Sprachauswahl für den Inhaltsbereich. Ersteres ist im abgemeldeten Modus in der linken Spalte zu finden und letzteres findet sich zentral auf der Wikidata-Startseite. Der Unterschied zwischen diesen beiden Spracheinstellungen ist die Art, was sich auf der Website ändert. Bei der Sprachauswahl für das Kontextmenü ändern sich Menü-Punkte, automatisch generierte Buttons und alle weiteren Punkte, die nicht von Bearbeitern von Wikidata geschrieben bzw. programmiert wurden. Bei einer Änderung von Deutsch zu Japanisch ändert sich lediglich die Sprache der Bedienoberfläche, inhaltlich bleiben alle Texte in deutscher Sprache. Eine geänderte Sprachauswahl für den Inhaltsbereich ändert alle von Bearbeitern bzw. Benutzern Inhalte in die geänderte Sprache. Es werden also bei einer Änderung von Deutsch zu Japanisch alle Items und alle Hilfetexte in Japanisch angezeigt.</p>
+<p>Im Screenshot (Abb. 7) sehen Sie die deutsche Ansicht der Wikidata-Startseite im abgemeldeten Modus. Für die leichte Bedienbarkeit kann die Oberfläche von Wikidata in fast allen Sprachen angezeigt werden. Hier kann man zwischen zwei Ebenen unterscheiden, der Sprachauswahl für das Kontextmenü und der Sprachauswahl für den Inhaltsbereich. Erstere ist im abgemeldeten Modus in der linken Spalte zu finden und letztere findet sich zentral auf der Wikidata-Startseite. Der Unterschied zwischen diesen beiden Spracheinstellungen ist die Art, der Veränderung auf der Website. Bei der Sprachauswahl für das Kontextmenü ändern sich Menü-Punkte, automatisch generierte Buttons und alle weiteren Punkte, die nicht von Bearbeitern von Wikidata geschrieben bzw. programmiert wurden. Bei einer Änderung von Deutsch zu Japanisch ändert sich lediglich die Sprache der Bedienoberfläche, inhaltlich bleiben alle Texte in deutscher Sprache. Eine geänderte Sprachauswahl für den Inhaltsbereich ändert alle von Bearbeitern bzw. Benutzern erstellten Inhalte in die geänderte Sprache. Es werden also bei einer Änderung von Deutsch zu Japanisch alle Items und alle Hilfetexte in Japanisch angezeigt.</p>
 <h2 id="spracheinstellung-in-wikidata"><a href="#spracheinstellung-in-wikidata"><span class="header-section-number">6.2</span> Spracheinstellung in Wikidata</a></h2>
-<p>Dieses Kapitel möchte zwei nicht uninteressante Themen anschneiden: wie kann der Benutzer die Sprache der Wikidata-Inhalte anpassen und wie ändert ein Nutzer die Oberflächensprache in seine bevorzugte Sprache?</p>
+<p>Dieses Kapitel möchte zwei interessante Themen anschneiden. Zum einen, wie kann der Benutzer die Sprache der Wikidata-Inhalte anpassen, und zum anderen, wie ändert ein Nutzer die Oberflächensprache in seine bevorzugte Sprache.</p>
 <h3 id="änderung-der-inhaltssprache-von-wikidata"><a href="#änderung-der-inhaltssprache-von-wikidata"><span class="header-section-number">6.2.1</span> Änderung der Inhaltssprache von Wikidata</a></h3>
 <p>Sie fragen sich vielleicht, warum gerade Englisch, Plattdeutsch und Türkisch als Sprachen vorgeschlagen werden. Es werden immer drei Sprachen aufgelistet und diese drei sind diejenigen, die in der Region des Nutzers (in diesem Fall also Deutschland) gesprochen werden.</p>
-<p>Es gibt <a href="https://www.wikidata.org/wiki/Help:Multilingual/de">zwei verschiedene Möglichkeiten</a> die Sprachen zu ändern.</p>
+<p>Es gibt zwei verschiedene Möglichkeiten, die Sprachen zu ändern, wie unter <a href="https://www.wikidata.org/wiki/Help:Multilingual/de">Help:Mehrsprachigkeit</a> zu sehen ist.</p>
 <p><strong>Universale Sprachauswahl</strong></p>
 <p>Diese Methode ist die komplizierteste von zwei möglichen Varianten und diese zu erklären, würde den Rahmen sprengen, deshalb werden im Folgenden lediglich die Babel-Bausteine erklärt. Für Interessierte gibt es aber einen <a href="https://www.mediawiki.org/wiki/Universal_Language_Selector?setlang=de">weiterführenden Link</a> mit weiteren Informationen zu dieser Einstellungsoption.</p>
 <p><strong>Babel-Bausteine</strong></p>
-<p><em>Achtung: Diese Option ist nur für angemeldete beziehungsweise registrierte Nutzer verfügbar</em></p>
+<p>Es gibt für <em>angemeldete Nutzer</em> die Möglichkeit, auf ihrer persönlichen Profilseite (Benutzerseite), ihre bevorzugten Spracheinstellungen vorzunehmen.</p>
 <div class="figure">
-<img src="images/babel.jpg" alt="Babel-Baustein" /><p class="caption">Babel-Baustein</p>
+<img src="images/babel.png" alt="Babel-Baustein" /><p class="caption">Babel-Baustein</p>
 </div>
-<p>Babel-Bausteine werden in die Benutzerseite geschrieben und dienen der Definition der eigenen Sprachkenntnisse. Nur die in den Bausteinen erwähnten Sprachen werden dann im Abschnitt “In anderen Sprachen” angezeigt. Um die Babel-Bausteine zu aktivieren, klickt man oben in der Leiste auf seinen Benutzernamen und gibt dort in die Benutzerbeschreibung den Baustein-Code, zum Beispiel <code>{{#babel:en|de-3|fr-2|es-1|it-0}}</code>, ein. Die Zahlen stehen hierbei für die Sprachkenntnisse, wobei 0 keine Kenntnisse bedeutet. Nach dem Speichern werden die Sprachkenntnisse auf der Benutzerseite wie abgebildet in einem Kasten dargestellt.</p>
-<h2 id="änderung-der-oberflächensprache-von-wikidata"><a href="#änderung-der-oberflächensprache-von-wikidata"><span class="header-section-number">6.3</span> Änderung der Oberflächensprache von Wikidata</a></h2>
-<p>Die Default-Spracheinstellung der Wikidata-Oberflächensprache ist Englisch. Wenn Sie nun die Benutzersprache von Englisch auf Deutsch umstellen möchten, dann ist die Sprachumstellung sehr einfach zu bewältigen. Auf der linken Seite der Wikidata-Startseite befindet sich eine Sprachauswahl und dort können sie jede Sprache (in unserem Fall Deutsch), die in Wikidata vorhanden ist, auswählen.</p>
+<p>Babel-Bausteine (Abb. 8) werden in die Benutzerseite geschrieben und dienen der Definition der eigenen Sprachkenntnisse. Falls Babel-Bausteine auf der Benutzerseite gesetzt sind, werden im Item-Abschnitt “In anderen Sprachen” die Sprachversionen der Babel-Bausteine angezeigt. Anderenfalls sucht sich das System die Sprachen selbst aus (häufig: Deutsch, Türkisch, Plattdeutsch). Um die Babel-Bausteine zu aktivieren, klickt man oben in der Leiste auf seinen Benutzernamen und gibt dort in die Benutzerbeschreibung den Baustein-Code, zum Beispiel <code>{{#babel:en|de-3|fr-2|es-1|it-0}}</code>, ein. Der Sprachencode, welcher auf “#babel:” folgt, steht dabei für die eigene Muttersprache und dies wird dann im Babelbaustein auch so angezeigt. Die Zahlen stehen für die Sprachkenntnisse, wobei 0 keine Kenntnisse und 3 sehr gute Sprachkenntnisse bedeutet. Nach dem Speichern werden die Sprachkenntnisse auf der Benutzerseite wie abgebildet in einem Kasten dargestellt.</p>
+<h3 id="änderung-der-oberflächensprache-von-wikidata"><a href="#änderung-der-oberflächensprache-von-wikidata"><span class="header-section-number">6.2.2</span> Änderung der Oberflächensprache von Wikidata</a></h3>
+<p>Die Default-Spracheinstellung der Wikidata-Oberflächensprache ist Englisch. Wenn Sie nun die Benutzersprache von Englisch auf Deutsch umstellen möchten, dann ist die Sprachumstellung sehr einfach zu bewältigen. Auf der linken Seite der Wikidata-Startseite befindet sich eine Sprachauswahl und dort können Sie jede Sprache (in unserem Fall Deutsch), die in Wikidata vorhanden ist, auswählen (Abb. 9).</p>
 <div class="figure">
-<img src="images/sprachumstellung_wikidata.jpg" alt="Sprachumstellung von englisch zu deutsch" /><p class="caption">Sprachumstellung von englisch zu deutsch</p>
+<img src="images/sprachumstellung_wikidata.png" alt="Sprachumstellung von englisch zu deutsch" /><p class="caption">Sprachumstellung von englisch zu deutsch</p>
 </div>
-<p>Zuletzt sei noch erwähnt, dass die Benutzeroberflächensprache lediglich die funktionalen Bestandteile von Wikidata übersetzt, d.h. die Inhalte von Wikidata (die Items, die Hilfeseiten, die Aussagen etc.) werden bei Default-Einstellungen immer noch in Englisch dargestellt.</p>
-<h2 id="inhalte-finden-in-wikidata"><a href="#inhalte-finden-in-wikidata"><span class="header-section-number">6.4</span> Inhalte finden in Wikidata</a></h2>
-<p>Dieses Kapitel beschreibt verschiedene Suchmöglichkeiten um in Wikidata <a href="#suche-nach-items">Items</a>, <a href="#suche-nach-eigenschaften">Eigenschaften</a> und <a href="#suche-nach-aussagen">Aussagen</a> zu finden. Weitere Suchmöglichkeiten sind unter <a href="#wikidata-in-anderen-anwendungen-weiternutzen">Wikidata in anderen Anwendungen weiternutzen</a> beschrieben.</p>
-<h3 id="suche-nach-items"><a href="#suche-nach-items"><span class="header-section-number">6.4.1</span> Suche nach Items</a></h3>
-<p>Um vorhandene <a href="#wikidata-items">Items</a> zu finden gibt es hauptsächlich zwei Herangehensweisen. Einerseits die Eingabe eines Suchbegriffes in das Suchfeld, hierbei können unterschiedliche Ergebnisse angezeigt werden (Suchergebnisliste). Zu beachten ist, dass die Suche mit der Enter-Taste oder dem Klick auf das Lupensymbol ausgeführt wird. Andererseits kann nach der Eingabe eines Suchbegriffes über die Vorschau eine manuelle Auswahl zum konkreten Item führen (s.u.).</p>
+<p>Zuletzt sei noch erwähnt, dass die Benutzeroberflächensprache lediglich die funktionalen Bestandteile von Wikidata übersetzt, d.h., die Inhalte von Wikidata (die Items, die Hilfeseiten, die Aussagen etc.) werden bei Default-Einstellungen immer noch in Englisch dargestellt.</p>
+<h2 id="inhalte-finden-in-wikidata"><a href="#inhalte-finden-in-wikidata"><span class="header-section-number">6.3</span> Inhalte finden in Wikidata</a></h2>
+<p>Dieses Kapitel beschreibt verschiedene Suchmöglichkeiten, um in Wikidata <a href="#suche-nach-items">Items</a>, <a href="#suche-nach-eigenschaften">Eigenschaften</a> und <a href="#suche-nach-aussagen">Aussagen</a> zu finden. Weitere Suchmöglichkeiten sind unter <a href="#wikidata-in-anderen-anwendungen-weiternutzen">„Wikidata in anderen Anwendungen weiternutzen“</a> beschrieben.</p>
+<h3 id="suche-nach-items"><a href="#suche-nach-items"><span class="header-section-number">6.3.1</span> Suche nach Items</a></h3>
+<p>Um vorhandene <a href="#wikidata-items">Items</a> zu finden, gibt es hauptsächlich zwei Herangehensweisen. Einerseits die Eingabe eines Suchbegriffes in das Suchfeld, hierbei können unterschiedliche Ergebnisse angezeigt werden (Suchergebnisliste). Zu beachten ist, dass die Suche mit der Enter-Taste oder dem Klick auf das Lupensymbol ausgeführt wird. Andererseits kann nach der Eingabe eines Suchbegriffes über die Vorschau eine manuelle Auswahl zum konkreten Item führen (Abb. 10).</p>
 <div class="figure">
-<img src="images/Suchergebnisliste.jpg" alt="Suchergebnisliste" /><p class="caption">Suchergebnisliste</p>
+<img src="images/Suchergebnisliste.png" alt="Suchergebnisliste" /><p class="caption">Suchergebnisliste</p>
 </div>
-<p>Die andere Möglichkeit ist die Eingabe einer konkreten Bezeichnung des Items und der manuellen Auswahl nach der Anzeige der Vorschauergebnisse. Das bevorzugte Ergebnis kann mit der Maus oder der Tastatur ausgewählt werden (+Enter-Taste).</p>
+<p>Die andere Möglichkeit ist die Eingabe einer konkreten Bezeichnung des Items und der manuellen Auswahl nach der Anzeige der Vorschauergebnisse. Das bevorzugte Ergebnis kann mit der Maus oder der Tastatur ausgewählt werden (Abb. 11).</p>
 <div class="figure">
-<img src="images/Suchergebnisvoranzeige.jpg" alt="Suchergebnisvoranzeige" /><p class="caption">Suchergebnisvoranzeige</p>
+<img src="images/Suchergebnisvoranzeige.png" alt="Suchergebnisvoranzeige" /><p class="caption">Suchergebnisvoranzeige</p>
 </div>
-<p>Weitere Suchoptionen kann man am einfachsten einblenden, wenn man die Enter-Taste in einem leeren Suchfeld betätigt. Man wird auf eine Art erweiterte Suche weitergeleitet. Wichtig für den Benutzer sind hier die Suchmöglich speziell nach Items (“Inhaltsseiten”) und nach Hilfeseiten (“Hilfe- und Projektseiten”).</p>
+<p>Weitere Suchoptionen kann man am einfachsten einblenden, wenn man die Enter-Taste in einem leeren Suchfeld betätigt. Man wird auf eine Art erweiterte Suche weitergeleitet (Abb. 12). Wichtig für den Benutzer sind hier die Suchmöglichkeiten speziell nach Items (“Inhaltsseiten”) und nach Hilfeseiten (“Hilfe- und Projektseiten”).</p>
 <div class="figure">
-<img src="images/erweiterte_suche.jpg" alt="Erweiterte Suche" /><p class="caption">Erweiterte Suche</p>
+<img src="images/erweiterte_suche.png" alt="Erweiterte Suche" /><p class="caption">Erweiterte Suche</p>
 </div>
 <p><strong>Begriff Erklärungen/Menüpunkte</strong></p>
 <p>Auf den Inhaltsseiten kann man nach sämtlichen Items von Wikidata suchen. Mit dem Reiter “Hilfe- und Projektseiten” ist es dem Benutzer möglich, nach Hilfen und anderen Erklärungen zu Elementen der Wikidata-Benutzung zu suchen.</p>
-<h3 id="suche-nach-eigenschaften"><a href="#suche-nach-eigenschaften"><span class="header-section-number">6.4.2</span> Suche nach Eigenschaften</a></h3>
-<p>Ist man auf der Suche nach einer <a href="#wikidata-eigenschaften">Eigenschaft</a> gibt es zwei Möglichkeiten, um eine Suche erfolgreich zu gestalten. Die Seite <a href="https://www.wikidata.org/wiki/Wikidata:List_of_properties/de">Liste der Eigenschaften</a> verlinkt zu einer (unvollständigen) Übersicht und zu einer Suchmaske, in welcher man gezielt nach Eigenschaften suchen kann. Diese Möglichkeit ist dann sinnvoll, wenn man eine Eigenschaftsbezeichnung bereits kennt.</p>
+<h3 id="suche-nach-eigenschaften"><a href="#suche-nach-eigenschaften"><span class="header-section-number">6.3.2</span> Suche nach Eigenschaften</a></h3>
+<p>Ist man auf der Suche nach einer <a href="#wikidata-eigenschaften">Eigenschaft</a> gibt es zwei Möglichkeiten, um eine Suche erfolgreich zu gestalten. Die Seite <a href="https://www.wikidata.org/wiki/Wikidata:List_of_properties/de">„Liste der Eigenschaften“</a> verlinkt zu einer (unvollständigen) Übersicht und zu einer Suchmaske, in welcher man gezielt nach Eigenschaften suchen kann (Abb. 13). Diese Möglichkeit ist dann sinnvoll, wenn man eine Eigenschaftsbezeichnung bereits kennt.</p>
 <div class="figure">
 <img src="images/Suche_nach_Eigenschaften.PNG" alt="Suche nach Eigenschaften" /><p class="caption">Suche nach Eigenschaften</p>
 </div>
 <p>Wenn der Name der Eigenschaft nicht bekannt ist, gibt es die Möglichkeit mit Hilfe einer <a href="https://www.wikidata.org/wiki/Wikidata:List_of_properties/Summary_table">Eigenschaftentabelle</a> diese Eigenschaft zu ermitteln.</p>
-<h3 id="suche-nach-aussagen"><a href="#suche-nach-aussagen"><span class="header-section-number">6.4.3</span> Suche nach Aussagen</a></h3>
-<p>_Dieser ganze Abschnitt ist völlig unverständlich. Er sollte besser mit dem Abschnitt <a href="#komplexere-abfragen-und-analysen">Komplexere Abfragen und Analysen</a> koordiniert werden! _</p>
-<p>Wie können vorhandene <a href="#wikidata-aussagen">Aussagen</a>, beispielsweise mit Normdateneigenschaften, abgefragt werden?</p>
-<p>Beispielsweise können alle Personen aufgelistet werden, die in einer bestimmten Stadt geboren sind.</p>
+<h3 id="suche-nach-aussagen"><a href="#suche-nach-aussagen"><span class="header-section-number">6.3.3</span> Suche nach Aussagen</a></h3>
+<p>Wikidata ist zwar eine Datenbank, komplexere Datenbankabfragen sind beim jetzigen Entwicklungsstand aber noch nicht möglich. Für die Suche nach <a href="#wikidata-aussagen">Aussagen</a>, beziehungsweise nach Items mit bestimmten Aussagen muss deshalb auf externe Hilfsmittel zurückgegriffen werden, wie sie unter <a href="#komplexere-abfragen-und-analysen">„Komplexere Abfragen und Analysen“</a> beschrieben sind. Eine einfache Suche ist in Entwicklung und soll zu einem späteren Zeitpunkt unter <a href="https://www.wikidata.org/wiki/Special:SimpleQuery">https://www.wikidata.org/wiki/Special:SimpleQuery</a> bereitstehen. Die einfache Suche soll Anfragen wie beispielsweise nach allen Items <em>X</em> mit der Aussage “<em>X</em> ist ein(e) (<a href="https://www.wikidata.org/wiki/Property:P31"><code>P31</code></a>) Kontinent (<a href="https://www.wikidata.org/wiki/Q5107"><code>Q5107</code></a>)”, also einer automatischen Liste aller Kontinente, ermöglichen. Für Normdaten-Eigenschaften wird die einfache Suche ermöglichen, ausgehend von einem Normdatensatz das zugehörige Wikidata-Item zu finden (Abb. 14).</p>
 <div class="figure">
-<img src="images/simple-query.png" alt="SimpleQuery" /><p class="caption">SimpleQuery</p>
+<img src="images/simple-query.png" alt="Einfache Suche nach Aussagen" /><p class="caption">Einfache Suche nach Aussagen</p>
 </div>
-<p>Im Kapitel <a href="#weiternutzung-in-anderen-anwendungen">Weiternutzung in anderen Anwendungen</a> ist beschrieben, dass in Wikidata keine umfassenden Datenbankabfragen durchgeführt werden können. Es sind hierfür andere Anwendungen, wie zum Beispiel die Webanwendung WikiData Query (WDQ), erforderlich.</p>
-<h2 id="wikidata-bearbeitungen"><a href="#wikidata-bearbeitungen"><span class="header-section-number">6.5</span> Wikidata-Bearbeitungen</a></h2>
-<p>Im nun folgenden Kapitel soll ihnen gezeigt werden, wie man ein Item neu anlegt, wie man Übersetzungen zu Bezeichnungen und Beschreibungen erstellt und wie Aussagen neu definiert bzw. bearbeitet werden können.</p>
-<h3 id="neue-items-anlegen"><a href="#neue-items-anlegen"><span class="header-section-number">6.5.1</span> Neue Items anlegen</a></h3>
-<p>Bevor man ein neues Item erstellt, sollte man überprüfen ob <a href="https://www.wikidata.org/wiki/Special:ItemByTitle?uselang=de">dieses Item bereits existiert</a>. Die Suche wird im Kapitel <a href="#inhalte-finden-in-wikidata">Inhalte finden</a> erklärt.</p>
+<h2 id="wikidata-bearbeitungen"><a href="#wikidata-bearbeitungen"><span class="header-section-number">6.4</span> Wikidata-Bearbeitungen</a></h2>
+<p>Im nun folgenden Kapitel soll Ihnen gezeigt werden, wie man ein Item neu anlegt, wie man Übersetzungen zu Bezeichnungen und Beschreibungen erstellt und wie Aussagen neu definiert bzw. bearbeitet werden können.</p>
+<h3 id="neue-items-anlegen"><a href="#neue-items-anlegen"><span class="header-section-number">6.4.1</span> Neue Items anlegen</a></h3>
+<p>Bevor man ein neues Item erstellt, sollte man überprüfen, ob <a href="https://www.wikidata.org/wiki/Special:ItemByTitle?uselang=de">dieses Item bereits existiert</a>. Die Suche wird im Kapitel <a href="#inhalte-finden-in-wikidata">„Inhalte finden“</a> erklärt.</p>
 <div class="figure">
-<img src="images/neues_datemitem.jpg" alt="Die Erstellung eines neuen Items" /><p class="caption">Die Erstellung eines neuen Items</p>
+<img src="images/Die_Erstellung_eines_neuen_Items.PNG" alt="Erstellung eines neuen Items" /><p class="caption">Erstellung eines neuen Items</p>
 </div>
-<p>Wenn das Item noch nicht vorhanden ist, erhält man die Möglichkeit ein neues Item zu erstellen. Man wird mit einem Link auf die Erstellungsseite weitergeleitet (s.o. “Die Erstellung eines neuen Items”). Dort muss die Bezeichnung sowie die Beschreibung des zu erstellenden Items eingetragen werden. Ist dies geschehen, kommt man auf die Itemseite.</p>
+<p>Wenn das Item noch nicht vorhanden ist, erhält man die Möglichkeit, ein neues Item zu erstellen. Man wird mit einem Link auf die Erstellungsseite weitergeleitet (Abb. 15). Dort muss die Bezeichnung sowie die Beschreibung des zu erstellenden Items eingetragen werden. Ist dies geschehen, kommt man auf die Itemseite.</p>
 <p>Auf der Itemseite hat man die Möglichkeit, Änderungen vorzunehmen oder weitere Sprachen beziehungsweise Übersetzungen für die Itembezeichnung hinzuzufügen.</p>
-<p>Items bestehen in der Regel aus einer Vielzahl von Aussagen. Diese enthalten Informationen über die reale Welt und sind der Kernteil jedes Items. Sie gliedern sich in Eigenschaften (property) mit vorgegebenem Vokabular und ihnen zugewiesenen Werten beziehungsweise Inhalten. In <a href="#bestandteile-von-wikidata">Kapitel 4</a> können Sie mehr über die Bestandteile von Items erfahren. Eine Übersicht über alle Eigenschaften von Wikidata kann man in der <a href="https://www.wikidata.org/w/index.php?title=Wikidata:List_of_properties/Summary_table/de&amp;oldid=116061771">Liste der Eigenschaften</a> finden. Im Anhang dieser Übersicht können Sie überprüfen, welche Werte Sie dort eintragen können.</p>
+<p>Items bestehen in der Regel aus einer Vielzahl von Aussagen. Diese enthalten Informationen über die reale Welt und sind der Kernteil jedes Items. Sie gliedern sich in Eigenschaften (property) mit vorgegebenem Vokabular und ihnen zugewiesenen Werten beziehungsweise Inhalten. Im <a href="#bestandteile-von-wikidata">Kapitel Bestandteile von Wikidata</a> können Sie mehr über die Bestandteile von Items erfahren. Eine Übersicht über alle Eigenschaften von Wikidata kann man in der <a href="https://www.wikidata.org/wiki/Wikidata:List_of_properties/Summary_table/de">Liste der Eigenschaften</a> finden. Im Anhang dieser Übersicht können Sie überprüfen, welche Werte Sie dort eintragen können.</p>
 <p><strong>Relevanzkriterien</strong></p>
 <p>Zum Erstellen eines Items gibt es drei verschiedene Relevanzkriterien. Es muss erstens einen gültigen Sitelink zu Wikipedia, Wikitravel, Wikisource, Wikiquote oder zu einer Wikimedia Commons-Seite geben. Zweitens muss sich der Artikel auf eine Instanz einer klaren konzeptionellen oder materiellen Einheit beziehen. Der dritte Kriterienpunkt ist, dass das Item eine strukturelle Notwendigkeit hat, um zum Beispiel die Aussagen eines schon bestehenden Items zu erörtern.</p>
-<h3 id="übersetzungen-in-wikidata"><a href="#übersetzungen-in-wikidata"><span class="header-section-number">6.5.2</span> Übersetzungen in Wikidata</a></h3>
-<p>Wikidata arbeitet an einem Modell bei dem alle Sprachen beziehungsweise Sprachlinks an einem zentralen Punkt zusammengeführt und verknüpft werden. Auf diese Weise werden alle Wiki-Einträge (in allen Sprachen) an einer zentralen Stelle angezeigt. Es können <a href="https://www.wikidata.org/w/index.php?title=Wikidata:Translators%27_noticeboard&amp;oldid=115958854">Anträge</a> zur Übersetzung gestellt oder Verbesserungsvorschläge und Rechtschreibkorrekturen angemerkt werden.</p>
+<h3 id="übersetzungen-in-wikidata"><a href="#übersetzungen-in-wikidata"><span class="header-section-number">6.4.2</span> Übersetzungen in Wikidata</a></h3>
+<p>Wikidata arbeitet an einem Modell, bei dem alle Sprachen beziehungsweise Sprachlinks an einem zentralen Punkt zusammengeführt und verknüpft werden. Auf diese Weise werden alle Wiki-Einträge (in allen Sprachen) an einer zentralen Stelle angezeigt. Es können <a href="https://www.wikidata.org/wiki/Wikidata:Translators%27_noticeboard">Anträge</a> zur Übersetzung gestellt oder Verbesserungsvorschläge und Rechtschreibkorrekturen angemerkt werden.</p>
 <div class="figure">
-<img src="images/beispieluebersetzen.jpg" alt="Übersetzungen des Items" /><p class="caption">Übersetzungen des Items</p>
+<img src="images/beispieluebersetzen.jpg" alt="Übersetzungen eines Items" /><p class="caption">Übersetzungen eines Items</p>
 </div>
-<p>Anderssprachige Bezeichnungen und Beschreibungen von Items können auf der Seite der jeweiligen Items unter “In anderen Sprachen” eingetragen werden. Wie im Screenshot zu sehen ist, werden automatisch die Sprachen Englisch, Plattdeutsch und Türkisch vorgeschlagen. Da es bereits eine englische Übersetzung gibt, kann diese nicht neu angelegt, sondern nur bearbeitet werden. Plattdeutsch und Türkisch haben noch keine Übersetzungen, also kann der Nutzer einfach in das leere Feld die entsprechende Bezeichnung beziehungsweise Beschreibung eintragen. Hierbei ist Vorsicht angeraten, denn beim Übersetzen gibt es <a href="https://www.wikidata.org/wiki/Help:Sitelinks/de-formal">Richtlinien</a> zu beachten. Es darf nur dann eine Sprache hinzugefügt werden, wenn es dazu auch einen passenden Wikipedia-Artikel in der jeweiligen Sprache gibt. Eine andere Möglichkeit, Sprachen und Übersetzungen auf den Itemseiten zu bearbeiten ist das Helferlein “Liste der Bezeichnungen”.</p>
+<p>Anderssprachige Bezeichnungen und Beschreibungen von Items können auf der Seite der jeweiligen Items unter “In anderen Sprachen” eingetragen werden. Wie im Screenshot (Abb. 16) zu sehen ist, werden automatisch die Sprachen Englisch, Plattdeutsch und Türkisch vorgeschlagen. Da es bereits eine englische Übersetzung gibt, kann diese nicht neu angelegt, sondern nur bearbeitet werden. Plattdeutsch und Türkisch haben noch keine Übersetzungen, also kann der Nutzer einfach in das leere Feld die entsprechende Bezeichnung beziehungsweise Beschreibung eintragen. Hierbei ist Vorsicht angeraten, denn beim Übersetzen gibt es <a href="https://www.wikidata.org/wiki/Help:Sitelinks/de-formal">Richtlinien</a> zu beachten. Es ist möglich in jeder Sprache Übersetzungen eines Items einzutragen, selbst wenn das Item in dieser Sprache keinen Wiki-Artikel besitzt. Die Bedingung ist jedoch, dass die Kombination aus Bezeichnung und Beschreibung eindeutig ist (und zwar nur in dieser Sprache eindeutig). Beispielsweise kann der dt. Eintrag “Markus Müller”, “Fußballspieler aus München” eindeutig sein und trotzdem kann die gleiche Übersetzung (natürlich im gleichen Item!) auf Englisch “Markus Müller”, “football player from Munich” auch eindeutig sein.</p>
 <p><strong>Liste der Bezeichnungen</strong></p>
-<p>Für die Anzeige der Liste der Bezeichnungen muss diese zunächst in in den <a href="https://www.wikidata.org/wiki/Special:Preferences">Einstellungen</a> (Achtung: Anmeldung erforderlich!) im Reiter “Helferlein” im Punkt “LabelLister” aktiviert werden. Dafür ist eine Anmeldung erforderlich. Wenn dieses Kästchen angehakt ist, erscheint nun auf der Seite des Items ein weiteres Feld zwischen “Lesen” und “Versionsgeschichte”, nämlich die “Liste der Bezeichnungen”.</p>
+<p>Für die Anzeige der Liste der Bezeichnungen muss diese zunächst in den <a href="https://www.wikidata.org/wiki/Special:Preferences">Einstellungen</a> (Achtung: Anmeldung erforderlich!) im Reiter “Helferlein” im Punkt “LabelLister” aktiviert werden. Dafür ist eine Anmeldung erforderlich. Wenn dieses Kästchen angehakt ist, erscheint nun auf der Seite des Items ein weiteres Feld zwischen “Lesen” und “Versionsgeschichte”, nämlich die “Liste der Bezeichnungen” (Abb. 17).</p>
 <div class="figure">
 <img src="images/Liste_der_Bezeichnungen.PNG" alt="Liste der Bezeichnungen des Items Japan" /><p class="caption">Liste der Bezeichnungen des Items “Japan”</p>
 </div>
 <p>Klickt man nun darauf, erscheint ein PopUp-Fenster, welches alle Übersetzungen der Bezeichnung enthält. Für eine Änderung bzw. Eintragung einer neuen Itembezeichnung und Itembeschreibung müssen Sie “Bearbeiten” im PopUp-Fenster anwählen. Anschließend geben Sie den <a href="https://de.wikipedia.org/wiki/Wikipedia:Sprachen#Alle_Wikipedias">Sprachencode</a> ein und nach der Eingabe öffnet sich das Bearbeitungsfenster für die Sprachbezeichnungen, Aliasse und Beschreibungen. Nachdem Sie auf “Speichern” geklickt haben, werden die Änderungen auf der Itemseite angezeigt.</p>
-<h3 id="aussagen-bearbeiten"><a href="#aussagen-bearbeiten"><span class="header-section-number">6.5.3</span> Aussagen bearbeiten</a></h3>
+<h3 id="aussagen-bearbeiten"><a href="#aussagen-bearbeiten"><span class="header-section-number">6.4.3</span> Aussagen bearbeiten</a></h3>
 <div class="figure">
 <img src="images/aussagen.jpg" alt="Standard-Ansicht von Aussagen" /><p class="caption">Standard-Ansicht von Aussagen</p>
 </div>
-<p>Aussagen lassen sich bei Wikidata auf der Seite des Items bearbeiten und anlegen. Mit einem Klick auf “bearbeiten” (siehe oben), kann man den Wert einer schon bestehenden Eigenschaft bearbeiten. Bei Klicken auf “hinzufügen” ist es möglich, einen neuen Wert zu erstellen. Allerdings können die Begriffe nicht frei gewählt werden, man muss aus einem Pool bereits bestehender und von Wikidata normierten Begriffen auswählen. Im Folgenden ist das Bearbeiten eines Werts erklärt.</p>
+<p>Aussagen lassen sich bei Wikidata auf der Seite des Items bearbeiten und anlegen. Mit einem Klick auf “bearbeiten” (Abb. 18), kann man den Wert einer schon bestehenden Eigenschaft bearbeiten. Bei Klicken auf “hinzufügen” ist es möglich, einen neuen Wert zu erstellen. Allerdings können die Begriffe nicht frei gewählt werden, man muss aus einem Pool bereits bestehender und von Wikidata normierter Begriffe auswählen. Im Folgenden ist das Bearbeiten eines Werts gezeigt (Abb. 19).</p>
 <div class="figure">
 <img src="images/aussage-bearbeiten.png" alt="Aussage bearbeiten" /><p class="caption">Aussage bearbeiten</p>
 </div>
-<p>Um eine neue Aussage zu erstellen, muss man auf “hinzufügen” am Ende der Aussagenliste klicken (siehe unten, blaue Umrandung). Auch die Begriffe für die Eigenschaften sind nicht frei wählbar, sie müssen ebenfalls aus einer bestehenden Liste ausgewählt werden.</p>
+<p>Um eine neue Aussage zu erstellen, muss man auf “hinzufügen” am Ende der Aussagenliste klicken (Abb. 20). Auch die Begriffe für die Eigenschaften sind nicht frei wählbar, sie müssen ebenfalls aus einer bestehenden Liste ausgewählt werden.</p>
 <div class="figure">
 <img src="images/Neue_Aussage_hinzuf_gen.PNG" alt="Neue Aussage hinzufügen" /><p class="caption">Neue Aussage hinzufügen</p>
 </div>
 <p>Wie auf den Screenshots zu sehen ist, können Aussagen zusätzlich mit <a href="#belege">Belegen</a> versehen werden.</p>
-<h3 id="neue-eigenschaften-vorschlagen"><a href="#neue-eigenschaften-vorschlagen"><span class="header-section-number">6.5.4</span> Neue Eigenschaften vorschlagen</a></h3>
-<p>Nur Administratoren und <a href="https://www.wikidata.org/wiki/Wikidata:Property_creators/de">Eigenschaftenersteller</a> können neue Wikidata-Eigenschaften erstellen. Normale User können eine neue Eigenschaft <a href="https://www.wikidata.org/wiki/Wikidata:Property_proposal/de">vorschlagen</a> und dieser Vorschlag wird dann geprüft. Bevor Sie aber eine neue Eigenschaft in die Diskussion einbringen, beachten Sie bitte folgendes:</p>
+<h3 id="neue-eigenschaften-vorschlagen"><a href="#neue-eigenschaften-vorschlagen"><span class="header-section-number">6.4.4</span> Neue Eigenschaften vorschlagen</a></h3>
+<p>Nur Administratoren und <a href="https://www.wikidata.org/wiki/Wikidata:Property_creators/de">Eigenschaftenersteller</a> können neue Wikidata-Eigenschaften erstellen. Normale User können eine <a href="https://www.wikidata.org/wiki/Wikidata:Property_proposal/de">neue Eigenschaft vorschlagen</a> und dieser Vorschlag wird dann geprüft. Bevor Sie aber eine neue Eigenschaft in die Diskussion einbringen, beachten Sie bitte Folgendes:</p>
 <ol style="list-style-type: decimal">
 <li>Überprüfen Sie in der <a href="https://www.wikidata.org/wiki/Wikidata:List_of_properties/de">Liste der Eigenschaften</a>, ob die Eigenschaft bereits existiert.</li>
 <li>Überprüfen Sie, ob die Eigenschaft bereits vorgeschlagen oder abgelehnt wurde.</li>
-<li>Prüfen Sie, ob Sie der Eigenschaft eine ähnliche Bezeichnung und Beschreibung geben können, wie einem bereits existierenden Infobox-Parameter in der Wikipedia. Sollte dies zutreffen, überlegen Sie, ob deren Daten automatisch nach Wikidata übertragen werden können.</li>
+<li>Prüfen Sie, ob Sie der Eigenschaft eine ähnliche Bezeichnung und Beschreibung geben können wie einem bereits existierenden Infobox-Parameter in der Wikipedia. Sollte dies zutreffen, überlegen Sie, ob diese Daten automatisch nach Wikidata übertragen werden können.</li>
 <li>Wählen Sie den richtigen Datentyp für die Eigenschaft.</li>
 <li>Erstellen Sie auf Basis des <a href="https://www.wikidata.org/wiki/Wikidata:Property_proposal/all">Formulars</a> die Eigenschaftsdokumentation und fügen Sie sie in den passenden Abschnitt ein.</li>
 </ol>
-<p>Die neue Eigenschaft wird dann mindestens eine Woche lang diskutiert und wenn es nach dieser Woche keine oder kaum Gegenstimmen gibt, wird die Eigenschaft von einem Administrator oder Eigenschaftenersteller erzeugt.</p>
-<h2 id="wikidata-in-anderen-anwendungen-weiternutzen"><a href="#wikidata-in-anderen-anwendungen-weiternutzen"><span class="header-section-number">6.6</span> Wikidata in anderen Anwendungen weiternutzen</a></h2>
-<p>Prinzipiell kann Wikidata direkt als Datenbank zum Nachschlagen von Informationen genutzt werden. Das volle Potential entfalten die Inhalte allerdings erst durch Einbindung in andere Anwendungen. Dank Freigabe unter der <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.de">CC0 Lizenz</a> ist dies uneingeschränkt möglich. Im Folgenden werden die praktischen Möglichkeiten der Weiternutzung mit besonderem Schwerpunkt auf Normdaten vorgestellt.</p>
-<h3 id="alternative-benutzeroberflächen"><a href="#alternative-benutzeroberflächen"><span class="header-section-number">6.6.1</span> Alternative Benutzeroberflächen</a></h3>
-<p>Die Standard-Benutzeroberfläche von Wikidata ist vor allem auf das <a href="#aussagen-bearbeiten">Bearbeiten</a> von Inhalten ausgelegt. Zum reinen Stöbern in den Datenbeständen ist diese Ansicht eher unübersichtlich. Eine Alternative bieten Benutzeroberflächen und Anwendungen, die Wikidata-Inhalte in ansprechender Form präsentieren. Ein Beispiel hierfür ist die Reasonator-Webanwendung unter <a href="http://tools.wmflabs.org/reasonator/">http://tools.wmflabs.org/reasonator/</a>.</p>
+<p>Die neue Eigenschaft wird dann mindestens eine Woche lang diskutiert, und wenn es nach dieser Woche keine oder kaum Gegenstimmen gibt, wird die Eigenschaft von einem Administrator oder Eigenschaftenersteller erzeugt.</p>
+<h2 id="wikidata-in-anderen-anwendungen-weiternutzen"><a href="#wikidata-in-anderen-anwendungen-weiternutzen"><span class="header-section-number">6.5</span> Wikidata in anderen Anwendungen weiternutzen</a></h2>
+<p>Prinzipiell kann Wikidata direkt als Datenbank zum Nachschlagen von Informationen genutzt werden. Das volle Potential entfalten die Inhalte allerdings erst durch Einbindung in andere Anwendungen. Dank Freigabe unter der <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.de">CC0-Lizenz</a> ist dies uneingeschränkt möglich. Im Folgenden werden die praktischen Möglichkeiten der Weiternutzung mit besonderem Schwerpunkt auf Normdaten vorgestellt.</p>
+<h3 id="alternative-benutzeroberflächen"><a href="#alternative-benutzeroberflächen"><span class="header-section-number">6.5.1</span> Alternative Benutzeroberflächen</a></h3>
+<p>Die Standard-Benutzeroberfläche von Wikidata ist vor allem auf das <a href="#aussagen-bearbeiten">Bearbeiten</a> von Inhalten ausgelegt. Zum reinen Stöbern in den Datenbeständen ist diese Ansicht eher unübersichtlich. Eine Alternative bieten Benutzeroberflächen und Anwendungen, die Wikidata-Inhalte in ansprechender Form präsentieren. Ein Beispiel hierfür ist die Reasonator-Webanwendung unter <a href="http://tools.wmflabs.org/reasonator/">http://tools.wmflabs.org/reasonator/</a> (Abb. 21).</p>
 <div class="figure">
 <img src="images/reasonator-example.png" alt="Alternative Item-Anzeige mit Reasonator" /><p class="caption">Alternative Item-Anzeige mit Reasonator</p>
 </div>
-<h3 id="zugriff-per-mediawiki-api"><a href="#zugriff-per-mediawiki-api"><span class="header-section-number">6.6.2</span> Zugriff per MediaWiki-API</a></h3>
-<p>Wie andere MediaWiki-Installation bietet auch Wikidata die Möglichkeit, Inhalte über eine Schnittstelle abzufragen. Die MediaWiki-API unter <a href="http://wikidata.org/w/api.php">http://wikidata.org/w/api.php</a> ermöglicht praktisch alle Aktionen, die auch über die Benutzeroberfläche von Wikidata möglich sind (Suche, Bearbeitung…). Diese Möglichkeit wird unter anderem von Bots verwendet, die Inhalte in Wikidata automatisch eintragen oder ergänzen. Zum Zugriff auf die API bietet es sich an, auf vorhandene Programmbibliotheken wie <a href="http://www.mediawiki.org/wiki/Manual:Pywikibot">Pywikibot</a> oder <a href="https://metacpan.org/release/Catmandu-Wikidata">Catmandu-Wikidata</a> zurückzugreifen.</p>
+<h3 id="zugriff-per-mediawiki-api"><a href="#zugriff-per-mediawiki-api"><span class="header-section-number">6.5.2</span> Zugriff per MediaWiki-API</a></h3>
+<p>Wie andere MediaWiki-Installationen bietet auch Wikidata die Möglichkeit, Inhalte über eine Schnittstelle abzufragen. Die MediaWiki-API unter <a href="http://wikidata.org/w/api.php">http://wikidata.org/w/api.php</a> ermöglicht praktisch alle Aktionen, die auch über die Benutzeroberfläche von Wikidata möglich sind (Suche, Bearbeitung…). Diese Möglichkeit wird unter anderem von Bots verwendet, die Inhalte in Wikidata automatisch eintragen oder ergänzen. Zum Zugriff auf die API bietet es sich an, auf vorhandene Programmbibliotheken wie <a href="http://www.mediawiki.org/wiki/Manual:Pywikibot">Pywikibot</a> oder <a href="https://metacpan.org/release/Catmandu-Wikidata">Catmandu-Wikidata</a> zurückzugreifen.</p>
 <div class="example">
 Die URL <a href="http://www.wikidata.org/w/api.php?action=wbgetentities&amp;ids=Q17&amp;props=labels&amp;format=json">http://www.wikidata.org/w/api.php?action=wbgetentities&amp;ids=Q17&amp;props=labels&amp;format=json</a> liefert die Namen von Japan (Item <a href="https://www.wikidata.org/wiki/Q17"><code>Q17</code></a>) in allen in Wikidata vorhandenen Sprachen im JSON-Format.
 </div>
 
-<h3 id="download-der-gesamten-datenbank"><a href="#download-der-gesamten-datenbank"><span class="header-section-number">6.6.3</span> Download der gesamten Datenbank</a></h3>
+<h3 id="download-der-gesamten-datenbank"><a href="#download-der-gesamten-datenbank"><span class="header-section-number">6.5.3</span> Download der gesamten Datenbank</a></h3>
 <p>Für einen vollständigen Zugriff werden unter <a href="http://dumps.wikimedia.org/wikidatawiki/">http://dumps.wikimedia.org/wikidatawiki/</a> in regelmäßigen Abständen Abzüge der Wikidata-Datenbank bereitgestellt. Zur Auswertung der Daten sind jedoch aufgrund von Umfang und Datenstruktur weitere Programme wie das <a href="https://www.mediawiki.org/wiki/Wikidata_Toolkit">Wikidata Toolkit</a> notwendig.</p>
-<h3 id="komplexere-abfragen-und-analysen"><a href="#komplexere-abfragen-und-analysen"><span class="header-section-number">6.6.4</span> Komplexere Abfragen und Analysen</a></h3>
-<p>Bislang bietet Wikidata noch keine einfache Möglichkeit für komplexere Datenbank-Abfragen, so dass für umfangreichere Analysen im Zweifelsfall die gesamte Datenbank heruntergeladen werden muss. Alternativ dazu gibt es einige Programme mit denen Abfragen an eine möglichst aktuelle Kopie der Wikidata-Datenbank gestellt werden können.</p>
-<p>Für die Einbindung in MediaWiki beinhaltet die Wikibase-Software eine <a href="http://www.mediawiki.org/wiki/Extension:Wikibase_Client/Lua">Komponente zur Programmierung von Wikidata-Abfragen in der Programmiersprache Lua</a>. Diese Variante soll zunehmend in den Wikis der Wikimedia-Foundation verwendet werden, um dort Infoboxen, Listen und andere strukturierte Inhalte anzuzeigen. Eine weitere Möglichkeit ist die Webanwendung WikiData Query (WDQ) unter <a href="http://wdq.wmflabs.org/">http://wdq.wmflabs.org/</a>. Dort können in einer speziellen Abfragesprache und über ein Webinterface Abfragen zusammengestellt werden, beispielsweise um Listen von Wikidata-Items mit gemeinsamen Eigenschaften zu erstellen.</p>
+<h3 id="komplexere-abfragen-und-analysen"><a href="#komplexere-abfragen-und-analysen"><span class="header-section-number">6.5.4</span> Komplexere Abfragen und Analysen</a></h3>
+<p>Bislang bietet Wikidata noch keine einfache Möglichkeit für komplexere Datenbank-Abfragen, so dass für umfangreichere Analysen im Zweifelsfall die gesamte Datenbank heruntergeladen werden muss. Alternativ dazu gibt es einige Programme, mit denen Abfragen an eine möglichst aktuelle Kopie der Wikidata-Datenbank gestellt werden können. Einfache Abfragen sollen in Zukunft per <a href="#inhalte-finden-in-wikidata">Suche nach Aussagen</a> möglich sein.</p>
+<p>Für die Einbindung in MediaWiki beinhaltet die Wikibase-Software eine <a href="http://www.mediawiki.org/wiki/Extension:Wikibase_Client/Lua">Komponente zur Programmierung von Wikidata-Abfragen in der Programmiersprache Lua</a>. Diese Variante soll zunehmend in den Wikis der Wikimedia-Foundation verwendet werden, um dort Infoboxen, Listen und andere strukturierte Inhalte anzuzeigen. Eine weitere Möglichkeit ist die Webanwendung WikiData Query (WDQ unter <a href="http://wdq.wmflabs.org/">http://wdq.wmflabs.org/</a>). Dort können in einer speziellen Abfragesprache und über ein Webinterface Abfragen zusammengestellt werden, beispielsweise um Listen von Wikidata-Items mit gemeinsamen Eigenschaften zu erstellen.</p>
 <div class="example">
 
 <p>Die Anfrage <code>string[227:&quot;224028495-5&quot;]</code> fragt in WikiData Query alle Items ab, die eine Aussage mit der Eigenschaft <a href="https://www.wikidata.org/wiki/Property:P227"><code>P227</code></a> (GND-Identifier) haben, deren Wert die Zeichenkette “224028495-5” ist. Auf diese Weise kann zu einer GND-Nummer, falls vorhanden, das entsprechende Wikidata-Item nachgeschlagen werden.</p>
 </div>
 
-<h3 id="bereitstellung-von-normdaten-mappings"><a href="#bereitstellung-von-normdaten-mappings"><span class="header-section-number">6.6.5</span> Bereitstellung von Normdaten-Mappings</a></h3>
-<p>Die Webanwendung <a href="http://tools.wmflabs.org/wikidata-todo/beacon.php">Wikidata BEACON</a> ermöglicht die Abfrage von vollständigen Normdaten-Mappings aus Wikidata. Die Mappings werden im <a href="http://gbv.github.io/beaconspec/beacon.html">BEACON-Format</a> bereitgestellt und bestehen im Wesentlichen aus einer Tabelle die Item-IDs aus Wikidata den entsprechenden IDs einer anderen Normdatei gegenüberstellt.</p>
+<h3 id="bereitstellung-von-normdaten-mappings"><a href="#bereitstellung-von-normdaten-mappings"><span class="header-section-number">6.5.5</span> Bereitstellung von Normdaten-Mappings</a></h3>
+<p>Die Webanwendung <a href="http://tools.wmflabs.org/wikidata-todo/beacon.php">Wikidata BEACON</a> ermöglicht die Abfrage von vollständigen Normdaten-Mappings aus Wikidata. Die Mappings werden im <a href="http://gbv.github.io/beaconspec/beacon.html">BEACON-Format</a> bereitgestellt und bestehen im Wesentlichen aus einer Tabelle, die Item-IDs aus Wikidata den entsprechenden IDs einer anderen Normdatei gegenüberstellt.</p>
 <div class="example">
 <p>Ein gekürzter Auszug aus dem Normdaten-Mapping von Wikidata zu GND. Konkret wird hier der URL <a href="http://www.wikidata.org/wiki/Q17">http://www.wikidata.org/wiki/Q17</a> auf die URL <a href="http://d-nb.info/gnd/4028495-5">http://d-nb.info/gnd/4028495-5</a> gemappt, da beide Normdatensätze sich auf Japan beziehen:</p>
 <pre><code>#PREFIX: http://www.wikidata.org/wiki/
@@ -415,29 +416,23 @@ Die URL <a href="http://www.wikidata.org/w/api.php?action=wbgetentities&amp;ids=
 Q17|Japan|4028495-5</code></pre>
 </div>
 
-<h1 id="frequently-asked-questions" class="unnumbered"><a href="#frequently-asked-questions">Frequently Asked Questions</a></h1>
-<p><strong>1. Stellt Wikidata Doppelarbeit dar, wenn es bereits entsprechende Wikipedia-Artikel gibt?</strong> Nein, Wikidata übernimmt die Fakten von Wikipedia und bereitet sie auf. Diese können durch die Aussagen leicht in anderen Sprachen abgerufen werden, was in Wikipedia nicht möglich ist.</p>
-<p><strong>2. Warum gibt es ein festes Vokabular für Eigenschaften?</strong> Eigenschaften sind in verschiedenen Sprachen vorhanden. Die Begriffe sind vorgegeben, damit eine problemlose Übersetzung ermöglicht wird. Bei fehlenden Begriffen können diese der Community vorgeschlagen werden. Ausführliche Informationen zu diesem Thema finden Sie im Kapitel <a href="#neue-wikidata-eigenschaften-erstellen">Neue Wikidata Eigenschaften</a>.</p>
-<p><strong>3. Wie erzeuge ich ein neues Item?</strong> Zuerst sollten Sie überprüfen, ob das Item, dass Sie erstellen möchten, möglicherweise bereits existiert. Falls das Item nicht vorhanden ist, können Sie das <a href="http://www.wikidata.org/wiki/Special:NewItem?uselang=de">neue Item erstellen</a>. Auf dieser Seite müssen Sie zuerst die Bezeichnung sowie die Beschreibung des zu erstellenden Items eintragen. Ist dies geschehen, kommen sie auf die Itemseite. <a href="http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#neue-items-anlegen">Kapitel 6.4.1 Neue Items anlegen</a> zeigt Ihnen ausführlich, wie man ein Item anlegen kann.</p>
-<p><strong>4. Ich suche eine Übersichtsseite zu wichtigen Begriffen von Wikidata. Gibt es so etwas?</strong> Wikidata besitzt ein ausführliches Glossar, in dem wichtige Begriffe von Wikidata und dessen Funktionsweise beschrieben sind. Sie finden das Glossar auf <a href="http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#glossar" title="Glossar">dieser Website</a>.</p>
-<p><strong>5. Was sind Belege?</strong> Belege bestehen aus mindestens einer Eigenschaft und einem Wert. Die Eigenschaften, die eine Aussage belegen sollen, werden aus dem Pool von verfügbaren (und festgelegten) Eigenschaften ausgelegt. Der Wert ist ein Nachweis einer Information, die in einer Aussage verwendet wird, zum Beispiel ein Zitat, eine Website oder ein anderes Dokument, dass die Qualitätssicherung gewährleistet. Lesen Sie <a href="http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#belege" title="Kapitel 4.3.3 Belege">Kapitel 4.3.3 Belege</a> sowie <a href="http://www.wikidata.org/wiki/Help:Sources/de" title="Hilfe: Belege">Hilfe: Belege</a></p>
-<p><strong>6. Wie finde ich etwas in Wikidata?</strong> Die beiden wichtigsten Möglichkeiten sind die Suchfunktion (die umfassende Suche über Sprachgrenzen hinweg) und die Suche von <a href="http://www.wikidata.org/wiki/Special:ItemByTitle?uselang=de">Datenobjekten nach Titeln</a>. Letzteres funktioniert indem Sie bei “Website” eine Sprache eines Wikimedia-Projektes (“de” -&gt; “Deutsch (dewiki)”) und bei “Seite” die Bezeichnung eines Items (“Japan”) eingeben. Sie werden anschließend auf die Item-Seite von Japan weitergeleitet. Wichtig zu beachten ist, dass der Eintrag, den Sie in das Suchfeld eingeben, genau mit der Bezeichnung des Items übereinstimmen muss. Eine ausführliche Beschreibung der Suchfunktionen finden Sie im <a href="http://hshwd.jakobvoss.de/normdaten-in-wikidata.html#inhalte-finden-in-wikidata">Kapitel 6.4 Inhalte finden in Wikidata</a>.</p>
 <h1 id="glossar" class="unnumbered"><a href="#glossar">Glossar</a></h1>
+
 <dl>
-<dt><strong>Aussage (statement)</strong></dt>
-<dd><p>Eine <a href="#wikidata-aussagen">Aussage</a> ist eine Untereinheit eines Items in Wikidata. Aussagen bestehen in der Regel aus einer normierten Eigenschaft, ihnen zugewiesenen Items und optionalen Belege. Nicht jede Eigenschaft muss als Wert ein Item beinhalten, manche enthalten einfache externe Verlinkungen (Normdaten, Webseiten…) oder einfache Daten (geografische Daten, Ländercodes…). Wikidata gibt keine Auskunft über die Richtigkeit von Aussagen, sondern beschränkt sich auf das Sammeln und die Bereitstellung von Daten, zusammen mit der dem Nachweis der Quelle.</p>
+<dt><strong>Aussage</strong></dt>
+<dd><p>Eine <a href="#wikidata-aussagen">Aussage</a> ist eine Untereinheit eines Items in Wikidata. Aussagen bestehen in der Regel aus einer normierten Eigenschaft, ihnen zugewiesenen Items und optionalen Belege. Nicht jede Eigenschaft muss als Wert ein Item beinhalten, manche enthalten einfache externe Verlinkungen (Normdaten, Webseiten…) oder einfache Daten (geografische Daten, Ländercodes…). Wikidata gibt keine Auskunft über die Richtigkeit von Aussagen, sondern beschränkt sich auf das Sammeln und die Bereitstellung von Daten zusammen mit dem Nachweis der Quelle.</p>
 </dd>
 <dt><strong>Beleg</strong></dt>
 <dd><p>Ein <a href="#belege">Beleg</a> in Wikidata ist eine beliebige Literatur- oder Quellenangabe, die eine Aussage bestätigt. Belege können ihrerseits auf andere Items verweisen, beispielsweise auf ein Buch, das in Wikidata einen eigenen Eintrag hat.</p>
 </dd>
 <dt><strong>Bot</strong></dt>
-<dd><p>Ein <a href="#einfuehrung-in-wikidata">Bot</a> ist eine selbstständig arbeitende Software, die Bearbeitungen ohne menschliche Entscheidungen vornehmen kann. Bots können Interwikilinks, Bezeichnungen, Beschreibungen, Aussagen, Quellen hinzufügen und bearbeiten. Außerdem können Bots Objekte automatisiert erstellen. Um mehr Information zu Bots zu finden siehe <a href="http://www.wikidata.org/wiki/Wikidata:Bots/de">http://www.wikidata.org/wiki/Wikidata:Bots/de</a>.</p>
+<dd><p>Ein Bot ist eine selbstständig arbeitende Software, die Bearbeitungen ohne menschliche Entscheidungen vornehmen kann. Bots können Interwikilinks, Bezeichnungen, Beschreibungen, Aussagen, Quellen hinzufügen und bearbeiten. Außerdem können Bots Objekte automatisiert erstellen. Um mehr Information zu Bots zu finden siehe <a href="#entstehung-von-wikidata">Entstehung von Wikidata</a> oder auch unter <a href="http://www.wikidata.org/wiki/Wikidata:Bots/de">http://www.wikidata.org/wiki/Wikidata:Bots/de</a>.</p>
 </dd>
 <dt><strong>Daten</strong></dt>
-<dd><p><a href="#inhalte-von-wikidata">Daten</a> in Wikidata sind die Sammlung aller strukturierten Daten und somit der gesamte Bestand der Datenbank. Als Daten gelten alle Datensätze, welche Wikidata-Autoren und Bots in Wikidata erstellen. Der Hauptnamensraum für die Items (Datenobjekte), der Eigenschaftsnamensraum für die Eigenschaften (properties) und der Abfragenamensraum für die Abfragen (queries) bilden die drei Daten-Namensräumen (entitiy namespaces). Andere Wikidataseiten bestehen aus unstrukturiertem Inhalt, beispielsweise Fließtext, und gelten als Metaseiten. Die speziellen Daten der Eigenschaften (property data) sind die Werte (values) in den Aussagen (statements), die ganz bestimmte Datentypen erfordern.</p>
+<dd><p>Daten in Wikidata sind die Sammlung aller strukturierten Daten und somit der gesamte Bestand der Datenbank. (siehe <a href="#inhalte-von-wikidata">Inhalte von Wikidata</a>) Daten sind alle Datensätze die von Wikidata-Autoren und Bots in Wikidata erstellt werden. Es existieren drei Daten-Namensräume (entitiy namespaces). Der Hauptnamensraum für die Items (Datenobjekte), der Eigenschaftsnamensraum für die Eigenschaften (properties) und der Abfragenamensraum für die Abfragen (queries).</p>
 </dd>
 <dt><strong>Datenbank</strong></dt>
-<dd><p>Eine <a href="#einleitung">Datenbank</a> dient der Verwaltung großer Datenmengen, damit diese schnell, widerspruchsfrei und dauerhaft gespeichert und für verschiedene Benutzergruppen ausgegeben werden können.</p>
+<dd><p>Eine Datenbank dient der Verwaltung großer Datenmengen, damit diese schnell, widerspruchsfrei und dauerhaft gespeichert und für verschiedene Benutzergruppen ausgegeben werden können.</p>
 </dd>
 <dt><strong>Datenbestand</strong></dt>
 <dd><p>Ein <a href="#wikidata-als-datenbank">Datenbestand</a> stellt die Gesamtheit aller Daten in einer Datenbank dar. In Wikidata ist der Datenbestand die Menge aller Items und Aussagen.</p>
@@ -446,49 +441,52 @@ Q17|Japan|4028495-5</code></pre>
 <dd><p>siehe <em>Item</em></p>
 </dd>
 <dt><strong>Datentyp</strong></dt>
-<dd><p>Unter <a href="#datentypen-und-andere-einschränkungen">Datentypen</a> versteht man die Zusammenfassung von Objektmengen. Datentypen haben die Aufgabe zu bestimmen, welche Art von Werten den Eigenschaften zugeordnet werden können. Datentypen, die in Wikidata Installation verfügbar sind: Datenobjekt, Mediendatei auf Commons, Zeichenkette, Zeit, Koordinate, URL und Menge.</p>
+<dd><p>Unter <a href="#datentypen-und-andere-einschränkungen">Datentypen</a> versteht man die Zusammenfassung von Objektmengen. Datentypen haben die Aufgabe zu bestimmen, welche Art von Werten den Eigenschaften zugeordnet werden kann. Datentypen, die in Wikidata verfügbar sind: Datenobjekt, Mediendatei auf Commons, Zeichenkette, Zeit, Koordinate, URL und Menge.</p>
 </dd>
-<dt><strong>Deskriptor</strong> (Synonym: Schlagwort)</dt>
-<dd><p>Ein <a href="#einführung-in-normdaten">Deskriptor</a> beschreibt den Inhalt eines Dokumentes. Im Allgemeinen werden Deskriptoren aus einem kontrollierten und geordneten Vokabular entnommen (Normdateien, Thesauri oder Klassifikationen).</p>
+<dt><strong>Deskriptor</strong></dt>
+<dd><p>Ein Deskriptor, auch Schlagwort genannt, beschreibt den Inhalt eines Dokumentes. Im Allgemeinen werden Deskriptoren aus einem kontrollierten und geordneten Vokabular entnommen (Normdateien, Thesauri oder Klassifikationen). Siehe <a href="#einführung-in-normdaten">Einführung in Normdaten</a>.</p>
 </dd>
-<dt><strong>Eigenschaft (property)</strong></dt>
-<dd><p><a href="#wikidata-eigenschaften">Eigenschaften</a> sind Bestandteile von Aussagen. Ihnen können Werte (Items) zugeordnet werden. Jede Eigenschaft ist einzigartig und beschreibt die Merkmale der ihnen zugewiesenen Items.</p>
-</dd>
-<dt><strong>Github</strong></dt>
-<dd><p>Mit Hilfe von Github kann mit verschiedenen Werkzeugen zum Buch beigetragen werden, ohne zu stark an eine Software gebunden zu sein. Die einzelnen Texte sind in Markdown-Syntax verfasst, und werden mit Hilfe des Programms Pandoc in verschiedene Ausgabeformate überführt. Zur Bearbeitung der Texte wurde hauptsächlich die Online-Plattform Penflip verwendet. Die URL des git-Repositories ist <a href="https://www.penflip.com/nichtich/normdaten-in-wikidata.git">https://www.penflip.com/nichtich/normdaten-in-wikidata.git</a>, darüber hinaus gibt es eine Kopie unter <a href="https://github.com/hshdb/normdaten-in-wikidata">https://github.com/hshdb/normdaten-in-wikidata</a>. Das Repository enthält die Datei <code>README.md</code> die weitere Hinweise zur technischen Umsetzung beinhaltet. Alle Inhalte können unter den Bedingungen der CC-BY-SA Lizenz weiterverwendet werden.</p>
+<dt><strong>Eigenschaft</strong></dt>
+<dd><p><a href="#wikidata-eigenschaften">Wikidata-Eigenschaften</a> sind Bestandteile von Aussagen. Ihnen können Werte (Items) zugeordnet werden. Jede Eigenschaft ist einzigartig und beschreibt die Merkmale der ihnen zugewiesenen Items.</p>
 </dd>
 <dt><strong>GND (Gemeinsame Normdatei)</strong></dt>
-<dd><p>Die <a href="#einführung-in-normdaten">Gemeinsame Normdatei</a> ist ein Projekt der Deutschen Nationalbibliothek und einigen anderen deutschen Bibliotheken. Sie stellt den Zusammenschluss der ehemaligen getrennten Gemeinsamen Körperschaftsdatei (GKD), der Personennormendatei (PND), der Schlagwortnormdatei (SWD) und der Einheitssachtitel-Datei des Deutschen Musikarchivs (DMA-EST-Datei) dar.</p>
+<dd><p>Die Gemeinsame Normdatei ist ein Projekt der Deutschen Nationalbibliothek und einigen anderen deutschen Bibliotheken.</p>
 </dd>
-<dt><strong>Item (Datenobjekt)</strong></dt>
-<dd><p><a href="#allgemein-zu-wikidata-items">Item</a> ist ein Eintrag in Wikidata, der sich auf einen Gegenstand (Person, Ort, Konzept) bezieht. Jedes Wikidata-Item hat eine eindeutige ID, die mit <code>Q</code> beginnt. Items sind mit anderen Items mit Interwikilinks verknüpft.</p>
+<dt><strong>ID</strong></dt>
+<dd><p>siehe <em>Notation</em></p>
+</dd>
+<dt><strong>Item</strong></dt>
+<dd><p>Ein <a href="#wikidata-items">Item</a>, auch Datenobjekt genannt, ist ein Eintrag in Wikidata, der sich auf einen Gegenstand (Person, Ort, Konzept) bezieht. Jedes Wikidata-Item hat eine eindeutige ID, die mit <code>Q</code> beginnt. Items sind mit anderen Items mit Interwikilinks verknüpft.</p>
 </dd>
 <dt><strong>Indexierung</strong></dt>
-<dd><p>Das <a href="#einführung-in-normdaten">Indexieren</a> beschreibt eine Methode der Inhaltserschließung von Dokumenten und medialen Inhalten jeglicher Art. Produkte von Indexierungen sind Schlagwörter und Stichwörter. Indexierte Dokumente sollen nach einer späteren Recherche mit - nach bestimmten Regeln von Dokumentationssprachen (mithilfe einer Klassifikation oder eines Thesaurus) - genau den vergebenen Schlag- und Stichwörtern wiedergefunden werden.</p>
+<dd><p>Das Indexieren beschreibt eine Methode der Inhaltserschließung von Dokumenten und medialen Inhalten jeglicher Art. Produkte von Indexierungen sind Schlagwörter und Stichwörter. Indexierte Dokumente sollen nach einer späteren Recherche mit genau den vergebenen Schlag- und Stichwörtern wiedergefunden werden (siehe <a href="#einführung-in-normdaten">Einführung in Normdaten</a>).</p>
 </dd>
 <dt><strong>Klassifikation</strong></dt>
-<dd><p>Eine <a href="#einführung-in-normdaten">Klassifikation</a> ist ein hierarchisches Verzeichnis von Schlagworten, welche nach Wissensgebieten geordnet sind (sogenannte Klassen). Die Ordnung einer Klassifikation erfolgt stets vom allgemeinen zum speziellen. Die Klassifikationsnummern dienen der Suche nach einem speziellen Thema. Klassifikationsnummern bestehen dabei oft aus einem Buchstaben (Wissensgebiet) und einer Zahl (Teilgebiet).</p>
+<dd><p>Eine Klassifikation ist ein hierarchisches Verzeichnis von Schlagworten, welche nach Wissensgebieten geordnet sind (sogenannte Klassen). Die Ordnung einer Klassifikation erfolgt stets vom Allgemeinen zum Speziellen. Die Klassifikationsnummern dienen der Suche nach einem speziellen Thema und bestehen dabei oft aus einem Buchstaben (Wissensgebiet) und einer Zahl (Teilgebiet).</p>
 </dd>
-<dt><strong>Mapping (Konkordanz)</strong></dt>
-<dd><p>In Bezug auf Normdaten ist ein <a href="#einfuehrung-in-normdaten">Mapping</a> eine Abbildung von Normdaten aus einer Normdatei auf Normdaten einer anderen Normdatei.</p>
+<dt><strong>Konkordanz</strong></dt>
+<dd><p>siehe <em>Mapping</em></p>
+</dd>
+<dt><strong>Mapping</strong></dt>
+<dd><p>In Bezug auf Normdaten ist ein Mapping (Konkordanz) eine Abbildung von Normdaten aus einer Normdatei, auf Normdaten einer anderen Normdatei (siehe auch <a href="#normdaten-eigenschaften-in-wikidata">Normdaten-Eigenschaften</a> in Wikidata).</p>
 </dd>
 <dt><strong>MediaWiki</strong></dt>
-<dd><p><a href="#wikidata-als-datenbank">MediaWiki</a> ist ein freies Softwarepaket zum Betrieb eines Wikis, das ursprünglich für die Wikipedia geschrieben wurde. Das Wikisystem wird von allen Wikis der Wikimedia-Stiftung (Wikimedia Foundation) betriebenen.</p>
+<dd><p>MediaWiki ist ein freies Softwarepaket zum Betrieb eines Wikis, das ursprünglich für die Wikipedia geschrieben wurde. Das Wikisystem wird von allen Wikis der Wikimedia-Stiftung (Wikimedia Foundation) betriebenen.</p>
 </dd>
 <dt><strong>Metadaten</strong></dt>
-<dd><p><a href="#einführung-in-normdaten">Metadaten</a> sind Daten, welche Eigenschaften und Merkmale anderer Daten beschreiben. Metadaten können am Beispiel eines Buches der Titel, die ISBN, das Erscheinungsjahr, der Verlag und ähnliches sein. Metadaten finden sich in der gesamten digitalen Welt wieder und haben gerade im wissenschaftlichen Bereich eine sehr wichtige Bedeutung.</p>
+<dd><p>Metadaten sind Daten, welche Eigenschaften und Merkmale anderer Daten beschreiben. Metadaten können am Beispiel eines Buches der Titel, die ISBN, das Erscheinungsjahr, der Verlag und ähnliches sein. Metadaten finden sich in der gesamten digitalen Welt wieder und haben gerade im wissenschaftlichen Bereich eine sehr wichtige Bedeutung.</p>
 </dd>
 <dt><strong>Normdatei</strong></dt>
-<dd><p>Eine <a href="#einführung-in-normdaten">Normdatei</a> ist ein Gesamtverzeichnis aller Normdaten. Viele Länder beziehungsweise, Sprachengebiete haben für ihre Bibliothekssysteme oder auch Datenbestände eigene Normdateien entwickelt, zum Beispiel die GND, LCCN, NDL, VIAF. In Wikidata selbst gibt es zwei Normdateienfunktionen. Wikidata kann externe Normdaten einbinden und soll in Zukunft selbst eine Normdatei für Projekte der Wikimedia Foundation werden.</p>
+<dd><p>Eine <a href="#einführung-in-normdaten">Normdatei</a> ist ein Gesamtverzeichnis aller Normdaten. Viele Länder beziehungsweise Sprachengebiete haben für ihre Bibliothekssysteme oder auch Datenbestände eigene Normdateien entwickelt, zum Beispiel die GND, LCCN, NDL, VIAF. In Wikidata selbst gibt es zwei Normdateienfunktionen. Wikidata kann externe Normdaten einbinden und soll in Zukunft selbst eine Normdatei für Projekte der Wikimedia Foundation werden.</p>
 </dd>
 <dt><strong>Normdaten</strong></dt>
-<dd><p><a href="#einführung-in-normdaten">Normdaten</a> sind Daten, welche nach festgelegten Regeln erschlossen und beschrieben werden. Normdaten sind stets unter einem einzigartigen Namen zu finden, welcher sich aus alphanumerischen Zeichen zusammensetzt. Manche Normdaten in Wikidata enthalten Synonyme, Verwandte, Ober-und Unterbegriffe und manchmal auch Beschreibungstexte und Synonyme in anderen Sprachen. Fast alle Daten können normiert werden, wie zum Beispiel Personen, Orte, geografische Einheiten, Körperschaften, Verwaltungseinheiten. Die Beschreibung zur Bildung von Normdaten befindet sich in umfangreichen Regelwerken und Richtlinien.</p>
+<dd><p><a href="#einführung-in-normdaten">Normdaten</a> sind Daten, welche nach festgelegten Regeln erschlossen und beschrieben werden. Normdaten sind stets unter einem einzigartigen Namen zu finden, welcher sich aus alphanumerischen Zeichen zusammensetzt. Manche Normdaten in Wikidata enthalten Synonyme, Verwandte, Ober-und Unterbegriffe und manchmal auch Beschreibungstexte und Synonyme in anderen Sprachen. Fast alle Daten können normiert werden, wie zum Beispiel Personen, Orte, geografische Einheiten, Körperschaften, Verwaltungseinheiten.</p>
 </dd>
 <dt><strong>Normdaten-Eigenschaft</strong></dt>
-<dd><p>In Wikidata ist eine Normdaten-Eigenschaft eine <em>Eigenschaft</em>, die dazu dient mittels ID oder Notation auf einen Normdatensatz in einer anderen Normdatei zu verweisen.</p>
+<dd><p>In Wikidata ist eine Normdaten-Eigenschaft eine <em>Eigenschaft</em>, die dazu dient, mittels ID oder Notation auf einen Normdatensatz in einer anderen Normdatei zu verweisen (siehe <a href="#normdaten-eigenschaften-in-wikidata">Normdaten-Eigenschaften in Wikidata</a>).</p>
 </dd>
-<dt><strong>Ontologie</strong></dt>
-<dd><p>Eine <a href="#einführung-in-normdaten">Ontologie</a> beinhaltet Eigenschaften (properties) in Aussagen (statements). Ontologie wird genutzt, um die beschriebenen Gegenstände der realen Welt in Beziehung zu setzen mit den anderen in Datenobjekten vorhandenen Daten und mit Quellenangaben.</p>
+<dt><strong>Notation</strong></dt>
+<dd><p>Eine nach bestimmten Regeln, meistens mit Zahlen oder einer Mischung aus Zahlen und Buchstaben, gebildete Zeichenfolge. Sie dient der eindeutigen Identifizierung beispielsweise in einer Klassifikation (siehe <a href="#normdaten-eigenschaften-in-wikidata">Normdaten-Eigenschaften in Wikidata</a>).</p>
 </dd>
 <dt><strong>Qualifikator</strong></dt>
 <dd><p>Ein <a href="#qualifikatoren">Qualifikator</a> ist Teil einer Behauptung, der etwas über die Behauptung in einer beschreibenden Form ausdrückt. Ein Qualifikator kann ein Ausdruck einer Sprache sein oder eine veränderte Beschreibung der Behauptung.</p>
@@ -497,37 +495,52 @@ Q17|Japan|4028495-5</code></pre>
 <dd><p>Mit <a href="#ränge">Rängen</a> werden verschiedene Qualitätsstufen für mehrere unterschiedliche Aussagen zu einer gleichen Eigenschaft gekennzeichnet. Es gibt drei Ränge, den herabgestuften beziehungsweise zweifelhaften Rang, den normalen Rang und den vorrangig zu behandelnden Rang.</p>
 </dd>
 <dt><strong>Thesaurus</strong></dt>
-<dd><p>Ein <a href="#einführung-in-normdaten">Thesaurus</a> ist eine Sammlung von Schlagworten, welche hierarchisch und thematisch miteinander verknüpft sind. Ein Schlagwort in einem Thesaurus beinhaltet Synonyme, verwandte Begriffe (Assoziationen), Ober- und Unterbegriffe.</p>
+<dd><p>Ein Thesaurus ist eine Sammlung von Schlagworten, welche hierarchisch und thematisch miteinander verknüpft sind. Ein Schlagwort in einem Thesaurus beinhaltet Synonyme, verwandte Begriffe (Assoziationen), Ober- und Unterbegriffe.</p>
 </dd>
 <dt><strong>Wikibase</strong></dt>
-<dd><p><a href="#wikidata-als-datenbank">Wikibase</a> ist eine von der Wikimedia-Community entwickelte freie Software-Erweiterung. Wikibase hilft dem Anwender, sein Wiki zu einem strukturierten Datenrepository umzubauen. Zu Wikibase’ Kernfunktionen gehören die Erstellung von Items, die Erstellung von Beschreibungen, Benennungen und Alternativnamen für Items.</p>
+<dd><p>Wikibase ist eine von der Wikimedia-Community entwickelte freie Software-Erweiterung. Wikibase hilft dem Anwender, sein Wiki zu einem strukturierten Datenrepository umzubauen. Zu den Kernfunktionen von Wikibase gehören die Erstellung von Items, die Erstellung von Beschreibungen, Benennungen und Alternativnamen für Items.</p>
 </dd>
 </dl>
+<h1 id="frequently-asked-questions" class="unnumbered"><a href="#frequently-asked-questions">Frequently Asked Questions</a></h1>
+
+<p><strong>1. Stellt Wikidata Doppelarbeit dar, wenn es bereits entsprechende Wikipedia-Artikel gibt?</strong> Nein, Wikidata übernimmt die Fakten von Wikipedia und bereitet sie auf. Diese können durch die Aussagen leicht in anderen Sprachen abgerufen werden, was in Wikipedia nicht möglich ist.</p>
+<p><strong>2. Warum gibt es ein festes Vokabular für Eigenschaften?</strong> Eigenschaften sind in verschiedenen Sprachen vorhanden. Die Begriffe sind vorgegeben, damit eine problemlose Übersetzung ermöglicht wird. Bei fehlenden Begriffen können diese der Community vorgeschlagen werden. Ausführliche Informationen zu diesem Thema finden Sie im Kapitel <a href="#wikidata-eigenschaften">Wikidata Eigenschaften</a>.</p>
+<p><strong>3. Wie erzeuge ich ein neues Item?</strong> Zuerst sollten Sie überprüfen, ob das Item, das Sie erstellen möchten, möglicherweise bereits existiert. Falls das Item nicht vorhanden ist, können Sie das <a href="http://www.wikidata.org/wiki/Special:NewItem?uselang=de">neue Item erstellen</a>. Auf dieser Seite müssen Sie zuerst die Bezeichnung sowie die Beschreibung des zu erstellenden Items eintragen. Ist dies geschehen, kommen sie auf die Itemseite. Kapitel <a href="#neue-items-anlegen">Neue Items anlegen</a> zeigt Ihnen ausführlich, wie man ein Item anlegen kann.</p>
+<p><strong>4. Ich suche eine Übersichtsseite zu wichtigen Begriffen von Wikidata. Gibt es so etwas?</strong> Wikidata besitzt ein ausführliches <a href="#glossar">Glossar</a>, in dem wichtige Begriffe von Wikidata und dessen Funktionsweise beschrieben sind.</p>
+<p><strong>5. Was sind Belege?</strong> Belege bestehen aus mindestens einer Eigenschaft und einem Wert. Die Eigenschaften, die eine Aussage belegen sollen, werden aus dem Pool von verfügbaren (und festgelegten) Eigenschaften ausgewählt. Der Wert ist ein Nachweis einer Information, die in einer Aussage verwendet wird, zum Beispiel ein Zitat, eine Website oder ein anderes Dokument, das die Qualitätssicherung gewährleistet. Anbieten würde sich hier Kapitel <a href="#belege">Belege</a> sowie in Wikidata unter <a href="http://www.wikidata.org/wiki/Help:Sources/de">Hilfe:Belege</a></p>
+<p><strong>6. Wie finde ich etwas in Wikidata?</strong> Die beiden wichtigsten Möglichkeiten sind die Suchfunktion (die umfassende Suche über Sprachgrenzen hinweg) und die Suche von <a href="http://www.wikidata.org/wiki/Special:ItemByTitle?uselang=de">Datenobjekten nach Titeln</a>. Letztere funktioniert, indem Sie bei “Website” eine Sprache eines Wikimedia-Projektes (“de” -&gt; “Deutsch (dewiki)”) und bei “Seite” die Bezeichnung eines Items (“Japan”) eingeben. Sie werden anschließend auf die Item-Seite von Japan weitergeleitet. Zu beachten ist, dass der Eintrag, den Sie in das Suchfeld eingeben, genau mit der Bezeichnung des Items übereinstimmen muss. Eine ausführliche Beschreibung der Suchfunktionen finden Sie im Kapitel <a href="#inhalte-finden-in-wikidata">Inhalte finden in Wikidata</a>.</p>
 <h1 id="literaturverzeichnis" class="unnumbered"><a href="#literaturverzeichnis">Literaturverzeichnis</a></h1>
+
+<p><strong>Allgemeine Einführungen zu Normdaten</strong></p>
 <ul>
-<li>Chaosradio Express (2013): CRE205 Wikidata. Online verfügbar unter <a href="http://cre.fm/cre205-wikidata">http://cre.fm/cre205-wikidata</a>, zuletzt geprüft am 29.04.2014.</li>
-<li>Hesse, Wolfgang (2002): Ontologien. Herausgegeben von der Gesellschaft für Informatik. Online verfügbar unter <a href="http://www.gi.de/service/informatiklexikon/detailansicht/article/ontologien.html">http://www.gi.de/service/informatiklexikon/detailansicht/article/ontologien.html</a>, zuletzt geprüft am 29.04.2014.</li>
-<li>InfoWissWiki (o.J.): Indexierung. Online verfügbar unter <a href="http://wiki.infowiss.net/Indexierung">http://wiki.infowiss.net/Indexierung</a>, zuletzt geprüft am 29.04.2014.</li>
-<li>Krötzsch, Markus; Vrandečić, Denny (2014): Wikidata: A Free Collaborative Knowledge Base. In: Communications of the ACM (noch nicht erschienen). Online verfügbar unter <a href="http://research.google.com/pubs/archive/42240.pdf">http://research.google.com/pubs/archive/42240.pdf</a>, zuletzt geprüft am 29.04.2014.</li>
-<li>MediaWiki (2014). Online verfügbar unter <a href="https://www.mediawiki.org/wiki/MediaWiki/de">https://www.mediawiki.org/wiki/MediaWiki/de</a>, zuletzt geprüft am 29.04.2014.</li>
-<li>Wikipedia (2014): Wikidata. Online verfügbar unter <a href="http://de.wikipedia.org/wiki/Wikidata">http://de.wikipedia.org/wiki/Wikidata</a>, zuletzt geprüft am 29.04.2014.</li>
+<li>Funktionale Anforderungen an Normdaten : ein konzeptionelles Modell; Abschlussbericht Dezember 2008 / [International Federation of Library Associations and Institutions]. Hrsg. von Glenn E. Patton.</li>
+<li>Grundlagen der praktischen Information und Dokumentation. - Berlin : De Gruyter Saur. - Teil: Handbuch zur Einführung in die Informationswissenschaft und -praxis</li>
+<li>InfoWissWiki (o.J.): Indexierung. <a href="http://wiki.infowiss.net/Indexierung">http://wiki.infowiss.net/Indexierung</a> (Stand vom 29.04.2014)</li>
+<li>Wikipedia (2013): Normdatei. <a href="https://de.wikipedia.org/wiki/Normdatei">https://de.wikipedia.org/wiki/Normdatei</a></li>
 </ul>
-<h2 id="hilfreiche-seiten-in-wikidata" class="unnumbered"><a href="#hilfreiche-seiten-in-wikidata">Hilfreiche Seiten in Wikidata</a></h2>
+<p><strong>Publikationen zu Wikidata</strong></p>
 <ul>
-<li>Wikidata-Startseite <a href="http://wikidata.org">http://wikidata.org</a></li>
-<li>Einführung in Wikidata <a href="https://www.wikidata.org/wiki/Wikidata:Introduction/de">https://www.wikidata.org/wiki/Wikidata:Introduction/de</a></li>
-<li>Liste der Wikidata-Eigenschaften <a href="https://www.wikidata.org/wiki/Wikidata:List_of_properties/de">https://www.wikidata.org/wiki/Wikidata:List_of_properties/de</a></li>
-<li>Wikidata Schritt für Schritt bearbeiten <a href="http://upload.wikimedia.org/wikipedia/commons/9/94/How_to_Edit_Wikidata.pdf">http://upload.wikimedia.org/wikipedia/commons/9/94/How_to_Edit_Wikidata.pdf</a></li>
-<li>Wikidata-Hilfeseite <a href="https://www.wikidata.org/w/index.php?title=Help:Contents/de&amp;oldid=66338607&amp;uselang=de">https://www.wikidata.org/w/index.php?title=Help:Contents/de&amp;oldid=66338607&amp;uselang=de</a></li>
-<li>Hilfe: Ranking <a href="https://www.wikidata.org/wiki/Help:Ranking?uselang=de">https://www.wikidata.org/wiki/Help:Ranking?uselang=de</a></li>
-<li>Hilfe: Belege <a href="http://www.wikidata.org/wiki/Help:Sources/de">http://www.wikidata.org/wiki/Help:Sources/de</a></li>
-<li>Wikidata: Liste der Projektregeln und Richtlinien <a href="https://www.wikidata.org/w/index.php?title=Wikidata:List_of_policies_and_guidelines/de&amp;oldid=102532266">https://www.wikidata.org/w/index.php?title=Wikidata:List_of_policies_and_guidelines/de&amp;oldid=102532266</a></li>
-<li>Universal Language Selector <a href="https://www.mediawiki.org/wiki/Universal_Language_Selector?setlang=de">https://www.mediawiki.org/wiki/Universal_Language_Selector?setlang=de</a></li>
-<li>Das Datenmodell der Wikibase <a href="https://www.mediawiki.org/wiki/Wikibase/DataModel">https://www.mediawiki.org/wiki/Wikibase/DataModel</a></li>
-<li>Weitere Projekte von Wikimedia <a href="http://de.wikipedia.org/w/index.php?title=Wikipedia:Schwesterprojekte&amp;oldid=127371039">http://de.wikipedia.org/w/index.php?title=Wikipedia:Schwesterprojekte&amp;oldid=127371039</a></li>
+<li>Chaosradio Express (2013): CRE205 Wikidata. <a href="http://cre.fm/cre205-wikidata">http://cre.fm/cre205-wikidata</a></li>
+<li>Krötzsch, Markus; Vrandečić, Denny (2014): Wikidata: A Free Collaborative Knowledge Base. In: Communications of the ACM (noch nicht erschienen, Preprint unter <a href="http://research.google.com/pubs/archive/42240.pdf">http://research.google.com/pubs/archive/42240.pdf</a>)</li>
+<li>Manguard, Sven (2012): How to Edit Wikidata. <a href="http://upload.wikimedia.org/wikipedia/commons/9/94/How_to_Edit_Wikidata.pdf">http://upload.wikimedia.org/wikipedia/commons/9/94/How_to_Edit_Wikidata.pdf</a></li>
+<li>Wikipedia (2014): Wikidata. <a href="http://de.wikipedia.org/wiki/Wikidata">http://de.wikipedia.org/wiki/Wikidata</a></li>
+</ul>
+<p><strong>Ausgewählte Wikidata-Seiten</strong></p>
+<ul>
+<li>Wikidata-Startseite<br /> <a href="http://wikidata.org">http://wikidata.org</a></li>
+<li>Einführung in Wikidata<br /> <a href="https://www.wikidata.org/wiki/Wikidata:Introduction/de">https://www.wikidata.org/wiki/Wikidata:Introduction/de</a></li>
+<li>Liste der Wikidata-Eigenschaften<br /> <a href="https://www.wikidata.org/wiki/Wikidata:List_of_properties/de">https://www.wikidata.org/wiki/Wikidata:List_of_properties/de</a></li>
+<li>Wikidata-Hilfeseite<br /> <a href="https://www.wikidata.org/wiki/Help:Contents/de">https://www.wikidata.org/wiki/Help:Contents/de</a></li>
+<li>Hilfe zu Rängen<br /> <a href="https://www.wikidata.org/wiki/Help:Ranking/de">https://www.wikidata.org/wiki/Help:Ranking/de</a></li>
+<li>Hilfe zu Belegen<br /> <a href="http://www.wikidata.org/wiki/Help:Sources/de">http://www.wikidata.org/wiki/Help:Sources/de</a></li>
+<li>Liste der Projektregeln und Richtlinien<br /> <a href="https://www.wikidata.org/wiki/Wikidata:List_of_policies_and_guidelines/de">https://www.wikidata.org/wiki/Wikidata:List_of_policies_and_guidelines/de</a></li>
+<li>Universal Language Selector<br /> <a href="https://www.mediawiki.org/wiki/Universal_Language_Selector">https://www.mediawiki.org/wiki/Universal_Language_Selector</a></li>
+<li>Das Datenmodell von Wikibase<br /> <a href="https://www.mediawiki.org/wiki/Wikibase/DataModel">https://www.mediawiki.org/wiki/Wikibase/DataModel</a></li>
+<li>MediaWiki (2014)<br /> <a href="https://www.mediawiki.org/wiki/MediaWiki/de">https://www.mediawiki.org/wiki/MediaWiki/de</a></li>
+<li>Weitere Wikimedia-Projekte<br /> <a href="https://de.wikipedia.org/wiki/Wikipedia:Schwesterprojekte">https://de.wikipedia.org/wiki/Wikipedia:Schwesterprojekte</a></li>
 </ul>
 <h1 id="liste-aller-normdaten-eigenschaften" class="unnumbered"><a href="#liste-aller-normdaten-eigenschaften">Liste aller Normdaten-Eigenschaften</a></h1>
-<p>Die folgende Liste wurde automatisch erstellt und stellt den Stand zum XXXX dar. Zu diesem Zeitpunkt hatte Wikidata insgesamt Y Normdaten-Eigenschaften.</p>
+<p>Die folgende Liste enthält alle in Wikidata vorhandenen <a href="#normdaten-eigenschaften-in-wikidata">Normdaten-Eigenschaften</a> zum Zeitpunkt der Erstellung dieses Handbuchs. Der Begriff Normdaten (siehe <a href="#einführung-in-normdaten">Einführung in Normdaten</a>) ist dabei etwas weiter gefasst. Aufgenommen sind alle Wikidata-Eigenschaften zum Verweisen mittels ID oder Notation auf externe Datenquellen. Als Grundlage wurden die Wikidata-Tools <a href="http://meta.wikimedia.org/wiki/Reasonator/stringprops">Reasonator</a> und <a href="http://www.wikidata.org/wiki/MediaWiki:Gadget-AuthorityControl.js">AuthorityControl-Gadget</a> herangezogen.</p>
 <table>
 <thead>
 <tr class="header">
@@ -550,7 +563,7 @@ Q17|Japan|4028495-5</code></pre>
 <tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P214"><code>P214</code></a></td>
 <td align="left">VIAF</td>
-<td align="left">virtuelle internationale Normdatei für Personendaten (bitte nur individualisierte VIAFs eintragen, d.h. Nummern ohne den Vermerk “undifferentiated”)</td>
+<td align="left">Virtuelle internationale Normdatei für Personendaten (bitte nur individualisierte VIAFs eintragen, d.h. Nummern ohne den Vermerk “undifferentiated”)</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P215"><code>P215</code></a></td>
@@ -575,7 +588,7 @@ Q17|Japan|4028495-5</code></pre>
 <tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P225"><code>P225</code></a></td>
 <td align="left">wissenschaftlicher Name</td>
-<td align="left">wissenschaftliche Benennung des Lebewesens</td>
+<td align="left">wissenschaftlicher Name eines Lebewesens</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P227"><code>P227</code></a></td>
@@ -779,13 +792,13 @@ Q17|Japan|4028495-5</code></pre>
 </tr>
 <tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P402"><code>P402</code></a></td>
-<td align="left">OpenStreetMap-Relation-ID</td>
+<td align="left">OpenStreetMap-Relations-ID</td>
 <td align="left">ID des geographischen Objekts in OpenStreetMap</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P409"><code>P409</code></a></td>
-<td align="left">NLA</td>
-<td align="left">Normdatennummer der Australischen Nationalbibliothek</td>
+<td align="left">NLA Authorities</td>
+<td align="left">Normdatennummer der Australischen Nationalbibliothek (siehe auch P1315)</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P424"><code>P424</code></a></td>
@@ -918,437 +931,451 @@ Q17|Japan|4028495-5</code></pre>
 <td align="left">zusammen mit Property:P554 zu verwenden</td>
 </tr>
 <tr class="odd">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P554"><code>P554</code></a></td>
+<td align="left">Benutzername in sozialem Netzwerk</td>
+<td align="left">zusammen mit Property:P553 zu verwenden</td>
+</tr>
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P557"><code>P557</code></a></td>
 <td align="left">DiseasesDB-ID</td>
 <td align="left">Kennung in der Diseases Database (diseasesdatabase.com)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P563"><code>P563</code></a></td>
 <td align="left">ICD-O</td>
 <td align="left">medizinische Klassifikation für die Onkologie</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P586"><code>P586</code></a></td>
 <td align="left">IPNI-Autor-ID</td>
 <td align="left">Identifikator für eine Person im International Plant Names Index (IPNI)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P587"><code>P587</code></a></td>
 <td align="left">MMSI</td>
 <td align="left">Rufnummer des mobilen Seefunkdienstes</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P590"><code>P590</code></a></td>
 <td align="left">GNIS</td>
 <td align="left">Identifikationsnummer im Geographic Names Information System der Vereinigten Staaten</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P592"><code>P592</code></a></td>
 <td align="left">ChEMBL</td>
 <td align="left">Kennung in der chemischen/biologischen Datenbank ChEMBL</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P593"><code>P593</code></a></td>
 <td align="left">HomoloGene-ID</td>
 <td align="left">Identifikationsnummer in der Datenbank von HomoloGene des National Center for Biotechnology Information</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P594"><code>P594</code></a></td>
 <td align="left">Ensembl-ID</td>
 <td align="left">Identifikationsnummer in der Datenbank des bioinformatisches Forschungsprojekts Ensembl</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P597"><code>P597</code></a></td>
 <td align="left">WTA-Kennung</td>
 <td align="left">Identifikator für Tennisspielerinnen in der Datenbank der WTA</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P599"><code>P599</code></a></td>
 <td align="left">ITF-ID</td>
 <td align="left">Kennung eines Tennisspielers auf der ITF-Webseite</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P600"><code>P600</code></a></td>
 <td align="left">Wine AppDB-Identifikationsnummer</td>
 <td align="left">ID in der Winehq Applikations-Datenbank</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P604"><code>P604</code></a></td>
 <td align="left">MedlinePlus-ID</td>
 <td align="left">frei zugängliche Datenbank von Krankheitsbeschreibungen</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P613"><code>P613</code></a></td>
 <td align="left">OS-Planquadrat</td>
 <td align="left">auf Karten des britischen Ordnance Survey verwendetes Koordinatensystem (National Grid)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P627"><code>P627</code></a></td>
 <td align="left">IUCN-ID</td>
 <td align="left">Referenz für IUCN Artenschutzstatus (P141)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P628"><code>P628</code></a></td>
 <td align="left">E-Nummer</td>
 <td align="left">Nummer für Lebensmittelzusätze, die in der EU legal sind</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P630"><code>P630</code></a></td>
 <td align="left">Straßen-ID der Stadt Paris</td>
 <td align="left">digitale Kennung für Straßen in Paris</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P633"><code>P633</code></a></td>
 <td align="left">Répertoire du patrimoine culturel du Québec</td>
 <td align="left">Identifikationsnummer im Verzeichnis des kulturellen Erbes von Quebec</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P635"><code>P635</code></a></td>
 <td align="left">ISTAT-ID</td>
 <td align="left">vom staatlichen italienischen Statistikamt vergebene Identifikationsnummer für Gemeinden</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P637"><code>P637</code></a></td>
 <td align="left">Protein-ID</td>
 <td align="left">Protein Kennzeichnung</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P638"><code>P638</code></a></td>
 <td align="left">PDB-ID</td>
 <td align="left">3D-Strukturdaten für Gene in der PDB-Datenbank</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P639"><code>P639</code></a></td>
 <td align="left">RNA-ID</td>
 <td align="left">RNA Kennzeichnung</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P640"><code>P640</code></a></td>
 <td align="left">Léonore-ID</td>
 <td align="left">Identifikationsnummer einer Person in der Léonore-Datenbank</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P643"><code>P643</code></a></td>
 <td align="left">Genloc Chr</td>
 <td align="left">Chromosom-Nummer</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P646"><code>P646</code></a></td>
 <td align="left">Freebase-ID</td>
 <td align="left">Kennung des gleichbedeutenden Eintrags in der Freebase-Datenbank</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P648"><code>P648</code></a></td>
 <td align="left">Open-Library-ID</td>
 <td align="left">numerische Buch-Kennung für Werke (“W”), einzelne Ausgaben (“M”) und Autoren (“A”)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P649"><code>P649</code></a></td>
 <td align="left">NRHP</td>
 <td align="left">Identifikationsnummer im National Register of Historic Places des US-amerikanischen National Park Service</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P650"><code>P650</code></a></td>
 <td align="left">RKD-Künstler-ID</td>
 <td align="left">Identifikationsnummer in der Datenbank des Niederländischen Instituts für Kunstgeschichte (Rijksbureau voor Kunsthistorische Documentatie)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P651"><code>P651</code></a></td>
 <td align="left">BPN</td>
 <td align="left">Identifikationsnummer in der Datenbank des niederländischen Biografisch Portaal</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P652"><code>P652</code></a></td>
 <td align="left">UNII</td>
 <td align="left">von der FDA definierter Identifikator für einzelne Inhaltsstoff chemischer Verbindungen</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P653"><code>P653</code></a></td>
 <td align="left">PubMed-Health</td>
 <td align="left">Identifikator für die PubMed-Health-Seite, die Artikel über medizinische Themen bereitstellt</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P657"><code>P657</code></a></td>
 <td align="left">RTECS-Nummer</td>
 <td align="left">Identifikationsnummer in der Registry of Toxic Effects of Chemical Substances (Datenbank toxikologischer Informationen)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P661"><code>P661</code></a></td>
 <td align="left">ChemSpider-ID</td>
 <td align="left">Datenbank chemischer Verbindungen</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P662"><code>P662</code></a></td>
 <td align="left">PubChem-ID (CID)</td>
 <td align="left">Datenbank von chemischen Verbindungen</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P665"><code>P665</code></a></td>
 <td align="left">KEGG ID</td>
 <td align="left">Datenbanken, die sich mit Genomen, enzymatische Wege und biologische Chemie beschäfftigt</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P668"><code>P668</code></a></td>
 <td align="left">GeneReviews-ID</td>
 <td align="left">Kennung in der GeneReviews-Datenbank</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P671"><code>P671</code></a></td>
 <td align="left">Mouse Genome Informatics ID</td>
 <td align="left">Kennung in der Datenbank Mouse Genome Informatics</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P672"><code>P672</code></a></td>
 <td align="left">MeSH Code</td>
 <td align="left">Medical Subject Headings (MeSH)-Codes sind ein Index und Thesaurus für die Lebenswissenschaften (≠ MeSH ID)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P673"><code>P673</code></a></td>
 <td align="left">eMedicine</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P675"><code>P675</code></a></td>
 <td align="left">Google Books</td>
 <td align="left">Kennung in der Google-Books-Datenbank</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P677"><code>P677</code></a></td>
 <td align="left">ÚSOP-Code</td>
 <td align="left">von drusop.nature.cz</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P683"><code>P683</code></a></td>
 <td align="left">ChEBI-ID</td>
 <td align="left">Moleküldatenbank und -ontologie</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P685"><code>P685</code></a></td>
 <td align="left">NCBI-ID</td>
 <td align="left">Identifikator in der taxonomischen Datenbank des National Center for Biotechnology Information (NCBI)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P686"><code>P686</code></a></td>
 <td align="left">Gene-Ontology-Identifikator</td>
 <td align="left">ID in der Gene-Ontology-Datenbank</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P687"><code>P687</code></a></td>
 <td align="left">BHL-Seiten-ID</td>
 <td align="left">Identifikator einer Seite in der Biodiversity Heritage Library (BHL)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P691"><code>P691</code></a></td>
 <td align="left">NKCR</td>
 <td align="left">Datenbanklink zum Portal der Nationalbibliothek der Tschechischen Republik</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P698"><code>P698</code></a></td>
 <td align="left">PubMed-ID (PMID)</td>
 <td align="left">Identifikator für Artikel in der PubMed-Datenbank</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P699"><code>P699</code></a></td>
 <td align="left">Disease-Ontology-ID</td>
 <td align="left">Kennung in der Disease-Ontology-Datenbank</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P701"><code>P701</code></a></td>
 <td align="left">Dodis-Nummer</td>
 <td align="left">Kennung in der Dodis-Datenbank (Diplomatische Dokumente der Schweiz 1945-1969)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P704"><code>P704</code></a></td>
 <td align="left">Ensembl-Transkript-Identifikator</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P705"><code>P705</code></a></td>
 <td align="left">Ensembl-Protein-Identifikator</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P709"><code>P709</code></a></td>
 <td align="left">Historic-Scotland-ID</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P715"><code>P715</code></a></td>
 <td align="left">Drugbank-ID</td>
 <td align="left">Kennung in der Drugbank-Datenbank</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P716"><code>P716</code></a></td>
 <td align="left">JPL Small-Body Database ID</td>
 <td align="left">Kennung in der Datenbank JPL Small-Body Database</td>
 </tr>
-<tr class="even">
-<td align="left"><a href="https://www.wikidata.org/wiki/Property:P717"><code>P717</code></a></td>
-<td align="left"><em>Minor Planet Center observatory code</em></td>
-</tr>
 <tr class="odd">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P717"><code>P717</code></a></td>
+<td align="left">“Minor Planet Center” -Überwachsungscode</td>
+<td align="left">Überwachungsdaten für Asteroriden und Kometen</td>
+</tr>
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P718"><code>P718</code></a></td>
 <td align="left">Canmore-ID</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P721"><code>P721</code></a></td>
 <td align="left">OKATO-ID</td>
 <td align="left">Code im Klassifizierungsschlüssel administrativer Objekte in Russland</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P722"><code>P722</code></a></td>
 <td align="left">UIC internationale Bahnhofsnummer</td>
 <td align="left">UIC internationale Bahnhofsnummer</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P723"><code>P723</code></a></td>
 <td align="left">DBNL-ID</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P724"><code>P724</code></a></td>
 <td align="left">Internet-Archive-ID</td>
 <td align="left">eindeutige Identifikationsnummer eines Datenobjekts auf archive.org</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P727"><code>P727</code></a></td>
 <td align="left">Europeana-ID</td>
 <td align="left">europäische virtuelle Bibliothek</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P731"><code>P731</code></a></td>
 <td align="left">Litholex Primärschlüssel</td>
 <td align="left">Lithostratigraphische Datenbank für Deutschland und gewartet von der BGR</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P732"><code>P732</code></a></td>
 <td align="left">BGS-Lexikon-ID</td>
 <td align="left">Identifikator im lithostratigraphischen Lexikon der britischen geologischen Bundesanstalt</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P733"><code>P733</code></a></td>
 <td align="left">DINOloket</td>
 <td align="left">Datenbank der niederländischen geologischen Einheiten (Data Informatie Nederlandse Ondergrond)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P745"><code>P745</code></a></td>
 <td align="left">PBB-ID</td>
 <td align="left">Plattdeutsche Biblio- und Biographie</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P758"><code>P758</code></a></td>
 <td align="left">Kulturminne identifier</td>
 <td align="left">Kennung in der Kulturminne-Datenbank der Riksantikvaren</td>
 </tr>
-<tr class="even">
-<td align="left"><a href="https://www.wikidata.org/wiki/Property:P759"><code>P759</code></a></td>
-<td align="left"><em>Alberta Register of Historic Places identifier</em></td>
-</tr>
 <tr class="odd">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P759"><code>P759</code></a></td>
+<td align="left">Identifizierungsnummer im Alberta Register of Historic Places</td>
+</tr>
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P764"><code>P764</code></a></td>
 <td align="left">OKTMO-ID</td>
 <td align="left">Code im Klassifizierungsschlüssel munizipaler Gebilde in Russland</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P771"><code>P771</code></a></td>
 <td align="left">Gemeindenummer in der Schweiz</td>
 <td align="left">Nummer des Bundesamtes für Statistik (BFS) in der Schweiz</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P774"><code>P774</code></a></td>
 <td align="left">FIPS 55-3 (Orte in USA)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P782"><code>P782</code></a></td>
 <td align="left">LAU</td>
 <td align="left">staatliche administrative Hierarchieebene, EU (ehemals NUTS-4 und NUTS-5)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P791"><code>P791</code></a></td>
 <td align="left">ISIL-ID</td>
 <td align="left">Internationale Kennung für Bibliotheken und verwandte Organisationen</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P804"><code>P804</code></a></td>
 <td align="left">GNIS-Antarctica-ID</td>
 <td align="left">Identifikationsnummer in der Antarktika-Datenbank des GNIS</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P806"><code>P806</code></a></td>
 <td align="left">italienische Kataster-ID</td>
 </tr>
-<tr class="even">
-<td align="left"><a href="https://www.wikidata.org/wiki/Property:P808"><code>P808</code></a></td>
-<td align="left"><em>code Bien de Interés Cultural</em></td>
-</tr>
 <tr class="odd">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P808"><code>P808</code></a></td>
+<td align="left">Code des Kulturgutes</td>
+<td align="left">Spanisches Erbregister</td>
+</tr>
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P809"><code>P809</code></a></td>
 <td align="left">WDPA-ID</td>
 <td align="left">Nummer in der Weltdatenbank über geschützte Gebiete (World Database on Protected Areas)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P815"><code>P815</code></a></td>
 <td align="left">ITIS-TSN</td>
 <td align="left">die vom Integrated Taxonomic Information System (ITIS) vergebene Taxonomic Serial Number (TSN)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P818"><code>P818</code></a></td>
 <td align="left">arXiv ID</td>
 <td align="left">Identificationsqode im ArXive-Archiv</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P819"><code>P819</code></a></td>
-<td align="left"><em>ADS bibcode</em></td>
+<td align="left">ADS bibcode</td>
+<td align="left">Bibcode des astrophysischen Datensystems</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P821"><code>P821</code></a></td>
+<td align="left">CGNDB Einzigartige Identifikatoren</td>
+<td align="left">Identifikator der geographischen Merkmale des geographischen Namensboards von Kanada</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="https://www.wikidata.org/wiki/Property:P821"><code>P821</code></a></td>
-<td align="left"><em>CGNDB Unique Identifier</em></td>
-</tr>
-<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P824"><code>P824</code></a></td>
 <td align="left">Meteoritical-Bulletin-Identifikator</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P827"><code>P827</code></a></td>
 <td align="left"><em>BBC program identifier</em></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P829"><code>P829</code></a></td>
 <td align="left">OEIS-ID</td>
 <td align="left">Enzyklopädie der Integer-Sequenzen</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P830"><code>P830</code></a></td>
 <td align="left">EOL-ID</td>
 <td align="left">Identifikator in der Encyclopedia of Life (EOL)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P838"><code>P838</code></a></td>
 <td align="left">BioLib-ID</td>
 <td align="left">Identifikator in der Biological Library (BioLib)</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P839"><code>P839</code></a></td>
 <td align="left">IMSLP-ID</td>
 <td align="left">Identifikationsnummer des Internationalen Notenbibliothek-Projekts</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P842"><code>P842</code></a></td>
 <td align="left">Fossilworks-ID</td>
 <td align="left">Identifikator für fossile Tiere, Pflanzen, und Mikroorganismen</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P843"><code>P843</code></a></td>
 <td align="left">SIRUTA Code</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P845"><code>P845</code></a></td>
 <td align="left">Sawkatchewan’sches Kulturgüterverzeichnis</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P846"><code>P846</code></a></td>
 <td align="left">GBIF-ID</td>
 <td align="left">Identifikator bei der Global Biodiversity Information Facility (GBIF)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P850"><code>P850</code></a></td>
 <td align="left">WoRMS-ID</td>
 <td align="left">Kennung im World Register of Marine Species</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P854"><code>P854</code></a></td>
+<td align="left">URL</td>
+<td align="left">z. B. für Einzelnachweise</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P858"><code>P858</code></a></td>
@@ -1369,7 +1396,8 @@ Q17|Japan|4028495-5</code></pre>
 </tr>
 <tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P864"><code>P864</code></a></td>
-<td align="left"><em>ACM Digital Library author identifier</em></td>
+<td align="left">ACM Digitale Autorenerkennung</td>
+<td align="left">Verein “Digtiale Bibliothek (ACM DL) für Autoren-Indentifikaton”</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P865"><code>P865</code></a></td>
@@ -1403,33 +1431,8 @@ Q17|Japan|4028495-5</code></pre>
 </tr>
 <tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P889"><code>P889</code></a></td>
-<td align="left"><em>Mathematical Reviews identifier</em></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://www.wikidata.org/wiki/Property:P892"><code>P892</code></a></td>
-<td align="left">RFC</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://www.wikidata.org/wiki/Property:P893"><code>P893</code></a></td>
-<td align="left"><em>Social Science Research Network ID</em></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://www.wikidata.org/wiki/Property:P902"><code>P902</code></a></td>
-<td align="left">Artikelnummer im HLS</td>
-<td align="left">Identifikationsnummer im Historischen Lexikon der Schweiz</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://www.wikidata.org/wiki/Property:P906"><code>P906</code></a></td>
-<td align="left">SELIBR</td>
-<td align="left">Normdatei des schwedischen Verbundkatalogs LIBRIS</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://www.wikidata.org/wiki/Property:P907"><code>P907</code></a></td>
-<td align="left">AMG Spiele ID</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://www.wikidata.org/wiki/Property:P909"><code>P909</code></a></td>
-<td align="left"><em>Nova Scotia Register of Historic Places identifier</em></td>
+<td align="left">Mathematischer Rezessions-Identifikator</td>
+<td align="left">“Mathematische Rezession” ist eine Zeitschrift und eine Onlinedatenbank veröffentlicht von der “Amerikanischen Mathematik Gesellschaft (AMS) die kurze Inhaltsangaben (und gelegentliche Auswertungen) von vielen Artikeln in Mathe, Statistik und theoretische Computerwissenschaft enthält. <a href="https://www.wikidata.org/wiki/Property:P892"><code>P892</code></a> | RFC | <a href="https://www.wikidata.org/wiki/Property:P893"><code>P893</code></a> | Sozial-Wissenschaftliches Forschungs-Netzwerk ID | Artikel/Papier Identifikator der SSRN <a href="https://www.wikidata.org/wiki/Property:P902"><code>P902</code></a> | Artikelnummer im HLS | Identifikationsnummer im Historischen Lexikon der Schweiz <a href="https://www.wikidata.org/wiki/Property:P906"><code>P906</code></a> | SELIBR | Normdatei des schwedischen Verbundkatalogs LIBRIS <a href="https://www.wikidata.org/wiki/Property:P907"><code>P907</code></a> | AMG Spiele ID | <a href="https://www.wikidata.org/wiki/Property:P909"><code>P909</code></a> | Nova Scotia Indentifikationsregister von”Historischen Plätzen&quot;</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P911"><code>P911</code></a></td>
@@ -1437,11 +1440,13 @@ Q17|Japan|4028495-5</code></pre>
 </tr>
 <tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P920"><code>P920</code></a></td>
-<td align="left"><em>Spanish subject headings for public libraries</em></td>
+<td align="left">Spanische Schlagwörter für öffentliche Bibliotheken</td>
+<td align="left">Schlagwörter für öffentliche Bibliotheken werden unterstützt durch das spanische Ministerium für Bildung, Kultur und Sport. Ausdrücke sind verbunden (mit unterschiedlichen Nummern) mit LCSH, GND, RAMEAU, LEMAC (Schlagwörter sind auf katalanisch).</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P933"><code>P933</code></a></td>
-<td align="left"><em>heritagefoundation.ca ID</em></td>
+<td align="left">hertiagefoundation.ca ID</td>
+<td align="left">Identifikator der Stiftung Neufundland und Labrador</td>
 </tr>
 <tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P935"><code>P935</code></a></td>
@@ -1564,7 +1569,7 @@ Q17|Japan|4028495-5</code></pre>
 </tr>
 <tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P1024"><code>P1024</code></a></td>
-<td align="left"><em>SBFI occupation code</em></td>
+<td align="left">SBFI Codebesetzung</td>
 </tr>
 <tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P1025"><code>P1025</code></a></td>
@@ -1686,123 +1691,194 @@ Q17|Japan|4028495-5</code></pre>
 <td align="left">IAAF-ID</td>
 </tr>
 <tr class="odd">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1150"><code>P1150</code></a></td>
+<td align="left">RVK-Notation</td>
+<td align="left">Klassifikation für die inhaltliche Erschließung</td>
+</tr>
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P1153"><code>P1153</code></a></td>
 <td align="left">Scopus-Autor-ID</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P1156"><code>P1156</code></a></td>
 <td align="left">Scopus-Quelle-ID</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P1159"><code>P1159</code></a></td>
 <td align="left">CODEN</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1160"><code>P1160</code></a></td>
-<td align="left"><em>ISO 4 abbreviation</em></td>
+<td align="left">CODEN bibliographischer Code</td>
 </tr>
 <tr class="odd">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1160"><code>P1160</code></a></td>
+<td align="left">ISO 4 Abkürzung</td>
+<td align="left">ISO 4 bibliographischer Code (Abkürzung), der 1972 eingeführt wurde</td>
+</tr>
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P1182"><code>P1182</code></a></td>
 <td align="left">LIBRIS Editionen</td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1184"><code>P1184</code></a></td>
-<td align="left"><em>handle</em></td>
+<td align="left">ID für Objekte im Libris Katalog über spezifische Bücher</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1185"><code>P1185</code></a></td>
-<td align="left">Rodovid-ID</td>
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1184"><code>P1184</code></a></td>
+<td align="left">Handle</td>
+<td align="left">Handle System Kennzeichner (Obermenge des DOI)</td>
 </tr>
 <tr class="even">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1185"><code>P1185</code></a></td>
+<td align="left">Rodovid-ID</td>
+<td align="left">Personen ID auf der Webseite rodovid.org</td>
+</tr>
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P1190"><code>P1190</code></a></td>
 <td align="left">Universelle Dezimalklassifikation</td>
 <td align="left">Klassifikation für die inhaltliche Erschließung</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P1207"><code>P1207</code></a></td>
 <td align="left">NUKAT Normdaten</td>
 <td align="left">Normdateneintrag im polnischen Verbundkatalog NUKAT</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P1212"><code>P1212</code></a></td>
 <td align="left">Atlas ID</td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1216"><code>P1216</code></a></td>
-<td align="left"><em>English Heritage list number</em></td>
+<td align="left">ID in der Atlas Datenbank des Louvre Museums</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1220"><code>P1220</code></a></td>
-<td align="left"><em>Internet Broadway Database person ID</em></td>
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1216"><code>P1216</code></a></td>
+<td align="left">Listennummer der Organisation für Denkmalschutz in England</td>
+<td align="left">Nummer in der Liste der Gebäude</td>
 </tr>
 <tr class="odd">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1220"><code>P1220</code></a></td>
+<td align="left">IBDB Personen ID</td>
+<td align="left">Internet Broadway Database Kennzeichner für Personen</td>
+</tr>
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P1222"><code>P1222</code></a></td>
 <td align="left">NARA-Personen-ID</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P1223"><code>P1223</code></a></td>
-<td align="left"><em>NARA organization ID</em></td>
+<td align="left">NARA-Organisationen-ID</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P1224"><code>P1224</code></a></td>
-<td align="left"><em>NARA geographic ID</em></td>
-</tr>
-<tr class="even">
-<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1225"><code>P1225</code></a></td>
-<td align="left"><em>NARA topical subject ID</em></td>
+<td align="left">NARA-Geographikum-ID</td>
 </tr>
 <tr class="odd">
-<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1226"><code>P1226</code></a></td>
-<td align="left"><em>NARA specific records type ID</em></td>
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1225"><code>P1225</code></a></td>
+<td align="left">NARA Fachgebiets-ID</td>
 </tr>
 <tr class="even">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1226"><code>P1226</code></a></td>
+<td align="left">NARA Spezifischer Dokumententyp ID</td>
+</tr>
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P1229"><code>P1229</code></a></td>
 <td align="left">Openpolis-ID</td>
+<td align="left">ID in Openpolis, eine Datenbank über italienische Politiker</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P1231"><code>P1231</code></a></td>
-<td align="left"><em>NARA catalogue record ID</em></td>
+<td align="left">NARA Katalogdatensatz ID</td>
+<td align="left">Eindeutiger Kennzeichner für Katalogdatensätze</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P1232"><code>P1232</code></a></td>
-<td align="left"><em>Linguist list code</em></td>
-</tr>
-<tr class="odd">
-<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1237"><code>P1237</code></a></td>
-<td align="left"><em>Box Office Mojo film ID</em></td>
+<td align="left">Linguist Listencode</td>
 </tr>
 <tr class="even">
-<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1238"><code>P1238</code></a></td>
-<td align="left"><em>Swedish Football Association ID</em></td>
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1237"><code>P1237</code></a></td>
+<td align="left">Box Office Mojo Film ID</td>
+<td align="left">ID für einen Film auf der Webseite Box Office Mojo</td>
 </tr>
 <tr class="odd">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1238"><code>P1238</code></a></td>
+<td align="left">Schwedische Fußballassoziation ID</td>
+<td align="left">Datenbank über schwedische Fußballspieler</td>
+</tr>
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P1245"><code>P1245</code></a></td>
 <td align="left">Bedeutungsdefinition in OmegaWiki</td>
 <td align="left">“DefinedMeaning”-Kennzeichnungsnummer in OmegaWiki</td>
 </tr>
-<tr class="even">
-<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1250"><code>P1250</code></a></td>
-<td align="left"><em>Danish Bibliometric Research Indicator (BFI) SNO/CNO</em></td>
-</tr>
 <tr class="odd">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1250"><code>P1250</code></a></td>
+<td align="left">Dänischer Bibliometrischer Forschungsindikator (BFI) SNO/CNO</td>
+</tr>
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P1256"><code>P1256</code></a></td>
 <td align="left">Iconclass ID</td>
 <td align="left">Kennung des ikonographischen Themas</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P1258"><code>P1258</code></a></td>
 <td align="left">Rotten Tomatoes ID</td>
+<td align="left">ID in Rotten Tomatoes, Präfix “m/” für Filme, “tv/” für TV Serien und “celebrity/” für berühmte Personen</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><a href="https://www.wikidata.org/wiki/Property:P1273"><code>P1273</code></a></td>
 <td align="left">CANTIC</td>
 </tr>
+<tr class="odd">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1284"><code>P1284</code></a></td>
+<td align="left">Munzinger Personen</td>
+<td align="left">Internationales Biographisches Archiv im Verlag Munzinger-Archiv</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1285"><code>P1285</code></a></td>
+<td align="left">Munzinger Sport</td>
+<td align="left">Internationales Sportarchiv im Verlag Munzinger-Archiv</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1286"><code>P1286</code></a></td>
+<td align="left">Munzinger Pop</td>
+<td align="left">Pop-Archiv International im Verlag Munzinger-Archiv</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1287"><code>P1287</code></a></td>
+<td align="left">Komponisten der Gegenwart</td>
+<td align="left">Komponisten-Verzeichnis im Verlag Munzinger-Archiv</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1288"><code>P1288</code></a></td>
+<td align="left">Kritisches Lexikon der Gegenwartsliteratur</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1289"><code>P1289</code></a></td>
+<td align="left">Kritisches Lexikon der fremdsprachigen Gegenwartsliteratur</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1296"><code>P1296</code></a></td>
+<td align="left">Große katalanische Enzyklopädie</td>
+</tr>
+<tr class="even">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1309"><code>P1309</code></a></td>
+<td align="left">EGAXA</td>
+<td align="left">Normdateneintrag in der Bibliotheca Alexandrina</td>
+</tr>
+<tr class="odd">
+<td align="left"><a href="https://www.wikidata.org/wiki/Property:P1311"><code>P1311</code></a></td>
+<td align="left">lostbridges.org ID</td>
+</tr>
 </tbody>
 </table>
+<h1 id="über-dieses-handbuch" class="unnumbered"><a href="#über-dieses-handbuch">Über dieses Handbuch</a></h1>
+<p>Der gesamte Inhalt dieses Handbuchs steht unter <a href="https://github.com/hshdb/normdaten-in-wikidata">https://github.com/hshdb/normdaten-in-wikidata</a> sowie <a href="https://www.penflip.com/nichtich/normdaten-in-wikidata.git">https://www.penflip.com/nichtich/normdaten-in-wikidata.git</a> als git-Repository zur Verfügung. Das Repository enthält alle Ausgangsdateien (Texte, Bilder und Layoutanweisungen), Änderungen und einige Skripte zur Erstellung der <a href="http://hshdb.github.io/normdaten-in-wikidata/">HTML- und PDF-Ausgaben</a>. Die Datei <code>README.md</code> enthält weitere Hinweise zur technischen Umsetzung.</p>
+<p>Die Weiternutzung aller Inhalte ist unter den Bedingungen der <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC-BY-SA Lizenz</a> erlaubt. Wenn möglich sollte dafür das git-Repository weitergeführt werden (in der git-Terminologie als “Fork” bezeichnet), so dass Korrekturen und Erweiterungen leichter zurückfliessen können. Für Kommentare und Korrekturen können die enstsprechenden Funktionen <a href="https://www.penflip.com/nichtich/normdaten-in-wikidata/discussions">bei Penflip</a> und <a href="https://github.com/hshdb/normdaten-in-wikidata/issues">bei GitHub</a> verwendet werden.</p>
+<p>Zur Erstellung des Handbuchs wurden im Wesentlichen folgende Werkzeuge verwendet:</p>
+<ul>
+<li>Penflip (<a href="https://penflip.com">https://penflip.com</a>) als Plattform zum gemeinsamen Schreiben</li>
+<li>Pandoc (<a href="http://johnmacfarlane.net/pandoc/">http://johnmacfarlane.net/pandoc/</a>) um aus dem Text das Buch als HTML- und PDF-Datei zu erzeugen</li>
+<li>Trello (<a href="https://trello.com">https://trello.com</a>) zum Projektmanagement</li>
+<li>GitHub (<a href="https://github.com">https://github.com</a>) zum Hosting des Repository und des fertigen Buchs</li>
+<li>Annotator (<a href="https://annotatorjs.org">https://annotatorjs.org</a>) zum Korrekturlesen</li>
+</ul>
+<p>Eine Übersicht über das Projekt gibt der Artikel <a href="https://github.com/jakobib/opensym2014">“Collaborative creation of a Wikidata handbook”</a>.</p>
 </div>
 <footer>
-  <div>Letzte Änderung: Tue May 6 18:33:57 2014 +0200</div>
-  <div>Erstellungszeit: Di 6. Mai 18:38:58 CEST 2014</div>
+  
+  <div>Erstellungszeit: Do 29. Mai 10:43:58 CEST 2014</div>
 </footer>
 </body>
 </html>
