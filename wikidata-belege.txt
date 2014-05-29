@@ -14,7 +14,7 @@ In folgenden Fällen kann bei Aussagen auf Belege verzichtet werden:
 
 Belege bestehen aus mindestens einer Eigenschaft und einem Wert. Die erste Aussage des Items Deutschland ([`Q183`](https://www.wikidata.org/wiki/Q183)) lautet "Mitglied von Welthandelsorganisation". Zu dieser Aussage gibt es drei Belege. Jeder Beleg setzt sich zusammen aus "Datenherkunft", "URL" und "Zitat". 
 
-![Aussage mit drei Einzelnachweisen](images/einzelnachweise.jpg)
+![Aussage mit drei Einzelnachweisen](images/einzelnachweise.png)
 
 Der erste Beleg ist komplett aufgeklappt im Screenshot (Abb. 5) zu sehen. Genauer betrachtet ist der Beleg in drei Eigenschaften aufgegliedert. "Datenherkunft", "URL" und "Zitat" sind jeweils die Eigenschaften und das darauf Folgende (für "Datenherkunft" zum Beispiel "Bundesministerium für Wirtschaft und Technologie") sind Werte.
 

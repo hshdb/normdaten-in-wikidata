@@ -8,7 +8,7 @@ Ein **Item** (deutsch: **Datenobjekt**) stellt in Wikidata eine zentrale Einheit
 
 Die Seite des Items setzt sich aus verschiedenen Komponenten zusammen (Abb. 1).
 
-![Bestandteile eines Items](images/Bestandteile_eines_Items.PNG)
+![Bestandteile eines Items](images/Bestandteile_eines_Items.png)
 
 Ganz oben steht der Name des Items mit ID (in diesem Fall "Japan ([`Q17`](https://wikidata.org/wiki/Q17))") und darunter folgen eine Kurzbeschreibung dieses Items sowie Synonyme. Es werden außerdem Übersetzungen des Items und der Kurzbeschreibung angezeigt. 
 

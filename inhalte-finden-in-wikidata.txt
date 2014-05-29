@@ -24,7 +24,7 @@ Auf den Inhaltsseiten kann man nach sämtlichen Items von Wikidata suchen. Mit d
 
 Ist man auf der Suche nach einer [Eigenschaft](#wikidata-eigenschaften) gibt es zwei Möglichkeiten, um eine Suche erfolgreich zu gestalten. Die Seite [„Liste der Eigenschaften"](https://www.wikidata.org/wiki/Wikidata:List_of_properties/de) verlinkt zu einer (unvollständigen) Übersicht und zu einer Suchmaske, in welcher man gezielt nach Eigenschaften suchen kann (Abb. 13). Diese Möglichkeit ist dann sinnvoll, wenn man eine Eigenschaftsbezeichnung bereits kennt. 
 
-![Suche nach Eigenschaften](images/Suche_nach_Eigenschaften.PNG)
+![Suche nach Eigenschaften](images/Suche_nach_Eigenschaften.png)
 
 Wenn der Name der Eigenschaft nicht bekannt ist, gibt es die Möglichkeit mit Hilfe einer [Eigenschaftentabelle](https://www.wikidata.org/wiki/Wikidata:List_of_properties/Summary_table) diese Eigenschaft zu ermitteln. 
 

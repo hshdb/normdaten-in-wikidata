@@ -12,7 +12,7 @@ Zur Ansicht und Bearbeitung der Benennungen und weiterer Angaben zu Aussagen hat
 
 Die Ansicht der Eigenschaft [`P19`](https://www.wikidata.org/wiki/Property:P19) können Sie im Screenshot betrachten (Abb. 2). 
 
-![Eigenschaft P19: Geburtsort](images/place_of_birth.jpg)
+![Eigenschaft P19: Geburtsort](images/place_of_birth.png)
 
 ### Vorhandene Eigenschaften
 

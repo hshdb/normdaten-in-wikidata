@@ -6,7 +6,7 @@ Im nun folgenden Kapitel soll Ihnen gezeigt werden, wie man ein Item neu anlegt,
 
 Bevor man ein neues Item erstellt, sollte man überprüfen, ob [dieses Item bereits existiert](https://www.wikidata.org/wiki/Special:ItemByTitle?uselang=de). Die Suche wird im Kapitel [„Inhalte finden"](#inhalte-finden-in-wikidata) erklärt.
 
-![Erstellung eines neuen Items](images/Die_Erstellung_eines_neuen_Items.PNG)
+![Erstellung eines neuen Items](images/Die_Erstellung_eines_neuen_Items.png)
 
 Wenn das Item noch nicht vorhanden ist, erhält man die Möglichkeit, ein neues Item zu erstellen. Man wird mit einem Link auf die Erstellungsseite weitergeleitet (Abb. 15). Dort muss die Bezeichnung sowie die Beschreibung des zu erstellenden Items eingetragen werden. Ist dies geschehen, kommt man auf die Itemseite.
 
@@ -23,7 +23,7 @@ Zum Erstellen eines Items gibt es drei verschiedene Relevanzkriterien. Es muss e
 
 Wikidata arbeitet an einem Modell, bei dem alle Sprachen beziehungsweise Sprachlinks an einem zentralen Punkt zusammengeführt und verknüpft werden. Auf diese Weise werden alle Wiki-Einträge (in allen Sprachen) an einer zentralen Stelle angezeigt. Es können [Anträge](https://www.wikidata.org/wiki/Wikidata:Translators%27_noticeboard) zur Übersetzung gestellt oder Verbesserungsvorschläge und Rechtschreibkorrekturen angemerkt werden. 
 
-![Übersetzungen eines Items](images/beispieluebersetzen.jpg)
+![Übersetzungen eines Items](images/beispieluebersetzen.png)
 
 Anderssprachige Bezeichnungen und Beschreibungen von Items können auf der Seite der jeweiligen Items unter "In anderen Sprachen" eingetragen werden. Wie im Screenshot (Abb. 16) zu sehen ist, werden automatisch die Sprachen Englisch, Plattdeutsch und Türkisch vorgeschlagen. Da es bereits eine englische Übersetzung gibt, kann diese nicht neu angelegt, sondern nur bearbeitet werden. Plattdeutsch und Türkisch haben noch keine Übersetzungen, also kann der Nutzer einfach in das leere Feld die entsprechende Bezeichnung beziehungsweise Beschreibung eintragen. Hierbei ist Vorsicht angeraten, denn beim Übersetzen gibt es [Richtlinien](https://www.wikidata.org/wiki/Help:Sitelinks/de-formal) zu beachten.
 Es ist möglich in jeder Sprache Übersetzungen eines Items einzutragen, selbst wenn das Item in dieser Sprache keinen Wiki-Artikel besitzt. Die Bedingung ist jedoch, dass die Kombination aus Bezeichnung und Beschreibung eindeutig ist (und zwar nur in dieser Sprache eindeutig). Beispielsweise kann der dt. Eintrag "Markus Müller", "Fußballspieler aus München" eindeutig sein und trotzdem kann die gleiche Übersetzung (natürlich im gleichen Item!) auf Englisch "Markus Müller", "football player from Munich" auch eindeutig sein. 
@@ -32,13 +32,13 @@ Es ist möglich in jeder Sprache Übersetzungen eines Items einzutragen, selbst 
 
 Für die Anzeige der Liste der Bezeichnungen muss diese zunächst in den [Einstellungen](https://www.wikidata.org/wiki/Special:Preferences) (Achtung: Anmeldung erforderlich!) im Reiter "Helferlein" im Punkt "LabelLister" aktiviert werden. Dafür ist eine Anmeldung erforderlich. Wenn dieses Kästchen angehakt ist, erscheint nun auf der Seite des Items ein weiteres Feld zwischen "Lesen" und "Versionsgeschichte", nämlich die "Liste der Bezeichnungen" (Abb. 17).
 
-![Liste der Bezeichnungen des Items "Japan"](images/Liste_der_Bezeichnungen.PNG)
+![Liste der Bezeichnungen des Items "Japan"](images/Liste_der_Bezeichnungen.png)
 
 Klickt man nun darauf, erscheint ein PopUp-Fenster, welches alle Übersetzungen der Bezeichnung enthält. Für eine Änderung bzw. Eintragung einer neuen Itembezeichnung und Itembeschreibung müssen Sie "Bearbeiten" im PopUp-Fenster anwählen. Anschließend geben Sie den [Sprachencode](https://de.wikipedia.org/wiki/Wikipedia:Sprachen#Alle_Wikipedias) ein und nach der Eingabe öffnet sich das Bearbeitungsfenster für die Sprachbezeichnungen, Aliasse und Beschreibungen. Nachdem Sie auf "Speichern" geklickt haben, werden die Änderungen auf der Itemseite angezeigt. 
 
 ### Aussagen bearbeiten
 
-![Standard-Ansicht von Aussagen](images/aussagen.jpg)
+![Standard-Ansicht von Aussagen](images/aussagen.png)
 
 Aussagen lassen sich bei Wikidata auf der Seite des Items bearbeiten und anlegen. Mit einem Klick auf "bearbeiten" (Abb. 18), kann man den Wert einer schon bestehenden Eigenschaft bearbeiten. Bei Klicken auf "hinzufügen" ist es möglich, einen neuen Wert zu erstellen. Allerdings können die Begriffe nicht frei gewählt werden, man muss aus einem Pool bereits bestehender und von Wikidata normierter Begriffe auswählen. Im Folgenden ist das Bearbeiten eines Werts gezeigt (Abb. 19).
 
@@ -46,7 +46,7 @@ Aussagen lassen sich bei Wikidata auf der Seite des Items bearbeiten und anlegen
 
 Um eine neue Aussage zu erstellen, muss man auf "hinzufügen" am Ende der Aussagenliste klicken (Abb. 20). Auch die Begriffe für die Eigenschaften sind nicht frei wählbar, sie müssen ebenfalls aus einer bestehenden Liste ausgewählt werden.
 
-![Neue Aussage hinzufügen](images/Neue_Aussage_hinzuf_gen.PNG)
+![Neue Aussage hinzufügen](images/Neue_Aussage_hinzufuegen.png)
 
 Wie auf den Screenshots zu sehen ist, können Aussagen zusätzlich mit [Belegen](#belege) versehen werden.
 

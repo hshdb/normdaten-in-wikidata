@@ -6,7 +6,7 @@ Im zweiten Unterkapitel wird die Suchfunktion von Wikidata behandelt und vorgest
 ## Übersicht der Wikidata-Startseite
 Für die aktive Benutzung von Wikidata empfiehlt sich der Besitz eines eigenen Accountes, damit bei eventuellen Änderungen andere Nutzer zuordnen können, wer etwas geändert hat, um dann entsprechend darauf reagieren zu können. Einen Benutzeraccount können Sie von jeder Wikidataseite aus anlegen. Der Button dafür befindet sich am oberen rechten Rand der Website.
 
-![Startseite von Wikidata in deutscher Spracheinstellung](images/Startseite.PNG)
+![Startseite von Wikidata in deutscher Spracheinstellung](images/Startseite.png)
 
 Im Screenshot (Abb. 7) sehen Sie die deutsche Ansicht der Wikidata-Startseite im abgemeldeten Modus. Für die leichte Bedienbarkeit kann die Oberfläche von Wikidata in fast allen Sprachen angezeigt werden. Hier kann man zwischen zwei Ebenen unterscheiden, der Sprachauswahl für das Kontextmenü und der Sprachauswahl für den Inhaltsbereich. Erstere ist im abgemeldeten Modus in der linken Spalte zu finden und letztere findet sich zentral auf der Wikidata-Startseite. 
 Der Unterschied zwischen diesen beiden Spracheinstellungen ist die Art, der Veränderung auf der Website. Bei der Sprachauswahl für das Kontextmenü ändern sich Menü-Punkte, automatisch generierte Buttons und alle weiteren Punkte, die nicht von Bearbeitern von Wikidata geschrieben bzw. programmiert wurden. Bei einer Änderung von Deutsch zu Japanisch ändert sich lediglich die Sprache der Bedienoberfläche, inhaltlich bleiben alle Texte in deutscher Sprache. 
