@@ -156,7 +156,7 @@
 <p>Ein <strong>Item</strong> (deutsch: <strong>Datenobjekt</strong>) stellt in Wikidata eine zentrale Einheit dar. Fast alles kann in Wikidata zu einem Item werden (ausgenommen sind Daten, die keinem Kontext zugeordnet sind), vor allem aber Gegenständlichkeiten, Konzepte und Vorstellungen. Ein Item besteht immer aus einer Datensatz-ID, die sich aus dem Buchstaben <code>Q</code> und einer Nummer zusammensetzt. Beispielsweise steht <a href="https://wikidata.org/wiki/Q17"><code>Q17</code></a> für Japan. Jedes Item kann pro Sprache einen Namen und eine Kurzbeschreibung sowie mehrere Alternativnamen (Synonyme) haben. Dies trägt noch weiter zu einer eindeutigen Identifizierung bei. Weitere Bestandteile von Items sind Links zu Seiten in Wikimedia-Projekten (Wikipedia, Wikivoyage, Wikimedia Commons und so weiter) sowie <a href="#wikidata-aussagen">Aussagen</a> mit Eigenschaften, Werten und Belegen. Die Relevanzrichtlinien von Wikidata verlangen, dass nur Items erstellt werden sollen, die mit Seiten anderer Wikimedia-Projekte verlinkt sind (siehe <a href="#neue-items-anlegen" title="Items erstellen">Items erstellen</a>).</p>
 <p>Die Seite des Items setzt sich aus verschiedenen Komponenten zusammen (Abb. 1).</p>
 <div class="figure">
-<img src="images/Bestandteile_eines_Items.PNG" alt="Bestandteile eines Items" /><p class="caption">Bestandteile eines Items</p>
+<img src="images/Bestandteile_eines_Items.png" alt="Bestandteile eines Items" /><p class="caption">Bestandteile eines Items</p>
 </div>
 <p>Ganz oben steht der Name des Items mit ID (in diesem Fall “Japan (<a href="https://wikidata.org/wiki/Q17"><code>Q17</code></a>)”) und darunter folgen eine Kurzbeschreibung dieses Items sowie Synonyme. Es werden außerdem Übersetzungen des Items und der Kurzbeschreibung angezeigt.</p>
 <p>Nach den Übersetzungen kommen die <a href="#wikidata-aussagen">Aussagen</a>. Aussagen lassen sich aufteilen in <a href="#wikidata-eigenschaften">Eigenschaft</a> und Wert. Sie dienen dazu, das Item näher zu beschreiben. Eigenschaften beschreiben (immer gleichbleibende) Merkmale der Inhalte, welche in den Werten eingetragen werden können. Der Wert hingegen ist das Rohdatum, welches das Item näher beschreiben soll. Im obigen Beispiel ist “DDC” eine Aussage und <a href="http://dewey.info/class/2--52/about"><code>T2--52</code></a> ein der Eigenschaft zugewiesener Wert.</p>
@@ -170,7 +170,7 @@
 
 <p>Die Ansicht der Eigenschaft <a href="https://www.wikidata.org/wiki/Property:P19"><code>P19</code></a> können Sie im Screenshot betrachten (Abb. 2).</p>
 <div class="figure">
-<img src="images/place_of_birth.jpg" alt="Eigenschaft P19: Geburtsort" /><p class="caption">Eigenschaft P19: Geburtsort</p>
+<img src="images/place_of_birth.png" alt="Eigenschaft P19: Geburtsort" /><p class="caption">Eigenschaft P19: Geburtsort</p>
 </div>
 <h3 id="vorhandene-eigenschaften"><a href="#vorhandene-eigenschaften"><span class="header-section-number">4.2.1</span> Vorhandene Eigenschaften</a></h3>
 <p>Jede Aussage auf einer Item-Seite stellt eine Verbindung zu einer Eigenschaft her und weist ihr einen Wert zu. Dieser Wert besitzt wiederum eine Verlinkung zu der Item-Seite dieses Wertes.</p>
@@ -204,7 +204,7 @@
 <h2 id="wikidata-aussagen"><a href="#wikidata-aussagen"><span class="header-section-number">4.3</span> Wikidata-Aussagen</a></h2>
 <p>Jedes <a href="#wikidata-items">Wikidata-Item</a> kann mit Aussagen (statements) beschrieben werden. Im Wesentlichen besteht eine Aussage aus einer <a href="#wikidata-eigenschaften">Eigenschaft</a> und einem Wert. Beispielsweise enthält das Item für die Stadt Hannover (<a href="https://www.wikidata.org/wiki/Q1715"><code>Q1715</code></a>) eine Aussage, die angibt, dass sich Hannover in Deutschland befindet. Die entsprechende Eigenschaft dafür hat die Bezeichnung “Staat” (<a href="https://www.wikidata.org/wiki/Property:P17">P17</a>). Aussagen in Wikidata können mit einem anderen Wikidata-Item oder mit einem externen Link verlinkt oder durch eine Eigenschaft inhaltlich oder objektiv beschrieben werden. Der aufgerufene Datensatz im Screenshot ist Hannover (Abb. 3). Die Eigenschaft Staat beschreibt das interne Wikidata-Item Deutschland. Die Eigenschaft LCNAF (Library of Congress Name Authoryity File) gibt einen externen Link wieder. Die KFZ- Kennzeichnung ist ein Beispiel für eine einfache Wertbeschreibung. Weiter Informationen zu Aussagen finden Sie in Wikidata unter <a href="http://www.wikidata.org/wiki/Wikidata:Glossary/de#Behauptungen_und_Aussagen">Behauptungen und Aussagen</a>.</p>
 <div class="figure">
-<img src="images/Wikidata-Aussagen.PNG" alt="Aussagen mit Eigenschaften" /><p class="caption">Aussagen mit Eigenschaften</p>
+<img src="images/Wikidata-Aussagen.png" alt="Aussagen mit Eigenschaften" /><p class="caption">Aussagen mit Eigenschaften</p>
 </div>
 <h3 id="qualifikatoren"><a href="#qualifikatoren"><span class="header-section-number">4.3.1</span> Qualifikatoren</a></h3>
 <p><strong>Qualifikatoren</strong> (qualifiers) werden in Wikidata benutzt, um eine Aussage näher zu beschreiben. Viele Aussagen benötigen weitere Qualifikatoren, um richtig interpretiert werden zu können. Sie liefern also zusätzliche Informationen und bestehen genau wie Aussagen aus einer Eigenschaft und einem Wert.</p>
@@ -229,7 +229,7 @@
 </ol>
 <p>Der Rang einer Aussage wird durch ein Icon angezeigt (Abb. 4). Aussagen ohne Belege sowie Aussagen, die ohne weitere Hinweise aus einer anderen Datenbank kopiert wurden, Belege mit der Eigenschaft “Datenherkunft” (<a href="https://www.wikidata.org/wiki/Property:P143"><code>P143</code></a>) sollten grundsätzlich als zweifelhaft eingestuft werden.</p>
 <div class="figure">
-<img src="images/R_nge.PNG" alt="Ränge" /><p class="caption">Ränge</p>
+<img src="images/Raenge.png" alt="Ränge" /><p class="caption">Ränge</p>
 </div>
 <p>Weitere Informationen zu Rängen stehen in Wikidata unter <a href="https://www.wikidata.org/wiki/Help:Ranking">Ranking</a>.</p>
 <h3 id="belege"><a href="#belege"><span class="header-section-number">4.3.3</span> Belege</a></h3>
@@ -246,7 +246,7 @@
 
 <p>Belege bestehen aus mindestens einer Eigenschaft und einem Wert. Die erste Aussage des Items Deutschland (<a href="https://www.wikidata.org/wiki/Q183"><code>Q183</code></a>) lautet “Mitglied von Welthandelsorganisation”. Zu dieser Aussage gibt es drei Belege. Jeder Beleg setzt sich zusammen aus “Datenherkunft”, “URL” und “Zitat”.</p>
 <div class="figure">
-<img src="images/einzelnachweise.jpg" alt="Aussage mit drei Einzelnachweisen" /><p class="caption">Aussage mit drei Einzelnachweisen</p>
+<img src="images/einzelnachweise.png" alt="Aussage mit drei Einzelnachweisen" /><p class="caption">Aussage mit drei Einzelnachweisen</p>
 </div>
 <p>Der erste Beleg ist komplett aufgeklappt im Screenshot (Abb. 5) zu sehen. Genauer betrachtet ist der Beleg in drei Eigenschaften aufgegliedert. “Datenherkunft”, “URL” und “Zitat” sind jeweils die Eigenschaften und das darauf Folgende (für “Datenherkunft” zum Beispiel “Bundesministerium für Wirtschaft und Technologie”) sind Werte.</p>
 <p>Es ist nicht das primäre Ziel der Wikidata, detaillierte Eigenschaften von Belegen zu modellieren. In seiner einfachsten Form ist ein Beleg nur ein Pfad, der einem Leser den Weg zu einem Beleg zeigt. Einige Belege können auch selbst Items in Wikidata beinhalten. Ein Wikipedia-Artikel über ein Buch kann beispielsweise auch als Beleg verwendet werden. Die Belege können auch widersprüchliche Aussagen beinhalten, zum Beispiel ein Buch kann mehrere Kapitel enthalten, in denen verschiedene Autoren widersprüchliche Informationen angeben.</p>
@@ -286,7 +286,7 @@
 <h2 id="übersicht-der-wikidata-startseite"><a href="#übersicht-der-wikidata-startseite"><span class="header-section-number">6.1</span> Übersicht der Wikidata-Startseite</a></h2>
 <p>Für die aktive Benutzung von Wikidata empfiehlt sich der Besitz eines eigenen Accountes, damit bei eventuellen Änderungen andere Nutzer zuordnen können, wer etwas geändert hat, um dann entsprechend darauf reagieren zu können. Einen Benutzeraccount können Sie von jeder Wikidataseite aus anlegen. Der Button dafür befindet sich am oberen rechten Rand der Website.</p>
 <div class="figure">
-<img src="images/Startseite.PNG" alt="Startseite von Wikidata in deutscher Spracheinstellung" /><p class="caption">Startseite von Wikidata in deutscher Spracheinstellung</p>
+<img src="images/Startseite.png" alt="Startseite von Wikidata in deutscher Spracheinstellung" /><p class="caption">Startseite von Wikidata in deutscher Spracheinstellung</p>
 </div>
 <p>Im Screenshot (Abb. 7) sehen Sie die deutsche Ansicht der Wikidata-Startseite im abgemeldeten Modus. Für die leichte Bedienbarkeit kann die Oberfläche von Wikidata in fast allen Sprachen angezeigt werden. Hier kann man zwischen zwei Ebenen unterscheiden, der Sprachauswahl für das Kontextmenü und der Sprachauswahl für den Inhaltsbereich. Erstere ist im abgemeldeten Modus in der linken Spalte zu finden und letztere findet sich zentral auf der Wikidata-Startseite. Der Unterschied zwischen diesen beiden Spracheinstellungen ist die Art, der Veränderung auf der Website. Bei der Sprachauswahl für das Kontextmenü ändern sich Menü-Punkte, automatisch generierte Buttons und alle weiteren Punkte, die nicht von Bearbeitern von Wikidata geschrieben bzw. programmiert wurden. Bei einer Änderung von Deutsch zu Japanisch ändert sich lediglich die Sprache der Bedienoberfläche, inhaltlich bleiben alle Texte in deutscher Sprache. Eine geänderte Sprachauswahl für den Inhaltsbereich ändert alle von Bearbeitern bzw. Benutzern erstellten Inhalte in die geänderte Sprache. Es werden also bei einer Änderung von Deutsch zu Japanisch alle Items und alle Hilfetexte in Japanisch angezeigt.</p>
 <h2 id="spracheinstellung-in-wikidata"><a href="#spracheinstellung-in-wikidata"><span class="header-section-number">6.2</span> Spracheinstellung in Wikidata</a></h2>
@@ -328,7 +328,7 @@
 <h3 id="suche-nach-eigenschaften"><a href="#suche-nach-eigenschaften"><span class="header-section-number">6.3.2</span> Suche nach Eigenschaften</a></h3>
 <p>Ist man auf der Suche nach einer <a href="#wikidata-eigenschaften">Eigenschaft</a> gibt es zwei Möglichkeiten, um eine Suche erfolgreich zu gestalten. Die Seite <a href="https://www.wikidata.org/wiki/Wikidata:List_of_properties/de">„Liste der Eigenschaften“</a> verlinkt zu einer (unvollständigen) Übersicht und zu einer Suchmaske, in welcher man gezielt nach Eigenschaften suchen kann (Abb. 13). Diese Möglichkeit ist dann sinnvoll, wenn man eine Eigenschaftsbezeichnung bereits kennt.</p>
 <div class="figure">
-<img src="images/Suche_nach_Eigenschaften.PNG" alt="Suche nach Eigenschaften" /><p class="caption">Suche nach Eigenschaften</p>
+<img src="images/Suche_nach_Eigenschaften.png" alt="Suche nach Eigenschaften" /><p class="caption">Suche nach Eigenschaften</p>
 </div>
 <p>Wenn der Name der Eigenschaft nicht bekannt ist, gibt es die Möglichkeit mit Hilfe einer <a href="https://www.wikidata.org/wiki/Wikidata:List_of_properties/Summary_table">Eigenschaftentabelle</a> diese Eigenschaft zu ermitteln.</p>
 <h3 id="suche-nach-aussagen"><a href="#suche-nach-aussagen"><span class="header-section-number">6.3.3</span> Suche nach Aussagen</a></h3>
@@ -341,7 +341,7 @@
 <h3 id="neue-items-anlegen"><a href="#neue-items-anlegen"><span class="header-section-number">6.4.1</span> Neue Items anlegen</a></h3>
 <p>Bevor man ein neues Item erstellt, sollte man überprüfen, ob <a href="https://www.wikidata.org/wiki/Special:ItemByTitle?uselang=de">dieses Item bereits existiert</a>. Die Suche wird im Kapitel <a href="#inhalte-finden-in-wikidata">„Inhalte finden“</a> erklärt.</p>
 <div class="figure">
-<img src="images/Die_Erstellung_eines_neuen_Items.PNG" alt="Erstellung eines neuen Items" /><p class="caption">Erstellung eines neuen Items</p>
+<img src="images/Die_Erstellung_eines_neuen_Items.png" alt="Erstellung eines neuen Items" /><p class="caption">Erstellung eines neuen Items</p>
 </div>
 <p>Wenn das Item noch nicht vorhanden ist, erhält man die Möglichkeit, ein neues Item zu erstellen. Man wird mit einem Link auf die Erstellungsseite weitergeleitet (Abb. 15). Dort muss die Bezeichnung sowie die Beschreibung des zu erstellenden Items eingetragen werden. Ist dies geschehen, kommt man auf die Itemseite.</p>
 <p>Auf der Itemseite hat man die Möglichkeit, Änderungen vorzunehmen oder weitere Sprachen beziehungsweise Übersetzungen für die Itembezeichnung hinzuzufügen.</p>
@@ -351,18 +351,18 @@
 <h3 id="übersetzungen-in-wikidata"><a href="#übersetzungen-in-wikidata"><span class="header-section-number">6.4.2</span> Übersetzungen in Wikidata</a></h3>
 <p>Wikidata arbeitet an einem Modell, bei dem alle Sprachen beziehungsweise Sprachlinks an einem zentralen Punkt zusammengeführt und verknüpft werden. Auf diese Weise werden alle Wiki-Einträge (in allen Sprachen) an einer zentralen Stelle angezeigt. Es können <a href="https://www.wikidata.org/wiki/Wikidata:Translators%27_noticeboard">Anträge</a> zur Übersetzung gestellt oder Verbesserungsvorschläge und Rechtschreibkorrekturen angemerkt werden.</p>
 <div class="figure">
-<img src="images/beispieluebersetzen.jpg" alt="Übersetzungen eines Items" /><p class="caption">Übersetzungen eines Items</p>
+<img src="images/beispieluebersetzen.png" alt="Übersetzungen eines Items" /><p class="caption">Übersetzungen eines Items</p>
 </div>
 <p>Anderssprachige Bezeichnungen und Beschreibungen von Items können auf der Seite der jeweiligen Items unter “In anderen Sprachen” eingetragen werden. Wie im Screenshot (Abb. 16) zu sehen ist, werden automatisch die Sprachen Englisch, Plattdeutsch und Türkisch vorgeschlagen. Da es bereits eine englische Übersetzung gibt, kann diese nicht neu angelegt, sondern nur bearbeitet werden. Plattdeutsch und Türkisch haben noch keine Übersetzungen, also kann der Nutzer einfach in das leere Feld die entsprechende Bezeichnung beziehungsweise Beschreibung eintragen. Hierbei ist Vorsicht angeraten, denn beim Übersetzen gibt es <a href="https://www.wikidata.org/wiki/Help:Sitelinks/de-formal">Richtlinien</a> zu beachten. Es ist möglich in jeder Sprache Übersetzungen eines Items einzutragen, selbst wenn das Item in dieser Sprache keinen Wiki-Artikel besitzt. Die Bedingung ist jedoch, dass die Kombination aus Bezeichnung und Beschreibung eindeutig ist (und zwar nur in dieser Sprache eindeutig). Beispielsweise kann der dt. Eintrag “Markus Müller”, “Fußballspieler aus München” eindeutig sein und trotzdem kann die gleiche Übersetzung (natürlich im gleichen Item!) auf Englisch “Markus Müller”, “football player from Munich” auch eindeutig sein.</p>
 <p><strong>Liste der Bezeichnungen</strong></p>
 <p>Für die Anzeige der Liste der Bezeichnungen muss diese zunächst in den <a href="https://www.wikidata.org/wiki/Special:Preferences">Einstellungen</a> (Achtung: Anmeldung erforderlich!) im Reiter “Helferlein” im Punkt “LabelLister” aktiviert werden. Dafür ist eine Anmeldung erforderlich. Wenn dieses Kästchen angehakt ist, erscheint nun auf der Seite des Items ein weiteres Feld zwischen “Lesen” und “Versionsgeschichte”, nämlich die “Liste der Bezeichnungen” (Abb. 17).</p>
 <div class="figure">
-<img src="images/Liste_der_Bezeichnungen.PNG" alt="Liste der Bezeichnungen des Items Japan" /><p class="caption">Liste der Bezeichnungen des Items “Japan”</p>
+<img src="images/Liste_der_Bezeichnungen.png" alt="Liste der Bezeichnungen des Items Japan" /><p class="caption">Liste der Bezeichnungen des Items “Japan”</p>
 </div>
 <p>Klickt man nun darauf, erscheint ein PopUp-Fenster, welches alle Übersetzungen der Bezeichnung enthält. Für eine Änderung bzw. Eintragung einer neuen Itembezeichnung und Itembeschreibung müssen Sie “Bearbeiten” im PopUp-Fenster anwählen. Anschließend geben Sie den <a href="https://de.wikipedia.org/wiki/Wikipedia:Sprachen#Alle_Wikipedias">Sprachencode</a> ein und nach der Eingabe öffnet sich das Bearbeitungsfenster für die Sprachbezeichnungen, Aliasse und Beschreibungen. Nachdem Sie auf “Speichern” geklickt haben, werden die Änderungen auf der Itemseite angezeigt.</p>
 <h3 id="aussagen-bearbeiten"><a href="#aussagen-bearbeiten"><span class="header-section-number">6.4.3</span> Aussagen bearbeiten</a></h3>
 <div class="figure">
-<img src="images/aussagen.jpg" alt="Standard-Ansicht von Aussagen" /><p class="caption">Standard-Ansicht von Aussagen</p>
+<img src="images/aussagen.png" alt="Standard-Ansicht von Aussagen" /><p class="caption">Standard-Ansicht von Aussagen</p>
 </div>
 <p>Aussagen lassen sich bei Wikidata auf der Seite des Items bearbeiten und anlegen. Mit einem Klick auf “bearbeiten” (Abb. 18), kann man den Wert einer schon bestehenden Eigenschaft bearbeiten. Bei Klicken auf “hinzufügen” ist es möglich, einen neuen Wert zu erstellen. Allerdings können die Begriffe nicht frei gewählt werden, man muss aus einem Pool bereits bestehender und von Wikidata normierter Begriffe auswählen. Im Folgenden ist das Bearbeiten eines Werts gezeigt (Abb. 19).</p>
 <div class="figure">
@@ -370,7 +370,7 @@
 </div>
 <p>Um eine neue Aussage zu erstellen, muss man auf “hinzufügen” am Ende der Aussagenliste klicken (Abb. 20). Auch die Begriffe für die Eigenschaften sind nicht frei wählbar, sie müssen ebenfalls aus einer bestehenden Liste ausgewählt werden.</p>
 <div class="figure">
-<img src="images/Neue_Aussage_hinzuf_gen.PNG" alt="Neue Aussage hinzufügen" /><p class="caption">Neue Aussage hinzufügen</p>
+<img src="images/Neue_Aussage_hinzufuegen.png" alt="Neue Aussage hinzufügen" /><p class="caption">Neue Aussage hinzufügen</p>
 </div>
 <p>Wie auf den Screenshots zu sehen ist, können Aussagen zusätzlich mit <a href="#belege">Belegen</a> versehen werden.</p>
 <h3 id="neue-eigenschaften-vorschlagen"><a href="#neue-eigenschaften-vorschlagen"><span class="header-section-number">6.4.4</span> Neue Eigenschaften vorschlagen</a></h3>
@@ -1878,7 +1878,7 @@ Q17|Japan|4028495-5</code></pre>
 </div>
 <footer>
   
-  <div>Erstellungszeit: Do 29. Mai 10:43:58 CEST 2014</div>
+  <div>Erstellungszeit: Do 29. Mai 22:07:11 CEST 2014</div>
 </footer>
 </body>
 </html>
