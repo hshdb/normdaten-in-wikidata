@@ -7,10 +7,13 @@ cover.png: cover.pdf
 frontcover: frontcover.pdf
 backcover: backcover.pdf
 
-.SUFFIXES: .tex .pdf
+.SUFFIXES: .tex .pdf .png
 
 .tex.pdf:
 	rm -f $@; xelatex $<
+
+.pdf.png:
+	convert -density 96 $< $@
 
 clean:
 	rm -f *.aux *.log 

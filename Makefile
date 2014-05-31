@@ -1,7 +1,7 @@
 # Dies ist ein Makefile (GNU Make) mit Regeln zur Erstellung von Dateien
 
 TITLE=Normdaten in Wikidata
-AUTHOR=
+AUTHOR=Jakob Voß, Susanna Bausch, Julian Schmitt, Jasmin Bogner, Viktoria Berkelmann, Franziska Ludemann, Oliver Löffel, Janna Kitroschat, Maiia Bartoshevska, Katharina Seljuzki
 DATE=$(shell git log -1 --format=%ad --date=short)
 VERSION=1.0
 
@@ -23,6 +23,7 @@ $(MAIN).md: metadata $(TXT)
 	@awk '/^[^ >]+\.txt/ {print}' Contents.txt | while read f; do \
 		cat $$f >> $@ ; echo >> $@ ;\
 	done
+	perl -pi -e 's/!\[/"![Abb. ".++$$n.": "/e' $@
 
 tex: $(MAIN).tex
 $(MAIN).tex: metadata $(TXT)
@@ -53,9 +54,18 @@ a4b: $(MAIN).pdf
 	pdfjam $(MAIN).pdf $(A4BPAGES) --outfile $(MAIN)-ordered.pdf
 	pdfnup $(MAIN)-ordered.pdf --a4paper --nup '2x1' --suffix a4 
 
-epub: $(MAIN).epub layout/template.epub
-$(MAIN).epub: $(MAIN).md
+# ePUB
+epub: $(MAIN).epub
+$(MAIN).epub: $(MAIN).md layout/template.epub metadata.xml
 	pandoc $(PANDOC_OPTIONS) -o $@ $(EPUB_OPTIONS) $<
+
+MOBI=$(MAIN).mobi
+EPUB=$(MAIN).epub
+
+# Kindle MOBI
+mobi: $(MOBI)
+$(MOBI): $(EPUB)
+	kindlegen $(EPUB)
 
 # Übersicht
 synopsis: synopsis.md
@@ -90,7 +100,11 @@ LATEX_OPTIONS=--template layout/template.tex \
 			--chapters\
 			--latex-engine xelatex
 HTML_OPTIONS=--template layout/template.html --css layout/buttondown.css --css layout/layout.css --include-before layout/header.html
-EPUB_OPTIONS=--template layout/template.epub
+EPUB_OPTIONS=--template layout/template.epub \
+			 --epub-metadata=metadata.xml \
+			 --epub-stylesheet layout/epub-layout.css \
+			 --epub-cover-image cover/frontcover.png\
+			 --toc
 ODT_OPTIONS=
 
 .md.html:
