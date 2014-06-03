@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <meta name="dcterms.date" content="2014-05-27">
+  <meta name="author" content="Jakob Voß, Susanna Bausch, Julian Schmitt, Jasmin Bogner, Viktoria Berkelmann, Franziska Ludemann, Oliver Löffel, Janna Kitroschat, Maiia Bartoshevska, Katharina Seljuzki">
+  <meta name="dcterms.date" content="2014-06-03">
   <title>Normdaten in Wikidata</title>
   <style type="text/css">code{white-space: pre;}</style>
   <!--[if lt IE 9]>
@@ -16,15 +17,18 @@
   <link rel="stylesheet" href="layout/layout.css">
 </head>
 <body>
-<div class="navbar">
-  <a href="/">hshdb</a>
-</div>
 
+<a href="https://github.com/hshdb/normdaten-in-wikidata"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
 
 <header>
   <div id="title">Normdaten in Wikidata</div>
-      <div id="date">2014-05-27</div>
+    <div id="author">Jakob Voß, Susanna Bausch, Julian Schmitt, Jasmin Bogner, Viktoria Berkelmann, Franziska Ludemann, Oliver Löffel, Janna Kitroschat, Maiia Bartoshevska, Katharina Seljuzki</div>
+        <div id="date">
+    2014-06-03
+     (Version 1.0)
+  </div>
   </header>
+
 <nav id="TOC">
 <ul>
 <li><a href="#vorwort">Vorwort</a></li>
@@ -84,6 +88,7 @@
 <li><a href="#über-dieses-handbuch">Über dieses Handbuch</a></li>
 </ul>
 </nav>
+
 <div id="content">
 <h1 id="vorwort" class="unnumbered"><a href="#vorwort">Vorwort</a></h1>
 <p>Wikidata ist eine Datenbank zur Sammlung und Strukturierung von Daten. Es ist ein Projekt der Wikimedia-Foundation. Wikidata kann von jedem benutzt und unterstützt werden. Das Projekt hat zum Ziel die Datenpflege in Wikipedia zu zentralisieren und zu vereinfachen.</p>
@@ -156,7 +161,7 @@
 <p>Ein <strong>Item</strong> (deutsch: <strong>Datenobjekt</strong>) stellt in Wikidata eine zentrale Einheit dar. Fast alles kann in Wikidata zu einem Item werden (ausgenommen sind Daten, die keinem Kontext zugeordnet sind), vor allem aber Gegenständlichkeiten, Konzepte und Vorstellungen. Ein Item besteht immer aus einer Datensatz-ID, die sich aus dem Buchstaben <code>Q</code> und einer Nummer zusammensetzt. Beispielsweise steht <a href="https://wikidata.org/wiki/Q17"><code>Q17</code></a> für Japan. Jedes Item kann pro Sprache einen Namen und eine Kurzbeschreibung sowie mehrere Alternativnamen (Synonyme) haben. Dies trägt noch weiter zu einer eindeutigen Identifizierung bei. Weitere Bestandteile von Items sind Links zu Seiten in Wikimedia-Projekten (Wikipedia, Wikivoyage, Wikimedia Commons und so weiter) sowie <a href="#wikidata-aussagen">Aussagen</a> mit Eigenschaften, Werten und Belegen. Die Relevanzrichtlinien von Wikidata verlangen, dass nur Items erstellt werden sollen, die mit Seiten anderer Wikimedia-Projekte verlinkt sind (siehe <a href="#neue-items-anlegen" title="Items erstellen">Items erstellen</a>).</p>
 <p>Die Seite des Items setzt sich aus verschiedenen Komponenten zusammen (Abb. 1).</p>
 <div class="figure">
-<img src="images/Bestandteile_eines_Items.png" alt="Bestandteile eines Items" /><p class="caption">Bestandteile eines Items</p>
+<img src="images/Bestandteile_eines_Items.png" alt="Abb. 1: Bestandteile eines Items" /><p class="caption">Abb. 1: Bestandteile eines Items</p>
 </div>
 <p>Ganz oben steht der Name des Items mit ID (in diesem Fall “Japan (<a href="https://wikidata.org/wiki/Q17"><code>Q17</code></a>)”) und darunter folgen eine Kurzbeschreibung dieses Items sowie Synonyme. Es werden außerdem Übersetzungen des Items und der Kurzbeschreibung angezeigt.</p>
 <p>Nach den Übersetzungen kommen die <a href="#wikidata-aussagen">Aussagen</a>. Aussagen lassen sich aufteilen in <a href="#wikidata-eigenschaften">Eigenschaft</a> und Wert. Sie dienen dazu, das Item näher zu beschreiben. Eigenschaften beschreiben (immer gleichbleibende) Merkmale der Inhalte, welche in den Werten eingetragen werden können. Der Wert hingegen ist das Rohdatum, welches das Item näher beschreiben soll. Im obigen Beispiel ist “DDC” eine Aussage und <a href="http://dewey.info/class/2--52/about"><code>T2--52</code></a> ein der Eigenschaft zugewiesener Wert.</p>
@@ -170,7 +175,7 @@
 
 <p>Die Ansicht der Eigenschaft <a href="https://www.wikidata.org/wiki/Property:P19"><code>P19</code></a> können Sie im Screenshot betrachten (Abb. 2).</p>
 <div class="figure">
-<img src="images/place_of_birth.png" alt="Eigenschaft P19: Geburtsort" /><p class="caption">Eigenschaft P19: Geburtsort</p>
+<img src="images/place_of_birth.png" alt="Abb. 2: Eigenschaft P19: Geburtsort" /><p class="caption">Abb. 2: Eigenschaft P19: Geburtsort</p>
 </div>
 <h3 id="vorhandene-eigenschaften"><a href="#vorhandene-eigenschaften"><span class="header-section-number">4.2.1</span> Vorhandene Eigenschaften</a></h3>
 <p>Jede Aussage auf einer Item-Seite stellt eine Verbindung zu einer Eigenschaft her und weist ihr einen Wert zu. Dieser Wert besitzt wiederum eine Verlinkung zu der Item-Seite dieses Wertes.</p>
@@ -204,7 +209,7 @@
 <h2 id="wikidata-aussagen"><a href="#wikidata-aussagen"><span class="header-section-number">4.3</span> Wikidata-Aussagen</a></h2>
 <p>Jedes <a href="#wikidata-items">Wikidata-Item</a> kann mit Aussagen (statements) beschrieben werden. Im Wesentlichen besteht eine Aussage aus einer <a href="#wikidata-eigenschaften">Eigenschaft</a> und einem Wert. Beispielsweise enthält das Item für die Stadt Hannover (<a href="https://www.wikidata.org/wiki/Q1715"><code>Q1715</code></a>) eine Aussage, die angibt, dass sich Hannover in Deutschland befindet. Die entsprechende Eigenschaft dafür hat die Bezeichnung “Staat” (<a href="https://www.wikidata.org/wiki/Property:P17">P17</a>). Aussagen in Wikidata können mit einem anderen Wikidata-Item oder mit einem externen Link verlinkt oder durch eine Eigenschaft inhaltlich oder objektiv beschrieben werden. Der aufgerufene Datensatz im Screenshot ist Hannover (Abb. 3). Die Eigenschaft Staat beschreibt das interne Wikidata-Item Deutschland. Die Eigenschaft LCNAF (Library of Congress Name Authoryity File) gibt einen externen Link wieder. Die KFZ- Kennzeichnung ist ein Beispiel für eine einfache Wertbeschreibung. Weiter Informationen zu Aussagen finden Sie in Wikidata unter <a href="http://www.wikidata.org/wiki/Wikidata:Glossary/de#Behauptungen_und_Aussagen">Behauptungen und Aussagen</a>.</p>
 <div class="figure">
-<img src="images/Wikidata-Aussagen.png" alt="Aussagen mit Eigenschaften" /><p class="caption">Aussagen mit Eigenschaften</p>
+<img src="images/Wikidata-Aussagen.png" alt="Abb. 3: Aussagen mit Eigenschaften" /><p class="caption">Abb. 3: Aussagen mit Eigenschaften</p>
 </div>
 <h3 id="qualifikatoren"><a href="#qualifikatoren"><span class="header-section-number">4.3.1</span> Qualifikatoren</a></h3>
 <p><strong>Qualifikatoren</strong> (qualifiers) werden in Wikidata benutzt, um eine Aussage näher zu beschreiben. Viele Aussagen benötigen weitere Qualifikatoren, um richtig interpretiert werden zu können. Sie liefern also zusätzliche Informationen und bestehen genau wie Aussagen aus einer Eigenschaft und einem Wert.</p>
@@ -229,7 +234,7 @@
 </ol>
 <p>Der Rang einer Aussage wird durch ein Icon angezeigt (Abb. 4). Aussagen ohne Belege sowie Aussagen, die ohne weitere Hinweise aus einer anderen Datenbank kopiert wurden, Belege mit der Eigenschaft “Datenherkunft” (<a href="https://www.wikidata.org/wiki/Property:P143"><code>P143</code></a>) sollten grundsätzlich als zweifelhaft eingestuft werden.</p>
 <div class="figure">
-<img src="images/Raenge.png" alt="Ränge" /><p class="caption">Ränge</p>
+<img src="images/Raenge.png" alt="Abb. 4: Ränge" /><p class="caption">Abb. 4: Ränge</p>
 </div>
 <p>Weitere Informationen zu Rängen stehen in Wikidata unter <a href="https://www.wikidata.org/wiki/Help:Ranking">Ranking</a>.</p>
 <h3 id="belege"><a href="#belege"><span class="header-section-number">4.3.3</span> Belege</a></h3>
@@ -246,7 +251,7 @@
 
 <p>Belege bestehen aus mindestens einer Eigenschaft und einem Wert. Die erste Aussage des Items Deutschland (<a href="https://www.wikidata.org/wiki/Q183"><code>Q183</code></a>) lautet “Mitglied von Welthandelsorganisation”. Zu dieser Aussage gibt es drei Belege. Jeder Beleg setzt sich zusammen aus “Datenherkunft”, “URL” und “Zitat”.</p>
 <div class="figure">
-<img src="images/einzelnachweise.png" alt="Aussage mit drei Einzelnachweisen" /><p class="caption">Aussage mit drei Einzelnachweisen</p>
+<img src="images/einzelnachweise.png" alt="Abb. 5: Aussage mit drei Einzelnachweisen" /><p class="caption">Abb. 5: Aussage mit drei Einzelnachweisen</p>
 </div>
 <p>Der erste Beleg ist komplett aufgeklappt im Screenshot (Abb. 5) zu sehen. Genauer betrachtet ist der Beleg in drei Eigenschaften aufgegliedert. “Datenherkunft”, “URL” und “Zitat” sind jeweils die Eigenschaften und das darauf Folgende (für “Datenherkunft” zum Beispiel “Bundesministerium für Wirtschaft und Technologie”) sind Werte.</p>
 <p>Es ist nicht das primäre Ziel der Wikidata, detaillierte Eigenschaften von Belegen zu modellieren. In seiner einfachsten Form ist ein Beleg nur ein Pfad, der einem Leser den Weg zu einem Beleg zeigt. Einige Belege können auch selbst Items in Wikidata beinhalten. Ein Wikipedia-Artikel über ein Buch kann beispielsweise auch als Beleg verwendet werden. Die Belege können auch widersprüchliche Aussagen beinhalten, zum Beispiel ein Buch kann mehrere Kapitel enthalten, in denen verschiedene Autoren widersprüchliche Informationen angeben.</p>
@@ -258,7 +263,7 @@
 <p>Eigenschaften, die unter einer <strong>Notation</strong> oder ID zusammengefügt werden, bezeichnet man als Normdaten-Eigenschaften. Normdaten können ein- oder mehrsprachig sein. Wikidata ist meistens mehrsprachig. Ziel des Wikidata-Projekts ist es, Verknüpfungen zwischen Normdaten aus Wikidata und Dokumenten aus Wikipedia herzustellen.</p>
 <p>Wikidata enthält zahlreiche <a href="#wikidata-eigenschaften">Eigenschaften</a> zum Verlinken von Wikidata-Items mit Normdatensätzen aus anderen Normdateien. Beispielsweise kann mit der Eigenschaft “GND-Nummer” (<a href="https://www.wikidata.org/wiki/Property:P227"><code>P227</code></a>) vom Wikidata-Item <a href="https://www.wikidata.org/wiki/Q17"><code>Q17</code></a> auf den Normdatensatz <a href="http://d-nb.info/gnd/4028495-5"><code>4028495-5</code></a> zu Japan in der Gemeinsamen Normdatei verwiesen werden oder mit der Eigenschaft “DDC” (<a href="https://www.wikidata.org/wiki/Property:P1036"><code>P1036</code></a>) auf die Notation <a href="http://dewey.info/class/2--52/about"><code>T2--52</code></a> der Dewey-Dezimalklassifikation. Diese vielseitigen <strong>Normdaten-Eigenschaften</strong> bilden sogenannte Mappings, wie im Screenshot (Abb. 6) zu sehen ist, zwischen Wikidata und anderen Normdateien.</p>
 <div class="figure">
-<img src="images/mappings.png" alt="Mappings mittels Normdaten-Eigenschaften" /><p class="caption">Mappings mittels Normdaten-Eigenschaften</p>
+<img src="images/mappings.png" alt="Abb. 6: Mappings mittels Normdaten-Eigenschaften" /><p class="caption">Abb. 6: Mappings mittels Normdaten-Eigenschaften</p>
 </div>
 <p>Alle Normdaten-Eigenschaften haben den <a href="#datentypen-und-andere-einschränkungen">Datentyp</a> Zeichenkette/String, da der Wert aus einer Aussage mit Normdaten-Eigenschaft und einer Notation, ID-Nummer oder Vergleichbarem besteht.</p>
 <p>Eine garantiert aktuelle Übersicht aller Eigenschaften, die speziell dazu dienen, auf Normdateien zu verweisen, existiert nicht. Die <a href="https://www.wikidata.org/wiki/Wikidata:List_of_properties/Summary_table/de">tabellarische Übersicht aller Eigenschaften</a> enthält eine manuell gepflegte Liste, aus der die meisten Normdaten-Eigenschaften hervorgehen.</p>
@@ -286,7 +291,7 @@
 <h2 id="übersicht-der-wikidata-startseite"><a href="#übersicht-der-wikidata-startseite"><span class="header-section-number">6.1</span> Übersicht der Wikidata-Startseite</a></h2>
 <p>Für die aktive Benutzung von Wikidata empfiehlt sich der Besitz eines eigenen Accountes, damit bei eventuellen Änderungen andere Nutzer zuordnen können, wer etwas geändert hat, um dann entsprechend darauf reagieren zu können. Einen Benutzeraccount können Sie von jeder Wikidataseite aus anlegen. Der Button dafür befindet sich am oberen rechten Rand der Website.</p>
 <div class="figure">
-<img src="images/Startseite.png" alt="Startseite von Wikidata in deutscher Spracheinstellung" /><p class="caption">Startseite von Wikidata in deutscher Spracheinstellung</p>
+<img src="images/Startseite.png" alt="Abb. 7: Startseite von Wikidata in deutscher Spracheinstellung" /><p class="caption">Abb. 7: Startseite von Wikidata in deutscher Spracheinstellung</p>
 </div>
 <p>Im Screenshot (Abb. 7) sehen Sie die deutsche Ansicht der Wikidata-Startseite im abgemeldeten Modus. Für die leichte Bedienbarkeit kann die Oberfläche von Wikidata in fast allen Sprachen angezeigt werden. Hier kann man zwischen zwei Ebenen unterscheiden, der Sprachauswahl für das Kontextmenü und der Sprachauswahl für den Inhaltsbereich. Erstere ist im abgemeldeten Modus in der linken Spalte zu finden und letztere findet sich zentral auf der Wikidata-Startseite. Der Unterschied zwischen diesen beiden Spracheinstellungen ist die Art, der Veränderung auf der Website. Bei der Sprachauswahl für das Kontextmenü ändern sich Menü-Punkte, automatisch generierte Buttons und alle weiteren Punkte, die nicht von Bearbeitern von Wikidata geschrieben bzw. programmiert wurden. Bei einer Änderung von Deutsch zu Japanisch ändert sich lediglich die Sprache der Bedienoberfläche, inhaltlich bleiben alle Texte in deutscher Sprache. Eine geänderte Sprachauswahl für den Inhaltsbereich ändert alle von Bearbeitern bzw. Benutzern erstellten Inhalte in die geänderte Sprache. Es werden also bei einer Änderung von Deutsch zu Japanisch alle Items und alle Hilfetexte in Japanisch angezeigt.</p>
 <h2 id="spracheinstellung-in-wikidata"><a href="#spracheinstellung-in-wikidata"><span class="header-section-number">6.2</span> Spracheinstellung in Wikidata</a></h2>
@@ -299,13 +304,13 @@
 <p><strong>Babel-Bausteine</strong></p>
 <p>Es gibt für <em>angemeldete Nutzer</em> die Möglichkeit, auf ihrer persönlichen Profilseite (Benutzerseite), ihre bevorzugten Spracheinstellungen vorzunehmen.</p>
 <div class="figure">
-<img src="images/babel.png" alt="Babel-Baustein" /><p class="caption">Babel-Baustein</p>
+<img src="images/babel.png" alt="Abb. 8: Babel-Baustein" /><p class="caption">Abb. 8: Babel-Baustein</p>
 </div>
 <p>Babel-Bausteine (Abb. 8) werden in die Benutzerseite geschrieben und dienen der Definition der eigenen Sprachkenntnisse. Falls Babel-Bausteine auf der Benutzerseite gesetzt sind, werden im Item-Abschnitt “In anderen Sprachen” die Sprachversionen der Babel-Bausteine angezeigt. Anderenfalls sucht sich das System die Sprachen selbst aus (häufig: Deutsch, Türkisch, Plattdeutsch). Um die Babel-Bausteine zu aktivieren, klickt man oben in der Leiste auf seinen Benutzernamen und gibt dort in die Benutzerbeschreibung den Baustein-Code, zum Beispiel <code>{{#babel:en|de-3|fr-2|es-1|it-0}}</code>, ein. Der Sprachencode, welcher auf “#babel:” folgt, steht dabei für die eigene Muttersprache und dies wird dann im Babelbaustein auch so angezeigt. Die Zahlen stehen für die Sprachkenntnisse, wobei 0 keine Kenntnisse und 3 sehr gute Sprachkenntnisse bedeutet. Nach dem Speichern werden die Sprachkenntnisse auf der Benutzerseite wie abgebildet in einem Kasten dargestellt.</p>
 <h3 id="änderung-der-oberflächensprache-von-wikidata"><a href="#änderung-der-oberflächensprache-von-wikidata"><span class="header-section-number">6.2.2</span> Änderung der Oberflächensprache von Wikidata</a></h3>
 <p>Die Default-Spracheinstellung der Wikidata-Oberflächensprache ist Englisch. Wenn Sie nun die Benutzersprache von Englisch auf Deutsch umstellen möchten, dann ist die Sprachumstellung sehr einfach zu bewältigen. Auf der linken Seite der Wikidata-Startseite befindet sich eine Sprachauswahl und dort können Sie jede Sprache (in unserem Fall Deutsch), die in Wikidata vorhanden ist, auswählen (Abb. 9).</p>
 <div class="figure">
-<img src="images/sprachumstellung_wikidata.png" alt="Sprachumstellung von englisch zu deutsch" /><p class="caption">Sprachumstellung von englisch zu deutsch</p>
+<img src="images/sprachumstellung_wikidata.png" alt="Abb. 9: Sprachumstellung von englisch zu deutsch" /><p class="caption">Abb. 9: Sprachumstellung von englisch zu deutsch</p>
 </div>
 <p>Zuletzt sei noch erwähnt, dass die Benutzeroberflächensprache lediglich die funktionalen Bestandteile von Wikidata übersetzt, d.h., die Inhalte von Wikidata (die Items, die Hilfeseiten, die Aussagen etc.) werden bei Default-Einstellungen immer noch in Englisch dargestellt.</p>
 <h2 id="inhalte-finden-in-wikidata"><a href="#inhalte-finden-in-wikidata"><span class="header-section-number">6.3</span> Inhalte finden in Wikidata</a></h2>
@@ -313,35 +318,35 @@
 <h3 id="suche-nach-items"><a href="#suche-nach-items"><span class="header-section-number">6.3.1</span> Suche nach Items</a></h3>
 <p>Um vorhandene <a href="#wikidata-items">Items</a> zu finden, gibt es hauptsächlich zwei Herangehensweisen. Einerseits die Eingabe eines Suchbegriffes in das Suchfeld, hierbei können unterschiedliche Ergebnisse angezeigt werden (Suchergebnisliste). Zu beachten ist, dass die Suche mit der Enter-Taste oder dem Klick auf das Lupensymbol ausgeführt wird. Andererseits kann nach der Eingabe eines Suchbegriffes über die Vorschau eine manuelle Auswahl zum konkreten Item führen (Abb. 10).</p>
 <div class="figure">
-<img src="images/Suchergebnisliste.png" alt="Suchergebnisliste" /><p class="caption">Suchergebnisliste</p>
+<img src="images/Suchergebnisliste.png" alt="Abb. 10: Suchergebnisliste" /><p class="caption">Abb. 10: Suchergebnisliste</p>
 </div>
 <p>Die andere Möglichkeit ist die Eingabe einer konkreten Bezeichnung des Items und der manuellen Auswahl nach der Anzeige der Vorschauergebnisse. Das bevorzugte Ergebnis kann mit der Maus oder der Tastatur ausgewählt werden (Abb. 11).</p>
 <div class="figure">
-<img src="images/Suchergebnisvoranzeige.png" alt="Suchergebnisvoranzeige" /><p class="caption">Suchergebnisvoranzeige</p>
+<img src="images/Suchergebnisvoranzeige.png" alt="Abb. 11: Suchergebnisvoranzeige" /><p class="caption">Abb. 11: Suchergebnisvoranzeige</p>
 </div>
 <p>Weitere Suchoptionen kann man am einfachsten einblenden, wenn man die Enter-Taste in einem leeren Suchfeld betätigt. Man wird auf eine Art erweiterte Suche weitergeleitet (Abb. 12). Wichtig für den Benutzer sind hier die Suchmöglichkeiten speziell nach Items (“Inhaltsseiten”) und nach Hilfeseiten (“Hilfe- und Projektseiten”).</p>
 <div class="figure">
-<img src="images/erweiterte_suche.png" alt="Erweiterte Suche" /><p class="caption">Erweiterte Suche</p>
+<img src="images/erweiterte_suche.png" alt="Abb. 12: Erweiterte Suche" /><p class="caption">Abb. 12: Erweiterte Suche</p>
 </div>
 <p><strong>Begriff Erklärungen/Menüpunkte</strong></p>
 <p>Auf den Inhaltsseiten kann man nach sämtlichen Items von Wikidata suchen. Mit dem Reiter “Hilfe- und Projektseiten” ist es dem Benutzer möglich, nach Hilfen und anderen Erklärungen zu Elementen der Wikidata-Benutzung zu suchen.</p>
 <h3 id="suche-nach-eigenschaften"><a href="#suche-nach-eigenschaften"><span class="header-section-number">6.3.2</span> Suche nach Eigenschaften</a></h3>
 <p>Ist man auf der Suche nach einer <a href="#wikidata-eigenschaften">Eigenschaft</a> gibt es zwei Möglichkeiten, um eine Suche erfolgreich zu gestalten. Die Seite <a href="https://www.wikidata.org/wiki/Wikidata:List_of_properties/de">„Liste der Eigenschaften“</a> verlinkt zu einer (unvollständigen) Übersicht und zu einer Suchmaske, in welcher man gezielt nach Eigenschaften suchen kann (Abb. 13). Diese Möglichkeit ist dann sinnvoll, wenn man eine Eigenschaftsbezeichnung bereits kennt.</p>
 <div class="figure">
-<img src="images/Suche_nach_Eigenschaften.png" alt="Suche nach Eigenschaften" /><p class="caption">Suche nach Eigenschaften</p>
+<img src="images/Suche_nach_Eigenschaften.png" alt="Abb. 13: Suche nach Eigenschaften" /><p class="caption">Abb. 13: Suche nach Eigenschaften</p>
 </div>
 <p>Wenn der Name der Eigenschaft nicht bekannt ist, gibt es die Möglichkeit mit Hilfe einer <a href="https://www.wikidata.org/wiki/Wikidata:List_of_properties/Summary_table">Eigenschaftentabelle</a> diese Eigenschaft zu ermitteln.</p>
 <h3 id="suche-nach-aussagen"><a href="#suche-nach-aussagen"><span class="header-section-number">6.3.3</span> Suche nach Aussagen</a></h3>
 <p>Wikidata ist zwar eine Datenbank, komplexere Datenbankabfragen sind beim jetzigen Entwicklungsstand aber noch nicht möglich. Für die Suche nach <a href="#wikidata-aussagen">Aussagen</a>, beziehungsweise nach Items mit bestimmten Aussagen muss deshalb auf externe Hilfsmittel zurückgegriffen werden, wie sie unter <a href="#komplexere-abfragen-und-analysen">„Komplexere Abfragen und Analysen“</a> beschrieben sind. Eine einfache Suche ist in Entwicklung und soll zu einem späteren Zeitpunkt unter <a href="https://www.wikidata.org/wiki/Special:SimpleQuery">https://www.wikidata.org/wiki/Special:SimpleQuery</a> bereitstehen. Die einfache Suche soll Anfragen wie beispielsweise nach allen Items <em>X</em> mit der Aussage “<em>X</em> ist ein(e) (<a href="https://www.wikidata.org/wiki/Property:P31"><code>P31</code></a>) Kontinent (<a href="https://www.wikidata.org/wiki/Q5107"><code>Q5107</code></a>)”, also einer automatischen Liste aller Kontinente, ermöglichen. Für Normdaten-Eigenschaften wird die einfache Suche ermöglichen, ausgehend von einem Normdatensatz das zugehörige Wikidata-Item zu finden (Abb. 14).</p>
 <div class="figure">
-<img src="images/simple-query.png" alt="Einfache Suche nach Aussagen" /><p class="caption">Einfache Suche nach Aussagen</p>
+<img src="images/simple-query.png" alt="Abb. 14: Einfache Suche nach Aussagen" /><p class="caption">Abb. 14: Einfache Suche nach Aussagen</p>
 </div>
 <h2 id="wikidata-bearbeitungen"><a href="#wikidata-bearbeitungen"><span class="header-section-number">6.4</span> Wikidata-Bearbeitungen</a></h2>
 <p>Im nun folgenden Kapitel soll Ihnen gezeigt werden, wie man ein Item neu anlegt, wie man Übersetzungen zu Bezeichnungen und Beschreibungen erstellt und wie Aussagen neu definiert bzw. bearbeitet werden können.</p>
 <h3 id="neue-items-anlegen"><a href="#neue-items-anlegen"><span class="header-section-number">6.4.1</span> Neue Items anlegen</a></h3>
 <p>Bevor man ein neues Item erstellt, sollte man überprüfen, ob <a href="https://www.wikidata.org/wiki/Special:ItemByTitle?uselang=de">dieses Item bereits existiert</a>. Die Suche wird im Kapitel <a href="#inhalte-finden-in-wikidata">„Inhalte finden“</a> erklärt.</p>
 <div class="figure">
-<img src="images/Die_Erstellung_eines_neuen_Items.png" alt="Erstellung eines neuen Items" /><p class="caption">Erstellung eines neuen Items</p>
+<img src="images/Die_Erstellung_eines_neuen_Items.png" alt="Abb. 15: Erstellung eines neuen Items" /><p class="caption">Abb. 15: Erstellung eines neuen Items</p>
 </div>
 <p>Wenn das Item noch nicht vorhanden ist, erhält man die Möglichkeit, ein neues Item zu erstellen. Man wird mit einem Link auf die Erstellungsseite weitergeleitet (Abb. 15). Dort muss die Bezeichnung sowie die Beschreibung des zu erstellenden Items eingetragen werden. Ist dies geschehen, kommt man auf die Itemseite.</p>
 <p>Auf der Itemseite hat man die Möglichkeit, Änderungen vorzunehmen oder weitere Sprachen beziehungsweise Übersetzungen für die Itembezeichnung hinzuzufügen.</p>
@@ -351,26 +356,26 @@
 <h3 id="übersetzungen-in-wikidata"><a href="#übersetzungen-in-wikidata"><span class="header-section-number">6.4.2</span> Übersetzungen in Wikidata</a></h3>
 <p>Wikidata arbeitet an einem Modell, bei dem alle Sprachen beziehungsweise Sprachlinks an einem zentralen Punkt zusammengeführt und verknüpft werden. Auf diese Weise werden alle Wiki-Einträge (in allen Sprachen) an einer zentralen Stelle angezeigt. Es können <a href="https://www.wikidata.org/wiki/Wikidata:Translators%27_noticeboard">Anträge</a> zur Übersetzung gestellt oder Verbesserungsvorschläge und Rechtschreibkorrekturen angemerkt werden.</p>
 <div class="figure">
-<img src="images/beispieluebersetzen.png" alt="Übersetzungen eines Items" /><p class="caption">Übersetzungen eines Items</p>
+<img src="images/beispieluebersetzen.png" alt="Abb. 16: Übersetzungen eines Items" /><p class="caption">Abb. 16: Übersetzungen eines Items</p>
 </div>
 <p>Anderssprachige Bezeichnungen und Beschreibungen von Items können auf der Seite der jeweiligen Items unter “In anderen Sprachen” eingetragen werden. Wie im Screenshot (Abb. 16) zu sehen ist, werden automatisch die Sprachen Englisch, Plattdeutsch und Türkisch vorgeschlagen. Da es bereits eine englische Übersetzung gibt, kann diese nicht neu angelegt, sondern nur bearbeitet werden. Plattdeutsch und Türkisch haben noch keine Übersetzungen, also kann der Nutzer einfach in das leere Feld die entsprechende Bezeichnung beziehungsweise Beschreibung eintragen. Hierbei ist Vorsicht angeraten, denn beim Übersetzen gibt es <a href="https://www.wikidata.org/wiki/Help:Sitelinks/de-formal">Richtlinien</a> zu beachten. Es ist möglich in jeder Sprache Übersetzungen eines Items einzutragen, selbst wenn das Item in dieser Sprache keinen Wiki-Artikel besitzt. Die Bedingung ist jedoch, dass die Kombination aus Bezeichnung und Beschreibung eindeutig ist (und zwar nur in dieser Sprache eindeutig). Beispielsweise kann der dt. Eintrag “Markus Müller”, “Fußballspieler aus München” eindeutig sein und trotzdem kann die gleiche Übersetzung (natürlich im gleichen Item!) auf Englisch “Markus Müller”, “football player from Munich” auch eindeutig sein.</p>
 <p><strong>Liste der Bezeichnungen</strong></p>
 <p>Für die Anzeige der Liste der Bezeichnungen muss diese zunächst in den <a href="https://www.wikidata.org/wiki/Special:Preferences">Einstellungen</a> (Achtung: Anmeldung erforderlich!) im Reiter “Helferlein” im Punkt “LabelLister” aktiviert werden. Dafür ist eine Anmeldung erforderlich. Wenn dieses Kästchen angehakt ist, erscheint nun auf der Seite des Items ein weiteres Feld zwischen “Lesen” und “Versionsgeschichte”, nämlich die “Liste der Bezeichnungen” (Abb. 17).</p>
 <div class="figure">
-<img src="images/Liste_der_Bezeichnungen.png" alt="Liste der Bezeichnungen des Items Japan" /><p class="caption">Liste der Bezeichnungen des Items “Japan”</p>
+<img src="images/Liste_der_Bezeichnungen.png" alt="Abb. 17: Liste der Bezeichnungen des Items Japan" /><p class="caption">Abb. 17: Liste der Bezeichnungen des Items “Japan”</p>
 </div>
 <p>Klickt man nun darauf, erscheint ein PopUp-Fenster, welches alle Übersetzungen der Bezeichnung enthält. Für eine Änderung bzw. Eintragung einer neuen Itembezeichnung und Itembeschreibung müssen Sie “Bearbeiten” im PopUp-Fenster anwählen. Anschließend geben Sie den <a href="https://de.wikipedia.org/wiki/Wikipedia:Sprachen#Alle_Wikipedias">Sprachencode</a> ein und nach der Eingabe öffnet sich das Bearbeitungsfenster für die Sprachbezeichnungen, Aliasse und Beschreibungen. Nachdem Sie auf “Speichern” geklickt haben, werden die Änderungen auf der Itemseite angezeigt.</p>
 <h3 id="aussagen-bearbeiten"><a href="#aussagen-bearbeiten"><span class="header-section-number">6.4.3</span> Aussagen bearbeiten</a></h3>
 <div class="figure">
-<img src="images/aussagen.png" alt="Standard-Ansicht von Aussagen" /><p class="caption">Standard-Ansicht von Aussagen</p>
+<img src="images/aussagen.png" alt="Abb. 18: Standard-Ansicht von Aussagen" /><p class="caption">Abb. 18: Standard-Ansicht von Aussagen</p>
 </div>
 <p>Aussagen lassen sich bei Wikidata auf der Seite des Items bearbeiten und anlegen. Mit einem Klick auf “bearbeiten” (Abb. 18), kann man den Wert einer schon bestehenden Eigenschaft bearbeiten. Bei Klicken auf “hinzufügen” ist es möglich, einen neuen Wert zu erstellen. Allerdings können die Begriffe nicht frei gewählt werden, man muss aus einem Pool bereits bestehender und von Wikidata normierter Begriffe auswählen. Im Folgenden ist das Bearbeiten eines Werts gezeigt (Abb. 19).</p>
 <div class="figure">
-<img src="images/aussage-bearbeiten.png" alt="Aussage bearbeiten" /><p class="caption">Aussage bearbeiten</p>
+<img src="images/aussage-bearbeiten.png" alt="Abb. 19: Aussage bearbeiten" /><p class="caption">Abb. 19: Aussage bearbeiten</p>
 </div>
 <p>Um eine neue Aussage zu erstellen, muss man auf “hinzufügen” am Ende der Aussagenliste klicken (Abb. 20). Auch die Begriffe für die Eigenschaften sind nicht frei wählbar, sie müssen ebenfalls aus einer bestehenden Liste ausgewählt werden.</p>
 <div class="figure">
-<img src="images/Neue_Aussage_hinzufuegen.png" alt="Neue Aussage hinzufügen" /><p class="caption">Neue Aussage hinzufügen</p>
+<img src="images/Neue_Aussage_hinzufuegen.png" alt="Abb. 20: Neue Aussage hinzufügen" /><p class="caption">Abb. 20: Neue Aussage hinzufügen</p>
 </div>
 <p>Wie auf den Screenshots zu sehen ist, können Aussagen zusätzlich mit <a href="#belege">Belegen</a> versehen werden.</p>
 <h3 id="neue-eigenschaften-vorschlagen"><a href="#neue-eigenschaften-vorschlagen"><span class="header-section-number">6.4.4</span> Neue Eigenschaften vorschlagen</a></h3>
@@ -388,7 +393,7 @@
 <h3 id="alternative-benutzeroberflächen"><a href="#alternative-benutzeroberflächen"><span class="header-section-number">6.5.1</span> Alternative Benutzeroberflächen</a></h3>
 <p>Die Standard-Benutzeroberfläche von Wikidata ist vor allem auf das <a href="#aussagen-bearbeiten">Bearbeiten</a> von Inhalten ausgelegt. Zum reinen Stöbern in den Datenbeständen ist diese Ansicht eher unübersichtlich. Eine Alternative bieten Benutzeroberflächen und Anwendungen, die Wikidata-Inhalte in ansprechender Form präsentieren. Ein Beispiel hierfür ist die Reasonator-Webanwendung unter <a href="http://tools.wmflabs.org/reasonator/">http://tools.wmflabs.org/reasonator/</a> (Abb. 21).</p>
 <div class="figure">
-<img src="images/reasonator-example.png" alt="Alternative Item-Anzeige mit Reasonator" /><p class="caption">Alternative Item-Anzeige mit Reasonator</p>
+<img src="images/reasonator-example.png" alt="Abb. 21: Alternative Item-Anzeige mit Reasonator" /><p class="caption">Abb. 21: Alternative Item-Anzeige mit Reasonator</p>
 </div>
 <h3 id="zugriff-per-mediawiki-api"><a href="#zugriff-per-mediawiki-api"><span class="header-section-number">6.5.2</span> Zugriff per MediaWiki-API</a></h3>
 <p>Wie andere MediaWiki-Installationen bietet auch Wikidata die Möglichkeit, Inhalte über eine Schnittstelle abzufragen. Die MediaWiki-API unter <a href="http://wikidata.org/w/api.php">http://wikidata.org/w/api.php</a> ermöglicht praktisch alle Aktionen, die auch über die Benutzeroberfläche von Wikidata möglich sind (Suche, Bearbeitung…). Diese Möglichkeit wird unter anderem von Bots verwendet, die Inhalte in Wikidata automatisch eintragen oder ergänzen. Zum Zugriff auf die API bietet es sich an, auf vorhandene Programmbibliotheken wie <a href="http://www.mediawiki.org/wiki/Manual:Pywikibot">Pywikibot</a> oder <a href="https://metacpan.org/release/Catmandu-Wikidata">Catmandu-Wikidata</a> zurückzugreifen.</p>
@@ -1878,7 +1883,7 @@ Q17|Japan|4028495-5</code></pre>
 </div>
 <footer>
   
-  <div>Erstellungszeit: Do 29. Mai 22:07:11 CEST 2014</div>
+  <div>Erstellungszeit: Di 3. Jun 21:07:09 CEST 2014</div>
 </footer>
 </body>
 </html>
