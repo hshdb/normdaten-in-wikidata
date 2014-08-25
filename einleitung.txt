@@ -1,6 +1,6 @@
-# Einleitung
+﻿# Einleitung
 
-Das Handbuch bietet eine detaillierte Anleitung zur die Verwendung und Unterstützung des Wikidata-Projektes. Es werden wichtige Fachbegriffe erläutert und eine reichhaltige Bebilderung wird Ihnen die Abläufe und Möglichkeiten von Wikidata einfach und verständlich erklären.
+Das Handbuch bietet eine detaillierte Anleitung zur Verwendung und Unterstützung des Wikidata-Projektes. Es werden wichtige Fachbegriffe erläutert und eine reichhaltige Bebilderung wird Ihnen die Abläufe und Möglichkeiten von Wikidata einfach und verständlich erklären.
 
 Benutzer können in Wikidata Einträge ([Items](#wikidata-items)) anlegen, die Einträge durch [Aussagen](#wikidata-aussagen) beschreiben und mit anderen Items verknüpfen. Mit [Belegen](#belege) und [Qualifikatoren](#qualifikatoren) können Aussagen gestützt und in einen Kontext gesetzt werden. Um die Qualität einer Aussage einstufen zu können helfen [Ränge](#ränge), die als Qualitätsfaktoren zum Einsatz kommen. Benutzer können Verknüpfungen erstellen, wie beispielsweise Objekte zu Personen mit einem Geburtsort, ihrer Beschäftigung, ihrer Partei oder ihrem Eintrag in einer Normdatei. Diese Informationen können in jeder Sprache genutzt werden, um sie in Infoboxen in der eigenen Sprache anzuzeigen, auch wenn alle Informationen aus einer anderen Sprache stammen.
 
